@@ -1,6 +1,6 @@
 portraits = {
 	mtrspony_pony_pegasus_mrs_shy = {
-		entity = "portrait_dummy_entity"
+		entity = "portrait_dummy_20p_left_entity"
 		clothes_selector = "mtrspony_no_clothes_selector"
 		attachment_selector = "mtrspony_pony_pegasus_mrs_shy_hair_selector"
 		greeting_sound = "human_female_greetings_01"

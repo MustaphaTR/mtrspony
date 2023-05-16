@@ -1,6 +1,6 @@
 portraits = {
 	mtrspony_pony_earth_button_mash = {
-		entity = "portrait_dummy_entity"
+		entity = "portrait_dummy_20p_left_entity"
 		clothes_selector = "mtrspony_pony_earth_button_mash_clothes_selector"
 		attachment_selector = "mtrspony_pony_earth_button_mash_hair_selector"
 		greeting_sound = "human_male_greetings_01"
@@ -25,7 +25,7 @@ portraits = {
 	}
 
 	mtrspony_pony_earth_babs_seed = {
-		entity = "portrait_dummy_entity"
+		entity = "portrait_dummy_5p_left_mesh"
 		clothes_selector = "mtrspony_no_clothes_selector"
 		attachment_selector = "mtrspony_pony_earth_babs_seed_hair_selector"
 		greeting_sound = "human_female_greetings_01"

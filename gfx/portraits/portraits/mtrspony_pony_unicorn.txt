@@ -1,6 +1,6 @@
 portraits = {
 	mtrspony_pony_unicorn_sweetie_belle_older = {
-		entity = "portrait_dummy_entity"
+		entity = "portrait_dummy_25p_left_90p_scale_entity"
 		clothes_selector = "mtrspony_no_clothes_selector"
 		attachment_selector = "mtrspony_pony_unicorn_sweetie_belle_older_hair_selector"
 		greeting_sound = "human_female_greetings_01"

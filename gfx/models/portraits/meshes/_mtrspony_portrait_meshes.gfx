@@ -1,0 +1,61 @@
+objectTypes = {
+	pdxmesh = {
+		name = "portrait_dummy_centered_mesh"
+		file = "gfx/models/portraits/meshes/dummy_centered.mesh"
+
+		animation = {
+			id = "idle"
+			type = "human_01_female_portrait_idle1_animation"
+		}
+
+		scale = 1.0
+	}
+
+	pdxmesh = {
+		name = "portrait_dummy_5p_left_mesh"
+		file = "gfx/models/portraits/meshes/dummy_5p_left.mesh"
+
+		animation = {
+			id = "idle"
+			type = "human_01_female_portrait_idle1_animation"
+		}
+
+		scale = 1.0
+	}
+
+	pdxmesh = {
+		name = "portrait_dummy_10p_left_mesh"
+		file = "gfx/models/portraits/meshes/dummy_10p_left.mesh"
+
+		animation = {
+			id = "idle"
+			type = "human_01_female_portrait_idle1_animation"
+		}
+
+		scale = 1.0
+	}
+
+	pdxmesh = {
+		name = "portrait_dummy_20p_left_mesh"
+		file = "gfx/models/portraits/meshes/dummy_20p_left.mesh"
+
+		animation = {
+			id = "idle"
+			type = "human_01_female_portrait_idle1_animation"
+		}
+
+		scale = 1.0
+	}
+
+	pdxmesh = {
+		name = "portrait_dummy_25p_left_mesh"
+		file = "gfx/models/portraits/meshes/dummy_25p_left.mesh"
+
+		animation = {
+			id = "idle"
+			type = "human_01_female_portrait_idle1_animation"
+		}
+
+		scale = 1.0
+	}
+}
