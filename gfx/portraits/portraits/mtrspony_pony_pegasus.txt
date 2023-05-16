@@ -1,15 +1,26 @@
 portraits = {
 	mtrspony_pony_pegasus_mrs_shy = {
-		entity = "portrait_dummy_20p_left_entity"
+		entity = "portrait_dummy_15p_left_entity"
 		clothes_selector = "mtrspony_no_clothes_selector"
 		attachment_selector = "mtrspony_pony_pegasus_mrs_shy_hair_selector"
 		greeting_sound = "human_female_greetings_01"
 
 		character_textures = {
 			"gfx/models/portraits/pony_pegasus/mrs_shy/mrs_shy.dds"
+			"gfx/models/portraits/pony_pegasus/mrs_shy/mrs_shy_alt1.dds"
+			"gfx/models/portraits/pony_pegasus/mrs_shy/mrs_shy_alt2.dds"
+			"gfx/models/portraits/pony_pegasus/mrs_shy/mrs_shy_alt3.dds"
+			"gfx/models/portraits/pony_pegasus/mrs_shy/mrs_shy_alt4.dds"
+			"gfx/models/portraits/pony_pegasus/mrs_shy/mrs_shy_alt5.dds"
+			"gfx/models/portraits/pony_pegasus/mrs_shy/mrs_shy_alt6.dds"
+			"gfx/models/portraits/pony_pegasus/mrs_shy/mrs_shy_alt7.dds"
+			"gfx/models/portraits/pony_pegasus/mrs_shy/mrs_shy_alt8.dds"
+			"gfx/models/portraits/pony_pegasus/mrs_shy/mrs_shy_alt9.dds"
+			"gfx/models/portraits/pony_pegasus/mrs_shy/mrs_shy_alt10.dds"
+			"gfx/models/portraits/pony_pegasus/mrs_shy/mrs_shy_alt11.dds"
 		}
 
-		custom_attachment_label = "HAIR_STYLE"
+		custom_attachment_label = "HAIR_COLOR"
 	}
 }
 

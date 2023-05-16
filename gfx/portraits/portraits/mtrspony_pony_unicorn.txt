@@ -1,15 +1,27 @@
 portraits = {
 	mtrspony_pony_unicorn_sweetie_belle_older = {
-		entity = "portrait_dummy_25p_left_90p_scale_entity"
+		entity = "portrait_dummy_20p_left_90p_scale_entity"
 		clothes_selector = "mtrspony_no_clothes_selector"
 		attachment_selector = "mtrspony_pony_unicorn_sweetie_belle_older_hair_selector"
 		greeting_sound = "human_female_greetings_01"
 
 		character_textures = {
 			"gfx/models/portraits/pony_unicorn/sweetie_belle_older/sweetie_belle_older.dds"
+			"gfx/models/portraits/pony_unicorn/sweetie_belle_older/sweetie_belle_older_alt1.dds"
+			"gfx/models/portraits/pony_unicorn/sweetie_belle_older/sweetie_belle_older_alt2.dds"
+			"gfx/models/portraits/pony_unicorn/sweetie_belle_older/sweetie_belle_older_alt3.dds"
+			"gfx/models/portraits/pony_unicorn/sweetie_belle_older/sweetie_belle_older_alt4.dds"
+			"gfx/models/portraits/pony_unicorn/sweetie_belle_older/sweetie_belle_older_alt5.dds"
+			"gfx/models/portraits/pony_unicorn/sweetie_belle_older/sweetie_belle_older_alt6.dds"
+			"gfx/models/portraits/pony_unicorn/sweetie_belle_older/sweetie_belle_older_alt7.dds"
+			"gfx/models/portraits/pony_unicorn/sweetie_belle_older/sweetie_belle_older_alt8.dds"
+			"gfx/models/portraits/pony_unicorn/sweetie_belle_older/sweetie_belle_older_alt9.dds"
+			"gfx/models/portraits/pony_unicorn/sweetie_belle_older/sweetie_belle_older_alt10.dds"
+			"gfx/models/portraits/pony_unicorn/sweetie_belle_older/sweetie_belle_older_alt11.dds"
+			"gfx/models/portraits/pony_unicorn/sweetie_belle_older/sweetie_belle_older_alt12.dds"
 		}
 
-		custom_attachment_label = "HAIR_STYLE"
+		custom_attachment_label = "HAIR_COLOR"
 	}
 }
 

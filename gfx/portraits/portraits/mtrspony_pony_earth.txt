@@ -21,7 +21,7 @@ portraits = {
 			"gfx/models/portraits/pony_earth/button_mash/button_mash_alt12.dds"
 		}
 
-		custom_attachment_label = "HAIR_STYLE"
+		custom_attachment_label = "HAIR_COLOR"
 	}
 
 	mtrspony_pony_earth_babs_seed = {
@@ -46,7 +46,7 @@ portraits = {
 			"gfx/models/portraits/pony_earth/babs_seed/babs_seed_alt12.dds"
 		}
 
-		custom_attachment_label = "HAIR_STYLE"
+		custom_attachment_label = "HAIR_COLOR"
 	}
 }
 

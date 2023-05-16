@@ -1,6 +1,6 @@
 portraits = {
 	mtrspony_pony_alicorn_apple_bloom = {
-		entity = "portrait_dummy_5p_left_mesh"
+		entity = "portrait_dummy_10p_left_entity"
 		clothes_selector = "mtrspony_pony_alicorn_apple_bloom_clothes_selector"
 		attachment_selector = "mtrspony_pony_alicorn_apple_bloom_hair_selector"
 		greeting_sound = "human_female_greetings_01"
@@ -21,7 +21,7 @@ portraits = {
 			"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_alt12.dds"
 		}
 
-		custom_attachment_label = "HAIR_STYLE"
+		custom_attachment_label = "HAIR_COLOR"
 	}
 }
 
