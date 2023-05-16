@@ -1,0 +1,111 @@
+portraits = {
+	# Portraits themselves are defined under files for individual pony races.
+}
+
+portrait_groups = {
+	mtrspony_pony = {
+		default = mtrspony_pony_earth_button_mash
+		game_setup = {
+			add = {
+				trigger = {
+					ruler = {
+						OR = {
+							gender = male
+							gender = indeterminable
+						}
+					}
+				}
+				portraits = {
+					mtrspony_pony_earth_button_mash
+				}
+			}
+			add = {
+				trigger = {
+					ruler = {
+						OR = {
+							gender = female
+							gender = indeterminable
+						}
+					}
+				}
+				portraits = {
+					mtrspony_pony_earth_babs_seed
+					mtrspony_pony_unicorn_sweetie_belle_older
+					mtrspony_pony_alicorn_apple_bloom
+					mtrspony_pony_pegasus_mrs_shy
+				}
+			}
+		}		
+
+		species = {
+			add = {
+				trigger = {
+					exists = species
+					NOT = { species = { species_gender = male } }
+				}
+				portraits = {
+					mtrspony_pony_earth_babs_seed
+					mtrspony_pony_unicorn_sweetie_belle_older
+					mtrspony_pony_alicorn_apple_bloom
+					mtrspony_pony_pegasus_mrs_shy
+				}
+			}
+			add = {
+				trigger = {
+					exists = species
+					NOT = { species = { species_gender = female } }
+				}
+				portraits = {
+					mtrspony_pony_earth_button_mash
+				}
+			}
+		}		
+
+		pop = {
+			add = {
+				trigger = {
+					NOT = { species = { species_gender = male } }
+				}
+				portraits = {
+					mtrspony_pony_earth_babs_seed
+					mtrspony_pony_unicorn_sweetie_belle_older
+					mtrspony_pony_alicorn_apple_bloom
+					mtrspony_pony_pegasus_mrs_shy
+				}
+			}
+			add = {
+				trigger = {
+					NOT = { species = { species_gender = female } }
+				}
+				portraits = {
+					mtrspony_pony_earth_button_mash
+				}
+			}
+		}
+
+		leader = {
+			set = {
+				OR = {
+					gender = male
+					gender = indeterminable
+				}
+				portraits = {
+					mtrspony_pony_earth_button_mash
+				}
+			}
+
+			set = {
+				OR = {
+					gender = female
+					gender = indeterminable
+				}
+				portraits = {
+					mtrspony_pony_earth_babs_seed
+					mtrspony_pony_unicorn_sweetie_belle_older
+					mtrspony_pony_alicorn_apple_bloom
+					mtrspony_pony_pegasus_mrs_shy
+				}
+			}
+		}
+	}
+}

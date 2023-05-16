@@ -1,0 +1,13 @@
+objectTypes = {
+	pdxmesh = {
+		name = "portrait_dummy_mesh"
+		file = "gfx/models/portraits/dummy_mesh.mesh"
+
+		animation = {
+			id = "idle"
+			type = "human_01_female_portrait_idle1_animation"
+		}
+
+		scale = 1.0
+	}
+}

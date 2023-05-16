@@ -1,0 +1,110 @@
+portraits = {
+	mtrspony_pony_unicorn_sweetie_belle_older = {
+		entity = "portrait_dummy_entity"
+		clothes_selector = "mtrspony_no_clothes_selector"
+		attachment_selector = "mtrspony_pony_unicorn_sweetie_belle_older_hair_selector"
+		greeting_sound = "human_female_greetings_01"
+
+		character_textures = {
+			"gfx/models/portraits/pony_unicorn/sweetie_belle_older/sweetie_belle_older.dds"
+		}
+
+		custom_attachment_label = "HAIR_STYLE"
+	}
+}
+
+portrait_groups = {
+	mtrspony_pony_unicorn = {
+		default = mtrspony_pony_unicorn_sweetie_belle_older
+		game_setup = {
+			add = {
+				trigger = {
+					ruler = {
+						OR = {
+							gender = male
+							gender = indeterminable
+						}
+					}
+				}
+				portraits = {
+					
+				}
+			}
+			add = {
+				trigger = {
+					ruler = {
+						OR = {
+							gender = female
+							gender = indeterminable
+						}
+					}
+				}
+				portraits = {
+					mtrspony_pony_unicorn_sweetie_belle_older
+				}
+			}
+		}		
+
+		species = {
+			add = {
+				trigger = {
+					exists = species
+					NOT = { species = { species_gender = male } }
+				}
+				portraits = {
+					mtrspony_pony_unicorn_sweetie_belle_older
+				}
+			}
+			add = {
+				trigger = {
+					exists = species
+					NOT = { species = { species_gender = female } }
+				}
+				portraits = {
+					
+				}
+			}
+		}		
+
+		pop = {
+			add = {
+				trigger = {
+					NOT = { species = { species_gender = male } }
+				}
+				portraits = {
+					mtrspony_pony_unicorn_sweetie_belle_older
+				}
+			}
+			add = {
+				trigger = {
+					NOT = { species = { species_gender = female } }
+				}
+				portraits = {
+					
+				}
+			}
+		}
+
+		leader = {
+			set = {
+				OR = {
+					gender = male
+					gender = indeterminable
+				}
+				portraits = {
+					
+				}
+			}
+
+			set = {
+				OR = {
+					gender = female
+					gender = indeterminable
+				}
+				portraits = {
+					mtrspony_pony_unicorn_sweetie_belle_older
+				}
+			}
+		}
+	}
+}

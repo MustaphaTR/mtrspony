@@ -1,0 +1,110 @@
+portraits = {
+	mtrspony_pony_pegasus_mrs_shy = {
+		entity = "portrait_dummy_entity"
+		clothes_selector = "mtrspony_no_clothes_selector"
+		attachment_selector = "mtrspony_pony_pegasus_mrs_shy_hair_selector"
+		greeting_sound = "human_female_greetings_01"
+
+		character_textures = {
+			"gfx/models/portraits/pony_pegasus/mrs_shy/mrs_shy.dds"
+		}
+
+		custom_attachment_label = "HAIR_STYLE"
+	}
+}
+
+portrait_groups = {
+	mtrspony_pony_pegasus = {
+		default = mtrspony_pony_pegasus_mrs_shy
+		game_setup = {
+			add = {
+				trigger = {
+					ruler = {
+						OR = {
+							gender = male
+							gender = indeterminable
+						}
+					}
+				}
+				portraits = {
+					
+				}
+			}
+			add = {
+				trigger = {
+					ruler = {
+						OR = {
+							gender = female
+							gender = indeterminable
+						}
+					}
+				}
+				portraits = {
+					mtrspony_pony_pegasus_mrs_shy
+				}
+			}
+		}		
+
+		species = {
+			add = {
+				trigger = {
+					exists = species
+					NOT = { species = { species_gender = male } }
+				}
+				portraits = {
+					mtrspony_pony_pegasus_mrs_shy
+				}
+			}
+			add = {
+				trigger = {
+					exists = species
+					NOT = { species = { species_gender = female } }
+				}
+				portraits = {
+					
+				}
+			}
+		}		
+
+		pop = {
+			add = {
+				trigger = {
+					NOT = { species = { species_gender = male } }
+				}
+				portraits = {
+					mtrspony_pony_pegasus_mrs_shy
+				}
+			}
+			add = {
+				trigger = {
+					NOT = { species = { species_gender = female } }
+				}
+				portraits = {
+					
+				}
+			}
+		}
+
+		leader = {
+			set = {
+				OR = {
+					gender = male
+					gender = indeterminable
+				}
+				portraits = {
+					
+				}
+			}
+
+			set = {
+				OR = {
+					gender = female
+					gender = indeterminable
+				}
+				portraits = {
+					mtrspony_pony_pegasus_mrs_shy
+				}
+			}
+		}
+	}
+}

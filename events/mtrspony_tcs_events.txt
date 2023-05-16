@@ -1,0 +1,381 @@
+namespace = tcsstart
+
+#Setup The Crusader State
+country_event = {
+	id = tcsstart.1
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		has_country_flag = the_crusader_state
+	}
+	immediate = {
+		create_leader = {
+			name = "PRESCRIPTED_ruler_name_sweetie_belle"
+			species = ROOT.species
+			gender = female
+			class = scientist
+			skill = 1
+			set_age = 281
+			immortal = yes
+			traits = {
+				trait = leader_trait_expertise_field_manipulation
+				trait = trait_ruler_eye_for_talent
+			}
+
+			effect = {
+				save_event_target_as = leader_sweetie_belle
+				set_leader_flag = is_created_leader
+				change_leader_portrait = "sb"
+				ROOT = { assign_leader = event_target:leader_sweetie_belle }
+			}
+		}
+
+		create_leader = {
+			name = "PRESCRIPTED_ruler_name_apple_bloom"
+			species = ROOT.species
+			gender = female
+			class = scientist
+			skill = 1
+			set_age = 281
+			immortal = yes
+			traits = {
+				trait = leader_trait_expertise_industry
+				trait = trait_ruler_eye_for_talent
+			}
+
+			effect = {
+				save_event_target_as = leader_apple_bloom
+				set_leader_flag = is_created_leader
+				change_leader_portrait = "ab_alicorn"
+			}
+		}
+		create_leader = {
+			name = "PRESCRIPTED_ruler_name_scootaloo"
+			species = ROOT.species
+			gender = female
+			class = admiral
+			skill = 1
+			set_age = 281
+			immortal = yes
+			traits = {
+				trait = leader_trait_cyborg
+				trait = leader_trait_scout
+				trait = trait_ruler_eye_for_talent
+			}
+
+			effect = {
+				save_event_target_as = leader_scootaloo
+				set_leader_flag = is_created_leader
+				change_leader_portrait = "sc_1"
+				ROOT = { random_owned_fleet = { assign_leader = event_target:leader_scootaloo } }
+			}
+		}
+		create_leader = {
+			name = "PRESCRIPTED_ruler_name_babs_seed"
+			species = ROOT.species
+			gender = female
+			class = governor
+			skill = 1
+			set_age = 281
+			immortal = yes
+			traits = {
+				trait = leader_trait_urbanist
+				trait = leader_trait_trade_focus
+			}
+
+			effect = {
+				save_event_target_as = leader_babs_seed
+				set_leader_flag = is_created_leader
+				change_leader_portrait = "babs"
+			}
+		}
+
+		create_species = {
+			name = "PRESCRIPTED_species_griffon"
+			plural = "PRESCRIPTED_species_plural_griffon"
+			adjective = "PRESCRIPTED_species_adjective_griffon"
+			class = mod_pony
+			portrait = PMOD_griffin
+			namelist = tsc_namelists_griffon
+			traits = {
+				trait = trait_pc_continental_preference
+				trait = trait_strong
+				trait = trait_resilient
+			}
+
+			effect = {
+				save_event_target_as = griffon_species
+				set_citizenship_type = { country = ROOT type = citizenship_full }
+				set_military_service_type = { country = ROOT type = military_service_full }
+			}
+		}
+		create_species = {
+			name = "PRESCRIPTED_species_dragon"
+			plural = "PRESCRIPTED_species_plural_dragon"
+			adjective = "PRESCRIPTED_species_adjective_dragon"
+			class = mod_pony
+			portrait = PMOD_dragon
+			namelist = tsc_namelists_dragon
+			traits = {
+				trait = trait_pc_continental_preference
+				trait = trait_strong
+				trait = trait_venerable
+				trait = trait_slow_breeders
+				trait = trait_solitary
+			}
+
+			effect = {
+				save_event_target_as = dragon_species
+				set_citizenship_type = { country = ROOT type = citizenship_full }
+				set_military_service_type = { country = ROOT type = military_service_full }
+			}
+		}
+		create_species = {
+			name = "PRESCRIPTED_species_kirin"
+			plural = "PRESCRIPTED_species_plural_kirin"
+			adjective = "PRESCRIPTED_species_adjective_kirin"
+			class = mod_pony
+			portrait = PMOD_kirin
+			namelist = tsc_namelists_kirin
+			traits = {
+				trait = trait_pc_continental_preference
+				trait = trait_agrarian
+				trait = trait_natural_engineers
+				trait = trait_wasteful
+			}
+
+			effect = {
+				save_event_target_as = kirin_species
+				set_citizenship_type = { country = ROOT type = citizenship_full }
+				set_military_service_type = { country = ROOT type = military_service_full }
+			}
+		}
+		create_species = {
+			name = "PRESCRIPTED_species_changeling"
+			plural = "PRESCRIPTED_species_plural_changeling"
+			adjective = "PRESCRIPTED_species_adjective_changeling"
+			class = mod_pony
+			portrait = PMOD_changeling
+			namelist = tsc_namelists_changeling
+			traits = {
+				trait = trait_pc_continental_preference
+				trait = trait_communal
+				trait = trait_adaptive
+			}
+
+			effect = {
+				save_event_target_as = changeling_species
+				set_citizenship_type = { country = ROOT type = citizenship_full }
+				set_military_service_type = { country = ROOT type = military_service_full }
+			}
+		}
+
+		capital_scope = {
+			random_owned_pop = { kill_pop = yes }
+			random_owned_pop = { kill_pop = yes }
+			random_owned_pop = { kill_pop = yes }
+			random_owned_pop = { kill_pop = yes }
+			random_owned_pop = { kill_pop = yes }
+			random_owned_pop = { kill_pop = yes }
+			random_owned_pop = { kill_pop = yes }
+			random_owned_pop = { kill_pop = yes }
+			random_owned_pop = { kill_pop = yes }
+			random_owned_pop = { kill_pop = yes }
+			random_owned_pop = { kill_pop = yes }
+			random_owned_pop = { kill_pop = yes }
+			random_owned_pop = { kill_pop = yes }
+			create_pop = {
+				species = event_target:griffon_species
+				ethos = random
+			}
+			create_pop = {
+				species = event_target:griffon_species
+				ethos = random
+			}
+			create_pop = {
+				species = event_target:griffon_species
+				ethos = random
+			}
+			create_pop = {
+				species = event_target:griffon_species
+				ethos = random
+			}
+			create_pop = {
+				species = event_target:griffon_species
+				ethos = random
+			}
+			create_pop = {
+				species = event_target:griffon_species
+				ethos = random
+			}
+			create_pop = {
+				species = event_target:griffon_species
+				ethos = random
+			}
+			create_pop = {
+				species = event_target:griffon_species
+				ethos = random
+			}
+			create_pop = {
+				species = event_target:dragon_species
+				ethos = random
+			}
+			create_pop = {
+				species = event_target:kirin_species
+				ethos = random
+			}
+			create_pop = {
+				species = event_target:kirin_species
+				ethos = random
+			}
+			create_pop = {
+				species = event_target:changeling_species
+				ethos = random
+			}
+			create_pop = {
+				species = event_target:changeling_species
+				ethos = random
+			}
+		}
+
+		create_leader = {
+			name = "PRESCRIPTED_ruler_name_gabby"
+			species = event_target:griffon_species
+			gender = female
+			class = governor
+			skill = 1
+			set_age = 285
+			immortal = yes
+			traits = {
+				trait = leader_trait_righteous
+				trait = leader_trait_utopian_idealist
+			}
+
+			effect = {
+				save_event_target_as = leader_gabby
+				set_leader_flag = is_created_leader
+				change_leader_portrait = "griffin_gab"
+				ROOT = { capital_scope = { assign_leader = event_target:leader_gabby } }
+			}
+		}
+
+		# Remove the genericos
+		every_owned_leader = {
+			limit = {
+				NOT = { has_leader_flag = is_created_leader }
+			}
+
+			kill_leader = {
+				show_notification = no
+				fire = yes
+			}
+		}
+	}
+}
+
+#Set the portraits for the CMC again, noticed a bug that resets the potraits of councillors after a reload.
+country_event = {
+	id = tcsstart.2
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		has_country_flag = the_crusader_state
+	}
+	immediate = {
+		#event_target:leader_sweetie_belle
+		#	change_leader_portrait = "sb"
+		#}
+		#event_target:leader_apple_bloom
+		#	change_leader_portrait = "ab_alicorn"
+		#}
+		#event_target:leader_scootaloo
+		#	change_leader_portrait = "sc_1"
+		#}
+		#event_target:leader_babs_seed
+		#	change_leader_portrait = "babs"
+		#}
+		#event_target:leader_gabby
+		#	change_leader_portrait = "griffin_gab"
+		#}
+
+		random_owned_leader = {
+			limit = {
+				has_leader_flag = is_created_leader
+				OR = {
+					has_trait = leader_trait_expertise_field_manipulation
+					has_trait = leader_trait_expertise_field_manipulation_2
+					has_trait = leader_trait_expertise_field_manipulation_3
+				}
+				OR = {
+					has_trait = trait_ruler_eye_for_talent
+					has_trait = trait_ruler_eye_for_talent_2
+				}
+			}
+		
+			change_leader_portrait = "sb"
+		}
+		random_owned_leader = {
+			limit = {
+				has_leader_flag = is_created_leader
+				OR = {
+					has_trait = leader_trait_expertise_industry
+					has_trait = leader_trait_expertise_industry_2
+					has_trait = leader_trait_expertise_industry_3
+				}
+				OR = {
+					has_trait = trait_ruler_eye_for_talent
+					has_trait = trait_ruler_eye_for_talent_2
+				}
+			}
+
+			change_leader_portrait = "ab_alicorn"
+		}
+		random_owned_leader = {
+			limit = {
+				has_leader_flag = is_created_leader
+				has_trait = leader_trait_cyborg
+				OR = {
+					has_trait = leader_trait_scout
+					has_trait = leader_trait_scout_2
+					has_trait = leader_trait_scout_3
+				}
+				OR = {
+					has_trait = trait_ruler_eye_for_talent
+					has_trait = trait_ruler_eye_for_talent_2
+				}
+			}
+
+			change_leader_portrait = "sc_1"
+		}
+		random_owned_leader = {
+			limit = {
+				has_leader_flag = is_created_leader
+				OR = {
+					has_trait = leader_trait_urbanist
+					has_trait = leader_trait_urbanist_2
+					has_trait = leader_trait_urbanist_3
+				}
+				OR = {
+					has_trait = leader_trait_trade_focus
+					has_trait = leader_trait_trade_focus_2
+				}
+			}
+
+			change_leader_portrait = "babs"
+		}
+		random_owned_leader = {
+			limit = {
+				has_leader_flag = is_created_leader
+				has_trait = leader_trait_utopian_idealist
+				OR = {
+					has_trait = leader_trait_righteous
+					has_trait = leader_trait_righteous_2
+				}
+			}
+
+			change_leader_portrait = "griffin_gab"
+		}
+	}
+}

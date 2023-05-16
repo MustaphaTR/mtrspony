@@ -1,0 +1,164 @@
+mtrspony_pony_earth_babs_seed_hair_selector = {
+	default = "gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair.dds"
+
+	game_setup = {
+		default = "gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair.dds"
+	}
+
+	species = {
+		default = "gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair.dds"
+	}
+
+	pop = {
+		default = "gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair.dds"
+
+		random = {
+			list = {
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_alt1.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_alt2.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_alt3.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_alt4.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_alt5.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_alt6.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_alt7.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_alt8.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_alt9.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_alt10.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_alt11.dds"
+			}
+		}
+	}
+
+	leader = {
+		random = {
+			list = {
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_alt1.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_alt2.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_alt3.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_alt4.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_alt5.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_alt6.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_alt7.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_alt8.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_alt9.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_alt10.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_alt11.dds"
+			}
+		}
+	}
+
+	ruler = {
+		random = {
+			list = {
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_alt1.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_alt2.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_alt3.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_alt4.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_alt5.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_alt6.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_alt7.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_alt8.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_alt9.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_alt10.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_alt11.dds"
+			}
+		}		
+	}
+}
+
+mtrspony_pony_earth_button_mash_hair_selector = {
+	default = "gfx/models/portraits/pony_earth/button_mash/button_mash_hair.dds"
+
+	game_setup = {
+		default = "gfx/models/portraits/pony_earth/button_mash/button_mash_hair.dds"
+	}
+
+	species = {
+		default = "gfx/models/portraits/pony_earth/button_mash/button_mash_hair.dds"
+	}
+
+	pop = {
+		default = "gfx/models/portraits/pony_earth/button_mash/button_mash_hair.dds"
+
+		random = {
+			list = {
+				"gfx/models/portraits/pony_earth/button_mash/button_mash_hair.dds"
+				"gfx/models/portraits/pony_earth/button_mash/button_mash_hair_alt1.dds"
+				"gfx/models/portraits/pony_earth/button_mash/button_mash_hair_alt2.dds"
+				"gfx/models/portraits/pony_earth/button_mash/button_mash_hair_alt3.dds"
+			}
+		}	
+	}
+
+	leader = {
+		random = {
+			list = {
+				"gfx/models/portraits/pony_earth/button_mash/button_mash_hair.dds"
+				"gfx/models/portraits/pony_earth/button_mash/button_mash_hair_alt1.dds"
+				"gfx/models/portraits/pony_earth/button_mash/button_mash_hair_alt2.dds"
+				"gfx/models/portraits/pony_earth/button_mash/button_mash_hair_alt3.dds"
+			}
+		}		
+	}
+
+	ruler = {
+		random = {
+			list = {
+				"gfx/models/portraits/pony_earth/button_mash/button_mash_hair.dds"
+				"gfx/models/portraits/pony_earth/button_mash/button_mash_hair_alt1.dds"
+				"gfx/models/portraits/pony_earth/button_mash/button_mash_hair_alt2.dds"
+				"gfx/models/portraits/pony_earth/button_mash/button_mash_hair_alt3.dds"
+			}
+		}		
+	}
+}
+
+mtrspony_pony_earth_button_mash_clothes_selector = {
+	default = "gfx/models/portraits/pony_earth/button_mash/button_mash_hat.dds"
+
+	game_setup = {
+		default = "gfx/models/portraits/pony_earth/button_mash/button_mash_hat.dds"
+	}
+
+	species = {
+		default = "gfx/models/portraits/pony_earth/button_mash/button_mash_hat.dds"
+	}
+
+	pop = {
+		default = "gfx/models/portraits/pony_earth/button_mash/button_mash_hat.dds"
+
+		random = {
+			list = {
+				"gfx/models/portraits/pony_earth/button_mash/button_mash_hat.dds"
+				"gfx/models/portraits/pony_earth/button_mash/button_mash_hat_alt1.dds"
+				"gfx/models/portraits/pony_earth/button_mash/button_mash_hat_alt2.dds"
+				"gfx/models/portraits/no_attachment.dds"
+			}
+		}	
+	}
+
+	leader = {
+		random = {
+			list = {
+				"gfx/models/portraits/pony_earth/button_mash/button_mash_hat.dds"
+				"gfx/models/portraits/pony_earth/button_mash/button_mash_hat_alt1.dds"
+				"gfx/models/portraits/pony_earth/button_mash/button_mash_hat_alt2.dds"
+				"gfx/models/portraits/no_attachment.dds"
+			}
+		}
+	}
+
+	ruler = {
+		random = {
+			list = {
+				"gfx/models/portraits/pony_earth/button_mash/button_mash_hat.dds"
+				"gfx/models/portraits/pony_earth/button_mash/button_mash_hat_alt1.dds"
+				"gfx/models/portraits/pony_earth/button_mash/button_mash_hat_alt2.dds"
+				"gfx/models/portraits/no_attachment.dds"
+			}
+		}
+	}
+}

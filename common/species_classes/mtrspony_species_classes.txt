@@ -1,0 +1,33 @@
+MTRSPONY = {
+	archetype = BIOLOGICAL
+
+	possible = { authority = { NOT = { value = auth_machine_intelligence text = SPECIES_CLASS_MUST_NOT_USE_MACHINE_INTELLIGENCE } } }
+
+	portraits = {
+		"mtrspony_pony"
+		"mtrspony_pony_earth"
+		"mtrspony_pony_unicorn"
+		"mtrspony_pony_pegasus"
+		"mtrspony_pony_alicorn"
+		"mtrspony_griffon"
+		"mtrspony_changeling"
+		"mtrspony_dragon"
+		"mtrspony_kirin"
+	}
+
+	# These should not be used for randomly generated species
+	non_randomized_portraits = {
+		"mtrspony_pony"
+		"mtrspony_pony_earth"
+		"mtrspony_pony_unicorn"
+		"mtrspony_pony_pegasus"
+		"mtrspony_pony_alicorn"
+		"mtrspony_griffon"
+		"mtrspony_changeling"
+		"mtrspony_dragon"
+		"mtrspony_kirin"
+	}
+
+	graphical_culture = pmod_01
+	move_pop_sound_effect = "moving_pop_confirmation"
+}

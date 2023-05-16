@@ -1,0 +1,73 @@
+the_crusader_state = {
+	name = "EMPIRE_DESIGN_the_crusader_state"
+	adjective = "PRESCRIPTED_adjective_the_crusader_state"
+	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_the_crusader_state"
+
+	species = {
+		class = "mod_pony"
+		portrait = "pmod_pony"
+		name = "PRESCRIPTED_species_pony"
+		plural = "PRESCRIPTED_species_plural_pony"
+		adjective = "PRESCRIPTED_species_adjective_pony"
+		name_list = "pony"
+		trait = "trait_talented"
+		trait = "trait_cutie_marks"
+		trait = "trait_sedentary"
+	}
+
+	room = "personality_hegemonic_imperialists_room"
+
+	authority = "auth_oligarchic"
+	civics = { "civic_reanimated_armies" "civic_meritocracy" }
+	government = gov_military_junta
+
+	ethic = "ethic_xenophile"
+	ethic = "ethic_egalitarian"
+	ethic = "ethic_militarist"
+
+	origin = "origin_default"
+
+	flags = { the_crusader_state }
+
+	planet_name = "NAME_Faust"
+	planet_class = "pc_continental"
+	initializer = "eaw_vanilla_initializer"
+	system_name = "NAME_Behemoth"
+
+	graphical_culture = "pmod_01"
+	city_graphical_culture = "pmod_01"
+
+	empire_flag = {
+		icon= {
+			category = "eqsatwarequus"
+			file = "CMC.dds"
+		}
+		background= {
+			category = "backgrounds"
+			file = "stripe.dds"
+		}
+		colors={
+			"red_orange"
+			"pink"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_sweetie_belle"
+		ruler_title = "PRESCRIPTED_ruler_title_head_crusader"
+		ruler_title_female = "PRESCRIPTED_ruler_title_head_crusader"
+		gender = female
+		portrait = "sb"
+		texture = 0
+		attachment = 1
+		clothes = 0
+		age = 281
+		trait = "trait_ruler_eye_for_talent"
+		leader_class = scientist
+	}
+}

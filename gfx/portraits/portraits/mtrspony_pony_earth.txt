@@ -1,0 +1,137 @@
+portraits = {
+	mtrspony_pony_earth_button_mash = {
+		entity = "portrait_dummy_entity"
+		clothes_selector = "mtrspony_pony_earth_button_mash_clothes_selector"
+		attachment_selector = "mtrspony_pony_earth_button_mash_hair_selector"
+		greeting_sound = "human_male_greetings_01"
+
+		character_textures = {
+			"gfx/models/portraits/pony_earth/button_mash/button_mash.dds"
+			"gfx/models/portraits/pony_earth/button_mash/button_mash_alt1.dds"
+			"gfx/models/portraits/pony_earth/button_mash/button_mash_alt2.dds"
+			"gfx/models/portraits/pony_earth/button_mash/button_mash_alt3.dds"
+		}
+
+		custom_attachment_label = "HAIR_STYLE"
+	}
+
+	mtrspony_pony_earth_babs_seed = {
+		entity = "portrait_dummy_entity"
+		clothes_selector = "mtrspony_no_clothes_selector"
+		attachment_selector = "mtrspony_pony_earth_babs_seed_hair_selector"
+		greeting_sound = "human_female_greetings_01"
+
+		character_textures = {
+			"gfx/models/portraits/pony_earth/babs_seed/babs_seed.dds"
+			"gfx/models/portraits/pony_earth/babs_seed/babs_seed_alt1.dds"
+			"gfx/models/portraits/pony_earth/babs_seed/babs_seed_alt2.dds"
+			"gfx/models/portraits/pony_earth/babs_seed/babs_seed_alt3.dds"
+			"gfx/models/portraits/pony_earth/babs_seed/babs_seed_alt4.dds"
+			"gfx/models/portraits/pony_earth/babs_seed/babs_seed_alt5.dds"
+			"gfx/models/portraits/pony_earth/babs_seed/babs_seed_alt6.dds"
+			"gfx/models/portraits/pony_earth/babs_seed/babs_seed_alt7.dds"
+			"gfx/models/portraits/pony_earth/babs_seed/babs_seed_alt8.dds"
+			"gfx/models/portraits/pony_earth/babs_seed/babs_seed_alt9.dds"
+			"gfx/models/portraits/pony_earth/babs_seed/babs_seed_alt10.dds"
+			"gfx/models/portraits/pony_earth/babs_seed/babs_seed_alt11.dds"
+		}
+
+		custom_attachment_label = "HAIR_STYLE"
+	}
+}
+
+portrait_groups = {
+	mtrspony_pony_earth = {
+		default = mtrspony_pony_earth_babs_seed
+		game_setup = {
+			add = {
+				trigger = {
+					ruler = {
+						OR = {
+							gender = male
+							gender = indeterminable
+						}
+					}
+				}
+				portraits = {
+					mtrspony_pony_earth_button_mash
+				}
+			}
+			add = {
+				trigger = {
+					ruler = {
+						OR = {
+							gender = female
+							gender = indeterminable
+						}
+					}
+				}
+				portraits = {
+					mtrspony_pony_earth_babs_seed
+				}
+			}
+		}		
+
+		species = {
+			add = {
+				trigger = {
+					exists = species
+					NOT = { species = { species_gender = male } }
+				}
+				portraits = {
+					mtrspony_pony_earth_babs_seed
+				}
+			}
+			add = {
+				trigger = {
+					exists = species
+					NOT = { species = { species_gender = female } }
+				}
+				portraits = {
+					mtrspony_pony_earth_button_mash
+				}
+			}
+		}		
+
+		pop = {
+			add = {
+				trigger = {
+					NOT = { species = { species_gender = male } }
+				}
+				portraits = {
+					mtrspony_pony_earth_babs_seed
+				}
+			}
+			add = {
+				trigger = {
+					NOT = { species = { species_gender = female } }
+				}
+				portraits = {
+					mtrspony_pony_earth_button_mash
+				}
+			}
+		}
+
+		leader = {
+			set = {
+				OR = {
+					gender = male
+					gender = indeterminable
+				}
+				portraits = {
+					mtrspony_pony_earth_button_mash
+				}
+			}
+
+			set = {
+				OR = {
+					gender = female
+					gender = indeterminable
+				}
+				portraits = {
+					mtrspony_pony_earth_babs_seed
+				}
+			}
+		}
+	}
+}

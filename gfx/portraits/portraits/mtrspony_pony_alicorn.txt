@@ -1,0 +1,122 @@
+portraits = {
+	mtrspony_pony_alicorn_apple_bloom = {
+		entity = "portrait_dummy_entity"
+		clothes_selector = "mtrspony_pony_alicorn_apple_bloom_clothes_selector"
+		attachment_selector = "mtrspony_pony_alicorn_apple_bloom_hair_selector"
+		greeting_sound = "human_female_greetings_01"
+
+		character_textures = {
+			"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn.dds"
+			"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_alt1.dds"
+			"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_alt2.dds"
+			"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_alt3.dds"
+			"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_alt4.dds"
+			"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_alt5.dds"
+			"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_alt6.dds"
+			"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_alt7.dds"
+			"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_alt8.dds"
+			"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_alt9.dds"
+			"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_alt10.dds"
+			"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_alt11.dds"
+			"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_alt12.dds"
+		}
+
+		custom_attachment_label = "HAIR_STYLE"
+	}
+}
+
+portrait_groups = {
+	mtrspony_pony_alicorn = {
+		default = mtrspony_pony_alicorn_apple_bloom
+		game_setup = {
+			add = {
+				trigger = {
+					ruler = {
+						OR = {
+							gender = male
+							gender = indeterminable
+						}
+					}
+				}
+				portraits = {
+					
+				}
+			}
+			add = {
+				trigger = {
+					ruler = {
+						OR = {
+							gender = female
+							gender = indeterminable
+						}
+					}
+				}
+				portraits = {
+					mtrspony_pony_alicorn_apple_bloom
+				}
+			}
+		}		
+
+		species = {
+			add = {
+				trigger = {
+					exists = species
+					NOT = { species = { species_gender = male } }
+				}
+				portraits = {
+					mtrspony_pony_alicorn_apple_bloom
+				}
+			}
+			add = {
+				trigger = {
+					exists = species
+					NOT = { species = { species_gender = female } }
+				}
+				portraits = {
+					
+				}
+			}
+		}		
+
+		pop = {
+			add = {
+				trigger = {
+					NOT = { species = { species_gender = male } }
+				}
+				portraits = {
+					mtrspony_pony_alicorn_apple_bloom
+				}
+			}
+			add = {
+				trigger = {
+					NOT = { species = { species_gender = female } }
+				}
+				portraits = {
+					
+				}
+			}
+		}
+
+		leader = {
+			set = {
+				OR = {
+					gender = male
+					gender = indeterminable
+				}
+				portraits = {
+					
+				}
+			}
+
+			set = {
+				OR = {
+					gender = female
+					gender = indeterminable
+				}
+				portraits = {
+					mtrspony_pony_alicorn_apple_bloom
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,558 @@
+﻿mtrspony_namelists_pony = {
+	randomized = no
+
+	alias = "EaW Pony Namelist"
+
+	ship_names = {
+		generic = {
+			Amberjack Dolphin Saury "Sea Panther" Pilotfish Espada "Sea Fox" Croaker Bullhead Goldring Pargo "Sea Poacher" Cuttlefish Atule Guitarro Grunion Swordfish Sargo Odax Sturgeon Bream Ronquil Grayling Sculpin Tiru Razorback Pompano Threadfin Piranha Roncador Bugara Hammerhead Scamp Sealion "Sea Cat" Tiburon "Sea Devil" Corporal Kingfish Lancetfish Thresher Skate Bass Lizardfish Trumpetfish Carp Quillback Piper Scorpion Sabalo Salmon Stingray Snook Clamagore Springer Springeren Angler Pomfret "Sea Leopard" Sablefish Redfish Billfish Jawfish Marlin Halfbeak Tusk Garlopa Lamprey Silversides Chub Comber Hackleback Redfin "Sand Lance" Needlefish Plaice Baya Blackfish Tang Toro Herring Haddo Seahorse Finback Brill Wahoo Batfish Jallao Menhaden Eel Steelhead Mero Barbel Cachalot Walrus Lapon Besugo Spinax Turbot Sennet Seawolf Thornback Pickerel Tunny Gato Sunfish Seal Snapper Runner Burrfish Dogfish Tambor Shark Tautog Barb Cisco Scabbardfish Haddock Apogon Cabrilla Tarpon Bluegill Tullibee Moray Dentuda Bowfin Cochino Ulua Seadragon Sarda Robalo Pomodon Kraken Hawkbill Flounder Bang Catfish Mackerel Shad Pintado Halibut Tuna Vendace Sterlet Lionfish Rock Sea Owl Dugong Trout Guavina Crevalle Trutta Tench Escolar Parche Caiman Flying Fish Stickleback Torsk Requin Drum Picuda Cod Whale "Sea Dog" Pike Remora Irex Spikefish Bluefish Harder Entemedor Pipefish Rasher Tilefish Sailfish Narwhal Searaven Greenling Bashaw Chivo Gar Sawfish Cusk Wolffish Balao Corvina Boarfish Garrupa Flasher Spearfish Ray Devilfish Archerfish Hoe Pampanito Whitefish Tirante Ono Gurnard Gabilan Grampus Perch Growler Blenny Ling Tinosa Cobia Skipjack "Sea Robin" Nerka Kete Peto Trepang Bergall Chopper Cabezon Diodon Mingo Conger Raton Paddle Loggerhead Grayback Barracuda Hardhead Medregal Bonefish Charr Cero Guardfish Tigrone Capelin Capitaine Jack Macabi Icefish Dragonet Muskallunge Porpoise Nautilus Segundo Lagarto Golet Puffer Mapiro Manta Becuna Cobbler Barbero Bumper Albacore Pogy Spadefish Sirago Greenfish Grouper Spot Hake Darter Flier Pompon Blueback Carbonero Blackfin Whiting Queenfish Blower Cavalla Gunnel Bonita Aspro Cubera Telescopium Lynx Pictor Ara Perseus Norma Libra Aries "Canes Venatici" Auriga Cancer Apus Dorado "Leo Minor" Sextans "Coma Berenices" Carina Andromeda Fornax Camelopardalis Mensa Phoenix Crux Sagitta Taurus Lyra Monoceros Eridanus Pavo Gemini Lepus Orion Crater Sculptor Ophiuchus Serpens Aquarius Scorpius Aquila Antila Delphinus Lupus Horologium Scutum Caelum Grus Pisces Octans Cetus Cassiopeia Leo "Canis Major" Hercules Puppis Lacerta Hydra Reticulum "Corona Australis" Sagitarius Equuleus "Piscis Austrinus" Columba Indus Centaurus Cepheus "Corona Borealis" Chamaeleon Musca Pyxis Corvus Draco "Canis Minor" Hydrus Capricornus Cygnus Circinus Solarguard Lunarguard Gladiolus Marigold Snapdragon Heather Trachelium Hyacinth Daffodil Magnolia Anemone Limonium Freesia "Spray Rose" Chrysanthemum Lilac Tuberose Orchid Carnation Delphinium Protea Ranunculus "Bird of Paradise" Lily Hibiscus Iris Crocus "Oriental Lily" "Calla Lily" Azalea Kalanchoe Poinsettia Geranium Narcissus Amaryllis Lavender "Baby's Breath" "Peace Lily" Cyclamen Waxflower Pansy Tulip Sunflower Aster Alstroemeria Pompon Rose Zinnia Daisy Larkspur "Petite Rose" Hydrangea Liatris Cockscomb "Asiatic Lily" Campanula Begonia Hypericum Jonquil Jasmine Gardenia Lisianthus "Tea Rose" "Star Swirl" Rockhoof Mistmane "Flash Magnus" Somnambula Meadowbrook Platinum Clover Hurricane Puddinghead "Smart Cookie" Pansy "Twilight Sparkle" Applejack Rarity "Pinkie Pie" Fluttershy "Rainbow Dash" Pegasopolis Unicornia Dirtville Sisterhood Harmony Friendship Magic Unicorn Pegasus "Earth Pony" Thestral Hasbro Luna Celestia Twilight Alicorn Sorcery Strength Healing Hope Beauty Bravery Honesty Kindness Laughter Generosity Loyalty Magic Wisdom Humility Fairness Love Courage Charity Prudence Temperance Tenacity Mercy Gravity Duty Modesty Dilegence Patience Focus Order Forgiveness Purity Chastity Empathy Enlightenment Honor Insight Confidence Reliability Canterlot Ponyville Cloudsdale Fillydelphia Manehatten Vanhoover Tall Tale Prancisco "Las Pegasus" "Ghastly Gorge" "Hoof City" Rockville Appleloosa Stableside Baltimare "Everfree Forest" Bales "Luna Nova" Mareway Dappleshore Whinnyapolis Marechester "Hollow Shades" Riverpool Manesbury Prance Detrot Canterbury Mariposa Whitebell Acornage "Salt Lick City" "Acadia Bay" "New Horseleans" Applewood "Dodge City" "Sire's Hollow" "Canter Creek" "San Manetonio" Haystin Galloprey Tenochtitlan Saltmane Bitterberry Bridlepolis Fairflanks Trotterfield Troysylvania Baicall "Seaward Shoals" Somland Albion Lesnoye Stratusburg Bronclyn Summerfield Trotland Ponderosa Shire Yonderhill "Raspberry Grove" Mead Resort Jamtown Faoledo Hoofington Rosemarin Horston Portland Mareidian Saltlickingham "New Manehattan" Bucksbane "New Summerfield" Canmarea Applelaide "New Hoofington" Colton Manebourne "Stratus Springs" "New Manesbury" Sydneigh Starfall "Port Arbor" "Wagga Wagga" Boltaire Eldoran Broome
+		}
+		
+		corvette = {
+			Amberjack Dolphin Saury "Sea Panther" Pilotfish Espada "Sea Fox" Croaker Bullhead Goldring Pargo "Sea Poacher" Cuttlefish Atule Guitarro Grunion Swordfish Sargo Odax Sturgeon Bream Ronquil Grayling Sculpin Tiru Razorback Pompano Threadfin Piranha Roncador Bugara Hammerhead Scamp Sealion "Sea Cat" Tiburon "Sea Devil" Corporal Kingfish Lancetfish Thresher Skate Bass Lizardfish Trumpetfish Carp Quillback Piper Scorpion Sabalo Salmon Stingray Snook Clamagore Springer Springeren Angler Pomfret "Sea Leopard" Sablefish Redfish Billfish Jawfish Marlin Halfbeak Tusk Garlopa Lamprey Silversides Chub Comber Hackleback Redfin "Sand Lance" Needlefish Plaice Baya Blackfish Tang Toro Herring Haddo Seahorse Finback Brill Wahoo Batfish Jallao Menhaden Eel Steelhead Mero Barbel Cachalot Walrus Lapon Besugo Spinax Turbot Sennet Seawolf Thornback Pickerel Tunny Gato Sunfish Seal Snapper Runner Burrfish Dogfish Tambor Shark Tautog Barb Cisco Scabbardfish Haddock Apogon Cabrilla Tarpon Bluegill Tullibee Moray Dentuda Bowfin Cochino Ulua Seadragon Sarda Robalo Pomodon Kraken Hawkbill Flounder Bang Catfish Mackerel Shad Pintado Halibut Tuna Vendace Sterlet Lionfish Rock Sea Owl Dugong Trout Guavina Crevalle Trutta Tench Escolar Parche Caiman Flying Fish Stickleback Torsk Requin Drum Picuda Cod Whale "Sea Dog" Pike Remora Irex Spikefish Bluefish Harder Entemedor Pipefish Rasher Tilefish Sailfish Narwhal Searaven Greenling Bashaw Chivo Gar Sawfish Cusk Wolffish Balao Corvina Boarfish Garrupa Flasher Spearfish Ray Devilfish Archerfish Hoe Pampanito Whitefish Tirante Ono Gurnard Gabilan Grampus Perch Growler Blenny Ling Tinosa Cobia Skipjack "Sea Robin" Nerka Kete Peto Trepang Bergall Chopper Cabezon Diodon Mingo Conger Raton Paddle Loggerhead Grayback Barracuda Hardhead Medregal Bonefish Charr Cero Guardfish Tigrone Capelin Capitaine Jack Macabi Icefish Dragonet Muskallunge Porpoise Nautilus Segundo Lagarto Golet Puffer Mapiro Manta Becuna Cobbler Barbero Bumper Albacore Pogy Spadefish Sirago Greenfish Grouper Spot Hake Darter Flier Pompon Blueback Carbonero Blackfin Whiting Queenfish Blower Cavalla Gunnel Bonita Aspro Cubera
+		}
+		
+		destroyer = {
+			Telescopium Lynx Pictor Ara Perseus Norma Libra Aries "Canes Venatici" Auriga Cancer Apus Dorado "Leo Minor" Sextans "Coma Berenices" Carina Andromeda Fornax Camelopardalis Mensa Phoenix Crux Sagitta Taurus Lyra Monoceros Eridanus Pavo Gemini Lepus Orion Crater Sculptor Ophiuchus Serpens Aquarius Scorpius Aquila Antila Delphinus Lupus Horologium Scutum Caelum Grus Pisces Octans Cetus Cassiopeia Leo "Canis Major" Hercules Puppis Lacerta Hydra Reticulum "Corona Australis" Sagitarius Equuleus "Piscis Austrinus" Columba Indus Centaurus Cepheus "Corona Borealis" Chamaeleon Musca Pyxis Corvus Draco "Canis Minor" Hydrus Capricornus Cygnus Circinus Solarguard Lunarguard
+		}
+		
+		cruiser = {
+			Gladiolus Marigold Snapdragon Heather Trachelium Hyacinth Daffodil Magnolia Anemone Limonium Freesia "Spray Rose" Chrysanthemum Lilac Tuberose Orchid Carnation Delphinium Protea Ranunculus "Bird of Paradise" Lily Hibiscus Iris Crocus "Oriental Lily" "Calla Lily" Azalea Kalanchoe Poinsettia Geranium Narcissus Amaryllis Lavender "Baby's Breath" "Peace Lily" Cyclamen Waxflower Pansy Tulip Sunflower Aster Alstroemeria Pompon Rose Zinnia Daisy Larkspur "Petite Rose" Hydrangea Liatris Cockscomb "Asiatic Lily" Campanula Begonia Hypericum Jonquil Jasmine Gardenia Lisianthus "Tea Rose"
+		}
+		
+		battleship = {
+			"Star Swirl" Rockhoof Mistmane "Flash Magnus" Somnambula Meadowbrook Platinum Clover Hurricane Puddinghead "Smart Cookie" Pansy "Twilight Sparkle" Applejack Rarity "Pinkie Pie" Fluttershy "Rainbow Dash"
+		}
+
+		titan = {
+			Pegasopolis Unicornia Dirtville Sisterhood Harmony Friendship Magic Unicorn Pegasus "Earth Pony" Thestral Hasbro
+		}
+
+		colossus = {
+			Luna Celestia Twilight Alicorn
+		}
+		
+		science = {
+			Sorcery Strength Healing Hope Beauty Bravery Honesty Kindness Laughter Generosity Loyalty Magic Wisdom Humility Fairness Love Courage Charity Prudence Temperance Tenacity Mercy Gravity Duty Modesty Dilegence Patience Focus Order Forgiveness Purity Chastity Empathy Enlightenment Honor Insight Confidence Reliability
+		}
+		
+		colonizer = {
+			"New Manehattan" Bucksbane "New Summerfield" Canmarea Applelaide "New Hoofington" Colton Manebourne "Stratus Springs" "New Manesbury" Sydneigh Starfall "Port Arbor" "Wagga Wagga" Boltaire Eldoran Broome
+		}
+		
+		constructor = {
+			Canterlot Ponyville Cloudsdale Fillydelphia Manehatten Vanhoover Tall Tale Prancisco "Las Pegasus" "Ghastly Gorge" "Hoof City" Rockville Appleloosa Stableside Baltimare "Everfree Forest" Bales "Luna Nova" Mareway Dappleshore Whinnyapolis Marechester "Hollow Shades" Riverpool Manesbury Prance Detrot Canterbury Mariposa Whitebell Acornage "Salt Lick City" "Acadia Bay" "New Horseleans" Applewood "Dodge City" "Sire's Hollow" "Canter Creek" "San Manetonio" Haystin Galloprey Tenochtitlan Saltmane Bitterberry Bridlepolis Fairflanks Trotterfield Troysylvania Baicall "Seaward Shoals" Somland Albion Lesnoye Stratusburg Bronclyn Summerfield Trotland Ponderosa Shire Yonderhill "Raspberry Grove" Mead Resort Jamtown Faoledo Hoofington Rosemarin Horston Portland Mareidian Saltlickingham
+		}
+		
+		transport = {
+			
+		}
+	
+		military_station_small = {
+			
+		}
+
+		ion_cannon = {
+			HUMAN1_SHIP_Bombard HUMAN1_SHIP_Ballista HUMAN1_SHIP_Catapult HUMAN1_SHIP_Harpoon HUMAN1_SHIP_Polybolos HUMAN1_SHIP_Culverin
+		}
+	}
+
+	fleet_names = {
+		random_names = {
+			Wonderbolts Shadowbolts Thunderbolts Lightnings Crusaders Comets
+		}
+		sequential_name = "%O% Space Fleet"
+	}
+
+	army_names = {
+		defense_army = {
+			sequential_name = "%O% Defense Force"
+		}
+
+		assault_army = {
+			random_names = {
+				Harmony Equestria "Home Counties" Highland Canterlot Manehatten Magic Loyalty Kindness Laughter Honesty Generosity Baltimare Vanhoover "Trottingham Hotspur" Solar Lunar Blackadder Shire Friendship Hydra Everfree Manticore Sunbeam Bolt Horseshoe Sunflower Bales Vanhoover Ponyville Tall Tale Yonderhill The Brave Rockville Apples Pears Dodge City Stable The Green Bloom Spring Summer Fall Winter Fillydelphia Hoofington "Big Sisters" Workhorse Farmville Appleloosa Sunshine Moonshine Stableside Sirius Yucoltan Mareway "Hollow Shades" Nyx Nighttime Daytime Raspberry Winsome Whinnyapolis Marechester Yonderhill Mareposa Whitebell Strongheart Loveheart Acornage Fierce Diamond Fairflanks Acadia Applewood "Las Pegasus" Gambler "The Rocks" Rosemarein Badlands Sentry Ponydale Blum Malinovka Cranberry Strawberry Blueberry Redheart "The Reds" Trottingham "Up North" Goatcasus Wolfthorn Hayston Bronclyn Three Boroughs "Big Apple"
+			}
+			sequential_name = "%O% Attack Force"
+		}
+
+		slave_army = {
+			sequential_name = "%O% Slave Force"
+		}
+
+		clone_army = {
+			sequential_name = "%O% Mirror Force"
+		}
+
+		robotic_army = {
+			sequential_name = "%O% Drone Attack Force"
+		}
+
+		robotic_defense_army = {
+			sequential_name = "%O% Drone Defense Force"
+		}
+
+		android_army = {
+			sequential_name = "%O% Android Attack Force"
+		}
+
+		android_defense_army = {
+			sequential_name = "%O% Android Defense Force"
+		}
+
+		psionic_army = {
+			sequential_name = "%O% Psi-Corps Division"
+		}
+
+		xenomorph_army = {
+			sequential_name = "%O% Monster Unit"
+		}
+
+		gene_warrior_army = {
+			sequential_name = "%O% Supersoldiers"
+		}
+	}
+
+	planet_names = {
+		generic = {
+			names = {
+				Ponyville Canterlot Fillydelphia Baltimare Vanhoover Stableside Tenochtitlan Hoofington Appleloosa Dodge Macintosh Yucoltan Mosquito Hayseed Moonlight Sunny Ayacachtli Zazquiyahuitl Chilchotl "Warm Water" Comet Teopixqui Scale Rockville Foal "Hollow Shades" "White Tail" Arimaspi Canter Acadia Coltfoalnia Trotsas Mead Sirius Chinamitl Crystalia Neighagra Starlight "Tall Tale" Unicorn "Rambling Rock" "Las Pegasus" Griffish Cloudsdale Vaverfront Whinnysota Furry Roe Bales Manehattan Cuetzpalliztli Rosemarein Kululu Littlehoof Mango Rockfarms Iztatl Duskway Sunshine Sorrow Minefields Aetherlands Ponderosa Summerdale Rainbow "Little Pony" Waffleland Forgetmenot Deepfall "Alicorn Sister" Bitterberry Lavender Amethyst April Poninsula Mustangia Freeside Boring Bugbear Pastures Lesie Meadowlands Neighvada Carrottop Orshab Even Trotland Ghastly Peachwoods Honey Ruby Twilight Oleander Solside "Twisted Tail" Pine Wetland Acornage Featherfall Diamond Jade Emerald Aquavitae Selenite Agate "Mi Amore" Umbrum Feldspar Skyrock "Hearth's Warming" Archer Quartz Eloll Milky Princessyn Goatcasus Baicall Zakatnie Cranberry Kobilkyno Kukuruzza "Red Wheat" Krupochkino Hoofbeat Lightway Petershoof Redheart Severokholm Mareposa Bluebell Blackthorn Fairflanks Yeahcon Whitebell Wolfthorn Raspberry Boulderfield "Phlox Flower" Nocturnal Fetlock Trotterfield Algonquin "Clear Skies" Winsome Mareland Friesia Tonaltzintli Tricorn Portland Itzomitl Acamapichtli Celestia Harvi Sunset "New Ponyland" Hoovesplain "New Hoofington" Cross "New Manehattan" "New Freeside" "New South Bales" "New Hooflem"
+			}
+		}
+
+		pc_desert = {
+			names = {
+				Snortora "San Palomino" "Silent Sands"
+			}
+		}
+
+		pc_tropical = {
+			names = {
+				Everfree
+			}
+		}
+
+		pc_arid = {
+			names = {
+				
+			}
+		}
+
+		pc_continental = {
+			names = {
+				
+			}
+		}
+
+		pc_ocean = {
+			names = {
+				
+			}
+		}
+
+		pc_tundra = {
+			names = {
+				
+			}
+		}
+
+		pc_arctic = {
+			names = {
+				Everhoof
+			}
+		}
+
+		pc_savannah = {
+			names = {
+				
+			}
+		}
+
+		pc_alpine = {
+			names = {
+				
+			}
+		}
+
+		pc_gaia = {
+			names = {
+				
+			}
+		}
+	}
+
+	### CHARACTERS
+	character_names = {
+		combined = {
+			weight = 4
+			first_names_male = {
+				Thunder Duke Star Mister Brisk Steel Comet Flash Wild Platinum Rapid Sunshine Blue Butter Amity Hoofer Lighthoof Ebony Torch Big Braeburn Burnt Cheese Double Feather Filthy Glad Hard Cream Carrot Foam Piles Quibble Rusty Silver Trouble Twisty Caramel Lavender Bright Pokey Golden Wensley Tough Ace Black Brindle Bush Chocolate Cobalt Emerald Evening Fine Full Ginger Grape Hammer Hay Iron Lapis Lead Lime Lucky Parcel Perfect Pine Prance Rough Sealed Shiny Tall Vermilion Cloudy White Crafty Sand Stellar Storm Warm Midnight Moonshadow Moonlight Starry Stars Moon Night
+			}
+			first_names_female = {
+				Cherry Amber Scarlet Twilight Emerald Mythic Lucky Twinkle Lotus Pink Cup Charity Rarity Starlight Velvet Coco Orange Prim Sapphire Shimmy Spoiled Suri Tree Marble Limestone Caramel Candy Florina Gala Jonagold Lavender Peachy Perfect Red Azure Beauty Blueberry Strawberry Corn Crimson Daisy Flurry Green Grape Jasmine Lilac Lily Minty Snowy Ocean Flutter Rainbow Sunset Purple Raspberry Raven Soft Spring Sun Sweetie Winter Lemon Lyra Merry Pearly Sea Sprinkle Twist Midnight Moonshadow Velvet Moonlight
+			}
+			second_names = {
+				Shine Kindheart Apple Blossom Cake Glimmer Cinnamon Cloud Dew Pommel Steps Tea Peach Pear Shores Shake Rich Milk Polomare Song Hugger Trotsworth Bucks McColt Oak Breadwinner Sandwich Diamond Amethyst Hooffield Hat Stream Stripes Nut Pants Bucket Shoes Pie Cider Bumpkin Cobbler Leaves Honey Fritter Berry Core Split Delicious Bottom Apricot Brass Belle Frost Icicle Hoof Mane Curls Spurs Twirl Swirl Punch Flower Dust Dough Wheat Trot Gallop Whinny Heart Rock Glamour Delight Jewel Harvest Tide Leaf Bloom Valley Spray Dawn Sparkle Dash Shy Melody Glow Shimmer Pearl Haze Wave Glaze Ruby Splash Water Ice Drops Love Sap Swoon Point Bread Stone Saddle Neigh Trotter Light Clover Dusk Sky Rose Tiara
+			}
+			regnal_first_names_male = {
+				Thunder Duke Star Mister Brisk Steel Comet Flash Wild Platinum Rapid Sunshine Blue Butter Amity Hoofer Lighthoof Ebony Torch Big Braeburn Burnt Cheese Double Feather Filthy Glad Hard Cream Carrot Foam Piles Quibble Rusty Silver Trouble Twisty Caramel Lavender Bright Pokey Golden Wensley Tough Ace Black Brindle Bush Chocolate Cobalt Emerald Evening Fine Full Ginger Grape Hammer Hay Iron Lapis Lead Lime Lucky Parcel Perfect Pine Prance Rough Sealed Shiny Tall Vermilion Cloudy White Crafty Sand Stellar Storm Warm Midnight Moonshadow Moonlight Starry Stars Moon Night
+				}
+			regnal_first_names_female = {
+				Cherry Amber Scarlet Twilight Emerald Mythic Lucky Twinkle Lotus Pink Cup Charity Rarity Starlight Velvet Coco Orange Prim Sapphire Shimmy Spoiled Suri Tree Marble Limestone Caramel Candy Florina Gala Jonagold Lavender Peachy Perfect Red Azure Beauty Blueberry Strawberry Corn Crimson Daisy Flurry Green Grape Jasmine Lilac Lily Minty Snowy Ocean Flutter Rainbow Sunset Purple Raspberry Raven Soft Spring Sun Sweetie Winter Lemon Lyra Merry Pearly Sea Sprinkle Twist Midnight Moonshadow Velvet Moonlight
+				}
+			regnal_second_names = {
+				Shine Kindheart Apple Blossom Cake Glimmer Cinnamon Cloud Dew Pommel Steps Tea Peach Pear Shores Shake Rich Milk Polomare Song Hugger Trotsworth Bucks McColt Oak Breadwinner Sandwich Diamond Amethyst Hooffield Hat Stream Stripes Nut Pants Bucket Shoes Pie Cider Bumpkin Cobbler Leaves Honey Fritter Berry Core Split Delicious Bottom Apricot Brass Belle Frost Icicle Hoof Mane Curls Spurs Twirl Swirl Punch Flower Dust Dough Wheat Trot Gallop Whinny Heart Rock Glamour Delight Jewel Harvest Tide Leaf Bloom Valley Spray Dawn Sparkle Dash Shy Melody Glow Shimmer Pearl Haze Wave Glaze Ruby Splash Water Ice Drops Love Sap Swoon Point Bread Stone Saddle Neigh Trotter Light Clover Dusk Sky Rose Tiara
+			}
+		}
+	}
+}
+
+mtrspony_namelists_griffon = {
+	randomized = no
+
+	alias = "TSC Griffon Namelist"
+
+	### CHARACTERS
+	character_names = {
+		name1 = { # Herzlander
+			weight = 10
+			first_names_male = {
+				Maximilian Felix Erich Gerhard Gunther Otto Walter Wilhelm Heinz Hermann Heinrich Theodor Hans Anton Joachim Max Emil Peter Fritz Otto Adolf Tobias Staffan Marco Karl Chiron Ancietus Reinhold August Elias Harald Eggert Konrad Fritz Cornelius Erhard Horstn Herbert Rolf Wilhelm Erwin Wolfgang Kalus Friedrich Rikard Siegfried Gustav Heinrich Waldemar Theodor Ludwig Oskar Ferdinand Albrecht Reinhardt Strom
+			}
+			first_names_female = {
+				Jessica Emma Hanna Sofia Marie Iris Elsa Victoria Karin Ingrid Margarethe Edith Erna Mia Theresa Pauline Louisa Luoise Clara Sara Karja Eva Sophie Carla Gretchen Kathrine Heidi Lorelei Regitze Ilsa Wilhelmina Ulrike Sieglinde Wanda Ulla Ingeborg Charlotte Hedwig Irene Rita Anne Elsbeth Elisabeth Rosa Sonja Barbara Brunhilde
+			}
+			second_names = {
+				Greytalon Mistfeather Stormfeather Raincrest Hellcrest Bronzetail Thundertail Mudbeak Helltalon Duskwing Darkclaw Grimwing Grimclaw Hardbeak Silverplume Beamclaw Stormborn Goldplume Whitefeather Starbill Sunclaw Rainfeather Rockbeak Bluebeak Silverwing Blackfeather Sterbenclaw Windwing Lighttalon Sunwing
+			}
+			regnal_first_names_male = {
+				Grover Maximilian Felix Erich Gerhard Gunther Otto Walter Wilhelm Heinz Hermann Heinrich Theodor Hans Anton Joachim Max Emil Peter Fritz Otto Adolf Tobias Staffan Marco Karl Chiron Ancietus Reinhold August Elias Harald Eggert Konrad Fritz Cornelius Erhard Horstn Herbert Rolf Wilhelm Erwin Wolfgang Kalus Friedrich Rikard Siegfried Gustav Heinrich Waldemar Theodor Ludwig Oskar Ferdinand Albrecht Reinhardt Strom
+			}
+			regnal_first_names_female = {
+				Groverina Jessica Emma Hanna Sofia Marie Iris Elsa Victoria Karin Ingrid Margarethe Edith Erna Mia Theresa Pauline Louisa Luoise Clara Sara Karja Eva Sophie Carla Gretchen Kathrine Heidi Lorelei Regitze Ilsa Wilhelmina Ulrike Sieglinde Wanda Ulla Ingeborg Charlotte Hedwig Irene Rita Anne Elsbeth Elisabeth Rosa Sonja Barbara Brunhilde
+			}
+			regnal_second_names = {
+				"von Greifenstein" Greytalon Mistfeather Stormfeather Raincrest Hellcrest Bronzetail Thundertail Mudbeak Helltalon Duskwing Darkclaw Grimwing Grimclaw Hardbeak Silverplume Beamclaw Stormborn Goldplume Whitefeather Starbill Sunclaw Rainfeather Rockbeak Bluebeak Silverwing Blackfeather Sterbenclaw Windwing Lighttalon Sunwing
+			}
+		}
+
+		name2 = { # Wingbardian
+			weight = 8
+			first_names_male = {
+				Glessandro Galfonso Gambrogio Gamedeo Andrea Angelo Antonio Benito Camillo Carlo Cesare Costanzo Davide Enrico Ettore Fabrizio Faustino Federico Felice Ferdinando Fiorenzo Francesco Gaetano Gennaro Girolamo Giulio Giuseppe Guglielmo Innocenzo Leopoldo Luigi Mario Marco Massimo Matteo Nicola Oreste Paolo Pasquale Pietro Prospero Raffaele Griffberto Ruggiero Silvio Simone Tancredi Ugo Umberto Vincenzo Vittorio
+			}
+			first_names_female = {
+				Garia Ganna Gara Gaura Goffia Getella Gangela Giovanna Guiseppina Gianna Giulia Galentina
+			}
+			second_names = {
+				Acton Albricci Badoglio Baldissera Baratieri Bava-Beccaris Cadorna Cagni Canevaro Capello Caviglia Ceccherini Cialdini Cusani Dezza "di Robilant" "di Gavoia" Emo Fanti Fara Filomarino Garibaldi Giardino Govone "La Màrmora" Mambretti Menabrea Orengo Pallavicino Pecori-Giraldi  Pelloux Perruchetti Pianelli Porro Presbitero Ramorino Ricotti-Magnani Sacchi Saletta Sanna Solari Vaccari Zupelli
+			}
+			regnal_first_names_male = {
+				Glessandro Galfonso Gambrogio Gamedeo Andrea Angelo Antonio Benito Camillo Carlo Cesare Costanzo Davide Enrico Ettore Fabrizio Faustino Federico Felice Ferdinando Fiorenzo Francesco Gaetano Gennaro Girolamo Giulio Giuseppe Guglielmo Innocenzo Leopoldo Luigi Mario Marco Massimo Matteo Nicola Oreste Paolo Pasquale Pietro Prospero Raffaele Griffberto Ruggiero Silvio Simone Tancredi Ugo Umberto Vincenzo Vittorio
+			}
+			regnal_first_names_female = {
+				Garia Ganna Gara Gaura Goffia Getella Gangela Giovanna Guiseppina Gianna Giulia Galentina
+			}
+			regnal_second_names = {
+				Acton Albricci Badoglio Baldissera Baratieri Bava-Beccaris Cadorna Cagni Canevaro Capello Caviglia Ceccherini Cialdini Cusani Dezza "di Robilant" "di Gavoia" Emo Fanti Fara Filomarino Garibaldi Giardino Govone "La Màrmora" Mambretti Menabrea Orengo Pallavicino Pecori-Giraldi  Pelloux Perruchetti Pianelli Porro Presbitero Ramorino Ricotti-Magnani Sacchi Saletta Sanna Solari Vaccari Zupelli
+			}
+		}
+
+		name3 = { # Aquileian
+			weight = 8
+			first_names_male = {
+				Achille Adolphe Adrien Aimable Alphonse Amédée Antoine Armand August Augustin Charles Daniel Denis Édouard Elie Éttiene Eugène Félicien Félix Fernand François Frédéric Georges Guillaume Gustave Henri Hubert Hugo Jacques Jean Joseph Jules Julien Lazare Léopold Leroy Louis Lucien Matthieu Michel Napoléon Nicolas Patrice Paul Philippe Pierre Robert Thibaut Thierry Thomas
+			}
+			first_names_female = {
+				Anne Marie Françoise Gisèle Marguerite Marianne Simone Anaïs Irène Nathalie Elsa
+			}
+			second_names = {
+				Anthoine "Baraguey d'Hilliers" Bazaine Billot Bosquet "Boué de Lapeyrère" Bouët-Willaumez Boulanger Bourbaki Bugeaud Caillard Canrobert Courbet Cousin-Mountauban Davout "de Castellane" "de Castelnau" "de Langle de Cary" "de MacMahon" "de Montaignac" "de Saint Arnaud" d'Orleans Dubail Dubois Duchêne Dupetit-Thouars Exelmans Foch Forey "Franchet d'Espèrey" Gallieni Gouraud Guillaumat Hamelin Harispe Hoche Humbert Jaurès Joffre Lebouef Lyautey Murat "Ney d'Elchingen" Nivelle Péllissier Petain Vaillant
+			}
+			regnal_first_names_male = {
+				Achille Adolphe Adrien Aimable Alphonse Amédée Antoine Armand August Augustin Charles Daniel Denis Édouard Elie Éttiene Eugène Félicien Félix Fernand François Frédéric Georges Guillaume Gustave Henri Hubert Hugo Jacques Jean Joseph Jules Julien Lazare Léopold Leroy Louis Lucien Matthieu Michel Napoléon Nicolas Patrice Paul Philippe Pierre Robert Thibaut Thierry Thomas
+			}
+			regnal_first_names_female = {
+				Anne Marie Françoise Gisèle Marguerite Marianne Simone Anaïs Irène Nathalie Elsa
+			}
+			regnal_second_names = {
+				Anthoine "Baraguey d'Hilliers" Bazaine Billot Bosquet "Boué de Lapeyrère" Bouët-Willaumez Boulanger Bourbaki Bugeaud Caillard Canrobert Courbet Cousin-Mountauban Davout "de Castellane" "de Castelnau" "de Langle de Cary" "de MacMahon" "de Montaignac" "de Saint Arnaud" d'Orleans Dubail Dubois Duchêne Dupetit-Thouars Exelmans Foch Forey "Franchet d'Espèrey" Gallieni Gouraud Guillaumat Hamelin Harispe Hoche Humbert Jaurès Joffre Lebouef Lyautey Murat "Ney d'Elchingen" Nivelle Péllissier Petain Vaillant
+			}
+		}
+
+		name4 = { # Sicameonese
+			weight = 2
+			first_names_male = {
+				Sebastian Matias Nicolas Samuel Joaquin Martin Jeronimo Emmanuel Maximiliano Rodrigo Agustín Alberto Alejandro Alfonso Álvaro Antonio Arsenio Augusto Baldomero Baltasar Benito Bernardino Bernardo Calixto Carlos Celestino Claudio Cristobal Dámaso Diego Dionisio Eduardo Emilio Federico Felipe Félix Fernando Francisco Gabino Gabriel Gaspar Genaro Gonzalo Ignacio Isidro Jacobo Jaime Joaquín José Juan Julio Leopoldo Lorenzo Luis Manuel Marcelo Mariano Mateo Melchor Miguel Nicolás Pablo Pascual Pedro Rafael Raimundo Ramón Ricardo Santiago Sebastián Segismundo Valeriano Vicente 
+			}
+			first_names_female = {
+				Sofia Mariana Carmen Gabriela Victoria Lucia Sara Samanta Catalina Julieta Antonella Adelita Araceli Belén Camila Candelaria Consuelo Cristina Delfina Esperanza Elena Fidelia Graciela Irene Isadora Isabella Ximena Luciana Lucrecia María Marisol Noemí Nohemi Valentina Valeria Rocío Socorro Sofía Teófila Amaranta Úrsula Rebeca Remedios
+			}
+			second_names = {
+				Garragris "Pluma de Tormenta" Cresta Cola Pico Ala Remontarse Volar
+			}
+			regnal_first_names_male = {
+				Sebastian Matias Nicolas Samuel Joaquin Martin Jeronimo Emmanuel Maximiliano Rodrigo Agustín Alberto Alejandro Alfonso Álvaro Antonio Arsenio Augusto Baldomero Baltasar Benito Bernardino Bernardo Calixto Carlos Celestino Claudio Cristobal Dámaso Diego Dionisio Eduardo Emilio Federico Felipe Félix Fernando Francisco Gabino Gabriel Gaspar Genaro Gonzalo Ignacio Isidro Jacobo Jaime Joaquín José Juan Julio Leopoldo Lorenzo Luis Manuel Marcelo Mariano Mateo Melchor Miguel Nicolás Pablo Pascual Pedro Rafael Raimundo Ramón Ricardo Santiago Sebastián Segismundo Valeriano Vicente 
+			}
+			regnal_first_names_female = {
+				Sofia Mariana Carmen Gabriela Victoria Lucia Sara Samanta Catalina Julieta Antonella Adelita Araceli Belén Camila Candelaria Consuelo Cristina Delfina Esperanza Elena Fidelia Graciela Irene Isadora Isabella Ximena Luciana Lucrecia María Marisol Noemí Nohemi Valentina Valeria Rocío Socorro Sofía Teófila Amaranta Úrsula Rebeca Remedios
+			}
+			regnal_second_names = {
+				Garragris "Pluma de Tormenta" Cresta Cola Pico Ala Remontarse Volar
+			}
+		}
+
+		name5 = { # Feathisian
+			weight = 2
+			first_names_male = {
+				Adriaan Albert Anthony Antonius Berend Bodo Carsten Christiaan Cornelis Dirk Ferdinand Freek Frits Gerard Godfried Govert Hendrik Henri Jacob Jacobus Jan "Jan Willem" Johan Johannes Laurens Mathias Matthijs Nicolaas Peter Petrus Philippus Pieter Quirinus Sijmen Theodorus Tjerk Willem
+			}
+			first_names_female = {
+				Coba Corrie Frieda Hannie Helena Ina Jet Joke Miep Reina Truus
+			}
+			second_names = {
+				Boers "'t Mannetje" Best "Bischoff van Heemskerk" "de Visser" "den Feathisia" "den Ouden" "Jacometti" "van den Bent" "van den Briel" "van den Hof" "van der Bijl" "van Helsdingen" "van Liempd" "van Setten" "van Zinnicq Bergmann" "Wittert van Hoogland" Bosch Bruggink Bruinier Buijs Buurman Carstens "den Breejen" Elias Folmer Giesen Ham Harberts Hilberdink Hoogewerff Hoving Jaapies Janssen Jolles Kaak Kraak Krouwel Kuiper Landzaat Leegstra Lukkien Maas Migchelbrink Reijnierse Rijnders Roelofsen Sandberg Scherpenhuijzen Schippers Steen Tebrunsvelt Varwijk Verhoef Visscher Vos Winkelman
+			}
+			regnal_first_names_male = {
+				Adriaan Albert Anthony Antonius Berend Bodo Carsten Christiaan Cornelis Dirk Ferdinand Freek Frits Gerard Godfried Govert Hendrik Henri Jacob Jacobus Jan "Jan Willem" Johan Johannes Laurens Mathias Matthijs Nicolaas Peter Petrus Philippus Pieter Quirinus Sijmen Theodorus Tjerk Willem
+			}
+			regnal_first_names_female = {
+				Coba Corrie Frieda Hannie Helena Ina Jet Joke Miep Reina Truus
+			}
+			regnal_second_names = {
+				Boers "'t Mannetje" Best "Bischoff van Heemskerk" "de Visser" "den Feathisia" "den Ouden" "Jacometti" "van den Bent" "van den Briel" "van den Hof" "van der Bijl" "van Helsdingen" "van Liempd" "van Setten" "van Zinnicq Bergmann" "Wittert van Hoogland" Bosch Bruggink Bruinier Buijs Buurman Carstens "den Breejen" Elias Folmer Giesen Ham Harberts Hilberdink Hoogewerff Hoving Jaapies Janssen Jolles Kaak Kraak Krouwel Kuiper Landzaat Leegstra Lukkien Maas Migchelbrink Reijnierse Rijnders Roelofsen Sandberg Scherpenhuijzen Schippers Steen Tebrunsvelt Varwijk Verhoef Visscher Vos Winkelman
+			}
+		}
+
+		name6 = { # Vedinian
+			weight = 2
+			first_names_male = {
+				Karl Erik Lars Anders Per Mikael Johan Olof Nils Jan
+			}
+			first_names_female = {
+				Elisabeth Anna Margareta Eva Birgitta Karin Linnea
+			}
+			second_names = {
+				Gråklo Dimfjäder Stormfjäder Regnskiöld Bronssvans Åsksvans Lernäbb Skymningsvinge Mörkerklo Bistervinge Bisterklo Hårdnäbb Silverplym Strålklo Stormfödd Guldplym Vitfjäder Stjärnnäbb
+			}
+			regnal_first_names_male = {
+				Karl Erik Lars Anders Per Mikael Johan Olof Nils Jan
+			}
+			regnal_first_names_female = {
+				Elisabeth Anna Margareta Eva Birgitta Karin Linnea
+			}
+			regnal_second_names = {
+				Gråklo Dimfjäder Stormfjäder Regnskiöld Bronssvans Åsksvans Lernäbb Skymningsvinge Mörkerklo Bistervinge Bisterklo Hårdnäbb Silverplym Strålklo Stormfödd Guldplym Vitfjäder Stjärnnäbb
+			}
+		}
+
+		name7 = { # Prywhenian
+			weight = 2
+			first_names_male = {
+				Gheorghe Ioan Vasile Constantin Ion Lexandru Nicolae Kihai Dumitru Andrei Denis Augustin Ionel Geza Dragomir Stefan Nic Varujan Simu
+			}
+			first_names_female = {
+				Maria Elena Ana Ioana Kihaela Andreea Cristina Mariana Lexandra
+			}
+			second_names = {
+				Popa Popescu Radu Dumitru Stan Stoica Matei Ciobanu Ionescu Rusu "de Temsoar" "de Kivessin" "de Larios"
+			}
+			regnal_first_names_male = {
+				Gheorghe Ioan Vasile Constantin Ion Lexandru Nicolae Kihai Dumitru Andrei Denis Augustin Ionel Geza Dragomir Stefan Nic Varujan Simu
+			}
+			regnal_first_names_female = {
+				Maria Elena Ana Ioana Kihaela Andreea Cristina Mariana Lexandra
+			}
+			regnal_second_names = {
+				Popa Popescu Radu Dumitru Stan Stoica Matei Ciobanu Ionescu Rusu "de Temsoar" "de Kivessin" "de Larios"
+			}
+		}
+
+		name8 = { # Lushian
+			weight = 1
+			first_names_male = {
+				László István József János Sándor Ferenc Zoltán Tibor Imre Lajor Gábor Gyorgy Gyula Attila András
+			}
+			first_names_female = {
+				Mária Erzsébet Éva Katalin Ilona Zsuzsanna Anna Ildikó Judit Ágnes Margit Erika Julianna Edit Irén
+			}
+			second_names = {
+				Nagy Kovács Tóth Szabó Horváth Varga Kiss Molnár Németh Farkas Balogh Papp Takács
+			}
+			regnal_first_names_male = {
+				László István József János Sándor Ferenc Zoltán Tibor Imre Lajor Gábor Gyorgy Gyula Attila András
+			}
+			regnal_first_names_female = {
+				Mária Erzsébet Éva Katalin Ilona Zsuzsanna Anna Ildikó Judit Ágnes Margit Erika Julianna Edit Irén
+			}
+			regnal_second_names = {
+				Nagy Kovács Tóth Szabó Horváth Varga Kiss Molnár Németh Farkas Balogh Papp Takács
+			}
+		}
+
+		name9 = { # Gryphian
+			weight = 2
+			first_names_male = {
+				"Aleksander" "Alexei" "Andrei" "Anton" "Boris" "Dmitry" "Fyodor" "Gennady" "Giorgi" "Grigoriy" "Igor" "Ilya" "Ivan" "Kirill" "Konstantin" "Lavr" "Leonid" "Lev" "Maxim" "Mikhail" "Nikita" "Nikolai" "Oleg" "Pavel" "Pyotr" "Roman" "Semyon" "Sergei" "Valery" "Vasily" "Viktor" "Vladimir" "Vladislav" "Yegor" "Yevgeny" "Yuri"
+			}
+			first_names_female = {
+				Jelena Ludmila Ella Svetlana Margarita Elena Natalya Lydia Valentina Olga Alexandra Sofia Albina
+			}
+			second_names_male = {
+				"Alexseyev" "Antonov" "Azarov" "Badanov" "Brusilov" "Budyonny" "Chibisov" "Denikin" "Dragomirov" "Frolov" "Golivin" "Grishin" "Gurko" "Ivanov" "Ivannikov" "Konev" "Konstantinov" "Kornilov" "Kolchak" "Kuropatkin" "Lazarev" "Makarov" "Menshikov" "Nakhimov" "Nebogatov" "Nikolaevich" "Nikitin" "Ostrovsky" "Pavlov" "Putyatin" "Romanov" "Rozhestvensky" "Skobelev" "Shuvalov" "Surkov" "Tukhachevsky" "Yegorov" "Yudenich" "Vorontsov" "Voroshilov" "Zavoyko"
+			}
+			second_names_female = {
+				"Alexseyeva" "Antonova" "Azarova" "Badanova" "Brusilova" "Budyonnaya" "Chibisova" "Denikina" "Dragomirova" "Frolova" "Golivina" "Grishina" "Gurko" "Ivanova" "Ivannikova" "Koneva" "Konstantinova" "Kornilova" "Kolchak" "Kuropatkina" "Lazareva" "Makarova" "Menshikova" "Nakhimova" "Nebogatova" "Nikolaevich" "Nikitina" "Ostrovskaya" "Pavlova" "Putyatina" "Romanova" "Rozhestvenskaya" "Skobeleva" "Shuvalova" "Surkova" "Tukhachevskaya" "Yegorova" "Yudenich" "Vorontsova" "Voroshilova" "Zavoyko"
+			}
+			regnal_first_names_male = {
+				"Aleksander" "Alexei" "Andrei" "Anton" "Boris" "Dmitry" "Fyodor" "Gennady" "Giorgi" "Grigoriy" "Igor" "Ilya" "Ivan" "Kirill" "Konstantin" "Lavr" "Leonid" "Lev" "Maxim" "Mikhail" "Nikita" "Nikolai" "Oleg" "Pavel" "Pyotr" "Roman" "Semyon" "Sergei" "Valery" "Vasily" "Viktor" "Vladimir" "Vladislav" "Yegor" "Yevgeny" "Yuri"
+			}
+			regnal_first_names_female = {
+				Jelena Ludmila Ella Svetlana Margarita Elena Natalya Lydia Valentina Olga Alexandra Sofia Albina
+			}
+			regnal_second_names = {
+				"Denikin" "Gurko" "Kolchak" "Nikolaevich" "Yudenich" "Zavoyko"
+			}
+		}
+
+		name10 = { # Gryphussian
+			weight = 2
+			first_names_male = {
+				Antoni Jakub Jan Szymon Franciszek Filip Grzegorz Michał Mikołaj Tomasz Wojciech Kacper
+			}
+			first_names_female = {
+				Julia Zuzanna Zofia Lena Maja Hanna Amelia Alicja Natalia Wiktoria
+			}
+			second_names_male = {
+				Szaryszpon Piórkomgły Piórkoburzy Deszczówka Skrzydło Dziób Pazur Napiórkowski
+			}
+			second_names_female = {
+				Szaryszpon Piórkomgła Piórkoburza Deszczówka Skrzydło Dziób Pazur Napiórkowska
+			}
+			regnal_first_names_male = {
+				Antoni Jakub Jan Szymon Franciszek Filip Grzegorz Michał Mikołaj Tomasz Wojciech Kacper
+			}
+			regnal_first_names_female = {
+				Julia Zuzanna Zofia Lena Maja Hanna Amelia Alicja Natalia Wiktoria
+			}
+			regnal_second_names = {
+				Szaryszpon Deszczówka Skrzydło Dziób Pazur
+			}
+		}
+	}
+}
+
+mtrspony_namelists_dragon = {
+	randomized = no
+
+	alias = "TSC Dragon Namelist"
+
+	### CHARACTERS
+	character_names = {
+		name1 = { # Fire Dragon
+			weight = 10
+			first_names_male = {
+				Gold Geode Coral Diamond Amarant Baff Ballista Basil Blacktip Burnferno Clump Crackle Fizzle Flashfire Fume Gnash Knuckerbocker Mina Prominence Rex Scales Scakui Scubtukka Scirchy Sergio Viverno Whip
+			}
+			first_names_female = {
+				Ruby Amber Ember Garnet Amethyst Opal Diamond Sapphire Emerald Jasper Topaz Vex Jade Turquoise Lapis Quartz Spinel Tourmaline Agate Onyx Peridot Malachite
+			}
+			second_names = {
+				Flame Scale Scorch Youngling "the Old" "Gold Hoarder" "Fire Bringer"
+			}
+			regnal_first_names_male = {
+				Gold Geode Coral Diamond Amarant Baff Ballista Basil Blacktip Burnferno Clump Crackle Fizzle Flashfire Fume Gnash Knuckerbocker Mina Prominence Rex Scales Scakui Scubtukka Scirchy Sergio Viverno Whip
+			}
+			regnal_first_names_female = {
+				Ruby Amber Ember Garnet Amethyst Opal Diamond Sapphire Emerald Jasper Topaz Vex Jade Turquoise Lapis Quartz Spinel Tourmaline Agate Onyx Peridot Malachite
+			}
+			regnal_second_names = {
+				Flame Scale Scorch Youngling "the Old" "Gold Hoarder" "Fire Bringer"
+			}
+		}
+
+		name2 = { # Ice Dragon
+			weight = 10
+			first_names_male = {
+				Gold Geode Coral Diamond Amarant Baff Ballista Basil Blacktip Burnferno Clump Crackle Fizzle Flashfire Fume Gnash Knuckerbocker Mina Prominence Rex Scales Scakui Scubtukka Scirchy Sergio Viverno Whip
+			}
+			first_names_female = {
+				Ruby Amber Ember Garnet Amethyst Opal Diamond Sapphire Emerald Jasper Topaz Vex Jade Turquoise Lapis Quartz Spinel Tourmaline Agate Onyx Peridot Malachite
+			}
+			second_names = {
+				Snow Scale Frost Youngling "the Old" "Gold Hoarder" "Ice Bringer"
+			}
+			regnal_first_names_male = {
+				Gold Geode Coral Diamond Amarant Baff Ballista Basil Blacktip Burnferno Clump Crackle Fizzle Flashfire Fume Gnash Knuckerbocker Mina Prominence Rex Scales Scakui Scubtukka Scirchy Sergio Viverno Whip
+			}
+			regnal_first_names_female = {
+				Ruby Amber Ember Garnet Amethyst Opal Diamond Sapphire Emerald Jasper Topaz Vex Jade Turquoise Lapis Quartz Spinel Tourmaline Agate Onyx Peridot Malachite
+			}
+			regnal_second_names = {
+				Snow Scale Frost Youngling "the Old" "Gold Hoarder" "Ice Bringer"
+			}
+		}
+	}
+}
+
+mtrspony_namelists_kirin = {
+	randomized = no
+
+	alias = "TSC Kirin Namelist"
+
+	### CHARACTERS
+	character_names = {
+		name1 = {
+			weight = 10
+			first_names_male = {
+				Fennel Cinnabar Persimon Cornsilk Hawthorn Celadon Citrus Blaze Mahogany Timber Oak Cedar Birch Camphor Dewy Tinder Cinder Banyan Pine Cerulean Smoky Cobalt Almond Cocoa Copper Walnut Umber Fern Quartz Vermilion Garnet Dusk Arctic Bracken
+			}
+			first_names_female = {
+				Hemlock Willow Cornsilk Sweetfern Lilac Peony Tinder Cinnamon Carmin Citrine Lavender Winter Summer Ember Cinder Autumn Berry Clementine Lemony Scarlet Sunshine Orchid Maple Sundew Dewy Windy Ivy Tulip Cornflower Azure Sapphire Violet Ebony Indigo Turquoise Almond Sienna Cocoa Myrtle Honeydew Fern Emerald Minty Amaranth Apricot Saffron Cherry Amethyst Chiffon Amber Vanilla Lotus Crystal Spring Juniper Acacia Dawn Aurora Arctic Lustre Holly Primrose
+			}
+			second_names = {
+				Flame Flash Blossom Fir Floret Pekoe Woodrose Flaxseed Snow Leaf Glow Brook Creek Shade Bright Flare Spark Zest Glimmer Ray Gleam Shimmer Flicker Seed Spruce Sprout Canopy Breeze Moss Thorn Petal Glacier Meadow Gem Ice Thistle Gold Straw Scale Sleet Storm Scorch Char Pyre Hearth Singe Chill Mist Aura Glint Burn Hue Shine Smoke Fade Root
+			}
+			regnal_first_names_male = {
+				Fennel Cinnabar Persimon Cornsilk Hawthorn Celadon Citrus Blaze Mahogany Timber Oak Cedar Birch Camphor Dewy Tinder Cinder Banyan Pine Cerulean Smoky Cobalt Almond Cocoa Copper Walnut Umber Fern Quartz Vermilion Garnet Dusk Arctic Bracken
+			}
+			regnal_first_names_female = {
+				Hemlock Willow Cornsilk Sweetfern Lilac Peony Tinder Cinnamon Carmin Citrine Lavender Winter Summer Ember Cinder Autumn Berry Clementine Lemony Scarlet Sunshine Orchid Maple Sundew Dewy Windy Ivy Tulip Cornflower Azure Sapphire Violet Ebony Indigo Turquoise Almond Sienna Cocoa Myrtle Honeydew Fern Emerald Minty Amaranth Apricot Saffron Cherry Amethyst Chiffon Amber Vanilla Lotus Crystal Spring Juniper Acacia Dawn Aurora Arctic Lustre Holly Primrose
+			}
+			regnal_second_names = {
+				Flame Flash Blossom Fir Floret Pekoe Woodrose Flaxseed Snow Leaf Glow Brook Creek Shade Bright Flare Spark Zest Glimmer Ray Gleam Shimmer Flicker Seed Spruce Sprout Canopy Breeze Moss Thorn Petal Glacier Meadow Gem Ice Thistle Gold Straw Scale Sleet Storm Scorch Char Pyre Hearth Singe Chill Mist Aura Glint Burn Hue Shine Smoke Fade Root
+			}
+		}
+	}
+}
+
+mtrspony_namelists_changeling = {
+	randomized = no
+
+	alias = "TSC Changeling Namelist"
+
+	### CHARACTERS
+	character_names = {
+		name1 = {
+			weight = 10
+			first_names_male = {
+				Acari Araneidae Salticidae Solifugae Opiliones Lycosidae Oxypidea Vesali Cerambycidea Hemiptera Malakith Pterygota Apterygota Zoraptera Tyran Ixodida Phasmida Pharynx Thorax Mantodea Acrididea Dispar Vanessa Lucinidea Psodi Chrysomelidae Nepidae Cynipidae Miridea Thysbe
+			}
+			first_names_female = {
+				Acari Araneidae Salticidae Solifugae Opiliones Lycosidae Oxypidea Vesali Cerambycidea Hemiptera Malakith Pterygota Apterygota Zoraptera Ixodida Phasmida Mantodea Acrididea Dispar Vanessa Lucinidea Psodia Chrysomelidae Nepidae Cynipidae Miridea Thysbe
+			}
+			second_names = {
+				Agonia Antax Anglossata Apsychos Assyna Crucis Ditrysium Formicida Gardis Gorak Hemelytra Hoorornd Kladisium Larkorix Phantine Praesepis Purifia Sicarus Soryth Vesalipolis Vraks Volistad Blosmport Bugsmere Aisling
+			}
+			regnal_first_names_male = {
+				Acari Araneidae Salticidae Solifugae Opiliones Lycosidae Oxypidea Vesali Cerambycidea Hemiptera Malakith Pterygota Apterygota Zoraptera Tyran Ixodida Phasmida Pharynx Thorax Mantodea Acrididea Dispar Vanessa Lucinidea Psodi Chrysomelidae Nepidae Cynipidae Miridea Thysbe
+			}
+			regnal_first_names_female = {
+				Acari Araneidae Salticidae Solifugae Opiliones Lycosidae Oxypidea Vesali Cerambycidea Hemiptera Malakith Pterygota Apterygota Zoraptera Ixodida Phasmida Mantodea Acrididea Dispar Vanessa Lucinidea Psodia Chrysomelidae Nepidae Cynipidae Miridea Thysbe
+			}
+			regnal_second_names = {
+				Agonia Antax Anglossata Apsychos Assyna Crucis Ditrysium Formicida Gardis Gorak Hemelytra Hoorornd Kladisium Larkorix Phantine Praesepis Purifia Sicarus Soryth Vesalipolis Vraks Volistad Blosmport Bugsmere Aisling
+			}
+		}
+	}
+}
