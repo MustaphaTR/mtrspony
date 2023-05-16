@@ -10,6 +10,15 @@ portraits = {
 			"gfx/models/portraits/pony_earth/button_mash/button_mash_alt1.dds"
 			"gfx/models/portraits/pony_earth/button_mash/button_mash_alt2.dds"
 			"gfx/models/portraits/pony_earth/button_mash/button_mash_alt3.dds"
+			"gfx/models/portraits/pony_earth/button_mash/button_mash_alt4.dds"
+			"gfx/models/portraits/pony_earth/button_mash/button_mash_alt5.dds"
+			"gfx/models/portraits/pony_earth/button_mash/button_mash_alt6.dds"
+			"gfx/models/portraits/pony_earth/button_mash/button_mash_alt7.dds"
+			"gfx/models/portraits/pony_earth/button_mash/button_mash_alt8.dds"
+			"gfx/models/portraits/pony_earth/button_mash/button_mash_alt9.dds"
+			"gfx/models/portraits/pony_earth/button_mash/button_mash_alt10.dds"
+			"gfx/models/portraits/pony_earth/button_mash/button_mash_alt11.dds"
+			"gfx/models/portraits/pony_earth/button_mash/button_mash_alt12.dds"
 		}
 
 		custom_attachment_label = "HAIR_STYLE"
