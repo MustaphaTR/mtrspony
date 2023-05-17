@@ -1,0 +1,208 @@
+﻿mtrspony_namelists_pony = {
+	randomized = no
+
+	alias = "EaW Pony Namelist"
+
+	ship_names = {
+		generic = {
+			Amberjack Dolphin Saury "Sea Panther" Pilotfish Espada "Sea Fox" Croaker Bullhead Goldring Pargo "Sea Poacher" Cuttlefish Atule Guitarro Grunion Swordfish Sargo Odax Sturgeon Bream Ronquil Grayling Sculpin Tiru Razorback Pompano Threadfin Piranha Roncador Bugara Hammerhead Scamp Sealion "Sea Cat" Tiburon "Sea Devil" Corporal Kingfish Lancetfish Thresher Skate Bass Lizardfish Trumpetfish Carp Quillback Piper Scorpion Sabalo Salmon Stingray Snook Clamagore Springer Springeren Angler Pomfret "Sea Leopard" Sablefish Redfish Billfish Jawfish Marlin Halfbeak Tusk Garlopa Lamprey Silversides Chub Comber Hackleback Redfin "Sand Lance" Needlefish Plaice Baya Blackfish Tang Toro Herring Haddo Seahorse Finback Brill Wahoo Batfish Jallao Menhaden Eel Steelhead Mero Barbel Cachalot Walrus Lapon Besugo Spinax Turbot Sennet Seawolf Thornback Pickerel Tunny Gato Sunfish Seal Snapper Runner Burrfish Dogfish Tambor Shark Tautog Barb Cisco Scabbardfish Haddock Apogon Cabrilla Tarpon Bluegill Tullibee Moray Dentuda Bowfin Cochino Ulua Seadragon Sarda Robalo Pomodon Kraken Hawkbill Flounder Bang Catfish Mackerel Shad Pintado Halibut Tuna Vendace Sterlet Lionfish Rock Sea Owl Dugong Trout Guavina Crevalle Trutta Tench Escolar Parche Caiman Flying Fish Stickleback Torsk Requin Drum Picuda Cod Whale "Sea Dog" Pike Remora Irex Spikefish Bluefish Harder Entemedor Pipefish Rasher Tilefish Sailfish Narwhal Searaven Greenling Bashaw Chivo Gar Sawfish Cusk Wolffish Balao Corvina Boarfish Garrupa Flasher Spearfish Ray Devilfish Archerfish Hoe Pampanito Whitefish Tirante Ono Gurnard Gabilan Grampus Perch Growler Blenny Ling Tinosa Cobia Skipjack "Sea Robin" Nerka Kete Peto Trepang Bergall Chopper Cabezon Diodon Mingo Conger Raton Paddle Loggerhead Grayback Barracuda Hardhead Medregal Bonefish Charr Cero Guardfish Tigrone Capelin Capitaine Jack Macabi Icefish Dragonet Muskallunge Porpoise Nautilus Segundo Lagarto Golet Puffer Mapiro Manta Becuna Cobbler Barbero Bumper Albacore Pogy Spadefish Sirago Greenfish Grouper Spot Hake Darter Flier Pompon Blueback Carbonero Blackfin Whiting Queenfish Blower Cavalla Gunnel Bonita Aspro Cubera Telescopium Lynx Pictor Ara Perseus Norma Libra Aries "Canes Venatici" Auriga Cancer Apus Dorado "Leo Minor" Sextans "Coma Berenices" Carina Andromeda Fornax Camelopardalis Mensa Phoenix Crux Sagitta Taurus Lyra Monoceros Eridanus Pavo Gemini Lepus Orion Crater Sculptor Ophiuchus Serpens Aquarius Scorpius Aquila Antila Delphinus Lupus Horologium Scutum Caelum Grus Pisces Octans Cetus Cassiopeia Leo "Canis Major" Hercules Puppis Lacerta Hydra Reticulum "Corona Australis" Sagitarius Equuleus "Piscis Austrinus" Columba Indus Centaurus Cepheus "Corona Borealis" Chamaeleon Musca Pyxis Corvus Draco "Canis Minor" Hydrus Capricornus Cygnus Circinus Solarguard Lunarguard Gladiolus Marigold Snapdragon Heather Trachelium Hyacinth Daffodil Magnolia Anemone Limonium Freesia "Spray Rose" Chrysanthemum Lilac Tuberose Orchid Carnation Delphinium Protea Ranunculus "Bird of Paradise" Lily Hibiscus Iris Crocus "Oriental Lily" "Calla Lily" Azalea Kalanchoe Poinsettia Geranium Narcissus Amaryllis Lavender "Baby's Breath" "Peace Lily" Cyclamen Waxflower Pansy Tulip Sunflower Aster Alstroemeria Pompon Rose Zinnia Daisy Larkspur "Petite Rose" Hydrangea Liatris Cockscomb "Asiatic Lily" Campanula Begonia Hypericum Jonquil Jasmine Gardenia Lisianthus "Tea Rose" "Star Swirl" Rockhoof Mistmane "Flash Magnus" Somnambula Meadowbrook Platinum Clover Hurricane Puddinghead "Smart Cookie" Pansy "Twilight Sparkle" Applejack Rarity "Pinkie Pie" Fluttershy "Rainbow Dash" Pegasopolis Unicornia Dirtville Sisterhood Harmony Friendship Magic Unicorn Pegasus "Earth Pony" Thestral Hasbro Luna Celestia Twilight Alicorn Sorcery Strength Healing Hope Beauty Bravery Honesty Kindness Laughter Generosity Loyalty Magic Wisdom Humility Fairness Love Courage Charity Prudence Temperance Tenacity Mercy Gravity Duty Modesty Dilegence Patience Focus Order Forgiveness Purity Chastity Empathy Enlightenment Honor Insight Confidence Reliability Canterlot Ponyville Cloudsdale Fillydelphia Manehatten Vanhoover Tall Tale Prancisco "Las Pegasus" "Ghastly Gorge" "Hoof City" Rockville Appleloosa Stableside Baltimare "Everfree Forest" Bales "Luna Nova" Mareway Dappleshore Whinnyapolis Marechester "Hollow Shades" Riverpool Manesbury Prance Detrot Canterbury Mariposa Whitebell Acornage "Salt Lick City" "Acadia Bay" "New Horseleans" Applewood "Dodge City" "Sire's Hollow" "Canter Creek" "San Manetonio" Haystin Galloprey Tenochtitlan Saltmane Bitterberry Bridlepolis Fairflanks Trotterfield Troysylvania Baicall "Seaward Shoals" Somland Albion Lesnoye Stratusburg Bronclyn Summerfield Trotland Ponderosa Shire Yonderhill "Raspberry Grove" Mead Resort Jamtown Faoledo Hoofington Rosemarin Horston Portland Mareidian Saltlickingham "New Manehattan" Bucksbane "New Summerfield" Canmarea Applelaide "New Hoofington" Colton Manebourne "Stratus Springs" "New Manesbury" Sydneigh Starfall "Port Arbor" "Wagga Wagga" Boltaire Eldoran Broome
+		}
+		
+		corvette = {
+			Amberjack Dolphin Saury "Sea Panther" Pilotfish Espada "Sea Fox" Croaker Bullhead Goldring Pargo "Sea Poacher" Cuttlefish Atule Guitarro Grunion Swordfish Sargo Odax Sturgeon Bream Ronquil Grayling Sculpin Tiru Razorback Pompano Threadfin Piranha Roncador Bugara Hammerhead Scamp Sealion "Sea Cat" Tiburon "Sea Devil" Corporal Kingfish Lancetfish Thresher Skate Bass Lizardfish Trumpetfish Carp Quillback Piper Scorpion Sabalo Salmon Stingray Snook Clamagore Springer Springeren Angler Pomfret "Sea Leopard" Sablefish Redfish Billfish Jawfish Marlin Halfbeak Tusk Garlopa Lamprey Silversides Chub Comber Hackleback Redfin "Sand Lance" Needlefish Plaice Baya Blackfish Tang Toro Herring Haddo Seahorse Finback Brill Wahoo Batfish Jallao Menhaden Eel Steelhead Mero Barbel Cachalot Walrus Lapon Besugo Spinax Turbot Sennet Seawolf Thornback Pickerel Tunny Gato Sunfish Seal Snapper Runner Burrfish Dogfish Tambor Shark Tautog Barb Cisco Scabbardfish Haddock Apogon Cabrilla Tarpon Bluegill Tullibee Moray Dentuda Bowfin Cochino Ulua Seadragon Sarda Robalo Pomodon Kraken Hawkbill Flounder Bang Catfish Mackerel Shad Pintado Halibut Tuna Vendace Sterlet Lionfish Rock Sea Owl Dugong Trout Guavina Crevalle Trutta Tench Escolar Parche Caiman Flying Fish Stickleback Torsk Requin Drum Picuda Cod Whale "Sea Dog" Pike Remora Irex Spikefish Bluefish Harder Entemedor Pipefish Rasher Tilefish Sailfish Narwhal Searaven Greenling Bashaw Chivo Gar Sawfish Cusk Wolffish Balao Corvina Boarfish Garrupa Flasher Spearfish Ray Devilfish Archerfish Hoe Pampanito Whitefish Tirante Ono Gurnard Gabilan Grampus Perch Growler Blenny Ling Tinosa Cobia Skipjack "Sea Robin" Nerka Kete Peto Trepang Bergall Chopper Cabezon Diodon Mingo Conger Raton Paddle Loggerhead Grayback Barracuda Hardhead Medregal Bonefish Charr Cero Guardfish Tigrone Capelin Capitaine Jack Macabi Icefish Dragonet Muskallunge Porpoise Nautilus Segundo Lagarto Golet Puffer Mapiro Manta Becuna Cobbler Barbero Bumper Albacore Pogy Spadefish Sirago Greenfish Grouper Spot Hake Darter Flier Pompon Blueback Carbonero Blackfin Whiting Queenfish Blower Cavalla Gunnel Bonita Aspro Cubera
+		}
+		
+		destroyer = {
+			Telescopium Lynx Pictor Ara Perseus Norma Libra Aries "Canes Venatici" Auriga Cancer Apus Dorado "Leo Minor" Sextans "Coma Berenices" Carina Andromeda Fornax Camelopardalis Mensa Phoenix Crux Sagitta Taurus Lyra Monoceros Eridanus Pavo Gemini Lepus Orion Crater Sculptor Ophiuchus Serpens Aquarius Scorpius Aquila Antila Delphinus Lupus Horologium Scutum Caelum Grus Pisces Octans Cetus Cassiopeia Leo "Canis Major" Hercules Puppis Lacerta Hydra Reticulum "Corona Australis" Sagitarius Equuleus "Piscis Austrinus" Columba Indus Centaurus Cepheus "Corona Borealis" Chamaeleon Musca Pyxis Corvus Draco "Canis Minor" Hydrus Capricornus Cygnus Circinus Solarguard Lunarguard
+		}
+		
+		cruiser = {
+			Gladiolus Marigold Snapdragon Heather Trachelium Hyacinth Daffodil Magnolia Anemone Limonium Freesia "Spray Rose" Chrysanthemum Lilac Tuberose Orchid Carnation Delphinium Protea Ranunculus "Bird of Paradise" Lily Hibiscus Iris Crocus "Oriental Lily" "Calla Lily" Azalea Kalanchoe Poinsettia Geranium Narcissus Amaryllis Lavender "Baby's Breath" "Peace Lily" Cyclamen Waxflower Pansy Tulip Sunflower Aster Alstroemeria Pompon Rose Zinnia Daisy Larkspur "Petite Rose" Hydrangea Liatris Cockscomb "Asiatic Lily" Campanula Begonia Hypericum Jonquil Jasmine Gardenia Lisianthus "Tea Rose"
+		}
+		
+		battleship = {
+			"Star Swirl" Rockhoof Mistmane "Flash Magnus" Somnambula Meadowbrook Platinum Clover Hurricane Puddinghead "Smart Cookie" Pansy "Twilight Sparkle" Applejack Rarity "Pinkie Pie" Fluttershy "Rainbow Dash"
+		}
+
+		titan = {
+			Pegasopolis Unicornia Dirtville Sisterhood Harmony Friendship Magic Unicorn Pegasus "Earth Pony" Thestral Hasbro
+		}
+
+		colossus = {
+			Luna Celestia Twilight Alicorn
+		}
+		
+		science = {
+			Sorcery Strength Healing Hope Beauty Bravery Honesty Kindness Laughter Generosity Loyalty Magic Wisdom Humility Fairness Love Courage Charity Prudence Temperance Tenacity Mercy Gravity Duty Modesty Dilegence Patience Focus Order Forgiveness Purity Chastity Empathy Enlightenment Honor Insight Confidence Reliability
+		}
+		
+		colonizer = {
+			"New Manehattan" Bucksbane "New Summerfield" Canmarea Applelaide "New Hoofington" Colton Manebourne "Stratus Springs" "New Manesbury" Sydneigh Starfall "Port Arbor" "Wagga Wagga" Boltaire Eldoran Broome
+		}
+		
+		constructor = {
+			Canterlot Ponyville Cloudsdale Fillydelphia Manehatten Vanhoover Tall Tale Prancisco "Las Pegasus" "Ghastly Gorge" "Hoof City" Rockville Appleloosa Stableside Baltimare "Everfree Forest" Bales "Luna Nova" Mareway Dappleshore Whinnyapolis Marechester "Hollow Shades" Riverpool Manesbury Prance Detrot Canterbury Mariposa Whitebell Acornage "Salt Lick City" "Acadia Bay" "New Horseleans" Applewood "Dodge City" "Sire's Hollow" "Canter Creek" "San Manetonio" Haystin Galloprey Tenochtitlan Saltmane Bitterberry Bridlepolis Fairflanks Trotterfield Troysylvania Baicall "Seaward Shoals" Somland Albion Lesnoye Stratusburg Bronclyn Summerfield Trotland Ponderosa Shire Yonderhill "Raspberry Grove" Mead Resort Jamtown Faoledo Hoofington Rosemarin Horston Portland Mareidian Saltlickingham
+		}
+		
+		transport = {
+			
+		}
+	
+		military_station_small = {
+			
+		}
+
+		ion_cannon = {
+			HUMAN1_SHIP_Bombard HUMAN1_SHIP_Ballista HUMAN1_SHIP_Catapult HUMAN1_SHIP_Harpoon HUMAN1_SHIP_Polybolos HUMAN1_SHIP_Culverin
+		}
+	}
+
+	fleet_names = {
+		random_names = {
+			Wonderbolts Shadowbolts Thunderbolts Lightnings Crusaders Comets
+		}
+		sequential_name = "%O% Space Fleet"
+	}
+
+	army_names = {
+		defense_army = {
+			sequential_name = "%O% Defense Force"
+		}
+
+		assault_army = {
+			random_names = {
+				Harmony Equestria "Home Counties" Highland Canterlot Manehatten Magic Loyalty Kindness Laughter Honesty Generosity Baltimare Vanhoover "Trottingham Hotspur" Solar Lunar Blackadder Shire Friendship Hydra Everfree Manticore Sunbeam Bolt Horseshoe Sunflower Bales Vanhoover Ponyville Tall Tale Yonderhill The Brave Rockville Apples Pears Dodge City Stable The Green Bloom Spring Summer Fall Winter Fillydelphia Hoofington "Big Sisters" Workhorse Farmville Appleloosa Sunshine Moonshine Stableside Sirius Yucoltan Mareway "Hollow Shades" Nyx Nighttime Daytime Raspberry Winsome Whinnyapolis Marechester Yonderhill Mareposa Whitebell Strongheart Loveheart Acornage Fierce Diamond Fairflanks Acadia Applewood "Las Pegasus" Gambler "The Rocks" Rosemarein Badlands Sentry Ponydale Blum Malinovka Cranberry Strawberry Blueberry Redheart "The Reds" Trottingham "Up North" Goatcasus Wolfthorn Hayston Bronclyn Three Boroughs "Big Apple"
+			}
+			sequential_name = "%O% Attack Force"
+		}
+
+		slave_army = {
+			sequential_name = "%O% Slave Force"
+		}
+
+		clone_army = {
+			sequential_name = "%O% Mirror Force"
+		}
+
+		robotic_army = {
+			sequential_name = "%O% Drone Attack Force"
+		}
+
+		robotic_defense_army = {
+			sequential_name = "%O% Drone Defense Force"
+		}
+
+		android_army = {
+			sequential_name = "%O% Android Attack Force"
+		}
+
+		android_defense_army = {
+			sequential_name = "%O% Android Defense Force"
+		}
+
+		psionic_army = {
+			sequential_name = "%O% Psi-Corps Division"
+		}
+
+		xenomorph_army = {
+			sequential_name = "%O% Monster Unit"
+		}
+
+		gene_warrior_army = {
+			sequential_name = "%O% Supersoldiers"
+		}
+	}
+
+	planet_names = {
+		generic = {
+			names = {
+				Ponyville Canterlot Fillydelphia Baltimare Vanhoover Stableside Tenochtitlan Hoofington Appleloosa Dodge Macintosh Yucoltan Mosquito Hayseed Moonlight Sunny Ayacachtli Zazquiyahuitl Chilchotl "Warm Water" Comet Teopixqui Scale Rockville Foal "Hollow Shades" "White Tail" Arimaspi Canter Acadia Coltfoalnia Trotsas Mead Sirius Chinamitl Crystalia Neighagra Starlight "Tall Tale" Unicorn "Rambling Rock" "Las Pegasus" Griffish Cloudsdale Vaverfront Whinnysota Furry Roe Bales Manehattan Cuetzpalliztli Rosemarein Kululu Littlehoof Mango Rockfarms Iztatl Duskway Sunshine Sorrow Minefields Aetherlands Ponderosa Summerdale Rainbow "Little Pony" Waffleland Forgetmenot Deepfall "Alicorn Sister" Bitterberry Lavender Amethyst April Poninsula Mustangia Freeside Boring Bugbear Pastures Lesie Meadowlands Neighvada Carrottop Orshab Even Trotland Ghastly Peachwoods Honey Ruby Twilight Oleander Solside "Twisted Tail" Pine Wetland Acornage Featherfall Diamond Jade Emerald Aquavitae Selenite Agate "Mi Amore" Umbrum Feldspar Skyrock "Hearth's Warming" Archer Quartz Eloll Milky Princessyn Goatcasus Baicall Zakatnie Cranberry Kobilkyno Kukuruzza "Red Wheat" Krupochkino Hoofbeat Lightway Petershoof Redheart Severokholm Mareposa Bluebell Blackthorn Fairflanks Yeahcon Whitebell Wolfthorn Raspberry Boulderfield "Phlox Flower" Nocturnal Fetlock Trotterfield Algonquin "Clear Skies" Winsome Mareland Friesia Tonaltzintli Tricorn Portland Itzomitl Acamapichtli Celestia Harvi Sunset "New Ponyland" Hoovesplain "New Hoofington" Cross "New Manehattan" "New Freeside" "New South Bales" "New Hooflem"
+			}
+		}
+
+		pc_desert = {
+			names = {
+				Snortora "San Palomino" "Silent Sands"
+			}
+		}
+
+		pc_tropical = {
+			names = {
+				Everfree
+			}
+		}
+
+		pc_arid = {
+			names = {
+				
+			}
+		}
+
+		pc_continental = {
+			names = {
+				
+			}
+		}
+
+		pc_ocean = {
+			names = {
+				
+			}
+		}
+
+		pc_tundra = {
+			names = {
+				
+			}
+		}
+
+		pc_arctic = {
+			names = {
+				Everhoof
+			}
+		}
+
+		pc_savannah = {
+			names = {
+				
+			}
+		}
+
+		pc_alpine = {
+			names = {
+				
+			}
+		}
+
+		pc_gaia = {
+			names = {
+				
+			}
+		}
+	}
+
+	### CHARACTERS
+	character_names = {
+		combined = {
+			weight = 4
+			first_names_male = {
+				Thunder Duke Star Mister Brisk Steel Comet Flash Wild Platinum Rapid Sunshine Blue Butter Amity Hoofer Lighthoof Ebony Torch Big Braeburn Burnt Cheese Double Feather Filthy Glad Hard Cream Carrot Foam Piles Quibble Rusty Silver Trouble Twisty Caramel Lavender Bright Pokey Golden Wensley Tough Ace Black Brindle Bush Chocolate Cobalt Emerald Evening Fine Full Ginger Grape Hammer Hay Iron Lapis Lead Lime Lucky Parcel Perfect Pine Prance Rough Sealed Shiny Tall Vermilion Cloudy White Crafty Sand Stellar Storm Warm Midnight Moonshadow Moonlight Starry Stars Moon Night
+			}
+			first_names_female = {
+				Cherry Amber Scarlet Twilight Emerald Mythic Lucky Twinkle Lotus Pink Cup Charity Rarity Starlight Velvet Coco Orange Prim Sapphire Shimmy Spoiled Suri Tree Marble Limestone Caramel Candy Florina Gala Jonagold Lavender Peachy Perfect Red Azure Beauty Blueberry Strawberry Corn Crimson Daisy Flurry Green Grape Jasmine Lilac Lily Minty Snowy Ocean Flutter Rainbow Sunset Purple Raspberry Raven Soft Spring Sun Sweetie Winter Lemon Lyra Merry Pearly Sea Sprinkle Twist Midnight Moonshadow Velvet Moonlight
+			}
+			second_names = {
+				Shine Kindheart Apple Blossom Cake Glimmer Cinnamon Cloud Dew Pommel Steps Tea Peach Pear Shores Shake Rich Milk Polomare Song Hugger Trotsworth Bucks McColt Oak Breadwinner Sandwich Diamond Amethyst Hooffield Hat Stream Stripes Nut Pants Bucket Shoes Pie Cider Bumpkin Cobbler Leaves Honey Fritter Berry Core Split Delicious Bottom Apricot Brass Belle Frost Icicle Hoof Mane Curls Spurs Twirl Swirl Punch Flower Dust Dough Wheat Trot Gallop Whinny Heart Rock Glamour Delight Jewel Harvest Tide Leaf Bloom Valley Spray Dawn Sparkle Dash Shy Melody Glow Shimmer Pearl Haze Wave Glaze Ruby Splash Water Ice Drops Love Sap Swoon Point Bread Stone Saddle Neigh Trotter Light Clover Dusk Sky Rose Tiara
+			}
+			regnal_first_names_male = {
+				Thunder Duke Star Mister Brisk Steel Comet Flash Wild Platinum Rapid Sunshine Blue Butter Amity Hoofer Lighthoof Ebony Torch Big Braeburn Burnt Cheese Double Feather Filthy Glad Hard Cream Carrot Foam Piles Quibble Rusty Silver Trouble Twisty Caramel Lavender Bright Pokey Golden Wensley Tough Ace Black Brindle Bush Chocolate Cobalt Emerald Evening Fine Full Ginger Grape Hammer Hay Iron Lapis Lead Lime Lucky Parcel Perfect Pine Prance Rough Sealed Shiny Tall Vermilion Cloudy White Crafty Sand Stellar Storm Warm Midnight Moonshadow Moonlight Starry Stars Moon Night
+				}
+			regnal_first_names_female = {
+				Cherry Amber Scarlet Twilight Emerald Mythic Lucky Twinkle Lotus Pink Cup Charity Rarity Starlight Velvet Coco Orange Prim Sapphire Shimmy Spoiled Suri Tree Marble Limestone Caramel Candy Florina Gala Jonagold Lavender Peachy Perfect Red Azure Beauty Blueberry Strawberry Corn Crimson Daisy Flurry Green Grape Jasmine Lilac Lily Minty Snowy Ocean Flutter Rainbow Sunset Purple Raspberry Raven Soft Spring Sun Sweetie Winter Lemon Lyra Merry Pearly Sea Sprinkle Twist Midnight Moonshadow Velvet Moonlight
+				}
+			regnal_second_names = {
+				Shine Kindheart Apple Blossom Cake Glimmer Cinnamon Cloud Dew Pommel Steps Tea Peach Pear Shores Shake Rich Milk Polomare Song Hugger Trotsworth Bucks McColt Oak Breadwinner Sandwich Diamond Amethyst Hooffield Hat Stream Stripes Nut Pants Bucket Shoes Pie Cider Bumpkin Cobbler Leaves Honey Fritter Berry Core Split Delicious Bottom Apricot Brass Belle Frost Icicle Hoof Mane Curls Spurs Twirl Swirl Punch Flower Dust Dough Wheat Trot Gallop Whinny Heart Rock Glamour Delight Jewel Harvest Tide Leaf Bloom Valley Spray Dawn Sparkle Dash Shy Melody Glow Shimmer Pearl Haze Wave Glaze Ruby Splash Water Ice Drops Love Sap Swoon Point Bread Stone Saddle Neigh Trotter Light Clover Dusk Sky Rose Tiara
+			}
+		}
+	}
+}

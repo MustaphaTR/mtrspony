@@ -1,0 +1,30 @@
+﻿mtrspony_namelists_changeling = {
+	randomized = no
+
+	alias = "EaW Changeling Namelist"
+
+	### CHARACTERS
+	character_names = {
+		name1 = {
+			weight = 10
+			first_names_male = {
+				Acari Araneidae Salticidae Solifugae Opiliones Lycosidae Oxypidea Vesali Cerambycidea Hemiptera Malakith Pterygota Apterygota Zoraptera Tyran Ixodida Phasmida Pharynx Thorax Mantodea Acrididea Dispar Vanessa Lucinidea Psodi Chrysomelidae Nepidae Cynipidae Miridea Thysbe
+			}
+			first_names_female = {
+				Acari Araneidae Salticidae Solifugae Opiliones Lycosidae Oxypidea Vesali Cerambycidea Hemiptera Malakith Pterygota Apterygota Zoraptera Ixodida Phasmida Mantodea Acrididea Dispar Vanessa Lucinidea Psodia Chrysomelidae Nepidae Cynipidae Miridea Thysbe
+			}
+			second_names = {
+				Agonia Antax Anglossata Apsychos Assyna Crucis Ditrysium Formicida Gardis Gorak Hemelytra Hoorornd Kladisium Larkorix Phantine Praesepis Purifia Sicarus Soryth Vesalipolis Vraks Volistad Blosmport Bugsmere Aisling
+			}
+			regnal_first_names_male = {
+				Acari Araneidae Salticidae Solifugae Opiliones Lycosidae Oxypidea Vesali Cerambycidea Hemiptera Malakith Pterygota Apterygota Zoraptera Tyran Ixodida Phasmida Pharynx Thorax Mantodea Acrididea Dispar Vanessa Lucinidea Psodi Chrysomelidae Nepidae Cynipidae Miridea Thysbe
+			}
+			regnal_first_names_female = {
+				Acari Araneidae Salticidae Solifugae Opiliones Lycosidae Oxypidea Vesali Cerambycidea Hemiptera Malakith Pterygota Apterygota Zoraptera Ixodida Phasmida Mantodea Acrididea Dispar Vanessa Lucinidea Psodia Chrysomelidae Nepidae Cynipidae Miridea Thysbe
+			}
+			regnal_second_names = {
+				Agonia Antax Anglossata Apsychos Assyna Crucis Ditrysium Formicida Gardis Gorak Hemelytra Hoorornd Kladisium Larkorix Phantine Praesepis Purifia Sicarus Soryth Vesalipolis Vraks Volistad Blosmport Bugsmere Aisling
+			}
+		}
+	}
+}

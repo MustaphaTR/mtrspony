@@ -1,0 +1,52 @@
+﻿mtrspony_namelists_dragon = {
+	randomized = no
+
+	alias = "EaW Dragon Namelist"
+
+	### CHARACTERS
+	character_names = {
+		name1 = { # Fire Dragon
+			weight = 10
+			first_names_male = {
+				Gold Geode Coral Diamond Amarant Baff Ballista Basil Blacktip Burnferno Clump Crackle Fizzle Flashfire Fume Gnash Knuckerbocker Mina Prominence Rex Scales Scakui Scubtukka Scirchy Sergio Viverno Whip
+			}
+			first_names_female = {
+				Ruby Amber Ember Garnet Amethyst Opal Diamond Sapphire Emerald Jasper Topaz Vex Jade Turquoise Lapis Quartz Spinel Tourmaline Agate Onyx Peridot Malachite
+			}
+			second_names = {
+				Flame Scale Scorch Youngling "the Old" "Gold Hoarder" "Fire Bringer"
+			}
+			regnal_first_names_male = {
+				Gold Geode Coral Diamond Amarant Baff Ballista Basil Blacktip Burnferno Clump Crackle Fizzle Flashfire Fume Gnash Knuckerbocker Mina Prominence Rex Scales Scakui Scubtukka Scirchy Sergio Viverno Whip
+			}
+			regnal_first_names_female = {
+				Ruby Amber Ember Garnet Amethyst Opal Diamond Sapphire Emerald Jasper Topaz Vex Jade Turquoise Lapis Quartz Spinel Tourmaline Agate Onyx Peridot Malachite
+			}
+			regnal_second_names = {
+				Flame Scale Scorch Youngling "the Old" "Gold Hoarder" "Fire Bringer"
+			}
+		}
+
+		name2 = { # Ice Dragon
+			weight = 10
+			first_names_male = {
+				Gold Geode Coral Diamond Amarant Baff Ballista Basil Blacktip Burnferno Clump Crackle Fizzle Flashfire Fume Gnash Knuckerbocker Mina Prominence Rex Scales Scakui Scubtukka Scirchy Sergio Viverno Whip
+			}
+			first_names_female = {
+				Ruby Amber Ember Garnet Amethyst Opal Diamond Sapphire Emerald Jasper Topaz Vex Jade Turquoise Lapis Quartz Spinel Tourmaline Agate Onyx Peridot Malachite
+			}
+			second_names = {
+				Snow Scale Frost Youngling "the Old" "Gold Hoarder" "Ice Bringer"
+			}
+			regnal_first_names_male = {
+				Gold Geode Coral Diamond Amarant Baff Ballista Basil Blacktip Burnferno Clump Crackle Fizzle Flashfire Fume Gnash Knuckerbocker Mina Prominence Rex Scales Scakui Scubtukka Scirchy Sergio Viverno Whip
+			}
+			regnal_first_names_female = {
+				Ruby Amber Ember Garnet Amethyst Opal Diamond Sapphire Emerald Jasper Topaz Vex Jade Turquoise Lapis Quartz Spinel Tourmaline Agate Onyx Peridot Malachite
+			}
+			regnal_second_names = {
+				Snow Scale Frost Youngling "the Old" "Gold Hoarder" "Ice Bringer"
+			}
+		}
+	}
+}

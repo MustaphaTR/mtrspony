@@ -1,0 +1,234 @@
+﻿mtrspony_namelists_griffon = {
+	randomized = no
+
+	alias = "TSC Griffon Namelist"
+
+	### CHARACTERS
+	character_names = {
+		name1 = { # Herzlander
+			weight = 10
+			first_names_male = {
+				Maximilian Felix Erich Gerhard Gunther Otto Walter Wilhelm Heinz Hermann Heinrich Theodor Hans Anton Joachim Max Emil Peter Fritz Otto Adolf Tobias Staffan Marco Karl Chiron Ancietus Reinhold August Elias Harald Eggert Konrad Fritz Cornelius Erhard Horstn Herbert Rolf Wilhelm Erwin Wolfgang Kalus Friedrich Rikard Siegfried Gustav Heinrich Waldemar Theodor Ludwig Oskar Ferdinand Albrecht Reinhardt Strom
+			}
+			first_names_female = {
+				Jessica Emma Hanna Sofia Marie Iris Elsa Victoria Karin Ingrid Margarethe Edith Erna Mia Theresa Pauline Louisa Luoise Clara Sara Karja Eva Sophie Carla Gretchen Kathrine Heidi Lorelei Regitze Ilsa Wilhelmina Ulrike Sieglinde Wanda Ulla Ingeborg Charlotte Hedwig Irene Rita Anne Elsbeth Elisabeth Rosa Sonja Barbara Brunhilde
+			}
+			second_names = {
+				Greytalon Mistfeather Stormfeather Raincrest Hellcrest Bronzetail Thundertail Mudbeak Helltalon Duskwing Darkclaw Grimwing Grimclaw Hardbeak Silverplume Beamclaw Stormborn Goldplume Whitefeather Starbill Sunclaw Rainfeather Rockbeak Bluebeak Silverwing Blackfeather Sterbenclaw Windwing Lighttalon Sunwing
+			}
+			regnal_first_names_male = {
+				Grover Maximilian Felix Erich Gerhard Gunther Otto Walter Wilhelm Heinz Hermann Heinrich Theodor Hans Anton Joachim Max Emil Peter Fritz Otto Adolf Tobias Staffan Marco Karl Chiron Ancietus Reinhold August Elias Harald Eggert Konrad Fritz Cornelius Erhard Horstn Herbert Rolf Wilhelm Erwin Wolfgang Kalus Friedrich Rikard Siegfried Gustav Heinrich Waldemar Theodor Ludwig Oskar Ferdinand Albrecht Reinhardt Strom
+			}
+			regnal_first_names_female = {
+				Groverina Jessica Emma Hanna Sofia Marie Iris Elsa Victoria Karin Ingrid Margarethe Edith Erna Mia Theresa Pauline Louisa Luoise Clara Sara Karja Eva Sophie Carla Gretchen Kathrine Heidi Lorelei Regitze Ilsa Wilhelmina Ulrike Sieglinde Wanda Ulla Ingeborg Charlotte Hedwig Irene Rita Anne Elsbeth Elisabeth Rosa Sonja Barbara Brunhilde
+			}
+			regnal_second_names = {
+				"von Greifenstein" Greytalon Mistfeather Stormfeather Raincrest Hellcrest Bronzetail Thundertail Mudbeak Helltalon Duskwing Darkclaw Grimwing Grimclaw Hardbeak Silverplume Beamclaw Stormborn Goldplume Whitefeather Starbill Sunclaw Rainfeather Rockbeak Bluebeak Silverwing Blackfeather Sterbenclaw Windwing Lighttalon Sunwing
+			}
+		}
+
+		name2 = { # Wingbardian
+			weight = 8
+			first_names_male = {
+				Glessandro Galfonso Gambrogio Gamedeo Andrea Angelo Antonio Benito Camillo Carlo Cesare Costanzo Davide Enrico Ettore Fabrizio Faustino Federico Felice Ferdinando Fiorenzo Francesco Gaetano Gennaro Girolamo Giulio Giuseppe Guglielmo Innocenzo Leopoldo Luigi Mario Marco Massimo Matteo Nicola Oreste Paolo Pasquale Pietro Prospero Raffaele Griffberto Ruggiero Silvio Simone Tancredi Ugo Umberto Vincenzo Vittorio
+			}
+			first_names_female = {
+				Garia Ganna Gara Gaura Goffia Getella Gangela Giovanna Guiseppina Gianna Giulia Galentina
+			}
+			second_names = {
+				Acton Albricci Badoglio Baldissera Baratieri Bava-Beccaris Cadorna Cagni Canevaro Capello Caviglia Ceccherini Cialdini Cusani Dezza "di Robilant" "di Gavoia" Emo Fanti Fara Filomarino Garibaldi Giardino Govone "La Màrmora" Mambretti Menabrea Orengo Pallavicino Pecori-Giraldi  Pelloux Perruchetti Pianelli Porro Presbitero Ramorino Ricotti-Magnani Sacchi Saletta Sanna Solari Vaccari Zupelli
+			}
+			regnal_first_names_male = {
+				Glessandro Galfonso Gambrogio Gamedeo Andrea Angelo Antonio Benito Camillo Carlo Cesare Costanzo Davide Enrico Ettore Fabrizio Faustino Federico Felice Ferdinando Fiorenzo Francesco Gaetano Gennaro Girolamo Giulio Giuseppe Guglielmo Innocenzo Leopoldo Luigi Mario Marco Massimo Matteo Nicola Oreste Paolo Pasquale Pietro Prospero Raffaele Griffberto Ruggiero Silvio Simone Tancredi Ugo Umberto Vincenzo Vittorio
+			}
+			regnal_first_names_female = {
+				Garia Ganna Gara Gaura Goffia Getella Gangela Giovanna Guiseppina Gianna Giulia Galentina
+			}
+			regnal_second_names = {
+				Acton Albricci Badoglio Baldissera Baratieri Bava-Beccaris Cadorna Cagni Canevaro Capello Caviglia Ceccherini Cialdini Cusani Dezza "di Robilant" "di Gavoia" Emo Fanti Fara Filomarino Garibaldi Giardino Govone "La Màrmora" Mambretti Menabrea Orengo Pallavicino Pecori-Giraldi  Pelloux Perruchetti Pianelli Porro Presbitero Ramorino Ricotti-Magnani Sacchi Saletta Sanna Solari Vaccari Zupelli
+			}
+		}
+
+		name3 = { # Aquileian
+			weight = 8
+			first_names_male = {
+				Achille Adolphe Adrien Aimable Alphonse Amédée Antoine Armand August Augustin Charles Daniel Denis Édouard Elie Éttiene Eugène Félicien Félix Fernand François Frédéric Georges Guillaume Gustave Henri Hubert Hugo Jacques Jean Joseph Jules Julien Lazare Léopold Leroy Louis Lucien Matthieu Michel Napoléon Nicolas Patrice Paul Philippe Pierre Robert Thibaut Thierry Thomas
+			}
+			first_names_female = {
+				Anne Marie Françoise Gisèle Marguerite Marianne Simone Anaïs Irène Nathalie Elsa
+			}
+			second_names = {
+				Anthoine "Baraguey d'Hilliers" Bazaine Billot Bosquet "Boué de Lapeyrère" Bouët-Willaumez Boulanger Bourbaki Bugeaud Caillard Canrobert Courbet Cousin-Mountauban Davout "de Castellane" "de Castelnau" "de Langle de Cary" "de MacMahon" "de Montaignac" "de Saint Arnaud" d'Orleans Dubail Dubois Duchêne Dupetit-Thouars Exelmans Foch Forey "Franchet d'Espèrey" Gallieni Gouraud Guillaumat Hamelin Harispe Hoche Humbert Jaurès Joffre Lebouef Lyautey Murat "Ney d'Elchingen" Nivelle Péllissier Petain Vaillant
+			}
+			regnal_first_names_male = {
+				Achille Adolphe Adrien Aimable Alphonse Amédée Antoine Armand August Augustin Charles Daniel Denis Édouard Elie Éttiene Eugène Félicien Félix Fernand François Frédéric Georges Guillaume Gustave Henri Hubert Hugo Jacques Jean Joseph Jules Julien Lazare Léopold Leroy Louis Lucien Matthieu Michel Napoléon Nicolas Patrice Paul Philippe Pierre Robert Thibaut Thierry Thomas
+			}
+			regnal_first_names_female = {
+				Anne Marie Françoise Gisèle Marguerite Marianne Simone Anaïs Irène Nathalie Elsa
+			}
+			regnal_second_names = {
+				Anthoine "Baraguey d'Hilliers" Bazaine Billot Bosquet "Boué de Lapeyrère" Bouët-Willaumez Boulanger Bourbaki Bugeaud Caillard Canrobert Courbet Cousin-Mountauban Davout "de Castellane" "de Castelnau" "de Langle de Cary" "de MacMahon" "de Montaignac" "de Saint Arnaud" d'Orleans Dubail Dubois Duchêne Dupetit-Thouars Exelmans Foch Forey "Franchet d'Espèrey" Gallieni Gouraud Guillaumat Hamelin Harispe Hoche Humbert Jaurès Joffre Lebouef Lyautey Murat "Ney d'Elchingen" Nivelle Péllissier Petain Vaillant
+			}
+		}
+
+		name4 = { # Sicameonese
+			weight = 2
+			first_names_male = {
+				Sebastian Matias Nicolas Samuel Joaquin Martin Jeronimo Emmanuel Maximiliano Rodrigo Agustín Alberto Alejandro Alfonso Álvaro Antonio Arsenio Augusto Baldomero Baltasar Benito Bernardino Bernardo Calixto Carlos Celestino Claudio Cristobal Dámaso Diego Dionisio Eduardo Emilio Federico Felipe Félix Fernando Francisco Gabino Gabriel Gaspar Genaro Gonzalo Ignacio Isidro Jacobo Jaime Joaquín José Juan Julio Leopoldo Lorenzo Luis Manuel Marcelo Mariano Mateo Melchor Miguel Nicolás Pablo Pascual Pedro Rafael Raimundo Ramón Ricardo Santiago Sebastián Segismundo Valeriano Vicente 
+			}
+			first_names_female = {
+				Sofia Mariana Carmen Gabriela Victoria Lucia Sara Samanta Catalina Julieta Antonella Adelita Araceli Belén Camila Candelaria Consuelo Cristina Delfina Esperanza Elena Fidelia Graciela Irene Isadora Isabella Ximena Luciana Lucrecia María Marisol Noemí Nohemi Valentina Valeria Rocío Socorro Sofía Teófila Amaranta Úrsula Rebeca Remedios
+			}
+			second_names = {
+				Garragris "Pluma de Tormenta" Cresta Cola Pico Ala Remontarse Volar
+			}
+			regnal_first_names_male = {
+				Sebastian Matias Nicolas Samuel Joaquin Martin Jeronimo Emmanuel Maximiliano Rodrigo Agustín Alberto Alejandro Alfonso Álvaro Antonio Arsenio Augusto Baldomero Baltasar Benito Bernardino Bernardo Calixto Carlos Celestino Claudio Cristobal Dámaso Diego Dionisio Eduardo Emilio Federico Felipe Félix Fernando Francisco Gabino Gabriel Gaspar Genaro Gonzalo Ignacio Isidro Jacobo Jaime Joaquín José Juan Julio Leopoldo Lorenzo Luis Manuel Marcelo Mariano Mateo Melchor Miguel Nicolás Pablo Pascual Pedro Rafael Raimundo Ramón Ricardo Santiago Sebastián Segismundo Valeriano Vicente 
+			}
+			regnal_first_names_female = {
+				Sofia Mariana Carmen Gabriela Victoria Lucia Sara Samanta Catalina Julieta Antonella Adelita Araceli Belén Camila Candelaria Consuelo Cristina Delfina Esperanza Elena Fidelia Graciela Irene Isadora Isabella Ximena Luciana Lucrecia María Marisol Noemí Nohemi Valentina Valeria Rocío Socorro Sofía Teófila Amaranta Úrsula Rebeca Remedios
+			}
+			regnal_second_names = {
+				Garragris "Pluma de Tormenta" Cresta Cola Pico Ala Remontarse Volar
+			}
+		}
+
+		name5 = { # Feathisian
+			weight = 2
+			first_names_male = {
+				Adriaan Albert Anthony Antonius Berend Bodo Carsten Christiaan Cornelis Dirk Ferdinand Freek Frits Gerard Godfried Govert Hendrik Henri Jacob Jacobus Jan "Jan Willem" Johan Johannes Laurens Mathias Matthijs Nicolaas Peter Petrus Philippus Pieter Quirinus Sijmen Theodorus Tjerk Willem
+			}
+			first_names_female = {
+				Coba Corrie Frieda Hannie Helena Ina Jet Joke Miep Reina Truus
+			}
+			second_names = {
+				Boers "'t Mannetje" Best "Bischoff van Heemskerk" "de Visser" "den Feathisia" "den Ouden" "Jacometti" "van den Bent" "van den Briel" "van den Hof" "van der Bijl" "van Helsdingen" "van Liempd" "van Setten" "van Zinnicq Bergmann" "Wittert van Hoogland" Bosch Bruggink Bruinier Buijs Buurman Carstens "den Breejen" Elias Folmer Giesen Ham Harberts Hilberdink Hoogewerff Hoving Jaapies Janssen Jolles Kaak Kraak Krouwel Kuiper Landzaat Leegstra Lukkien Maas Migchelbrink Reijnierse Rijnders Roelofsen Sandberg Scherpenhuijzen Schippers Steen Tebrunsvelt Varwijk Verhoef Visscher Vos Winkelman
+			}
+			regnal_first_names_male = {
+				Adriaan Albert Anthony Antonius Berend Bodo Carsten Christiaan Cornelis Dirk Ferdinand Freek Frits Gerard Godfried Govert Hendrik Henri Jacob Jacobus Jan "Jan Willem" Johan Johannes Laurens Mathias Matthijs Nicolaas Peter Petrus Philippus Pieter Quirinus Sijmen Theodorus Tjerk Willem
+			}
+			regnal_first_names_female = {
+				Coba Corrie Frieda Hannie Helena Ina Jet Joke Miep Reina Truus
+			}
+			regnal_second_names = {
+				Boers "'t Mannetje" Best "Bischoff van Heemskerk" "de Visser" "den Feathisia" "den Ouden" "Jacometti" "van den Bent" "van den Briel" "van den Hof" "van der Bijl" "van Helsdingen" "van Liempd" "van Setten" "van Zinnicq Bergmann" "Wittert van Hoogland" Bosch Bruggink Bruinier Buijs Buurman Carstens "den Breejen" Elias Folmer Giesen Ham Harberts Hilberdink Hoogewerff Hoving Jaapies Janssen Jolles Kaak Kraak Krouwel Kuiper Landzaat Leegstra Lukkien Maas Migchelbrink Reijnierse Rijnders Roelofsen Sandberg Scherpenhuijzen Schippers Steen Tebrunsvelt Varwijk Verhoef Visscher Vos Winkelman
+			}
+		}
+
+		name6 = { # Vedinian
+			weight = 2
+			first_names_male = {
+				Karl Erik Lars Anders Per Mikael Johan Olof Nils Jan
+			}
+			first_names_female = {
+				Elisabeth Anna Margareta Eva Birgitta Karin Linnea
+			}
+			second_names = {
+				Gråklo Dimfjäder Stormfjäder Regnskiöld Bronssvans Åsksvans Lernäbb Skymningsvinge Mörkerklo Bistervinge Bisterklo Hårdnäbb Silverplym Strålklo Stormfödd Guldplym Vitfjäder Stjärnnäbb
+			}
+			regnal_first_names_male = {
+				Karl Erik Lars Anders Per Mikael Johan Olof Nils Jan
+			}
+			regnal_first_names_female = {
+				Elisabeth Anna Margareta Eva Birgitta Karin Linnea
+			}
+			regnal_second_names = {
+				Gråklo Dimfjäder Stormfjäder Regnskiöld Bronssvans Åsksvans Lernäbb Skymningsvinge Mörkerklo Bistervinge Bisterklo Hårdnäbb Silverplym Strålklo Stormfödd Guldplym Vitfjäder Stjärnnäbb
+			}
+		}
+
+		name7 = { # Prywhenian
+			weight = 2
+			first_names_male = {
+				Gheorghe Ioan Vasile Constantin Ion Lexandru Nicolae Kihai Dumitru Andrei Denis Augustin Ionel Geza Dragomir Stefan Nic Varujan Simu
+			}
+			first_names_female = {
+				Maria Elena Ana Ioana Kihaela Andreea Cristina Mariana Lexandra
+			}
+			second_names = {
+				Popa Popescu Radu Dumitru Stan Stoica Matei Ciobanu Ionescu Rusu "de Temsoar" "de Kivessin" "de Larios"
+			}
+			regnal_first_names_male = {
+				Gheorghe Ioan Vasile Constantin Ion Lexandru Nicolae Kihai Dumitru Andrei Denis Augustin Ionel Geza Dragomir Stefan Nic Varujan Simu
+			}
+			regnal_first_names_female = {
+				Maria Elena Ana Ioana Kihaela Andreea Cristina Mariana Lexandra
+			}
+			regnal_second_names = {
+				Popa Popescu Radu Dumitru Stan Stoica Matei Ciobanu Ionescu Rusu "de Temsoar" "de Kivessin" "de Larios"
+			}
+		}
+
+		name8 = { # Lushian
+			weight = 1
+			first_names_male = {
+				László István József János Sándor Ferenc Zoltán Tibor Imre Lajor Gábor Gyorgy Gyula Attila András
+			}
+			first_names_female = {
+				Mária Erzsébet Éva Katalin Ilona Zsuzsanna Anna Ildikó Judit Ágnes Margit Erika Julianna Edit Irén
+			}
+			second_names = {
+				Nagy Kovács Tóth Szabó Horváth Varga Kiss Molnár Németh Farkas Balogh Papp Takács
+			}
+			regnal_first_names_male = {
+				László István József János Sándor Ferenc Zoltán Tibor Imre Lajor Gábor Gyorgy Gyula Attila András
+			}
+			regnal_first_names_female = {
+				Mária Erzsébet Éva Katalin Ilona Zsuzsanna Anna Ildikó Judit Ágnes Margit Erika Julianna Edit Irén
+			}
+			regnal_second_names = {
+				Nagy Kovács Tóth Szabó Horváth Varga Kiss Molnár Németh Farkas Balogh Papp Takács
+			}
+		}
+
+		name9 = { # Gryphian
+			weight = 2
+			first_names_male = {
+				"Aleksander" "Alexei" "Andrei" "Anton" "Boris" "Dmitry" "Fyodor" "Gennady" "Giorgi" "Grigoriy" "Igor" "Ilya" "Ivan" "Kirill" "Konstantin" "Lavr" "Leonid" "Lev" "Maxim" "Mikhail" "Nikita" "Nikolai" "Oleg" "Pavel" "Pyotr" "Roman" "Semyon" "Sergei" "Valery" "Vasily" "Viktor" "Vladimir" "Vladislav" "Yegor" "Yevgeny" "Yuri"
+			}
+			first_names_female = {
+				Jelena Ludmila Ella Svetlana Margarita Elena Natalya Lydia Valentina Olga Alexandra Sofia Albina
+			}
+			second_names_male = {
+				"Alexseyev" "Antonov" "Azarov" "Badanov" "Brusilov" "Budyonny" "Chibisov" "Denikin" "Dragomirov" "Frolov" "Golivin" "Grishin" "Gurko" "Ivanov" "Ivannikov" "Konev" "Konstantinov" "Kornilov" "Kolchak" "Kuropatkin" "Lazarev" "Makarov" "Menshikov" "Nakhimov" "Nebogatov" "Nikolaevich" "Nikitin" "Ostrovsky" "Pavlov" "Putyatin" "Romanov" "Rozhestvensky" "Skobelev" "Shuvalov" "Surkov" "Tukhachevsky" "Yegorov" "Yudenich" "Vorontsov" "Voroshilov" "Zavoyko"
+			}
+			second_names_female = {
+				"Alexseyeva" "Antonova" "Azarova" "Badanova" "Brusilova" "Budyonnaya" "Chibisova" "Denikina" "Dragomirova" "Frolova" "Golivina" "Grishina" "Gurko" "Ivanova" "Ivannikova" "Koneva" "Konstantinova" "Kornilova" "Kolchak" "Kuropatkina" "Lazareva" "Makarova" "Menshikova" "Nakhimova" "Nebogatova" "Nikolaevich" "Nikitina" "Ostrovskaya" "Pavlova" "Putyatina" "Romanova" "Rozhestvenskaya" "Skobeleva" "Shuvalova" "Surkova" "Tukhachevskaya" "Yegorova" "Yudenich" "Vorontsova" "Voroshilova" "Zavoyko"
+			}
+			regnal_first_names_male = {
+				"Aleksander" "Alexei" "Andrei" "Anton" "Boris" "Dmitry" "Fyodor" "Gennady" "Giorgi" "Grigoriy" "Igor" "Ilya" "Ivan" "Kirill" "Konstantin" "Lavr" "Leonid" "Lev" "Maxim" "Mikhail" "Nikita" "Nikolai" "Oleg" "Pavel" "Pyotr" "Roman" "Semyon" "Sergei" "Valery" "Vasily" "Viktor" "Vladimir" "Vladislav" "Yegor" "Yevgeny" "Yuri"
+			}
+			regnal_first_names_female = {
+				Jelena Ludmila Ella Svetlana Margarita Elena Natalya Lydia Valentina Olga Alexandra Sofia Albina
+			}
+			regnal_second_names = {
+				"Denikin" "Gurko" "Kolchak" "Nikolaevich" "Yudenich" "Zavoyko"
+			}
+		}
+
+		name10 = { # Gryphussian
+			weight = 2
+			first_names_male = {
+				Antoni Jakub Jan Szymon Franciszek Filip Grzegorz Michał Mikołaj Tomasz Wojciech Kacper
+			}
+			first_names_female = {
+				Julia Zuzanna Zofia Lena Maja Hanna Amelia Alicja Natalia Wiktoria
+			}
+			second_names_male = {
+				Szaryszpon Piórkomgły Piórkoburzy Deszczówka Skrzydło Dziób Pazur Napiórkowski
+			}
+			second_names_female = {
+				Szaryszpon Piórkomgła Piórkoburza Deszczówka Skrzydło Dziób Pazur Napiórkowska
+			}
+			regnal_first_names_male = {
+				Antoni Jakub Jan Szymon Franciszek Filip Grzegorz Michał Mikołaj Tomasz Wojciech Kacper
+			}
+			regnal_first_names_female = {
+				Julia Zuzanna Zofia Lena Maja Hanna Amelia Alicja Natalia Wiktoria
+			}
+			regnal_second_names = {
+				Szaryszpon Deszczówka Skrzydło Dziób Pazur
+			}
+		}
+	}
+}
