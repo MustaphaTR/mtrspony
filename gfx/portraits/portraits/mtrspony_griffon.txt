@@ -1,10 +1,31 @@
 portraits = {
+	mtrspony_griffon_gilda = {
+		entity = "portrait_dummy_20p_left_entity"
+		clothes_selector = "mtrspony_no_clothes_selector"
+		attachment_selector = "mtrspony_griffon_gilda_hair_selector"
+		greeting_sound = "human_female_greetings_01"
 
+		character_textures = {
+			"gfx/models/portraits/griffon/gilda/gilda.dds"
+			"gfx/models/portraits/griffon/gilda/gilda_alt1.dds"
+			"gfx/models/portraits/griffon/gilda/gilda_alt2.dds"
+			"gfx/models/portraits/griffon/gilda/gilda_alt3.dds"
+			"gfx/models/portraits/griffon/gilda/gilda_alt4.dds"
+			"gfx/models/portraits/griffon/gilda/gilda_alt5.dds"
+			"gfx/models/portraits/griffon/gilda/gilda_alt6.dds"
+			"gfx/models/portraits/griffon/gilda/gilda_alt7.dds"
+			"gfx/models/portraits/griffon/gilda/gilda_alt8.dds"
+			"gfx/models/portraits/griffon/gilda/gilda_alt9.dds"
+			"gfx/models/portraits/griffon/gilda/gilda_alt10.dds"
+		}
+
+		custom_attachment_label = "HAIR_COLOR"
+	}
 }
 
 portrait_groups = {
 	mtrspony_griffon = {
-		default =
+		default = mtrspony_griffon_gilda
 		game_setup = {
 			add = {
 				trigger = {
@@ -29,7 +50,7 @@ portrait_groups = {
 					}
 				}
 				portraits = {
-					
+					mtrspony_griffon_gilda
 				}
 			}
 		}		
@@ -50,7 +71,7 @@ portrait_groups = {
 					NOT = { species = { species_gender = female } }
 				}
 				portraits = {
-					
+					mtrspony_griffon_gilda
 				}
 			}
 		}		
@@ -69,7 +90,7 @@ portrait_groups = {
 					NOT = { species = { species_gender = female } }
 				}
 				portraits = {
-					
+					mtrspony_griffon_gilda
 				}
 			}
 		}
@@ -91,7 +112,7 @@ portrait_groups = {
 					gender = indeterminable
 				}
 				portraits = {
-					
+					mtrspony_griffon_gilda
 				}
 			}
 		}

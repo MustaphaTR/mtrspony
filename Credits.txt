@@ -1,11 +1,14 @@
 Portrait Bases
+ > dashiesparkle:
+	- Gilda
+
+ > kimberlythehedgie:
+    - Alicorn Apple Bloom
+
  > luckreza8:
     - Babs Seed
 	- Button Mash
 	- Mrs. Shy
-
- > kimberlythehedgie:
-    - Alicorn Apple Bloom
 
  > parclytaxel
 	- Older Sweetie Belle

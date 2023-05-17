@@ -1,0 +1,67 @@
+mtrspony_griffon_gilda_hair_selector = {
+	default = "gfx/models/portraits/griffon/gilda/gilda_hair.dds"
+
+	game_setup = {
+		default = "gfx/models/portraits/griffon/gilda/gilda_hair.dds"
+	}
+
+	species = {
+		default = "gfx/models/portraits/griffon/gilda/gilda_hair.dds"
+	}
+
+	pop = {
+		default = "gfx/models/portraits/griffon/gilda/gilda_hair.dds"
+
+		random = {
+			list = {
+				"gfx/models/portraits/griffon/gilda/gilda_hair.dds"
+				"gfx/models/portraits/griffon/gilda/gilda_hair_alt1.dds"
+				"gfx/models/portraits/griffon/gilda/gilda_hair_alt2.dds"
+				"gfx/models/portraits/griffon/gilda/gilda_hair_alt3.dds"
+				"gfx/models/portraits/griffon/gilda/gilda_hair_alt4.dds"
+				"gfx/models/portraits/griffon/gilda/gilda_hair_alt5.dds"
+				"gfx/models/portraits/griffon/gilda/gilda_hair_alt6.dds"
+				"gfx/models/portraits/griffon/gilda/gilda_hair_alt7.dds"
+				"gfx/models/portraits/griffon/gilda/gilda_hair_alt8.dds"
+				"gfx/models/portraits/griffon/gilda/gilda_hair_alt9.dds"
+				"gfx/models/portraits/griffon/gilda/gilda_hair_alt10.dds"
+			}
+		}
+	}
+
+	leader = {
+		random = {
+			list = {
+				"gfx/models/portraits/griffon/gilda/gilda_hair.dds"
+				"gfx/models/portraits/griffon/gilda/gilda_hair_alt1.dds"
+				"gfx/models/portraits/griffon/gilda/gilda_hair_alt2.dds"
+				"gfx/models/portraits/griffon/gilda/gilda_hair_alt3.dds"
+				"gfx/models/portraits/griffon/gilda/gilda_hair_alt4.dds"
+				"gfx/models/portraits/griffon/gilda/gilda_hair_alt5.dds"
+				"gfx/models/portraits/griffon/gilda/gilda_hair_alt6.dds"
+				"gfx/models/portraits/griffon/gilda/gilda_hair_alt7.dds"
+				"gfx/models/portraits/griffon/gilda/gilda_hair_alt8.dds"
+				"gfx/models/portraits/griffon/gilda/gilda_hair_alt9.dds"
+				"gfx/models/portraits/griffon/gilda/gilda_hair_alt10.dds"
+			}
+		}
+	}
+
+	ruler = {
+		random = {
+			list = {
+				"gfx/models/portraits/griffon/gilda/gilda_hair.dds"
+				"gfx/models/portraits/griffon/gilda/gilda_hair_alt1.dds"
+				"gfx/models/portraits/griffon/gilda/gilda_hair_alt2.dds"
+				"gfx/models/portraits/griffon/gilda/gilda_hair_alt3.dds"
+				"gfx/models/portraits/griffon/gilda/gilda_hair_alt4.dds"
+				"gfx/models/portraits/griffon/gilda/gilda_hair_alt5.dds"
+				"gfx/models/portraits/griffon/gilda/gilda_hair_alt6.dds"
+				"gfx/models/portraits/griffon/gilda/gilda_hair_alt7.dds"
+				"gfx/models/portraits/griffon/gilda/gilda_hair_alt8.dds"
+				"gfx/models/portraits/griffon/gilda/gilda_hair_alt9.dds"
+				"gfx/models/portraits/griffon/gilda/gilda_hair_alt10.dds"
+			}
+		}		
+	}
+}
