@@ -1,10 +1,33 @@
 portraits = {
+	mtrspony_dragon_ember = {
+		entity = "portrait_dummy_centered_entity"
+		clothes_selector = "mtrspony_no_clothes_selector"
+		attachment_selector = "mtrspony_dragon_ember_hair_selector"
+		greeting_sound = "human_female_greetings_01"
 
+		character_textures = {
+			"gfx/models/portraits/dragon/ember/ember.dds"
+			"gfx/models/portraits/dragon/ember/ember_alt1.dds"
+			"gfx/models/portraits/dragon/ember/ember_alt2.dds"
+			"gfx/models/portraits/dragon/ember/ember_alt3.dds"
+			"gfx/models/portraits/dragon/ember/ember_alt4.dds"
+			"gfx/models/portraits/dragon/ember/ember_alt5.dds"
+			"gfx/models/portraits/dragon/ember/ember_alt6.dds"
+			"gfx/models/portraits/dragon/ember/ember_alt7.dds"
+			"gfx/models/portraits/dragon/ember/ember_alt8.dds"
+			"gfx/models/portraits/dragon/ember/ember_alt9.dds"
+			"gfx/models/portraits/dragon/ember/ember_alt10.dds"
+			"gfx/models/portraits/dragon/ember/ember_alt11.dds"
+			"gfx/models/portraits/dragon/ember/ember_alt12.dds"
+		}
+
+		custom_attachment_label = "HAIR_COLOR"
+	}
 }
 
 portrait_groups = {
 	mtrspony_dragon = {
-		default =
+		default = mtrspony_dragon_ember
 		game_setup = {
 			add = {
 				trigger = {
@@ -29,7 +52,7 @@ portrait_groups = {
 					}
 				}
 				portraits = {
-					
+					mtrspony_dragon_ember
 				}
 			}
 		}		
@@ -41,7 +64,7 @@ portrait_groups = {
 					NOT = { species = { species_gender = male } }
 				}
 				portraits = {
-					
+					mtrspony_dragon_ember
 				}
 			}
 			add = {
@@ -61,7 +84,7 @@ portrait_groups = {
 					NOT = { species = { species_gender = male } }
 				}
 				portraits = {
-					
+					mtrspony_dragon_ember
 				}
 			}
 			add = {
@@ -91,7 +114,7 @@ portrait_groups = {
 					gender = indeterminable
 				}
 				portraits = {
-					
+					mtrspony_dragon_ember
 				}
 			}
 		}
