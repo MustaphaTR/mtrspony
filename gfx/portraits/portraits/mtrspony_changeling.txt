@@ -1,10 +1,28 @@
 portraits = {
+	mtrspony_changeling_thorax = {
+		entity = "portrait_dummy_20p_left_entity"
+		clothes_selector = "mtrspony_no_clothes_selector"
+		attachment_selector = "mtrspony_changeling_thorax_hair_selector"
+		greeting_sound = "human_male_greetings_01"
 
+		character_textures = {
+			"gfx/models/portraits/changeling/thorax/thorax.dds"
+			"gfx/models/portraits/changeling/thorax/thorax_alt1.dds"
+			"gfx/models/portraits/changeling/thorax/thorax_alt2.dds"
+			"gfx/models/portraits/changeling/thorax/thorax_alt3.dds"
+			"gfx/models/portraits/changeling/thorax/thorax_alt4.dds"
+			"gfx/models/portraits/changeling/thorax/thorax_alt5.dds"
+			"gfx/models/portraits/changeling/thorax/thorax_alt6.dds"
+			"gfx/models/portraits/changeling/thorax/thorax_alt7.dds"
+		}
+
+		custom_attachment_label = "HAIR_COLOR"
+	}
 }
 
 portrait_groups = {
 	mtrspony_changeling = {
-		default =
+		default = mtrspony_changeling_thorax
 		game_setup = {
 			add = {
 				trigger = {
@@ -16,7 +34,7 @@ portrait_groups = {
 					}
 				}
 				portraits = {
-					
+					mtrspony_changeling_thorax
 				}
 			}
 			add = {
@@ -50,7 +68,7 @@ portrait_groups = {
 					NOT = { species = { species_gender = female } }
 				}
 				portraits = {
-					
+					mtrspony_changeling_thorax
 				}
 			}
 		}		
@@ -69,7 +87,7 @@ portrait_groups = {
 					NOT = { species = { species_gender = female } }
 				}
 				portraits = {
-					
+					mtrspony_changeling_thorax
 				}
 			}
 		}
@@ -81,7 +99,7 @@ portrait_groups = {
 					gender = indeterminable
 				}
 				portraits = {
-					
+					mtrspony_changeling_thorax
 				}
 			}
 

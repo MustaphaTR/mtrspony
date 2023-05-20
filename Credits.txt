@@ -2,6 +2,7 @@ Portrait Bases
  > dashiesparkle:
 	- Ember
 	- Gilda
+	- Thorax
 
  > kimberlythehedgie:
     - Alicorn Apple Bloom
