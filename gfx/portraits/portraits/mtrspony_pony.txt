@@ -4,7 +4,7 @@ portraits = {
 
 portrait_groups = {
 	mtrspony_pony = {
-		default = mtrspony_pony_earth_button_mash
+		default = mtrspony_pony_pegasus_mr_shy
 		game_setup = {
 			add = {
 				trigger = {
@@ -16,6 +16,7 @@ portrait_groups = {
 					}
 				}
 				portraits = {
+					mtrspony_pony_pegasus_mr_shy
 					mtrspony_pony_earth_button_mash
 				}
 			}
@@ -29,10 +30,10 @@ portrait_groups = {
 					}
 				}
 				portraits = {
+					mtrspony_pony_pegasus_mrs_shy
 					mtrspony_pony_earth_babs_seed
 					mtrspony_pony_unicorn_sweetie_belle_older
 					mtrspony_pony_alicorn_apple_bloom
-					mtrspony_pony_pegasus_mrs_shy
 				}
 			}
 		}		
@@ -44,10 +45,10 @@ portrait_groups = {
 					NOT = { species = { species_gender = male } }
 				}
 				portraits = {
+					mtrspony_pony_pegasus_mrs_shy
 					mtrspony_pony_earth_babs_seed
 					mtrspony_pony_unicorn_sweetie_belle_older
 					mtrspony_pony_alicorn_apple_bloom
-					mtrspony_pony_pegasus_mrs_shy
 				}
 			}
 			add = {
@@ -56,6 +57,7 @@ portrait_groups = {
 					NOT = { species = { species_gender = female } }
 				}
 				portraits = {
+					mtrspony_pony_pegasus_mr_shy
 					mtrspony_pony_earth_button_mash
 				}
 			}
@@ -67,10 +69,10 @@ portrait_groups = {
 					NOT = { species = { species_gender = male } }
 				}
 				portraits = {
+					mtrspony_pony_pegasus_mrs_shy
 					mtrspony_pony_earth_babs_seed
 					mtrspony_pony_unicorn_sweetie_belle_older
 					mtrspony_pony_alicorn_apple_bloom
-					mtrspony_pony_pegasus_mrs_shy
 				}
 			}
 			add = {
@@ -78,6 +80,7 @@ portrait_groups = {
 					NOT = { species = { species_gender = female } }
 				}
 				portraits = {
+					mtrspony_pony_pegasus_mr_shy
 					mtrspony_pony_earth_button_mash
 				}
 			}
@@ -90,6 +93,7 @@ portrait_groups = {
 					gender = indeterminable
 				}
 				portraits = {
+					mtrspony_pony_pegasus_mr_shy
 					mtrspony_pony_earth_button_mash
 				}
 			}
@@ -100,10 +104,10 @@ portrait_groups = {
 					gender = indeterminable
 				}
 				portraits = {
+					mtrspony_pony_pegasus_mrs_shy
 					mtrspony_pony_earth_babs_seed
 					mtrspony_pony_unicorn_sweetie_belle_older
 					mtrspony_pony_alicorn_apple_bloom
-					mtrspony_pony_pegasus_mrs_shy
 				}
 			}
 		}
