@@ -4,6 +4,9 @@ Portrait Bases
 	- Gilda
 	- Thorax
 
+ > frownfactory:
+	- Rain Shine
+
  > luckreza8:
 	- Babs Seed
 	- Button Mash

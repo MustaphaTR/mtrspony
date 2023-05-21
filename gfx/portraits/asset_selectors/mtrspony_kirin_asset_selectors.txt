@@ -1,0 +1,120 @@
+mtrspony_kirin_rain_shine_hair_selector = {
+	default = "gfx/models/portraits/kirin/rain_shine/rain_shine_hair.dds"
+
+	game_setup = {
+		default = "gfx/models/portraits/kirin/rain_shine/rain_shine_hair.dds"
+	}
+
+	species = {
+		default = "gfx/models/portraits/kirin/rain_shine/rain_shine_hair.dds"
+	}
+
+	pop = {
+		default = "gfx/models/portraits/kirin/rain_shine/rain_shine_hair.dds"
+
+		random = {
+			list = {
+				"gfx/models/portraits/kirin/rain_shine/rain_shine_hair.dds"
+				"gfx/models/portraits/kirin/rain_shine/rain_shine_hair_alt1.dds"
+				"gfx/models/portraits/kirin/rain_shine/rain_shine_hair_alt2.dds"
+				"gfx/models/portraits/kirin/rain_shine/rain_shine_hair_alt3.dds"
+				"gfx/models/portraits/kirin/rain_shine/rain_shine_hair_alt4.dds"
+				"gfx/models/portraits/kirin/rain_shine/rain_shine_hair_alt5.dds"
+				"gfx/models/portraits/kirin/rain_shine/rain_shine_hair_alt6.dds"
+				"gfx/models/portraits/kirin/rain_shine/rain_shine_hair_alt7.dds"
+				"gfx/models/portraits/kirin/rain_shine/rain_shine_hair_alt8.dds"
+				"gfx/models/portraits/kirin/rain_shine/rain_shine_hair_alt9.dds"
+				"gfx/models/portraits/kirin/rain_shine/rain_shine_hair_alt10.dds"
+				"gfx/models/portraits/kirin/rain_shine/rain_shine_hair_alt11.dds"
+				"gfx/models/portraits/kirin/rain_shine/rain_shine_hair_alt12.dds"
+			}
+		}
+	}
+
+	leader = {
+		random = {
+			list = {
+				"gfx/models/portraits/kirin/rain_shine/rain_shine_hair.dds"
+				"gfx/models/portraits/kirin/rain_shine/rain_shine_hair_alt1.dds"
+				"gfx/models/portraits/kirin/rain_shine/rain_shine_hair_alt2.dds"
+				"gfx/models/portraits/kirin/rain_shine/rain_shine_hair_alt3.dds"
+				"gfx/models/portraits/kirin/rain_shine/rain_shine_hair_alt4.dds"
+				"gfx/models/portraits/kirin/rain_shine/rain_shine_hair_alt5.dds"
+				"gfx/models/portraits/kirin/rain_shine/rain_shine_hair_alt6.dds"
+				"gfx/models/portraits/kirin/rain_shine/rain_shine_hair_alt7.dds"
+				"gfx/models/portraits/kirin/rain_shine/rain_shine_hair_alt8.dds"
+				"gfx/models/portraits/kirin/rain_shine/rain_shine_hair_alt9.dds"
+				"gfx/models/portraits/kirin/rain_shine/rain_shine_hair_alt10.dds"
+				"gfx/models/portraits/kirin/rain_shine/rain_shine_hair_alt11.dds"
+				"gfx/models/portraits/kirin/rain_shine/rain_shine_hair_alt12.dds"
+			}
+		}
+	}
+
+	ruler = {
+		random = {
+			list = {
+				"gfx/models/portraits/kirin/rain_shine/rain_shine_hair.dds"
+				"gfx/models/portraits/kirin/rain_shine/rain_shine_hair_alt1.dds"
+				"gfx/models/portraits/kirin/rain_shine/rain_shine_hair_alt2.dds"
+				"gfx/models/portraits/kirin/rain_shine/rain_shine_hair_alt3.dds"
+				"gfx/models/portraits/kirin/rain_shine/rain_shine_hair_alt4.dds"
+				"gfx/models/portraits/kirin/rain_shine/rain_shine_hair_alt5.dds"
+				"gfx/models/portraits/kirin/rain_shine/rain_shine_hair_alt6.dds"
+				"gfx/models/portraits/kirin/rain_shine/rain_shine_hair_alt7.dds"
+				"gfx/models/portraits/kirin/rain_shine/rain_shine_hair_alt8.dds"
+				"gfx/models/portraits/kirin/rain_shine/rain_shine_hair_alt9.dds"
+				"gfx/models/portraits/kirin/rain_shine/rain_shine_hair_alt10.dds"
+				"gfx/models/portraits/kirin/rain_shine/rain_shine_hair_alt11.dds"
+				"gfx/models/portraits/kirin/rain_shine/rain_shine_hair_alt12.dds"
+			}
+		}		
+	}
+}
+
+mtrspony_kirin_rain_shine_clothes_selector = {
+	default = "gfx/models/portraits/kirin/rain_shine/rain_shine_crown.dds"
+
+	game_setup = {
+		default = "gfx/models/portraits/kirin/rain_shine/rain_shine_crown.dds"
+	}
+
+	species = {
+		default = "gfx/models/portraits/kirin/rain_shine/rain_shine_crown.dds"
+	}
+
+	pop = {
+		default = "gfx/models/portraits/kirin/rain_shine/rain_shine_crown.dds"
+
+		random = {
+			list = {
+				"gfx/models/portraits/kirin/rain_shine/rain_shine_crown.dds"
+				"gfx/models/portraits/kirin/rain_shine/rain_shine_crown_alt1.dds"
+				"gfx/models/portraits/kirin/rain_shine/rain_shine_crown_alt2.dds"
+				"gfx/models/portraits/kirin/rain_shine/rain_shine_crown_alt3.dds"
+			}
+		}
+	}
+
+	leader = {
+		random = {
+			list = {
+				"gfx/models/portraits/kirin/rain_shine/rain_shine_crown.dds"
+				"gfx/models/portraits/kirin/rain_shine/rain_shine_crown_alt1.dds"
+				"gfx/models/portraits/kirin/rain_shine/rain_shine_crown_alt2.dds"
+				"gfx/models/portraits/kirin/rain_shine/rain_shine_crown_alt3.dds"
+			}
+		}
+	}
+
+	ruler = {
+		random = {
+			list = {
+				"gfx/models/portraits/kirin/rain_shine/rain_shine_crown.dds"
+				"gfx/models/portraits/kirin/rain_shine/rain_shine_crown_alt1.dds"
+				"gfx/models/portraits/kirin/rain_shine/rain_shine_crown_alt2.dds"
+				"gfx/models/portraits/kirin/rain_shine/rain_shine_crown_alt3.dds"
+			}
+		}		
+	}
+}

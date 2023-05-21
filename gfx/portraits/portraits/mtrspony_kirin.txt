@@ -1,10 +1,33 @@
 portraits = {
+	mtrspony_kirin_rain_shine = {
+		entity = "portrait_dummy_15p_left_entity"
+		clothes_selector = "mtrspony_kirin_rain_shine_clothes_selector"
+		attachment_selector = "mtrspony_kirin_rain_shine_hair_selector"
+		greeting_sound = "human_female_greetings_01"
 
+		character_textures = {
+			"gfx/models/portraits/kirin/rain_shine/rain_shine.dds"
+			"gfx/models/portraits/kirin/rain_shine/rain_shine_alt1.dds"
+			"gfx/models/portraits/kirin/rain_shine/rain_shine_alt2.dds"
+			"gfx/models/portraits/kirin/rain_shine/rain_shine_alt3.dds"
+			"gfx/models/portraits/kirin/rain_shine/rain_shine_alt4.dds"
+			"gfx/models/portraits/kirin/rain_shine/rain_shine_alt5.dds"
+			"gfx/models/portraits/kirin/rain_shine/rain_shine_alt6.dds"
+			"gfx/models/portraits/kirin/rain_shine/rain_shine_alt7.dds"
+			"gfx/models/portraits/kirin/rain_shine/rain_shine_alt8.dds"
+			"gfx/models/portraits/kirin/rain_shine/rain_shine_alt9.dds"
+			"gfx/models/portraits/kirin/rain_shine/rain_shine_alt10.dds"
+			"gfx/models/portraits/kirin/rain_shine/rain_shine_alt11.dds"
+			"gfx/models/portraits/kirin/rain_shine/rain_shine_alt12.dds"
+		}
+
+		custom_attachment_label = "HAIR_COLOR"
+	}
 }
 
 portrait_groups = {
 	mtrspony_kirin = {
-		default =
+		default = mtrspony_kirin_rain_shine
 		game_setup = {
 			add = {
 				trigger = {
@@ -29,7 +52,7 @@ portrait_groups = {
 					}
 				}
 				portraits = {
-					
+					mtrspony_kirin_rain_shine
 				}
 			}
 		}		
@@ -41,7 +64,7 @@ portrait_groups = {
 					NOT = { species = { species_gender = male } }
 				}
 				portraits = {
-					
+					mtrspony_kirin_rain_shine
 				}
 			}
 			add = {
@@ -61,7 +84,7 @@ portrait_groups = {
 					NOT = { species = { species_gender = male } }
 				}
 				portraits = {
-					
+					mtrspony_kirin_rain_shine
 				}
 			}
 			add = {
@@ -91,7 +114,7 @@ portrait_groups = {
 					gender = indeterminable
 				}
 				portraits = {
-					
+					mtrspony_kirin_rain_shine
 				}
 			}
 		}
