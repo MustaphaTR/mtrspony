@@ -16,8 +16,8 @@ portrait_groups = {
 					}
 				}
 				portraits = {
-					mtrspony_pony_pegasus_mr_shy
 					mtrspony_pony_earth_button_mash
+					mtrspony_pony_pegasus_mr_shy
 				}
 			}
 			add = {
@@ -30,9 +30,10 @@ portrait_groups = {
 					}
 				}
 				portraits = {
-					mtrspony_pony_pegasus_mrs_shy
 					mtrspony_pony_earth_babs_seed
+					mtrspony_pony_unicorn_twilight_sparkle
 					mtrspony_pony_unicorn_sweetie_belle_older
+					mtrspony_pony_pegasus_mrs_shy
 					mtrspony_pony_alicorn_apple_bloom
 				}
 			}
@@ -45,9 +46,10 @@ portrait_groups = {
 					NOT = { species = { species_gender = male } }
 				}
 				portraits = {
-					mtrspony_pony_pegasus_mrs_shy
 					mtrspony_pony_earth_babs_seed
+					mtrspony_pony_unicorn_twilight_sparkle
 					mtrspony_pony_unicorn_sweetie_belle_older
+					mtrspony_pony_pegasus_mrs_shy
 					mtrspony_pony_alicorn_apple_bloom
 				}
 			}
@@ -57,8 +59,8 @@ portrait_groups = {
 					NOT = { species = { species_gender = female } }
 				}
 				portraits = {
-					mtrspony_pony_pegasus_mr_shy
 					mtrspony_pony_earth_button_mash
+					mtrspony_pony_pegasus_mr_shy
 				}
 			}
 		}		
@@ -69,9 +71,10 @@ portrait_groups = {
 					NOT = { species = { species_gender = male } }
 				}
 				portraits = {
-					mtrspony_pony_pegasus_mrs_shy
 					mtrspony_pony_earth_babs_seed
+					mtrspony_pony_unicorn_twilight_sparkle
 					mtrspony_pony_unicorn_sweetie_belle_older
+					mtrspony_pony_pegasus_mrs_shy
 					mtrspony_pony_alicorn_apple_bloom
 				}
 			}
@@ -80,8 +83,8 @@ portrait_groups = {
 					NOT = { species = { species_gender = female } }
 				}
 				portraits = {
-					mtrspony_pony_pegasus_mr_shy
 					mtrspony_pony_earth_button_mash
+					mtrspony_pony_pegasus_mr_shy
 				}
 			}
 		}
@@ -93,8 +96,8 @@ portrait_groups = {
 					gender = indeterminable
 				}
 				portraits = {
-					mtrspony_pony_pegasus_mr_shy
 					mtrspony_pony_earth_button_mash
+					mtrspony_pony_pegasus_mr_shy
 				}
 			}
 
@@ -104,9 +107,10 @@ portrait_groups = {
 					gender = indeterminable
 				}
 				portraits = {
-					mtrspony_pony_pegasus_mrs_shy
 					mtrspony_pony_earth_babs_seed
+					mtrspony_pony_unicorn_twilight_sparkle
 					mtrspony_pony_unicorn_sweetie_belle_older
+					mtrspony_pony_pegasus_mrs_shy
 					mtrspony_pony_alicorn_apple_bloom
 				}
 			}

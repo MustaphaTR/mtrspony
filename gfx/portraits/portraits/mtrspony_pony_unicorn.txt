@@ -1,4 +1,28 @@
 portraits = {
+	mtrspony_pony_unicorn_twilight_sparkle = {
+		entity = "portrait_dummy_20p_left_entity"
+		clothes_selector = "mtrspony_no_clothes_selector"
+		attachment_selector = "mtrspony_pony_unicorn_twilight_sparkle_hair_selector"
+		greeting_sound = "human_female_greetings_01"
+
+		character_textures = {
+			"gfx/models/portraits/pony_unicorn/twilight_sparkle/twilight_sparkle_unicorn.dds"
+			"gfx/models/portraits/pony_unicorn/twilight_sparkle/twilight_sparkle_unicorn_alt1.dds"
+			"gfx/models/portraits/pony_unicorn/twilight_sparkle/twilight_sparkle_unicorn_alt2.dds"
+			"gfx/models/portraits/pony_unicorn/twilight_sparkle/twilight_sparkle_unicorn_alt3.dds"
+			"gfx/models/portraits/pony_unicorn/twilight_sparkle/twilight_sparkle_unicorn_alt4.dds"
+			"gfx/models/portraits/pony_unicorn/twilight_sparkle/twilight_sparkle_unicorn_alt5.dds"
+			"gfx/models/portraits/pony_unicorn/twilight_sparkle/twilight_sparkle_unicorn_alt6.dds"
+			"gfx/models/portraits/pony_unicorn/twilight_sparkle/twilight_sparkle_unicorn_alt7.dds"
+			"gfx/models/portraits/pony_unicorn/twilight_sparkle/twilight_sparkle_unicorn_alt8.dds"
+			"gfx/models/portraits/pony_unicorn/twilight_sparkle/twilight_sparkle_unicorn_alt9.dds"
+			"gfx/models/portraits/pony_unicorn/twilight_sparkle/twilight_sparkle_unicorn_alt10.dds"
+			"gfx/models/portraits/pony_unicorn/twilight_sparkle/twilight_sparkle_unicorn_alt11.dds"
+		}
+
+		custom_attachment_label = "HAIR_COLOR"
+	}
+
 	mtrspony_pony_unicorn_sweetie_belle_older = {
 		entity = "portrait_dummy_20p_left_90p_scale_entity"
 		clothes_selector = "mtrspony_no_clothes_selector"
@@ -27,7 +51,7 @@ portraits = {
 
 portrait_groups = {
 	mtrspony_pony_unicorn = {
-		default = mtrspony_pony_unicorn_sweetie_belle_older
+		default = mtrspony_pony_unicorn_twilight_sparkle
 		game_setup = {
 			add = {
 				trigger = {
@@ -52,6 +76,7 @@ portrait_groups = {
 					}
 				}
 				portraits = {
+					mtrspony_pony_unicorn_twilight_sparkle
 					mtrspony_pony_unicorn_sweetie_belle_older
 				}
 			}
@@ -64,6 +89,7 @@ portrait_groups = {
 					NOT = { species = { species_gender = male } }
 				}
 				portraits = {
+					mtrspony_pony_unicorn_twilight_sparkle
 					mtrspony_pony_unicorn_sweetie_belle_older
 				}
 			}
@@ -84,6 +110,7 @@ portrait_groups = {
 					NOT = { species = { species_gender = male } }
 				}
 				portraits = {
+					mtrspony_pony_unicorn_twilight_sparkle
 					mtrspony_pony_unicorn_sweetie_belle_older
 				}
 			}
@@ -114,6 +141,7 @@ portrait_groups = {
 					gender = indeterminable
 				}
 				portraits = {
+					mtrspony_pony_unicorn_twilight_sparkle
 					mtrspony_pony_unicorn_sweetie_belle_older
 				}
 			}
