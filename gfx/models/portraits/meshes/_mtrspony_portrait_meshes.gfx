@@ -12,6 +12,18 @@ objectTypes = {
 	}
 
 	pdxmesh = {
+		name = "portrait_dummy_big_centered_mesh"
+		file = "gfx/models/portraits/meshes/dummy_big_centered.mesh"
+
+		animation = {
+			id = "idle"
+			type = "human_01_female_portrait_idle1_animation"
+		}
+
+		scale = 1.0
+	}
+
+	pdxmesh = {
 		name = "portrait_dummy_5p_left_mesh"
 		file = "gfx/models/portraits/meshes/dummy_5p_left.mesh"
 

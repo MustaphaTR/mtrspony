@@ -8,6 +8,7 @@ Portrait Bases
 	- Unicorn Twilight Sparkle
 
  > frownfactory:
+	- Celestia
 	- Rain Shine
 	- Shining Armor
 

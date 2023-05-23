@@ -1,4 +1,23 @@
 portraits = {
+	mtrspony_pony_alicorn_celestia = {
+		entity = "portrait_dummy_big_centered_entity"
+		clothes_selector = "mtrspony_pony_alicorn_celestia_clothes_selector"
+		attachment_selector = "mtrspony_pony_alicorn_celestia_hair_selector"
+		greeting_sound = "human_female_greetings_01"
+
+		character_textures = {
+			"gfx/models/portraits/pony_alicorn/celestia/celestia.dds"
+			"gfx/models/portraits/pony_alicorn/celestia/celestia_alt1.dds"
+			"gfx/models/portraits/pony_alicorn/celestia/celestia_alt2.dds"
+			"gfx/models/portraits/pony_alicorn/celestia/celestia_alt3.dds"
+			"gfx/models/portraits/pony_alicorn/celestia/celestia_alt4.dds"
+			"gfx/models/portraits/pony_alicorn/celestia/celestia_alt5.dds"
+			"gfx/models/portraits/pony_alicorn/celestia/celestia_alt6.dds"
+		}
+
+		custom_attachment_label = "HAIR_COLOR"
+	}
+
 	mtrspony_pony_alicorn_apple_bloom = {
 		entity = "portrait_dummy_centered_entity"
 		clothes_selector = "mtrspony_pony_alicorn_apple_bloom_clothes_selector"
@@ -27,7 +46,7 @@ portraits = {
 
 portrait_groups = {
 	mtrspony_pony_alicorn = {
-		default = mtrspony_pony_alicorn_apple_bloom
+		default = mtrspony_pony_alicorn_celestia
 		game_setup = {
 			add = {
 				trigger = {
@@ -52,6 +71,7 @@ portrait_groups = {
 					}
 				}
 				portraits = {
+					mtrspony_pony_alicorn_celestia
 					mtrspony_pony_alicorn_apple_bloom
 				}
 			}
@@ -64,6 +84,7 @@ portrait_groups = {
 					NOT = { species = { species_gender = male } }
 				}
 				portraits = {
+					mtrspony_pony_alicorn_celestia
 					mtrspony_pony_alicorn_apple_bloom
 				}
 			}
@@ -84,6 +105,7 @@ portrait_groups = {
 					NOT = { species = { species_gender = male } }
 				}
 				portraits = {
+					mtrspony_pony_alicorn_celestia
 					mtrspony_pony_alicorn_apple_bloom
 				}
 			}
@@ -114,6 +136,7 @@ portrait_groups = {
 					gender = indeterminable
 				}
 				portraits = {
+					mtrspony_pony_alicorn_celestia
 					mtrspony_pony_alicorn_apple_bloom
 				}
 			}

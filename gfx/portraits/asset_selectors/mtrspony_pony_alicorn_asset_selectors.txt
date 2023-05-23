@@ -1,3 +1,100 @@
+mtrspony_pony_alicorn_celestia_hair_selector = {
+	default = "gfx/models/portraits/pony_alicorn/celestia/celestia_hair.dds"
+
+	game_setup = {
+		default = "gfx/models/portraits/pony_alicorn/celestia/celestia_hair.dds"
+	}
+
+	species = {
+		default = "gfx/models/portraits/pony_alicorn/celestia/celestia_hair.dds"
+	}
+
+	pop = {
+		default = "gfx/models/portraits/pony_alicorn/celestia/celestia_hair.dds"
+
+		random = {
+			list = {
+				"gfx/models/portraits/pony_alicorn/celestia/celestia_hair.dds"
+				"gfx/models/portraits/pony_alicorn/celestia/celestia_hair_alt1.dds"
+				"gfx/models/portraits/pony_alicorn/celestia/celestia_hair_alt2.dds"
+				"gfx/models/portraits/pony_alicorn/celestia/celestia_hair_alt3.dds"
+				"gfx/models/portraits/pony_alicorn/celestia/celestia_hair_alt4.dds"
+				"gfx/models/portraits/pony_alicorn/celestia/celestia_hair_alt5.dds"
+				"gfx/models/portraits/pony_alicorn/celestia/celestia_hair_alt6.dds"
+			}
+		}	
+	}
+
+	leader = {
+		random = {
+			list = {
+				"gfx/models/portraits/pony_alicorn/celestia/celestia_hair.dds"
+				"gfx/models/portraits/pony_alicorn/celestia/celestia_hair_alt1.dds"
+				"gfx/models/portraits/pony_alicorn/celestia/celestia_hair_alt2.dds"
+				"gfx/models/portraits/pony_alicorn/celestia/celestia_hair_alt3.dds"
+				"gfx/models/portraits/pony_alicorn/celestia/celestia_hair_alt4.dds"
+				"gfx/models/portraits/pony_alicorn/celestia/celestia_hair_alt5.dds"
+				"gfx/models/portraits/pony_alicorn/celestia/celestia_hair_alt6.dds"
+			}
+		}
+	}
+
+	ruler = {
+		random = {
+			list = {
+				"gfx/models/portraits/pony_alicorn/celestia/celestia_hair.dds"
+				"gfx/models/portraits/pony_alicorn/celestia/celestia_hair_alt1.dds"
+				"gfx/models/portraits/pony_alicorn/celestia/celestia_hair_alt2.dds"
+				"gfx/models/portraits/pony_alicorn/celestia/celestia_hair_alt3.dds"
+				"gfx/models/portraits/pony_alicorn/celestia/celestia_hair_alt4.dds"
+				"gfx/models/portraits/pony_alicorn/celestia/celestia_hair_alt5.dds"
+				"gfx/models/portraits/pony_alicorn/celestia/celestia_hair_alt6.dds"
+			}
+		}		
+	}
+}
+
+mtrspony_pony_alicorn_celestia_clothes_selector = {
+	default = "gfx/models/portraits/pony_alicorn/celestia/celestia_regila.dds"
+
+	game_setup = {
+		default = "gfx/models/portraits/pony_alicorn/celestia/celestia_regila.dds"
+	}
+
+	species = {
+		default = "gfx/models/portraits/pony_alicorn/celestia/celestia_regila.dds"
+	}
+
+	pop = {
+		default = "gfx/models/portraits/pony_alicorn/celestia/celestia_regila.dds"
+
+		random = {
+			list = {
+				"gfx/models/portraits/pony_alicorn/celestia/celestia_regila.dds"
+				"gfx/models/portraits/pony_alicorn/celestia/celestia_regila_alt1.dds"
+			}
+		}
+	}
+
+	leader = {
+		random = {
+			list = {
+				"gfx/models/portraits/pony_alicorn/celestia/celestia_regila.dds"
+				"gfx/models/portraits/pony_alicorn/celestia/celestia_regila_alt1.dds"
+			}
+		}
+	}
+
+	ruler = {
+		random = {
+			list = {
+				"gfx/models/portraits/pony_alicorn/celestia/celestia_regila.dds"
+				"gfx/models/portraits/pony_alicorn/celestia/celestia_regila_alt1.dds"
+			}
+		}
+	}
+}
+
 mtrspony_pony_alicorn_apple_bloom_hair_selector = {
 	default = "gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_hair.dds"
 
