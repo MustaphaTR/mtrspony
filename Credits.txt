@@ -9,6 +9,7 @@ Portrait Bases
 
  > frownfactory:
 	- Rain Shine
+	- Shining Armor
 
  > luckreza8:
 	- Babs Seed

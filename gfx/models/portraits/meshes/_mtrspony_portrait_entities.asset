@@ -63,6 +63,22 @@ entity = {
 }
 
 entity = {
+	name = "portrait_dummy_15p_left_95p_scale_entity"
+	pdxmesh = "portrait_dummy_15p_left_mesh"
+
+	default_state = "idle"
+	state = {
+		name = "idle"
+		animation = "idle"
+		animation_blend_time = 0
+		chance = 4.0
+		looping = no
+		next_state = idle
+	}
+	scale = 0.95
+}
+
+entity = {
 	name = "portrait_dummy_20p_left_entity"
 	pdxmesh = "portrait_dummy_20p_left_mesh"
 
