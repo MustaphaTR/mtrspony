@@ -24,6 +24,31 @@ portraits = {
 		custom_attachment_label = "HAIR_COLOR"
 	}
 
+	mtrspony_pony_earth_maud_pie = {
+		entity = "portrait_dummy_15p_left_entity"
+		clothes_selector = "mtrspony_pony_earth_maud_pie_clothes_selector"
+		attachment_selector = "mtrspony_pony_earth_maud_pie_hair_selector"
+		greeting_sound = "human_female_greetings_01"
+
+		character_textures = {
+			"gfx/models/portraits/pony_earth/maud_pie/maud_pie.dds"
+			"gfx/models/portraits/pony_earth/maud_pie/maud_pie_alt1.dds"
+			"gfx/models/portraits/pony_earth/maud_pie/maud_pie_alt2.dds"
+			"gfx/models/portraits/pony_earth/maud_pie/maud_pie_alt3.dds"
+			"gfx/models/portraits/pony_earth/maud_pie/maud_pie_alt4.dds"
+			"gfx/models/portraits/pony_earth/maud_pie/maud_pie_alt5.dds"
+			"gfx/models/portraits/pony_earth/maud_pie/maud_pie_alt6.dds"
+			"gfx/models/portraits/pony_earth/maud_pie/maud_pie_alt7.dds"
+			"gfx/models/portraits/pony_earth/maud_pie/maud_pie_alt8.dds"
+			"gfx/models/portraits/pony_earth/maud_pie/maud_pie_alt9.dds"
+			"gfx/models/portraits/pony_earth/maud_pie/maud_pie_alt10.dds"
+			"gfx/models/portraits/pony_earth/maud_pie/maud_pie_alt11.dds"
+			"gfx/models/portraits/pony_earth/maud_pie/maud_pie_alt12.dds"
+		}
+
+		custom_attachment_label = "HAIR_COLOR"
+	}
+
 	mtrspony_pony_earth_babs_seed = {
 		entity = "portrait_dummy_20p_left_entity"
 		clothes_selector = "mtrspony_no_clothes_selector"
@@ -52,7 +77,7 @@ portraits = {
 
 portrait_groups = {
 	mtrspony_pony_earth = {
-		default = mtrspony_pony_earth_babs_seed
+		default = mtrspony_pony_earth_maud_pie
 		game_setup = {
 			add = {
 				trigger = {
@@ -77,6 +102,7 @@ portrait_groups = {
 					}
 				}
 				portraits = {
+					mtrspony_pony_earth_maud_pie
 					mtrspony_pony_earth_babs_seed
 				}
 			}
@@ -89,6 +115,7 @@ portrait_groups = {
 					NOT = { species = { species_gender = male } }
 				}
 				portraits = {
+					mtrspony_pony_earth_maud_pie
 					mtrspony_pony_earth_babs_seed
 				}
 			}
@@ -109,6 +136,7 @@ portrait_groups = {
 					NOT = { species = { species_gender = male } }
 				}
 				portraits = {
+					mtrspony_pony_earth_maud_pie
 					mtrspony_pony_earth_babs_seed
 				}
 			}
@@ -139,6 +167,7 @@ portrait_groups = {
 					gender = indeterminable
 				}
 				portraits = {
+					mtrspony_pony_earth_maud_pie
 					mtrspony_pony_earth_babs_seed
 				}
 			}
