@@ -4,7 +4,7 @@ portraits = {
 
 portrait_groups = {
 	mtrspony_pony = {
-		default = mtrspony_pony_pegasus_mr_shy
+		default = mtrspony_pony_earth_big_mcintosh
 		game_setup = {
 			add = {
 				trigger = {
@@ -16,6 +16,7 @@ portrait_groups = {
 					}
 				}
 				portraits = {
+					mtrspony_pony_earth_big_mcintosh
 					mtrspony_pony_earth_button_mash
 					mtrspony_pony_unicorn_shining_armor
 					mtrspony_pony_pegasus_mr_shy
@@ -64,6 +65,7 @@ portrait_groups = {
 					NOT = { species = { species_gender = female } }
 				}
 				portraits = {
+					mtrspony_pony_earth_big_mcintosh
 					mtrspony_pony_earth_button_mash
 					mtrspony_pony_unicorn_shining_armor
 					mtrspony_pony_pegasus_mr_shy
@@ -91,6 +93,7 @@ portrait_groups = {
 					NOT = { species = { species_gender = female } }
 				}
 				portraits = {
+					mtrspony_pony_earth_big_mcintosh
 					mtrspony_pony_earth_button_mash
 					mtrspony_pony_unicorn_shining_armor
 					mtrspony_pony_pegasus_mr_shy
@@ -105,6 +108,7 @@ portrait_groups = {
 					gender = indeterminable
 				}
 				portraits = {
+					mtrspony_pony_earth_big_mcintosh
 					mtrspony_pony_earth_button_mash
 					mtrspony_pony_unicorn_shining_armor
 					mtrspony_pony_pegasus_mr_shy
