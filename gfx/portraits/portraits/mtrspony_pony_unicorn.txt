@@ -47,6 +47,30 @@ portraits = {
 		custom_attachment_label = "HAIR_COLOR"
 	}
 
+	mtrspony_pony_unicorn_twilight_velvet = {
+		entity = "portrait_dummy_20p_left_entity"
+		clothes_selector = "mtrspony_no_clothes_selector"
+		attachment_selector = "mtrspony_pony_unicorn_twilight_velvet_hair_selector"
+		greeting_sound = "human_female_greetings_01"
+
+		character_textures = {
+			"gfx/models/portraits/pony_unicorn/twilight_velvet/twilight_velvet.dds"
+			"gfx/models/portraits/pony_unicorn/twilight_velvet/twilight_velvet_alt1.dds"
+			"gfx/models/portraits/pony_unicorn/twilight_velvet/twilight_velvet_alt2.dds"
+			"gfx/models/portraits/pony_unicorn/twilight_velvet/twilight_velvet_alt3.dds"
+			"gfx/models/portraits/pony_unicorn/twilight_velvet/twilight_velvet_alt4.dds"
+			"gfx/models/portraits/pony_unicorn/twilight_velvet/twilight_velvet_alt5.dds"
+			"gfx/models/portraits/pony_unicorn/twilight_velvet/twilight_velvet_alt6.dds"
+			"gfx/models/portraits/pony_unicorn/twilight_velvet/twilight_velvet_alt7.dds"
+			"gfx/models/portraits/pony_unicorn/twilight_velvet/twilight_velvet_alt8.dds"
+			"gfx/models/portraits/pony_unicorn/twilight_velvet/twilight_velvet_alt9.dds"
+			"gfx/models/portraits/pony_unicorn/twilight_velvet/twilight_velvet_alt10.dds"
+			"gfx/models/portraits/pony_unicorn/twilight_velvet/twilight_velvet_alt11.dds"
+		}
+
+		custom_attachment_label = "HAIR_COLOR"
+	}
+
 	mtrspony_pony_unicorn_sweetie_belle_older = {
 		entity = "portrait_dummy_20p_left_90p_scale_entity"
 		clothes_selector = "mtrspony_no_clothes_selector"
@@ -101,6 +125,7 @@ portrait_groups = {
 				}
 				portraits = {
 					mtrspony_pony_unicorn_twilight_sparkle
+					mtrspony_pony_unicorn_twilight_velvet
 					mtrspony_pony_unicorn_sweetie_belle_older
 				}
 			}
@@ -114,6 +139,7 @@ portrait_groups = {
 				}
 				portraits = {
 					mtrspony_pony_unicorn_twilight_sparkle
+					mtrspony_pony_unicorn_twilight_velvet
 					mtrspony_pony_unicorn_sweetie_belle_older
 				}
 			}
@@ -135,6 +161,7 @@ portrait_groups = {
 				}
 				portraits = {
 					mtrspony_pony_unicorn_twilight_sparkle
+					mtrspony_pony_unicorn_twilight_velvet
 					mtrspony_pony_unicorn_sweetie_belle_older
 				}
 			}
@@ -166,6 +193,7 @@ portrait_groups = {
 				}
 				portraits = {
 					mtrspony_pony_unicorn_twilight_sparkle
+					mtrspony_pony_unicorn_twilight_velvet
 					mtrspony_pony_unicorn_sweetie_belle_older
 				}
 			}
