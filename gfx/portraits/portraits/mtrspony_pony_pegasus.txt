@@ -46,11 +46,35 @@ portraits = {
 
 		custom_attachment_label = "HAIR_COLOR"
 	}
+
+	mtrspony_pony_pegasus_scootaloo = {
+		entity = "portrait_dummy_20p_left_entity"
+		clothes_selector = "mtrspony_no_clothes_selector"
+		attachment_selector = "mtrspony_pony_pegasus_scootaloo_hair_selector"
+		greeting_sound = "human_female_greetings_01"
+
+		character_textures = {
+			"gfx/models/portraits/pony_pegasus/scootaloo/scootaloo.dds"
+			"gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_alt1.dds"
+			"gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_alt2.dds"
+			"gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_alt3.dds"
+			"gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_alt4.dds"
+			"gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_alt5.dds"
+			"gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_alt6.dds"
+			"gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_alt7.dds"
+			"gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_alt8.dds"
+			"gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_alt9.dds"
+			"gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_alt10.dds"
+			"gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_alt11.dds"
+		}
+
+		custom_attachment_label = "HAIR_COLOR"
+	}
 }
 
 portrait_groups = {
 	mtrspony_pony_pegasus = {
-		default = mtrspony_pony_pegasus_mrs_shy
+		default = mtrspony_pony_pegasus_scootaloo
 		game_setup = {
 			add = {
 				trigger = {
@@ -76,6 +100,7 @@ portrait_groups = {
 				}
 				portraits = {
 					mtrspony_pony_pegasus_mrs_shy
+					mtrspony_pony_pegasus_scootaloo
 				}
 			}
 		}		
@@ -88,6 +113,7 @@ portrait_groups = {
 				}
 				portraits = {
 					mtrspony_pony_pegasus_mrs_shy
+					mtrspony_pony_pegasus_scootaloo
 				}
 			}
 			add = {
@@ -108,6 +134,7 @@ portrait_groups = {
 				}
 				portraits = {
 					mtrspony_pony_pegasus_mrs_shy
+					mtrspony_pony_pegasus_scootaloo
 				}
 			}
 			add = {
@@ -138,6 +165,7 @@ portrait_groups = {
 				}
 				portraits = {
 					mtrspony_pony_pegasus_mrs_shy
+					mtrspony_pony_pegasus_scootaloo
 				}
 			}
 		}
