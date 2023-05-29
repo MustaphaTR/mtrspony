@@ -55,7 +55,7 @@ portrait_groups = {
 					mtrspony_kirin_rain_shine
 				}
 			}
-		}		
+		}
 
 		species = {
 			add = {
@@ -76,7 +76,7 @@ portrait_groups = {
 					
 				}
 			}
-		}		
+		}
 
 		pop = {
 			add = {
@@ -99,9 +99,11 @@ portrait_groups = {
 
 		leader = {
 			set = {
-				OR = {
-					gender = male
-					gender = indeterminable
+				trigger = {
+					OR = {
+						gender = male
+						gender = indeterminable
+					}
 				}
 				portraits = {
 					
@@ -109,9 +111,11 @@ portrait_groups = {
 			}
 
 			set = {
-				OR = {
-					gender = female
-					gender = indeterminable
+				trigger = {
+					OR = {
+						gender = female
+						gender = indeterminable
+					}
 				}
 				portraits = {
 					mtrspony_kirin_rain_shine

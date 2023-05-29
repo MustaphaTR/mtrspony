@@ -43,7 +43,7 @@ portrait_groups = {
 					mtrspony_pony_alicorn_apple_bloom
 				}
 			}
-		}		
+		}
 
 		species = {
 			add = {
@@ -75,7 +75,7 @@ portrait_groups = {
 					mtrspony_pony_pegasus_mr_shy
 				}
 			}
-		}		
+		}
 
 		pop = {
 			add = {
@@ -109,9 +109,11 @@ portrait_groups = {
 
 		leader = {
 			set = {
-				OR = {
-					gender = male
-					gender = indeterminable
+				trigger = {
+					OR = {
+						gender = male
+						gender = indeterminable
+					}
 				}
 				portraits = {
 					mtrspony_pony_earth_big_mcintosh
@@ -122,9 +124,11 @@ portrait_groups = {
 			}
 
 			set = {
-				OR = {
-					gender = female
-					gender = indeterminable
+				trigger = {
+					OR = {
+						gender = female
+						gender = indeterminable
+					}
 				}
 				portraits = {
 					mtrspony_pony_earth_maud_pie

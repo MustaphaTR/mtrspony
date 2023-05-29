@@ -129,7 +129,7 @@ portrait_groups = {
 					mtrspony_pony_unicorn_sweetie_belle_older
 				}
 			}
-		}		
+		}
 
 		species = {
 			add = {
@@ -152,7 +152,7 @@ portrait_groups = {
 					mtrspony_pony_unicorn_shining_armor
 				}
 			}
-		}		
+		}
 
 		pop = {
 			add = {
@@ -177,9 +177,11 @@ portrait_groups = {
 
 		leader = {
 			set = {
-				OR = {
-					gender = male
-					gender = indeterminable
+				trigger = {
+					OR = {
+						gender = male
+						gender = indeterminable
+					}
 				}
 				portraits = {
 					mtrspony_pony_unicorn_shining_armor
@@ -187,9 +189,11 @@ portrait_groups = {
 			}
 
 			set = {
-				OR = {
-					gender = female
-					gender = indeterminable
+				trigger = {
+					OR = {
+						gender = female
+						gender = indeterminable
+					}
 				}
 				portraits = {
 					mtrspony_pony_unicorn_twilight_sparkle

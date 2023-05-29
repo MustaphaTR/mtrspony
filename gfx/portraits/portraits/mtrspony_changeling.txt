@@ -50,7 +50,7 @@ portrait_groups = {
 					
 				}
 			}
-		}		
+		}
 
 		species = {
 			add = {
@@ -71,7 +71,7 @@ portrait_groups = {
 					mtrspony_changeling_thorax
 				}
 			}
-		}		
+		}
 
 		pop = {
 			add = {
@@ -94,9 +94,11 @@ portrait_groups = {
 
 		leader = {
 			set = {
-				OR = {
-					gender = male
-					gender = indeterminable
+				trigger = {
+					OR = {
+						gender = male
+						gender = indeterminable
+					}
 				}
 				portraits = {
 					mtrspony_changeling_thorax
@@ -104,9 +106,11 @@ portrait_groups = {
 			}
 
 			set = {
-				OR = {
-					gender = female
-					gender = indeterminable
+				trigger = {
+					OR = {
+						gender = female
+						gender = indeterminable
+					}
 				}
 				portraits = {
 					
