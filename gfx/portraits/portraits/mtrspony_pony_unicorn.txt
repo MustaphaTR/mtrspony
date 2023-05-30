@@ -71,6 +71,32 @@ portraits = {
 		custom_attachment_label = "HAIR_COLOR"
 	}
 
+	mtrspony_pony_unicorn_sugar_belle = {
+		entity = "portrait_dummy_20p_left_entity"
+		clothes_selector = "mtrspony_pony_unicorn_sugar_belle_clothes_selector"
+		attachment_selector = "mtrspony_pony_unicorn_sugar_belle_hair_selector"
+		greeting_sound = "human_female_greetings_01"
+
+		character_textures = {
+			"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle.dds"
+			"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_alt1.dds"
+			"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_alt2.dds"
+			"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_alt3.dds"
+			"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_alt4.dds"
+			"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_alt5.dds"
+			"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_alt6.dds"
+			"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_alt7.dds"
+			"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_alt8.dds"
+			"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_alt9.dds"
+			"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_alt10.dds"
+			"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_alt11.dds"
+			"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_alt12.dds"
+			"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_alt13.dds"
+		}
+
+		custom_attachment_label = "HAIR_COLOR"
+	}
+
 	mtrspony_pony_unicorn_sweetie_belle_older_predefined = {
 		entity = "portrait_dummy_20p_left_90p_scale_entity"
 		clothes_selector = "mtrspony_no_clothes_selector"
@@ -137,6 +163,7 @@ portrait_groups = {
 				portraits = {
 					mtrspony_pony_unicorn_twilight_sparkle
 					mtrspony_pony_unicorn_twilight_velvet
+					mtrspony_pony_unicorn_sugar_belle
 					mtrspony_pony_unicorn_sweetie_belle_older
 				}
 			}
@@ -151,6 +178,7 @@ portrait_groups = {
 				portraits = {
 					mtrspony_pony_unicorn_twilight_sparkle
 					mtrspony_pony_unicorn_twilight_velvet
+					mtrspony_pony_unicorn_sugar_belle
 					mtrspony_pony_unicorn_sweetie_belle_older
 				}
 			}
@@ -173,6 +201,7 @@ portrait_groups = {
 				portraits = {
 					mtrspony_pony_unicorn_twilight_sparkle
 					mtrspony_pony_unicorn_twilight_velvet
+					mtrspony_pony_unicorn_sugar_belle
 					mtrspony_pony_unicorn_sweetie_belle_older
 				}
 			}
@@ -209,6 +238,7 @@ portrait_groups = {
 				portraits = {
 					mtrspony_pony_unicorn_twilight_sparkle
 					mtrspony_pony_unicorn_twilight_velvet
+					mtrspony_pony_unicorn_sugar_belle
 					mtrspony_pony_unicorn_sweetie_belle_older
 				}
 			}

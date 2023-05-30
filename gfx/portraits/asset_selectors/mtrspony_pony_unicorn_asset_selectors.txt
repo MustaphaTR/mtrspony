@@ -211,6 +211,160 @@ mtrspony_pony_unicorn_twilight_velvet_hair_selector = {
 	}
 }
 
+mtrspony_pony_unicorn_sugar_belle_hair_selector = {
+	default = "gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_hair.dds"
+
+	game_setup = {
+		default = "gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_hair.dds"
+	}
+
+	species = {
+		default = "gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_hair.dds"
+	}
+
+	pop = {
+		default = "gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_hair.dds"
+
+		random = {
+			list = {
+				"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_hair.dds"
+				"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_hair_alt1.dds"
+				"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_hair_alt2.dds"
+				"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_hair_alt3.dds"
+				"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_hair_alt4.dds"
+				"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_hair_alt5.dds"
+				"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_hair_alt6.dds"
+				"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_hair_alt7.dds"
+				"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_hair_alt8.dds"
+				"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_hair_alt9.dds"
+				"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_hair_alt10.dds"
+				"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_hair_alt11.dds"
+				"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_hair_alt12.dds"
+				"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_hair_alt13.dds"
+				"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_hair_alt14.dds"
+			}
+		}
+	}
+
+	leader = {
+		random = {
+			list = {
+				"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_hair.dds"
+				"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_hair_alt1.dds"
+				"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_hair_alt2.dds"
+				"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_hair_alt3.dds"
+				"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_hair_alt4.dds"
+				"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_hair_alt5.dds"
+				"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_hair_alt6.dds"
+				"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_hair_alt7.dds"
+				"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_hair_alt8.dds"
+				"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_hair_alt9.dds"
+				"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_hair_alt10.dds"
+				"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_hair_alt11.dds"
+				"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_hair_alt12.dds"
+				"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_hair_alt13.dds"
+				"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_hair_alt14.dds"
+			}
+		}
+	}
+
+	ruler = {
+		random = {
+			list = {
+				"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_hair.dds"
+				"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_hair_alt1.dds"
+				"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_hair_alt2.dds"
+				"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_hair_alt3.dds"
+				"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_hair_alt4.dds"
+				"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_hair_alt5.dds"
+				"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_hair_alt6.dds"
+				"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_hair_alt7.dds"
+				"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_hair_alt8.dds"
+				"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_hair_alt9.dds"
+				"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_hair_alt10.dds"
+				"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_hair_alt11.dds"
+				"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_hair_alt12.dds"
+				"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_hair_alt13.dds"
+				"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_hair_alt14.dds"
+			}
+		}		
+	}
+}
+
+mtrspony_pony_unicorn_sugar_belle_clothes_selector = {
+	default = "gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_hairclips.dds"
+
+	game_setup = {
+		default = "gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_hairclips.dds"
+	}
+
+	species = {
+		default = "gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_hairclips.dds"
+	}
+
+	pop = {
+		default = "gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_hairclips.dds"
+
+		random = {
+			list = {
+				"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_hairclips.dds"
+				"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_hairclips_alt1.dds"
+				"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_hairclips_alt2.dds"
+				"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_hairclips_alt3.dds"
+				"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_hairclips_alt4.dds"
+				"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_hairclips_alt5.dds"
+				"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_hairclips_alt6.dds"
+				"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_hairclips_alt7.dds"
+				"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_hairclips_alt8.dds"
+				"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_hairclips_alt9.dds"
+				"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_hairclips_alt10.dds"
+				"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_hairclips_alt11.dds"
+				"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_hairclips_alt12.dds"
+			}
+		}
+	}
+
+	leader = {
+		random = {
+			list = {
+				"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_hairclips.dds"
+				"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_hairclips_alt1.dds"
+				"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_hairclips_alt2.dds"
+				"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_hairclips_alt3.dds"
+				"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_hairclips_alt4.dds"
+				"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_hairclips_alt5.dds"
+				"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_hairclips_alt6.dds"
+				"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_hairclips_alt7.dds"
+				"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_hairclips_alt8.dds"
+				"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_hairclips_alt9.dds"
+				"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_hairclips_alt10.dds"
+				"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_hairclips_alt11.dds"
+				"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_hairclips_alt12.dds"
+			}
+		}
+	}
+
+	ruler = {
+		random = {
+			list = {
+				"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_hairclips.dds"
+				"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_hairclips_alt1.dds"
+				"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_hairclips_alt2.dds"
+				"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_hairclips_alt3.dds"
+				"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_hairclips_alt4.dds"
+				"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_hairclips_alt5.dds"
+				"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_hairclips_alt6.dds"
+				"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_hairclips_alt7.dds"
+				"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_hairclips_alt8.dds"
+				"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_hairclips_alt9.dds"
+				"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_hairclips_alt10.dds"
+				"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_hairclips_alt11.dds"
+				"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_hairclips_alt12.dds"
+			}
+		}		
+	}
+}
+
 mtrspony_pony_unicorn_sweetie_belle_older_predefined_hair_selector = {
 	default = "gfx/models/portraits/pony_unicorn/sweetie_belle_older/sweetie_belle_older_hair.dds"
 
