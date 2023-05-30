@@ -97,9 +97,11 @@ portrait_groups = {
 
 		leader = {
 			add = {
-				OR = {
-					gender = male
-					gender = indeterminable
+				trigger = {
+					OR = {
+						gender = male
+						gender = indeterminable
+					}
 				}
 				portraits = {
 					
