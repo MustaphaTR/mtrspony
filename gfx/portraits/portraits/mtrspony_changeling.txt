@@ -93,7 +93,7 @@ portrait_groups = {
 		}
 
 		leader = {
-			set = {
+			add = {
 				trigger = {
 					OR = {
 						gender = male
@@ -105,7 +105,7 @@ portrait_groups = {
 				}
 			}
 
-			set = {
+			add = {
 				trigger = {
 					OR = {
 						gender = female
