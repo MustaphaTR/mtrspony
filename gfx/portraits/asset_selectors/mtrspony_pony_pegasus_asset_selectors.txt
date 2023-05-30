@@ -88,6 +88,7 @@ mtrspony_pony_pegasus_mr_shy_hair_selector = {
 				"gfx/models/portraits/pony_pegasus/mr_shy/mr_shy_hair_alt9.dds"
 				"gfx/models/portraits/pony_pegasus/mr_shy/mr_shy_hair_alt10.dds"
 				"gfx/models/portraits/pony_pegasus/mr_shy/mr_shy_hair_alt11.dds"
+				"gfx/models/portraits/pony_pegasus/mr_shy/mr_shy_hair_alt12.dds"
 				"gfx/models/portraits/pony_pegasus/mr_shy/mr_shy_hair_no_moustache.dds"
 				"gfx/models/portraits/pony_pegasus/mr_shy/mr_shy_hair_no_moustache_alt1.dds"
 				"gfx/models/portraits/pony_pegasus/mr_shy/mr_shy_hair_no_moustache_alt2.dds"
@@ -100,6 +101,7 @@ mtrspony_pony_pegasus_mr_shy_hair_selector = {
 				"gfx/models/portraits/pony_pegasus/mr_shy/mr_shy_hair_no_moustache_alt9.dds"
 				"gfx/models/portraits/pony_pegasus/mr_shy/mr_shy_hair_no_moustache_alt10.dds"
 				"gfx/models/portraits/pony_pegasus/mr_shy/mr_shy_hair_no_moustache_alt11.dds"
+				"gfx/models/portraits/pony_pegasus/mr_shy/mr_shy_hair_no_moustache_alt12.dds"
 			}
 		}		
 	}
