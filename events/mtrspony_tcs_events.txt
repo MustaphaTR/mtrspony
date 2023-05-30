@@ -12,12 +12,15 @@ country_event = {
 	immediate = {
 		create_leader = {
 			name = "PRESCRIPTED_ruler_name_sweetie_belle"
+			custom_description = "PRESCRIPTED_ruler_name_sweetie_belle_desc"
 			species = ROOT.species
 			gender = female
 			class = scientist
-			skill = 1
+			skill = 2
 			set_age = 281
 			immortal = yes
+			background_ethic = "ethic_xenophile"
+			randomize_traits = no
 			traits = {
 				trait = leader_trait_expertise_field_manipulation
 				trait = trait_ruler_eye_for_talent
@@ -26,19 +29,22 @@ country_event = {
 			effect = {
 				save_event_target_as = leader_sweetie_belle
 				set_leader_flag = is_created_leader
-				change_leader_portrait = "sb"
+				change_leader_portrait = "mtrspony_pony_unicorn_sweetie_belle_older_predefined"
 				ROOT = { assign_leader = event_target:leader_sweetie_belle }
 			}
 		}
 
 		create_leader = {
 			name = "PRESCRIPTED_ruler_name_apple_bloom"
+			custom_description = "PRESCRIPTED_ruler_name_apple_bloom_desc"
 			species = ROOT.species
 			gender = female
 			class = scientist
-			skill = 1
+			skill = 2
 			set_age = 281
 			immortal = yes
+			background_ethic = "ethic_egalitarian"
+			randomize_traits = no
 			traits = {
 				trait = leader_trait_expertise_industry
 				trait = trait_ruler_eye_for_talent
@@ -47,17 +53,20 @@ country_event = {
 			effect = {
 				save_event_target_as = leader_apple_bloom
 				set_leader_flag = is_created_leader
-				change_leader_portrait = "ab_alicorn"
+				change_leader_portrait = "mtrspony_pony_alicorn_apple_bloom_predefined"
 			}
 		}
 		create_leader = {
 			name = "PRESCRIPTED_ruler_name_scootaloo"
+			custom_description = "PRESCRIPTED_ruler_name_scootaloo_desc"
 			species = ROOT.species
 			gender = female
 			class = admiral
-			skill = 1
+			skill = 2
 			set_age = 281
 			immortal = yes
+			background_ethic = "ethic_militarist"
+			randomize_traits = no
 			traits = {
 				trait = leader_trait_cyborg
 				trait = leader_trait_scout
@@ -67,18 +76,21 @@ country_event = {
 			effect = {
 				save_event_target_as = leader_scootaloo
 				set_leader_flag = is_created_leader
-				change_leader_portrait = "sc_1"
+				change_leader_portrait = "mtrspony_pony_pegasus_scootaloo_predefined"
 				ROOT = { random_owned_fleet = { assign_leader = event_target:leader_scootaloo } }
 			}
 		}
 		create_leader = {
 			name = "PRESCRIPTED_ruler_name_babs_seed"
+			custom_description = "PRESCRIPTED_ruler_name_babs_seed_desc"
 			species = ROOT.species
 			gender = female
 			class = governor
-			skill = 1
+			skill = 2
 			set_age = 281
 			immortal = yes
+			background_ethic = "ethic_egalitarian"
+			randomize_traits = no
 			traits = {
 				trait = leader_trait_urbanist
 				trait = leader_trait_trade_focus
@@ -87,7 +99,7 @@ country_event = {
 			effect = {
 				save_event_target_as = leader_babs_seed
 				set_leader_flag = is_created_leader
-				change_leader_portrait = "babs"
+				change_leader_portrait = "mtrspony_pony_earth_babs_seed_predefined"
 			}
 		}
 
@@ -95,9 +107,9 @@ country_event = {
 			name = "PRESCRIPTED_species_griffon"
 			plural = "PRESCRIPTED_species_plural_griffon"
 			adjective = "PRESCRIPTED_species_adjective_griffon"
-			class = mod_pony
-			portrait = PMOD_griffin
-			namelist = tsc_namelists_griffon
+			class = MTRSPONY
+			portrait = mtrspony_griffon
+			namelist = mtrspony_namelists_griffon
 			traits = {
 				trait = trait_pc_continental_preference
 				trait = trait_strong
@@ -114,9 +126,9 @@ country_event = {
 			name = "PRESCRIPTED_species_dragon"
 			plural = "PRESCRIPTED_species_plural_dragon"
 			adjective = "PRESCRIPTED_species_adjective_dragon"
-			class = mod_pony
-			portrait = PMOD_dragon
-			namelist = tsc_namelists_dragon
+			class = MTRSPONY
+			portrait = mtrspony_dragon
+			namelist = mtrspony_namelists_dragon
 			traits = {
 				trait = trait_pc_continental_preference
 				trait = trait_strong
@@ -135,9 +147,9 @@ country_event = {
 			name = "PRESCRIPTED_species_kirin"
 			plural = "PRESCRIPTED_species_plural_kirin"
 			adjective = "PRESCRIPTED_species_adjective_kirin"
-			class = mod_pony
-			portrait = PMOD_kirin
-			namelist = tsc_namelists_kirin
+			class = MTRSPONY
+			portrait = mtrspony_kirin
+			namelist = mtrspony_namelists_kirin
 			traits = {
 				trait = trait_pc_continental_preference
 				trait = trait_agrarian
@@ -155,9 +167,9 @@ country_event = {
 			name = "PRESCRIPTED_species_changeling"
 			plural = "PRESCRIPTED_species_plural_changeling"
 			adjective = "PRESCRIPTED_species_adjective_changeling"
-			class = mod_pony
-			portrait = PMOD_changeling
-			namelist = tsc_namelists_changeling
+			class = MTRSPONY
+			portrait = mtrspony_changeling
+			namelist = mtrspony_namelists_changeling
 			traits = {
 				trait = trait_pc_continental_preference
 				trait = trait_communal
@@ -241,12 +253,15 @@ country_event = {
 
 		create_leader = {
 			name = "PRESCRIPTED_ruler_name_gabby"
+			custom_description = "PRESCRIPTED_ruler_name_gabby_desc"
 			species = event_target:griffon_species
 			gender = female
 			class = governor
-			skill = 1
+			skill = 2
 			set_age = 285
 			immortal = yes
+			background_ethic = "ethic_xenophile"
+			randomize_traits = no
 			traits = {
 				trait = leader_trait_righteous
 				trait = leader_trait_utopian_idealist
@@ -285,16 +300,16 @@ country_event = {
 	}
 	immediate = {
 		#event_target:leader_sweetie_belle
-		#	change_leader_portrait = "sb"
+		#	change_leader_portrait = "mtrspony_pony_unicorn_sweetie_belle_older_predefined"
 		#}
 		#event_target:leader_apple_bloom
-		#	change_leader_portrait = "ab_alicorn"
+		#	change_leader_portrait = "mtrspony_pony_alicorn_apple_bloom_predefined"
 		#}
 		#event_target:leader_scootaloo
-		#	change_leader_portrait = "sc_1"
+		#	change_leader_portrait = "mtrspony_pony_pegasus_scootaloo_predefined"
 		#}
 		#event_target:leader_babs_seed
-		#	change_leader_portrait = "babs"
+		#	change_leader_portrait = "mtrspony_pony_earth_babs_seed_predefined"
 		#}
 		#event_target:leader_gabby
 		#	change_leader_portrait = "griffin_gab"
@@ -314,7 +329,7 @@ country_event = {
 				}
 			}
 		
-			change_leader_portrait = "sb"
+			change_leader_portrait = "mtrspony_pony_unicorn_sweetie_belle_older_predefined"
 		}
 		random_owned_leader = {
 			limit = {
@@ -330,7 +345,7 @@ country_event = {
 				}
 			}
 
-			change_leader_portrait = "ab_alicorn"
+			change_leader_portrait = "mtrspony_pony_alicorn_apple_bloom_predefined"
 		}
 		random_owned_leader = {
 			limit = {
@@ -347,7 +362,7 @@ country_event = {
 				}
 			}
 
-			change_leader_portrait = "sc_1"
+			change_leader_portrait = "mtrspony_pony_pegasus_scootaloo_predefined"
 		}
 		random_owned_leader = {
 			limit = {
@@ -363,7 +378,7 @@ country_event = {
 				}
 			}
 
-			change_leader_portrait = "babs"
+			change_leader_portrait = "mtrspony_pony_earth_babs_seed_predefined"
 		}
 		random_owned_leader = {
 			limit = {

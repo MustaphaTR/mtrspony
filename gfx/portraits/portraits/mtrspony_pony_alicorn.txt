@@ -25,6 +25,17 @@ portraits = {
 		custom_attachment_label = "HAIR_COLOR"
 	}
 
+	mtrspony_pony_alicorn_apple_bloom_predefined = {
+		entity = "portrait_dummy_centered_entity"
+		clothes_selector = "mtrspony_pony_alicorn_apple_bloom_predefined_clothes_selector"
+		attachment_selector = "mtrspony_pony_alicorn_apple_bloom_predefined_hair_selector"
+		greeting_sound = "human_female_greetings_01"
+
+		character_textures = {
+			"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn.dds"
+		}
+	}
+
 	mtrspony_pony_alicorn_apple_bloom = {
 		entity = "portrait_dummy_centered_entity"
 		clothes_selector = "mtrspony_pony_alicorn_apple_bloom_clothes_selector"

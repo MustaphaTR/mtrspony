@@ -125,6 +125,16 @@ mtrspony_pony_alicorn_celestia_clothes_selector = {
 	}
 }
 
+mtrspony_pony_alicorn_apple_bloom_predefined_hair_selector = {
+	default = "gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_hair.dds"
+
+	game_setup = { default = "gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_hair.dds" }
+	species = { default = "gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_hair.dds" }
+	pop = { default = "gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_hair.dds" }
+	leader = { default = "gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_hair.dds" }
+	ruler = { default = "gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_hair.dds" }
+}
+
 mtrspony_pony_alicorn_apple_bloom_hair_selector = {
 	default = "gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_hair.dds"
 
@@ -197,6 +207,16 @@ mtrspony_pony_alicorn_apple_bloom_hair_selector = {
 			}
 		}		
 	}
+}
+
+mtrspony_pony_alicorn_apple_bloom_predefined_clothes_selector = {
+	default = "gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_bow.dds"
+
+	game_setup = { default = "gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_bow.dds" }
+	species = { default = "gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_bow.dds" }
+	pop = { default = "gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_bow.dds" }
+	leader = { default = "gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_bow.dds" }
+	ruler = { default = "gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_bow.dds" }
 }
 
 mtrspony_pony_alicorn_apple_bloom_clothes_selector = {
