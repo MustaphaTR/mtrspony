@@ -39,6 +39,7 @@ portrait_groups = {
 					mtrspony_pony_unicorn_sugar_belle
 					mtrspony_pony_unicorn_sweetie_belle_older
 					mtrspony_pony_pegasus_mrs_shy
+					mtrspony_pony_pegasus_fluttershy
 					mtrspony_pony_pegasus_scootaloo
 					mtrspony_pony_alicorn_celestia
 					mtrspony_pony_alicorn_apple_bloom
@@ -60,6 +61,7 @@ portrait_groups = {
 					mtrspony_pony_unicorn_sugar_belle
 					mtrspony_pony_unicorn_sweetie_belle_older
 					mtrspony_pony_pegasus_mrs_shy
+					mtrspony_pony_pegasus_fluttershy
 					mtrspony_pony_pegasus_scootaloo
 					mtrspony_pony_alicorn_celestia
 					mtrspony_pony_alicorn_apple_bloom
@@ -92,6 +94,7 @@ portrait_groups = {
 					mtrspony_pony_unicorn_sugar_belle
 					mtrspony_pony_unicorn_sweetie_belle_older
 					mtrspony_pony_pegasus_mrs_shy
+					mtrspony_pony_pegasus_fluttershy
 					mtrspony_pony_pegasus_scootaloo
 					mtrspony_pony_alicorn_celestia
 					mtrspony_pony_alicorn_apple_bloom
@@ -141,6 +144,7 @@ portrait_groups = {
 					mtrspony_pony_unicorn_sugar_belle
 					mtrspony_pony_unicorn_sweetie_belle_older
 					mtrspony_pony_pegasus_mrs_shy
+					mtrspony_pony_pegasus_fluttershy
 					mtrspony_pony_pegasus_scootaloo
 					mtrspony_pony_alicorn_celestia
 					mtrspony_pony_alicorn_apple_bloom

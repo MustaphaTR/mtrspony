@@ -47,6 +47,30 @@ portraits = {
 		custom_attachment_label = "HAIR_COLOR"
 	}
 
+	mtrspony_pony_pegasus_fluttershy = {
+		entity = "portrait_dummy_15p_left_entity"
+		clothes_selector = "mtrspony_no_clothes_selector"
+		attachment_selector = "mtrspony_pony_pegasus_fluttershy_hair_selector"
+		greeting_sound = "human_female_greetings_01"
+
+		character_textures = {
+			"gfx/models/portraits/pony_pegasus/fluttershy/fluttershy.dds"
+			"gfx/models/portraits/pony_pegasus/fluttershy/fluttershy_alt1.dds"
+			"gfx/models/portraits/pony_pegasus/fluttershy/fluttershy_alt2.dds"
+			"gfx/models/portraits/pony_pegasus/fluttershy/fluttershy_alt3.dds"
+			"gfx/models/portraits/pony_pegasus/fluttershy/fluttershy_alt4.dds"
+			"gfx/models/portraits/pony_pegasus/fluttershy/fluttershy_alt5.dds"
+			"gfx/models/portraits/pony_pegasus/fluttershy/fluttershy_alt6.dds"
+			"gfx/models/portraits/pony_pegasus/fluttershy/fluttershy_alt7.dds"
+			"gfx/models/portraits/pony_pegasus/fluttershy/fluttershy_alt8.dds"
+			"gfx/models/portraits/pony_pegasus/fluttershy/fluttershy_alt9.dds"
+			"gfx/models/portraits/pony_pegasus/fluttershy/fluttershy_alt10.dds"
+			"gfx/models/portraits/pony_pegasus/fluttershy/fluttershy_alt11.dds"
+		}
+
+		custom_attachment_label = "HAIR_COLOR"
+	}
+
 	mtrspony_pony_pegasus_scootaloo_predefined = {
 		entity = "portrait_dummy_20p_left_entity"
 		clothes_selector = "mtrspony_no_clothes_selector"
@@ -85,7 +109,7 @@ portraits = {
 
 portrait_groups = {
 	mtrspony_pony_pegasus = {
-		default = mtrspony_pony_pegasus_scootaloo
+		default = mtrspony_pony_pegasus_fluttershy
 		game_setup = {
 			add = {
 				trigger = {
@@ -111,6 +135,7 @@ portrait_groups = {
 				}
 				portraits = {
 					mtrspony_pony_pegasus_mrs_shy
+					mtrspony_pony_pegasus_fluttershy
 					mtrspony_pony_pegasus_scootaloo
 				}
 			}
@@ -124,6 +149,7 @@ portrait_groups = {
 				}
 				portraits = {
 					mtrspony_pony_pegasus_mrs_shy
+					mtrspony_pony_pegasus_fluttershy
 					mtrspony_pony_pegasus_scootaloo
 				}
 			}
@@ -145,6 +171,7 @@ portrait_groups = {
 				}
 				portraits = {
 					mtrspony_pony_pegasus_mrs_shy
+					mtrspony_pony_pegasus_fluttershy
 					mtrspony_pony_pegasus_scootaloo
 				}
 			}
@@ -180,6 +207,7 @@ portrait_groups = {
 				}
 				portraits = {
 					mtrspony_pony_pegasus_mrs_shy
+					mtrspony_pony_pegasus_fluttershy
 					mtrspony_pony_pegasus_scootaloo
 				}
 			}
