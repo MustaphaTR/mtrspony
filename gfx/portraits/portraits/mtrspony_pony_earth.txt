@@ -23,6 +23,30 @@ portraits = {
 		custom_attachment_label = "HAIR_COLOR"
 	}
 
+	mtrspony_pony_earth_mudbriar = {
+		entity = "portrait_dummy_20p_left_entity"
+		clothes_selector = "mtrspony_no_clothes_selector"
+		attachment_selector = "mtrspony_pony_earth_mudbriar_hair_selector"
+		greeting_sound = "human_male_greetings_01"
+
+		character_textures = {
+			"gfx/models/portraits/pony_earth/mudbriar/mudbriar.dds"
+			"gfx/models/portraits/pony_earth/mudbriar/mudbriar_alt1.dds"
+			"gfx/models/portraits/pony_earth/mudbriar/mudbriar_alt2.dds"
+			"gfx/models/portraits/pony_earth/mudbriar/mudbriar_alt3.dds"
+			"gfx/models/portraits/pony_earth/mudbriar/mudbriar_alt4.dds"
+			"gfx/models/portraits/pony_earth/mudbriar/mudbriar_alt5.dds"
+			"gfx/models/portraits/pony_earth/mudbriar/mudbriar_alt6.dds"
+			"gfx/models/portraits/pony_earth/mudbriar/mudbriar_alt7.dds"
+			"gfx/models/portraits/pony_earth/mudbriar/mudbriar_alt8.dds"
+			"gfx/models/portraits/pony_earth/mudbriar/mudbriar_alt9.dds"
+			"gfx/models/portraits/pony_earth/mudbriar/mudbriar_alt10.dds"
+			"gfx/models/portraits/pony_earth/mudbriar/mudbriar_alt11.dds"
+		}
+
+		custom_attachment_label = "HAIR_COLOR"
+	}
+
 	mtrspony_pony_earth_button_mash = {
 		entity = "portrait_dummy_20p_left_entity"
 		clothes_selector = "mtrspony_pony_earth_button_mash_clothes_selector"
@@ -125,6 +149,7 @@ portrait_groups = {
 				}
 				portraits = {
 					mtrspony_pony_earth_big_mcintosh
+					mtrspony_pony_earth_mudbriar
 					mtrspony_pony_earth_button_mash
 				}
 			}
@@ -162,6 +187,7 @@ portrait_groups = {
 				}
 				portraits = {
 					mtrspony_pony_earth_big_mcintosh
+					mtrspony_pony_earth_mudbriar
 					mtrspony_pony_earth_button_mash
 				}
 			}
@@ -183,6 +209,7 @@ portrait_groups = {
 				}
 				portraits = {
 					mtrspony_pony_earth_big_mcintosh
+					mtrspony_pony_earth_mudbriar
 					mtrspony_pony_earth_button_mash
 				}
 			}
@@ -198,6 +225,7 @@ portrait_groups = {
 				}
 				portraits = {
 					mtrspony_pony_earth_big_mcintosh
+					mtrspony_pony_earth_mudbriar
 					mtrspony_pony_earth_button_mash
 				}
 			}
