@@ -30,6 +30,7 @@ country_event = {
 				save_event_target_as = leader_sweetie_belle
 				set_leader_flag = is_created_leader
 				change_leader_portrait = "mtrspony_pony_unicorn_sweetie_belle_older_predefined"
+				change_background_job = head_researcher
 				ROOT = { assign_leader = event_target:leader_sweetie_belle }
 			}
 		}
@@ -54,6 +55,7 @@ country_event = {
 				save_event_target_as = leader_apple_bloom
 				set_leader_flag = is_created_leader
 				change_leader_portrait = "mtrspony_pony_alicorn_apple_bloom_predefined"
+				change_background_job = farmer
 				set_council_position = councilor_research
 			}
 		}
@@ -79,6 +81,7 @@ country_event = {
 				set_leader_flag = is_created_leader
 				change_leader_portrait = "mtrspony_pony_pegasus_scootaloo_predefined"
 				ROOT = { random_owned_fleet = { assign_leader = event_target:leader_scootaloo } }
+				change_background_job = commanding_officer
 				set_council_position = councilor_defense
 			}
 		}
@@ -101,6 +104,7 @@ country_event = {
 			effect = {
 				save_event_target_as = leader_babs_seed
 				set_leader_flag = is_created_leader
+				change_background_job = hairdresser
 				change_leader_portrait = "mtrspony_pony_earth_babs_seed_predefined"
 			}
 		}
@@ -273,6 +277,7 @@ country_event = {
 				save_event_target_as = leader_gabby
 				set_leader_flag = is_created_leader
 				change_leader_portrait = "griffin_gab"
+				change_background_job = mailgriffon
 				ROOT = { capital_scope = { assign_leader = event_target:leader_gabby } }
 			}
 		}

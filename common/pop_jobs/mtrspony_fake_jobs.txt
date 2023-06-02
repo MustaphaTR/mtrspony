@@ -1,0 +1,6 @@
+###########################
+# BACKGROUND JOBS FOR CMC #
+###########################
+
+hairdresser = { icon = colonist possible = { always = no } }
+mailgriffon = { icon = colonist possible = { always = no } }
