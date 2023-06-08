@@ -124,7 +124,7 @@ portraits = {
 	}
 
 	mtrspony_pony_unicorn_sweetie_belle_older_predefined = {
-		entity = "portrait_dummy_20p_left_90p_scale_entity"
+		entity = "portrait_dummy_20p_left_scale_entity"
 		clothes_selector = "mtrspony_no_clothes_selector"
 		attachment_selector = "mtrspony_pony_unicorn_sweetie_belle_older_predefined_hair_selector"
 		greeting_sound = "human_female_greetings_01"
@@ -135,8 +135,8 @@ portraits = {
 	}
 
 	mtrspony_pony_unicorn_sweetie_belle_older = {
-		entity = "portrait_dummy_20p_left_90p_scale_entity"
-		clothes_selector = "mtrspony_no_clothes_selector"
+		entity = "portrait_dummy_20p_left_entity"
+		clothes_selector = "mtrspony_pony_unicorn_sweetie_belle_older_clothes_selector"
 		attachment_selector = "mtrspony_pony_unicorn_sweetie_belle_older_hair_selector"
 		greeting_sound = "human_female_greetings_01"
 
@@ -154,6 +154,7 @@ portraits = {
 			"gfx/models/portraits/pony_unicorn/sweetie_belle_older/sweetie_belle_older_alt10.dds"
 			"gfx/models/portraits/pony_unicorn/sweetie_belle_older/sweetie_belle_older_alt11.dds"
 			"gfx/models/portraits/pony_unicorn/sweetie_belle_older/sweetie_belle_older_alt12.dds"
+			"gfx/models/portraits/pony_unicorn/sweetie_belle_older/sweetie_belle_older_alt13.dds"
 		}
 
 		custom_attachment_label = "HAIR_COLOR"
@@ -162,7 +163,7 @@ portraits = {
 
 portrait_groups = {
 	mtrspony_pony_unicorn = {
-		default = mtrspony_pony_unicorn_rarity
+		default = mtrspony_pony_unicorn_sweetie_belle_older
 		game_setup = {
 			add = {
 				trigger = {
