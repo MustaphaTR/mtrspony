@@ -55,6 +55,13 @@ country_event = {
 				save_event_target_as = leader_apple_bloom
 				set_leader_flag = is_created_leader
 				change_leader_portrait = "mtrspony_pony_alicorn_apple_bloom_predefined"
+				ROOT = {
+					random_owned_fleet = {
+						limit = { is_ship_class = shipclass_science_ship }
+
+						assign_leader = PREVPREV
+					}
+				}
 				change_background_job = farmer
 				set_council_position = councilor_research
 			}
@@ -80,7 +87,13 @@ country_event = {
 				save_event_target_as = leader_scootaloo
 				set_leader_flag = is_created_leader
 				change_leader_portrait = "mtrspony_pony_pegasus_scootaloo_predefined"
-				ROOT = { random_owned_fleet = { assign_leader = event_target:leader_scootaloo } }
+				ROOT = {
+					random_owned_fleet = {
+						limit = { is_ship_class = shipclass_military }
+
+						assign_leader = PREVPREV
+					}
+				}
 				change_background_job = commanding_officer
 				set_council_position = councilor_defense
 			}
