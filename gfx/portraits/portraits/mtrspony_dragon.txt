@@ -1,4 +1,27 @@
 portraits = {
+	mtrspony_dragon_garble = {
+		entity = "portrait_dummy_centered_entity"
+		clothes_selector = "mtrspony_no_clothes_selector"
+		attachment_selector = "mtrspony_dragon_garble_hair_selector"
+		greeting_sound = "human_male_greetings_01"
+
+		character_textures = {
+			"gfx/models/portraits/dragon/garble/garble.dds"
+			"gfx/models/portraits/dragon/garble/garble_alt1.dds"
+			"gfx/models/portraits/dragon/garble/garble_alt2.dds"
+			"gfx/models/portraits/dragon/garble/garble_alt3.dds"
+			"gfx/models/portraits/dragon/garble/garble_alt4.dds"
+			"gfx/models/portraits/dragon/garble/garble_alt5.dds"
+			"gfx/models/portraits/dragon/garble/garble_alt6.dds"
+			"gfx/models/portraits/dragon/garble/garble_alt7.dds"
+			"gfx/models/portraits/dragon/garble/garble_alt8.dds"
+			"gfx/models/portraits/dragon/garble/garble_alt9.dds"
+			"gfx/models/portraits/dragon/garble/garble_alt10.dds"
+		}
+
+		custom_attachment_label = "HAIR_COLOR"
+	}
+
 	mtrspony_dragon_ember = {
 		entity = "portrait_dummy_centered_entity"
 		clothes_selector = "mtrspony_no_clothes_selector"
@@ -27,7 +50,7 @@ portraits = {
 
 portrait_groups = {
 	mtrspony_dragon = {
-		default = mtrspony_dragon_ember
+		default = mtrspony_dragon_garble
 		game_setup = {
 			add = {
 				trigger = {
@@ -39,7 +62,7 @@ portrait_groups = {
 					}
 				}
 				portraits = {
-					
+					mtrspony_dragon_garble
 				}
 			}
 			add = {
@@ -73,7 +96,7 @@ portrait_groups = {
 					NOT = { species = { species_gender = female } }
 				}
 				portraits = {
-					
+					mtrspony_dragon_garble
 				}
 			}
 		}
@@ -92,7 +115,7 @@ portrait_groups = {
 					NOT = { species = { species_gender = female } }
 				}
 				portraits = {
-					
+					mtrspony_dragon_garble
 				}
 			}
 		}
@@ -106,7 +129,7 @@ portrait_groups = {
 					}
 				}
 				portraits = {
-					
+					mtrspony_dragon_garble
 				}
 			}
 
