@@ -1,4 +1,28 @@
 portraits = {
+	mtrspony_griffon_gallus = {
+		entity = "portrait_dummy_20p_left_entity"
+		clothes_selector = "mtrspony_no_clothes_selector"
+		attachment_selector = "mtrspony_griffon_gallus_hair_selector"
+		greeting_sound = "human_male_greetings_01"
+
+		character_textures = {
+			"gfx/models/portraits/griffon/gallus/gallus.dds"
+			"gfx/models/portraits/griffon/gallus/gallus_alt1.dds"
+			"gfx/models/portraits/griffon/gallus/gallus_alt2.dds"
+			"gfx/models/portraits/griffon/gallus/gallus_alt3.dds"
+			"gfx/models/portraits/griffon/gallus/gallus_alt4.dds"
+			"gfx/models/portraits/griffon/gallus/gallus_alt5.dds"
+			"gfx/models/portraits/griffon/gallus/gallus_alt6.dds"
+			"gfx/models/portraits/griffon/gallus/gallus_alt7.dds"
+			"gfx/models/portraits/griffon/gallus/gallus_alt8.dds"
+			"gfx/models/portraits/griffon/gallus/gallus_alt9.dds"
+			"gfx/models/portraits/griffon/gallus/gallus_alt10.dds"
+			"gfx/models/portraits/griffon/gallus/gallus_alt11.dds"
+		}
+
+		custom_attachment_label = "HAIR_COLOR"
+	}
+
 	mtrspony_griffon_gilda = {
 		entity = "portrait_dummy_20p_left_entity"
 		clothes_selector = "mtrspony_no_clothes_selector"
@@ -25,7 +49,7 @@ portraits = {
 
 portrait_groups = {
 	mtrspony_griffon = {
-		default = mtrspony_griffon_gilda
+		default = mtrspony_griffon_gallus
 		game_setup = {
 			add = {
 				trigger = {
@@ -37,7 +61,7 @@ portrait_groups = {
 					}
 				}
 				portraits = {
-					
+					mtrspony_griffon_gallus
 				}
 			}
 			add = {
@@ -62,7 +86,7 @@ portrait_groups = {
 					NOT = { species = { species_gender = male } }
 				}
 				portraits = {
-					
+					mtrspony_griffon_gallus
 				}
 			}
 			add = {
@@ -82,7 +106,7 @@ portrait_groups = {
 					NOT = { species = { species_gender = male } }
 				}
 				portraits = {
-					
+					mtrspony_griffon_gallus
 				}
 			}
 			add = {
@@ -104,7 +128,7 @@ portrait_groups = {
 					}
 				}
 				portraits = {
-					
+					mtrspony_griffon_gallus
 				}
 			}
 

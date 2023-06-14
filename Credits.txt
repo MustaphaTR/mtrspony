@@ -8,6 +8,7 @@ Portrait Bases
 
  > dashiesparkle:
 	- Ember
+	- Gallus
 	- Gilda
 	- Thorax
 
