@@ -36,6 +36,7 @@ Portrait Bases
 
  > parclytaxel:
 	- Alicorn Apple Bloom
+	- Luna
 
  > thatusualguy06:
 	- Older Sweetie Belle
