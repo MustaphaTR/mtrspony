@@ -24,7 +24,7 @@ portraits = {
 	}
 
 	mtrspony_griffon_gabby_predefined = {
-		entity = "portrait_dummy_centered_entity"
+		entity = "portrait_dummy_20p_left_entity"
 		clothes_selector = "mtrspony_no_clothes_selector"
 		attachment_selector = "mtrspony_no_clothes_selector"
 		greeting_sound = "human_female_greetings_01"
