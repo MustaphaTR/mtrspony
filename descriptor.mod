@@ -3,8 +3,7 @@ tags={
 	"Species"
 }
 dependencies={
-	"Pony Mod"
 	"Gigastructural Engineering Home Systems & Flags (Standalone)"
 }
 name="MustaphaTR's Pony Mod"
-supported_version="3.8.1"
+supported_version="3.8.*"

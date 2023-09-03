@@ -28,6 +28,6 @@ MTRSPONY = {
 		"mtrspony_kirin"
 	}
 
-	graphical_culture = pmod_01
+	graphical_culture = mammalian_01 # pmod_01
 	move_pop_sound_effect = "moving_pop_confirmation"
 }

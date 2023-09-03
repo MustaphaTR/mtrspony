@@ -61,55 +61,75 @@
 		random_names = {
 			Wonderbolts Shadowbolts Thunderbolts Lightnings Crusaders Comets
 		}
-		sequential_name = "%O% Space Fleet"
+		sequential_name = mtrspony_namelists_pony_space_fleet
 	}
 
 	army_names = {
+		machine_defense = {
+			sequential_name = mtrspony_namelists_pony_defense_force
+		}
+
+		machine_assault_1 = {
+			sequential_name = mtrspony_namelists_pony_attack_force
+		}
+
+		machine_assault_2 = {
+			sequential_name = mtrspony_namelists_pony_attack_force
+		}
+
+		machine_assault_3 = {
+			sequential_name = mtrspony_namelists_pony_attack_force
+		}
+
 		defense_army = {
-			sequential_name = "%O% Defense Force"
+			sequential_name = mtrspony_namelists_pony_defense_force
 		}
 
 		assault_army = {
 			random_names = {
 				Harmony Equestria "Home Counties" Highland Canterlot Manehatten Magic Loyalty Kindness Laughter Honesty Generosity Baltimare Vanhoover "Trottingham Hotspur" Solar Lunar Blackadder Shire Friendship Hydra Everfree Manticore Sunbeam Bolt Horseshoe Sunflower Bales Vanhoover Ponyville Tall Tale Yonderhill The Brave Rockville Apples Pears Dodge City Stable The Green Bloom Spring Summer Fall Winter Fillydelphia Hoofington "Big Sisters" Workhorse Farmville Appleloosa Sunshine Moonshine Stableside Sirius Yucoltan Mareway "Hollow Shades" Nyx Nighttime Daytime Raspberry Winsome Whinnyapolis Marechester Yonderhill Mareposa Whitebell Strongheart Loveheart Acornage Fierce Diamond Fairflanks Acadia Applewood "Las Pegasus" Gambler "The Rocks" Rosemarein Badlands Sentry Ponydale Blum Malinovka Cranberry Strawberry Blueberry Redheart "The Reds" Trottingham "Up North" Goatcasus Wolfthorn Hayston Bronclyn Three Boroughs "Big Apple"
 			}
-			sequential_name = "%O% Attack Force"
+			sequential_name = mtrspony_namelists_pony_attack_force
 		}
 
 		slave_army = {
-			sequential_name = "%O% Slave Force"
+			sequential_name = mtrspony_namelists_pony_slave_force
 		}
 
 		clone_army = {
-			sequential_name = "%O% Mirror Force"
+			sequential_name = mtrspony_namelists_pony_mirror_force
+		}
+
+		undead_army = {
+			sequential_name = mtrspony_namelists_pony_dread_force
 		}
 
 		robotic_army = {
-			sequential_name = "%O% Drone Attack Force"
+			sequential_name = mtrspony_namelists_pony_drone_attack_force
 		}
 
 		robotic_defense_army = {
-			sequential_name = "%O% Drone Defense Force"
-		}
-
-		android_army = {
-			sequential_name = "%O% Android Attack Force"
-		}
-
-		android_defense_army = {
-			sequential_name = "%O% Android Defense Force"
+			sequential_name = mtrspony_namelists_pony_drone_defense_force
 		}
 
 		psionic_army = {
-			sequential_name = "%O% Psi-Corps Division"
+			sequential_name = mtrspony_namelists_pony_psi_corps_division
 		}
 
 		xenomorph_army = {
-			sequential_name = "%O% Monster Unit"
+			sequential_name = mtrspony_namelists_pony_monster_unit
 		}
 
 		gene_warrior_army = {
-			sequential_name = "%O% Supersoldiers"
+			sequential_name = mtrspony_namelists_pony_supersoldiers
+		}
+
+		occupation_army = {
+			sequential_name = mtrspony_namelists_pony_garrison_force
+		}
+
+		robotic_occupation_army = {
+			sequential_name = mtrspony_namelists_pony_drone_garrison_force
 		}
 	}
 

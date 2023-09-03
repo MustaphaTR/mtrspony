@@ -1,3 +1,5 @@
 ﻿l_english:
- hairdresser:"Hairdresser"
- mailgriffon:"Mailgriffon"
+ job_hairdresser:"Hairdresser"
+ job_hairdresser_desc:""
+ job_mailgriffon:"Mailgriffon"
+ job_mailgriffon_desc:""
