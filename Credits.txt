@@ -36,6 +36,7 @@ Portrait Bases
 
  > melisareb:
 	- Garble
+	- Male Pumpkin Smoke
 
  > parclytaxel:
 	- Alicorn Apple Bloom

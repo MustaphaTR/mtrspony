@@ -1,3 +1,50 @@
+mtrspony_kirin_pumpkin_smoke_male_hair_selector = {
+	default = "gfx/models/portraits/kirin/pumpkin_smoke_male/pumpkin_smoke_male_hair.dds"
+
+	game_setup = {
+		default = "gfx/models/portraits/kirin/pumpkin_smoke_male/pumpkin_smoke_male_hair.dds"
+	}
+
+	species = {
+		default = "gfx/models/portraits/kirin/pumpkin_smoke_male/pumpkin_smoke_male_hair.dds"
+	}
+
+	pop = {
+		default = "gfx/models/portraits/kirin/pumpkin_smoke_male/pumpkin_smoke_male_hair.dds"
+
+		random = {
+			list = {
+				"gfx/models/portraits/kirin/pumpkin_smoke_male/pumpkin_smoke_male_hair.dds"
+				"gfx/models/portraits/kirin/pumpkin_smoke_male/pumpkin_smoke_male_hair_alt1.dds"
+				"gfx/models/portraits/kirin/pumpkin_smoke_male/pumpkin_smoke_male_hair_alt2.dds"
+				"gfx/models/portraits/kirin/pumpkin_smoke_male/pumpkin_smoke_male_hair_alt3.dds"
+			}
+		}
+	}
+
+	leader = {
+		random = {
+			list = {
+				"gfx/models/portraits/kirin/pumpkin_smoke_male/pumpkin_smoke_male_hair.dds"
+				"gfx/models/portraits/kirin/pumpkin_smoke_male/pumpkin_smoke_male_hair_alt1.dds"
+				"gfx/models/portraits/kirin/pumpkin_smoke_male/pumpkin_smoke_male_hair_alt2.dds"
+				"gfx/models/portraits/kirin/pumpkin_smoke_male/pumpkin_smoke_male_hair_alt3.dds"
+			}
+		}
+	}
+
+	ruler = {
+		random = {
+			list = {
+				"gfx/models/portraits/kirin/pumpkin_smoke_male/pumpkin_smoke_male_hair.dds"
+				"gfx/models/portraits/kirin/pumpkin_smoke_male/pumpkin_smoke_male_hair_alt1.dds"
+				"gfx/models/portraits/kirin/pumpkin_smoke_male/pumpkin_smoke_male_hair_alt2.dds"
+				"gfx/models/portraits/kirin/pumpkin_smoke_male/pumpkin_smoke_male_hair_alt3.dds"
+			}
+		}		
+	}
+}
+
 mtrspony_kirin_rain_shine_hair_selector = {
 	default = "gfx/models/portraits/kirin/rain_shine/rain_shine_hair.dds"
 

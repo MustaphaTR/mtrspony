@@ -1,9 +1,25 @@
 portraits = {
+	mtrspony_kirin_pumpkin_smoke_male = {
+		entity = "portrait_dummy_10p_left_entity"
+		clothes_selector = "mtrspony_no_clothes_selector"
+		attachment_selector = "mtrspony_kirin_pumpkin_smoke_male_hair_selector"
+		greeting_sound = "human_male_greetings_04"
+
+		character_textures = {
+			"gfx/models/portraits/kirin/pumpkin_smoke_male/pumpkin_smoke_male.dds"
+			"gfx/models/portraits/kirin/pumpkin_smoke_male/pumpkin_smoke_male_alt1.dds"
+			"gfx/models/portraits/kirin/pumpkin_smoke_male/pumpkin_smoke_male_alt2.dds"
+			"gfx/models/portraits/kirin/pumpkin_smoke_male/pumpkin_smoke_male_alt3.dds"
+		}
+
+		custom_attachment_label = "HAIR_COLOR"
+	}
+
 	mtrspony_kirin_rain_shine = {
 		entity = "portrait_dummy_15p_left_entity"
 		clothes_selector = "mtrspony_kirin_rain_shine_clothes_selector"
 		attachment_selector = "mtrspony_kirin_rain_shine_hair_selector"
-		greeting_sound = "human_female_greetings_01"
+		greeting_sound = "human_female_greetings_04"
 
 		character_textures = {
 			"gfx/models/portraits/kirin/rain_shine/rain_shine.dds"
@@ -28,7 +44,7 @@ portraits = {
 		entity = "portrait_dummy_10p_left_entity"
 		clothes_selector = "mtrspony_no_clothes_selector"
 		attachment_selector = "mtrspony_kirin_autumn_blaze_hair_selector"
-		greeting_sound = "human_female_greetings_01"
+		greeting_sound = "human_female_greetings_04"
 
 		character_textures = {
 			"gfx/models/portraits/kirin/autumn_blaze/autumn_blaze.dds"
@@ -64,7 +80,7 @@ portrait_groups = {
 					}
 				}
 				portraits = {
-					
+					mtrspony_kirin_pumpkin_smoke_male
 				}
 			}
 			add = {
@@ -100,7 +116,7 @@ portrait_groups = {
 					NOT = { species = { species_gender = female } }
 				}
 				portraits = {
-					
+					mtrspony_kirin_pumpkin_smoke_male
 				}
 			}
 		}
@@ -120,7 +136,7 @@ portrait_groups = {
 					NOT = { species = { species_gender = female } }
 				}
 				portraits = {
-					
+					mtrspony_kirin_pumpkin_smoke_male
 				}
 			}
 		}
@@ -134,7 +150,7 @@ portrait_groups = {
 					}
 				}
 				portraits = {
-					
+					mtrspony_kirin_pumpkin_smoke_male
 				}
 			}
 
