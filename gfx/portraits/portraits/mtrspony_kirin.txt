@@ -1,6 +1,6 @@
 portraits = {
 	mtrspony_kirin_pumpkin_smoke_male = {
-		entity = "portrait_dummy_10p_left_entity"
+		entity = "portrait_dummy_15p_left_entity"
 		clothes_selector = "mtrspony_no_clothes_selector"
 		attachment_selector = "mtrspony_kirin_pumpkin_smoke_male_hair_selector"
 		greeting_sound = "human_male_greetings_04"
@@ -10,6 +10,15 @@ portraits = {
 			"gfx/models/portraits/kirin/pumpkin_smoke_male/pumpkin_smoke_male_alt1.dds"
 			"gfx/models/portraits/kirin/pumpkin_smoke_male/pumpkin_smoke_male_alt2.dds"
 			"gfx/models/portraits/kirin/pumpkin_smoke_male/pumpkin_smoke_male_alt3.dds"
+			"gfx/models/portraits/kirin/pumpkin_smoke_male/pumpkin_smoke_male_alt4.dds"
+			"gfx/models/portraits/kirin/pumpkin_smoke_male/pumpkin_smoke_male_alt5.dds"
+			"gfx/models/portraits/kirin/pumpkin_smoke_male/pumpkin_smoke_male_alt6.dds"
+			"gfx/models/portraits/kirin/pumpkin_smoke_male/pumpkin_smoke_male_alt7.dds"
+			"gfx/models/portraits/kirin/pumpkin_smoke_male/pumpkin_smoke_male_alt8.dds"
+			"gfx/models/portraits/kirin/pumpkin_smoke_male/pumpkin_smoke_male_alt9.dds"
+			"gfx/models/portraits/kirin/pumpkin_smoke_male/pumpkin_smoke_male_alt10.dds"
+			"gfx/models/portraits/kirin/pumpkin_smoke_male/pumpkin_smoke_male_alt11.dds"
+			"gfx/models/portraits/kirin/pumpkin_smoke_male/pumpkin_smoke_male_alt12.dds"
 		}
 
 		custom_attachment_label = "HAIR_COLOR"
@@ -41,7 +50,7 @@ portraits = {
 	}
 
 	mtrspony_kirin_autumn_blaze = {
-		entity = "portrait_dummy_10p_left_entity"
+		entity = "portrait_dummy_15p_left_entity"
 		clothes_selector = "mtrspony_no_clothes_selector"
 		attachment_selector = "mtrspony_kirin_autumn_blaze_hair_selector"
 		greeting_sound = "human_female_greetings_04"
@@ -68,7 +77,7 @@ portraits = {
 
 portrait_groups = {
 	mtrspony_kirin = {
-		default = mtrspony_kirin_rain_shine
+		default = mtrspony_kirin_autumn_blaze
 		game_setup = {
 			add = {
 				trigger = {
