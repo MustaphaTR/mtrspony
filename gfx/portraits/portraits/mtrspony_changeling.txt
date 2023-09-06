@@ -18,6 +18,27 @@ portraits = {
 
 		custom_attachment_label = "HAIR_COLOR"
 	}
+
+	mtrspony_changeling_chrysalis = {
+		entity = "portrait_dummy_15p_left_entity"
+		clothes_selector = "mtrspony_changeling_chrysalis_clothes_selector"
+		attachment_selector = "mtrspony_changeling_chrysalis_hair_selector"
+		greeting_sound = "human_female_greetings_01"
+
+		character_textures = {
+			"gfx/models/portraits/changeling/chrysalis/chrysalis.dds"
+			"gfx/models/portraits/changeling/chrysalis/chrysalis_alt1.dds"
+			"gfx/models/portraits/changeling/chrysalis/chrysalis_alt2.dds"
+			"gfx/models/portraits/changeling/chrysalis/chrysalis_alt3.dds"
+			"gfx/models/portraits/changeling/chrysalis/chrysalis_alt4.dds"
+			"gfx/models/portraits/changeling/chrysalis/chrysalis_alt5.dds"
+			"gfx/models/portraits/changeling/chrysalis/chrysalis_alt6.dds"
+			"gfx/models/portraits/changeling/chrysalis/chrysalis_alt7.dds"
+			"gfx/models/portraits/changeling/chrysalis/chrysalis_alt8.dds"
+		}
+
+		custom_attachment_label = "HAIR_COLOR"
+	}
 }
 
 portrait_groups = {
@@ -47,7 +68,7 @@ portrait_groups = {
 					}
 				}
 				portraits = {
-					
+					mtrspony_changeling_chrysalis
 				}
 			}
 		}
@@ -59,7 +80,7 @@ portrait_groups = {
 					NOT = { species = { species_gender = male } }
 				}
 				portraits = {
-					
+					mtrspony_changeling_chrysalis
 				}
 			}
 			add = {
@@ -79,7 +100,7 @@ portrait_groups = {
 					NOT = { species = { species_gender = male } }
 				}
 				portraits = {
-					
+					mtrspony_changeling_chrysalis
 				}
 			}
 			add = {
@@ -113,7 +134,7 @@ portrait_groups = {
 					}
 				}
 				portraits = {
-					
+					mtrspony_changeling_chrysalis
 				}
 			}
 		}
