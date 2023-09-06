@@ -123,6 +123,30 @@ portraits = {
 		custom_attachment_label = "HAIR_COLOR"
 	}
 
+	mtrspony_pony_unicorn_starlight_glimmer_equalist = {
+		entity = "portrait_dummy_5p_left_entity"
+		clothes_selector = "mtrspony_no_clothes_selector"
+		attachment_selector = "mtrspony_pony_unicorn_starlight_glimmer_equalist_hair_selector"
+		greeting_sound = "human_female_greetings_01"
+
+		character_textures = {
+			"gfx/models/portraits/pony_unicorn/starlight_glimmer_equalist/starlight_glimmer_equalist.dds"
+			"gfx/models/portraits/pony_unicorn/starlight_glimmer_equalist/starlight_glimmer_equalist_alt1.dds"
+			"gfx/models/portraits/pony_unicorn/starlight_glimmer_equalist/starlight_glimmer_equalist_alt2.dds"
+			"gfx/models/portraits/pony_unicorn/starlight_glimmer_equalist/starlight_glimmer_equalist_alt3.dds"
+			"gfx/models/portraits/pony_unicorn/starlight_glimmer_equalist/starlight_glimmer_equalist_alt4.dds"
+			"gfx/models/portraits/pony_unicorn/starlight_glimmer_equalist/starlight_glimmer_equalist_alt5.dds"
+			"gfx/models/portraits/pony_unicorn/starlight_glimmer_equalist/starlight_glimmer_equalist_alt6.dds"
+			"gfx/models/portraits/pony_unicorn/starlight_glimmer_equalist/starlight_glimmer_equalist_alt7.dds"
+			"gfx/models/portraits/pony_unicorn/starlight_glimmer_equalist/starlight_glimmer_equalist_alt8.dds"
+			"gfx/models/portraits/pony_unicorn/starlight_glimmer_equalist/starlight_glimmer_equalist_alt9.dds"
+			"gfx/models/portraits/pony_unicorn/starlight_glimmer_equalist/starlight_glimmer_equalist_alt10.dds"
+			"gfx/models/portraits/pony_unicorn/starlight_glimmer_equalist/starlight_glimmer_equalist_alt11.dds"
+		}
+
+		custom_attachment_label = "HAIR_COLOR"
+	}
+
 	mtrspony_pony_unicorn_sweetie_belle_older_predefined = {
 		entity = "portrait_dummy_20p_left_entity"
 		clothes_selector = "mtrspony_no_clothes_selector"
@@ -192,6 +216,7 @@ portrait_groups = {
 					mtrspony_pony_unicorn_twilight_velvet
 					mtrspony_pony_unicorn_rarity
 					mtrspony_pony_unicorn_sugar_belle
+					mtrspony_pony_unicorn_starlight_glimmer_equalist
 					mtrspony_pony_unicorn_sweetie_belle_older
 				}
 			}
@@ -208,6 +233,7 @@ portrait_groups = {
 					mtrspony_pony_unicorn_twilight_velvet
 					mtrspony_pony_unicorn_rarity
 					mtrspony_pony_unicorn_sugar_belle
+					mtrspony_pony_unicorn_starlight_glimmer_equalist
 					mtrspony_pony_unicorn_sweetie_belle_older
 				}
 			}
@@ -232,6 +258,7 @@ portrait_groups = {
 					mtrspony_pony_unicorn_twilight_velvet
 					mtrspony_pony_unicorn_rarity
 					mtrspony_pony_unicorn_sugar_belle
+					mtrspony_pony_unicorn_starlight_glimmer_equalist
 					mtrspony_pony_unicorn_sweetie_belle_older
 				}
 			}
@@ -270,6 +297,7 @@ portrait_groups = {
 					mtrspony_pony_unicorn_twilight_velvet
 					mtrspony_pony_unicorn_rarity
 					mtrspony_pony_unicorn_sugar_belle
+					mtrspony_pony_unicorn_starlight_glimmer_equalist
 					mtrspony_pony_unicorn_sweetie_belle_older
 				}
 			}
