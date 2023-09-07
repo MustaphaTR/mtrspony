@@ -21,6 +21,7 @@ portrait_groups = {
 					mtrspony_pony_earth_button_mash
 					mtrspony_pony_unicorn_shining_armor
 					mtrspony_pony_pegasus_mr_shy
+					mtrspony_pony_alicorn_dusk_shine
 				}
 			}
 			add = {
@@ -85,6 +86,7 @@ portrait_groups = {
 					mtrspony_pony_earth_button_mash
 					mtrspony_pony_unicorn_shining_armor
 					mtrspony_pony_pegasus_mr_shy
+					mtrspony_pony_alicorn_dusk_shine
 				}
 			}
 		}
@@ -121,6 +123,7 @@ portrait_groups = {
 					mtrspony_pony_earth_button_mash
 					mtrspony_pony_unicorn_shining_armor
 					mtrspony_pony_pegasus_mr_shy
+					mtrspony_pony_alicorn_dusk_shine
 				}
 			}
 		}
@@ -139,6 +142,7 @@ portrait_groups = {
 					mtrspony_pony_earth_button_mash
 					mtrspony_pony_unicorn_shining_armor
 					mtrspony_pony_pegasus_mr_shy
+					mtrspony_pony_alicorn_dusk_shine
 				}
 			}
 
