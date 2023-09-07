@@ -1,3 +1,80 @@
+mtrspony_pony_alicorn_dusk_shine_hair_selector = {
+	default = "gfx/models/portraits/pony_alicorn/dusk_shine/dusk_shine_hair.dds"
+
+	game_setup = {
+		default = "gfx/models/portraits/pony_alicorn/dusk_shine/dusk_shine_hair.dds"
+	}
+
+	species = {
+		default = "gfx/models/portraits/pony_alicorn/dusk_shine/dusk_shine_hair.dds"
+	}
+
+	pop = {
+		default = "gfx/models/portraits/pony_alicorn/dusk_shine/dusk_shine_hair.dds"
+
+		random = {
+			list = {
+				"gfx/models/portraits/pony_alicorn/dusk_shine/dusk_shine_hair.dds"
+				"gfx/models/portraits/pony_alicorn/dusk_shine/dusk_shine_hair_alt1.dds"
+				"gfx/models/portraits/pony_alicorn/dusk_shine/dusk_shine_hair_alt2.dds"
+				"gfx/models/portraits/pony_alicorn/dusk_shine/dusk_shine_hair_alt3.dds"
+				"gfx/models/portraits/pony_alicorn/dusk_shine/dusk_shine_hair_alt1.dds"
+				"gfx/models/portraits/pony_alicorn/dusk_shine/dusk_shine_hair_alt2.dds"
+				"gfx/models/portraits/pony_alicorn/dusk_shine/dusk_shine_hair_alt3.dds"
+				"gfx/models/portraits/pony_alicorn/dusk_shine/dusk_shine_hair_alt4.dds"
+				"gfx/models/portraits/pony_alicorn/dusk_shine/dusk_shine_hair_alt5.dds"
+				"gfx/models/portraits/pony_alicorn/dusk_shine/dusk_shine_hair_alt6.dds"
+				"gfx/models/portraits/pony_alicorn/dusk_shine/dusk_shine_hair_alt7.dds"
+				"gfx/models/portraits/pony_alicorn/dusk_shine/dusk_shine_hair_alt8.dds"
+				"gfx/models/portraits/pony_alicorn/dusk_shine/dusk_shine_hair_alt9.dds"
+				"gfx/models/portraits/pony_alicorn/dusk_shine/dusk_shine_hair_alt10.dds"
+				"gfx/models/portraits/pony_alicorn/dusk_shine/dusk_shine_hair_alt11.dds"
+			}
+		}	
+	}
+
+	leader = {
+		random = {
+			list = {
+				"gfx/models/portraits/pony_alicorn/dusk_shine/dusk_shine_hair.dds"
+				"gfx/models/portraits/pony_alicorn/dusk_shine/dusk_shine_hair_alt1.dds"
+				"gfx/models/portraits/pony_alicorn/dusk_shine/dusk_shine_hair_alt2.dds"
+				"gfx/models/portraits/pony_alicorn/dusk_shine/dusk_shine_hair_alt3.dds"
+				"gfx/models/portraits/pony_alicorn/dusk_shine/dusk_shine_hair_alt1.dds"
+				"gfx/models/portraits/pony_alicorn/dusk_shine/dusk_shine_hair_alt2.dds"
+				"gfx/models/portraits/pony_alicorn/dusk_shine/dusk_shine_hair_alt3.dds"
+				"gfx/models/portraits/pony_alicorn/dusk_shine/dusk_shine_hair_alt4.dds"
+				"gfx/models/portraits/pony_alicorn/dusk_shine/dusk_shine_hair_alt5.dds"
+				"gfx/models/portraits/pony_alicorn/dusk_shine/dusk_shine_hair_alt6.dds"
+				"gfx/models/portraits/pony_alicorn/dusk_shine/dusk_shine_hair_alt7.dds"
+				"gfx/models/portraits/pony_alicorn/dusk_shine/dusk_shine_hair_alt8.dds"
+				"gfx/models/portraits/pony_alicorn/dusk_shine/dusk_shine_hair_alt9.dds"
+				"gfx/models/portraits/pony_alicorn/dusk_shine/dusk_shine_hair_alt10.dds"
+				"gfx/models/portraits/pony_alicorn/dusk_shine/dusk_shine_hair_alt11.dds"
+			}
+		}
+	}
+
+	ruler = {
+		random = {
+			list = {
+				"gfx/models/portraits/pony_alicorn/dusk_shine/dusk_shine_hair.dds"
+				"gfx/models/portraits/pony_alicorn/dusk_shine/dusk_shine_hair_alt1.dds"
+				"gfx/models/portraits/pony_alicorn/dusk_shine/dusk_shine_hair_alt2.dds"
+				"gfx/models/portraits/pony_alicorn/dusk_shine/dusk_shine_hair_alt3.dds"
+				"gfx/models/portraits/pony_alicorn/dusk_shine/dusk_shine_hair_alt4.dds"
+				"gfx/models/portraits/pony_alicorn/dusk_shine/dusk_shine_hair_alt5.dds"
+				"gfx/models/portraits/pony_alicorn/dusk_shine/dusk_shine_hair_alt6.dds"
+				"gfx/models/portraits/pony_alicorn/dusk_shine/dusk_shine_hair_alt7.dds"
+				"gfx/models/portraits/pony_alicorn/dusk_shine/dusk_shine_hair_alt8.dds"
+				"gfx/models/portraits/pony_alicorn/dusk_shine/dusk_shine_hair_alt9.dds"
+				"gfx/models/portraits/pony_alicorn/dusk_shine/dusk_shine_hair_alt10.dds"
+				"gfx/models/portraits/pony_alicorn/dusk_shine/dusk_shine_hair_alt11.dds"
+			}
+		}		
+	}
+}
+
 mtrspony_pony_alicorn_celestia_hair_selector = {
 	default = "gfx/models/portraits/pony_alicorn/celestia/celestia_hair.dds"
 

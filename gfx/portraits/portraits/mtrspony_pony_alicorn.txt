@@ -1,4 +1,27 @@
 portraits = {
+	mtrspony_pony_alicorn_dusk_shine = {
+		entity = "portrait_dummy_10p_left_entity"
+		clothes_selector = "mtrspony_no_clothes_selector"
+		attachment_selector = "mtrspony_pony_alicorn_dusk_shine_hair_selector"
+		greeting_sound = "human_male_greetings_01"
+
+		character_textures = {
+			"gfx/models/portraits/pony_alicorn/dusk_shine/dusk_shine.dds"
+			"gfx/models/portraits/pony_alicorn/dusk_shine/dusk_shine_alt1.dds"
+			"gfx/models/portraits/pony_alicorn/dusk_shine/dusk_shine_alt2.dds"
+			"gfx/models/portraits/pony_alicorn/dusk_shine/dusk_shine_alt3.dds"
+			"gfx/models/portraits/pony_alicorn/dusk_shine/dusk_shine_alt4.dds"
+			"gfx/models/portraits/pony_alicorn/dusk_shine/dusk_shine_alt5.dds"
+			"gfx/models/portraits/pony_alicorn/dusk_shine/dusk_shine_alt6.dds"
+			"gfx/models/portraits/pony_alicorn/dusk_shine/dusk_shine_alt7.dds"
+			"gfx/models/portraits/pony_alicorn/dusk_shine/dusk_shine_alt8.dds"
+			"gfx/models/portraits/pony_alicorn/dusk_shine/dusk_shine_alt9.dds"
+			"gfx/models/portraits/pony_alicorn/dusk_shine/dusk_shine_alt10.dds"
+		}
+
+		custom_attachment_label = "HAIR_COLOR"
+	}
+
 	mtrspony_pony_alicorn_celestia = {
 		entity = "portrait_dummy_big_centered_entity"
 		clothes_selector = "mtrspony_pony_alicorn_celestia_clothes_selector"
@@ -101,7 +124,7 @@ portrait_groups = {
 					}
 				}
 				portraits = {
-					
+					mtrspony_pony_alicorn_dusk_shine
 				}
 			}
 			add = {
@@ -139,7 +162,7 @@ portrait_groups = {
 					NOT = { species = { species_gender = female } }
 				}
 				portraits = {
-					
+					mtrspony_pony_alicorn_dusk_shine
 				}
 			}
 		}
@@ -160,7 +183,7 @@ portrait_groups = {
 					NOT = { species = { species_gender = female } }
 				}
 				portraits = {
-					
+					mtrspony_pony_alicorn_dusk_shine
 				}
 			}
 		}
@@ -174,7 +197,7 @@ portrait_groups = {
 					}
 				}
 				portraits = {
-					
+					mtrspony_pony_alicorn_dusk_shine
 				}
 			}
 

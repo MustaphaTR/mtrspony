@@ -1,5 +1,5 @@
-Portrait Bases
- > aethon056
+Portrait Bases:
+ > aethon056:
 	- Scootaloo
 
  > cezaryy:
@@ -37,6 +37,9 @@ Portrait Bases
 	- Sugar Belle
 	- Twilight Velvet
 
+ > magister39:
+	- Dusk Shine
+
  > melisareb:
 	- Garble
 	- Male Pumpkin Smoke
@@ -48,5 +51,5 @@ Portrait Bases
  > thatusualguy06:
 	- Older Sweetie Belle
 
- > thebosscamacho
+ > thebosscamacho:
 	- Chrysalis
