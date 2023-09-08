@@ -3,6 +3,201 @@
 
 	alias = "EaW Changeling Namelist"
 
+	ship_names = {
+		generic = {
+			Antagonist Neurotica Corrugator Supercilii Oculi Buccinator Medial Levator Superioris Corneal Abductor Lacrimal Modiolus Temporo Auricular Tensor Pterygoid Tympanic Procerus Septi Mentalis Depressor Masseter Platysma Hyoglossus Longitudinal Pharyngeus Salping Mastoid Capitus Scalene Erector Trapezius Dorsi Rhomboid Aconeus Pronator Flexor Extensor Ulnaris Supinator Pollicis Talus Fibula Patella Mandible Occipital Ethnerus Palatine Maxillia Lacrimus Scapulae Parietal Temporal Sezemoid Floating Rib Hyoid Proximal Phalange Tarsal Fabella Cyamella Distal Cuboid
+		}
+		
+		corvette = {
+
+		}
+		
+		destroyer = {
+			Antagonist Neurotica Corrugator Supercilii Oculi Buccinator Medial Levator Superioris Corneal Abductor Lacrimal Modiolus Temporo Auricular Tensor Pterygoid Tympanic Procerus Septi Mentalis Depressor Masseter Platysma Hyoglossus Longitudinal Pharyngeus Salping Mastoid Capitus Scalene Erector Trapezius Dorsi Rhomboid Aconeus Pronator Flexor Extensor Ulnaris Supinator Pollicis
+		}
+		
+		cruiser = {
+			Talus Fibula Patella Mandible Occipital Ethnerus Palatine Maxillia Lacrimus Scapulae Parietal Temporal Sezemoid Floating Rib Hyoid Proximal Phalange Tarsal Fabella Cyamella Distal Cuboid
+		}
+		
+		battleship = {
+			Terror Dread Despair Hopelessness Fear Anxiety Unease Sickness Revulsion Nightmare Distress Fright Pain Hatred Submission Anguish Misery Contempt Sorrow Wretchedness Paralysis Agony Superiority Loathing Disquiet
+		}
+
+		titan = {
+			Vesalipolis Ditrysium Vraks Soryth Lyctida
+		}
+
+		colossus = {
+			Hatcher
+		}
+
+		science = {
+			Soryth
+		}
+
+		colonizer = {
+			Blosmport Bugsmere Aisling
+		}
+
+		constructor = {
+			Agonia Antax Anglossata Apsychos Assyna Crucis Ditrysium Formicida Gardis Gorak Hemelytra Hoorornd Kladisium Larkorix Lyctida Phantine Praesepis Purifia Sicarus Soryth Vesalipolis Vraks Volistad
+		}
+
+		transport = {
+			
+		}
+
+		military_station_small = {
+			
+		}
+
+		ion_cannon = {
+			HUMAN1_SHIP_Bombard HUMAN1_SHIP_Ballista HUMAN1_SHIP_Catapult HUMAN1_SHIP_Harpoon HUMAN1_SHIP_Polybolos HUMAN1_SHIP_Culverin
+		}
+	}
+
+	fleet_names = {
+		sequential_name = mtrspony_namelists_pony_space_fleet
+	}
+
+	army_names = {
+		machine_defense = {
+			sequential_name = mtrspony_namelists_pony_defense_force
+		}
+
+		machine_assault_1 = {
+			sequential_name = mtrspony_namelists_pony_attack_force
+		}
+
+		machine_assault_2 = {
+			sequential_name = mtrspony_namelists_pony_attack_force
+		}
+
+		machine_assault_3 = {
+			sequential_name = mtrspony_namelists_pony_attack_force
+		}
+
+		defense_army = {
+			sequential_name = mtrspony_namelists_pony_defense_force
+		}
+
+		assault_army = {
+			random_names = {
+				Hauptschwarm "Die Erste" "Tapfer Dabei" Königinnenfaust Kameraden Liebsüchtig Steinhart Unberechenbar "Zu Fuß mit Mut" Waffenbrüder Ehrvoll Schneeweiß Nordschwarm Standhaft Sumpf Heldenmut Stolz "Weißer Terror" Kampfgeist Grenzwacht "Treu ergeben" "Die Windigos" "Ehrgeiz und Stolz" "Schrecken des Südens" "Trautes Heim" "Die Zwanzigste" "Die Schnelle" Schüttelfrost Gefrierbrand "Die Förster" Naturfreunde Blauäugig Schlagkräftig "Alle für Einen" "Stärke in Einigkeit" Trimmel Schutztrupp Heißhunger Liebeskummer "Bunter Haufen" "Ordnung und Disziplin" "Kalte Hufe"
+			}
+			sequential_name = mtrspony_namelists_pony_attack_force
+		}
+
+		slave_army = {
+			sequential_name = mtrspony_namelists_pony_slave_force
+		}
+
+		clone_army = {
+			sequential_name = mtrspony_namelists_pony_mirror_force
+		}
+
+		undead_army = {
+			sequential_name = mtrspony_namelists_pony_dread_force
+		}
+
+		robotic_army = {
+			sequential_name = mtrspony_namelists_pony_drone_attack_force
+		}
+
+		robotic_defense_army = {
+			sequential_name = mtrspony_namelists_pony_drone_defense_force
+		}
+
+		psionic_army = {
+			sequential_name = mtrspony_namelists_pony_psi_corps_division
+		}
+
+		xenomorph_army = {
+			sequential_name = mtrspony_namelists_pony_monster_unit
+		}
+
+		gene_warrior_army = {
+			sequential_name = mtrspony_namelists_pony_supersoldiers
+		}
+
+		occupation_army = {
+			sequential_name = mtrspony_namelists_pony_garrison_force
+		}
+
+		robotic_occupation_army = {
+			sequential_name = mtrspony_namelists_pony_drone_garrison_force
+		}
+	}
+
+	planet_names = {
+		generic = {
+			names = {
+				Soryth Gorak Kladbische Jem Den Hoorornd Totles Svart Ditrysium Lyctida Vesalipolis Vraks Tainaholm Kallskog Svarm Kate Blosm Bugsmere Aisling
+			}
+		}
+
+		pc_desert = {
+			names = {
+
+			}
+		}
+
+		pc_tropical = {
+			names = {
+			
+			}
+		}
+
+		pc_arid = {
+			names = {
+				
+			}
+		}
+
+		pc_continental = {
+			names = {
+				
+			}
+		}
+
+		pc_ocean = {
+			names = {
+				
+			}
+		}
+
+		pc_tundra = {
+			names = {
+				
+			}
+		}
+
+		pc_arctic = {
+			names = {
+				Whitehooves Neverwarm
+			}
+		}
+
+		pc_savannah = {
+			names = {
+				
+			}
+		}
+
+		pc_alpine = {
+			names = {
+				
+			}
+		}
+
+		pc_gaia = {
+			names = {
+				
+			}
+		}
+	}
+
 	### CHARACTERS
 	character_names = {
 		name1 = {
@@ -14,7 +209,7 @@
 				Acari Araneidae Salticidae Solifugae Opiliones Lycosidae Oxypidea Vesali Cerambycidea Hemiptera Malakith Pterygota Apterygota Zoraptera Ixodida Phasmida Mantodea Acrididea Dispar Vanessa Lucinidea Psodia Chrysomelidae Nepidae Cynipidae Miridea Thysbe
 			}
 			second_names = {
-				Agonia Antax Anglossata Apsychos Assyna Crucis Ditrysium Formicida Gardis Gorak Hemelytra Hoorornd Kladisium Larkorix Phantine Praesepis Purifia Sicarus Soryth Vesalipolis Vraks Volistad Blosmport Bugsmere Aisling
+				Agonia Antax Anglossata Apsychos Assyna Crucis Ditrysium Formicida Gardis Gorak Hemelytra Hoorornd Kladisium Larkorix Lyctida Phantine Praesepis Purifia Sicarus Soryth Vesalipolis Vraks Volistad Blosmport Bugsmere Aisling
 			}
 			regnal_first_names_male = {
 				Acari Araneidae Salticidae Solifugae Opiliones Lycosidae Oxypidea Vesali Cerambycidea Hemiptera Malakith Pterygota Apterygota Zoraptera Tyran Ixodida Phasmida Pharynx Thorax Mantodea Acrididea Dispar Vanessa Lucinidea Psodi Chrysomelidae Nepidae Cynipidae Miridea Thysbe
@@ -23,7 +218,7 @@
 				Acari Araneidae Salticidae Solifugae Opiliones Lycosidae Oxypidea Vesali Cerambycidea Hemiptera Malakith Pterygota Apterygota Zoraptera Ixodida Phasmida Mantodea Acrididea Dispar Vanessa Lucinidea Psodia Chrysomelidae Nepidae Cynipidae Miridea Thysbe
 			}
 			regnal_second_names = {
-				Agonia Antax Anglossata Apsychos Assyna Crucis Ditrysium Formicida Gardis Gorak Hemelytra Hoorornd Kladisium Larkorix Phantine Praesepis Purifia Sicarus Soryth Vesalipolis Vraks Volistad Blosmport Bugsmere Aisling
+				Agonia Antax Anglossata Apsychos Assyna Crucis Ditrysium Formicida Gardis Gorak Hemelytra Hoorornd Kladisium Larkorix Lyctida Phantine Praesepis Purifia Sicarus Soryth Vesalipolis Vraks Volistad Blosmport Bugsmere Aisling
 			}
 		}
 	}
