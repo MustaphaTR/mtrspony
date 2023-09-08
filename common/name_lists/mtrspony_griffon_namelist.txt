@@ -3,6 +3,201 @@
 
 	alias = "TSC Griffon Namelist"
 
+	ship_names = {
+		generic = {
+			Reiher Falke Blaukehlche Kolibri Eisvogel Nachtschwärmer Kuckuck Albatros Specht Krähe Rabenschwarz Spatz Kondor Adler Phönix Hühnerhabicht Lämmergeier Weißfisch Felchen Singdrossel Kiebitz Löffler Turmfalke Amsel Nashorn Panther Tiger Hummel Kuguar Löwe	Fuchs Marder Hyäne Ozelot Zobel Bison Wiesel Jaguar Bär Kobra Viper Elch Steinbock Hermelin Nerz Dachs Hirsch Gepard Iltis Wolf Seeadler Greif Delphin Wal Wisent Natter Papageienfisch Makrele Manta Milchfisch Aal Trompetenfisch Katzenhai Schlammskipper Sawfish Muräne Eule Robin Schlucken Tanager Kardinal Pirol Curlew Fink Truthahn Waldschnepfe Wachtel Rebhuhn Eider Avocet Lerche Aquamarin Kormoran Stockente Warbler Rotflügel Kanarienvogel Rabe Kleiber Fasan Regenpfeifer Krokodil Hai Stachelschwein Schnabeltier Känguru Ameisenbär Griffenheim Romheim Gerashofen Griffing Appengen Dierhoven Vólkertetten Krapfen Pfannkuchen Eindfoort Marchtetten Vinnin Bischofheim Helheim Kingston Bruma Yale Middenheim Greengate Cyrusval Gamia Rimau Romau Asselt Bergelun Nortfome Oldwingburg Winterbell Readewetter Starclaw Eindlem Bronzecross Luxwingburg Reitscheid Rottendedam Aiwle Buckmour Grieslein "De Vleugels" Katerinburg Greenback Griffonstone Rottendestaat Feathesia Dwarftail Osnabeak Crownspike Pinesshade Kingsrealm Interriver Thurwingen Falconia Angriver Katerin Lingermill Thymíau Rima
+		}
+		
+		corvette = {
+			
+		}
+		
+		destroyer = {
+			Reiher Falke Blaukehlche Kolibri Eisvogel Nachtschwärmer Kuckuck Albatros Specht Krähe Rabenschwarz Spatz Kondor Adler Phönix Hühnerhabicht Lämmergeier Weißfisch Felchen Singdrossel Kiebitz Löffler Turmfalke Amsel Nashorn Panther Tiger Hummel Kuguar Löwe	Fuchs Marder Hyäne Ozelot Zobel Bison Wiesel Jaguar Bär Kobra Viper Elch Steinbock Hermelin Nerz Dachs Hirsch Gepard Iltis Wolf Seeadler Greif Delphin Wal Wisent Natter Papageienfisch Makrele Manta Milchfisch Aal Trompetenfisch Katzenhai Schlammskipper Sawfish Muräne Eule Robin Schlucken Tanager Kardinal Pirol Curlew Fink Truthahn Waldschnepfe Wachtel Rebhuhn Eider Avocet Lerche Aquamarin Kormoran Stockente Warbler Rotflügel Kanarienvogel Rabe Kleiber Fasan Regenpfeifer Krokodil Hai Stachelschwein Schnabeltier Känguru Ameisenbär
+		}
+		
+		cruiser = {
+			Griffenheim Romheim Gerashofen Griffing Appengen Dierhoven Vólkertetten Krapfen Pfannkuchen Eindfoort Marchtetten Vinnin Bischofheim Helheim Kingston Bruma Yale Middenheim Greengate Cyrusval Gamia Rimau Romau Asselt Bergelun Nortfome Oldwingburg Winterbell Readewetter Starclaw Eindlem Bronzecross Luxwingburg Reitscheid Rottendedam Aiwle Buckmour Grieslein "De Vleugels" Katerinburg Greenback Griffonstone
+		}
+		
+		battleship = {
+			"Grover I" "Grover II" "Grover III" "Grover IV" "Grover V" "Grover VI" Griffking
+		}
+
+		titan = {
+			Rottendestaat Feathesia Dwarftail Osnabeak Crownspike Pinesshade Kingsrealm Interriver Thurwingen Falconia Angriver Katerin Lingermill Thymíau Rima
+		}
+
+		colossus = {
+			Boreas Eyr Arcturus Maar
+		}
+
+		science = {
+			Bruma Yale Middenheim Greengate Cyrusval
+		}
+
+		colonizer = {
+			Weter Boreasfjord "Nouveau Aquila" "Zerkshed Skall" "Nieuw Mirabelle" "Kulv Khot" Mörön Bounnois Guidonuovo Groenstein "Ny Winghagen" Federstadt Frosthill Tsasbaatar "Broken Skull" Weidadehudedaier Lammia Griffeveld Uilfontein Vleuelten Beakenburg Klaweto Duifenberg "Nieuw Rottendedam" Mossiestadt
+		}
+
+		constructor = {
+			Rottendestaat Feathesia Dwarftail Osnabeak Crownspike Pinesshade Kingsrealm Interriver Thurwingen Falconia Angriver Katerin Lingermill Thymíau Rima Griffenheim Romheim Gerashofen Griffing Appengen Dierhoven Vólkertetten Krapfen Pfannkuchen Eindfoort Marchtetten Vinnin Bischofheim Helheim Kingston Gamia Rimau Romau Asselt Bergelun Nortfome Oldwingburg Winterbell Readewetter Starclaw Eindlem Bronzecross Luxwingburg Reitscheid Rottendedam Aiwle Buckmour Grieslein "De Vleugels" Katerinburg Greenback Griffonstone Aquila Beroux Vyzima Pelis Dilven Rila Meshorio Vilein Flowerino Vanguardigo Manetua Orvalillo Pridea Skyaluzzo Vinovia Vigovia Illeagle Westkeep Marcon Laugen Pulliers Amein Falcontown Vilstel Vilrau Eagleton Bergelun Herlein Flowena Pomovarra Fregneux Camris Littlebay "Crimson Shore" Cam Lissay Glensi Cloudguard Twochanerwald Karthin Wrobert Facocero Talcara Grezzo Feathara Pluma Griffano Wingpoli Soarento Bloodtalon Asbolus Squarkona Talont Falcor
+		}
+
+		transport = {
+			
+		}
+
+		military_station_small = {
+			
+		}
+
+		ion_cannon = {
+			HUMAN1_SHIP_Bombard HUMAN1_SHIP_Ballista HUMAN1_SHIP_Catapult HUMAN1_SHIP_Harpoon HUMAN1_SHIP_Polybolos HUMAN1_SHIP_Culverin
+		}
+	}
+
+	fleet_names = {
+		sequential_name = mtrspony_namelists_pony_space_fleet
+	}
+
+	army_names = {
+		machine_defense = {
+			sequential_name = mtrspony_namelists_pony_defense_force
+		}
+
+		machine_assault_1 = {
+			sequential_name = mtrspony_namelists_pony_attack_force
+		}
+
+		machine_assault_2 = {
+			sequential_name = mtrspony_namelists_pony_attack_force
+		}
+
+		machine_assault_3 = {
+			sequential_name = mtrspony_namelists_pony_attack_force
+		}
+
+		defense_army = {
+			sequential_name = mtrspony_namelists_pony_defense_force
+		}
+
+		assault_army = {
+			random_names = {
+				Greifheim Kralle Greifland Glorreich Kaiser Gloria Griffonier Grover Treu "Seine Majestät" Heimatwacht Raben Pinienschatten Bronzekreuz Kronspitze Hochländer Karthinien Weilmühle Yalen Grünrücken Feathara Engelsklaue Romau Rima Romuan Flowena Nordfomen Glühpoli Feathisien Mirabellum Knallstädt Aiwlen Rottfeld Rotwässer Sternkralle Winterglocke Jeronimo Zwergschwanz Imperium
+			}
+			sequential_name = mtrspony_namelists_pony_attack_force
+		}
+
+		slave_army = {
+			sequential_name = mtrspony_namelists_pony_slave_force
+		}
+
+		clone_army = {
+			sequential_name = mtrspony_namelists_pony_mirror_force
+		}
+
+		undead_army = {
+			sequential_name = mtrspony_namelists_pony_dread_force
+		}
+
+		robotic_army = {
+			sequential_name = mtrspony_namelists_pony_drone_attack_force
+		}
+
+		robotic_defense_army = {
+			sequential_name = mtrspony_namelists_pony_drone_defense_force
+		}
+
+		psionic_army = {
+			sequential_name = mtrspony_namelists_pony_psi_corps_division
+		}
+
+		xenomorph_army = {
+			sequential_name = mtrspony_namelists_pony_monster_unit
+		}
+
+		gene_warrior_army = {
+			sequential_name = mtrspony_namelists_pony_supersoldiers
+		}
+
+		occupation_army = {
+			sequential_name = mtrspony_namelists_pony_garrison_force
+		}
+
+		robotic_occupation_army = {
+			sequential_name = mtrspony_namelists_pony_drone_garrison_force
+		}
+	}
+
+	planet_names = {
+		generic = {
+			names = {
+				Weter Onear Dulli Bjornholm Lammia Beak Weidadehudedaier Vot Kluv Boråsland Skyrim Högland Snälland Sydvästland Kullbotten Söderbotten Kungland Östland Flodbotten Fjärrland Skynavia Ostfloy Braunles Bredoland Bleakspire Winghagen Cavegrove Squark Cloudbury Døendejord Blåland Windford Lostgate Dimpeak Silkhorn Arrowpeaks Brantbeak Whitebearded Lostfort Lifelake Chloeland Norrbeak Kristoff Pondwatch Mirabelle Buckmour Aiwle "De Vleguels" Reitscheid Luxwingburg Rima Oldwingburg Nortfome Thurwingen Romau Falconia Yale Greenback Angriver Angelclaw Lingermill Straßmark Katerin Helheim Interriver Crona Griffenheim Osnabeak Winterbell Dwarftail Starclaw Readewetter Brightcreeks Sondersune Hellquill Swordsson Panacea Longbowgriff Draksland Talvona Lushland Gryphem Cessabit Vorobeyko Cropperclaws Holdkrestov Wormwood Soloboda Kaiv Buzzovina Chykchyryn Pohryfynnja Pythagorea Balisemont Chlropeia Ecole Kivessin Lifov Sydia Brodfeld Griffonwill Whiteflower Naniwich Murkbeak Blackhollow Salmarkt Cannabia Auropallieta Snowtops Arahno Keowen Leve Eritrocefalia Midoria Tridente Queruscos Sudfolc Niemals Greybill "Alba Torre" Matton Panthumbino Talont Soarleto Roameo Sparleto Wohnsitz Gale Coalfall Griffonstone Goldenfeather Francistria Tarrin Transista Navarro Luchihoot Talononte Peccreto Asbolus Falcor Bloodtalon Taloncana Wrobert Librarsia Karthin Skyaluzzo Vinovia Pridea Manetua Littlebay Aquila Orvalillo Vyzima Pelis Meshorio Rila Flowerino Westkeep Illeagle Pomovarra Cam Flowena Avian Balefire Erie Comrick Eyrie Verenia Lissay Eagleton Glensi Falcontown Cloudguard Fezera Griffton Vlegueland Oldebeken Skyfall Ginga Talonsvaal Griffeveld Zebellendam Zimpopo 
+			}
+		}
+
+		pc_desert = {
+			names = {
+				
+			}
+		}
+
+		pc_tropical = {
+			names = {
+				Scheißwald
+			}
+		}
+
+		pc_arid = {
+			names = {
+				
+			}
+		}
+
+		pc_continental = {
+			names = {
+				
+			}
+		}
+
+		pc_ocean = {
+			names = {
+				Haukland Winterhold Jojo Scarlet Rumare
+			}
+		}
+
+		pc_tundra = {
+			names = {
+				
+			}
+		}
+
+		pc_arctic = {
+			names = {
+				
+			}
+		}
+
+		pc_savannah = {
+			names = {
+				
+			}
+		}
+
+		pc_alpine = {
+			names = {
+				
+			}
+		}
+
+		pc_gaia = {
+			names = {
+				"Tarpian Rock" Solarspike
+			}
+		}
+	}
+
 	### CHARACTERS
 	character_names = {
 		name1 = { # Herzlander
