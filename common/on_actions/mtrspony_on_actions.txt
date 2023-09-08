@@ -1,6 +1,7 @@
 on_game_start_country = {
 	events = {
-		tcsstart.1
 		cocstart.1
+		tcsstart.1
+		gestart.1
 	}
 }

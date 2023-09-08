@@ -1,58 +1,55 @@
-namespace = cocstart
+namespace = gestart
 
 #Setup Convocation of Creatures
 country_event = {
-	id = cocstart.1
+	id = gestart.1
 	hide_window = yes
 	is_triggered_only = yes
 
 	trigger = {
-		has_country_flag = convocation_of_creatures
+		has_country_flag = griffonian_empire
 	}
 	immediate = {
 		create_leader = {
-			name = "PRESCRIPTED_ruler_name_dusk_shine"
-			custom_description = "PRESCRIPTED_ruler_name_dusk_shine_desc"
+			name = "PRESCRIPTED_ruler_name_grover_xi"
+			custom_description = "PRESCRIPTED_ruler_name_grover_xi_desc"
 			species = ROOT.species
 			gender = male
-			class = scientist
+			class = governor
 			skill = 1
-			set_age = 291
-			immortal = yes
-			background_ethic = "ethic_xenophile"
+			set_age = 19
+			background_ethic = "ethic_authoritarian"
 			randomize_traits = no
 			traits = {
-				trait = leader_trait_expertise_field_manipulation
-				trait = leader_trait_spark_of_genius
+				trait = trait_ruler_charismatic
 			}
 
 			effect = {
-				save_event_target_as = leader_dusk_shine
+				save_event_target_as = leader_grover_xi
 				set_leader_flag = is_created_leader
-				change_leader_portrait = "mtrspony_pony_alicorn_dusk_shine_predefined"
-				change_background_job = head_researcher
-				ROOT = { assign_leader = event_target:leader_dusk_shine }
+				change_leader_portrait = "mtrspony_griffon_grover_xi_predefined"
+				ROOT = { assign_leader = event_target:leader_grover_xi }
 			}
 		}
 
 		create_species = {
-			name = "PRESCRIPTED_species_griffon"
-			plural = "PRESCRIPTED_species_plural_griffon"
-			adjective = "PRESCRIPTED_species_adjective_griffon"
+			name = "PRESCRIPTED_species_pony"
+			plural = "PRESCRIPTED_species_plural_pony"
+			adjective = "PRESCRIPTED_species_adjective_pony"
 			class = MTRSPONY
-			portrait = mtrspony_griffon
-			namelist = mtrspony_namelists_griffon
+			portrait = mtrspony_pony
+			namelist = mtrspony_namelists_pony
 			traits = {
 				trait = trait_pc_continental_preference
-				trait = trait_thrifty
-				trait = trait_resilient
-				trait = trait_quarrelsome
+				trait = trait_talented
+				trait = trait_cutie_marks
+				trait = trait_sedentary
 			}
 
 			effect = {
-				save_event_target_as = griffon_species
-				set_citizenship_type = { country = ROOT type = citizenship_full }
-				set_military_service_type = { country = ROOT type = military_service_full }
+				save_event_target_as = pony_species
+				set_citizenship_type = { country = ROOT type = citizenship_limited }
+				# set_military_service_type = { country = ROOT type = military_service_full }
 			}
 		}
 		create_species = {
@@ -72,8 +69,8 @@ country_event = {
 
 			effect = {
 				save_event_target_as = dragon_species
-				set_citizenship_type = { country = ROOT type = citizenship_full }
-				set_military_service_type = { country = ROOT type = military_service_full }
+				set_citizenship_type = { country = ROOT type = citizenship_limited }
+				# set_military_service_type = { country = ROOT type = military_service_full }
 			}
 		}
 		create_species = {
@@ -92,8 +89,8 @@ country_event = {
 
 			effect = {
 				save_event_target_as = kirin_species
-				set_citizenship_type = { country = ROOT type = citizenship_full }
-				set_military_service_type = { country = ROOT type = military_service_full }
+				set_citizenship_type = { country = ROOT type = citizenship_limited }
+				# set_military_service_type = { country = ROOT type = military_service_full }
 			}
 		}
 		create_species = {
@@ -112,8 +109,8 @@ country_event = {
 
 			effect = {
 				save_event_target_as = changeling_species
-				set_citizenship_type = { country = ROOT type = citizenship_full }
-				set_military_service_type = { country = ROOT type = military_service_full }
+				set_citizenship_type = { country = ROOT type = citizenship_limited }
+				# set_military_service_type = { country = ROOT type = military_service_full }
 			}
 		}
 
@@ -131,36 +128,46 @@ country_event = {
 			random_owned_pop = { kill_pop = yes }
 			random_owned_pop = { kill_pop = yes }
 			random_owned_pop = { kill_pop = yes }
+			random_owned_pop = { kill_pop = yes }
+			random_owned_pop = { kill_pop = yes }
 			create_pop = {
-				species = event_target:griffon_species
+				species = event_target:pony_species
 				ethos = random
 			}
 			create_pop = {
-				species = event_target:griffon_species
+				species = event_target:pony_species
 				ethos = random
 			}
 			create_pop = {
-				species = event_target:griffon_species
+				species = event_target:pony_species
 				ethos = random
 			}
 			create_pop = {
-				species = event_target:griffon_species
+				species = event_target:pony_species
 				ethos = random
 			}
 			create_pop = {
-				species = event_target:griffon_species
+				species = event_target:pony_species
 				ethos = random
 			}
 			create_pop = {
-				species = event_target:griffon_species
+				species = event_target:pony_species
 				ethos = random
 			}
 			create_pop = {
-				species = event_target:griffon_species
+				species = event_target:pony_species
 				ethos = random
 			}
 			create_pop = {
-				species = event_target:griffon_species
+				species = event_target:pony_species
+				ethos = random
+			}
+			create_pop = {
+				species = event_target:pony_species_citizen
+				ethos = random
+			}
+			create_pop = {
+				species = event_target:pony_species_citizen
 				ethos = random
 			}
 			create_pop = {
@@ -185,11 +192,11 @@ country_event = {
 			}
 		}
 
-		# Remove the auto-generated Dusk Shine.
+		# Remove the auto-generated Grover XI.
 		random_owned_leader = {
 			limit = {
 				NOT = { has_leader_flag = is_created_leader }
-				has_trait = leader_trait_spark_of_genius
+				has_trait = trait_ruler_charismatic
 			}
 
 			kill_leader = {
@@ -200,35 +207,30 @@ country_event = {
 	}
 }
 
-#Set the portraits for Dusk Shine again, noticed a bug that resets the potraits of councillors after a reload.
+#Set the portraits for Grover XI again, noticed a bug that resets the potraits of councillors after a reload.
 country_event = {
-	id = cocstart.2
+	id = gestart.2
 	hide_window = yes
 	is_triggered_only = yes
 
 	trigger = {
-		has_country_flag = convocation_of_creatures
+		has_country_flag = griffonian_empire
 	}
 	immediate = {
-		#event_target:leader_dusk_shine
-		#	change_leader_portrait = "mtrspony_pony_alicorn_dusk_shine_predefined"
+		#event_target:leader_grover_xi
+		#	change_leader_portrait = "mtrspony_griffon_grover_xi_predefined"
 		#}
 
 		random_owned_leader = {
 			limit = {
 				has_leader_flag = is_created_leader
 				OR = {
-					has_trait = leader_trait_expertise_field_manipulation
-					has_trait = leader_trait_expertise_field_manipulation_2
-					has_trait = leader_trait_expertise_field_manipulation_3
-				}
-				OR = {
-					has_trait = leader_trait_spark_of_genius
-					has_trait = leader_trait_spark_of_genius_2
+					has_trait = trait_ruler_charismatic
+					has_trait = trait_ruler_charismatic_2
 				}
 			}
 		
-			change_leader_portrait = "mtrspony_pony_alicorn_dusk_shine_predefined"
+			change_leader_portrait = "mtrspony_griffon_grover_xi_predefined"
 		}
 	}
 }

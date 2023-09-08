@@ -23,14 +23,14 @@ portraits = {
 		custom_attachment_label = "HAIR_COLOR"
 	}
 
-	mtrspony_griffon_gabby_predefined = {
+	mtrspony_griffon_grover_xi_predefined = {
 		entity = "portrait_dummy_20p_left_entity"
 		clothes_selector = "mtrspony_no_clothes_selector"
-		attachment_selector = "mtrspony_no_clothes_selector"
-		greeting_sound = "human_female_greetings_01"
+		attachment_selector = "mtrspony_griffon_grover_xi_predefined_hair_selector"
+		greeting_sound = "human_male_greetings_01"
 
 		character_textures = {
-			"gfx/models/portraits/griffon/gabby/gabby.dds"
+			"gfx/models/portraits/griffon/gallus/gallus_alt11.dds"
 		}
 	}
 
@@ -55,6 +55,17 @@ portraits = {
 		}
 
 		custom_attachment_label = "HAIR_COLOR"
+	}
+
+	mtrspony_griffon_gabby_predefined = {
+		entity = "portrait_dummy_20p_left_entity"
+		clothes_selector = "mtrspony_no_clothes_selector"
+		attachment_selector = "mtrspony_no_clothes_selector"
+		greeting_sound = "human_female_greetings_01"
+
+		character_textures = {
+			"gfx/models/portraits/griffon/gabby/gabby.dds"
+		}
 	}
 }
 

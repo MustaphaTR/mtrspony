@@ -143,3 +143,76 @@ the_crusader_state = {
 		leader_class = scientist
 	}
 }
+
+griffonian_empire = {
+	name = "EMPIRE_DESIGN_griffonian_empire"
+	adjective = "PRESCRIPTED_adjective_griffonian_empire"
+	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_griffonian_empire"
+
+	species = {
+		class = "MTRSPONY"
+		portrait = "mtrspony_griffon"
+		name = "PRESCRIPTED_species_griffon"
+		plural = "PRESCRIPTED_species_plural_griffon"
+		adjective = "PRESCRIPTED_species_adjective_griffon"
+		name_list = "mtrspony_namelists_griffon"
+		trait = "trait_thrifty"
+		trait = "trait_resilient"
+		trait = "trait_quarrelsome"
+	}
+
+	room = "personality_democratic_crusaders_room"
+
+	authority = "auth_imperial"
+	civics = { "civic_aristocratic_elite" "civic_nationalistic_zeal" }
+	government = gov_star_empire
+
+	ethic = "ethic_authoritarian"
+	ethic = "ethic_spiritualist"
+	ethic = "ethic_militarist"
+
+	origin = "origin_default"
+
+	flags = { griffonian_empire }
+
+	planet_name = "NAME_Faust"
+	planet_class = "pc_continental"
+	initializer = "eaw_vanilla_initializer"
+	system_name = "NAME_Behemoth"
+
+	graphical_culture = mammalian_01 # "pmod_01"
+	city_graphical_culture = mammalian_01 # "pmod_01"
+
+	empire_flag = {
+		icon= {
+			category = "eqsatwargriffon2"
+			file = "GRI.dds"
+		}
+		background= {
+			category = "backgrounds"
+			file = "griffon.dds"
+		}
+		colors={
+			"orange"
+			"ochre_brown"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_grover_xi"
+		ruler_title = "PRESCRIPTED_ruler_title_kaiser"
+		ruler_title_female = "PRESCRIPTED_ruler_title_kaiserin"
+		gender = male
+		portrait = "mtrspony_griffon_gallus"
+		texture = 11
+		attachment = 0
+		clothes = 0
+		trait = "trait_ruler_charismatic"
+		leader_class = governor
+	}
+}
