@@ -1,0 +1,234 @@
+namespace = cocstart
+
+#Setup Convocation of Creatures
+country_event = {
+	id = cocstart.1
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		has_country_flag = convocation_of_creatures
+	}
+	immediate = {
+		create_leader = {
+			name = "PRESCRIPTED_ruler_name_dusk_shine"
+			custom_description = "PRESCRIPTED_ruler_name_dusk_shine_desc"
+			species = ROOT.species
+			gender = male
+			class = scientist
+			skill = 1
+			set_age = 291
+			immortal = yes
+			background_ethic = "ethic_xenophile"
+			randomize_traits = no
+			traits = {
+				trait = leader_trait_expertise_field_manipulation
+				trait = leader_trait_spark_of_genius
+			}
+
+			effect = {
+				save_event_target_as = leader_dusk_shine
+				set_leader_flag = is_created_leader
+				change_leader_portrait = "mtrspony_pony_alicorn_dusk_shine_predefined"
+				change_background_job = head_researcher
+				ROOT = { assign_leader = event_target:leader_dusk_shine }
+			}
+		}
+
+		create_species = {
+			name = "PRESCRIPTED_species_griffon"
+			plural = "PRESCRIPTED_species_plural_griffon"
+			adjective = "PRESCRIPTED_species_adjective_griffon"
+			class = MTRSPONY
+			portrait = mtrspony_griffon
+			namelist = mtrspony_namelists_griffon
+			traits = {
+				trait = trait_pc_continental_preference
+				trait = trait_thrifty
+				trait = trait_resilient
+				trait = trait_quarrelsome
+			}
+
+			effect = {
+				save_event_target_as = griffon_species
+				set_citizenship_type = { country = ROOT type = citizenship_full }
+				set_military_service_type = { country = ROOT type = military_service_full }
+			}
+		}
+		create_species = {
+			name = "PRESCRIPTED_species_dragon"
+			plural = "PRESCRIPTED_species_plural_dragon"
+			adjective = "PRESCRIPTED_species_adjective_dragon"
+			class = MTRSPONY
+			portrait = mtrspony_dragon
+			namelist = mtrspony_namelists_dragon
+			traits = {
+				trait = trait_pc_continental_preference
+				trait = trait_strong
+				trait = trait_venerable
+				trait = trait_slow_breeders
+				trait = trait_solitary
+			}
+
+			effect = {
+				save_event_target_as = dragon_species
+				set_citizenship_type = { country = ROOT type = citizenship_full }
+				set_military_service_type = { country = ROOT type = military_service_full }
+			}
+		}
+		create_species = {
+			name = "PRESCRIPTED_species_kirin"
+			plural = "PRESCRIPTED_species_plural_kirin"
+			adjective = "PRESCRIPTED_species_adjective_kirin"
+			class = MTRSPONY
+			portrait = mtrspony_kirin
+			namelist = mtrspony_namelists_kirin
+			traits = {
+				trait = trait_pc_continental_preference
+				trait = trait_agrarian
+				trait = trait_natural_engineers
+				trait = trait_wasteful
+			}
+
+			effect = {
+				save_event_target_as = kirin_species
+				set_citizenship_type = { country = ROOT type = citizenship_full }
+				set_military_service_type = { country = ROOT type = military_service_full }
+			}
+		}
+		create_species = {
+			name = "PRESCRIPTED_species_changeling"
+			plural = "PRESCRIPTED_species_plural_changeling"
+			adjective = "PRESCRIPTED_species_adjective_changeling"
+			class = MTRSPONY
+			portrait = mtrspony_changeling
+			namelist = mtrspony_namelists_changeling
+			traits = {
+				trait = trait_pc_continental_preference
+				trait = trait_communal
+				trait = trait_adaptive
+				trait = trait_wasteful
+			}
+
+			effect = {
+				save_event_target_as = changeling_species
+				set_citizenship_type = { country = ROOT type = citizenship_full }
+				set_military_service_type = { country = ROOT type = military_service_full }
+			}
+		}
+
+		capital_scope = {
+			random_owned_pop = { kill_pop = yes }
+			random_owned_pop = { kill_pop = yes }
+			random_owned_pop = { kill_pop = yes }
+			random_owned_pop = { kill_pop = yes }
+			random_owned_pop = { kill_pop = yes }
+			random_owned_pop = { kill_pop = yes }
+			random_owned_pop = { kill_pop = yes }
+			random_owned_pop = { kill_pop = yes }
+			random_owned_pop = { kill_pop = yes }
+			random_owned_pop = { kill_pop = yes }
+			random_owned_pop = { kill_pop = yes }
+			random_owned_pop = { kill_pop = yes }
+			random_owned_pop = { kill_pop = yes }
+			create_pop = {
+				species = event_target:griffon_species
+				ethos = random
+			}
+			create_pop = {
+				species = event_target:griffon_species
+				ethos = random
+			}
+			create_pop = {
+				species = event_target:griffon_species
+				ethos = random
+			}
+			create_pop = {
+				species = event_target:griffon_species
+				ethos = random
+			}
+			create_pop = {
+				species = event_target:griffon_species
+				ethos = random
+			}
+			create_pop = {
+				species = event_target:griffon_species
+				ethos = random
+			}
+			create_pop = {
+				species = event_target:griffon_species
+				ethos = random
+			}
+			create_pop = {
+				species = event_target:griffon_species
+				ethos = random
+			}
+			create_pop = {
+				species = event_target:dragon_species
+				ethos = random
+			}
+			create_pop = {
+				species = event_target:kirin_species
+				ethos = random
+			}
+			create_pop = {
+				species = event_target:kirin_species
+				ethos = random
+			}
+			create_pop = {
+				species = event_target:changeling_species
+				ethos = random
+			}
+			create_pop = {
+				species = event_target:changeling_species
+				ethos = random
+			}
+		}
+
+		# Remove the auto-generated Dusk Shine.
+		random_owned_leader = {
+			limit = {
+				NOT = { has_leader_flag = is_created_leader }
+				has_trait = leader_trait_spark_of_genius
+			}
+
+			kill_leader = {
+				show_notification = no
+				fire = yes
+			}
+		}
+	}
+}
+
+#Set the portraits for Dusk Shine again, noticed a bug that resets the potraits of councillors after a reload.
+country_event = {
+	id = cocstart.2
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		has_country_flag = convocation_of_creatures
+	}
+	immediate = {
+		#event_target:leader_sweetie_belle
+		#	change_leader_portrait = "mtrspony_pony_alicorn_dusk_shine_predefined"
+		#}
+
+		random_owned_leader = {
+			limit = {
+				has_leader_flag = is_created_leader
+				OR = {
+					has_trait = leader_trait_expertise_field_manipulation
+					has_trait = leader_trait_expertise_field_manipulation_2
+					has_trait = leader_trait_expertise_field_manipulation_3
+				}
+				OR = {
+					has_trait = leader_trait_spark_of_genius
+					has_trait = leader_trait_spark_of_genius_2
+				}
+			}
+		
+			change_leader_portrait = "mtrspony_pony_alicorn_dusk_shine_predefined"
+		}
+	}
+}

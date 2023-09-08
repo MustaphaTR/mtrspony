@@ -22,6 +22,17 @@ portraits = {
 		custom_attachment_label = "HAIR_COLOR"
 	}
 
+	mtrspony_pony_alicorn_dusk_shine_predefined = {
+		entity = "portrait_dummy_10p_left_entity"
+		clothes_selector = "mtrspony_no_clothes_selector"
+		attachment_selector = "mtrspony_pony_alicorn_dusk_shine_predefined_hair_selector"
+		greeting_sound = "human_male_greetings_01"
+
+		character_textures = {
+			"gfx/models/portraits/pony_alicorn/dusk_shine/dusk_shine.dds"
+		}
+	}
+
 	mtrspony_pony_alicorn_celestia = {
 		entity = "portrait_dummy_big_centered_entity"
 		clothes_selector = "mtrspony_pony_alicorn_celestia_clothes_selector"

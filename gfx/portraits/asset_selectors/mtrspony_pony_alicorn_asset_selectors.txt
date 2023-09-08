@@ -75,6 +75,16 @@ mtrspony_pony_alicorn_dusk_shine_hair_selector = {
 	}
 }
 
+mtrspony_pony_alicorn_dusk_shine_predefined_hair_selector = {
+	default = "gfx/models/portraits/pony_alicorn/dusk_shine/dusk_shine_hair.dds"
+
+	game_setup = { default = "gfx/models/portraits/pony_alicorn/dusk_shine/dusk_shine_hair.dds" }
+	species = { default = "gfx/models/portraits/pony_alicorn/dusk_shine/dusk_shine_hair.dds" }
+	pop = { default = "gfx/models/portraits/pony_alicorn/dusk_shine/dusk_shine_hair.dds" }
+	leader = { default = "gfx/models/portraits/pony_alicorn/dusk_shine/dusk_shine_hair.dds" }
+	ruler = { default = "gfx/models/portraits/pony_alicorn/dusk_shine/dusk_shine_hair.dds" }
+}
+
 mtrspony_pony_alicorn_celestia_hair_selector = {
 	default = "gfx/models/portraits/pony_alicorn/celestia/celestia_hair.dds"
 
