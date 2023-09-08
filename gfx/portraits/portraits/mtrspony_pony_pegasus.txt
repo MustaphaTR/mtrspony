@@ -1,4 +1,28 @@
 portraits = {
+	mtrspony_pony_pegasus_soarin = {
+		entity = "portrait_dummy_15p_left_entity"
+		clothes_selector = "mtrspony_no_clothes_selector"
+		attachment_selector = "mtrspony_pony_pegasus_soarin_hair_selector"
+		greeting_sound = "human_male_greetings_01"
+
+		character_textures = {
+			"gfx/models/portraits/pony_pegasus/soarin/soarin.dds"
+			"gfx/models/portraits/pony_pegasus/soarin/soarin_alt1.dds"
+			"gfx/models/portraits/pony_pegasus/soarin/soarin_alt2.dds"
+			"gfx/models/portraits/pony_pegasus/soarin/soarin_alt3.dds"
+			"gfx/models/portraits/pony_pegasus/soarin/soarin_alt4.dds"
+			"gfx/models/portraits/pony_pegasus/soarin/soarin_alt5.dds"
+			"gfx/models/portraits/pony_pegasus/soarin/soarin_alt6.dds"
+			"gfx/models/portraits/pony_pegasus/soarin/soarin_alt7.dds"
+			"gfx/models/portraits/pony_pegasus/soarin/soarin_alt8.dds"
+			"gfx/models/portraits/pony_pegasus/soarin/soarin_alt9.dds"
+			"gfx/models/portraits/pony_pegasus/soarin/soarin_alt10.dds"
+			"gfx/models/portraits/pony_pegasus/soarin/soarin_alt11.dds"
+		}
+
+		custom_attachment_label = "HAIR_COLOR"
+	}
+
 	mtrspony_pony_pegasus_mr_shy = {
 		entity = "portrait_dummy_15p_left_entity"
 		clothes_selector = "mtrspony_no_clothes_selector"
@@ -121,6 +145,7 @@ portrait_groups = {
 					}
 				}
 				portraits = {
+					mtrspony_pony_pegasus_soarin
 					mtrspony_pony_pegasus_mr_shy
 				}
 			}
@@ -159,6 +184,7 @@ portrait_groups = {
 					NOT = { species = { species_gender = female } }
 				}
 				portraits = {
+					mtrspony_pony_pegasus_soarin
 					mtrspony_pony_pegasus_mr_shy
 				}
 			}
@@ -180,6 +206,7 @@ portrait_groups = {
 					NOT = { species = { species_gender = female } }
 				}
 				portraits = {
+					mtrspony_pony_pegasus_soarin
 					mtrspony_pony_pegasus_mr_shy
 				}
 			}
@@ -194,6 +221,7 @@ portrait_groups = {
 					}
 				}
 				portraits = {
+					mtrspony_pony_pegasus_soarin
 					mtrspony_pony_pegasus_mr_shy
 				}
 			}
