@@ -131,8 +131,9 @@ country_event = {
 			namelist = mtrspony_namelists_griffon
 			traits = {
 				trait = trait_pc_continental_preference
-				trait = trait_strong
+				trait = trait_thrifty
 				trait = trait_resilient
+				trait = trait_quarrelsome
 			}
 
 			effect = {
@@ -193,6 +194,7 @@ country_event = {
 				trait = trait_pc_continental_preference
 				trait = trait_communal
 				trait = trait_adaptive
+				trait = trait_wasteful
 			}
 
 			effect = {
