@@ -5,3 +5,11 @@ on_game_start_country = {
 		gestart.1
 	}
 }
+
+on_single_player_save_game_load = { # Reapplies portraits for named characters, workaround for a bug which seems to reset them in some cases.
+	events = {
+		cocstart.2
+		tcsstart.2
+		gestart.2
+	}
+}
