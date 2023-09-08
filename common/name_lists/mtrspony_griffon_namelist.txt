@@ -1,7 +1,7 @@
 ﻿mtrspony_namelists_griffon = {
 	randomized = no
 
-	alias = "TSC Griffon Namelist"
+	alias = "EaW Griffon Namelist"
 
 	ship_names = {
 		generic = {
