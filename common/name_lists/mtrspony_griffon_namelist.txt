@@ -29,7 +29,7 @@
 		}
 
 		colossus = {
-			Boreas Eyr Arcturus Maar
+			Boreas Eyr Arcturius Maar
 		}
 
 		science = {
