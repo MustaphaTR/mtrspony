@@ -3,6 +3,12 @@
 
 	alias = "EaW Kirin Namelist"
 
+	ship_names = {
+		constructor = {
+			Vermilion Celadon Massicot Kaolin Cinnabar Chert Hibiscus Tuliptree Peony Jubilee Rhapsody Cerise Apricot Fragrance Ambergris Lilac Brocade Anise Peridot Honeysuckle Flaxseed Pekoe Petuntse Terracota Aureolin Cinabrese Chrysanthemum Amaranth Antimony Petrichor "Azure Hollow" Carmin Hawthorn Sweetfern Cornsilk Sorghum Milkweed Persimon Perianth Verdant Sycee Serendipity Teak Cinammon Hyacinth Nacre Ochre Radiance Blossom Woodrose Chestnut Cogon Plantain Tacca Frangipani Lily Lotus Watercress Fennel Madrepore Krachiao Snakeroot Marlberry Razorgrain Arrowroot Orchid Agarwood
+		}
+	}
+
 	fleet_names = {
 		sequential_name = mtrspony_namelists_pony_space_fleet
 	}
@@ -76,7 +82,7 @@
 	planet_names = {
 		generic = {
 			names = {
-				Providence Apricot Verdant Gossamer Auburn Sunshine Pearl Vermilion Azure Jade Snapdragon Onyx Radiant
+				Providence Apricot Verdant Gossamer Auburn Sunshine Pearl Vermilion Azure Jade Snapdragon Onyx Radiant Razorgrain Orchid Plumeria Magnolia Lotus Cassia Gamboge
 			}
 		}
 
