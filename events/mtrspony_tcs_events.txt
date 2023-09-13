@@ -205,54 +205,10 @@ country_event = {
 		}
 
 		capital_scope = {
-			random_owned_pop = { kill_pop = yes }
-			random_owned_pop = { kill_pop = yes }
-			random_owned_pop = { kill_pop = yes }
-			random_owned_pop = { kill_pop = yes }
-			random_owned_pop = { kill_pop = yes }
-			random_owned_pop = { kill_pop = yes }
-			random_owned_pop = { kill_pop = yes }
-			random_owned_pop = { kill_pop = yes }
-			random_owned_pop = { kill_pop = yes }
-			random_owned_pop = { kill_pop = yes }
-			random_owned_pop = { kill_pop = yes }
-			random_owned_pop = { kill_pop = yes }
-			random_owned_pop = { kill_pop = yes }
-			create_pop = {
-				species = event_target:griffon_species
-				ethos = random
-			}
-			create_pop = {
-				species = event_target:griffon_species
-				ethos = random
-			}
-			create_pop = {
-				species = event_target:griffon_species
-				ethos = random
-			}
-			create_pop = {
-				species = event_target:griffon_species
-				ethos = random
-			}
-			create_pop = {
-				species = event_target:griffon_species
-				ethos = random
-			}
-			create_pop = {
-				species = event_target:griffon_species
-				ethos = random
-			}
-			create_pop = {
-				species = event_target:griffon_species
-				ethos = random
-			}
-			create_pop = {
-				species = event_target:griffon_species
-				ethos = random
-			}
-			create_pop = {
-				species = event_target:dragon_species
-				ethos = random
+			while = {
+				count = 13
+
+				random_owned_pop = { kill_pop = yes }
 			}
 			create_pop = {
 				species = event_target:kirin_species
