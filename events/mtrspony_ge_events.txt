@@ -163,11 +163,11 @@ country_event = {
 				ethos = random
 			}
 			create_pop = {
-				species = event_target:pony_species_citizen
+				species = event_target:pony_species
 				ethos = random
 			}
 			create_pop = {
-				species = event_target:pony_species_citizen
+				species = event_target:pony_species
 				ethos = random
 			}
 			create_pop = {
