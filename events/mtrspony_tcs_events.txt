@@ -283,7 +283,7 @@ country_event = {
 	}
 }
 
-#Set the portraits for the CMC again, noticed a bug that resets the potraits of councillors after a reload.
+# Reapply named character potraits, they seem to reset after loading a save or when species got modified.
 country_event = {
 	id = tcsstart.2
 	hide_window = yes
@@ -293,97 +293,19 @@ country_event = {
 		has_country_flag = the_crusader_state
 	}
 	immediate = {
-		#event_target:leader_sweetie_belle
-		#	change_leader_portrait = "mtrspony_pony_unicorn_sweetie_belle_older_predefined"
-		#}
-		#event_target:leader_apple_bloom
-		#	change_leader_portrait = "mtrspony_pony_alicorn_apple_bloom_predefined"
-		#}
-		#event_target:leader_scootaloo
-		#	change_leader_portrait = "mtrspony_pony_pegasus_scootaloo_predefined"
-		#}
-		#event_target:leader_babs_seed
-		#	change_leader_portrait = "mtrspony_pony_earth_babs_seed_predefined"
-		#}
-		#event_target:leader_gabby
-		#	change_leader_portrait = "mtrspony_griffon_gabby_predefined"
-		#}
-
-		random_owned_leader = {
-			limit = {
-				has_leader_flag = is_created_leader
-				OR = {
-					has_trait = leader_trait_expertise_field_manipulation
-					has_trait = leader_trait_expertise_field_manipulation_2
-					has_trait = leader_trait_expertise_field_manipulation_3
-				}
-				OR = {
-					has_trait = trait_ruler_eye_for_talent
-					has_trait = trait_ruler_eye_for_talent_2
-				}
-			}
-		
+		event_target:leader_sweetie_belle = {
 			change_leader_portrait = "mtrspony_pony_unicorn_sweetie_belle_older_predefined"
 		}
-		random_owned_leader = {
-			limit = {
-				has_leader_flag = is_created_leader
-				OR = {
-					has_trait = leader_trait_expertise_industry
-					has_trait = leader_trait_expertise_industry_2
-					has_trait = leader_trait_expertise_industry_3
-				}
-				OR = {
-					has_trait = trait_ruler_eye_for_talent
-					has_trait = trait_ruler_eye_for_talent_2
-				}
-			}
-
+		event_target:leader_apple_bloom = {
 			change_leader_portrait = "mtrspony_pony_alicorn_apple_bloom_predefined"
 		}
-		random_owned_leader = {
-			limit = {
-				has_leader_flag = is_created_leader
-				has_trait = leader_trait_cyborg
-				OR = {
-					has_trait = leader_trait_scout
-					has_trait = leader_trait_scout_2
-					has_trait = leader_trait_scout_3
-				}
-				OR = {
-					has_trait = trait_ruler_eye_for_talent
-					has_trait = trait_ruler_eye_for_talent_2
-				}
-			}
-
+		event_target:leader_scootaloo = {
 			change_leader_portrait = "mtrspony_pony_pegasus_scootaloo_predefined"
 		}
-		random_owned_leader = {
-			limit = {
-				has_leader_flag = is_created_leader
-				OR = {
-					has_trait = leader_trait_urbanist
-					has_trait = leader_trait_urbanist_2
-					has_trait = leader_trait_urbanist_3
-				}
-				OR = {
-					has_trait = leader_trait_trade_focus
-					has_trait = leader_trait_trade_focus_2
-				}
-			}
-
+		event_target:leader_babs_seed = {
 			change_leader_portrait = "mtrspony_pony_earth_babs_seed_predefined"
 		}
-		random_owned_leader = {
-			limit = {
-				has_leader_flag = is_created_leader
-				has_trait = leader_trait_utopian_idealist
-				OR = {
-					has_trait = leader_trait_righteous
-					has_trait = leader_trait_righteous_2
-				}
-			}
-
+		event_target:leader_gabby = {
 			change_leader_portrait = "mtrspony_griffon_gabby_predefined"
 		}
 	}

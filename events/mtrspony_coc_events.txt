@@ -172,7 +172,7 @@ country_event = {
 	}
 }
 
-#Set the portraits for Dusk Shine again, noticed a bug that resets the potraits of councillors after a reload.
+# Reapply named character potraits, they seem to reset after loading a save or when species got modified.
 country_event = {
 	id = cocstart.2
 	hide_window = yes
@@ -182,24 +182,7 @@ country_event = {
 		has_country_flag = convocation_of_creatures
 	}
 	immediate = {
-		#event_target:leader_dusk_shine
-		#	change_leader_portrait = "mtrspony_pony_alicorn_dusk_shine_predefined"
-		#}
-
-		random_owned_leader = {
-			limit = {
-				has_leader_flag = is_created_leader
-				OR = {
-					has_trait = leader_trait_expertise_field_manipulation
-					has_trait = leader_trait_expertise_field_manipulation_2
-					has_trait = leader_trait_expertise_field_manipulation_3
-				}
-				OR = {
-					has_trait = leader_trait_spark_of_genius
-					has_trait = leader_trait_spark_of_genius_2
-				}
-			}
-		
+		event_target:leader_dusk_shine = {
 			change_leader_portrait = "mtrspony_pony_alicorn_dusk_shine_predefined"
 		}
 	}

@@ -173,7 +173,7 @@ country_event = {
 	}
 }
 
-#Set the portraits for Grover XI again, noticed a bug that resets the potraits of councillors after a reload.
+# Reapply named character potraits, they seem to reset after loading a save or when species got modified.
 country_event = {
 	id = gestart.2
 	hide_window = yes
@@ -183,19 +183,7 @@ country_event = {
 		has_country_flag = griffonian_empire
 	}
 	immediate = {
-		#event_target:leader_grover_xi
-		#	change_leader_portrait = "mtrspony_griffon_grover_xi_predefined"
-		#}
-
-		random_owned_leader = {
-			limit = {
-				has_leader_flag = is_created_leader
-				OR = {
-					has_trait = trait_ruler_charismatic
-					has_trait = trait_ruler_charismatic_2
-				}
-			}
-		
+		event_target:leader_grover_xi = {
 			change_leader_portrait = "mtrspony_griffon_grover_xi_predefined"
 		}
 	}
