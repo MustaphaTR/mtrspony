@@ -183,8 +183,8 @@ griffonian_empire = {
 	initializer = "eaw_vanilla_initializer"
 	system_name = "NAME_Behemoth"
 
-	graphical_culture = mammalian_01 # "pmod_01"
-	city_graphical_culture = mammalian_01 # "pmod_01"
+	graphical_culture = avian_01 # "pmod_01"
+	city_graphical_culture = avian_01 # "pmod_01"
 
 	empire_flag = {
 		icon= {
