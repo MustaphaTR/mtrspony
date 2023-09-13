@@ -210,21 +210,37 @@ country_event = {
 
 				random_owned_pop = { kill_pop = yes }
 			}
-			create_pop = {
-				species = event_target:kirin_species
-				ethos = random
+			while = {
+				count = 8
+
+				create_pop = {
+					species = event_target:griffon_species
+					ethos = random
+				}
 			}
-			create_pop = {
-				species = event_target:kirin_species
-				ethos = random
+			while = {
+				count = 1
+
+				create_pop = {
+					species = event_target:dragon_species
+					ethos = random
+				}
 			}
-			create_pop = {
-				species = event_target:changeling_species
-				ethos = random
+			while = {
+				count = 2
+
+				create_pop = {
+					species = event_target:kirin_species
+					ethos = random
+				}
 			}
-			create_pop = {
-				species = event_target:changeling_species
-				ethos = random
+			while = {
+				count = 2
+
+				create_pop = {
+					species = event_target:changeling_species
+					ethos = random
+				}
 			}
 		}
 
