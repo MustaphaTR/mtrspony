@@ -21,7 +21,7 @@ convocation_of_creatures = {
 	room = "personality_migrating_flock_room"
 
 	authority = "auth_democratic"
-	civics = { "civic_beacon_of_liberty" "civic_diplomatic_corps" }
+	civics = { "civic_diplomatic_corps" "civic_idealistic_foundation" }
 	government = gov_moral_democracy
 
 	ethic = "ethic_xenophile"
