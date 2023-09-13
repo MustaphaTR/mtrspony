@@ -166,6 +166,10 @@ country_event = {
 				fire = yes
 			}
 		}
+
+		event_target:leader_grover_xi = {
+			set_name = "PRESCRIPTED_ruler_name_grover_xi"
+		}
 	}
 }
 
