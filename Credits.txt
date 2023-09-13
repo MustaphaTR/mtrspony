@@ -58,3 +58,11 @@ Portrait Bases:
 Flag Backgrounds:
  > Elowniy:
 	- Griffonian Empire
+
+Planets:
+ > Elowniy:
+	- Faust
+
+Systems:
+ > Elowniy:
+	- Behemoth

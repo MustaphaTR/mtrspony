@@ -1,7 +1,17 @@
 ﻿l_english:
  # Shared Stuff
+ eaw_vanilla_initializer_NAME:0 "Behemoth System"
+ eaw_vanilla_initializer_DESC:0 "The Equestria at War system, complete with the small sun and moon."
+
  NAME_Faust:0 "Faust"
  NAME_Behemoth:0 "Behemoth"
+ NAME_Helios:0 "Helios"
+ NAME_Selene:0 "Selene"
+ NAME_Tanvewei:0 "Tanvewei"
+ NAME_Hiphyria:0 "Hiphyria"
+ NAME_Gasarvis:0 "Gasarvis"
+ NAME_Deenope:0 "Deenope"
+ NAME_Rolemia:0 "Rolemia"
 
  PRESCRIPTED_species_pony:0 "Pony"
  PRESCRIPTED_species_plural_pony:0 "Ponies"
