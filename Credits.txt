@@ -15,6 +15,9 @@ Portrait Bases:
 	- Gilda
 	- Thorax
 
+ > firestorm-can:
+	- Igneous Rock Pie
+
  > freak0uo:
 	- Unicorn Twilight Sparkle
 

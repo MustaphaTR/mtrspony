@@ -18,6 +18,7 @@ portrait_groups = {
 				portraits = {
 					mtrspony_pony_earth_big_mcintosh
 					mtrspony_pony_earth_mudbriar
+					mtrspony_pony_earth_igneous_rock_pie
 					mtrspony_pony_earth_button_mash
 					mtrspony_pony_unicorn_shining_armor
 					mtrspony_pony_pegasus_soarin
@@ -84,6 +85,7 @@ portrait_groups = {
 				portraits = {
 					mtrspony_pony_earth_big_mcintosh
 					mtrspony_pony_earth_mudbriar
+					mtrspony_pony_earth_igneous_rock_pie
 					mtrspony_pony_earth_button_mash
 					mtrspony_pony_unicorn_shining_armor
 					mtrspony_pony_pegasus_soarin
@@ -122,6 +124,7 @@ portrait_groups = {
 				portraits = {
 					mtrspony_pony_earth_big_mcintosh
 					mtrspony_pony_earth_mudbriar
+					mtrspony_pony_earth_igneous_rock_pie
 					mtrspony_pony_earth_button_mash
 					mtrspony_pony_unicorn_shining_armor
 					mtrspony_pony_pegasus_soarin
@@ -142,6 +145,7 @@ portrait_groups = {
 				portraits = {
 					mtrspony_pony_earth_big_mcintosh
 					mtrspony_pony_earth_mudbriar
+					mtrspony_pony_earth_igneous_rock_pie
 					mtrspony_pony_earth_button_mash
 					mtrspony_pony_unicorn_shining_armor
 					mtrspony_pony_pegasus_soarin
