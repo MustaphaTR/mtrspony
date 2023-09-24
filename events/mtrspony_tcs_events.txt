@@ -27,7 +27,7 @@ country_event = {
 			}
 
 			effect = {
-				save_event_target_as = leader_sweetie_belle
+				save_global_event_target_as = leader_sweetie_belle
 				set_leader_flag = is_created_leader
 				change_leader_portrait = "mtrspony_pony_unicorn_sweetie_belle_older_predefined"
 				change_background_job = head_researcher
@@ -52,7 +52,7 @@ country_event = {
 			}
 
 			effect = {
-				save_event_target_as = leader_apple_bloom
+				save_global_event_target_as = leader_apple_bloom
 				set_leader_flag = is_created_leader
 				change_leader_portrait = "mtrspony_pony_alicorn_apple_bloom_predefined"
 				ROOT = {
@@ -84,7 +84,7 @@ country_event = {
 			}
 
 			effect = {
-				save_event_target_as = leader_scootaloo
+				save_global_event_target_as = leader_scootaloo
 				set_leader_flag = is_created_leader
 				change_leader_portrait = "mtrspony_pony_pegasus_scootaloo_predefined"
 				ROOT = {
@@ -115,7 +115,7 @@ country_event = {
 			}
 
 			effect = {
-				save_event_target_as = leader_babs_seed
+				save_global_event_target_as = leader_babs_seed
 				set_leader_flag = is_created_leader
 				change_background_job = hairdresser
 				change_leader_portrait = "mtrspony_pony_earth_babs_seed_predefined"
@@ -261,7 +261,7 @@ country_event = {
 			}
 
 			effect = {
-				save_event_target_as = leader_gabby
+				save_global_event_target_as = leader_gabby
 				set_leader_flag = is_created_leader
 				change_leader_portrait = "mtrspony_griffon_gabby_predefined"
 				change_background_job = mailgriffon

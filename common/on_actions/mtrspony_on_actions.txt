@@ -6,14 +6,6 @@ on_game_start_country = {
 	}
 }
 
-on_single_player_save_game_load = { # Reapplies portraits for named characters, workaround for a bug which seems to reset them in some cases.
-	events = {
-		cocstart.2
-		tcsstart.2
-		gestart.2
-	}
-}
-
 on_monthly_pulse_country = { # It also triggers when species are modified, there's no on action for that so brute force it with on_monthly_pulse_country.
 	events = {
 		cocstart.2
