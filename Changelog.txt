@@ -1,3 +1,9 @@
 - Version 0.1.1 (24.09.2023):
 -- Added 1 more male earth pony portrait set.
 -- Fixed workaround for named character portrait reset not working.
+
+- Version 0.1.2 (16.11.2023):
+-- Updated the mod for Stellaris 3.10.0.
+-- Added pony ship names to Kirin and Dragon namelists as a placeholder.
+-- Added set names for The Crusader State's starting Corvettes.
+-- Fixed adjective for Convocation of Creatures.
