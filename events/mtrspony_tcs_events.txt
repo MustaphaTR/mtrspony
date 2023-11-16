@@ -269,8 +269,34 @@ country_event = {
 				ROOT = { capital_scope = { assign_leader = event_target:leader_gabby } }
 			}
 		}
+		
+		# Custom names for starting ships, these are Battleships in the referenced story, but i'm just using them for starting Corvettes.
+		random_owned_ship = {
+			limit = {
+				is_ship_size = corvette
+				NOT = { has_ship_flag = has_name_setup }
+			}
+			set_name = "TCSSS Halberd"
+			set_ship_flag = has_name_setup
+		}
+		random_owned_ship = {
+			limit = {
+				is_ship_size = corvette
+				NOT = { has_ship_flag = has_name_setup }
+			}
+			set_name = "TCSSS Warhammer"
+			set_ship_flag = has_name_setup
+		}
+		random_owned_ship = {
+			limit = {
+				is_ship_size = corvette
+				NOT = { has_ship_flag = has_name_setup }
+			}
+			set_name = "TCSSS Unique Horn"
+			set_ship_flag = has_name_setup
+		}
 
-		# Remove the genericos
+		# Remove the genericos.
 		every_owned_leader = {
 			limit = {
 				NOT = { has_leader_flag = is_created_leader }
