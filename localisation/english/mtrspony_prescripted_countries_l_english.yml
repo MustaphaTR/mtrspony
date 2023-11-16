@@ -32,7 +32,7 @@
  # Convocation of Creatures
  EMPIRE_DESIGN_convocation_of_creatures:0 "Convocation of Creatures"
  # EMPIRE_DESIGN_convocation_of_creatures_desc:0 ""
- PRESCRIPTED_adjective_the_crusader_state:0 "Convocate"
+ PRESCRIPTED_adjective_convocation_of_creatures:0 "Convocate"
  PRESCRIPTED_ruler_title_president:0 "President"
  PRESCRIPTED_ship_prefix_convocation_of_creatures:0 "CoCS"
 
