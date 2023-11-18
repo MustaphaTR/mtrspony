@@ -115,7 +115,7 @@ the_crusader_state = {
 
 	empire_flag = {
 		icon= {
-			category = "eqsatwarequus"
+			category = "esieaw"
 			file = "CMC.dds"
 		}
 		background= {
