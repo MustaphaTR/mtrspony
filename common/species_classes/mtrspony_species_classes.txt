@@ -13,6 +13,7 @@ MTRSPONY = {
 		"mtrspony_changeling"
 		"mtrspony_dragon"
 		"mtrspony_kirin"
+		"mtrspony_zebra"
 	}
 
 	# These should not be used for randomly generated species
@@ -26,6 +27,7 @@ MTRSPONY = {
 		"mtrspony_changeling"
 		"mtrspony_dragon"
 		"mtrspony_kirin"
+		"mtrspony_zebra"
 	}
 
 	graphical_culture = mammalian_01 # pmod_01

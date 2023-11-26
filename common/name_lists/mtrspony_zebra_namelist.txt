@@ -1,0 +1,448 @@
+﻿mtrspony_namelists_zebra = {
+	randomized = no
+
+	alias = "EaW Zebra Namelist"
+
+	ship_names = {
+		generic = {
+			Amberjack Dolphin Saury "Sea Panther" Pilotfish Espada "Sea Fox" Croaker Bullhead Goldring Pargo "Sea Poacher" Cuttlefish Atule Guitarro Grunion Swordfish Sargo Odax Sturgeon Bream Ronquil Grayling Sculpin Tiru Razorback Pompano Threadfin Piranha Roncador Bugara Hammerhead Scamp Sealion "Sea Cat" Tiburon "Sea Devil" Corporal Kingfish Lancetfish Thresher Skate Bass Lizardfish Trumpetfish Carp Quillback Piper Scorpion Sabalo Salmon Stingray Snook Clamagore Springer Springeren Angler Pomfret "Sea Leopard" Sablefish Redfish Billfish Jawfish Marlin Halfbeak Tusk Garlopa Lamprey Silversides Chub Comber Hackleback Redfin "Sand Lance" Needlefish Plaice Baya Blackfish Tang Toro Herring Haddo Seahorse Finback Brill Wahoo Batfish Jallao Menhaden Eel Steelhead Mero Barbel Cachalot Walrus Lapon Besugo Spinax Turbot Sennet Seawolf Thornback Pickerel Tunny Gato Sunfish Seal Snapper Runner Burrfish Dogfish Tambor Shark Tautog Barb Cisco Scabbardfish Haddock Apogon Cabrilla Tarpon Bluegill Tullibee Moray Dentuda Bowfin Cochino Ulua Seadragon Sarda Robalo Pomodon Kraken Hawkbill Flounder Bang Catfish Mackerel Shad Pintado Halibut Tuna Vendace Sterlet Lionfish Rock Sea Owl Dugong Trout Guavina Crevalle Trutta Tench Escolar Parche Caiman Flying Fish Stickleback Torsk Requin Drum Picuda Cod Whale "Sea Dog" Pike Remora Irex Spikefish Bluefish Harder Entemedor Pipefish Rasher Tilefish Sailfish Narwhal Searaven Greenling Bashaw Chivo Gar Sawfish Cusk Wolffish Balao Corvina Boarfish Garrupa Flasher Spearfish Ray Devilfish Archerfish Hoe Pampanito Whitefish Tirante Ono Gurnard Gabilan Grampus Perch Growler Blenny Ling Tinosa Cobia Skipjack "Sea Robin" Nerka Kete Peto Trepang Bergall Chopper Cabezon Diodon Mingo Conger Raton Paddle Loggerhead Grayback Barracuda Hardhead Medregal Bonefish Charr Cero Guardfish Tigrone Capelin Capitaine Jack Macabi Icefish Dragonet Muskallunge Porpoise Nautilus Segundo Lagarto Golet Puffer Mapiro Manta Becuna Cobbler Barbero Bumper Albacore Pogy Spadefish Sirago Greenfish Grouper Spot Hake Darter Flier Pompon Blueback Carbonero Blackfin Whiting Queenfish Blower Cavalla Gunnel Bonita Aspro Cubera Telescopium Lynx Pictor Ara Perseus Norma Libra Aries "Canes Venatici" Auriga Cancer Apus Dorado "Leo Minor" Sextans "Coma Berenices" Carina Andromeda Fornax Camelopardalis Mensa Phoenix Crux Sagitta Taurus Lyra Monoceros Eridanus Pavo Gemini Lepus Orion Crater Sculptor Ophiuchus Serpens Aquarius Scorpius Aquila Antila Delphinus Lupus Horologium Scutum Caelum Grus Pisces Octans Cetus Cassiopeia Leo "Canis Major" Hercules Puppis Lacerta Hydra Reticulum "Corona Australis" Sagitarius Equuleus "Piscis Austrinus" Columba Indus Centaurus Cepheus "Corona Borealis" Chamaeleon Musca Pyxis Corvus Draco "Canis Minor" Hydrus Capricornus Cygnus Circinus Solarguard Lunarguard Gladiolus Marigold Snapdragon Heather Trachelium Hyacinth Daffodil Magnolia Anemone Limonium Freesia "Spray Rose" Chrysanthemum Lilac Tuberose Orchid Carnation Delphinium Protea Ranunculus "Bird of Paradise" Lily Hibiscus Iris Crocus "Oriental Lily" "Calla Lily" Azalea Kalanchoe Poinsettia Geranium Narcissus Amaryllis Lavender "Baby's Breath" "Peace Lily" Cyclamen Waxflower Pansy Tulip Sunflower Aster Alstroemeria Pompon Rose Zinnia Daisy Larkspur "Petite Rose" Hydrangea Liatris Cockscomb "Asiatic Lily" Campanula Begonia Hypericum Jonquil Jasmine Gardenia Lisianthus "Tea Rose" "Star Swirl" Rockhoof Mistmane "Flash Magnus" Somnambula Meadowbrook Platinum Clover Hurricane Puddinghead "Smart Cookie" Pansy "Twilight Sparkle" Applejack Rarity "Pinkie Pie" Fluttershy "Rainbow Dash" Pegasopolis Unicornia Dirtville Sisterhood Harmony Friendship Magic Unicorn Pegasus "Earth Pony" Thestral Hasbro Luna Celestia Twilight Alicorn Sorcery Strength Healing Hope Beauty Bravery Honesty Kindness Laughter Generosity Loyalty Magic Wisdom Humility Fairness Love Courage Charity Prudence Temperance Tenacity Mercy Gravity Duty Modesty Dilegence Patience Focus Order Forgiveness Purity Chastity Empathy Enlightenment Honor Insight Confidence Reliability Canterlot Ponyville Cloudsdale Fillydelphia Manehatten Vanhoover Tall Tale Prancisco "Las Pegasus" "Ghastly Gorge" "Hoof City" Rockville Appleloosa Stableside Baltimare "Everfree Forest" Bales "Luna Nova" Mareway Dappleshore Whinnyapolis Marechester "Hollow Shades" Riverpool Manesbury Prance Detrot Canterbury Mariposa Whitebell Acornage "Salt Lick City" "Acadia Bay" "New Horseleans" Applewood "Dodge City" "Sire's Hollow" "Canter Creek" "San Manetonio" Haystin Galloprey Tenochtitlan Saltmane Bitterberry Bridlepolis Fairflanks Trotterfield Troysylvania Baicall "Seaward Shoals" Somland Albion Lesnoye Stratusburg Bronclyn Summerfield Trotland Ponderosa Shire Yonderhill "Raspberry Grove" Mead Resort Jamtown Faoledo Hoofington Rosemarin Horston Portland Mareidian Saltlickingham "New Manehattan" Bucksbane "New Summerfield" Canmarea Applelaide "New Hoofington" Colton Manebourne "Stratus Springs" "New Manesbury" Sydneigh Starfall "Port Arbor" "Wagga Wagga" Boltaire Eldoran Broome
+		}
+		
+		corvette = {
+			Amberjack Dolphin Saury "Sea Panther" Pilotfish Espada "Sea Fox" Croaker Bullhead Goldring Pargo "Sea Poacher" Cuttlefish Atule Guitarro Grunion Swordfish Sargo Odax Sturgeon Bream Ronquil Grayling Sculpin Tiru Razorback Pompano Threadfin Piranha Roncador Bugara Hammerhead Scamp Sealion "Sea Cat" Tiburon "Sea Devil" Corporal Kingfish Lancetfish Thresher Skate Bass Lizardfish Trumpetfish Carp Quillback Piper Scorpion Sabalo Salmon Stingray Snook Clamagore Springer Springeren Angler Pomfret "Sea Leopard" Sablefish Redfish Billfish Jawfish Marlin Halfbeak Tusk Garlopa Lamprey Silversides Chub Comber Hackleback Redfin "Sand Lance" Needlefish Plaice Baya Blackfish Tang Toro Herring Haddo Seahorse Finback Brill Wahoo Batfish Jallao Menhaden Eel Steelhead Mero Barbel Cachalot Walrus Lapon Besugo Spinax Turbot Sennet Seawolf Thornback Pickerel Tunny Gato Sunfish Seal Snapper Runner Burrfish Dogfish Tambor Shark Tautog Barb Cisco Scabbardfish Haddock Apogon Cabrilla Tarpon Bluegill Tullibee Moray Dentuda Bowfin Cochino Ulua Seadragon Sarda Robalo Pomodon Kraken Hawkbill Flounder Bang Catfish Mackerel Shad Pintado Halibut Tuna Vendace Sterlet Lionfish Rock Sea Owl Dugong Trout Guavina Crevalle Trutta Tench Escolar Parche Caiman Flying Fish Stickleback Torsk Requin Drum Picuda Cod Whale "Sea Dog" Pike Remora Irex Spikefish Bluefish Harder Entemedor Pipefish Rasher Tilefish Sailfish Narwhal Searaven Greenling Bashaw Chivo Gar Sawfish Cusk Wolffish Balao Corvina Boarfish Garrupa Flasher Spearfish Ray Devilfish Archerfish Hoe Pampanito Whitefish Tirante Ono Gurnard Gabilan Grampus Perch Growler Blenny Ling Tinosa Cobia Skipjack "Sea Robin" Nerka Kete Peto Trepang Bergall Chopper Cabezon Diodon Mingo Conger Raton Paddle Loggerhead Grayback Barracuda Hardhead Medregal Bonefish Charr Cero Guardfish Tigrone Capelin Capitaine Jack Macabi Icefish Dragonet Muskallunge Porpoise Nautilus Segundo Lagarto Golet Puffer Mapiro Manta Becuna Cobbler Barbero Bumper Albacore Pogy Spadefish Sirago Greenfish Grouper Spot Hake Darter Flier Pompon Blueback Carbonero Blackfin Whiting Queenfish Blower Cavalla Gunnel Bonita Aspro Cubera
+		}
+		
+		destroyer = {
+			Telescopium Lynx Pictor Ara Perseus Norma Libra Aries "Canes Venatici" Auriga Cancer Apus Dorado "Leo Minor" Sextans "Coma Berenices" Carina Andromeda Fornax Camelopardalis Mensa Phoenix Crux Sagitta Taurus Lyra Monoceros Eridanus Pavo Gemini Lepus Orion Crater Sculptor Ophiuchus Serpens Aquarius Scorpius Aquila Antila Delphinus Lupus Horologium Scutum Caelum Grus Pisces Octans Cetus Cassiopeia Leo "Canis Major" Hercules Puppis Lacerta Hydra Reticulum "Corona Australis" Sagitarius Equuleus "Piscis Austrinus" Columba Indus Centaurus Cepheus "Corona Borealis" Chamaeleon Musca Pyxis Corvus Draco "Canis Minor" Hydrus Capricornus Cygnus Circinus Solarguard Lunarguard
+		}
+		
+		cruiser = {
+			Gladiolus Marigold Snapdragon Heather Trachelium Hyacinth Daffodil Magnolia Anemone Limonium Freesia "Spray Rose" Chrysanthemum Lilac Tuberose Orchid Carnation Delphinium Protea Ranunculus "Bird of Paradise" Lily Hibiscus Iris Crocus "Oriental Lily" "Calla Lily" Azalea Kalanchoe Poinsettia Geranium Narcissus Amaryllis Lavender "Baby's Breath" "Peace Lily" Cyclamen Waxflower Pansy Tulip Sunflower Aster Alstroemeria Pompon Rose Zinnia Daisy Larkspur "Petite Rose" Hydrangea Liatris Cockscomb "Asiatic Lily" Campanula Begonia Hypericum Jonquil Jasmine Gardenia Lisianthus "Tea Rose"
+		}
+		
+		battleship = {
+			"Star Swirl" Rockhoof Mistmane "Flash Magnus" Somnambula Meadowbrook Platinum Clover Hurricane Puddinghead "Smart Cookie" Pansy "Twilight Sparkle" Applejack Rarity "Pinkie Pie" Fluttershy "Rainbow Dash"
+		}
+
+		titan = {
+			Pegasopolis Unicornia Dirtville Sisterhood Harmony Friendship Magic Unicorn Pegasus "Earth Pony" Thestral Hasbro
+		}
+
+		colossus = {
+			Luna Celestia Twilight Alicorn
+		}
+		
+		science = {
+			Sorcery Strength Healing Hope Beauty Bravery Honesty Kindness Laughter Generosity Loyalty Magic Wisdom Humility Fairness Love Courage Charity Prudence Temperance Tenacity Mercy Gravity Duty Modesty Dilegence Patience Focus Order Forgiveness Purity Chastity Empathy Enlightenment Honor Insight Confidence Reliability
+		}
+		
+		colonizer = {
+			"New Manehattan" Bucksbane "New Summerfield" Canmarea Applelaide "New Hoofington" Colton Manebourne "Stratus Springs" "New Manesbury" Sydneigh Starfall "Port Arbor" "Wagga Wagga" Boltaire Eldoran Broome
+		}
+		
+		constructor = {
+			Canterlot Ponyville Cloudsdale Fillydelphia Manehatten Vanhoover Tall Tale Prancisco "Las Pegasus" "Ghastly Gorge" "Hoof City" Rockville Appleloosa Stableside Baltimare "Everfree Forest" Bales "Luna Nova" Mareway Dappleshore Whinnyapolis Marechester "Hollow Shades" Riverpool Manesbury Prance Detrot Canterbury Mariposa Whitebell Acornage "Salt Lick City" "Acadia Bay" "New Horseleans" Applewood "Dodge City" "Sire's Hollow" "Canter Creek" "San Manetonio" Haystin Galloprey Tenochtitlan Saltmane Bitterberry Bridlepolis Fairflanks Trotterfield Troysylvania Baicall "Seaward Shoals" Somland Albion Lesnoye Stratusburg Bronclyn Summerfield Trotland Ponderosa Shire Yonderhill "Raspberry Grove" Mead Resort Jamtown Faoledo Hoofington Rosemarin Horston Portland Mareidian Saltlickingham
+		}
+		
+		transport = {
+			
+		}
+	
+		military_station_small = {
+			
+		}
+
+		ion_cannon = {
+			HUMAN1_SHIP_Bombard HUMAN1_SHIP_Ballista HUMAN1_SHIP_Catapult HUMAN1_SHIP_Harpoon HUMAN1_SHIP_Polybolos HUMAN1_SHIP_Culverin
+		}
+	}
+
+	fleet_names = {
+		random_names = {
+			Wonderbolts Shadowbolts Thunderbolts Lightnings Crusaders Comets
+		}
+		sequential_name = mtrspony_namelists_pony_space_fleet
+	}
+
+	army_names = {
+		machine_defense = {
+			sequential_name = mtrspony_namelists_pony_defense_force
+		}
+
+		machine_assault_1 = {
+			sequential_name = mtrspony_namelists_pony_attack_force
+		}
+
+		machine_assault_2 = {
+			sequential_name = mtrspony_namelists_pony_attack_force
+		}
+
+		machine_assault_3 = {
+			sequential_name = mtrspony_namelists_pony_attack_force
+		}
+
+		defense_army = {
+			sequential_name = mtrspony_namelists_pony_defense_force
+		}
+
+		assault_army = {
+			sequential_name = mtrspony_namelists_pony_attack_force
+		}
+
+		slave_army = {
+			sequential_name = mtrspony_namelists_pony_slave_force
+		}
+
+		clone_army = {
+			sequential_name = mtrspony_namelists_pony_mirror_force
+		}
+
+		undead_army = {
+			sequential_name = mtrspony_namelists_pony_dread_force
+		}
+
+		robotic_army = {
+			sequential_name = mtrspony_namelists_pony_drone_attack_force
+		}
+
+		robotic_defense_army = {
+			sequential_name = mtrspony_namelists_pony_drone_defense_force
+		}
+
+		psionic_army = {
+			sequential_name = mtrspony_namelists_pony_psi_corps_division
+		}
+
+		xenomorph_army = {
+			sequential_name = mtrspony_namelists_pony_monster_unit
+		}
+
+		gene_warrior_army = {
+			sequential_name = mtrspony_namelists_pony_supersoldiers
+		}
+
+		occupation_army = {
+			sequential_name = mtrspony_namelists_pony_garrison_force
+		}
+
+		robotic_occupation_army = {
+			sequential_name = mtrspony_namelists_pony_drone_garrison_force
+		}
+	}
+
+	planet_names = {
+		generic = {
+			names = {
+				Ponyville Canterlot Fillydelphia Baltimare Vanhoover Stableside Tenochtitlan Hoofington Appleloosa Dodge Macintosh Yucoltan Mosquito Hayseed Moonlight Sunny Ayacachtli Zazquiyahuitl Chilchotl "Warm Water" Comet Teopixqui Scale Rockville Foal "Hollow Shades" "White Tail" Arimaspi Canter Acadia Coltfoalnia Trotsas Mead Sirius Chinamitl Crystalia Neighagra Starlight "Tall Tale" Unicorn "Rambling Rock" "Las Pegasus" Griffish Cloudsdale Vaverfront Whinnysota Furry Roe Bales Manehattan Cuetzpalliztli Rosemarein Kululu Littlehoof Mango Rockfarms Iztatl Duskway Sunshine Sorrow Minefields Aetherlands Ponderosa Summerdale Rainbow "Little Pony" Waffleland Forgetmenot Deepfall "Alicorn Sister" Bitterberry Lavender Amethyst April Poninsula Mustangia Freeside Boring Bugbear Pastures Lesie Meadowlands Neighvada Carrottop Orshab Even Trotland Ghastly Peachwoods Honey Ruby Twilight Oleander Solside "Twisted Tail" Pine Wetland Acornage Featherfall Diamond Jade Emerald Aquavitae Selenite Agate "Mi Amore" Umbrum Feldspar Skyrock "Hearth's Warming" Archer Quartz Eloll Milky Princessyn Goatcasus Baicall Zakatnie Cranberry Kobilkyno Kukuruzza "Red Wheat" Krupochkino Hoofbeat Lightway Petershoof Redheart Severokholm Mareposa Bluebell Blackthorn Fairflanks Yeahcon Whitebell Wolfthorn Raspberry Boulderfield "Phlox Flower" Nocturnal Fetlock Trotterfield Algonquin "Clear Skies" Winsome Mareland Friesia Tonaltzintli Tricorn Portland Itzomitl Acamapichtli Celestia Harvi Sunset "New Ponyland" Hoovesplain "New Hoofington" Cross "New Manehattan" "New Freeside" "New South Bales" "New Hooflem"
+			}
+		}
+
+		pc_desert = {
+			names = {
+				Snortora "San Palomino" "Silent Sands"
+			}
+		}
+
+		pc_tropical = {
+			names = {
+				Everfree
+			}
+		}
+
+		pc_arid = {
+			names = {
+				
+			}
+		}
+
+		pc_continental = {
+			names = {
+				
+			}
+		}
+
+		pc_ocean = {
+			names = {
+				
+			}
+		}
+
+		pc_tundra = {
+			names = {
+				
+			}
+		}
+
+		pc_arctic = {
+			names = {
+				Everhoof
+			}
+		}
+
+		pc_savannah = {
+			names = {
+				
+			}
+		}
+
+		pc_alpine = {
+			names = {
+				
+			}
+		}
+
+		pc_gaia = {
+			names = {
+				
+			}
+		}
+	}
+
+	### CHARACTERS
+	character_names = {
+		name1 = { # Zonician
+			weight = 15
+			first_names_male = {
+				Zabbar Zabdmelqart Zadonibaal Zagbal Zhirom Azimilik Zaal Zaalhanno Zodashtart Zodmelqart Zomilcar Zostar Zoulomenus Zarthalo Zhelbes Eshzaal Zeugoras Zermelqart Zamilcar Zannibal Zanno Hasdruzal Zimilco Ziram Zago Maharzal Zattan Zetallo Zilkherem Zilkiram Paltizaal Zhilosir Zoodes Zomical Zisgo Zalchus Zabdhamon Abizaal Zabirami Zahumm Zeshmounhilles Zeshmouniaton Itthozaal Paltizaal Zummashtart Zelqartshama Zatnoam Zurumilki Zehomilk Zadamilk Zaaliaton Barekzaal Gerzaal Zerimilki Khiletzzaal Zabnit Zutpan Zimrida Danzel Zanmi Maharzaal Zilkpilles Zelqartpilles Zilkyaton Zassinissa Ziempsal Zuba
+			}
+			first_names_female = {
+				Zabdosir Zarishat Zastarte Zatnoam Zido Zhayna Sophonisza Zamar Zadiya Zabua Yapa Ytab Zuhaima Zuldu Zashah Zamila Zasherah Izavel Iezazel Zelissa Muttunzaal
+			}
+			second_names = {
+				Zabbarid Adonizaal Zahirom Zaalhannid Zarca Zostara Chelzesid Eshzaalid Zeugorid Zannid Ziramid Zago Zattanid Zetallid Zilkiramid Zilosirid Zisgo Gerzalid Zammid Zugarid Zashhid Zummashid
+			}
+			regnal_first_names_male = {
+				Zabbar Zabdmelqart Zadonibaal Zagbal Zhirom Azimilik Zaal Zaalhanno Zodashtart Zodmelqart Zomilcar Zostar Zoulomenus Zarthalo Zhelbes Eshzaal Zeugoras Zermelqart Zamilcar Zannibal Zanno Hasdruzal Zimilco Ziram Zago Maharzal Zattan Zetallo Zilkherem Zilkiram Paltizaal Zhilosir Zoodes Zomical Zisgo Zalchus Zabdhamon Abizaal Zabirami Zahumm Zeshmounhilles Zeshmouniaton Itthozaal Paltizaal Zummashtart Zelqartshama Zatnoam Zurumilki Zehomilk Zadamilk Zaaliaton Barekzaal Gerzaal Zerimilki Khiletzzaal Zabnit Zutpan Zimrida Danzel Zanmi Maharzaal Zilkpilles Zelqartpilles Zilkyaton Zassinissa Ziempsal Zuba
+			}
+			regnal_first_names_female = {
+				Zabdosir Zarishat Zastarte Zatnoam Zido Zhayna Sophonisza Zamar Zadiya Zabua Yapa Ytab Zuhaima Zuldu Zashah Zamila Zasherah Izavel Iezazel Zelissa Muttunzaal
+			}
+			regnal_second_names = {
+				Zabbarid Adonizaal Zahirom Zaalhannid Zarca Zostara Chelzesid Eshzaalid Zeugorid Zannid Ziramid Zago Zattanid Zetallid Zilkiramid Zilosirid Zisgo Gerzalid Zammid Zugarid Zashhid Zummashid
+			}
+		}
+
+		name2 = { # Imazeeb
+			weight = 2
+			first_names_male = {
+				Ameqran Idir Itri Izem Agerzam Ghanim Massen Rezki Usem Winaruz
+			}
+			first_names_female = {
+				Kahina Tajeddigt Tidir Tifawt Titrit Bakhta Dihya Tagwizult Ultasila Zawgha
+			}
+			second_names = {
+				Aït Ameziane Bouhouche Grigahcine Halliche Jlassi Mkerref Mazigh Zammit Zeroual
+			}
+			regnal_first_names_male = {
+				Ameqran Idir Itri Izem Agerzam Ghanim Massen Rezki Usem Winaruz
+			}
+			regnal_first_names_female = {
+				Kahina Tajeddigt Tidir Tifawt Titrit Bakhta Dihya Tagwizult Ultasila Zawgha
+			}
+			regnal_second_names = {
+				Aït Ameziane Bouhouche Grigahcine Halliche Jlassi Mkerref Mazigh Zammit Zeroual
+			}
+		}
+
+		name3 = { # South Zebridean
+			weight = 1
+			first_names_male = {
+				"Kipas Yuemalaka" "Orang Suryabotol" "Tuang Sanikabel" "Sendok Sisingamaraja" "Apilan Siahaanbantal" "Candramawa Cakumenja"
+			}
+			first_names_female = {
+				"Ayu Tingtingtutup" "Saphira Micinkertas" "Lampu Harunindah" "Sapu Dewiman" "Dalil Ndarivisi" "Dingkis Citrakarta"
+			}
+			second_names = {
+				Sari Setiawan Hidayat Lestari Saputra Wati Rahayu Dewi
+			}
+			regnal_first_names_male = {
+				"Kipas Yuemalaka" "Orang Suryabotol" "Tuang Sanikabel" "Sendok Sisingamaraja" "Apilan Siahaanbantal" "Candramawa Cakumenja"
+			}
+			regnal_first_names_female = {
+				"Ayu Tingtingtutup" "Saphira Micinkertas" "Lampu Harunindah" "Sapu Dewiman" "Dalil Ndarivisi" "Dingkis Citrakarta"
+			}
+			regnal_second_names = {
+				Sari Setiawan Hidayat Lestari Saputra Wati Rahayu Dewi
+			}
+		}
+
+		name4 = { # Talayarian
+			weight = 1
+			first_names_male = {
+				Akhom Chaianan Khaokong Mekhin Narong Panya Phiansak Samart Surawit Yongyut
+			}
+			first_names_female = {
+				Adisai Chalaem Daranee Hathai Itsari Lamyai Mukda Natthika Onwara Phraiwan
+			}
+			second_names = {
+				"Phea Thung" "Phea Phukea" "Phea Pami" "Phea Chayfang" "Phea Maena" "Phea Neinkhea"
+			}
+			regnal_first_names_male = {
+				Akhom Chaianan Khaokong Mekhin Narong Panya Phiansak Samart Surawit Yongyut
+			}
+			regnal_first_names_female = {
+				Adisai Chalaem Daranee Hathai Itsari Lamyai Mukda Natthika Onwara Phraiwan
+			}
+			regnal_second_names = {
+				"Phea Thung" "Phea Phukea" "Phea Pami" "Phea Chayfang" "Phea Maena" "Phea Neinkhea"
+			}
+		}
+
+		name5 = { # Naugdawian/Maglibingian
+			weight = 2
+			first_names_male = {
+				"Dran Reb" "Co Hor" Terek Retser Cercermor Jerumar Alab Banoy Limar
+			}
+			first_names_female = {
+				Abrigaleya Luzviminade Rublylyn Jezlane Liryo Tumalona Bituina Bayabayn Manansa
+			}
+			second_names = {
+				Shenshe Mudilaki Hantugasotsu Thacsayshin Meishiren Barynam Rabanlag Tuppinuliam
+			}
+			regnal_first_names_male = {
+				"Dran Reb" "Co Hor" Terek Retser Cercermor Jerumar Alab Banoy Limar
+			}
+			regnal_first_names_female = {
+				Abrigaleya Luzviminade Rublylyn Jezlane Liryo Tumalona Bituina Bayabayn Manansa
+			}
+			regnal_second_names = {
+				Shenshe Mudilaki Hantugasotsu Thacsayshin Meishiren Barynam Rabanlag Tuppinuliam
+			}
+		}
+
+		name6 = { # Zongolese/Melahakan/Tanaighan
+			weight = 2
+			first_names_male = {
+				Alongi Imani Lufua Lushiku Manoka Milandu Tshilobu Nyindu
+			}
+			first_names_female = {
+				Baraka Feza Kapia Kayipu Malundama Mpata Nzuzi Ndaya
+			}
+			second_names = {
+				Mtengo Nkhuyu Zitsulo Phiri Nyenyezi Mkwiyo
+			}
+			regnal_first_names_male = {
+				Alongi Imani Lufua Lushiku Manoka Milandu Tshilobu Nyindu
+			}
+			regnal_first_names_female = {
+				Baraka Feza Kapia Kayipu Malundama Mpata Nzuzi Ndaya
+			}
+			regnal_second_names = {
+				Mtengo Nkhuyu Zitsulo Phiri Nyenyezi Mkwiyo
+			}
+		}
+
+		name7 = { # Great Lakish
+			weight = 8
+			first_names_male = {
+				Zatau Kyauta Bitruz Ngari Garwa Zalla Zonto Bunami Meze Zheka Mazza Mamadou Mouzza Fouzzeni Yoro Zoumani Zundiata Zolo Faraji Zengo Zibwe Mwenye Zuberi Ganza Imanzi Ntare
+			}
+			first_names_female = {
+				Aizhatu Zamina Alheri Madari Kodo Budu Balu Zato Amza Oumou Aoua Bako Azha Chauziku Furaha Mchumba Zia Zanaa Zauda Zuri Zhumbusho Yennenga Poko
+			}
+			second_names = {
+				Zaramy Zabba Zeita Touze Dabo Zonde Baru Muza Zuzo Dibba Zissoko Bakaba Diao Zerbo Kinte Outtara Berahino
+			}
+			regnal_first_names_male = {
+				Zatau Kyauta Bitruz Ngari Garwa Zalla Zonto Bunami Meze Zheka Mazza Mamadou Mouzza Fouzzeni Yoro Zoumani Zundiata Zolo Faraji Zengo Zibwe Mwenye Zuberi Ganza Imanzi Ntare
+			}
+			regnal_first_names_female = {
+				Aizhatu Zamina Alheri Madari Kodo Budu Balu Zato Amza Oumou Aoua Bako Azha Chauziku Furaha Mchumba Zia Zanaa Zauda Zuri Zhumbusho Yennenga Poko
+			}
+			regnal_second_names = {
+				Zaramy Zabba Zeita Touze Dabo Zonde Baru Muza Zuzo Dibba Zissoko Bakaba Diao Zerbo Kinte Outtara Berahino
+			}
+		}
+
+		name7 = { # Roaman
+			weight = 2
+			first_names_male = {
+				Melisizwe Nkosana Sizwe Themba Zola Appius Caeso Decimus Gaius Marcus
+			}
+			first_names_female = {
+				Nkosazana Nonhle Noxolo Thandi Zola Agrippina Caesonia Decima Glaucia Quintina
+			}
+			second_names = {
+				Aelius Aurelius Quinctilius Domitius Junius Jabavu Madikzela Matanzima Mxenge Ndungane
+			}
+			regnal_first_names_male = {
+				Melisizwe Nkosana Sizwe Themba Zola Appius Caeso Decimus Gaius Marcus
+			}
+			regnal_first_names_female = {
+				Nkosazana Nonhle Noxolo Thandi Zola Agrippina Caesonia Decima Glaucia Quintina
+			}
+			regnal_second_names = {
+				Aelius Aurelius Quinctilius Domitius Junius Jabavu Madikzela Matanzima Mxenge Ndungane
+			}
+		}
+
+		name8 = { # Quaggatai
+			weight = 2
+			first_names_male = {
+				Arslanbek Atajan Berdimyrat Dayanch Ezizjan Hemra Isanguly Khodzhakuli Murgen Oraz
+			}
+			first_names_female = {
+				Akdzha Akgyz Bibi Dilnaza Gulbadam Hesel Jemal Mahym Nartach Pamyk
+			}
+			second_names = {
+				Abaev Ashyrow Charye Begum Gul Kul Khan Orazgeldiyew Juma Kurban
+			}
+			regnal_first_names_male = {
+				Arslanbek Atajan Berdimyrat Dayanch Ezizjan Hemra Isanguly Khodzhakuli Murgen Oraz
+			}
+			regnal_first_names_female = {
+				Akdzha Akgyz Bibi Dilnaza Gulbadam Hesel Jemal Mahym Nartach Pamyk
+			}
+			regnal_second_names = {
+				Abaev Ashyrow Charye Begum Gul Kul Khan Orazgeldiyew Juma Kurban
+			}
+		}
+
+		name9 = { # Zebluan
+			weight = 1
+			first_names_male = {
+				Shaka Linda Dumisani Themba Ndleleni Sipho Phiwokwakhe
+			}
+			first_names_female = {
+				Hlengiwe Nofoto Ulwazi Khulekani Sindisiwe Zanele Mhambi
+			}
+			second_names = {
+				Athule Bhekimuzi Musa Luyanda Langa Sufiso Thalente Jabulani
+			}
+			regnal_first_names_male = {
+				Shaka Linda Dumisani Themba Ndleleni Sipho Phiwokwakhe
+			}
+			regnal_first_names_female = {
+				Hlengiwe Nofoto Ulwazi Khulekani Sindisiwe Zanele Mhambi
+			}
+			regnal_second_names = {
+				Athule Bhekimuzi Musa Luyanda Langa Sufiso Thalente Jabulani
+			}
+		}
+
+		name10 = { # Sambovatan
+			weight = 1
+			first_names_male = {
+				Demir Galip Tontsay Zehab Hary Koray Firat
+			}
+			first_names_female = {
+				Meltem Somahy Esan Yildiz Zeynep Jale Rabia
+			}
+			second_names_male = {
+				Tsora Ankoay Lingilingy Matanjaka Antsy Mazava Ngazana
+			}
+			second_names_female = {
+				Rahona Zavona Tahotra Randrana Famirapiratana Mamirifiry Voninkazo
+			}
+			regnal_first_names_male = {
+				Demir Galip Tontsay Zehab Hary Koray Firat
+			}
+			regnal_first_names_female = {
+				Meltem Somahy Esan Yildiz Zeynep Jale Rabia
+			}
+			regnal_second_names = {
+				Tsora Ankoay Lingilingy Matanjaka Antsy Mazava Ngazana Rahona Zavona Tahotra Randrana Famirapiratana Mamirifiry Voninkazo
+			}
+		}
+	}
+}

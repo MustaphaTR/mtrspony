@@ -28,6 +28,9 @@
  PRESCRIPTED_species_changeling:0 "Changeling"
  PRESCRIPTED_species_plural_changeling:0 "Changelings"
  PRESCRIPTED_species_adjective_changeling:0 "Changeling"
+ PRESCRIPTED_species_zebra:0 "Zebra"
+ PRESCRIPTED_species_plural_zebra:0 "Zebras"
+ PRESCRIPTED_species_adjective_zebra:0 "Zebra"
 
  # Convocation of Creatures
  EMPIRE_DESIGN_convocation_of_creatures:0 "Convocation of Creatures"

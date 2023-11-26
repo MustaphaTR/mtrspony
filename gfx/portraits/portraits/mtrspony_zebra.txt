@@ -1,0 +1,115 @@
+portraits = {
+	mtrspony_zebra_zecora = {
+		entity = "portrait_dummy_10p_left_entity"
+		clothes_selector = "mtrspony_zebra_zecora_clothes_selector"
+		attachment_selector = "mtrspony_zebra_zecora_hair_selector"
+		greeting_sound = "human_female_greetings_02"
+
+		character_textures = {
+			"gfx/models/portraits/zebra/zecora/zecora.dds"
+			"gfx/models/portraits/zebra/zecora/zecora_alt1.dds"
+		}
+
+		custom_attachment_label = "HAIR_COLOR"
+	}
+}
+
+portrait_groups = {
+	mtrspony_zebra = {
+		default = mtrspony_zebra_zecora
+		game_setup = {
+			add = {
+				trigger = {
+					ruler = {
+						OR = {
+							gender = male
+							gender = indeterminable
+						}
+					}
+				}
+				portraits = {
+					mtrspony_zebra_zecora
+				}
+			}
+			add = {
+				trigger = {
+					ruler = {
+						OR = {
+							gender = female
+							gender = indeterminable
+						}
+					}
+				}
+				portraits = {
+					mtrspony_zebra_zecora
+				}
+			}
+		}
+
+		species = {
+			add = {
+				trigger = {
+					exists = species
+					NOT = { species = { species_gender = male } }
+				}
+				portraits = {
+					mtrspony_zebra_zecora
+				}
+			}
+			add = {
+				trigger = {
+					exists = species
+					NOT = { species = { species_gender = female } }
+				}
+				portraits = {
+					mtrspony_zebra_zecora
+				}
+			}
+		}
+
+		pop = {
+			add = {
+				trigger = {
+					NOT = { species = { species_gender = male } }
+				}
+				portraits = {
+					mtrspony_zebra_zecora
+				}
+			}
+			add = {
+				trigger = {
+					NOT = { species = { species_gender = female } }
+				}
+				portraits = {
+					mtrspony_zebra_zecora
+				}
+			}
+		}
+
+		leader = {
+			add = {
+				trigger = {
+					OR = {
+						gender = male
+						gender = indeterminable
+					}
+				}
+				portraits = {
+					mtrspony_zebra_zecora
+				}
+			}
+
+			add = {
+				trigger = {
+					OR = {
+						gender = female
+						gender = indeterminable
+					}
+				}
+				portraits = {
+					mtrspony_zebra_zecora
+				}
+			}
+		}
+	}
+}

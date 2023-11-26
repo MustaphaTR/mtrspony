@@ -71,7 +71,7 @@ mtrspony_kirin_pumpkin_smoke_male_hair_selector = {
 				"gfx/models/portraits/kirin/pumpkin_smoke_male/pumpkin_smoke_male_hair_alt12.dds"
 				"gfx/models/portraits/kirin/pumpkin_smoke_male/pumpkin_smoke_male_hair_alt13.dds"
 			}
-		}		
+		}
 	}
 }
 
@@ -145,7 +145,7 @@ mtrspony_kirin_rain_shine_hair_selector = {
 				"gfx/models/portraits/kirin/rain_shine/rain_shine_hair_alt11.dds"
 				"gfx/models/portraits/kirin/rain_shine/rain_shine_hair_alt12.dds"
 			}
-		}		
+		}
 	}
 }
 
@@ -192,7 +192,7 @@ mtrspony_kirin_rain_shine_clothes_selector = {
 				"gfx/models/portraits/kirin/rain_shine/rain_shine_crown_alt2.dds"
 				"gfx/models/portraits/kirin/rain_shine/rain_shine_crown_alt3.dds"
 			}
-		}		
+		}
 	}
 }
 
@@ -269,6 +269,6 @@ mtrspony_kirin_autumn_blaze_hair_selector = {
 				"gfx/models/portraits/kirin/autumn_blaze/autumn_blaze_hair_alt12.dds"
 				"gfx/models/portraits/kirin/autumn_blaze/autumn_blaze_hair_alt13.dds"
 			}
-		}		
+		}
 	}
 }

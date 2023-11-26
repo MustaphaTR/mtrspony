@@ -30,6 +30,9 @@ Portrait Bases:
  > hendro107:
 	- Autumn Blaze
 
+ > lightningbolt:
+	- Zecora
+
  > luckreza8:
 	- Babs Seed
 	- Button Mash

@@ -113,15 +113,34 @@ country_event = {
 				# set_military_service_type = { country = ROOT type = military_service_full }
 			}
 		}
+		create_species = {
+			name = "PRESCRIPTED_species_zebra"
+			plural = "PRESCRIPTED_species_plural_zebra"
+			adjective = "PRESCRIPTED_species_adjective_zebra"
+			class = MTRSPONY
+			portrait = mtrspony_zebra
+			namelist = mtrspony_namelists_zebra
+			traits = {
+				trait = trait_pc_continental_preference
+				trait = trait_conservational
+				trait = trait_natural_physicists
+			}
+
+			effect = {
+				save_event_target_as = zebra_species
+				set_citizenship_type = { country = ROOT type = citizenship_limited }
+				# set_military_service_type = { country = ROOT type = military_service_full }
+			}
+		}
 
 		capital_scope = {
 			while = {
-				count = 15
+				count = 17
 
 				random_owned_pop = { kill_pop = yes }
 			}
 			while = {
-				count = 10
+				count = 8
 
 				create_pop = {
 					species = event_target:pony_species
@@ -149,6 +168,14 @@ country_event = {
 
 				create_pop = {
 					species = event_target:changeling_species
+					ethos = random
+				}
+			}
+			while = {
+				count = 4
+
+				create_pop = {
+					species = event_target:zebra_species
 					ethos = random
 				}
 			}

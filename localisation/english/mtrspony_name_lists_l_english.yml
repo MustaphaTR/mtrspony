@@ -4,6 +4,7 @@
  name_list_mtrspony_namelists_griffon:0 "Griffon"
  name_list_mtrspony_namelists_kirin:0 "Kirin"
  name_list_mtrspony_namelists_pony:0 "Pony"
+ name_list_mtrspony_namelists_zebra:0 "Zebra"
 
  # Sequential name formats
  mtrspony_namelists_pony_space_fleet:0 "$ORD$ Space Fleet"
