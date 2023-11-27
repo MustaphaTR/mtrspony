@@ -58,9 +58,6 @@
 	}
 
 	fleet_names = {
-		random_names = {
-			Wonderbolts Shadowbolts Thunderbolts Lightnings Crusaders Comets
-		}
 		sequential_name = mtrspony_namelists_pony_space_fleet
 	}
 
