@@ -8,6 +8,9 @@ portraits = {
 		character_textures = {
 			"gfx/models/portraits/zebra/zecora/zecora.dds"
 			"gfx/models/portraits/zebra/zecora/zecora_alt1.dds"
+			"gfx/models/portraits/zebra/zecora/zecora_alt2.dds"
+			"gfx/models/portraits/zebra/zecora/zecora_alt3.dds"
+			"gfx/models/portraits/zebra/zecora/zecora_alt4.dds"
 		}
 
 		custom_attachment_label = "HAIR_COLOR"

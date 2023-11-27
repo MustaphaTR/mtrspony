@@ -16,6 +16,9 @@ mtrspony_zebra_zecora_hair_selector = {
 			list = {
 				"gfx/models/portraits/zebra/zecora/zecora_hair.dds"
 				"gfx/models/portraits/zebra/zecora/zecora_hair_alt1.dds"
+				"gfx/models/portraits/zebra/zecora/zecora_hair_alt2.dds"
+				"gfx/models/portraits/zebra/zecora/zecora_hair_alt3.dds"
+				"gfx/models/portraits/zebra/zecora/zecora_hair_alt4.dds"
 			}
 		}
 	}
@@ -25,6 +28,9 @@ mtrspony_zebra_zecora_hair_selector = {
 			list = {
 				"gfx/models/portraits/zebra/zecora/zecora_hair.dds"
 				"gfx/models/portraits/zebra/zecora/zecora_hair_alt1.dds"
+				"gfx/models/portraits/zebra/zecora/zecora_hair_alt2.dds"
+				"gfx/models/portraits/zebra/zecora/zecora_hair_alt3.dds"
+				"gfx/models/portraits/zebra/zecora/zecora_hair_alt4.dds"
 			}
 		}
 	}
@@ -34,6 +40,9 @@ mtrspony_zebra_zecora_hair_selector = {
 			list = {
 				"gfx/models/portraits/zebra/zecora/zecora_hair.dds"
 				"gfx/models/portraits/zebra/zecora/zecora_hair_alt1.dds"
+				"gfx/models/portraits/zebra/zecora/zecora_hair_alt2.dds"
+				"gfx/models/portraits/zebra/zecora/zecora_hair_alt3.dds"
+				"gfx/models/portraits/zebra/zecora/zecora_hair_alt4.dds"
 			}
 		}
 	}
@@ -57,6 +66,10 @@ mtrspony_zebra_zecora_clothes_selector = {
 			list = {
 				"gfx/models/portraits/zebra/zecora/zecora_rings.dds"
 				"gfx/models/portraits/zebra/zecora/zecora_rings_alt1.dds"
+				"gfx/models/portraits/zebra/zecora/zecora_rings_alt2.dds"
+				"gfx/models/portraits/zebra/zecora/zecora_rings_alt3.dds"
+				"gfx/models/portraits/zebra/zecora/zecora_rings_alt4.dds"
+				"gfx/models/portraits/zebra/zecora/zecora_rings_alt5.dds"
 			}
 		}
 	}
@@ -66,6 +79,10 @@ mtrspony_zebra_zecora_clothes_selector = {
 			list = {
 				"gfx/models/portraits/zebra/zecora/zecora_rings.dds"
 				"gfx/models/portraits/zebra/zecora/zecora_rings_alt1.dds"
+				"gfx/models/portraits/zebra/zecora/zecora_rings_alt2.dds"
+				"gfx/models/portraits/zebra/zecora/zecora_rings_alt3.dds"
+				"gfx/models/portraits/zebra/zecora/zecora_rings_alt4.dds"
+				"gfx/models/portraits/zebra/zecora/zecora_rings_alt5.dds"
 			}
 		}
 	}
@@ -75,6 +92,10 @@ mtrspony_zebra_zecora_clothes_selector = {
 			list = {
 				"gfx/models/portraits/zebra/zecora/zecora_rings.dds"
 				"gfx/models/portraits/zebra/zecora/zecora_rings_alt1.dds"
+				"gfx/models/portraits/zebra/zecora/zecora_rings_alt2.dds"
+				"gfx/models/portraits/zebra/zecora/zecora_rings_alt3.dds"
+				"gfx/models/portraits/zebra/zecora/zecora_rings_alt4.dds"
+				"gfx/models/portraits/zebra/zecora/zecora_rings_alt5.dds"
 			}
 		}
 	}
