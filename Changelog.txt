@@ -7,3 +7,8 @@
 -- Added pony ship names to Kirin and Dragon namelists as a placeholder.
 -- Added set names for The Crusader State's starting Corvettes.
 -- Fixed adjective for Convocation of Creatures.
+
+- Version 0.1.3 (04.12.2023):
+- Added Zebras, for now just one portrait used by both genders.
+- Added Zebra namelist.
+- The prescripted countries now start with 4 Zebra pops.
