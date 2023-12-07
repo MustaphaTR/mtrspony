@@ -14,4 +14,5 @@
 - The prescripted countries now start with 4 Zebra pops.
 
 - Version 0.1.4 (..2023):
--- Other species in the predefined countries now have their homeworld properly set as Faust.
+-- Other species in the prescripted countries now have their homeworld properly set as Faust.
+-- Psionic ascention now effects all Faustian species for the prescripted countries, instead of just the founder species.
