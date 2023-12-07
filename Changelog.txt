@@ -12,3 +12,6 @@
 - Added Zebras, for now just one portrait used by both genders.
 - Added Zebra namelist.
 - The prescripted countries now start with 4 Zebra pops.
+
+- Version 0.1.4 (..2023):
+-- Other species in the predefined countries now have their homeworld properly set as Faust.
