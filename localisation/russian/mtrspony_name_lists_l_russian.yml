@@ -1,0 +1,22 @@
+﻿l_russian:
+ name_list_mtrspony_namelists_changeling:0 "Чейнджлинг"
+ name_list_mtrspony_namelists_dragon:0 "Дракон"
+ name_list_mtrspony_namelists_griffon:0 "Грифон"
+ name_list_mtrspony_namelists_kirin:0 "Кирин"
+ name_list_mtrspony_namelists_pony:0 "Пони"
+ name_list_mtrspony_namelists_zebra:0 "Зебра"
+
+ # Sequential name formats
+ mtrspony_namelists_pony_space_fleet:0 "$ORD$ Space Fleet"
+ mtrspony_namelists_pony_defense_force:0 "$C$ Defense Force"
+ mtrspony_namelists_pony_attack_force:0 "$CARD$ Attack Force"
+ mtrspony_namelists_pony_slave_force:0 "$ORD$ Slave Force"
+ mtrspony_namelists_pony_mirror_force:0 "$ORD$ Mirror Force"
+ mtrspony_namelists_pony_dread_force:0 "$ORD$ Dread Force"
+ mtrspony_namelists_pony_drone_attack_force:0 "$ORD$ Drone Attack Force"
+ mtrspony_namelists_pony_drone_defense_force:0 "$ORD$ Drone Defense Force"
+ mtrspony_namelists_pony_psi_corps_division:0 "$ORD$ Psi-Corps Division"
+ mtrspony_namelists_pony_monster_unit:0 "$ORD$ Monster Unit"
+ mtrspony_namelists_pony_supersoldiers:0 "$ORD$ Supersoldiers"
+ mtrspony_namelists_pony_garrison_force:0 "$ORD$ Garrison Force"
+ mtrspony_namelists_pony_drone_garrison_force:0 "$ORD$ Drone Garrison Force"

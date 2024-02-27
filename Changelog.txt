@@ -16,3 +16,7 @@
 - Version 0.1.4 (07.12.2023):
 -- Other species in the prescripted countries now have their homeworld properly set as Faust.
 -- Psionic ascention now effects all Faustian species for the prescripted countries, instead of just the founder species.
+
+- Version 0.1.5 (..2024):
+-- Gabby and 2 of Griffon Pops in The Crusader State prescripted country now start Spiritualist.
+-- Added a WIP Russian translation. It should show English text instead of codename at least for what i couldn't translate.
