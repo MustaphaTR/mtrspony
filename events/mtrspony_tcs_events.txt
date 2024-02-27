@@ -236,11 +236,19 @@ country_event = {
 				random_owned_pop = { kill_pop = yes }
 			}
 			while = {
-				count = 8
+				count = 6
 
 				create_pop = {
 					species = event_target:griffon_species
 					ethos = random
+				}
+			}
+			while = {
+				count = 2
+
+				create_pop = {
+					species = event_target:griffon_species
+					ethos = { ethic = ethic_spiritualist }
 				}
 			}
 			while = {
@@ -286,7 +294,7 @@ country_event = {
 			skill = 1
 			set_age = 285
 			immortal = yes
-			background_ethic = "ethic_xenophile"
+			background_ethic = "ethic_spiritualist"
 			randomize_traits = no
 			traits = {
 				trait = leader_trait_righteous
