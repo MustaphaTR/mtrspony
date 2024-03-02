@@ -1,0 +1,20 @@
+is_mtrspony_prescripted_country = {
+	OR = {
+		has_country_flag = convocation_of_creatures
+		has_country_flag = the_crusader_state
+		has_country_flag = griffonian_empire
+		has_country_flag = faustian_technate
+	}
+}
+
+is_same_species_with_other_faustian_races = {
+	NOT = { is_same_species = owner_main_species }
+	OR = {
+		is_same_species = event_target:pony_species
+		is_same_species = event_target:griffon_species
+		is_same_species = event_target:dragon_species
+		is_same_species = event_target:kirin_species
+		is_same_species = event_target:changeling_species
+		is_same_species = event_target:zebra_species
+	}
+}

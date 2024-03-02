@@ -3,6 +3,7 @@ on_game_start_country = {
 		cocstart.1
 		tcsstart.1
 		gestart.1
+		ftstart.1
 	}
 }
 
@@ -11,16 +12,13 @@ on_monthly_pulse_country = { # It also triggers when species are modified, there
 		cocstart.2
 		tcsstart.2
 		gestart.2
+		#ftstart.2
 	}
 }
 
 on_tradition_picked = { # Workaround to apply psionics tradition effects to all starting species.
 	events = {
-		cocstart.3
-		tcsstart.3
-		gestart.3
-		cocstart.4
-		tcsstart.4
-		gestart.4
+		mtrspony.1
+		mtrspony.2
 	}
 }

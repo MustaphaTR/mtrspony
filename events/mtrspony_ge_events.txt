@@ -32,110 +32,35 @@ country_event = {
 			}
 		}
 
-		create_species = {
-			name = "PRESCRIPTED_species_pony"
-			plural = "PRESCRIPTED_species_plural_pony"
-			adjective = "PRESCRIPTED_species_adjective_pony"
-			class = MAM
-			portrait = mtrspony_pony
-			namelist = mtrspony_namelists_pony
-			homeworld = ROOT.capital_scope
-			traits = {
-				trait = trait_pc_continental_preference
-				trait = trait_talented
-				trait = trait_cutie_marks
-				trait = trait_sedentary
-			}
-
-			effect = {
-				save_global_event_target_as = pony_species
-				set_citizenship_type = { country = ROOT type = citizenship_limited }
-				# set_military_service_type = { country = ROOT type = military_service_full }
-			}
+		create_pony_species = yes
+		event_target:pony_species = {
+			set_citizenship_type = { country = ROOT type = citizenship_limited }
+			# set_military_service_type = { country = ROOT type = military_service_full }
 		}
-		create_species = {
-			name = "PRESCRIPTED_species_dragon"
-			plural = "PRESCRIPTED_species_plural_dragon"
-			adjective = "PRESCRIPTED_species_adjective_dragon"
-			class = REP
-			portrait = mtrspony_dragon
-			namelist = mtrspony_namelists_dragon
-			homeworld = ROOT.capital_scope
-			traits = {
-				trait = trait_pc_continental_preference
-				trait = trait_strong
-				trait = trait_venerable
-				trait = trait_slow_breeders
-				trait = trait_solitary
-			}
-
-			effect = {
-				save_global_event_target_as = dragon_species
-				set_citizenship_type = { country = ROOT type = citizenship_limited }
-				# set_military_service_type = { country = ROOT type = military_service_full }
-			}
+		create_dragon_species = yes
+		event_target:dragon_species = {
+			set_citizenship_type = { country = ROOT type = citizenship_limited }
+			# set_military_service_type = { country = ROOT type = military_service_full }
 		}
-		create_species = {
-			name = "PRESCRIPTED_species_kirin"
-			plural = "PRESCRIPTED_species_plural_kirin"
-			adjective = "PRESCRIPTED_species_adjective_kirin"
-			class = MAM
-			portrait = mtrspony_kirin
-			namelist = mtrspony_namelists_kirin
-			homeworld = ROOT.capital_scope
-			traits = {
-				trait = trait_pc_continental_preference
-				trait = trait_agrarian
-				trait = trait_natural_engineers
-				trait = trait_wasteful
-			}
-
-			effect = {
-				save_global_event_target_as = kirin_species
-				set_citizenship_type = { country = ROOT type = citizenship_limited }
-				# set_military_service_type = { country = ROOT type = military_service_full }
-			}
+		create_dragon_species = yes
+		event_target:dragon_species = {
+			set_citizenship_type = { country = ROOT type = citizenship_limited }
+			# set_military_service_type = { country = ROOT type = military_service_full }
 		}
-		create_species = {
-			name = "PRESCRIPTED_species_changeling"
-			plural = "PRESCRIPTED_species_plural_changeling"
-			adjective = "PRESCRIPTED_species_adjective_changeling"
-			class = ART
-			portrait = mtrspony_changeling
-			namelist = mtrspony_namelists_changeling
-			homeworld = ROOT.capital_scope
-			traits = {
-				trait = trait_pc_continental_preference
-				trait = trait_communal
-				trait = trait_adaptive
-				trait = trait_wasteful
-			}
-
-			effect = {
-				save_global_event_target_as = changeling_species
-				set_citizenship_type = { country = ROOT type = citizenship_limited }
-				# set_military_service_type = { country = ROOT type = military_service_full }
-			}
+		create_kirin_species = yes
+		event_target:kirin_species = {
+			set_citizenship_type = { country = ROOT type = citizenship_limited }
+			# set_military_service_type = { country = ROOT type = military_service_full }
 		}
-		create_species = {
-			name = "PRESCRIPTED_species_zebra"
-			plural = "PRESCRIPTED_species_plural_zebra"
-			adjective = "PRESCRIPTED_species_adjective_zebra"
-			class = MAM
-			portrait = mtrspony_zebra
-			namelist = mtrspony_namelists_zebra
-			homeworld = ROOT.capital_scope
-			traits = {
-				trait = trait_pc_continental_preference
-				trait = trait_conservational
-				trait = trait_natural_physicists
-			}
-
-			effect = {
-				save_global_event_target_as = zebra_species
-				set_citizenship_type = { country = ROOT type = citizenship_limited }
-				# set_military_service_type = { country = ROOT type = military_service_full }
-			}
+		create_changeling_species = yes
+		event_target:changeling_species = {
+			set_citizenship_type = { country = ROOT type = citizenship_limited }
+			# set_military_service_type = { country = ROOT type = military_service_full }
+		}
+		create_zebra_species = yes
+		event_target:zebra_species = {
+			set_citizenship_type = { country = ROOT type = citizenship_limited }
+			# set_military_service_type = { country = ROOT type = military_service_full }
 		}
 
 		capital_scope = {
@@ -217,165 +142,6 @@ country_event = {
 	immediate = {
 		event_target:leader_grover_xi = {
 			change_leader_portrait = "mtrspony_griffon_grover_xi_predefined"
-		}
-	}
-}
-
-# After taking Psionics tradition give Latent Psionics trait to other Faustian species too.
-country_event = {
-	id = gestart.3
-	hide_window = yes
-	is_triggered_only = yes
-
-	trigger = {
-		has_country_flag = griffonian_empire
-		has_tradition = tr_psionics_adopt
-		NOT = { has_country_flag = applied_multi_species_psionics_workaround_1 }
-	}
-	immediate = {
-		set_country_flag = applied_multi_species_psionics_workaround_1
-
-		every_owned_pop = {
-			limit = {
-				OR = {
-					is_same_species = event_target:pony_species
-					is_same_species = event_target:dragon_species
-					is_same_species = event_target:kirin_species
-					is_same_species = event_target:changeling_species
-					is_same_species = event_target:zebra_species
-				}
-				species = {
-					has_psionic_species_trait = no
-				}
-			}
-			modify_species = {
-				species = this
-				add_trait = trait_latent_psionic
-			}
-		}
-	}
-}
-
-# After taking Great Awakening tradition give Psionics trait to other Faustian species too.
-country_event = {
-	id = gestart.4
-	hide_window = yes
-	is_triggered_only = yes
-
-	trigger = {
-		has_country_flag = griffonian_empire
-		has_tradition = tr_psionics_psionic_assimilation
-		NOT = { has_country_flag = applied_multi_species_psionics_workaround_2 }
-	}
-	immediate = {
-		set_country_flag = applied_multi_species_psionics_workaround_2
-
-		every_owned_pop = {
-			limit = {
-				OR = {
-					is_same_species = event_target:pony_species
-					is_same_species = event_target:dragon_species
-					is_same_species = event_target:kirin_species
-					is_same_species = event_target:changeling_species
-					is_same_species = event_target:zebra_species
-				}
-				has_trait = trait_latent_psionic
-			}
-			modify_species = {
-				species = this
-				remove_trait = trait_latent_psionic
-				add_trait = trait_psionic
-			}
-		}
-		every_country = {
-			limit = {
-				OR = {
-					is_country_type = default
-					is_country_type = fallen_empire
-					is_country_type = awakened_fallen_empire
-				}
-			}
-			every_owned_leader = {
-				limit = {
-					OR = {
-						is_same_species = event_target:griffon_species
-						is_same_species = event_target:dragon_species
-						is_same_species = event_target:kirin_species
-						is_same_species = event_target:changeling_species
-						is_same_species = event_target:zebra_species
-					}
-					NOR = {
-						has_trait = leader_trait_psionic
-						has_leader_flag = renowned_leader
-						has_leader_flag = legendary_leader
-					}
-				}
-				add_trait_no_notify = leader_trait_psionic
-				owner = {
-					if = {
-						limit = {
-							NOT = {
-								has_country_flag = psionic_leader_toast
-							}
-						}
-						set_timed_country_flag = {
-							flag = psionic_leader_toast
-							days = 30
-						}
-					}
-				}
-			}
-
-			every_pool_leader = {
-				limit = {
-					OR = {
-						is_same_species = event_target:griffon_species
-						is_same_species = event_target:dragon_species
-						is_same_species = event_target:kirin_species
-						is_same_species = event_target:changeling_species
-						is_same_species = event_target:zebra_species
-					}
-					NOT = { has_trait = leader_trait_psionic }
-				}
-				add_trait_no_notify = leader_trait_psionic
-				owner = {
-					if = {
-						limit = {
-							NOT = {
-								has_country_flag = psionic_leader_toast
-							}
-						}
-						set_timed_country_flag = {
-							flag = psionic_leader_toast
-							days = 30
-						}
-					}
-				}
-			}
-
-			if = {
-				limit = {
-					has_country_flag = psionic_leader_toast
-				}
-				create_message = {
-					type = MESSAGE_ALL_GAINED_TRAIT
-					localization = MESSAGE_ALL_GAINED_TRAIT_DESC
-					days = @toast_message_days
-					variable = {
-						type = key
-						value = leader_trait_psionic
-						localization = TRAIT
-					}
-					variable = {
-						key = TRAIT_KEY
-						value = leader_trait_psionic
-					}
-					variable = {
-						key = "border"
-						value = "GFX_invisible" #TODO Common/ no rarity frame
-					}
-				}
-			}
 		}
 	}
 }

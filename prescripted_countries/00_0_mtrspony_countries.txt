@@ -216,3 +216,74 @@ griffonian_empire = {
 		leader_class = governor
 	}
 }
+
+faustian_technate = {
+	name = "EMPIRE_DESIGN_faustian_technate"
+	adjective = "PRESCRIPTED_adjective_faustian_technate"
+	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_faustian_technate"
+
+	species = {
+		class = "MAM"
+		portrait = "mtrspony_zebra"
+		name = "PRESCRIPTED_species_zebra"
+		plural = "PRESCRIPTED_species_plural_zebra"
+		adjective = "PRESCRIPTED_species_adjective_zebra"
+		name_list = "mtrspony_namelists_zebra"
+		trait = "trait_conservational"
+		trait = "trait_natural_physicists"
+	}
+
+	room = "personality_migrating_flock_room"
+
+	authority = "auth_oligarchic"
+	civics = { "civic_technocracy" "civic_cutthroat_politics" }
+	government = gov_science_directorate
+
+	ethic = "ethic_fanatic_materialist"
+	ethic = "ethic_egalitarian"
+
+	origin = "origin_default"
+
+	flags = { faustian_technate }
+
+	planet_name = "NAME_Faust"
+	planet_class = "pc_continental"
+	initializer = "eaw_vanilla_initializer"
+	system_name = "NAME_Behemoth"
+
+	graphical_culture = mammalian_01
+	city_graphical_culture = mammalian_01
+
+	empire_flag = {
+		icon= {
+			category = "eqsatwarzebra"
+			file = "CTH_TEC.dds"
+		}
+		background= {
+			category = "backgrounds"
+			file = "colthage.dds"
+		}
+		colors={
+			"blue"
+			"white"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_zuan_gerzalid"
+		ruler_title = "PRESCRIPTED_ruler_title_director"
+		ruler_title_female = "PRESCRIPTED_ruler_title_directoress"
+		gender = male
+		portrait = "mtrspony_zebra_zecora"
+		texture = 3
+		attachment = 4
+		clothes = 0
+		trait = "leader_trait_spark_of_genius"
+		leader_class = scientist
+	}
+}
