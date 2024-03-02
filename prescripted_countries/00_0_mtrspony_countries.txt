@@ -120,7 +120,7 @@ the_crusader_state = {
 		}
 		background= {
 			category = "backgrounds"
-			file = "stripe.dds"
+			file = "stripe_thick.dds"
 		}
 		colors={
 			"red_orange"
