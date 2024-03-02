@@ -335,6 +335,24 @@ country_event = {
 			set_name = "TCSSS Unique Horn"
 			set_ship_flag = has_name_setup
 		}
+		
+		# Set policies.
+		set_policy = {
+			policy = subjugation_war_terms
+			option = oppressive_terms
+			cooldown = no
+		}
+		set_policy = {
+			policy = orbital_bombardment
+			option = orbital_bombardment_selective
+			cooldown = no
+		}
+		# Not available at the start, so can't be set there.
+		# set_policy = {
+		#	policy = enlightenment
+		#	option = enlightenment_allowed
+		#	cooldown = no
+		# }
 
 		# Remove the genericos.
 		every_owned_leader = {
