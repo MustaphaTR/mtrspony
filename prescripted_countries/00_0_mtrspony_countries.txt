@@ -7,7 +7,7 @@ convocation_of_creatures = {
 	ship_prefix = "PRESCRIPTED_ship_prefix_convocation_of_creatures"
 
 	species = {
-		class = "MTRSPONY"
+		class = "MAM"
 		portrait = "mtrspony_pony"
 		name = "PRESCRIPTED_species_pony"
 		plural = "PRESCRIPTED_species_plural_pony"
@@ -37,8 +37,8 @@ convocation_of_creatures = {
 	initializer = "eaw_vanilla_initializer"
 	system_name = "NAME_Behemoth"
 
-	graphical_culture = mammalian_01 # "pmod_01"
-	city_graphical_culture = mammalian_01 # "pmod_01"
+	graphical_culture = mammalian_01
+	city_graphical_culture = mammalian_01
 
 	empire_flag = {
 		icon= {
@@ -80,7 +80,7 @@ the_crusader_state = {
 	ship_prefix = "PRESCRIPTED_ship_prefix_the_crusader_state"
 
 	species = {
-		class = "MTRSPONY"
+		class = "MAM"
 		portrait = "mtrspony_pony"
 		name = "PRESCRIPTED_species_pony"
 		plural = "PRESCRIPTED_species_plural_pony"
@@ -110,8 +110,8 @@ the_crusader_state = {
 	initializer = "eaw_vanilla_initializer"
 	system_name = "NAME_Behemoth"
 
-	graphical_culture = mammalian_01 # "pmod_01"
-	city_graphical_culture = mammalian_01 # "pmod_01"
+	graphical_culture = mammalian_01
+	city_graphical_culture = mammalian_01
 
 	empire_flag = {
 		icon= {
@@ -153,7 +153,7 @@ griffonian_empire = {
 	ship_prefix = "PRESCRIPTED_ship_prefix_griffonian_empire"
 
 	species = {
-		class = "MTRSPONY"
+		class = "AVI"
 		portrait = "mtrspony_griffon"
 		name = "PRESCRIPTED_species_griffon"
 		plural = "PRESCRIPTED_species_plural_griffon"
@@ -183,8 +183,8 @@ griffonian_empire = {
 	initializer = "eaw_vanilla_initializer"
 	system_name = "NAME_Behemoth"
 
-	graphical_culture = avian_01 # "pmod_01"
-	city_graphical_culture = avian_01 # "pmod_01"
+	graphical_culture = avian_01
+	city_graphical_culture = avian_01
 
 	empire_flag = {
 		icon= {
