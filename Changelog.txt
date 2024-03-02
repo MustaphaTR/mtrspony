@@ -17,7 +17,7 @@
 -- Other species in the prescripted countries now have their homeworld properly set as Faust.
 -- Psionic ascention now effects all Faustian species for the prescripted countries, instead of just the founder species.
 
-- Version 0.1.5 (..2024):
+- Version 0.1.5 (02.03.2024):
 -- Gabby and 2 of Griffon Pops in The Crusader State prescripted country now start Spiritualist.
 -- Added thicker versions of triband flag backgrounds. TCS now uses that version.
 -- Faustian portraits are no longer a seprate group. Ponies, Kirin and Zebras are now in Mammalian group, Dragons in Reptilian, Griffons in Avian and Changelings in Arthropoid.
