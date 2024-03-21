@@ -18,6 +18,7 @@ portraits = {
 			"gfx/models/portraits/pony_earth/big_mcintosh/big_mcintosh_alt9.dds"
 			"gfx/models/portraits/pony_earth/big_mcintosh/big_mcintosh_alt10.dds"
 			"gfx/models/portraits/pony_earth/big_mcintosh/big_mcintosh_alt11.dds"
+			"gfx/models/portraits/pony_earth/big_mcintosh/big_mcintosh_alt12.dds"
 		}
 
 		custom_attachment_label = "HAIR_COLOR"
