@@ -636,6 +636,7 @@ mtrspony_pony_earth_babs_seed_hair_selector = {
 				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_alt11.dds"
 				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_alt12.dds"
 				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_alt13.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_alt14.dds"
 			}
 		}
 	}
@@ -657,6 +658,7 @@ mtrspony_pony_earth_babs_seed_hair_selector = {
 				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_alt11.dds"
 				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_alt12.dds"
 				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_alt13.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_alt14.dds"
 			}
 		}
 	}
@@ -678,6 +680,7 @@ mtrspony_pony_earth_babs_seed_hair_selector = {
 				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_alt11.dds"
 				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_alt12.dds"
 				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_alt13.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_alt14.dds"
 			}
 		}		
 	}
