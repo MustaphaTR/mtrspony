@@ -336,6 +336,8 @@ mtrspony_pony_earth_button_mash_hair_selector = {
 				"gfx/models/portraits/pony_earth/button_mash/button_mash_hair_alt11.dds"
 				"gfx/models/portraits/pony_earth/button_mash/button_mash_hair_alt12.dds"
 				"gfx/models/portraits/pony_earth/button_mash/button_mash_hair_alt13.dds"
+				"gfx/models/portraits/pony_earth/button_mash/button_mash_hair_alt14.dds"
+				"gfx/models/portraits/pony_earth/button_mash/button_mash_hair_alt15.dds"
 			}
 		}	
 	}
@@ -357,6 +359,8 @@ mtrspony_pony_earth_button_mash_hair_selector = {
 				"gfx/models/portraits/pony_earth/button_mash/button_mash_hair_alt11.dds"
 				"gfx/models/portraits/pony_earth/button_mash/button_mash_hair_alt12.dds"
 				"gfx/models/portraits/pony_earth/button_mash/button_mash_hair_alt13.dds"
+				"gfx/models/portraits/pony_earth/button_mash/button_mash_hair_alt14.dds"
+				"gfx/models/portraits/pony_earth/button_mash/button_mash_hair_alt15.dds"
 			}
 		}		
 	}
@@ -378,6 +382,8 @@ mtrspony_pony_earth_button_mash_hair_selector = {
 				"gfx/models/portraits/pony_earth/button_mash/button_mash_hair_alt11.dds"
 				"gfx/models/portraits/pony_earth/button_mash/button_mash_hair_alt12.dds"
 				"gfx/models/portraits/pony_earth/button_mash/button_mash_hair_alt13.dds"
+				"gfx/models/portraits/pony_earth/button_mash/button_mash_hair_alt14.dds"
+				"gfx/models/portraits/pony_earth/button_mash/button_mash_hair_alt15.dds"
 			}
 		}		
 	}
@@ -406,6 +412,9 @@ mtrspony_pony_earth_button_mash_clothes_selector = {
 				"gfx/models/portraits/pony_earth/button_mash/button_mash_hat_alt4.dds"
 				"gfx/models/portraits/pony_earth/button_mash/button_mash_hat_alt5.dds"
 				"gfx/models/portraits/pony_earth/button_mash/button_mash_hat_alt6.dds"
+				"gfx/models/portraits/pony_earth/button_mash/button_mash_hat_alt7.dds"
+				"gfx/models/portraits/pony_earth/button_mash/button_mash_hat_alt8.dds"
+				"gfx/models/portraits/pony_earth/button_mash/button_mash_hat_alt9.dds"
 				"gfx/models/portraits/no_attachment.dds"
 			}
 		}	
@@ -421,6 +430,9 @@ mtrspony_pony_earth_button_mash_clothes_selector = {
 				"gfx/models/portraits/pony_earth/button_mash/button_mash_hat_alt4.dds"
 				"gfx/models/portraits/pony_earth/button_mash/button_mash_hat_alt5.dds"
 				"gfx/models/portraits/pony_earth/button_mash/button_mash_hat_alt6.dds"
+				"gfx/models/portraits/pony_earth/button_mash/button_mash_hat_alt7.dds"
+				"gfx/models/portraits/pony_earth/button_mash/button_mash_hat_alt8.dds"
+				"gfx/models/portraits/pony_earth/button_mash/button_mash_hat_alt9.dds"
 				"gfx/models/portraits/no_attachment.dds"
 			}
 		}
@@ -436,6 +448,9 @@ mtrspony_pony_earth_button_mash_clothes_selector = {
 				"gfx/models/portraits/pony_earth/button_mash/button_mash_hat_alt4.dds"
 				"gfx/models/portraits/pony_earth/button_mash/button_mash_hat_alt5.dds"
 				"gfx/models/portraits/pony_earth/button_mash/button_mash_hat_alt6.dds"
+				"gfx/models/portraits/pony_earth/button_mash/button_mash_hat_alt7.dds"
+				"gfx/models/portraits/pony_earth/button_mash/button_mash_hat_alt8.dds"
+				"gfx/models/portraits/pony_earth/button_mash/button_mash_hat_alt9.dds"
 				"gfx/models/portraits/no_attachment.dds"
 			}
 		}
