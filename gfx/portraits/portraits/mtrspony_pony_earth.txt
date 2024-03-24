@@ -120,6 +120,7 @@ portraits = {
 			"gfx/models/portraits/pony_earth/maud_pie/maud_pie_alt10.dds"
 			"gfx/models/portraits/pony_earth/maud_pie/maud_pie_alt11.dds"
 			"gfx/models/portraits/pony_earth/maud_pie/maud_pie_alt12.dds"
+			"gfx/models/portraits/pony_earth/maud_pie/maud_pie_alt13.dds"
 		}
 
 		custom_attachment_label = "HAIR_COLOR"

@@ -488,6 +488,7 @@ mtrspony_pony_earth_maud_pie_hair_selector = {
 				"gfx/models/portraits/pony_earth/maud_pie/maud_pie_hair_alt12.dds"
 				"gfx/models/portraits/pony_earth/maud_pie/maud_pie_hair_alt13.dds"
 				"gfx/models/portraits/pony_earth/maud_pie/maud_pie_hair_alt14.dds"
+				"gfx/models/portraits/pony_earth/maud_pie/maud_pie_hair_alt15.dds"
 			}
 		}	
 	}
@@ -510,6 +511,7 @@ mtrspony_pony_earth_maud_pie_hair_selector = {
 				"gfx/models/portraits/pony_earth/maud_pie/maud_pie_hair_alt12.dds"
 				"gfx/models/portraits/pony_earth/maud_pie/maud_pie_hair_alt13.dds"
 				"gfx/models/portraits/pony_earth/maud_pie/maud_pie_hair_alt14.dds"
+				"gfx/models/portraits/pony_earth/maud_pie/maud_pie_hair_alt15.dds"
 			}
 		}		
 	}
@@ -532,6 +534,7 @@ mtrspony_pony_earth_maud_pie_hair_selector = {
 				"gfx/models/portraits/pony_earth/maud_pie/maud_pie_hair_alt12.dds"
 				"gfx/models/portraits/pony_earth/maud_pie/maud_pie_hair_alt13.dds"
 				"gfx/models/portraits/pony_earth/maud_pie/maud_pie_hair_alt14.dds"
+				"gfx/models/portraits/pony_earth/maud_pie/maud_pie_hair_alt15.dds"
 			}
 		}		
 	}
@@ -567,6 +570,7 @@ mtrspony_pony_earth_maud_pie_clothes_selector = {
 				"gfx/models/portraits/pony_earth/maud_pie/maud_pie_dress_alt11.dds"
 				"gfx/models/portraits/pony_earth/maud_pie/maud_pie_dress_alt12.dds"
 				"gfx/models/portraits/pony_earth/maud_pie/maud_pie_dress_alt13.dds"
+				"gfx/models/portraits/pony_earth/maud_pie/maud_pie_dress_alt14.dds"
 			}
 		}	
 	}
@@ -588,6 +592,7 @@ mtrspony_pony_earth_maud_pie_clothes_selector = {
 				"gfx/models/portraits/pony_earth/maud_pie/maud_pie_dress_alt11.dds"
 				"gfx/models/portraits/pony_earth/maud_pie/maud_pie_dress_alt12.dds"
 				"gfx/models/portraits/pony_earth/maud_pie/maud_pie_dress_alt13.dds"
+				"gfx/models/portraits/pony_earth/maud_pie/maud_pie_dress_alt14.dds"
 			}
 		}
 	}
@@ -609,6 +614,7 @@ mtrspony_pony_earth_maud_pie_clothes_selector = {
 				"gfx/models/portraits/pony_earth/maud_pie/maud_pie_dress_alt11.dds"
 				"gfx/models/portraits/pony_earth/maud_pie/maud_pie_dress_alt12.dds"
 				"gfx/models/portraits/pony_earth/maud_pie/maud_pie_dress_alt13.dds"
+				"gfx/models/portraits/pony_earth/maud_pie/maud_pie_dress_alt14.dds"
 			}
 		}
 	}
