@@ -220,6 +220,7 @@ mtrspony_pony_pegasus_mrs_shy_hair_selector = {
 				"gfx/models/portraits/pony_pegasus/mrs_shy/mrs_shy_hair_alt10.dds"
 				"gfx/models/portraits/pony_pegasus/mrs_shy/mrs_shy_hair_alt11.dds"
 				"gfx/models/portraits/pony_pegasus/mrs_shy/mrs_shy_hair_alt12.dds"
+				"gfx/models/portraits/pony_pegasus/mrs_shy/mrs_shy_hair_alt13.dds"
 			}
 		}	
 	}
@@ -240,6 +241,7 @@ mtrspony_pony_pegasus_mrs_shy_hair_selector = {
 				"gfx/models/portraits/pony_pegasus/mrs_shy/mrs_shy_hair_alt10.dds"
 				"gfx/models/portraits/pony_pegasus/mrs_shy/mrs_shy_hair_alt11.dds"
 				"gfx/models/portraits/pony_pegasus/mrs_shy/mrs_shy_hair_alt12.dds"
+				"gfx/models/portraits/pony_pegasus/mrs_shy/mrs_shy_hair_alt13.dds"
 			}
 		}
 	}
@@ -260,6 +262,7 @@ mtrspony_pony_pegasus_mrs_shy_hair_selector = {
 				"gfx/models/portraits/pony_pegasus/mrs_shy/mrs_shy_hair_alt10.dds"
 				"gfx/models/portraits/pony_pegasus/mrs_shy/mrs_shy_hair_alt11.dds"
 				"gfx/models/portraits/pony_pegasus/mrs_shy/mrs_shy_hair_alt12.dds"
+				"gfx/models/portraits/pony_pegasus/mrs_shy/mrs_shy_hair_alt13.dds"
 			}
 		}		
 	}
