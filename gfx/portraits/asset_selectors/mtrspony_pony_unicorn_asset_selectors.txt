@@ -100,6 +100,8 @@ mtrspony_pony_unicorn_twilight_sparkle_hair_selector = {
 				"gfx/models/portraits/pony_unicorn/twilight_sparkle/twilight_sparkle_unicorn_hair_alt9.dds"
 				"gfx/models/portraits/pony_unicorn/twilight_sparkle/twilight_sparkle_unicorn_hair_alt10.dds"
 				"gfx/models/portraits/pony_unicorn/twilight_sparkle/twilight_sparkle_unicorn_hair_alt11.dds"
+				"gfx/models/portraits/pony_unicorn/twilight_sparkle/twilight_sparkle_unicorn_hair_alt12.dds"
+				"gfx/models/portraits/pony_unicorn/twilight_sparkle/twilight_sparkle_unicorn_hair_alt13.dds"
 			}
 		}
 	}
@@ -119,6 +121,8 @@ mtrspony_pony_unicorn_twilight_sparkle_hair_selector = {
 				"gfx/models/portraits/pony_unicorn/twilight_sparkle/twilight_sparkle_unicorn_hair_alt9.dds"
 				"gfx/models/portraits/pony_unicorn/twilight_sparkle/twilight_sparkle_unicorn_hair_alt10.dds"
 				"gfx/models/portraits/pony_unicorn/twilight_sparkle/twilight_sparkle_unicorn_hair_alt11.dds"
+				"gfx/models/portraits/pony_unicorn/twilight_sparkle/twilight_sparkle_unicorn_hair_alt12.dds"
+				"gfx/models/portraits/pony_unicorn/twilight_sparkle/twilight_sparkle_unicorn_hair_alt13.dds"
 			}
 		}
 	}
@@ -138,6 +142,8 @@ mtrspony_pony_unicorn_twilight_sparkle_hair_selector = {
 				"gfx/models/portraits/pony_unicorn/twilight_sparkle/twilight_sparkle_unicorn_hair_alt9.dds"
 				"gfx/models/portraits/pony_unicorn/twilight_sparkle/twilight_sparkle_unicorn_hair_alt10.dds"
 				"gfx/models/portraits/pony_unicorn/twilight_sparkle/twilight_sparkle_unicorn_hair_alt11.dds"
+				"gfx/models/portraits/pony_unicorn/twilight_sparkle/twilight_sparkle_unicorn_hair_alt12.dds"
+				"gfx/models/portraits/pony_unicorn/twilight_sparkle/twilight_sparkle_unicorn_hair_alt13.dds"
 			}
 		}
 	}

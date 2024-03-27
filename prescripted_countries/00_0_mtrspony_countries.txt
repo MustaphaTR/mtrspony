@@ -138,7 +138,7 @@ the_crusader_state = {
 		portrait = "mtrspony_pony_unicorn_sweetie_belle_older"
 		texture = 1
 		attachment = 0
-		clothes = 15
+		clothes = 17
 		trait = "trait_ruler_eye_for_talent"
 		leader_class = scientist
 	}
