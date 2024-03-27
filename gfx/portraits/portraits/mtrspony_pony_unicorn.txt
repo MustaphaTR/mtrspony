@@ -181,6 +181,7 @@ portraits = {
 			"gfx/models/portraits/pony_unicorn/sweetie_belle_older/sweetie_belle_older_alt11.dds"
 			"gfx/models/portraits/pony_unicorn/sweetie_belle_older/sweetie_belle_older_alt12.dds"
 			"gfx/models/portraits/pony_unicorn/sweetie_belle_older/sweetie_belle_older_alt13.dds"
+			"gfx/models/portraits/pony_unicorn/sweetie_belle_older/sweetie_belle_older_alt14.dds"
 		}
 
 		custom_attachment_label = "HAIR_COLOR"

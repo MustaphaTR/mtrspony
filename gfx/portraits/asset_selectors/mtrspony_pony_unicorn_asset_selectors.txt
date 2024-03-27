@@ -649,6 +649,8 @@ mtrspony_pony_unicorn_sweetie_belle_older_clothes_selector = {
 				"gfx/models/portraits/pony_unicorn/sweetie_belle_older/sweetie_belle_older_clothes_alt12.dds"
 				"gfx/models/portraits/pony_unicorn/sweetie_belle_older/sweetie_belle_older_clothes_alt13.dds"
 				"gfx/models/portraits/pony_unicorn/sweetie_belle_older/sweetie_belle_older_clothes_alt14.dds"
+				"gfx/models/portraits/pony_unicorn/sweetie_belle_older/sweetie_belle_older_clothes_alt15.dds"
+				"gfx/models/portraits/pony_unicorn/sweetie_belle_older/sweetie_belle_older_clothes_alt16.dds"
 				"gfx/models/portraits/no_attachment.dds"
 			}
 		}
@@ -672,6 +674,8 @@ mtrspony_pony_unicorn_sweetie_belle_older_clothes_selector = {
 				"gfx/models/portraits/pony_unicorn/sweetie_belle_older/sweetie_belle_older_clothes_alt12.dds"
 				"gfx/models/portraits/pony_unicorn/sweetie_belle_older/sweetie_belle_older_clothes_alt13.dds"
 				"gfx/models/portraits/pony_unicorn/sweetie_belle_older/sweetie_belle_older_clothes_alt14.dds"
+				"gfx/models/portraits/pony_unicorn/sweetie_belle_older/sweetie_belle_older_clothes_alt15.dds"
+				"gfx/models/portraits/pony_unicorn/sweetie_belle_older/sweetie_belle_older_clothes_alt16.dds"
 				"gfx/models/portraits/no_attachment.dds"
 			}
 		}
@@ -695,6 +699,8 @@ mtrspony_pony_unicorn_sweetie_belle_older_clothes_selector = {
 				"gfx/models/portraits/pony_unicorn/sweetie_belle_older/sweetie_belle_older_clothes_alt12.dds"
 				"gfx/models/portraits/pony_unicorn/sweetie_belle_older/sweetie_belle_older_clothes_alt13.dds"
 				"gfx/models/portraits/pony_unicorn/sweetie_belle_older/sweetie_belle_older_clothes_alt14.dds"
+				"gfx/models/portraits/pony_unicorn/sweetie_belle_older/sweetie_belle_older_clothes_alt15.dds"
+				"gfx/models/portraits/pony_unicorn/sweetie_belle_older/sweetie_belle_older_clothes_alt16.dds"
 				"gfx/models/portraits/no_attachment.dds"
 			}
 		}
