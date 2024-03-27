@@ -477,6 +477,7 @@ mtrspony_pony_unicorn_starlight_glimmer_equalist_hair_selector = {
 				"gfx/models/portraits/pony_unicorn/starlight_glimmer_equalist/starlight_glimmer_equalist_hair_alt10.dds"
 				"gfx/models/portraits/pony_unicorn/starlight_glimmer_equalist/starlight_glimmer_equalist_hair_alt11.dds"
 				"gfx/models/portraits/pony_unicorn/starlight_glimmer_equalist/starlight_glimmer_equalist_hair_alt12.dds"
+				"gfx/models/portraits/pony_unicorn/starlight_glimmer_equalist/starlight_glimmer_equalist_hair_alt13.dds"
 			}
 		}
 	}
@@ -497,6 +498,7 @@ mtrspony_pony_unicorn_starlight_glimmer_equalist_hair_selector = {
 				"gfx/models/portraits/pony_unicorn/starlight_glimmer_equalist/starlight_glimmer_equalist_hair_alt10.dds"
 				"gfx/models/portraits/pony_unicorn/starlight_glimmer_equalist/starlight_glimmer_equalist_hair_alt11.dds"
 				"gfx/models/portraits/pony_unicorn/starlight_glimmer_equalist/starlight_glimmer_equalist_hair_alt12.dds"
+				"gfx/models/portraits/pony_unicorn/starlight_glimmer_equalist/starlight_glimmer_equalist_hair_alt13.dds"
 			}
 		}
 	}
@@ -517,6 +519,7 @@ mtrspony_pony_unicorn_starlight_glimmer_equalist_hair_selector = {
 				"gfx/models/portraits/pony_unicorn/starlight_glimmer_equalist/starlight_glimmer_equalist_hair_alt10.dds"
 				"gfx/models/portraits/pony_unicorn/starlight_glimmer_equalist/starlight_glimmer_equalist_hair_alt11.dds"
 				"gfx/models/portraits/pony_unicorn/starlight_glimmer_equalist/starlight_glimmer_equalist_hair_alt12.dds"
+				"gfx/models/portraits/pony_unicorn/starlight_glimmer_equalist/starlight_glimmer_equalist_hair_alt13.dds"
 			}
 		}
 	}

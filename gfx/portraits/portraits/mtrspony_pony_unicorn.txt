@@ -143,6 +143,7 @@ portraits = {
 			"gfx/models/portraits/pony_unicorn/starlight_glimmer_equalist/starlight_glimmer_equalist_alt9.dds"
 			"gfx/models/portraits/pony_unicorn/starlight_glimmer_equalist/starlight_glimmer_equalist_alt10.dds"
 			"gfx/models/portraits/pony_unicorn/starlight_glimmer_equalist/starlight_glimmer_equalist_alt11.dds"
+			"gfx/models/portraits/pony_unicorn/starlight_glimmer_equalist/starlight_glimmer_equalist_alt12.dds"
 		}
 
 		custom_attachment_label = "HAIR_COLOR"
