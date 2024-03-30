@@ -42,11 +42,6 @@ country_event = {
 			set_citizenship_type = { country = ROOT type = citizenship_limited }
 			# set_military_service_type = { country = ROOT type = military_service_full }
 		}
-		create_dragon_species = yes
-		event_target:dragon_species = {
-			set_citizenship_type = { country = ROOT type = citizenship_limited }
-			# set_military_service_type = { country = ROOT type = military_service_full }
-		}
 		create_kirin_species = yes
 		event_target:kirin_species = {
 			set_citizenship_type = { country = ROOT type = citizenship_limited }
