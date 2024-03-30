@@ -14,6 +14,7 @@ portraits = {
 			"gfx/models/portraits/changeling/thorax/thorax_alt5.dds"
 			"gfx/models/portraits/changeling/thorax/thorax_alt6.dds"
 			"gfx/models/portraits/changeling/thorax/thorax_alt7.dds"
+			"gfx/models/portraits/changeling/thorax/thorax_alt8.dds"
 		}
 
 		custom_attachment_label = "HAIR_COLOR"
@@ -26,7 +27,7 @@ portraits = {
 		greeting_sound = "human_male_greetings_01"
 
 		character_textures = {
-			"gfx/models/portraits/changeling/thorax/thorax_alt4.dds"
+			"gfx/models/portraits/changeling/thorax/thorax_alt8.dds"
 		}
 
 		custom_attachment_label = "HAIR_COLOR"
@@ -35,11 +36,11 @@ portraits = {
 	mtrspony_changeling_elytron_predefined = {
 		entity = "portrait_dummy_20p_left_entity"
 		clothes_selector = "mtrspony_no_clothes_selector"
-		attachment_selector = "mtrspony_changeling_elytron_predefined_hair_selector"
+		attachment_selector = "mtrspony_no_clothes_selector"
 		greeting_sound = "human_male_greetings_01"
 
 		character_textures = {
-			"gfx/models/portraits/changeling/thorax/thorax_alt3.dds"
+			"gfx/models/portraits/changeling/elytron/elytron.dds"
 		}
 
 		custom_attachment_label = "HAIR_COLOR"
