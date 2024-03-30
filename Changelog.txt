@@ -25,3 +25,12 @@
 -- Added Faustian Technate as a prescripted country based on Scientifid Colthage.
 --- This includes a flag and a background as well.
 -- Added a WIP Russian translation. It should show English text instead of codename at least for what i couldn't translate.
+
+- Version 0.1.6 (.2024):
+-- Added CSP Remnants as a new prescripted country based on the bad ending in Changeling Space Program fanfic.
+--- Added new flag icon, flag background and starting systems for this country.
+-- Reworked most of the pony portraits. The grayscale and RGBCMY colors no longer use the same base for body, mane and clothes.
+--- This should allow for better looking portraits, if the randomiser decides to select same color for them.
+--- Also added an additional color option or two for all the portraits i edited for this.
+-- Updated the Dragon namelist with the new names from EaW.
+-- Added a Deer namelist, even tho there are no portraits to use them with.

@@ -163,6 +163,17 @@ portraits = {
 
 		custom_attachment_label = "HAIR_COLOR"
 	}
+
+	mtrspony_pony_earth_cherry_berry_predefined = {
+		entity = "portrait_dummy_10p_left_entity"
+		clothes_selector = "mtrspony_no_clothes_selector"
+		attachment_selector = "mtrspony_no_clothes_selector"
+		greeting_sound = "human_female_greetings_01"
+
+		character_textures = {
+			"gfx/models/portraits/pony_earth/cherry_berry/cherry_berry.dds"
+		}
+	}
 }
 
 portrait_groups = {

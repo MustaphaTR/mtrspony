@@ -1,0 +1,307 @@
+namespace = cspstart
+
+#Setup Changeling Space Program
+country_event = {
+	id = cspstart.1
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		has_country_flag = changeling_space_program
+	}
+	immediate = {
+		create_leader = {
+			name = "PRESCRIPTED_ruler_name_chrysalis"
+			custom_description = "PRESCRIPTED_ruler_name_chrysalis_desc"
+			species = ROOT.species
+			gender = female
+			class = official
+			skill = 1
+			set_age = 92
+			immortal = yes
+			background_ethic = "ethic_authoritarian"
+			randomize_traits = no
+			traits = {
+				trait = leader_trait_spycraft
+				trait = trait_imperial_heir
+			}
+
+			effect = {
+				save_global_event_target_as = leader_chrysalis
+				set_leader_flag = is_created_leader
+				change_leader_portrait = "mtrspony_changeling_chrysalis_predefined"
+				ROOT = { assign_leader = event_target:leader_chrysalis }
+			}
+		}
+
+		create_leader = {
+			name = "PRESCRIPTED_ruler_name_pharynx"
+			custom_description = "PRESCRIPTED_ruler_name_pharynx_desc"
+			species = ROOT.species
+			gender = male
+			class = commander
+			skill = 1
+			set_age = 62
+			immortal = no
+			background_ethic = "ethic_xenophobe"
+			randomize_traits = no
+			traits = {
+				trait = leader_trait_paranoid_military_2
+			}
+
+			effect = {
+				save_global_event_target_as = leader_pharynx
+				set_leader_flag = is_created_leader
+				change_leader_portrait = "mtrspony_changeling_pharynx_predefined"
+				ROOT = { capital_scope = { assign_leader = event_target:leader_pharynx } }
+				change_background_job = chief_security_officer
+				set_council_position = councilor_defense
+			}
+		}
+		create_leader = {
+			name = "PRESCRIPTED_ruler_name_elytron"
+			custom_description = "PRESCRIPTED_ruler_name_elytron_desc"
+			species = ROOT.species
+			gender = male
+			class = commander
+			skill = 1
+			set_age = 59
+			immortal = no
+			background_ethic = "ethic_militarist"
+			randomize_traits = no
+			traits = {
+				trait = leader_trait_stubborn
+			}
+
+			effect = {
+				save_global_event_target_as = leader_elytron
+				set_leader_flag = is_created_leader
+				change_leader_portrait = "mtrspony_changeling_elytron_predefined"
+				ROOT = {
+					random_owned_fleet = {
+						limit = { is_ship_class = shipclass_military }
+
+						assign_leader = PREVPREV
+					}
+				}
+				change_background_job = commanding_officer
+			}
+		}
+		create_leader = {
+			name = "PRESCRIPTED_ruler_name_occupant"
+			custom_description = "PRESCRIPTED_ruler_name_occupant_desc"
+			species = ROOT.species
+			gender = male
+			class = official
+			skill = 1
+			set_age = 57
+			immortal = no
+			background_ethic = "ethic_xenophile"
+			randomize_traits = no
+			traits = {
+				trait = leader_trait_bureaucrat
+			}
+
+			effect = {
+				save_global_event_target_as = leader_occupant
+				set_leader_flag = is_created_leader
+				change_leader_portrait = "mtrspony_changeling_occupant_predefined"
+				change_background_job = bureaucrat
+				set_council_position = councilor_state
+			}
+		}
+
+		ROOT.species = {
+			change_species_characteristics = {
+				add_trait = trait_pc_continental_preference
+				remove_trait = trait_void_dweller_1
+			}
+		}
+		create_pony_species = yes
+		create_griffon_species = yes
+		event_target:griffon_species = {
+			set_slavery_type = { country = ROOT type = slavery_normal }
+		}
+		create_dragon_species = yes
+		event_target:dragon_species = {
+			set_slavery_type = { country = ROOT type = slavery_military }
+		}
+		create_kirin_species = yes
+		event_target:kirin_species = {
+			set_slavery_type = { country = ROOT type = slavery_normal }
+		}
+		create_zebra_species = yes
+		event_target:zebra_species = {
+			set_slavery_type = { country = ROOT type = slavery_normal }
+		}
+
+		create_leader = {
+			name = "PRESCRIPTED_ruler_name_cherry_berry"
+			custom_description = "PRESCRIPTED_ruler_name_cherry_berry_desc"
+			species = event_target:pony_species
+			gender = female
+			class = scientist
+			skill = 1
+			set_age = 60
+			immortal = yes
+			background_ethic = "ethic_xenophile"
+			randomize_traits = no
+			traits = {
+				trait = leader_trait_expertise_voidcraft
+			}
+
+			effect = {
+				save_global_event_target_as = leader_cherry_berry
+				set_leader_flag = is_created_leader
+				change_leader_portrait = "mtrspony_pony_earth_cherry_berry_predefined"
+				ROOT = {
+					random_owned_fleet = {
+						limit = { is_ship_class = shipclass_science_ship }
+
+						assign_leader = PREVPREV
+					}
+				}
+				set_council_position = councilor_research
+				change_background_job = astronaut
+			}
+		}
+		set_heir = event_target:leader_cherry_berry
+
+		capital_scope = {
+			while = {
+				count = 18
+
+				random_owned_pop = { kill_pop = yes }
+			}
+			while = {
+				count = 2
+
+				create_pop = {
+					species = event_target:pony_species
+					ethos = random
+				}
+			}
+			while = {
+				count = 4
+
+				create_pop = {
+					species = event_target:pony_species
+					ethos = { ethic = ethic_xenophile }
+				}
+			}
+			while = {
+				count = 2
+
+				create_pop = {
+					species = event_target:pony_species
+					ethos = { ethic = ethic_pacifist }
+				}
+			}
+			while = {
+				count = 3
+
+				create_pop = {
+					species = event_target:griffon_species
+					ethos = random
+				}
+			}
+			while = {
+				count = 2
+
+				create_pop = {
+					species = event_target:griffon_species
+					ethos = { ethic = ethic_spiritualist }
+				}
+			}
+			while = {
+				count = 1
+
+				create_pop = {
+					species = event_target:dragon_species
+					ethos = { ethic = ethic_militarist }
+				}
+			}
+			while = {
+				count = 1
+
+				create_pop = {
+					species = event_target:kirin_species
+					ethos = { ethic = ethic_pacifist }
+				}
+			}
+			while = {
+				count = 1
+
+				create_pop = {
+					species = event_target:kirin_species
+					ethos = random
+				}
+			}
+			while = {
+				count = 1
+
+				create_pop = {
+					species = event_target:zebra_species
+					ethos = random
+				}
+			}
+			while = {
+				count = 1
+
+				create_pop = {
+					species = event_target:zebra_species
+					ethos = { ethic = ethic_materialist }
+				}
+			}
+
+			# Doesn't work on the initialiser for some reason, add the modifier here.
+			solar_system = {
+				random_system_planet = {
+					limit = { has_planet_flag = planet_equus }
+
+					add_modifier = { modifier = tidal_locked }
+				}
+			}
+		}
+
+		# Remove the genericos.
+		every_owned_leader = {
+			limit = {
+				NOT = { has_leader_flag = is_created_leader }
+			}
+
+			kill_leader = {
+				show_notification = no
+				fire = yes
+			}
+		}
+	}
+}
+
+# Reapply named character potraits, they seem to reset after loading a save or when species got modified.
+country_event = {
+	id = cspstart.2
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		has_country_flag = changeling_space_program
+	}
+	immediate = {
+		event_target:leader_chrysalis = {
+			change_leader_portrait = "mtrspony_changeling_chrysalis_predefined"
+		}
+		event_target:leader_pharynx = {
+			change_leader_portrait = "mtrspony_changeling_pharynx_predefined"
+		}
+		event_target:leader_elytron = {
+			change_leader_portrait = "mtrspony_changeling_elytron_predefined"
+		}
+		event_target:leader_occupant = {
+			change_leader_portrait = "mtrspony_changeling_occupant_predefined"
+		}
+		event_target:leader_cherry_berry = {
+			change_leader_portrait = "mtrspony_pony_earth_cherry_berry_predefined"
+		}
+	}
+}

@@ -4,6 +4,7 @@ is_mtrspony_prescripted_country = {
 		has_country_flag = the_crusader_state
 		has_country_flag = griffonian_empire
 		has_country_flag = faustian_technate
+		has_country_flag = cahngeling_space_program
 	}
 }
 

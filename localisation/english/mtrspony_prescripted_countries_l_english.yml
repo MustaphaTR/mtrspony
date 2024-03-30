@@ -1,18 +1,5 @@
 ﻿l_english:
  # Shared Stuff
- eaw_vanilla_initializer_NAME:0 "Behemoth System"
- eaw_vanilla_initializer_DESC:0 "The Equestria at War system, complete with the small sun and moon."
-
- NAME_Faust:0 "Faust"
- NAME_Behemoth:0 "Behemoth"
- NAME_Helios:0 "Helios"
- NAME_Selene:0 "Selene"
- NAME_Tanvewei:0 "Tanvewei"
- NAME_Hiphyria:0 "Hiphyria"
- NAME_Gasarvis:0 "Gasarvis"
- NAME_Deenope:0 "Deenope"
- NAME_Rolemia:0 "Rolemia"
-
  PRESCRIPTED_species_pony:0 "Pony"
  PRESCRIPTED_species_plural_pony:0 "Ponies"
  PRESCRIPTED_species_adjective_pony:0 "Pony"
@@ -89,3 +76,31 @@
  PRESCRIPTED_ruler_name_zuan_gerzalid:0 "Zuan Gerzalid"
  PRESCRIPTED_ruler_name_zuan_gerzalid_desc:0 "<insert_desc_here>"
  PRESCRIPTED_ruler_name_zuan_gerzalid_catch_phrase:0 "§L""§!"
+
+ # Changeling Space Program
+ EMPIRE_DESIGN_changeling_space_program:0 "CSP Remnants"
+ # EMPIRE_DESIGN_changeling_space_program_desc:0 ""
+ PRESCRIPTED_adjective_changeling_space_program:0 "Changeling"
+ PRESCRIPTED_ruler_title_king:0 "King"
+ PRESCRIPTED_ruler_title_queen:0 "Queen"
+ PRESCRIPTED_ship_prefix_changeling_space_program:0 "CSS"
+
+ PRESCRIPTED_ruler_name_chrysalis:0 "Chrysalis"
+ PRESCRIPTED_ruler_name_chrysalis_desc:0 "<insert_desc_here>"
+ PRESCRIPTED_ruler_name_chrysalis_catch_phrase:0 "§L""§!"
+
+ PRESCRIPTED_ruler_name_pharynx:0 "Pharynx"
+ PRESCRIPTED_ruler_name_pharynx_desc:0 "<insert_desc_here>"
+ PRESCRIPTED_ruler_name_pharynx_catch_phrase:0 "§L""§!"
+
+ PRESCRIPTED_ruler_name_elytron:0 "Elytron"
+ PRESCRIPTED_ruler_name_elytron_desc:0 "<insert_desc_here>"
+ PRESCRIPTED_ruler_name_elytron_catch_phrase:0 "§L""§!"
+
+ PRESCRIPTED_ruler_name_occupant:0 "Occupant"
+ PRESCRIPTED_ruler_name_occupant_desc:0 "<insert_desc_here>"
+ PRESCRIPTED_ruler_name_occupant_catch_phrase:0 "§L""§!"
+
+ PRESCRIPTED_ruler_name_cherry_berry:0 "Cherry Berry"
+ PRESCRIPTED_ruler_name_cherry_berry_desc:0 "<insert_desc_here>"
+ PRESCRIPTED_ruler_name_cherry_berry_catch_phrase:0 "§L""§!"

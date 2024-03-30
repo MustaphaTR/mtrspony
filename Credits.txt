@@ -27,6 +27,9 @@ Portrait Bases:
 	- Shining Armor
 	- Soarin'
 
+ > flash-draw:
+	- Cherry Berry
+
  > hendro107:
 	- Autumn Blaze
 

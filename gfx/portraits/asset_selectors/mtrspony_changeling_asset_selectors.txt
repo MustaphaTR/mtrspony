@@ -63,6 +63,36 @@ mtrspony_changeling_thorax_hair_selector = {
 	}
 }
 
+mtrspony_changeling_occupant_predefined_hair_selector = {
+	default = "gfx/models/portraits/changeling/thorax/thorax_hair_alt1.dds"
+
+	game_setup = { default = "gfx/models/portraits/changeling/thorax/thorax_hair_alt1.dds" }
+	species = { default = "gfx/models/portraits/changeling/thorax/thorax_hair_alt1.dds" }
+	pop = { default = "gfx/models/portraits/changeling/thorax/thorax_hair_alt1.dds" }
+	leader = { default = "gfx/models/portraits/changeling/thorax/thorax_hair_alt1.dds" }
+	ruler = { default = "gfx/models/portraits/changeling/thorax/thorax_hair_alt1.dds" }
+}
+
+mtrspony_changeling_elytron_predefined_hair_selector = {
+	default = "gfx/models/portraits/changeling/thorax/thorax_hair_alt3.dds"
+
+	game_setup = { default = "gfx/models/portraits/changeling/thorax/thorax_hair_alt3.dds" }
+	species = { default = "gfx/models/portraits/changeling/thorax/thorax_hair_alt3.dds" }
+	pop = { default = "gfx/models/portraits/changeling/thorax/thorax_hair_alt3.dds" }
+	leader = { default = "gfx/models/portraits/changeling/thorax/thorax_hair_alt3.dds" }
+	ruler = { default = "gfx/models/portraits/changeling/thorax/thorax_hair_alt3.dds" }
+}
+
+mtrspony_changeling_pharynx_predefined_hair_selector = {
+	default = "gfx/models/portraits/changeling/thorax/thorax_hair_alt2.dds"
+
+	game_setup = { default = "gfx/models/portraits/changeling/thorax/thorax_hair_alt2.dds" }
+	species = { default = "gfx/models/portraits/changeling/thorax/thorax_hair_alt2.dds" }
+	pop = { default = "gfx/models/portraits/changeling/thorax/thorax_hair_alt2.dds" }
+	leader = { default = "gfx/models/portraits/changeling/thorax/thorax_hair_alt2.dds" }
+	ruler = { default = "gfx/models/portraits/changeling/thorax/thorax_hair_alt2.dds" }
+}
+
 mtrspony_changeling_chrysalis_hair_selector = {
 	default = "gfx/models/portraits/changeling/chrysalis/chrysalis_hair.dds"
 
@@ -185,4 +215,24 @@ mtrspony_changeling_chrysalis_clothes_selector = {
 			}
 		}		
 	}
+}
+
+mtrspony_changeling_chrysalis_predefined_hair_selector = {
+	default = "gfx/models/portraits/changeling/chrysalis/chrysalis_hair.dds"
+
+	game_setup = { default = "gfx/models/portraits/changeling/chrysalis/chrysalis_hair.dds" }
+	species = { default = "gfx/models/portraits/changeling/chrysalis/chrysalis_hair.dds" }
+	pop = { default = "gfx/models/portraits/changeling/chrysalis/chrysalis_hair.dds" }
+	leader = { default = "gfx/models/portraits/changeling/chrysalis/chrysalis_hair.dds" }
+	ruler = { default = "gfx/models/portraits/changeling/chrysalis/chrysalis_hair.dds" }
+}
+
+mtrspony_changeling_chrysalis_predefined_clothes_selector = {
+	default = "gfx/models/portraits/changeling/chrysalis/chrysalis_hair.dds"
+
+	game_setup = { default = "gfx/models/portraits/changeling/chrysalis/chrysalis_crown.dds" }
+	species = { default = "gfx/models/portraits/changeling/chrysalis/chrysalis_crown.dds" }
+	pop = { default = "gfx/models/portraits/changeling/chrysalis/chrysalis_crown.dds" }
+	leader = { default = "gfx/models/portraits/changeling/chrysalis/chrysalis_crown.dds" }
+	ruler = { default = "gfx/models/portraits/changeling/chrysalis/chrysalis_crown.dds" }
 }

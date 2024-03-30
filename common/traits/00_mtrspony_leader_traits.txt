@@ -1,0 +1,85 @@
+leader_trait_paranoid_military = {
+	leader_trait_type = negative
+	inline_script = {
+		script = trait/icon_negative
+		ICON = "GFX_leader_trait_paranoid"
+		COUNCIL = no
+		TIER = 1
+	}
+	planet_modifier = {
+		planet_stability_add = -5
+	}
+	sector_modifier = {
+		planet_stability_add = -2.5
+	}
+	triggered_planet_modifier = {
+		potential = { trait_is_gestalt_check = no }
+		planet_crime_add = -2.5
+	}
+	triggered_planet_modifier = {
+		potential = { trait_is_gestalt_check = yes }
+		planet_crime_no_happiness_add = -2.5
+	}
+	triggered_sector_modifier = {
+		potential = { trait_is_gestalt_check = no }
+		planet_crime_add = -1.25
+	}
+	triggered_sector_modifier = {
+		potential = { trait_is_gestalt_check = yes }
+		planet_crime_no_happiness_add = -1.25
+	}
+	leader_class = { commander }
+	opposites = {
+		leader_trait_righteous
+		leader_trait_righteous_2
+		leader_trait_martinet
+		leader_trait_martinet_2
+		leader_trait_martinet_3
+	}
+	selectable_weight = {
+		weight = @class_negative_trait_weight
+		inline_script = paragon/council_weight_mult
+	}
+}
+
+leader_trait_paranoid_military_2 = {
+	leader_trait_type = negative
+	replace_traits = { "leader_trait_paranoid_military" }
+	inline_script = {
+		script = trait/icon_negative
+		ICON = "GFX_leader_trait_paranoid"
+		COUNCIL = no
+		TIER = 2
+	}
+	planet_modifier = {
+		planet_stability_add = -10
+	}
+	sector_modifier = {
+		planet_stability_add = -5
+	}
+	triggered_planet_modifier = {
+		potential = { trait_is_gestalt_check = no }
+		planet_crime_add = -5
+	}
+	triggered_planet_modifier = {
+		potential = { trait_is_gestalt_check = yes }
+		planet_crime_no_happiness_add = -5
+	}
+	triggered_sector_modifier = {
+		potential = { trait_is_gestalt_check = no }
+		planet_crime_add = -2.5
+	}
+	triggered_sector_modifier = {
+		potential = { trait_is_gestalt_check = yes }
+		planet_crime_no_happiness_add = -2.5
+	}
+	leader_class = { commander }
+	opposites = {
+		leader_trait_righteous
+		leader_trait_righteous_2
+		leader_trait_martinet
+		leader_trait_martinet_2
+		leader_trait_martinet_3
+	}
+	selectable_weight = @tier2_negative_trait_weight
+}

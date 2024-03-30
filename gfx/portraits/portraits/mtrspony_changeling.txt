@@ -19,6 +19,45 @@ portraits = {
 		custom_attachment_label = "HAIR_COLOR"
 	}
 
+	mtrspony_changeling_pharynx_predefined = {
+		entity = "portrait_dummy_20p_left_entity"
+		clothes_selector = "mtrspony_no_clothes_selector"
+		attachment_selector = "mtrspony_changeling_pharynx_predefined_hair_selector"
+		greeting_sound = "human_male_greetings_01"
+
+		character_textures = {
+			"gfx/models/portraits/changeling/thorax/thorax_alt4.dds"
+		}
+
+		custom_attachment_label = "HAIR_COLOR"
+	}
+
+	mtrspony_changeling_elytron_predefined = {
+		entity = "portrait_dummy_20p_left_entity"
+		clothes_selector = "mtrspony_no_clothes_selector"
+		attachment_selector = "mtrspony_changeling_elytron_predefined_hair_selector"
+		greeting_sound = "human_male_greetings_01"
+
+		character_textures = {
+			"gfx/models/portraits/changeling/thorax/thorax_alt3.dds"
+		}
+
+		custom_attachment_label = "HAIR_COLOR"
+	}
+
+	mtrspony_changeling_occupant_predefined = {
+		entity = "portrait_dummy_20p_left_entity"
+		clothes_selector = "mtrspony_no_clothes_selector"
+		attachment_selector = "mtrspony_changeling_occupant_predefined_hair_selector"
+		greeting_sound = "human_male_greetings_01"
+
+		character_textures = {
+			"gfx/models/portraits/changeling/thorax/occupant.dds"
+		}
+
+		custom_attachment_label = "HAIR_COLOR"
+	}
+
 	mtrspony_changeling_chrysalis = {
 		entity = "portrait_dummy_15p_left_entity"
 		clothes_selector = "mtrspony_changeling_chrysalis_clothes_selector"
@@ -35,6 +74,19 @@ portraits = {
 			"gfx/models/portraits/changeling/chrysalis/chrysalis_alt6.dds"
 			"gfx/models/portraits/changeling/chrysalis/chrysalis_alt7.dds"
 			"gfx/models/portraits/changeling/chrysalis/chrysalis_alt8.dds"
+		}
+
+		custom_attachment_label = "HAIR_COLOR"
+	}
+
+	mtrspony_changeling_chrysalis_predefined = {
+		entity = "portrait_dummy_15p_left_entity"
+		clothes_selector = "mtrspony_changeling_chrysalis_predefined_clothes_selector"
+		attachment_selector = "mtrspony_changeling_chrysalis_predefined_hair_selector"
+		greeting_sound = "human_female_greetings_01"
+
+		character_textures = {
+			"gfx/models/portraits/changeling/chrysalis/chrysalis.dds"
 		}
 
 		custom_attachment_label = "HAIR_COLOR"
