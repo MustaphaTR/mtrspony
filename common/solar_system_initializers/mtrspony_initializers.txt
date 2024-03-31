@@ -281,41 +281,41 @@ csp_system_initializer = {
 		}
 	}
 
-	planet = {
-		name = "NAME_1_Ceres"
-		class = "pc_asteroid"
-		orbit_distance = 30
-		orbit_angle = -210
-		size = 5
-		has_ring = no
-	}
+	#planet = {
+	#	name = "NAME_1_Ceres"
+	#	class = "pc_asteroid"
+	#	orbit_distance = 30
+	#	orbit_angle = -210
+	#	size = 5
+	#	has_ring = no
+	#}
 
-	planet = {
-		name = "NAME_2_Pallas"
-		class = "pc_asteroid"
-		orbit_distance = 0
-		orbit_angle = -95
-		size = 5
-		has_ring = no
-	}
+	#planet = {
+	#	name = "NAME_2_Pallas"
+	#	class = "pc_asteroid"
+	#	orbit_distance = 0
+	#	orbit_angle = -95
+	#	size = 5
+	#	has_ring = no
+	#}
 
-	planet = {
-		name = "NAME_3_Juno"
-		class = "pc_asteroid"
-		orbit_distance = 0
-		orbit_angle = 285
-		size = 5
-		has_ring = no
-	}
+	#planet = {
+	#	name = "NAME_3_Juno"
+	#	class = "pc_asteroid"
+	#	orbit_distance = 0
+	#	orbit_angle = 285
+	#	size = 5
+	#	has_ring = no
+	#}
 
-	planet = {
-		name = "NAME_4_Vesta"
-		class = "pc_asteroid"
-		orbit_distance = 0
-		orbit_angle = -80
-		size = 5
-		has_ring = no
-	}
+	#planet = {
+	#	name = "NAME_4_Vesta"
+	#	class = "pc_asteroid"
+	#	orbit_distance = 0
+	#	orbit_angle = -80
+	#	size = 5
+	#	has_ring = no
+	#}
 
 	planet = {
 		name = "NAME_Sleipnir"
@@ -435,32 +435,32 @@ csp_system_initializer = {
 		has_ring = no
 	}
 
-	planet = {
-		name = "NAME_136472_Makemake"
-		class = "pc_ice_asteroid"
-		orbit_distance = 0
-		orbit_angle = -95
-		size = 5
-		has_ring = no
-	}
+	#planet = {
+	#	name = "NAME_136472_Makemake"
+	#	class = "pc_ice_asteroid"
+	#	orbit_distance = 0
+	#	orbit_angle = -95
+	#	size = 5
+	#	has_ring = no
+	#}
 
-	planet = {
-		name = "NAME_136108_Haumea"
-		class = "pc_ice_asteroid"
-		orbit_distance = 0
-		orbit_angle = 285
-		size = 5
-		has_ring = no
-	}
+	#planet = {
+	#	name = "NAME_136108_Haumea"
+	#	class = "pc_ice_asteroid"
+	#	orbit_distance = 0
+	#	orbit_angle = 285
+	#	size = 5
+	#	has_ring = no
+	#}
 
-	planet = {
-		name = "NAME_20000_Varuna"
-		class = "pc_ice_asteroid"
-		orbit_distance = 0
-		orbit_angle = -80
-		size = 5
-		has_ring = no
-	}
+	#planet = {
+	#	name = "NAME_20000_Varuna"
+	#	class = "pc_ice_asteroid"
+	#	orbit_distance = 0
+	#	orbit_angle = -80
+	#	size = 5
+	#	has_ring = no
+	#}
 
 	neighbor_system = {
 		hyperlane_jumps = { min = 1 max = @jumps }
@@ -641,41 +641,41 @@ csp_system_void_dweller_system = {
 		}
 	}
 
-	planet = {
-		name = "NAME_1_Ceres"
-		class = "pc_asteroid"
-		orbit_distance = 30
-		orbit_angle = -210
-		size = 5
-		has_ring = no
-	}
+	#planet = {
+	#	name = "NAME_1_Ceres"
+	#	class = "pc_asteroid"
+	#	orbit_distance = 30
+	#	orbit_angle = -210
+	#	size = 5
+	#	has_ring = no
+	#}
 
-	planet = {
-		name = "NAME_2_Pallas"
-		class = "pc_asteroid"
-		orbit_distance = 0
-		orbit_angle = -95
-		size = 5
-		has_ring = no
-	}
+	#planet = {
+	#	name = "NAME_2_Pallas"
+	#	class = "pc_asteroid"
+	#	orbit_distance = 0
+	#	orbit_angle = -95
+	#	size = 5
+	#	has_ring = no
+	#}
 
-	planet = {
-		name = "NAME_3_Juno"
-		class = "pc_asteroid"
-		orbit_distance = 0
-		orbit_angle = 285
-		size = 5
-		has_ring = no
-	}
+	#planet = {
+	#	name = "NAME_3_Juno"
+	#	class = "pc_asteroid"
+	#	orbit_distance = 0
+	#	orbit_angle = 285
+	#	size = 5
+	#	has_ring = no
+	#}
 
-	planet = {
-		name = "NAME_4_Vesta"
-		class = "pc_asteroid"
-		orbit_distance = 0
-		orbit_angle = -80
-		size = 5
-		has_ring = no
-	}
+	#planet = {
+	#	name = "NAME_4_Vesta"
+	#	class = "pc_asteroid"
+	#	orbit_distance = 0
+	#	orbit_angle = -80
+	#	size = 5
+	#	has_ring = no
+	#}
 
 	planet = {
 		name = "NAME_Sleipnir"
@@ -808,32 +808,32 @@ csp_system_void_dweller_system = {
 		has_ring = no
 	}
 
-	planet = {
-		name = "NAME_136472_Makemake"
-		class = "pc_ice_asteroid"
-		orbit_distance = 0
-		orbit_angle = -95
-		size = 5
-		has_ring = no
-	}
+	#planet = {
+	#	name = "NAME_136472_Makemake"
+	#	class = "pc_ice_asteroid"
+	#	orbit_distance = 0
+	#	orbit_angle = -95
+	#	size = 5
+	#	has_ring = no
+	#}
 
-	planet = {
-		name = "NAME_136108_Haumea"
-		class = "pc_ice_asteroid"
-		orbit_distance = 0
-		orbit_angle = 285
-		size = 5
-		has_ring = no
-	}
+	#planet = {
+	#	name = "NAME_136108_Haumea"
+	#	class = "pc_ice_asteroid"
+	#	orbit_distance = 0
+	#	orbit_angle = 285
+	#	size = 5
+	#	has_ring = no
+	#}
 
-	planet = {
-		name = "NAME_20000_Varuna"
-		class = "pc_ice_asteroid"
-		orbit_distance = 0
-		orbit_angle = -80
-		size = 5
-		has_ring = no
-	}
+	#planet = {
+	#	name = "NAME_20000_Varuna"
+	#	class = "pc_ice_asteroid"
+	#	orbit_distance = 0
+	#	orbit_angle = -80
+	#	size = 5
+	#	has_ring = no
+	#}
 
 	neighbor_system = {
 		hyperlane_jumps = { min = 1 max = @jumps }
