@@ -27,6 +27,7 @@ mtrspony_pony_pegasus_soarin_hair_selector = {
 				"gfx/models/portraits/pony_pegasus/soarin/soarin_hair_alt10.dds"
 				"gfx/models/portraits/pony_pegasus/soarin/soarin_hair_alt11.dds"
 				"gfx/models/portraits/pony_pegasus/soarin/soarin_hair_alt12.dds"
+				"gfx/models/portraits/pony_pegasus/soarin/soarin_hair_alt13.dds"
 			}
 		}	
 	}
@@ -47,6 +48,7 @@ mtrspony_pony_pegasus_soarin_hair_selector = {
 				"gfx/models/portraits/pony_pegasus/soarin/soarin_hair_alt10.dds"
 				"gfx/models/portraits/pony_pegasus/soarin/soarin_hair_alt11.dds"
 				"gfx/models/portraits/pony_pegasus/soarin/soarin_hair_alt12.dds"
+				"gfx/models/portraits/pony_pegasus/soarin/soarin_hair_alt13.dds"
 			}
 		}
 	}
@@ -67,6 +69,7 @@ mtrspony_pony_pegasus_soarin_hair_selector = {
 				"gfx/models/portraits/pony_pegasus/soarin/soarin_hair_alt10.dds"
 				"gfx/models/portraits/pony_pegasus/soarin/soarin_hair_alt11.dds"
 				"gfx/models/portraits/pony_pegasus/soarin/soarin_hair_alt12.dds"
+				"gfx/models/portraits/pony_pegasus/soarin/soarin_hair_alt13.dds"
 			}
 		}		
 	}
