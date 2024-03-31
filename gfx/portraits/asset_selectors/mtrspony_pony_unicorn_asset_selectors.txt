@@ -177,6 +177,8 @@ mtrspony_pony_unicorn_twilight_velvet_hair_selector = {
 				"gfx/models/portraits/pony_unicorn/twilight_velvet/twilight_velvet_hair_alt9.dds"
 				"gfx/models/portraits/pony_unicorn/twilight_velvet/twilight_velvet_hair_alt10.dds"
 				"gfx/models/portraits/pony_unicorn/twilight_velvet/twilight_velvet_hair_alt11.dds"
+				"gfx/models/portraits/pony_unicorn/twilight_velvet/twilight_velvet_hair_alt12.dds"
+				"gfx/models/portraits/pony_unicorn/twilight_velvet/twilight_velvet_hair_alt13.dds"
 			}
 		}
 	}
@@ -196,6 +198,8 @@ mtrspony_pony_unicorn_twilight_velvet_hair_selector = {
 				"gfx/models/portraits/pony_unicorn/twilight_velvet/twilight_velvet_hair_alt9.dds"
 				"gfx/models/portraits/pony_unicorn/twilight_velvet/twilight_velvet_hair_alt10.dds"
 				"gfx/models/portraits/pony_unicorn/twilight_velvet/twilight_velvet_hair_alt11.dds"
+				"gfx/models/portraits/pony_unicorn/twilight_velvet/twilight_velvet_hair_alt12.dds"
+				"gfx/models/portraits/pony_unicorn/twilight_velvet/twilight_velvet_hair_alt13.dds"
 			}
 		}
 	}
@@ -215,6 +219,8 @@ mtrspony_pony_unicorn_twilight_velvet_hair_selector = {
 				"gfx/models/portraits/pony_unicorn/twilight_velvet/twilight_velvet_hair_alt9.dds"
 				"gfx/models/portraits/pony_unicorn/twilight_velvet/twilight_velvet_hair_alt10.dds"
 				"gfx/models/portraits/pony_unicorn/twilight_velvet/twilight_velvet_hair_alt11.dds"
+				"gfx/models/portraits/pony_unicorn/twilight_velvet/twilight_velvet_hair_alt12.dds"
+				"gfx/models/portraits/pony_unicorn/twilight_velvet/twilight_velvet_hair_alt13.dds"
 			}
 		}
 	}
