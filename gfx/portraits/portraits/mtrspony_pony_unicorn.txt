@@ -18,6 +18,7 @@ portraits = {
 			"gfx/models/portraits/pony_unicorn/shining_armor/shining_armor_alt9.dds"
 			"gfx/models/portraits/pony_unicorn/shining_armor/shining_armor_alt10.dds"
 			"gfx/models/portraits/pony_unicorn/shining_armor/shining_armor_alt11.dds"
+			"gfx/models/portraits/pony_unicorn/shining_armor/shining_armor_alt12.dds"
 		}
 
 		custom_attachment_label = "HAIR_COLOR"
