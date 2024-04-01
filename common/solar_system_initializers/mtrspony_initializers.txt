@@ -281,14 +281,14 @@ csp_system_initializer = {
 		}
 	}
 
-	#planet = {
-	#	name = "NAME_1_Ceres"
-	#	class = "pc_asteroid"
-	#	orbit_distance = 30
-	#	orbit_angle = -210
-	#	size = 5
-	#	has_ring = no
-	#}
+	planet = {
+		name = "NAME_1_Deo"
+		class = "pc_asteroid"
+		orbit_distance = 30
+		orbit_angle = -210
+		size = 5
+		has_ring = no
+	}
 
 	#planet = {
 	#	name = "NAME_2_Pallas"
@@ -641,14 +641,14 @@ csp_system_void_dweller_system = {
 		}
 	}
 
-	#planet = {
-	#	name = "NAME_1_Ceres"
-	#	class = "pc_asteroid"
-	#	orbit_distance = 30
-	#	orbit_angle = -210
-	#	size = 5
-	#	has_ring = no
-	#}
+	planet = {
+		name = "NAME_1_Deo"
+		class = "pc_asteroid"
+		orbit_distance = 30
+		orbit_angle = -210
+		size = 5
+		has_ring = no
+	}
 
 	#planet = {
 	#	name = "NAME_2_Pallas"
