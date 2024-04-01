@@ -113,26 +113,59 @@ country_event = {
 
 		ROOT.species = {
 			change_species_characteristics = {
-				add_trait = trait_pc_continental_preference
+				remove_trait = trait_pc_habitat_preference
+			}
+			change_species_characteristics = {
+				add_trait = trait_pc_arid_preference
 				remove_trait = trait_void_dweller_1
 			}
 		}
 		create_pony_species = yes
+		event_target:pony_species = {
+			set_slavery_type = { country = ROOT type = slavery_normal }
+			change_species_characteristics = {
+				remove_trait = trait_pc_habitat_preference
+			}
+		}
 		create_griffon_species = yes
 		event_target:griffon_species = {
 			set_slavery_type = { country = ROOT type = slavery_normal }
+			change_species_characteristics = {
+				remove_trait = trait_pc_habitat_preference
+			}
 		}
 		create_dragon_species = yes
 		event_target:dragon_species = {
 			set_slavery_type = { country = ROOT type = slavery_military }
+			change_species_characteristics = {
+				remove_trait = trait_pc_habitat_preference
+			}
+			change_species_characteristics = {
+				add_trait = trait_pc_arid_preference
+				remove_trait = trait_pc_continental_preference
+			}
 		}
 		create_kirin_species = yes
 		event_target:kirin_species = {
 			set_slavery_type = { country = ROOT type = slavery_normal }
+			change_species_characteristics = {
+				remove_trait = trait_pc_habitat_preference
+			}
+			change_species_characteristics = {
+				add_trait = trait_pc_tropical_preference
+				remove_trait = trait_pc_continental_preference
+			}
 		}
 		create_zebra_species = yes
 		event_target:zebra_species = {
 			set_slavery_type = { country = ROOT type = slavery_normal }
+			change_species_characteristics = {
+				remove_trait = trait_pc_habitat_preference
+			}
+			change_species_characteristics = {
+				add_trait = trait_pc_savannah_preference
+				remove_trait = trait_pc_continental_preference
+			}
 		}
 
 		create_leader = {
