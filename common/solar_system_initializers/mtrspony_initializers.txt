@@ -228,7 +228,7 @@ csp_system_initializer = {
 		flags = { planet_equus }
 
 		init_effect = {
-			save_global_event_target_as = sol_system_earth
+			save_global_event_target_as = sol_system_equus
 
 			prevent_anomaly = yes
 		}
@@ -562,15 +562,12 @@ csp_system_void_dweller_system = {
 		flags = {
 			planet_equus
 			ignore_startup_effect
-			habitat_1_planet
-			has_megastructure
 		}
 
 		init_effect = {
 			prevent_anomaly = yes
 			clear_deposits = yes
-			add_deposit = d_society_3
-			save_global_event_target_as = sol_system_earth
+			save_global_event_target_as = sol_system_equus
 		}
 
 		moon = {
@@ -590,6 +587,18 @@ csp_system_void_dweller_system = {
 			orbit_angle = 40
 			has_ring = no
 			entity = "cold_barren_planet_luna_entity"
+			flags = {
+				ignore_startup_effect
+				habitat_1_planet
+				has_megastructure
+			}
+
+			init_effect = {
+				prevent_anomaly = yes
+				clear_deposits = yes
+				add_deposit = d_society_3 # Old Equus being a colonisable planet, mess some shit up. Move the society research and the Orbital to Luna as a workaround.
+				save_global_event_target_as = sol_system_equus
+			}
 		}
 
 		moon = {
