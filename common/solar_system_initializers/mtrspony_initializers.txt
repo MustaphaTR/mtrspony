@@ -629,6 +629,8 @@ csp_system_void_dweller_system = {
 				modifier = "terraforming_candidate"
 				days = -1
 			}
+			clear_deposits = yes
+			add_deposit = d_minerals_3
 		}
 
 		moon = {
