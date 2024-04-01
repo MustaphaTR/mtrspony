@@ -121,6 +121,7 @@ portraits = {
 			"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_alt11.dds"
 			"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_alt12.dds"
 			"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_alt13.dds"
+			"gfx/models/portraits/pony_unicorn/sugar_belle/sugar_belle_alt14.dds"
 		}
 
 		custom_attachment_label = "HAIR_COLOR"
