@@ -26,7 +26,7 @@
 --- This includes a flag and a background as well.
 -- Added a WIP Russian translation. It should show English text instead of codename at least for what i couldn't translate.
 
-- Version 0.1.6 (.2024):
+- Version 0.1.6 (01.04.2024):
 -- Added CSP Remnants as a new prescripted country based on the bad ending in Changeling Space Program fanfic.
 --- Added new flag icon, flag background and starting systems for this country.
 -- Reworked most of the pony portraits. The grayscale and RGBCMY colors no longer use the same base for body, mane and clothes.
