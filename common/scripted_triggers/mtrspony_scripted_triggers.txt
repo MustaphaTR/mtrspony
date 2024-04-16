@@ -1,10 +1,20 @@
+has_not_necroids = {
+	optimize_memory
+	NOT = { host_has_dlc = "Necroids Species Pack" }
+}
+
+has_not_federations_dlc = {
+	optimize_memory
+	NOT = { host_has_dlc = "Federations" }
+}
+
 is_mtrspony_prescripted_country = {
 	OR = {
 		has_country_flag = convocation_of_creatures
 		has_country_flag = the_crusader_state
 		has_country_flag = griffonian_empire
 		has_country_flag = faustian_technate
-		has_country_flag = cahngeling_space_program
+		has_country_flag = changeling_space_program
 	}
 }
 

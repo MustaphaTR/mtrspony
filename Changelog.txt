@@ -34,3 +34,7 @@
 --- Also added an additional color option or two for all the portraits i edited for this.
 -- Updated the Dragon namelist with the new names from EaW.
 -- Added a Deer namelist, even tho there are no portraits to use them with.
+
+- Version 0.1.7 (16.04.2024):
+-- Added a duplicate version of Convocation of Creatures for people without Federations DLC, which replaces Diplomatic Crops civic with Free Haven.
+-- Added a duplicate version of The Crusader State for people without Necroids DLC, which replaces Reanimators civic with Distinguished Admiralty.

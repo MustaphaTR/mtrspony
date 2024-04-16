@@ -4,6 +4,83 @@ convocation_of_creatures = {
 	spawn_enabled = no # yes / no / always
 	ignore_portrait_duplication = yes
 
+	playable = has_not_federations_dlc # Diplomatic Corps civic is from Federations DLC.
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_convocation_of_creatures"
+
+	species = {
+		class = "MAM"
+		portrait = "mtrspony_pony"
+		name = "PRESCRIPTED_species_pony"
+		plural = "PRESCRIPTED_species_plural_pony"
+		adjective = "PRESCRIPTED_species_adjective_pony"
+		name_list = "mtrspony_namelists_pony"
+		trait = "trait_talented"
+		trait = "trait_cutie_marks"
+		trait = "trait_sedentary"
+	}
+
+	room = "personality_migrating_flock_room"
+
+	authority = "auth_democratic"
+	civics = { "civic_free_haven" "civic_idealistic_foundation" }
+	government = gov_moral_democracy
+
+	ethic = "ethic_xenophile"
+	ethic = "ethic_egalitarian"
+	ethic = "ethic_pacifist"
+
+	origin = "origin_default"
+
+	flags = { convocation_of_creatures }
+
+	planet_name = "NAME_Faust"
+	planet_class = "pc_continental"
+	initializer = "eaw_vanilla_initializer"
+	system_name = "NAME_Behemoth"
+
+	graphical_culture = mammalian_01
+	city_graphical_culture = mammalian_01
+
+	empire_flag = {
+		icon= {
+			category = "human"
+			file = "flag_human_8.dds"
+		}
+		background= {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors={
+			"light_pink"
+			"light_pink"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_dusk_shine"
+		ruler_title = "PRESCRIPTED_ruler_title_president"
+		ruler_title_female = "PRESCRIPTED_ruler_title_president"
+		gender = male
+		portrait = "mtrspony_pony_alicorn_dusk_shine"
+		texture = 0
+		attachment = 0
+		clothes = 0
+		trait = "leader_trait_spark_of_genius"
+		leader_class = scientist
+	}
+}
+
+convocation_of_creatures_federations = {
+	name = "EMPIRE_DESIGN_convocation_of_creatures"
+	adjective = "PRESCRIPTED_adjective_convocation_of_creatures"
+	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
+
+	playable = has_federations_dlc # Diplomatic Corps civic is from Federations DLC.
+
 	ship_prefix = "PRESCRIPTED_ship_prefix_convocation_of_creatures"
 
 	species = {
@@ -76,6 +153,83 @@ the_crusader_state = {
 	adjective = "PRESCRIPTED_adjective_the_crusader_state"
 	spawn_enabled = no # yes / no / always
 	ignore_portrait_duplication = yes
+
+	playable = has_not_necroids # Reanimators civic is from Necroids DLC.
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_the_crusader_state"
+
+	species = {
+		class = "MAM"
+		portrait = "mtrspony_pony"
+		name = "PRESCRIPTED_species_pony"
+		plural = "PRESCRIPTED_species_plural_pony"
+		adjective = "PRESCRIPTED_species_adjective_pony"
+		name_list = "mtrspony_namelists_pony"
+		trait = "trait_talented"
+		trait = "trait_cutie_marks"
+		trait = "trait_sedentary"
+	}
+
+	room = "personality_hegemonic_imperialists_room"
+
+	authority = "auth_oligarchic"
+	civics = { "civic_distinguished_admiralty" "civic_meritocracy" }
+	government = gov_military_junta
+
+	ethic = "ethic_xenophile"
+	ethic = "ethic_egalitarian"
+	ethic = "ethic_militarist"
+
+	origin = "origin_default"
+
+	flags = { the_crusader_state }
+
+	planet_name = "NAME_Faust"
+	planet_class = "pc_continental"
+	initializer = "eaw_vanilla_initializer"
+	system_name = "NAME_Behemoth"
+
+	graphical_culture = mammalian_01
+	city_graphical_culture = mammalian_01
+
+	empire_flag = {
+		icon= {
+			category = "esieaw"
+			file = "CMC.dds"
+		}
+		background= {
+			category = "backgrounds"
+			file = "stripe_thick.dds"
+		}
+		colors={
+			"red_orange"
+			"pink"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_sweetie_belle"
+		ruler_title = "PRESCRIPTED_ruler_title_head_crusader"
+		ruler_title_female = "PRESCRIPTED_ruler_title_head_crusader"
+		gender = female
+		portrait = "mtrspony_pony_unicorn_sweetie_belle_older"
+		texture = 1
+		attachment = 0
+		clothes = 17
+		trait = "trait_ruler_eye_for_talent"
+		leader_class = scientist
+	}
+}
+
+the_crusader_state_necroids = {
+	name = "EMPIRE_DESIGN_the_crusader_state"
+	adjective = "PRESCRIPTED_adjective_the_crusader_state"
+	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
+
+	playable = has_necroids # Reanimators civic is from Necroids DLC.
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_the_crusader_state"
 
