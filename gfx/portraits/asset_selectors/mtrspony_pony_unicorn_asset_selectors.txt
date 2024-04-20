@@ -75,6 +75,169 @@ mtrspony_pony_unicorn_shining_armor_hair_selector = {
 	}
 }
 
+mtrspony_pony_unicorn_gourmand_ramsay_hair_selector = {
+	default = "gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_hair.dds"
+
+	game_setup = {
+		default = "gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_hair.dds"
+	}
+
+	species = {
+		default = "gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_hair.dds"
+	}
+
+	pop = {
+		default = "gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_hair.dds"
+
+		random = {
+			list = {
+				"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_hair.dds"
+				"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_hair_alt1.dds"
+				"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_hair_alt2.dds"
+				"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_hair_alt3.dds"
+				"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_hair_alt4.dds"
+				"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_hair_alt5.dds"
+				"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_hair_alt6.dds"
+				"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_hair_alt7.dds"
+				"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_hair_alt8.dds"
+				"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_hair_alt9.dds"
+				"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_hair_alt10.dds"
+				"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_hair_alt11.dds"
+				"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_hair_alt12.dds"
+				"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_hair_alt13.dds"
+				"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_hair_alt14.dds"
+			}
+		}
+	}
+
+	leader = {
+		random = {
+			list = {
+				"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_hair.dds"
+				"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_hair_alt1.dds"
+				"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_hair_alt2.dds"
+				"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_hair_alt3.dds"
+				"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_hair_alt4.dds"
+				"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_hair_alt5.dds"
+				"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_hair_alt6.dds"
+				"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_hair_alt7.dds"
+				"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_hair_alt8.dds"
+				"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_hair_alt9.dds"
+				"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_hair_alt10.dds"
+				"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_hair_alt11.dds"
+				"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_hair_alt12.dds"
+				"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_hair_alt13.dds"
+				"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_hair_alt14.dds"
+			}
+		}
+	}
+
+	ruler = {
+		random = {
+			list = {
+				"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_hair.dds"
+				"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_hair_alt1.dds"
+				"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_hair_alt2.dds"
+				"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_hair_alt3.dds"
+				"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_hair_alt4.dds"
+				"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_hair_alt5.dds"
+				"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_hair_alt6.dds"
+				"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_hair_alt7.dds"
+				"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_hair_alt8.dds"
+				"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_hair_alt9.dds"
+				"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_hair_alt10.dds"
+				"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_hair_alt11.dds"
+				"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_hair_alt12.dds"
+				"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_hair_alt13.dds"
+				"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_hair_alt14.dds"
+			}
+		}
+	}
+}
+
+mtrspony_pony_unicorn_gourmand_ramsay_clothes_selector = {
+	default = "gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_shirt.dds"
+
+	game_setup = {
+		default = "gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_shirt.dds"
+	}
+
+	species = {
+		default = "gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_shirt.dds"
+	}
+
+	pop = {
+		default = "gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_shirt.dds"
+
+		random = {
+			list = {
+				"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_shirt.dds"
+				"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_shirt_alt1.dds"
+				"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_shirt_alt2.dds"
+				"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_shirt_alt3.dds"
+				"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_shirt_alt4.dds"
+				"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_shirt_alt5.dds"
+				"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_shirt_alt6.dds"
+				"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_shirt_alt7.dds"
+				"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_shirt_alt8.dds"
+				"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_shirt_alt9.dds"
+				"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_shirt_alt10.dds"
+				"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_shirt_alt11.dds"
+				"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_shirt_alt12.dds"
+				"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_shirt_alt13.dds"
+				"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_shirt_alt14.dds"
+				"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_shirt_alt15.dds"
+			}
+		}
+	}
+
+	leader = {
+		random = {
+			list = {
+				"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_shirt.dds"
+				"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_shirt_alt1.dds"
+				"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_shirt_alt2.dds"
+				"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_shirt_alt3.dds"
+				"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_shirt_alt4.dds"
+				"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_shirt_alt5.dds"
+				"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_shirt_alt6.dds"
+				"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_shirt_alt7.dds"
+				"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_shirt_alt8.dds"
+				"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_shirt_alt9.dds"
+				"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_shirt_alt10.dds"
+				"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_shirt_alt11.dds"
+				"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_shirt_alt12.dds"
+				"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_shirt_alt13.dds"
+				"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_shirt_alt14.dds"
+				"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_shirt_alt15.dds"
+			}
+		}
+	}
+
+	ruler = {
+		random = {
+			list = {
+				"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_shirt.dds"
+				"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_shirt_alt1.dds"
+				"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_shirt_alt2.dds"
+				"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_shirt_alt3.dds"
+				"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_shirt_alt4.dds"
+				"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_shirt_alt5.dds"
+				"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_shirt_alt6.dds"
+				"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_shirt_alt7.dds"
+				"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_shirt_alt8.dds"
+				"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_shirt_alt9.dds"
+				"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_shirt_alt10.dds"
+				"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_shirt_alt11.dds"
+				"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_shirt_alt12.dds"
+				"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_shirt_alt13.dds"
+				"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_shirt_alt14.dds"
+				"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_shirt_alt15.dds"
+			}
+		}
+	}
+}
+
 mtrspony_pony_unicorn_twilight_sparkle_hair_selector = {
 	default = "gfx/models/portraits/pony_unicorn/twilight_sparkle/twilight_sparkle_unicorn_hair.dds"
 

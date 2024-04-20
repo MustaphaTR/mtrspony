@@ -24,6 +24,32 @@ portraits = {
 		custom_attachment_label = "HAIR_COLOR"
 	}
 
+	mtrspony_pony_unicorn_gourmand_ramsay = {
+		entity = "portrait_dummy_10p_left_entity"
+		clothes_selector = "mtrspony_pony_unicorn_gourmand_ramsay_clothes_selector"
+		attachment_selector = "mtrspony_pony_unicorn_gourmand_ramsay_hair_selector"
+		greeting_sound = "human_male_greetings_01"
+
+		character_textures = {
+			"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay.dds"
+			"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_alt1.dds"
+			"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_alt2.dds"
+			"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_alt3.dds"
+			"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_alt4.dds"
+			"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_alt5.dds"
+			"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_alt6.dds"
+			"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_alt7.dds"
+			"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_alt8.dds"
+			"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_alt9.dds"
+			"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_alt10.dds"
+			"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_alt11.dds"
+			"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_alt12.dds"
+			"gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_alt13.dds"
+		}
+
+		custom_attachment_label = "HAIR_COLOR"
+	}
+
 	mtrspony_pony_unicorn_twilight_sparkle = {
 		entity = "portrait_dummy_20p_left_entity"
 		clothes_selector = "mtrspony_no_clothes_selector"
@@ -206,6 +232,7 @@ portrait_groups = {
 				}
 				portraits = {
 					mtrspony_pony_unicorn_shining_armor
+					mtrspony_pony_unicorn_gourmand_ramsay
 				}
 			}
 			add = {
@@ -250,6 +277,7 @@ portrait_groups = {
 				}
 				portraits = {
 					mtrspony_pony_unicorn_shining_armor
+					mtrspony_pony_unicorn_gourmand_ramsay
 				}
 			}
 		}
@@ -274,6 +302,7 @@ portrait_groups = {
 				}
 				portraits = {
 					mtrspony_pony_unicorn_shining_armor
+					mtrspony_pony_unicorn_gourmand_ramsay
 				}
 			}
 		}
@@ -288,6 +317,7 @@ portrait_groups = {
 				}
 				portraits = {
 					mtrspony_pony_unicorn_shining_armor
+					mtrspony_pony_unicorn_gourmand_ramsay
 				}
 			}
 

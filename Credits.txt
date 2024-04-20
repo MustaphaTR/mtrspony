@@ -21,6 +21,9 @@ Portrait Bases:
  > firestorm-can:
 	- Igneous Rock Pie
 
+ > flash-draw:
+	- Cherry Berry
+
  > freak0uo:
 	- Unicorn Twilight Sparkle
 
@@ -30,8 +33,8 @@ Portrait Bases:
 	- Shining Armor
 	- Soarin'
 
- > flash-draw:
-	- Cherry Berry
+ > fruft:
+	- Gourmand Ramsay
 
  > hendro107:
 	- Autumn Blaze
