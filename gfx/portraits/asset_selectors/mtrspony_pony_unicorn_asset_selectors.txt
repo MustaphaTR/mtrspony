@@ -75,6 +75,238 @@ mtrspony_pony_unicorn_shining_armor_hair_selector = {
 	}
 }
 
+mtrspony_pony_unicorn_sunburst_hair_selector = {
+	default = "gfx/models/portraits/pony_unicorn/sunburst/sunburst_hair.dds"
+
+	game_setup = {
+		default = "gfx/models/portraits/pony_unicorn/sunburst/sunburst_hair.dds"
+	}
+
+	species = {
+		default = "gfx/models/portraits/pony_unicorn/sunburst/sunburst_hair.dds"
+	}
+
+	pop = {
+		default = "gfx/models/portraits/pony_unicorn/sunburst/sunburst_hair.dds"
+
+		random = {
+			list = {
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_hair.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_hair_alt1.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_hair_alt2.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_hair_alt3.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_hair_alt4.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_hair_alt5.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_hair_alt6.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_hair_alt7.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_hair_alt8.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_hair_alt9.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_hair_alt10.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_hair_alt11.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_hair_alt12.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_hair_no_beard.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_hair_no_beard_alt1.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_hair_no_beard_alt2.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_hair_no_beard_alt3.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_hair_no_beard_alt4.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_hair_no_beard_alt5.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_hair_no_beard_alt6.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_hair_no_beard_alt7.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_hair_no_beard_alt8.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_hair_no_beard_alt9.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_hair_no_beard_alt10.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_hair_no_beard_alt11.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_hair_no_beard_alt12.dds"
+			}
+		}
+	}
+
+	leader = {
+		random = {
+			list = {
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_hair.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_hair_alt1.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_hair_alt2.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_hair_alt3.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_hair_alt4.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_hair_alt5.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_hair_alt6.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_hair_alt7.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_hair_alt8.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_hair_alt9.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_hair_alt10.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_hair_alt11.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_hair_alt12.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_hair_no_beard.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_hair_no_beard_alt1.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_hair_no_beard_alt2.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_hair_no_beard_alt3.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_hair_no_beard_alt4.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_hair_no_beard_alt5.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_hair_no_beard_alt6.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_hair_no_beard_alt7.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_hair_no_beard_alt8.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_hair_no_beard_alt9.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_hair_no_beard_alt10.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_hair_no_beard_alt11.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_hair_no_beard_alt12.dds"
+			}
+		}
+	}
+
+	ruler = {
+		random = {
+			list = {
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_hair.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_hair_alt1.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_hair_alt2.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_hair_alt3.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_hair_alt4.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_hair_alt5.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_hair_alt6.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_hair_alt7.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_hair_alt8.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_hair_alt9.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_hair_alt10.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_hair_alt11.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_hair_alt12.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_hair_no_beard.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_hair_no_beard_alt1.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_hair_no_beard_alt2.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_hair_no_beard_alt3.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_hair_no_beard_alt4.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_hair_no_beard_alt5.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_hair_no_beard_alt6.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_hair_no_beard_alt7.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_hair_no_beard_alt8.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_hair_no_beard_alt9.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_hair_no_beard_alt10.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_hair_no_beard_alt11.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_hair_no_beard_alt12.dds"
+			}
+		}
+	}
+}
+
+mtrspony_pony_unicorn_sunburst_clothes_selector = {
+	default = "gfx/models/portraits/pony_unicorn/sunburst/sunburst_clothes.dds"
+
+	game_setup = {
+		default = "gfx/models/portraits/pony_unicorn/sunburst/sunburst_clothes.dds"
+	}
+
+	species = {
+		default = "gfx/models/portraits/pony_unicorn/sunburst/sunburst_clothes.dds"
+	}
+
+	pop = {
+		default = "gfx/models/portraits/pony_unicorn/sunburst/sunburst_clothes.dds"
+
+		random = {
+			list = {
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_clothes.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_clothes_alt1.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_clothes_alt2.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_clothes_alt3.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_clothes_alt4.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_clothes_alt5.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_clothes_alt6.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_clothes_alt7.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_clothes_alt8.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_clothes_alt9.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_clothes_alt10.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_clothes_alt11.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_clothes_alt12.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_clothes_alt13.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_clothes_no_glasses.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_clothes_no_glasses_alt1.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_clothes_no_glasses_alt2.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_clothes_no_glasses_alt3.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_clothes_no_glasses_alt4.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_clothes_no_glasses_alt5.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_clothes_no_glasses_alt6.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_clothes_no_glasses_alt7.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_clothes_no_glasses_alt8.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_clothes_no_glasses_alt9.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_clothes_no_glasses_alt10.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_clothes_no_glasses_alt11.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_clothes_no_glasses_alt12.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_clothes_no_glasses_alt13.dds"
+			}
+		}
+	}
+
+	leader = {
+		random = {
+			list = {
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_clothes.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_clothes_alt1.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_clothes_alt2.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_clothes_alt3.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_clothes_alt4.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_clothes_alt5.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_clothes_alt6.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_clothes_alt7.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_clothes_alt8.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_clothes_alt9.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_clothes_alt10.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_clothes_alt11.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_clothes_alt12.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_clothes_alt13.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_clothes_no_glasses.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_clothes_no_glasses_alt1.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_clothes_no_glasses_alt2.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_clothes_no_glasses_alt3.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_clothes_no_glasses_alt4.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_clothes_no_glasses_alt5.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_clothes_no_glasses_alt6.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_clothes_no_glasses_alt7.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_clothes_no_glasses_alt8.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_clothes_no_glasses_alt9.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_clothes_no_glasses_alt10.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_clothes_no_glasses_alt11.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_clothes_no_glasses_alt12.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_clothes_no_glasses_alt13.dds"
+			}
+		}
+	}
+
+	ruler = {
+		random = {
+			list = {
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_clothes.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_clothes_alt1.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_clothes_alt2.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_clothes_alt3.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_clothes_alt4.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_clothes_alt5.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_clothes_alt6.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_clothes_alt7.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_clothes_alt8.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_clothes_alt9.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_clothes_alt10.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_clothes_alt11.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_clothes_alt12.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_clothes_alt13.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_clothes_no_glasses.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_clothes_no_glasses_alt1.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_clothes_no_glasses_alt2.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_clothes_no_glasses_alt3.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_clothes_no_glasses_alt4.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_clothes_no_glasses_alt5.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_clothes_no_glasses_alt6.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_clothes_no_glasses_alt7.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_clothes_no_glasses_alt8.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_clothes_no_glasses_alt9.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_clothes_no_glasses_alt10.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_clothes_no_glasses_alt11.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_clothes_no_glasses_alt12.dds"
+				"gfx/models/portraits/pony_unicorn/sunburst/sunburst_clothes_no_glasses_alt13.dds"
+			}
+		}
+	}
+}
+
 mtrspony_pony_unicorn_gourmand_ramsay_hair_selector = {
 	default = "gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_hair.dds"
 

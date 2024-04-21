@@ -21,6 +21,7 @@ portrait_groups = {
 					mtrspony_pony_earth_igneous_rock_pie
 					mtrspony_pony_earth_button_mash
 					mtrspony_pony_unicorn_shining_armor
+					mtrspony_pony_unicorn_sunburst
 					mtrspony_pony_unicorn_gourmand_ramsay
 					mtrspony_pony_pegasus_soarin
 					mtrspony_pony_pegasus_mr_shy
@@ -89,6 +90,7 @@ portrait_groups = {
 					mtrspony_pony_earth_igneous_rock_pie
 					mtrspony_pony_earth_button_mash
 					mtrspony_pony_unicorn_shining_armor
+					mtrspony_pony_unicorn_sunburst
 					mtrspony_pony_unicorn_gourmand_ramsay
 					mtrspony_pony_pegasus_soarin
 					mtrspony_pony_pegasus_mr_shy
@@ -129,6 +131,7 @@ portrait_groups = {
 					mtrspony_pony_earth_igneous_rock_pie
 					mtrspony_pony_earth_button_mash
 					mtrspony_pony_unicorn_shining_armor
+					mtrspony_pony_unicorn_sunburst
 					mtrspony_pony_unicorn_gourmand_ramsay
 					mtrspony_pony_pegasus_soarin
 					mtrspony_pony_pegasus_mr_shy
@@ -151,6 +154,7 @@ portrait_groups = {
 					mtrspony_pony_earth_igneous_rock_pie
 					mtrspony_pony_earth_button_mash
 					mtrspony_pony_unicorn_shining_armor
+					mtrspony_pony_unicorn_sunburst
 					mtrspony_pony_unicorn_gourmand_ramsay
 					mtrspony_pony_pegasus_soarin
 					mtrspony_pony_pegasus_mr_shy

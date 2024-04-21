@@ -24,6 +24,30 @@ portraits = {
 		custom_attachment_label = "HAIR_COLOR"
 	}
 
+	mtrspony_pony_unicorn_sunburst = {
+		entity = "portrait_dummy_sunburst_entity"
+		clothes_selector = "mtrspony_pony_unicorn_sunburst_clothes_selector"
+		attachment_selector = "mtrspony_pony_unicorn_sunburst_hair_selector"
+		greeting_sound = "human_male_greetings_01"
+
+		character_textures = {
+			"gfx/models/portraits/pony_unicorn/sunburst/sunburst.dds"
+			"gfx/models/portraits/pony_unicorn/sunburst/sunburst_alt1.dds"
+			"gfx/models/portraits/pony_unicorn/sunburst/sunburst_alt2.dds"
+			"gfx/models/portraits/pony_unicorn/sunburst/sunburst_alt3.dds"
+			"gfx/models/portraits/pony_unicorn/sunburst/sunburst_alt4.dds"
+			"gfx/models/portraits/pony_unicorn/sunburst/sunburst_alt5.dds"
+			"gfx/models/portraits/pony_unicorn/sunburst/sunburst_alt6.dds"
+			"gfx/models/portraits/pony_unicorn/sunburst/sunburst_alt7.dds"
+			"gfx/models/portraits/pony_unicorn/sunburst/sunburst_alt8.dds"
+			"gfx/models/portraits/pony_unicorn/sunburst/sunburst_alt9.dds"
+			"gfx/models/portraits/pony_unicorn/sunburst/sunburst_alt10.dds"
+			"gfx/models/portraits/pony_unicorn/sunburst/sunburst_alt11.dds"
+		}
+
+		custom_attachment_label = "HAIR_COLOR"
+	}
+
 	mtrspony_pony_unicorn_gourmand_ramsay = {
 		entity = "portrait_dummy_10p_left_entity"
 		clothes_selector = "mtrspony_pony_unicorn_gourmand_ramsay_clothes_selector"
@@ -232,6 +256,7 @@ portrait_groups = {
 				}
 				portraits = {
 					mtrspony_pony_unicorn_shining_armor
+					mtrspony_pony_unicorn_sunburst
 					mtrspony_pony_unicorn_gourmand_ramsay
 				}
 			}
@@ -277,6 +302,7 @@ portrait_groups = {
 				}
 				portraits = {
 					mtrspony_pony_unicorn_shining_armor
+					mtrspony_pony_unicorn_sunburst
 					mtrspony_pony_unicorn_gourmand_ramsay
 				}
 			}
@@ -302,6 +328,7 @@ portrait_groups = {
 				}
 				portraits = {
 					mtrspony_pony_unicorn_shining_armor
+					mtrspony_pony_unicorn_sunburst
 					mtrspony_pony_unicorn_gourmand_ramsay
 				}
 			}
@@ -317,6 +344,7 @@ portrait_groups = {
 				}
 				portraits = {
 					mtrspony_pony_unicorn_shining_armor
+					mtrspony_pony_unicorn_sunburst
 					mtrspony_pony_unicorn_gourmand_ramsay
 				}
 			}
