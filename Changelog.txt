@@ -45,3 +45,5 @@
 - Version 0.1.9 (07.05.2024):
 -- Updated the mod for 3.12.1 update.
 -- Scootaloo in The Crusader State now has some Cybernatics on her portrait.
+-- Added Equality Marks trait as a negative counterpart to the Cutie Marks trait.
+-- Lithoid species can now have Cutie Marks as well.
