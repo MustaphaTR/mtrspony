@@ -22,7 +22,7 @@ Portrait Bases:
     - Elytron
 
  > ex-machinart:
-	- Scootaloo Cybernatics
+	- Scootaloo Cybernetics
 
  > firestorm-can:
 	- Igneous Rock Pie
