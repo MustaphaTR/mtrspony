@@ -1,0 +1,64 @@
+MTRSPONY_mammalians = {
+	species_class = MAM
+
+	portraits = {
+		"mtrspony_pony"
+		"mtrspony_pony_earth"
+		"mtrspony_pony_unicorn"
+		"mtrspony_pony_pegasus"
+		"mtrspony_pony_alicorn"
+		"mtrspony_kirin"
+		"mtrspony_zebra"
+	}
+
+
+	# These should not be used for randomly generated species
+	non_randomized_portraits = {
+		"mtrspony_pony"
+		"mtrspony_pony_earth"
+		"mtrspony_pony_unicorn"
+		"mtrspony_pony_pegasus"
+		"mtrspony_pony_alicorn"
+		"mtrspony_kirin"
+		"mtrspony_zebra"
+	}
+}
+
+MTRSPONY_reptilians = {
+	species_class = REP
+
+	portraits = {
+		"mtrspony_dragon"
+	}
+
+	# These should not be used for randomly generated species
+	non_randomized_portraits = {
+		"mtrspony_dragon"
+	}
+}
+
+MTRSPONY_avians = {
+	species_class = AVI
+
+	portraits = {
+		"mtrspony_griffon"
+	}
+
+	# These should not be used for randomly generated species
+	non_randomized_portraits = {
+		"mtrspony_griffon"
+	}
+}
+
+MTRSPONY_arthropoids = {
+	species_class = ART
+
+	portraits = {
+		"mtrspony_changeling"
+	}
+
+	# These should not be used for randomly generated species
+	non_randomized_portraits = {
+		"mtrspony_changeling"
+	}
+}

@@ -1,0 +1,44 @@
+# Categories of portrait sets used in empire design view.
+# Portrait sets are listed in portrait_sets database.
+
+mammalians = {
+	name = MAM
+
+	sets = {
+		MTRSPONY_mammalians
+		mammalians
+		cybernetic_mammalians
+	}
+}
+
+reptilians = {
+	name = REP
+
+	sets = {
+		MTRSPONY_reptilians
+		reptilians
+		cybernetic_reptilians
+	}
+}
+
+avians = {
+	name = AVI
+
+	sets = {
+		MTRSPONY_avians
+		avians
+		cybernetic_avians
+		synthetic_avians
+	}
+}
+
+arthropoids = {
+	name = ART
+
+	sets = {
+		MTRSPONY_arthropoids
+		arthropoids
+		cybernetic_arthropoids
+		synthetic_arthropoids
+	}
+}
