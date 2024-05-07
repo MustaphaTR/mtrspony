@@ -21,6 +21,9 @@ Portrait Bases:
  > durpy:
     - Elytron
 
+ > ex-machinart:
+	- Scootaloo Cybernatics
+
  > firestorm-can:
 	- Igneous Rock Pie
 

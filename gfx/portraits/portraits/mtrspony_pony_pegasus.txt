@@ -106,7 +106,7 @@ portraits = {
 		greeting_sound = "human_female_greetings_01"
 
 		character_textures = {
-			"gfx/models/portraits/pony_pegasus/scootaloo/scootaloo.dds"
+			"gfx/models/portraits/pony_pegasus/scootaloo/scootaborg.dds"
 		}
 	}
 
