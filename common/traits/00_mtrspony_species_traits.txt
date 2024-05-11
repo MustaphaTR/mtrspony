@@ -1,6 +1,9 @@
 trait_cutie_marks = {
 	cost = 2
     category = normal
+	species_possible_add = {
+		can_add_genetic_traits = yes
+	}
 	species_possible_remove = {
 		can_remove_beneficial_genetic_traits = yes
 	}
