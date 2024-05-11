@@ -566,7 +566,7 @@ csp_system_void_dweller_system = {
 
 		init_effect = {
 			prevent_anomaly = yes
-			clear_deposits = yes
+
 			save_global_event_target_as = sol_system_equus
 		}
 
