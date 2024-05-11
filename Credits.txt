@@ -10,6 +10,7 @@ Portrait Bases:
 	- Mudbriar
 
  > cloudyglow:
+	- Silverstream
 	- Sunburst
 
  > dashiesparkle:

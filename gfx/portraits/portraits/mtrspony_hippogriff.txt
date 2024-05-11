@@ -1,0 +1,126 @@
+portraits = {
+	mtrspony_hippogriff_silverstream = {
+		entity = "portrait_dummy_15p_left_entity"
+		clothes_selector = "mtrspony_hippogriff_silverstream_clothes_selector"
+		attachment_selector = "mtrspony_hippogriff_silverstream_hair_selector"
+		greeting_sound = "human_female_greetings_01"
+
+		character_textures = {
+			"gfx/models/portraits/hippogriff/silverstream/silverstream.dds"
+			"gfx/models/portraits/hippogriff/silverstream/silverstream_alt1.dds"
+			"gfx/models/portraits/hippogriff/silverstream/silverstream_alt2.dds"
+			"gfx/models/portraits/hippogriff/silverstream/silverstream_alt3.dds"
+			"gfx/models/portraits/hippogriff/silverstream/silverstream_alt4.dds"
+			"gfx/models/portraits/hippogriff/silverstream/silverstream_alt5.dds"
+			"gfx/models/portraits/hippogriff/silverstream/silverstream_alt6.dds"
+			"gfx/models/portraits/hippogriff/silverstream/silverstream_alt7.dds"
+			"gfx/models/portraits/hippogriff/silverstream/silverstream_alt8.dds"
+			"gfx/models/portraits/hippogriff/silverstream/silverstream_alt9.dds"
+			"gfx/models/portraits/hippogriff/silverstream/silverstream_alt10.dds"
+			"gfx/models/portraits/hippogriff/silverstream/silverstream_alt11.dds"
+			"gfx/models/portraits/hippogriff/silverstream/silverstream_alt12.dds"
+		}
+
+		custom_attachment_label = "HAIR_COLOR"
+	}
+}
+
+portrait_groups = {
+	mtrspony_hippogriff = {
+		default = mtrspony_hippogriff_silverstream
+		game_setup = {
+			add = {
+				trigger = {
+					ruler = {
+						OR = {
+							gender = male
+							gender = indeterminable
+						}
+					}
+				}
+				portraits = {
+					mtrspony_hippogriff_terramar
+				}
+			}
+			add = {
+				trigger = {
+					ruler = {
+						OR = {
+							gender = female
+							gender = indeterminable
+						}
+					}
+				}
+				portraits = {
+					mtrspony_hippogriff_silverstream
+				}
+			}
+		}
+
+		species = {
+			add = {
+				trigger = {
+					exists = species
+					NOT = { species = { species_gender = male } }
+				}
+				portraits = {
+					mtrspony_hippogriff_silverstream
+				}
+			}
+			add = {
+				trigger = {
+					exists = species
+					NOT = { species = { species_gender = female } }
+				}
+				portraits = {
+					mtrspony_hippogriff_terramar
+				}
+			}
+		}
+
+		pop = {
+			add = {
+				trigger = {
+					NOT = { species = { species_gender = male } }
+				}
+				portraits = {
+					mtrspony_hippogriff_silverstream
+				}
+			}
+			add = {
+				trigger = {
+					NOT = { species = { species_gender = female } }
+				}
+				portraits = {
+					mtrspony_hippogriff_terramar
+				}
+			}
+		}
+
+		leader = {
+			add = {
+				trigger = {
+					OR = {
+						gender = male
+						gender = indeterminable
+					}
+				}
+				portraits = {
+					mtrspony_hippogriff_terramar
+				}
+			}
+
+			add = {
+				trigger = {
+					OR = {
+						gender = female
+						gender = indeterminable
+					}
+				}
+				portraits = {
+					mtrspony_hippogriff_silverstream
+				}
+			}
+		}
+	}
+}
