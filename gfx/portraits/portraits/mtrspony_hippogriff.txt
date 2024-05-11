@@ -1,4 +1,39 @@
 portraits = {
+	mtrspony_hippogriff_terramar = {
+		entity = "portrait_dummy_10p_left_entity"
+		clothes_selector = "mtrspony_hippogriff_terramar_clothes_selector"
+		attachment_selector = "mtrspony_hippogriff_terramar_hair_selector"
+		greeting_sound = "human_male_greetings_01"
+
+		character_textures = {
+			"gfx/models/portraits/hippogriff/terramar/terramar.dds"
+			"gfx/models/portraits/hippogriff/terramar/terramar_alt1.dds"
+			"gfx/models/portraits/hippogriff/terramar/terramar_alt2.dds"
+			"gfx/models/portraits/hippogriff/terramar/terramar_alt3.dds"
+			"gfx/models/portraits/hippogriff/terramar/terramar_alt4.dds"
+			"gfx/models/portraits/hippogriff/terramar/terramar_alt5.dds"
+			"gfx/models/portraits/hippogriff/terramar/terramar_alt6.dds"
+			"gfx/models/portraits/hippogriff/terramar/terramar_alt7.dds"
+			"gfx/models/portraits/hippogriff/terramar/terramar_alt8.dds"
+			"gfx/models/portraits/hippogriff/terramar/terramar_alt9.dds"
+			"gfx/models/portraits/hippogriff/terramar/terramar_alt10.dds"
+			"gfx/models/portraits/hippogriff/terramar/terramar_alt11.dds"
+		}
+
+		custom_attachment_label = "HAIR_COLOR"
+	}
+
+	mtrspony_hippogriff_terrafin_older_predefined = {
+		entity = "portrait_dummy_10p_left_entity"
+		clothes_selector = "mtrspony_no_clothes_selector"
+		attachment_selector = "mtrspony_hippogriff_terrafin_predefined_hair_selector"
+		greeting_sound = "human_male_greetings_01"
+
+		character_textures = {
+			"gfx/models/portraits/hippogriff/terramar/terrafin.dds"
+		}
+	}
+
 	mtrspony_hippogriff_silverstream = {
 		entity = "portrait_dummy_15p_left_entity"
 		clothes_selector = "mtrspony_hippogriff_silverstream_clothes_selector"
@@ -22,6 +57,17 @@ portraits = {
 		}
 
 		custom_attachment_label = "HAIR_COLOR"
+	}
+
+	mtrspony_hippogriff_starry_eyes_older_predefined = {
+		entity = "portrait_dummy_15p_left_entity"
+		clothes_selector = "mtrspony_no_clothes_selector"
+		attachment_selector = "mtrspony_hippogriff_terrafin_predefined_hair_selector"
+		greeting_sound = "human_female_greetings_01"
+
+		character_textures = {
+			"gfx/models/portraits/hippogriff/silverstream/silverstream_alt12.dds"
+		}
 	}
 }
 

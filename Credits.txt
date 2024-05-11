@@ -8,6 +8,7 @@ Portrait Bases:
  > cheezedoodle96:
 	- Big McIntosh
 	- Mudbriar
+	- Terramar
 
  > cloudyglow:
 	- Silverstream
