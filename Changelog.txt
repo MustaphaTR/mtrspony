@@ -49,6 +49,10 @@
 -- Lithoid species can now have Cutie Marks as well.
 
 - Version 0.2.0 (..2024):
+-- Added Hippogriff portraits, one set for each gender. Silverstream for female and Terramar for male.
+--- Existing prescripted countries now start with one Hippogriff pop, generally replacing a Griffon pop.
 -- Added Hippogriff namelist.
+-- Added Revolutionary Hippogriffia prescripted country.
+--- This includes a flag and a background as well.
 -- Fixed Old Equus in CSP Remnants starting with no planetary features/blockers.
 -- Fixed Cutie Marks trait being addable without genemodding.

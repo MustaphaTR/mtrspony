@@ -1,0 +1,322 @@
+namespace = rfstart
+
+#Setup Revolutionary Faust
+country_event = {
+	id = rfstart.1
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		has_country_flag = revolutionary_faust
+	}
+	immediate = {
+		create_leader = {
+			name = "PRESCRIPTED_ruler_name_starry_eyes"
+			custom_description = "PRESCRIPTED_ruler_name_starry_eyes_desc"
+			species = ROOT.species
+			gender = female
+			class = official
+			skill = 2
+			set_age = 48
+			background_job = "politician"
+			background_ethic = "ethic_egalitarian"
+			randomize_traits = no
+			traits = {
+				trait = leader_trait_principled
+				trait = leader_trait_utopian_idealist
+			}
+
+			effect = {
+				save_global_event_target_as = leader_starry_eyes
+				set_leader_flag = is_created_leader
+				change_leader_portrait = "mtrspony_hippogriff_starry_eyes_predefined"
+				ROOT = { assign_leader = event_target:leader_starry_eyes }
+			}
+		}
+
+		create_leader = {
+			name = "PRESCRIPTED_ruler_name_terrafin"
+			custom_description = "PRESCRIPTED_ruler_name_terrafin_desc"
+			species = ROOT.species
+			gender = male
+			class = scientist
+			skill = 2
+			set_age = 56
+			background_job = "researcher"
+			background_ethic = "ethic_materialist"
+			randomize_traits = no
+			traits = {
+				trait = leader_trait_expertise_particles
+				trait = leader_trait_expertise_voidcraft
+			}
+
+			effect = {
+				save_global_event_target_as = leader_terrafin
+				set_leader_flag = is_created_leader
+				change_leader_portrait = "mtrspony_hippogriff_terrafin_predefined"
+				ROOT = {
+					random_owned_fleet = {
+						limit = { is_ship_class = shipclass_science_ship }
+
+						assign_leader = PREVPREV
+						set_fleet_flag = leader_assigned
+					}
+				}
+				set_council_position = councilor_research
+			}
+		}
+
+		create_leader = {
+			name = "PRESCRIPTED_ruler_name_sugar_coral"
+			custom_description = "PRESCRIPTED_ruler_name_sugar_coral_desc"
+			species = ROOT.species
+			gender = female
+			class = scientist
+			skill = 2
+			set_age = 50
+			background_job = "commanding_officer"
+			background_ethic = "ethic_militarist"
+			randomize_traits = no
+			traits = {
+				trait = leader_trait_expertise_military_theory
+				trait = leader_trait_army_veteran
+			}
+
+			effect = {
+				save_global_event_target_as = leader_sugar_coral
+				set_leader_flag = is_created_leader
+				change_leader_portrait = "mtrspony_hippogriff_sugar_coral_predefined"
+				ROOT = {
+					if = {
+						limit = { has_valid_civic = civic_eager_explorers }
+
+						random_owned_fleet = {
+							limit = {
+								NOT = { has_fleet_flag = leader_assigned }
+								is_ship_class = shipclass_science_ship
+							}
+
+							assign_leader = PREVPREV
+						}
+					}
+				}
+			}
+		}
+
+		create_leader = {
+			name = "PRESCRIPTED_ruler_name_skystar"
+			custom_description = "PRESCRIPTED_ruler_name_skystar_desc"
+			species = ROOT.species
+			gender = female
+			class = commander
+			skill = 2
+			set_age = 39
+			background_job = "noble"
+			background_ethic = "ethic_xenophile"
+			randomize_traits = no
+			traits = {
+				trait = leader_trait_unyielding
+				trait = leader_trait_resilient
+			}
+
+			effect = {
+				save_global_event_target_as = leader_skystar
+				set_leader_flag = is_created_leader
+				change_leader_portrait = "mtrspony_hippogriff_skystar_predefined"
+				ROOT = {
+					if = {
+						limit = { NOT = { has_valid_civic = civic_eager_explorers } }
+
+						random_owned_fleet = {
+							limit = { is_ship_class = shipclass_military }
+
+							assign_leader = PREVPREV
+						}
+					}
+				}
+				set_council_position = councilor_defense
+			}
+		}
+
+		create_leader = {
+			name = "PRESCRIPTED_ruler_name_silverstream"
+			custom_description = "PRESCRIPTED_ruler_name_silverstream_desc"
+			species = ROOT.species
+			gender = female
+			class = official
+			skill = 2
+			set_age = 39
+			background_job = "friendship_student"
+			background_ethic = "ethic_xenophile"
+			randomize_traits = no
+			traits = {
+				trait = leader_trait_architectural_interest
+				trait = leader_trait_eager
+			}
+
+			effect = {
+				save_global_event_target_as = leader_silverstream
+				set_leader_flag = is_created_leader
+				change_leader_portrait = "mtrspony_hippogriff_silverstream_predefined"
+				ROOT = { capital_scope = { assign_leader = event_target:leader_silverstream } }
+				set_council_position = councilor_state
+			}
+		}
+
+		create_pony_species = yes
+		event_target:pony_species = {
+			set_citizenship_type = { country = ROOT type = citizenship_full }
+			set_military_service_type = { country = ROOT type = military_service_full }
+		}
+		create_griffon_species = yes
+		event_target:griffon_species = {
+			set_citizenship_type = { country = ROOT type = citizenship_full }
+			set_military_service_type = { country = ROOT type = military_service_full }
+		}
+		create_dragon_species = yes
+		event_target:dragon_species = {
+			set_citizenship_type = { country = ROOT type = citizenship_full }
+			set_military_service_type = { country = ROOT type = military_service_full }
+		}
+		create_kirin_species = yes
+		event_target:kirin_species = {
+			set_citizenship_type = { country = ROOT type = citizenship_full }
+			set_military_service_type = { country = ROOT type = military_service_full }
+		}
+		create_changeling_species = yes
+		event_target:changeling_species = {
+			set_citizenship_type = { country = ROOT type = citizenship_full }
+			set_military_service_type = { country = ROOT type = military_service_full }
+		}
+		create_zebra_species = yes
+		event_target:zebra_species = {
+			set_citizenship_type = { country = ROOT type = citizenship_full }
+			set_military_service_type = { country = ROOT type = military_service_full }
+		}
+
+		capital_scope = {
+			set_variable = { which = pop_to_remove value = 14 }
+			set_variable = { which = pony_pops value = 6 }
+			set_variable = { which = griffon_pops value = 3 }
+			set_variable = { which = kirin_pops value = 1 }
+			set_variable = { which = changeling_pops value = 1 }
+			set_variable = { which = zebra_pops value = 2 }
+			if = {
+				limit = { ROOT = { NOT = { has_valid_civic = civic_eager_explorers } } }
+
+				set_variable = { which = pop_to_remove value = 20 }
+				set_variable = { which = pony_pops value = 8 }
+				set_variable = { which = griffon_pops value = 4 }
+				set_variable = { which = kirin_pops value = 2 }
+				set_variable = { which = changeling_pops value = 2 }
+				set_variable = { which = zebra_pops value = 3 }
+			}
+
+			while = {
+				count = pop_to_remove
+
+				random_owned_pop = { kill_pop = yes }
+			}
+			while = {
+				count = pony_pops
+
+				create_pop = {
+					species = event_target:pony_species
+					ethos = random
+				}
+			}
+			while = {
+				count = griffon_pops
+
+				create_pop = {
+					species = event_target:griffon_species
+					ethos = random
+				}
+			}
+			while = {
+				count = 1
+
+				create_pop = {
+					species = event_target:dragon_species
+					ethos = random
+				}
+			}
+			while = {
+				count = kirin_pops
+
+				create_pop = {
+					species = event_target:kirin_species
+					ethos = random
+				}
+			}
+			while = {
+				count = changeling_pops
+
+				create_pop = {
+					species = event_target:changeling_species
+					ethos = random
+				}
+			}
+			while = {
+				count = zebra_pops
+
+				create_pop = {
+					species = event_target:zebra_species
+					ethos = random
+				}
+			}
+		}
+
+		# Name one of the starting ships Posada, if we have one that is.
+		if = {
+			limit = { NOT = { has_valid_civic = civic_eager_explorers } }
+
+			random_owned_ship = {
+				limit = {
+					is_ship_size = corvette
+				}
+				set_name = "PRESCRIPTED_ship_name_fss_posada"
+			}
+		}
+
+		# Remove the genericos.
+		every_owned_leader = {
+			limit = {
+				NOT = { has_leader_flag = is_created_leader }
+			}
+
+			kill_leader = {
+				show_notification = no
+				fire = yes
+			}
+		}
+	}
+}
+
+# Reapply named character potraits, they seem to reset after loading a save or when species got modified.
+country_event = {
+	id = rfstart.2
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		has_country_flag = revolutionary_faust
+	}
+	immediate = {
+		event_target:leader_starry_eyes = {
+			change_leader_portrait = "mtrspony_hippogriff_starry_eyes_predefined"
+		}
+		event_target:leader_terrafin = {
+			change_leader_portrait = "mtrspony_hippogriff_terrafin_predefined"
+		}
+		event_target:leader_sugar_coral = {
+			change_leader_portrait = "mtrspony_hippogriff_sugar_coral_predefined"
+		}
+		event_target:leader_skystar = {
+			change_leader_portrait = "mtrspony_hippogriff_skystar_predefined"
+		}
+		event_target:leader_silverstream = {
+			change_leader_portrait = "mtrspony_hippogriff_silverstream_predefined"
+		}
+	}
+}

@@ -23,7 +23,7 @@ portraits = {
 		custom_attachment_label = "HAIR_COLOR"
 	}
 
-	mtrspony_hippogriff_terrafin_older_predefined = {
+	mtrspony_hippogriff_terrafin_predefined = {
 		entity = "portrait_dummy_10p_left_entity"
 		clothes_selector = "mtrspony_no_clothes_selector"
 		attachment_selector = "mtrspony_hippogriff_terrafin_predefined_hair_selector"
@@ -59,14 +59,47 @@ portraits = {
 		custom_attachment_label = "HAIR_COLOR"
 	}
 
-	mtrspony_hippogriff_starry_eyes_older_predefined = {
+	mtrspony_hippogriff_silverstream_predefined = {
+		entity = "portrait_dummy_15p_left_entity"
+		clothes_selector = "mtrspony_hippogriff_silverstream_predefined_clothes_selector"
+		attachment_selector = "mtrspony_hippogriff_silverstream_predefined_hair_selector"
+		greeting_sound = "human_female_greetings_01"
+
+		character_textures = {
+			"gfx/models/portraits/hippogriff/silverstream/silverstream.dds"
+		}
+	}
+
+	mtrspony_hippogriff_starry_eyes_predefined = {
 		entity = "portrait_dummy_15p_left_entity"
 		clothes_selector = "mtrspony_no_clothes_selector"
-		attachment_selector = "mtrspony_hippogriff_terrafin_predefined_hair_selector"
+		attachment_selector = "mtrspony_hippogriff_starry_eyes_predefined_hair_selector"
 		greeting_sound = "human_female_greetings_01"
 
 		character_textures = {
 			"gfx/models/portraits/hippogriff/silverstream/silverstream_alt12.dds"
+		}
+	}
+
+	mtrspony_hippogriff_sugar_coral_predefined = {
+		entity = "portrait_dummy_15p_left_entity"
+		clothes_selector = "mtrspony_no_clothes_selector"
+		attachment_selector = "mtrspony_hippogriff_sugar_coral_predefined_hair_selector"
+		greeting_sound = "human_female_greetings_01"
+
+		character_textures = {
+			"gfx/models/portraits/hippogriff/silverstream/silverstream_alt1.dds"
+		}
+	}
+
+	mtrspony_hippogriff_skystar_predefined = {
+		entity = "portrait_dummy_15p_left_entity"
+		clothes_selector = "mtrspony_no_clothes_selector"
+		attachment_selector = "mtrspony_no_clothes_selector"
+		greeting_sound = "human_female_greetings_01"
+
+		character_textures = {
+			"gfx/models/portraits/hippogriff/skystar/skystar.dds"
 		}
 	}
 }

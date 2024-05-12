@@ -19,6 +19,7 @@ country_event = {
 			skill = 1
 			set_age = 281
 			immortal = yes
+			background_job = "head_researcher"
 			background_ethic = "ethic_xenophile"
 			randomize_traits = no
 			traits = {
@@ -30,7 +31,6 @@ country_event = {
 				save_global_event_target_as = leader_sweetie_belle
 				set_leader_flag = is_created_leader
 				change_leader_portrait = "mtrspony_pony_unicorn_sweetie_belle_older_predefined"
-				change_background_job = head_researcher
 				ROOT = { assign_leader = event_target:leader_sweetie_belle }
 			}
 		}
@@ -44,6 +44,7 @@ country_event = {
 			skill = 1
 			set_age = 281
 			immortal = yes
+			background_job = "farmer"
 			background_ethic = "ethic_egalitarian"
 			randomize_traits = no
 			traits = {
@@ -62,7 +63,6 @@ country_event = {
 						assign_leader = PREVPREV
 					}
 				}
-				change_background_job = farmer
 				set_council_position = councilor_research
 			}
 		}
@@ -75,6 +75,7 @@ country_event = {
 			skill = 1
 			set_age = 281
 			immortal = yes
+			background_job = "commanding_officer"
 			background_ethic = "ethic_militarist"
 			randomize_traits = no
 			traits = {
@@ -94,7 +95,6 @@ country_event = {
 						assign_leader = PREVPREV
 					}
 				}
-				change_background_job = commanding_officer
 				set_council_position = councilor_defense
 			}
 		}
@@ -107,6 +107,7 @@ country_event = {
 			skill = 1
 			set_age = 281
 			immortal = yes
+			background_job = "hairdresser"
 			background_ethic = "ethic_egalitarian"
 			randomize_traits = no
 			traits = {
@@ -117,7 +118,6 @@ country_event = {
 			effect = {
 				save_global_event_target_as = leader_babs_seed
 				set_leader_flag = is_created_leader
-				change_background_job = hairdresser
 				change_leader_portrait = "mtrspony_pony_earth_babs_seed_predefined"
 				set_council_position = councilor_state
 			}
@@ -125,6 +125,11 @@ country_event = {
 
 		create_griffon_species = yes
 		event_target:griffon_species = {
+			set_citizenship_type = { country = ROOT type = citizenship_full }
+			set_military_service_type = { country = ROOT type = military_service_full }
+		}
+		create_hippogriff_species = yes
+		event_target:hippogriff_species = {
 			set_citizenship_type = { country = ROOT type = citizenship_full }
 			set_military_service_type = { country = ROOT type = military_service_full }
 		}
@@ -156,7 +161,7 @@ country_event = {
 				random_owned_pop = { kill_pop = yes }
 			}
 			while = {
-				count = 6
+				count = 5
 
 				create_pop = {
 					species = event_target:griffon_species
@@ -169,6 +174,14 @@ country_event = {
 				create_pop = {
 					species = event_target:griffon_species
 					ethos = { ethic = ethic_spiritualist }
+				}
+			}
+			while = {
+				count = 1
+
+				create_pop = {
+					species = event_target:hippogriff_species
+					ethos = random
 				}
 			}
 			while = {
@@ -214,6 +227,7 @@ country_event = {
 			skill = 1
 			set_age = 285
 			immortal = yes
+			background_job = "mailgriffon"
 			background_ethic = "ethic_spiritualist"
 			randomize_traits = no
 			traits = {
@@ -225,18 +239,17 @@ country_event = {
 				save_global_event_target_as = leader_gabby
 				set_leader_flag = is_created_leader
 				change_leader_portrait = "mtrspony_griffon_gabby_predefined"
-				change_background_job = mailgriffon
 				ROOT = { capital_scope = { assign_leader = event_target:leader_gabby } }
 			}
 		}
-		
+
 		# Custom names for starting ships, these are Battleships in the referenced story, but i'm just using them for starting Corvettes.
 		random_owned_ship = {
 			limit = {
 				is_ship_size = corvette
 				NOT = { has_ship_flag = has_name_setup }
 			}
-			set_name = "TCSSS Halberd"
+			set_name = "PRESCRIPTED_ship_name_tcsss_halberd"
 			set_ship_flag = has_name_setup
 		}
 		random_owned_ship = {
@@ -244,7 +257,7 @@ country_event = {
 				is_ship_size = corvette
 				NOT = { has_ship_flag = has_name_setup }
 			}
-			set_name = "TCSSS Warhammer"
+			set_name = "PRESCRIPTED_ship_name_tcsss_warhammer"
 			set_ship_flag = has_name_setup
 		}
 		random_owned_ship = {
@@ -252,10 +265,10 @@ country_event = {
 				is_ship_size = corvette
 				NOT = { has_ship_flag = has_name_setup }
 			}
-			set_name = "TCSSS Unique Horn"
+			set_name = "PRESCRIPTED_ship_name_tcsss_unique_horn"
 			set_ship_flag = has_name_setup
 		}
-		
+
 		# Set policies.
 		set_policy = {
 			policy = subjugation_war_terms

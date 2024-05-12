@@ -1,11 +1,10 @@
 ﻿l_russian:
- MTRSPONY:0 "Faustian"
-
  FLAG_CATEGORY_eqsatwarequus:0 "EaW - Эквус"
  FLAG_CATEGORY_eqsatwarequus2:0 "EaW - Эквус 2"
  FLAG_CATEGORY_eqsatwarequus3:0 "EaW - Эквус 3"
  FLAG_CATEGORY_eqsatwargriffon2:0 "EaW - Грифония 2"
  FLAG_CATEGORY_eqsatwarzebra:0 "EaW - Зебрика"
+ FLAG_CATEGORY_eqsatwarzebra2:0 "EaW - Зебрика 2"
  FLAG_CATEGORY_esieaw:0 "ESI-EaW"
 
  HAIR_COLOR:0 "Цвет Волос"

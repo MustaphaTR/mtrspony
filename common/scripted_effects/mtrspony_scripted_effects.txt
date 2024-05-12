@@ -42,6 +42,28 @@ create_griffon_species = {
 	}
 }
 
+create_hippogriff_species = {
+	create_species = {
+		name = "PRESCRIPTED_species_hippogriff"
+		plural = "PRESCRIPTED_species_plural_hippogriff"
+		adjective = "PRESCRIPTED_species_adjective_hippogriff"
+		class = AVI
+		portrait = mtrspony_hippogriff
+		namelist = mtrspony_namelists_hippogriff
+		homeworld = ROOT.capital_scope
+		traits = {
+			trait = trait_pc_continental_preference
+			trait = trait_nomadic
+			trait = trait_adaptive
+			trait = trait_deviants
+		}
+
+		effect = {
+			save_global_event_target_as = hippogriff_species
+		}
+	}
+}
+
 create_dragon_species = {
 	create_species = {
 		name = "PRESCRIPTED_species_dragon"

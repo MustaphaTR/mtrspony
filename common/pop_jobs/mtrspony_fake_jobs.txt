@@ -5,3 +5,4 @@
 hairdresser = { icon = colonist possible = { always = no } }
 mailgriffon = { icon = colonist possible = { always = no } }
 astronaut = { icon = colonist possible = { always = no } }
+friendship_student = { icon = colonist possible = { always = no } }

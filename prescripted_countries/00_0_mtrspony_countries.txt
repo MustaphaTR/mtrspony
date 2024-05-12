@@ -442,6 +442,80 @@ faustian_technate = {
 	}
 }
 
+revolutionary_faust = {
+	name = "EMPIRE_DESIGN_revolutionary_faust"
+	adjective = "PRESCRIPTED_adjective_revolutionary_faust"
+	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
+
+	playable = has_megacorps_and_first_contact # Shared Burdens civic is from Necroids DLC, Eager Exploeres civic is from First Contact DLC.
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_revolutionary_faust"
+
+	species = {
+		class = "AVI"
+		portrait = "mtrspony_hippogriff"
+		name = "PRESCRIPTED_species_hippogriff"
+		plural = "PRESCRIPTED_species_plural_hippogriff"
+		adjective = "PRESCRIPTED_species_adjective_hippogriff"
+		name_list = "mtrspony_namelists_hippogriff"
+		trait = "trait_nomadic"
+		trait = "trait_adaptive"
+		trait = "trait_deviants"
+	}
+
+	room = "personality_migrating_flock_room"
+
+	authority = "auth_democratic"
+	civics = { "civic_eager_explorers" "civic_shared_burden" }
+	government = gov_communal_parity
+
+	ethic = "ethic_fanatic_egalitarian"
+	ethic = "ethic_materialist"
+
+	origin = "origin_default"
+
+	flags = { revolutionary_faust }
+
+	planet_name = "NAME_Faust"
+	planet_class = "pc_continental"
+	initializer = "eaw_vanilla_initializer"
+	system_name = "NAME_Behemoth"
+
+	graphical_culture = avian_01
+	city_graphical_culture = avian_01
+
+	empire_flag = {
+		icon= {
+			category = "eqsatwarzebra2"
+			file = "HIP_POS.dds"
+		}
+		background= {
+			category = "backgrounds"
+			file = "revolutionary_zebrica.dds"
+		}
+		colors={
+			"indigo"
+			"white"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_starry_eyes"
+		ruler_title = "PRESCRIPTED_ruler_title_general_secretary"
+		ruler_title_female = "PRESCRIPTED_ruler_title_general_secretary"
+		gender = female
+		portrait = "mtrspony_hippogriff_silverstream"
+		texture = 12
+		attachment = 1
+		clothes = 1
+		trait = "leader_trait_principled"
+		leader_class = official
+	}
+}
+
 changeling_space_program = {
 	name = "EMPIRE_DESIGN_changeling_space_program"
 	adjective = "PRESCRIPTED_adjective_changeling_space_program"

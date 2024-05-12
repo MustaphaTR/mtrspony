@@ -3,5 +3,7 @@
  trait_cutie_marks_desc:"These creatures gain a mark that sets themselves apart from others when they find their talents."
  trait_equality_marks:"Equality Marks"
  trait_equality_marks_desc:"These creatures are marked with symbols that make them equals with no individual talents."
+ trait_pc_continental_secondary_ocean_preference:"Secondary Ocean Preference"
+ trait_pc_continental_secondary_ocean_preference_desc:"These special fare as well in oceans as they do in their original habitats."
  leader_trait_paranoid_military:"Paranoia"
  leader_trait_paranoid_military_desc:"This leader is unwilling to collaborate with others."

@@ -244,6 +244,26 @@ mtrspony_hippogriff_silverstream_clothes_selector = {
 	}
 }
 
+mtrspony_hippogriff_silverstream_predefined_hair_selector = {
+	default = "gfx/models/portraits/hippogriff/silverstream/silverstream_hair.dds"
+
+	game_setup = { default = "gfx/models/portraits/hippogriff/silverstream/silverstream_hair.dds" }
+	species = { default = "gfx/models/portraits/hippogriff/silverstream/silverstream_hair.dds" }
+	pop = { default = "gfx/models/portraits/hippogriff/silverstream/silverstream_hair.dds" }
+	leader = { default = "gfx/models/portraits/hippogriff/silverstream/silverstream_hair.dds" }
+	ruler = { default = "gfx/models/portraits/hippogriff/silverstream/silverstream_hair.dds" }
+}
+
+mtrspony_hippogriff_silverstream_predefined_clothes_selector = {
+	default = "gfx/models/portraits/hippogriff/silverstream/silverstream_necklace.dds"
+
+	game_setup = { default = "gfx/models/portraits/hippogriff/silverstream/silverstream_necklace.dds" }
+	species = { default = "gfx/models/portraits/hippogriff/silverstream/silverstream_necklace.dds" }
+	pop = { default = "gfx/models/portraits/hippogriff/silverstream/silverstream_necklace.dds" }
+	leader = { default = "gfx/models/portraits/hippogriff/silverstream/silverstream_necklace.dds" }
+	ruler = { default = "gfx/models/portraits/hippogriff/silverstream/silverstream_necklace.dds" }
+}
+
 mtrspony_hippogriff_starry_eyes_predefined_hair_selector = {
 	default = "gfx/models/portraits/hippogriff/silverstream/silverstream_hair_alt1.dds"
 
@@ -252,4 +272,14 @@ mtrspony_hippogriff_starry_eyes_predefined_hair_selector = {
 	pop = { default = "gfx/models/portraits/hippogriff/silverstream/silverstream_hair_alt1.dds" }
 	leader = { default = "gfx/models/portraits/hippogriff/silverstream/silverstream_hair_alt1.dds" }
 	ruler = { default = "gfx/models/portraits/hippogriff/silverstream/silverstream_hair_alt1.dds" }
+}
+
+mtrspony_hippogriff_sugar_coral_predefined_hair_selector = {
+	default = "gfx/models/portraits/hippogriff/silverstream/silverstream_hair_alt5.dds"
+
+	game_setup = { default = "gfx/models/portraits/hippogriff/silverstream/silverstream_hair_alt5.dds" }
+	species = { default = "gfx/models/portraits/hippogriff/silverstream/silverstream_hair_alt5.dds" }
+	pop = { default = "gfx/models/portraits/hippogriff/silverstream/silverstream_hair_alt5.dds" }
+	leader = { default = "gfx/models/portraits/hippogriff/silverstream/silverstream_hair_alt5.dds" }
+	ruler = { default = "gfx/models/portraits/hippogriff/silverstream/silverstream_hair_alt5.dds" }
 }

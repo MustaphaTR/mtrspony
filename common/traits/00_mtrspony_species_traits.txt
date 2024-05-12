@@ -45,3 +45,30 @@ trait_equality_marks = {
 		weight = 0
 	}
 }
+
+#trait_pc_continental_secondary_ocean_preference = {
+#	cost = 1
+#	initial = no
+#	randomized = no
+#	allowed_archetypes = { BIOLOGICAL LITHOID }
+#	sorting_priority = 29
+#	species_potential_add = {
+#		always = no
+#	}
+#	species_possible_merge_add = {
+#		always = no
+#	}
+#	species_possible_remove = {
+#		can_remove_beneficial_genetic_traits = yes
+#	}
+#	species_possible_merge_remove = {
+#		always = yes
+#	}
+#	modifier = {
+#		pc_ocean_habitability = 0.20
+#		pc_tropical_habitability = -0.20
+#	}
+#	ai_weight = {
+#		weight = 0
+#	}
+#}

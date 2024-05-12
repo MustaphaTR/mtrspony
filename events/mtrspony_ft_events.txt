@@ -18,6 +18,7 @@ country_event = {
 		#	class = scientist
 		#	skill = 1
 		#	set_age = 35
+		#	background_job = "head_researcher"
 		#	background_ethic = "ethic_materialist"
 		#	randomize_traits = no
 		#	traits = {
@@ -29,7 +30,6 @@ country_event = {
 		#		save_global_event_target_as = leader_zuan_gerzalid
 		#		set_leader_flag = is_created_leader
 		#		change_leader_portrait = "mtrspony_zebra_zuan_gerzalid_predefined"
-		#		change_background_job = head_researcher
 		#		ROOT = { assign_leader = event_target:leader_zuan_gerzalid }
 		#	}
 		#}
@@ -41,6 +41,11 @@ country_event = {
 		}
 		create_griffon_species = yes
 		event_target:griffon_species = {
+			set_citizenship_type = { country = ROOT type = citizenship_full }
+			set_military_service_type = { country = ROOT type = military_service_full }
+		}
+		create_hippogriff_species = yes
+		event_target:hippogriff_species = {
 			set_citizenship_type = { country = ROOT type = citizenship_full }
 			set_military_service_type = { country = ROOT type = military_service_full }
 		}
@@ -75,10 +80,18 @@ country_event = {
 				}
 			}
 			while = {
-				count = 6
+				count = 5
 
 				create_pop = {
 					species = event_target:griffon_species
+					ethos = random
+				}
+			}
+			while = {
+				count = 1
+
+				create_pop = {
+					species = event_target:hippogriff_species
 					ethos = random
 				}
 			}
