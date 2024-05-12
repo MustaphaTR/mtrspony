@@ -116,6 +116,9 @@ country_event = {
 				remove_trait = trait_pc_habitat_preference
 			}
 			change_species_characteristics = {
+				remove_trait = trait_pc_continental_preference
+			}
+			change_species_characteristics = {
 				add_trait = trait_pc_arid_preference
 				remove_trait = trait_void_dweller_1
 			}
@@ -207,8 +210,15 @@ country_event = {
 		set_heir = event_target:leader_cherry_berry
 
 		capital_scope = {
+			set_variable = { which = pop_to_remove value = 18 }
+			if = {
+				limit = { ROOT = { has_origin = origin_default } }
+
+				set_variable = { which = pop_to_remove value = 22 }
+			}
+
 			while = {
-				count = 18
+				count = pop_to_remove
 
 				random_owned_pop = { kill_pop = yes }
 			}
@@ -307,6 +317,12 @@ country_event = {
 					limit = { has_planet_flag = planet_equus }
 
 					add_modifier = { modifier = tidal_locked }
+					if = {
+						limit = { ROOT = { has_origin = origin_default } }
+
+						remove_modifier = prosp_uni_mod
+						change_pc = pc_nuked
+					}
 				}
 			}
 		}

@@ -54,5 +54,6 @@
 -- Added Hippogriff namelist.
 -- Added Revolutionary Hippogriffia prescripted country.
 --- This includes a flag and a background as well.
+-- Added a no-DLC variant for CSP Remnants that makes you start on a Tomb World Equus instead of the Habibtat.
 -- Fixed Old Equus in CSP Remnants starting with no planetary features/blockers.
 -- Fixed Cutie Marks trait being addable without genemodding.
