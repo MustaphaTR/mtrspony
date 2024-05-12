@@ -48,7 +48,7 @@
 -- Added Equality Marks trait as a negative counterpart to the Cutie Marks trait.
 -- Lithoid species can now have Cutie Marks as well.
 
-- Version 0.2.0 (..2024):
+- Version 0.2.0 (12.05.2024):
 -- Added Hippogriff portraits, one set for each gender. Silverstream for female and Terramar for male.
 --- Existing prescripted countries now start with one Hippogriff pop, generally replacing a Griffon pop.
 -- Added Hippogriff namelist.
