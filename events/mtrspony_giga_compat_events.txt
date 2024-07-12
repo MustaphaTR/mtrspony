@@ -1,0 +1,398 @@
+namespace = gigacompat
+
+event = {
+	id = gigacompat.1
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		random_country = {
+			limit = { is_ai = no }
+
+			country_event = { id = gigacompat.2 days = 1 }
+		}
+	}
+}
+
+# Replaces the Easter Egg MLP Creatures in Gigastructural Engineering with portraits from this mod.
+country_event = {
+	id = gigacompat.2
+	title = "gigacompat.2.name"
+	desc = "gigacompat.2.desc"
+
+	picture = GFX_evt_voting
+
+	is_triggered_only = yes
+
+	trigger = {
+		is_ai = no
+		any_country = { has_country_flag = giga_eawaf_country }
+	}
+	option = {
+		name = gigacompat.2.a
+		hidden_effect = {
+			random_country = {
+				limit = { has_country_flag = giga_eawaf_country }
+
+				event_target:eawaf_griffons = {
+					change_species_portrait = mtrspony_griffon
+					rename_species = { name = griffon2 }
+				}
+				event_target:eawaf_changelings = {
+					change_species_portrait = mtrspony_changeling
+					rename_species = { name = changeling2 }
+				}
+				event_target:eawaf_yetis = {
+					change_species_portrait = mtrspony_yeti
+					rename_species = { name = yeti2 }
+				}
+				event_target:eawaf_ponies = {
+					change_species_portrait = mtrspony_pony
+					rename_species = { name = pony2 }
+				}
+				every_owned_leader = {
+					kill_leader = {
+						show_notification = no
+						fire = yes
+					}
+				}
+				create_leader = {
+					species = event_target:eawaf_ponies
+					effect = {
+						save_global_event_target_as = giga_eawaf_preftl_ruler
+					}
+				}
+				set_leader = event_target:giga_eawaf_preftl_ruler
+			}
+		}
+		set_global_flag = giga_eawaf_use_pony_portraits
+	}
+	option = {
+		name = gigacompat.2.b
+	}
+}
+
+# Finds and saves the characters used by Gigastructural Engineering's easter egg country.
+# Also adjusts some other stuff.
+country_event = {
+	id = gigacompat.3
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		has_global_flag = giga_eawaf_use_pony_portraits
+		has_country_flag = giga_eawaf_country
+		is_primitive = no
+		NOT = { has_global_flag = faust_characters_saved }
+	}
+	immediate = {
+		if = {
+			limit = { has_country_flag = giga_eaw_kaiser_unifier }
+
+			random_owned_leader = {
+				limit = {
+					leader_class = commander
+					OR = {
+						has_trait = leader_trait_aggressive
+						has_trait = leader_trait_aggressive_2
+					}
+				}
+
+				save_global_event_target_as = leader_grover_ii
+				change_leader_portrait = "mtrspony_griffon_grover_ii_predefined"
+			}
+		}
+		else_if = {
+			limit = { has_country_flag = giga_eaw_un_unifier }
+
+			set_giga_species_rights_to_max = yes
+			ruler = {
+				save_global_event_target_as = leader_jungle_trek
+				change_leader_portrait = "mtrspony_pony_earth_jungle_trek_predefined"
+			}
+			random_owned_leader = {
+				limit = {
+					leader_class = commander
+					OR = {
+						has_trait = leader_trait_adaptable
+						has_trait = leader_trait_adaptable_2
+					}
+				}
+
+				save_global_event_target_as = leader_blueblood
+				change_leader_portrait = "mtrspony_pony_unicorn_blueblood_armored_predefined"
+			}
+		}
+		else_if = {
+			limit = { has_country_flag = giga_eaw_griffon_unifier }
+
+			change_dominant_species = { species = event_target:eawaf_griffons }
+			ruler = {
+				save_global_event_target_as = leader_grover_xi_giga
+				change_leader_portrait = "mtrspony_griffon_grover_xi_predefined"
+			}
+			random_owned_leader = {
+				limit = {
+					leader_class = commander
+					OR = {
+						has_trait = leader_trait_aggressive
+						has_trait = leader_trait_aggressive_2
+					}
+				}
+
+				save_global_event_target_as = leader_ferdinand_dawnclaw
+				change_leader_portrait = "mtrspony_griffon_ferdinand_dawnclaw_predefined"
+			}
+		}
+		else_if = {
+			limit = { has_country_flag = giga_eaw_communist_unifier }
+
+			set_giga_species_rights_to_max = yes
+			change_dominant_species = { species = event_target:eawaf_griffons }
+			ruler = {
+				save_global_event_target_as = leader_asper_sickleclaw
+				change_leader_portrait = "mtrspony_griffon_asper_sickleclaw_predefined"
+			}
+		}
+		else_if = {
+			limit = { has_country_flag = giga_eaw_posada_unifier }
+
+			event_target:eawaf_griffons = {
+				change_species_portrait = mtrspony_hippogriff
+				rename_species = { name = hippogriff2 }
+			}
+			set_graphical_culture = avian_01
+			set_giga_species_rights_to_max = yes
+			change_dominant_species = { species = event_target:eawaf_griffons }
+			change_country_flag = {
+				icon = {
+					category = "eqsatwarzebra2"
+					file = "HIP_POS.dds"
+				}
+				background = {
+					category = "backgrounds"
+					file = "revolutionary_zebrica.dds"
+				}
+				colors = { "white" "indigo" "null" "null" }
+			}
+			ruler = {
+				change_species = event_target:eawaf_griffons
+				save_global_event_target_as = leader_posada
+				change_leader_portrait = "mtrspony_hippogriff_posada_predefined"
+			}
+		}
+		else_if = {
+			limit = { has_country_flag = giga_eaw_river_unifier }
+
+			set_giga_species_rights_to_max = yes
+			ruler = {
+				set_gender = female
+				save_global_event_target_as = leader_river_swirl
+				change_leader_portrait = "mtrspony_pony_unicorn_river_swirl_predefined"
+			}
+			random_owned_leader = {
+				limit = {
+					leader_class = commander
+					OR = {
+						has_trait = leader_trait_adaptable
+						has_trait = leader_trait_adaptable_2
+					}
+				}
+
+				save_global_event_target_as = leader_arclight
+				change_leader_portrait = "mtrspony_pony_earth_arclight_predefined"
+			}
+		}
+		else_if = {
+			limit = { has_country_flag = giga_eaw_wingaqui_unifier }
+
+			change_dominant_species = { species = event_target:eawaf_griffons }
+			ruler = {
+				set_gender = female
+				save_global_event_target_as = leader_alessandra_discret
+				change_leader_portrait = "mtrspony_griffon_alessandra_discret_predefined"
+			}
+			random_owned_leader = {
+				limit = {
+					leader_class = commander
+					OR = {
+						has_trait = leader_trait_aggressive
+						has_trait = leader_trait_aggressive_2
+					}
+				}
+
+				save_global_event_target_as = leader_beakolini
+				change_leader_portrait = "mtrspony_griffon_beakolini_predefined"
+			}
+		}
+		else_if = {
+			limit = { has_country_flag = giga_eaw_kiria_unifier }
+
+			event_target:eawaf_ponies = {
+				change_species_portrait = mtrspony_kirin
+				rename_species = { name = kirin2 }
+			}
+			set_graphical_culture = mammalian_01
+			change_dominant_species = { species = event_target:eawaf_ponies }
+			ruler = {
+				change_species = event_target:eawaf_ponies
+				save_global_event_target_as = leader_fickle_current
+				change_leader_portrait = "mtrspony_kirin_fickle_current_predefined"
+			}
+			random_owned_leader = {
+				limit = {
+					leader_class = commander
+					OR = {
+						has_trait = leader_trait_aggressive
+						has_trait = leader_trait_aggressive_2
+					}
+				}
+
+				change_species = event_target:eawaf_ponies
+				change_leader_portrait = event_target:eawaf_ponies
+			}
+		}
+		else_if = {
+			limit = { has_country_flag = giga_eaw_dread_unifier }
+
+			set_giga_species_rights_to_max = yes
+			ruler = {
+				save_global_event_target_as = leader_rosa_maledicta
+				change_leader_portrait = "mtrspony_pony_unicorn_rosa_maledicta_predefined"
+			}
+		}
+		#else_if = {
+		#	limit = { has_country_flag = giga_eaw_leopold_unifier }
+		#
+		#	change_dominant_species = { species = event_target:eawaf_griffons }
+		#	ruler = {
+		#		change_species = event_target:eawaf_griffons
+		#		save_global_event_target_as = leader_leopold_schmeller
+		#		change_leader_portrait = "mtrspony_griffon_leopold_schmeller_predefined"
+		#	}
+		#}
+
+		if = {
+			limit = {
+				OR = {
+					has_country_flag = giga_eaw_kaiser_unifier
+					has_country_flag = giga_eaw_un_unifier
+					has_country_flag = giga_eaw_griffon_unifier
+					has_country_flag = giga_eaw_communist_unifier
+					has_country_flag = giga_eaw_posada_unifier
+					has_country_flag = giga_eaw_river_unifier
+					has_country_flag = giga_eaw_wingaqui_unifier
+					has_country_flag = giga_eaw_kiria_unifier
+					has_country_flag = giga_eaw_dread_unifier
+					#has_country_flag = giga_eaw_leopold_unifier
+				}
+			}
+
+			event_target:giga_eawaf_preftl_ruler = {
+				kill_leader = {
+					show_notification = no
+					fire = yes
+				}
+			}
+
+			set_global_flag = faust_characters_saved
+		}
+	}
+}
+
+# Reapply named character potraits, they seem to reset after loading a save or when species got modified.
+country_event = {
+	id = gigacompat.4
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		has_global_flag = giga_eawaf_use_pony_portraits
+		has_country_flag = giga_eawaf_country
+		is_primitive = no
+	}
+	immediate = {
+		if = {
+			limit = { has_country_flag = giga_eaw_kaiser_unifier }
+
+			event_target:leader_grover_ii = {
+				change_leader_portrait = "mtrspony_griffon_grover_ii_predefined"
+			}
+		}
+		else_if = {
+			limit = { has_country_flag = giga_eaw_un_unifier }
+
+			event_target:leader_jungle_trek = {
+				change_leader_portrait = "mtrspony_pony_earth_jungle_trek_predefined"
+			}
+			event_target:leader_blueblood = {
+				change_leader_portrait = "mtrspony_pony_unicorn_blueblood_armored_predefined"
+			}
+		}
+		else_if = {
+			limit = { has_country_flag = giga_eaw_griffon_unifier }
+
+			event_target:leader_grover_xi_giga = {
+				change_leader_portrait = "mtrspony_griffon_grover_xi_predefined"
+			}
+			event_target:leader_ferdinand_dawnclaw = {
+				change_leader_portrait = "mtrspony_griffon_ferdinand_dawnclaw_predefined"
+			}
+		}
+		else_if = {
+			limit = { has_country_flag = giga_eaw_communist_unifier }
+
+			event_target:leader_asper_sickleclaw = {
+				change_leader_portrait = "mtrspony_griffon_asper_sickleclaw_predefined"
+			}
+		}
+		else_if = {
+			limit = { has_country_flag = giga_eaw_posada_unifier }
+
+			event_target:leader_posada = {
+				change_leader_portrait = "mtrspony_hippogriff_posada_predefined"
+			}
+		}
+		else_if = {
+			limit = { has_country_flag = giga_eaw_river_unifier }
+
+			event_target:leader_river_swirl = {
+				change_leader_portrait = "mtrspony_pony_unicorn_river_swirl_predefined"
+			}
+			event_target:leader_arclight = {
+				change_leader_portrait = "mtrspony_pony_earth_arclight_predefined"
+			}
+		}
+		else_if = {
+			limit = { has_country_flag = giga_eaw_wingaqui_unifier }
+
+			event_target:leader_alessandra_discret = {
+				change_leader_portrait = "mtrspony_griffon_alessandra_discret_predefined"
+			}
+			event_target:leader_beakolini = {
+				change_leader_portrait = "mtrspony_griffon_beakolini_predefined"
+			}
+		}
+		else_if = {
+			limit = { has_country_flag = giga_eaw_kiria_unifier }
+
+			event_target:leader_fickle_current = {
+				change_leader_portrait = "mtrspony_kirin_fickle_current_predefined"
+			}
+		}
+		else_if = {
+			limit = { has_country_flag = giga_eaw_dread_unifier }
+
+			event_target:leader_rosa_maledicta = {
+				change_leader_portrait = "mtrspony_pony_unicorn_rosa_maledicta_predefined"
+			}
+		}
+		#else_if = {
+		#	limit = { has_country_flag = giga_eaw_leopold_unifier }
+		#
+		#	event_target:leader_leopold_schmeller = {
+		#		change_leader_portrait = "mtrspony_griffon_leopold_schmeller_predefined"
+		#	}
+		#}
+	}
+}

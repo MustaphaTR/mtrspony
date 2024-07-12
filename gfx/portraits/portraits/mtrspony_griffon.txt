@@ -18,6 +18,8 @@ portraits = {
 			"gfx/models/portraits/griffon/gallus/gallus_alt9.dds"
 			"gfx/models/portraits/griffon/gallus/gallus_alt10.dds"
 			"gfx/models/portraits/griffon/gallus/gallus_alt11.dds"
+			"gfx/models/portraits/griffon/gallus/gallus_alt12.dds"
+			"gfx/models/portraits/griffon/gallus/gallus_alt13.dds"
 		}
 
 		custom_attachment_label = "HAIR_COLOR"
@@ -31,6 +33,50 @@ portraits = {
 
 		character_textures = {
 			"gfx/models/portraits/griffon/gallus/gallus_alt11.dds"
+		}
+	}
+
+	mtrspony_griffon_grover_ii_predefined = {
+		entity = "portrait_dummy_20p_left_entity"
+		clothes_selector = "mtrspony_no_clothes_selector"
+		attachment_selector = "mtrspony_griffon_grover_ii_predefined_hair_selector"
+		greeting_sound = "human_male_greetings_01"
+
+		character_textures = {
+			"gfx/models/portraits/griffon/gallus/gallus_alt7.dds"
+		}
+	}
+
+	mtrspony_griffon_ferdinand_dawnclaw_predefined = {
+		entity = "portrait_dummy_20p_left_entity"
+		clothes_selector = "mtrspony_no_clothes_selector"
+		attachment_selector = "mtrspony_griffon_ferdinand_dawnclaw_predefined_hair_selector"
+		greeting_sound = "human_male_greetings_01"
+
+		character_textures = {
+			"gfx/models/portraits/griffon/gallus/gallus_alt12.dds"
+		}
+	}
+
+	mtrspony_griffon_asper_sickleclaw_predefined = {
+		entity = "portrait_dummy_20p_left_entity"
+		clothes_selector = "mtrspony_no_clothes_selector"
+		attachment_selector = "mtrspony_griffon_asper_sickleclaw_predefined_hair_selector"
+		greeting_sound = "human_male_greetings_01"
+
+		character_textures = {
+			"gfx/models/portraits/griffon/gallus/gallus_alt13.dds"
+		}
+	}
+
+	mtrspony_griffon_beakolini_predefined = {
+		entity = "portrait_dummy_20p_left_entity"
+		clothes_selector = "mtrspony_no_clothes_selector"
+		attachment_selector = "mtrspony_griffon_beakolini_predefined_hair_selector"
+		greeting_sound = "human_male_greetings_01"
+
+		character_textures = {
+			"gfx/models/portraits/griffon/gallus/gallus_alt6.dds"
 		}
 	}
 
@@ -55,6 +101,17 @@ portraits = {
 		}
 
 		custom_attachment_label = "HAIR_COLOR"
+	}
+
+	mtrspony_griffon_alessandra_discret_predefined = {
+		entity = "portrait_dummy_20p_left_entity"
+		clothes_selector = "mtrspony_no_clothes_selector"
+		attachment_selector = "mtrspony_griffon_alessandra_discret_predefined_hair_selector"
+		greeting_sound = "human_female_greetings_01"
+
+		character_textures = {
+			"gfx/models/portraits/griffon/gilda/gilda_alt5.dds"
+		}
 	}
 
 	mtrspony_griffon_gabby_predefined = {

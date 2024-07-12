@@ -92,6 +92,17 @@ portraits = {
 		}
 	}
 
+	mtrspony_hippogriff_posada_predefined = {
+		entity = "portrait_dummy_15p_left_entity"
+		clothes_selector = "mtrspony_hippogriff_silverstream_predefined_clothes_selector"
+		attachment_selector = "mtrspony_hippogriff_posada_predefined_hair_selector"
+		greeting_sound = "human_female_greetings_01"
+
+		character_textures = {
+			"gfx/models/portraits/hippogriff/silverstream/silverstream_alt11.dds"
+		}
+	}
+
 	mtrspony_hippogriff_skystar_predefined = {
 		entity = "portrait_dummy_15p_left_entity"
 		clothes_selector = "mtrspony_no_clothes_selector"

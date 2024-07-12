@@ -1,0 +1,121 @@
+DUMMY =  {
+	pony =  {
+		name = PRESCRIPTED_species_pony
+		plural = PRESCRIPTED_species_plural_pony
+		home_planet = NAME_Faust
+		home_system = NAME_Behemoth
+		name_list =  "mtrspony_namelists_pony"
+	}
+	pony2 =  {
+		name = PRESCRIPTED_species_pony
+		plural = PRESCRIPTED_species_plural_pony
+		home_planet = NAME_Faust
+		home_system = NAME_Faust
+		name_list =  "mtrspony_namelists_pony"
+	}
+
+	kirin =  {
+		name = PRESCRIPTED_species_kirin
+		plural = PRESCRIPTED_species_plural_kirin
+		home_planet = NAME_Faust
+		home_system = NAME_Behemoth
+		name_list =  "mtrspony_namelists_kirin"
+	}
+	kirin2 =  {
+		name = PRESCRIPTED_species_kirin
+		plural = PRESCRIPTED_species_plural_kirin
+		home_planet = NAME_Faust
+		home_system = NAME_Faust
+		name_list =  "mtrspony_namelists_kirin"
+	}
+
+	zebra =  {
+		name = PRESCRIPTED_species_zebra
+		plural = PRESCRIPTED_species_plural_zebra
+		home_planet = NAME_Faust
+		home_system = NAME_Behemoth
+		name_list =  "mtrspony_namelists_zebra"
+	}
+	zebra2 =  {
+		name = PRESCRIPTED_species_zebra
+		plural = PRESCRIPTED_species_plural_zebra
+		home_planet = NAME_Faust
+		home_system = NAME_Faust
+		name_list =  "mtrspony_namelists_zebra"
+	}
+
+	griffon =  {
+		name = PRESCRIPTED_species_griffon
+		plural = PRESCRIPTED_species_plural_griffon
+		home_planet = NAME_Faust
+		home_system = NAME_Behemoth
+		name_list =  "mtrspony_namelists_griffon"
+	}
+	griffon2 =  {
+		name = PRESCRIPTED_species_griffon
+		plural = PRESCRIPTED_species_plural_griffon
+		home_planet = NAME_Faust
+		home_system = NAME_Faust
+		name_list =  "mtrspony_namelists_griffon"
+	}
+
+	hippogriff =  {
+		name = PRESCRIPTED_species_hippogriff
+		plural = PRESCRIPTED_species_plural_hippogriff
+		home_planet = NAME_Faust
+		home_system = NAME_Behemoth
+		name_list =  "mtrspony_namelists_hippogriff"
+	}
+	hippogriff2 =  {
+		name = PRESCRIPTED_species_hippogriff
+		plural = PRESCRIPTED_species_plural_hippogriff
+		home_planet = NAME_Faust
+		home_system = NAME_Faust
+		name_list =  "mtrspony_namelists_hippogriff"
+	}
+
+	dragon =  {
+		name = PRESCRIPTED_species_dragon
+		plural = PRESCRIPTED_species_plural_dragon
+		home_planet = NAME_Faust
+		home_system = NAME_Behemoth
+		name_list =  "mtrspony_namelists_dragon"
+	}
+	dragon2 =  {
+		name = PRESCRIPTED_species_dragon
+		plural = PRESCRIPTED_species_plural_dragon
+		home_planet = NAME_Faust
+		home_system = NAME_Faust
+		name_list =  "mtrspony_namelists_dragon"
+	}
+
+	changeling =  {
+		name = PRESCRIPTED_species_changeling
+		plural = PRESCRIPTED_species_plural_changeling
+		home_planet = NAME_Faust
+		home_system = NAME_Behemoth
+		name_list =  "mtrspony_namelists_changeling"
+	}
+	changeling2 =  {
+		name = PRESCRIPTED_species_changeling
+		plural = PRESCRIPTED_species_plural_changeling
+		home_planet = NAME_Faust
+		home_system = NAME_Faust
+		name_list =  "mtrspony_namelists_changeling"
+	}
+
+	yeti =  {
+		name = PRESCRIPTED_species_yeti
+		plural = PRESCRIPTED_species_plural_yeti
+		home_planet = NAME_Faust
+		home_system = NAME_Behemoth
+		name_list =  "mtrspony_namelists_yeti"
+	}
+	yeti2 =  {
+		name = PRESCRIPTED_species_yeti
+		plural = PRESCRIPTED_species_plural_yeti
+		home_planet = NAME_Faust
+		home_system = NAME_Faust
+		name_list =  "mtrspony_namelists_yeti"
+	}
+}

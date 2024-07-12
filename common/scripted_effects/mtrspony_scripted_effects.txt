@@ -151,3 +151,22 @@ create_zebra_species = {
 		}
 	}
 }
+
+set_giga_species_rights_to_max = {
+	event_target:eawaf_griffons = {
+		set_citizenship_type = { country = ROOT type = citizenship_full }
+		set_military_service_type = { country = ROOT type = military_service_full }
+	}
+	event_target:eawaf_changelings = {
+		set_citizenship_type = { country = ROOT type = citizenship_full }
+		set_military_service_type = { country = ROOT type = military_service_full }
+	}
+	event_target:eawaf_yetis = {
+		set_citizenship_type = { country = ROOT type = citizenship_full }
+		set_military_service_type = { country = ROOT type = military_service_full }
+	}
+	event_target:eawaf_ponies = {
+		set_citizenship_type = { country = ROOT type = citizenship_full }
+		set_military_service_type = { country = ROOT type = military_service_full }
+	}
+}

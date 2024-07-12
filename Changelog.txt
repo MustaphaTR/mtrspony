@@ -57,3 +57,8 @@
 -- Added a no-DLC variant for CSP Remnants that makes you start on a Tomb World Equus instead of the Habibtat.
 -- Fixed Old Equus in CSP Remnants starting with no planetary features/blockers.
 -- Fixed Cutie Marks trait being addable without genemodding.
+
+- Version 0.2.1 (12.07.2024):
+-- Added more color options to a few portraits (Gallus, Igneous Rock Pie, Sweetie Belle, Twilight Velvet).
+-- Added Yeti namelist.
+-- If the player has Gigastructural Engineering mod as well, an event now appears at the start to optionally replace the portraits used by Faust Civilisations pre-FTL country, if they are enabled at the first place.

@@ -1,0 +1,114 @@
+portraits = {
+	mtrspony_yeti_storm_king = {
+		entity = "portrait_dummy_centered_entity"
+		clothes_selector = "mtrspony_no_clothes_selector"
+		attachment_selector = "mtrspony_no_clothes_selector"
+		greeting_sound = "human_male_greetings_01"
+
+		character_textures = {
+			"gfx/models/portraits/yeti/storm_king/storm_king.dds"
+		}
+
+		custom_attachment_label = "HAIR_COLOR"
+	}
+}
+
+portrait_groups = {
+	mtrspony_yeti = {
+		default = mtrspony_yeti_storm_king
+		game_setup = {
+			add = {
+				trigger = {
+					ruler = {
+						OR = {
+							gender = male
+							gender = indeterminable
+						}
+					}
+				}
+				portraits = {
+					mtrspony_yeti_storm_king
+				}
+			}
+			add = {
+				trigger = {
+					ruler = {
+						OR = {
+							gender = female
+							gender = indeterminable
+						}
+					}
+				}
+				portraits = {
+					mtrspony_yeti_storm_king
+				}
+			}
+		}
+
+		species = {
+			add = {
+				trigger = {
+					exists = species
+					NOT = { species = { species_gender = male } }
+				}
+				portraits = {
+					mtrspony_yeti_storm_king
+				}
+			}
+			add = {
+				trigger = {
+					exists = species
+					NOT = { species = { species_gender = female } }
+				}
+				portraits = {
+					mtrspony_yeti_storm_king
+				}
+			}
+		}
+
+		pop = {
+			add = {
+				trigger = {
+					NOT = { species = { species_gender = male } }
+				}
+				portraits = {
+					mtrspony_yeti_storm_king
+				}
+			}
+			add = {
+				trigger = {
+					NOT = { species = { species_gender = female } }
+				}
+				portraits = {
+					mtrspony_yeti_storm_king
+				}
+			}
+		}
+
+		leader = {
+			add = {
+				trigger = {
+					OR = {
+						gender = male
+						gender = indeterminable
+					}
+				}
+				portraits = {
+					mtrspony_yeti_storm_king
+				}
+			}
+
+			add = {
+				trigger = {
+					OR = {
+						gender = female
+						gender = indeterminable
+					}
+				}
+				portraits = {
+					mtrspony_yeti_storm_king
+				}
+			}
+		}
+	}
+}

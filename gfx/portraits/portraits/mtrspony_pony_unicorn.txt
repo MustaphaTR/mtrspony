@@ -74,6 +74,17 @@ portraits = {
 		custom_attachment_label = "HAIR_COLOR"
 	}
 
+	mtrspony_pony_unicorn_blueblood_armored_predefined = {
+		entity = "portrait_dummy_10p_left_entity"
+		clothes_selector = "mtrspony_no_clothes_selector"
+		attachment_selector = "mtrspony_no_clothes_selector"
+		greeting_sound = "human_male_greetings_01"
+
+		character_textures = {
+			"gfx/models/portraits/pony_unicorn/blueblood_armored/blueblood_armored.dds"
+		}
+	}
+
 	mtrspony_pony_unicorn_twilight_sparkle = {
 		entity = "portrait_dummy_20p_left_entity"
 		clothes_selector = "mtrspony_no_clothes_selector"
@@ -119,9 +130,21 @@ portraits = {
 			"gfx/models/portraits/pony_unicorn/twilight_velvet/twilight_velvet_alt10.dds"
 			"gfx/models/portraits/pony_unicorn/twilight_velvet/twilight_velvet_alt11.dds"
 			"gfx/models/portraits/pony_unicorn/twilight_velvet/twilight_velvet_alt12.dds"
+			"gfx/models/portraits/pony_unicorn/twilight_velvet/twilight_velvet_alt13.dds"
 		}
 
 		custom_attachment_label = "HAIR_COLOR"
+	}
+
+	mtrspony_pony_unicorn_rosa_maledicta_predefined = {
+		entity = "portrait_dummy_20p_left_entity"
+		clothes_selector = "mtrspony_no_clothes_selector"
+		attachment_selector = "mtrspony_pony_unicorn_rosa_maledicta_predefined_hair_selector"
+		greeting_sound = "human_female_greetings_01"
+
+		character_textures = {
+			"gfx/models/portraits/pony_unicorn/twilight_velvet/twilight_velvet_alt13.dds"
+		}
 	}
 
 	mtrspony_pony_unicorn_rarity = {
@@ -202,17 +225,6 @@ portraits = {
 		custom_attachment_label = "HAIR_COLOR"
 	}
 
-	mtrspony_pony_unicorn_sweetie_belle_older_predefined = {
-		entity = "portrait_dummy_20p_left_entity"
-		clothes_selector = "mtrspony_no_clothes_selector"
-		attachment_selector = "mtrspony_pony_unicorn_sweetie_belle_older_predefined_hair_selector"
-		greeting_sound = "human_female_greetings_01"
-
-		character_textures = {
-			"gfx/models/portraits/pony_unicorn/sweetie_belle_older/sweetie_belle_older_alt1.dds"
-		}
-	}
-
 	mtrspony_pony_unicorn_sweetie_belle_older = {
 		entity = "portrait_dummy_20p_left_entity"
 		clothes_selector = "mtrspony_pony_unicorn_sweetie_belle_older_clothes_selector"
@@ -235,9 +247,32 @@ portraits = {
 			"gfx/models/portraits/pony_unicorn/sweetie_belle_older/sweetie_belle_older_alt12.dds"
 			"gfx/models/portraits/pony_unicorn/sweetie_belle_older/sweetie_belle_older_alt13.dds"
 			"gfx/models/portraits/pony_unicorn/sweetie_belle_older/sweetie_belle_older_alt14.dds"
+			"gfx/models/portraits/pony_unicorn/sweetie_belle_older/sweetie_belle_older_alt15.dds"
 		}
 
 		custom_attachment_label = "HAIR_COLOR"
+	}
+
+	mtrspony_pony_unicorn_sweetie_belle_older_predefined = {
+		entity = "portrait_dummy_20p_left_entity"
+		clothes_selector = "mtrspony_no_clothes_selector"
+		attachment_selector = "mtrspony_pony_unicorn_sweetie_belle_older_predefined_hair_selector"
+		greeting_sound = "human_female_greetings_01"
+
+		character_textures = {
+			"gfx/models/portraits/pony_unicorn/sweetie_belle_older/sweetie_belle_older_alt1.dds"
+		}
+	}
+
+	mtrspony_pony_unicorn_river_swirl_predefined = {
+		entity = "portrait_dummy_20p_left_entity"
+		clothes_selector = "mtrspony_no_clothes_selector"
+		attachment_selector = "mtrspony_pony_unicorn_river_swirl_predefined_hair_selector"
+		greeting_sound = "human_female_greetings_01"
+
+		character_textures = {
+			"gfx/models/portraits/pony_unicorn/sweetie_belle_older/sweetie_belle_older_alt15.dds"
+		}
 	}
 }
 

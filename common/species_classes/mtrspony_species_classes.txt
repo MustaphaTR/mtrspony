@@ -1,0 +1,22 @@
+# The Species Classes defined here are generally not available to the character creator, but will instead appear in AI empires across the galaxy.
+# There is also portrait_sets database that contains sets of portraits associated with species classes.
+# 'graphical_culture' is connected to the looks used for ships and cities; see "common/graphical_culture/".
+# playable = yes/no/trigger (default: yes)		if this species class can is playable
+# randomized = yes/no/trigger (default: yes)	if this species class is randomized
+# species_trait_points							base number of species trait points available for this species class
+# species_max_traits							maximum number of traits that species of this class can have (doesn't count those with cost == 0)
+# possible										ethics/government requirements; see common/governments/readme_requirements.txt
+# gender = yes/no (default: yes)				whether the species has a gender
+# portrait_modding yes/no (default: yes)		whether the portrait can be modified with e.g. genemodding or robomodding
+
+DUMMY = {
+	archetype = BIOLOGICAL
+
+	playable = {
+		always = no
+	}
+	randomized = no
+
+	graphical_culture = humanoid_01
+	move_pop_sound_effect = "moving_pop_confirmation"
+}

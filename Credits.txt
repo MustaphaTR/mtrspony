@@ -68,6 +68,12 @@ Portrait Bases:
 	- Garble
 	- Male Pumpkin Smoke
 
+ > negatif22:
+	- Armored Prince Blueblood
+
+ > nukarulesthehouse1:
+	- Storm King
+
  > parclytaxel:
 	- Alicorn Apple Bloom
 	- Luna

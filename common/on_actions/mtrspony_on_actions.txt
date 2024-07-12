@@ -1,3 +1,9 @@
+on_game_start = {
+	events = {
+		gigacompat.1
+	}
+}
+
 on_game_start_country = {
 	events = {
 		cocstart.1
@@ -17,6 +23,8 @@ on_monthly_pulse_country = { # It also triggers when species are modified, there
 		#ftstart.2
 		#rfstart.2
 		cspstart.2
+		gigacompat.3
+		gigacompat.4
 	}
 }
 
