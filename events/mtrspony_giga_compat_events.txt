@@ -166,7 +166,7 @@ country_event = {
 			change_dominant_species = { species = event_target:eawaf_griffons }
 			change_country_flag = {
 				icon = {
-					category = "eqsatwarzebra2"
+					category = "eqsatwarzebra3"
 					file = "HIP_POS.dds"
 				}
 				background = {
