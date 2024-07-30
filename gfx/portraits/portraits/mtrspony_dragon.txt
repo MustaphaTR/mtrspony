@@ -22,6 +22,25 @@ portraits = {
 		custom_attachment_label = "HAIR_COLOR"
 	}
 
+	mtrspony_dragon_sludge = {
+		entity = "portrait_dummy_15p_left_entity"
+		clothes_selector = "mtrspony_no_clothes_selector"
+		attachment_selector = "mtrspony_dragon_sludge_hair_selector"
+		greeting_sound = "human_male_greetings_01"
+
+		character_textures = {
+			"gfx/models/portraits/dragon/sludge/sludge.dds"
+			"gfx/models/portraits/dragon/sludge/sludge_alt1.dds"
+			"gfx/models/portraits/dragon/sludge/sludge_alt2.dds"
+			"gfx/models/portraits/dragon/sludge/sludge_alt3.dds"
+			"gfx/models/portraits/dragon/sludge/sludge_alt4.dds"
+			"gfx/models/portraits/dragon/sludge/sludge_alt5.dds"
+			"gfx/models/portraits/dragon/sludge/sludge_alt6.dds"
+		}
+
+		custom_attachment_label = "HAIR_COLOR"
+	}
+
 	mtrspony_dragon_ember = {
 		entity = "portrait_dummy_centered_entity"
 		clothes_selector = "mtrspony_no_clothes_selector"
@@ -63,6 +82,7 @@ portrait_groups = {
 				}
 				portraits = {
 					mtrspony_dragon_garble
+					mtrspony_dragon_sludge
 				}
 			}
 			add = {
@@ -97,6 +117,7 @@ portrait_groups = {
 				}
 				portraits = {
 					mtrspony_dragon_garble
+					mtrspony_dragon_sludge
 				}
 			}
 		}
@@ -116,6 +137,7 @@ portrait_groups = {
 				}
 				portraits = {
 					mtrspony_dragon_garble
+					mtrspony_dragon_sludge
 				}
 			}
 		}
@@ -130,6 +152,7 @@ portrait_groups = {
 				}
 				portraits = {
 					mtrspony_dragon_garble
+					mtrspony_dragon_sludge
 				}
 			}
 

@@ -68,6 +68,63 @@ mtrspony_dragon_garble_hair_selector = {
 		}
 	}
 }
+
+mtrspony_dragon_sludge_hair_selector = {
+	default = "gfx/models/portraits/dragon/sludge/sludge_hair.dds"
+
+	game_setup = {
+		default = "gfx/models/portraits/dragon/sludge/sludge_hair.dds"
+	}
+
+	species = {
+		default = "gfx/models/portraits/dragon/sludge/sludge_hair.dds"
+	}
+
+	pop = {
+		default = "gfx/models/portraits/dragon/sludge/sludge_hair.dds"
+
+		random = {
+			list = {
+				"gfx/models/portraits/dragon/sludge/sludge_hair.dds"
+				"gfx/models/portraits/dragon/sludge/sludge_hair_alt1.dds"
+				"gfx/models/portraits/dragon/sludge/sludge_hair_alt2.dds"
+				"gfx/models/portraits/dragon/sludge/sludge_hair_alt3.dds"
+				"gfx/models/portraits/dragon/sludge/sludge_hair_alt4.dds"
+				"gfx/models/portraits/dragon/sludge/sludge_hair_alt5.dds"
+				"gfx/models/portraits/dragon/sludge/sludge_hair_alt6.dds"
+			}
+		}
+	}
+
+	leader = {
+		random = {
+			list = {
+				"gfx/models/portraits/dragon/sludge/sludge_hair.dds"
+				"gfx/models/portraits/dragon/sludge/sludge_hair_alt1.dds"
+				"gfx/models/portraits/dragon/sludge/sludge_hair_alt2.dds"
+				"gfx/models/portraits/dragon/sludge/sludge_hair_alt3.dds"
+				"gfx/models/portraits/dragon/sludge/sludge_hair_alt4.dds"
+				"gfx/models/portraits/dragon/sludge/sludge_hair_alt5.dds"
+				"gfx/models/portraits/dragon/sludge/sludge_hair_alt6.dds"
+			}
+		}
+	}
+
+	ruler = {
+		random = {
+			list = {
+				"gfx/models/portraits/dragon/sludge/sludge_hair.dds"
+				"gfx/models/portraits/dragon/sludge/sludge_hair_alt1.dds"
+				"gfx/models/portraits/dragon/sludge/sludge_hair_alt2.dds"
+				"gfx/models/portraits/dragon/sludge/sludge_hair_alt3.dds"
+				"gfx/models/portraits/dragon/sludge/sludge_hair_alt4.dds"
+				"gfx/models/portraits/dragon/sludge/sludge_hair_alt5.dds"
+				"gfx/models/portraits/dragon/sludge/sludge_hair_alt6.dds"
+			}
+		}
+	}
+}
+
 mtrspony_dragon_ember_hair_selector = {
 	default = "gfx/models/portraits/dragon/ember/ember_hair.dds"
 
