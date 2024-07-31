@@ -17,6 +17,7 @@ portraits = {
 			"gfx/models/portraits/dragon/garble/garble_alt8.dds"
 			"gfx/models/portraits/dragon/garble/garble_alt9.dds"
 			"gfx/models/portraits/dragon/garble/garble_alt10.dds"
+			"gfx/models/portraits/dragon/garble/garble_alt11.dds"
 		}
 
 		custom_attachment_label = "HAIR_COLOR"
