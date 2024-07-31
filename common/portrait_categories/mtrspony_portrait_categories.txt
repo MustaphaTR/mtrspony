@@ -6,8 +6,6 @@ mammalians = {
 
 	sets = {
 		MTRSPONY_mammalians
-		mammalians
-		cybernetic_mammalians
 	}
 }
 
@@ -16,8 +14,6 @@ reptilians = {
 
 	sets = {
 		MTRSPONY_reptilians
-		reptilians
-		cybernetic_reptilians
 	}
 }
 
@@ -26,9 +22,6 @@ avians = {
 
 	sets = {
 		MTRSPONY_avians
-		avians
-		cybernetic_avians
-		synthetic_avians
 	}
 }
 
@@ -37,8 +30,5 @@ arthropoids = {
 
 	sets = {
 		MTRSPONY_arthropoids
-		arthropoids
-		cybernetic_arthropoids
-		synthetic_arthropoids
 	}
 }
