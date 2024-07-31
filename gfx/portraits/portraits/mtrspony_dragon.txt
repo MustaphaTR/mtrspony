@@ -36,6 +36,11 @@ portraits = {
 			"gfx/models/portraits/dragon/sludge/sludge_alt4.dds"
 			"gfx/models/portraits/dragon/sludge/sludge_alt5.dds"
 			"gfx/models/portraits/dragon/sludge/sludge_alt6.dds"
+			"gfx/models/portraits/dragon/sludge/sludge_alt7.dds"
+			"gfx/models/portraits/dragon/sludge/sludge_alt8.dds"
+			"gfx/models/portraits/dragon/sludge/sludge_alt9.dds"
+			"gfx/models/portraits/dragon/sludge/sludge_alt10.dds"
+			"gfx/models/portraits/dragon/sludge/sludge_alt11.dds"
 		}
 
 		custom_attachment_label = "HAIR_COLOR"
