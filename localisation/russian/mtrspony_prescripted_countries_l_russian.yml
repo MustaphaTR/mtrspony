@@ -117,6 +117,19 @@
  PRESCRIPTED_ruler_name_silverstream_desc:0 "<insert_desc_here>"
  PRESCRIPTED_ruler_name_silverstream_catch_phrase:0 "§L""§!"
 
+ # Faustian Conglomerate
+ EMPIRE_DESIGN_faustian_conglomerate:0 "Фаустский Конгломерат"
+ # EMPIRE_DESIGN_faustian_conglomerate_desc:0 ""
+ PRESCRIPTED_adjective_faustian_conglomerate:0 "Faustian"
+ PRESCRIPTED_ruler_title_chief_executive_officer:0 "Главный Исполнительный Директор"
+
+ PRESCRIPTED_ship_prefix_faustian_conglomerate:0 "FCS"
+ PRESCRIPTED_ship_name_fcs_current:0 "FCS Current"
+
+ PRESCRIPTED_ruler_name_fickle_current:0 "Фикл Вольтаж"
+ PRESCRIPTED_ruler_name_fickle_current_desc:0 "<insert_desc_here>"
+ PRESCRIPTED_ruler_name_fickle_current_catch_phrase:0 "§L""§!"
+
  # Changeling Space Program
  EMPIRE_DESIGN_changeling_space_program:0 "CSP Remnants"
  EMPIRE_DESIGN_changeling_space_program_desc:0 "Two decades ago, when the Changeling Space Program finally reached the moon, Queen Chrysalis finally showed her true plan for the program. Using the power of the moon, she defeated the Equestrian Princesses, Celestia and Luna, in order to secure her own rule.\n\nBut in the end the move doomed the habitabilty of the planet by killing the pony responsible for its rotation. Stuck in tidal lock, Equus slowly lost its population while the remaning population under Chrysalis' iron hoof tried to find a solution to this problem.\n\nThere hasn't been a concrete solution to the problem as of yet, but with the rapid improvements in space travel, perhaps a new world can be found to live in."

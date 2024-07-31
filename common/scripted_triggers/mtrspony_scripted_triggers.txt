@@ -34,6 +34,32 @@ has_not_megacorps_and_first_contact = {
 	}
 }
 
+has_megacorps_and_toxoids = {
+	optimize_memory
+	host_has_dlc = "Megacorp"
+	host_has_dlc = "Toxoids Species Pack"
+}
+
+has_megacorps_but_not_toxoids = {
+	optimize_memory
+	host_has_dlc = "Megacorp"
+	NOT = { host_has_dlc = "Toxoids Species Pack" }
+}
+
+has_toxoids_but_not_megacorps = {
+	optimize_memory
+	NOT = { host_has_dlc = "Megacorp" }
+	host_has_dlc = "Toxoids Species Pack"
+}
+
+has_not_megacorps_and_toxoids = {
+	optimize_memory
+	NOT = {
+		host_has_dlc = "Megacorp"
+		host_has_dlc = "Toxoids Species Pack"
+	}
+}
+
 is_mtrspony_prescripted_country = {
 	OR = {
 		has_country_flag = convocation_of_creatures

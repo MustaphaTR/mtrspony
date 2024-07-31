@@ -1,0 +1,161 @@
+namespace = fcstart
+
+#Setup Faustian Conglomerate
+country_event = {
+	id = fcstart.1
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		has_country_flag = faustian_conglomerate
+	}
+	immediate = {
+		create_leader = {
+			name = "PRESCRIPTED_ruler_name_fickle_current"
+			custom_description = "PRESCRIPTED_ruler_name_fickle_current_desc"
+			species = ROOT.species
+			gender = male
+			class = official
+			skill = 2
+			set_age = 56
+			background_job = "politician"
+			background_ethic = "ethic_materialist"
+			randomize_traits = no
+			traits = {
+				trait = leader_trait_principled
+				trait = leader_trait_entrepreneur
+			}
+
+			effect = {
+				save_global_event_target_as = leader_fickle_current
+				set_leader_flag = is_created_leader
+				change_leader_portrait = "mtrspony_kirin_fickle_current_predefined"
+				ROOT = { assign_leader = event_target:leader_fickle_current }
+			}
+		}
+
+		create_pony_species = yes
+		event_target:pony_species = {
+			set_citizenship_type = { country = ROOT type = citizenship_full }
+			set_military_service_type = { country = ROOT type = military_service_full }
+		}
+		create_griffon_species = yes
+		event_target:griffon_species = {
+			set_citizenship_type = { country = ROOT type = citizenship_full }
+			set_military_service_type = { country = ROOT type = military_service_full }
+		}
+		create_hippogriff_species = yes
+		event_target:hippogriff_species = {
+			set_citizenship_type = { country = ROOT type = citizenship_full }
+			set_military_service_type = { country = ROOT type = military_service_full }
+		}
+		create_dragon_species = yes
+		event_target:dragon_species = {
+			set_citizenship_type = { country = ROOT type = citizenship_full }
+			set_military_service_type = { country = ROOT type = military_service_full }
+		}
+		create_changeling_species = yes
+		event_target:changeling_species = {
+			set_citizenship_type = { country = ROOT type = citizenship_full }
+			set_military_service_type = { country = ROOT type = military_service_full }
+		}
+		create_zebra_species = yes
+		event_target:zebra_species = {
+			set_citizenship_type = { country = ROOT type = citizenship_full }
+			set_military_service_type = { country = ROOT type = military_service_full }
+		}
+
+		capital_scope = {
+			while = {
+				count = 20
+
+				random_owned_pop = { kill_pop = yes }
+			}
+			while = {
+				count = 8
+
+				create_pop = {
+					species = event_target:pony_species
+					ethos = random
+				}
+			}
+			while = {
+				count = 5
+
+				create_pop = {
+					species = event_target:griffon_species
+					ethos = random
+				}
+			}
+			while = {
+				count = 1
+
+				create_pop = {
+					species = event_target:hippogriff_species
+					ethos = random
+				}
+			}
+			while = {
+				count = 1
+
+				create_pop = {
+					species = event_target:dragon_species
+					ethos = random
+				}
+			}
+			while = {
+				count = 2
+
+				create_pop = {
+					species = event_target:changeling_species
+					ethos = random
+				}
+			}
+			while = {
+				count = 3
+
+				create_pop = {
+					species = event_target:zebra_species
+					ethos = random
+				}
+			}
+		}
+
+		# Custom names for starting ships.
+		random_owned_ship = {
+			limit = {
+				is_ship_size = corvette
+			}
+			set_name = "PRESCRIPTED_ship_name_fcs_current"
+		}
+
+		# Remove the auto-generated Fickle Voltage.
+		random_owned_leader = {
+			limit = {
+				NOT = { has_leader_flag = is_created_leader }
+				has_trait = leader_trait_principled
+			}
+
+			kill_leader = {
+				show_notification = no
+				fire = yes
+			}
+		}
+	}
+}
+
+# Reapply named character potraits, they seem to reset after loading a save or when species got modified.
+country_event = {
+	id = fcstart.2
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		has_country_flag = revolutionary_faust
+	}
+	immediate = {
+		event_target:leader_fickle_current = {
+			change_leader_portrait = "mtrspony_kirin_fickle_current_predefined"
+		}
+	}
+}

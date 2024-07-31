@@ -28,6 +28,7 @@ mtrspony_kirin_pumpkin_smoke_male_hair_selector = {
 				"gfx/models/portraits/kirin/pumpkin_smoke_male/pumpkin_smoke_male_hair_alt11.dds"
 				"gfx/models/portraits/kirin/pumpkin_smoke_male/pumpkin_smoke_male_hair_alt12.dds"
 				"gfx/models/portraits/kirin/pumpkin_smoke_male/pumpkin_smoke_male_hair_alt13.dds"
+				"gfx/models/portraits/kirin/pumpkin_smoke_male/pumpkin_smoke_male_hair_alt14.dds"
 			}
 		}
 	}
@@ -49,6 +50,7 @@ mtrspony_kirin_pumpkin_smoke_male_hair_selector = {
 				"gfx/models/portraits/kirin/pumpkin_smoke_male/pumpkin_smoke_male_hair_alt11.dds"
 				"gfx/models/portraits/kirin/pumpkin_smoke_male/pumpkin_smoke_male_hair_alt12.dds"
 				"gfx/models/portraits/kirin/pumpkin_smoke_male/pumpkin_smoke_male_hair_alt13.dds"
+				"gfx/models/portraits/kirin/pumpkin_smoke_male/pumpkin_smoke_male_hair_alt14.dds"
 			}
 		}
 	}
@@ -70,9 +72,20 @@ mtrspony_kirin_pumpkin_smoke_male_hair_selector = {
 				"gfx/models/portraits/kirin/pumpkin_smoke_male/pumpkin_smoke_male_hair_alt11.dds"
 				"gfx/models/portraits/kirin/pumpkin_smoke_male/pumpkin_smoke_male_hair_alt12.dds"
 				"gfx/models/portraits/kirin/pumpkin_smoke_male/pumpkin_smoke_male_hair_alt13.dds"
+				"gfx/models/portraits/kirin/pumpkin_smoke_male/pumpkin_smoke_male_hair_alt14.dds"
 			}
 		}
 	}
+}
+
+mtrspony_kirin_fickle_current_predefined_hair_selector = {
+	default = "gfx/models/portraits/kirin/pumpkin_smoke_male/pumpkin_smoke_male_hair_alt14.dds"
+
+	game_setup = { default = "gfx/models/portraits/kirin/pumpkin_smoke_male/pumpkin_smoke_male_hair_alt14.dds" }
+	species = { default = "gfx/models/portraits/kirin/pumpkin_smoke_male/pumpkin_smoke_male_hair_alt14.dds" }
+	pop = { default = "gfx/models/portraits/kirin/pumpkin_smoke_male/pumpkin_smoke_male_hair_alt14.dds" }
+	leader = { default = "gfx/models/portraits/kirin/pumpkin_smoke_male/pumpkin_smoke_male_hair_alt14.dds" }
+	ruler = { default = "gfx/models/portraits/kirin/pumpkin_smoke_male/pumpkin_smoke_male_hair_alt14.dds" }
 }
 
 mtrspony_kirin_rain_shine_hair_selector = {
@@ -194,26 +207,6 @@ mtrspony_kirin_rain_shine_clothes_selector = {
 			}
 		}
 	}
-}
-
-mtrspony_kirin_fickle_current_predefined_hair_selector = {
-	default = "gfx/models/portraits/kirin/rain_shine/rain_shine_hair_alt6.dds"
-
-	game_setup = { default = "gfx/models/portraits/kirin/rain_shine/rain_shine_hair_alt6.dds" }
-	species = { default = "gfx/models/portraits/kirin/rain_shine/rain_shine_hair_alt6.dds" }
-	pop = { default = "gfx/models/portraits/kirin/rain_shine/rain_shine_hair_alt6.dds" }
-	leader = { default = "gfx/models/portraits/kirin/rain_shine/rain_shine_hair_alt6.dds" }
-	ruler = { default = "gfx/models/portraits/kirin/rain_shine/rain_shine_hair_alt6.dds" }
-}
-
-mtrspony_kirin_fickle_current_predefined_clothes_selector = {
-	default = "gfx/models/portraits/kirin/rain_shine/rain_shine_crown_alt3.dds"
-
-	game_setup = { default = "gfx/models/portraits/kirin/rain_shine/rain_shine_crown_alt3.dds" }
-	species = { default = "gfx/models/portraits/kirin/rain_shine/rain_shine_crown_alt3.dds" }
-	pop = { default = "gfx/models/portraits/kirin/rain_shine/rain_shine_crown_alt3.dds" }
-	leader = { default = "gfx/models/portraits/kirin/rain_shine/rain_shine_crown_alt3.dds" }
-	ruler = { default = "gfx/models/portraits/kirin/rain_shine/rain_shine_crown_alt3.dds" }
 }
 
 mtrspony_kirin_autumn_blaze_hair_selector = {

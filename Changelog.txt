@@ -64,5 +64,9 @@
 -- If the player has Gigastructural Engineering mod as well, an event now appears at the start to optionally replace the portraits used by Faust Civilisations pre-FTL country, if they are enabled at the first place.
 
 - Version 0.2.2 (..2024):
+-- Added Faustian Conglomerate prescripted country.
+--- This includes a flag and a background as well.
+-- Added more color options to a few portraits (Pumpkin Smoke).
 -- Added one more male dragon portrait set, based on Sludge.
 -- Fixed mod duplicating basegame portraits for the categories that it adds portraits for.
+-- Fixed named character portrait reset workaround not running for Revolutionary Faust.

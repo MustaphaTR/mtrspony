@@ -738,6 +738,306 @@ revolutionary_faust_megacorps_first_contact = {
 	}
 }
 
+faustian_conglomerate = {
+	name = "EMPIRE_DESIGN_faustian_conglomerate"
+	adjective = "PRESCRIPTED_adjective_faustian_conglomerate"
+	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
+
+	playable = has_not_megacorps_and_toxoids # Corporate authority is from Megacorps DLC, Relentless Industrialists is from Toxoids DLC.
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_faustian_conglomerate"
+
+	species = {
+		class = "MAM"
+		portrait = "mtrspony_kirin"
+		name = "PRESCRIPTED_species_kirin"
+		plural = "PRESCRIPTED_species_plural_kirin"
+		adjective = "PRESCRIPTED_species_adjective_kirin"
+		name_list = "mtrspony_namelists_kirin"
+		trait = "trait_agrarian"
+		trait = "trait_natural_engineers"
+		trait = "trait_wasteful"
+	}
+
+	room = "default_room"
+
+	authority = "auth_oligarchic"
+	civics = { "civic_corporate_dominion" "civic_corvee_system" }
+	government = gov_megacorporation
+
+	ethic = "ethic_authoritarian"
+	ethic = "ethic_pacifist"
+	ethic = "ethic_materialist"
+
+	origin = "origin_default"
+
+	flags = { faustian_conglomerate }
+
+	planet_name = "NAME_Faust"
+	planet_class = "pc_continental"
+	initializer = "eaw_vanilla_initializer"
+	system_name = "NAME_Behemoth"
+
+	graphical_culture = mammalian_01
+	city_graphical_culture = mammalian_01
+
+	empire_flag = {
+		icon= {
+			category = "eqsatwarzebra4"
+			file = "KIR2.dds"
+		}
+		background= {
+			category = "backgrounds"
+			file = "kiria.dds"
+		}
+		colors={
+			"red_orange"
+			"intense_blue"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_fickle_current"
+		ruler_title = "PRESCRIPTED_ruler_title_chief_executive_officer"
+		ruler_title_female = "PRESCRIPTED_ruler_title_chief_executive_officer"
+		gender = male
+		portrait = "mtrspony_kirin_pumpkin_smoke_male"
+		texture = 13
+		attachment = 14
+		clothes = 0
+		trait = "leader_trait_principled"
+		leader_class = official
+	}
+}
+
+faustian_conglomerate_megacorps = {
+	name = "EMPIRE_DESIGN_faustian_conglomerate"
+	adjective = "PRESCRIPTED_adjective_faustian_conglomerate"
+	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
+
+	playable = has_megacorps_but_not_toxoids # Corporate authority is from Megacorps DLC, Relentless Industrialists is from Toxoids DLC.
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_faustian_conglomerate"
+
+	species = {
+		class = "MAM"
+		portrait = "mtrspony_kirin"
+		name = "PRESCRIPTED_species_kirin"
+		plural = "PRESCRIPTED_species_plural_kirin"
+		adjective = "PRESCRIPTED_species_adjective_kirin"
+		name_list = "mtrspony_namelists_kirin"
+		trait = "trait_agrarian"
+		trait = "trait_natural_engineers"
+		trait = "trait_wasteful"
+	}
+
+	room = "default_room"
+
+	authority = "auth_corporate"
+	civics = { "civic_ruthless_competition" "civic_free_traders" }
+	government = gov_megacorporation
+
+	ethic = "ethic_authoritarian"
+	ethic = "ethic_pacifist"
+	ethic = "ethic_materialist"
+
+	origin = "origin_default"
+
+	flags = { faustian_conglomerate }
+
+	planet_name = "NAME_Faust"
+	planet_class = "pc_continental"
+	initializer = "eaw_vanilla_initializer"
+	system_name = "NAME_Behemoth"
+
+	graphical_culture = mammalian_01
+	city_graphical_culture = mammalian_01
+
+	empire_flag = {
+		icon= {
+			category = "eqsatwarzebra4"
+			file = "KIR2.dds"
+		}
+		background= {
+			category = "backgrounds"
+			file = "kiria.dds"
+		}
+		colors={
+			"red_orange"
+			"intense_blue"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_fickle_current"
+		ruler_title = "PRESCRIPTED_ruler_title_chief_executive_officer"
+		ruler_title_female = "PRESCRIPTED_ruler_title_chief_executive_officer"
+		gender = male
+		portrait = "mtrspony_kirin_pumpkin_smoke_male"
+		texture = 13
+		attachment = 14
+		clothes = 0
+		trait = "leader_trait_principled"
+		leader_class = official
+	}
+}
+
+faustian_conglomerate_toxoids = {
+	name = "EMPIRE_DESIGN_faustian_conglomerate"
+	adjective = "PRESCRIPTED_adjective_faustian_conglomerate"
+	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
+
+	playable = has_toxoids_but_not_megacorps # Corporate authority is from Megacorps DLC, Relentless Industrialists is from Toxoids DLC.
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_faustian_conglomerate"
+
+	species = {
+		class = "MAM"
+		portrait = "mtrspony_kirin"
+		name = "PRESCRIPTED_species_kirin"
+		plural = "PRESCRIPTED_species_plural_kirin"
+		adjective = "PRESCRIPTED_species_adjective_kirin"
+		name_list = "mtrspony_namelists_kirin"
+		trait = "trait_agrarian"
+		trait = "trait_natural_engineers"
+		trait = "trait_wasteful"
+	}
+
+	room = "default_room"
+
+	authority = "auth_oligarchic"
+	civics = { "civic_corporate_dominion" "civic_relentless_industrialists" }
+	government = gov_megacorporation
+
+	ethic = "ethic_authoritarian"
+	ethic = "ethic_pacifist"
+	ethic = "ethic_materialist"
+
+	origin = "origin_default"
+
+	flags = { faustian_conglomerate }
+
+	planet_name = "NAME_Faust"
+	planet_class = "pc_continental"
+	initializer = "eaw_vanilla_initializer"
+	system_name = "NAME_Behemoth"
+
+	graphical_culture = mammalian_01
+	city_graphical_culture = mammalian_01
+
+	empire_flag = {
+		icon= {
+			category = "eqsatwarzebra4"
+			file = "KIR2.dds"
+		}
+		background= {
+			category = "backgrounds"
+			file = "kiria.dds"
+		}
+		colors={
+			"red_orange"
+			"intense_blue"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_fickle_current"
+		ruler_title = "PRESCRIPTED_ruler_title_chief_executive_officer"
+		ruler_title_female = "PRESCRIPTED_ruler_title_chief_executive_officer"
+		gender = male
+		portrait = "mtrspony_kirin_pumpkin_smoke_male"
+		texture = 13
+		attachment = 14
+		clothes = 0
+		trait = "leader_trait_principled"
+		leader_class = official
+	}
+}
+
+faustian_conglomerate_megacorps_toxoids = {
+	name = "EMPIRE_DESIGN_faustian_conglomerate"
+	adjective = "PRESCRIPTED_adjective_faustian_conglomerate"
+	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
+
+	playable = has_megacorps_and_toxoids # Corporate authority is from Megacorps DLC, Relentless Industrialists is from Toxoids DLC.
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_faustian_conglomerate"
+
+	species = {
+		class = "MAM"
+		portrait = "mtrspony_kirin"
+		name = "PRESCRIPTED_species_kirin"
+		plural = "PRESCRIPTED_species_plural_kirin"
+		adjective = "PRESCRIPTED_species_adjective_kirin"
+		name_list = "mtrspony_namelists_kirin"
+		trait = "trait_agrarian"
+		trait = "trait_natural_engineers"
+		trait = "trait_wasteful"
+	}
+
+	room = "default_room"
+
+	authority = "auth_corporate"
+	civics = { "civic_ruthless_competition" "civic_corporate_relentless_industrialists" }
+	government = gov_megacorporation
+
+	ethic = "ethic_authoritarian"
+	ethic = "ethic_pacifist"
+	ethic = "ethic_materialist"
+
+	origin = "origin_default"
+
+	flags = { faustian_conglomerate }
+
+	planet_name = "NAME_Faust"
+	planet_class = "pc_continental"
+	initializer = "eaw_vanilla_initializer"
+	system_name = "NAME_Behemoth"
+
+	graphical_culture = mammalian_01
+	city_graphical_culture = mammalian_01
+
+	empire_flag = {
+		icon= {
+			category = "eqsatwarzebra4"
+			file = "KIR2.dds"
+		}
+		background= {
+			category = "backgrounds"
+			file = "kiria.dds"
+		}
+		colors={
+			"red_orange"
+			"intense_blue"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_fickle_current"
+		ruler_title = "PRESCRIPTED_ruler_title_chief_executive_officer"
+		ruler_title_female = "PRESCRIPTED_ruler_title_chief_executive_officer"
+		gender = male
+		portrait = "mtrspony_kirin_pumpkin_smoke_male"
+		texture = 13
+		attachment = 14
+		clothes = 0
+		trait = "leader_trait_principled"
+		leader_class = official
+	}
+}
+
 changeling_space_program = {
 	name = "EMPIRE_DESIGN_changeling_space_program"
 	adjective = "PRESCRIPTED_adjective_changeling_space_program"

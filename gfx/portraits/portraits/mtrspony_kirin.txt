@@ -19,9 +19,21 @@ portraits = {
 			"gfx/models/portraits/kirin/pumpkin_smoke_male/pumpkin_smoke_male_alt10.dds"
 			"gfx/models/portraits/kirin/pumpkin_smoke_male/pumpkin_smoke_male_alt11.dds"
 			"gfx/models/portraits/kirin/pumpkin_smoke_male/pumpkin_smoke_male_alt12.dds"
+			"gfx/models/portraits/kirin/pumpkin_smoke_male/pumpkin_smoke_male_alt13.dds"
 		}
 
 		custom_attachment_label = "HAIR_COLOR"
+	}
+
+	mtrspony_kirin_fickle_current_predefined = {
+		entity = "portrait_dummy_15p_left_entity"
+		clothes_selector = "mtrspony_no_clothes_selector"
+		attachment_selector = "mtrspony_kirin_fickle_current_predefined_hair_selector"
+		greeting_sound = "human_male_greetings_01"
+
+		character_textures = {
+			"gfx/models/portraits/kirin/pumpkin_smoke_male/pumpkin_smoke_male_alt13.dds"
+		}
 	}
 
 	mtrspony_kirin_rain_shine = {
@@ -47,17 +59,6 @@ portraits = {
 		}
 
 		custom_attachment_label = "HAIR_COLOR"
-	}
-
-	mtrspony_kirin_fickle_current_predefined = {
-		entity = "portrait_dummy_15p_left_entity"
-		clothes_selector = "mtrspony_kirin_fickle_current_predefined_clothes_selector"
-		attachment_selector = "mtrspony_kirin_fickle_current_predefined_hair_selector"
-		greeting_sound = "human_female_greetings_01"
-
-		character_textures = {
-			"gfx/models/portraits/kirin/rain_shine/rain_shine_alt2.dds"
-		}
 	}
 
 	mtrspony_kirin_autumn_blaze = {
