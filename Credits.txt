@@ -48,6 +48,9 @@ Portrait Bases:
 	- Autumn Blaze
 	- Sludge
 
+ > jaye:
+	- Trixie
+
  > lightningbolt:
 	- Zecora
 

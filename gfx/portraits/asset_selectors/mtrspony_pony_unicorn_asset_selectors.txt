@@ -960,6 +960,100 @@ mtrspony_pony_unicorn_starlight_glimmer_equalist_hair_selector = {
 	}
 }
 
+mtrspony_pony_unicorn_trixie_hair_selector = {
+	default = "gfx/models/portraits/pony_unicorn/trixie/trixie_hair.dds"
+
+	game_setup = {
+		default = "gfx/models/portraits/pony_unicorn/trixie/trixie_hair.dds"
+	}
+
+	species = {
+		default = "gfx/models/portraits/pony_unicorn/trixie/trixie_hair.dds"
+	}
+
+	pop = {
+		default = "gfx/models/portraits/pony_unicorn/trixie/trixie_hair.dds"
+
+		random = {
+			list = {
+				"gfx/models/portraits/pony_unicorn/trixie/trixie_hair.dds"
+				"gfx/models/portraits/pony_unicorn/trixie/trixie_hair_alt1.dds"
+				"gfx/models/portraits/pony_unicorn/trixie/trixie_hair_alt2.dds"
+				"gfx/models/portraits/pony_unicorn/trixie/trixie_hair_alt3.dds"
+			}
+		}
+	}
+
+	leader = {
+		random = {
+			list = {
+				"gfx/models/portraits/pony_unicorn/trixie/trixie_hair.dds"
+				"gfx/models/portraits/pony_unicorn/trixie/trixie_hair_alt1.dds"
+				"gfx/models/portraits/pony_unicorn/trixie/trixie_hair_alt2.dds"
+				"gfx/models/portraits/pony_unicorn/trixie/trixie_hair_alt3.dds"
+			}
+		}
+	}
+
+	ruler = {
+		random = {
+			list = {
+				"gfx/models/portraits/pony_unicorn/trixie/trixie_hair.dds"
+				"gfx/models/portraits/pony_unicorn/trixie/trixie_hair_alt1.dds"
+				"gfx/models/portraits/pony_unicorn/trixie/trixie_hair_alt2.dds"
+				"gfx/models/portraits/pony_unicorn/trixie/trixie_hair_alt3.dds"
+			}
+		}
+	}
+}
+
+mtrspony_pony_unicorn_trixie_clothes_selector = {
+	default = "gfx/models/portraits/pony_unicorn/trixie/trixie_cape.dds"
+
+	game_setup = {
+		default = "gfx/models/portraits/pony_unicorn/trixie/trixie_cape.dds"
+	}
+
+	species = {
+		default = "gfx/models/portraits/pony_unicorn/trixie/trixie_cape.dds"
+	}
+
+	pop = {
+		default = "gfx/models/portraits/pony_unicorn/trixie/trixie_cape.dds"
+
+		random = {
+			list = {
+				"gfx/models/portraits/pony_unicorn/trixie/trixie_cape.dds"
+				"gfx/models/portraits/pony_unicorn/trixie/trixie_cape_alt1.dds"
+				"gfx/models/portraits/pony_unicorn/trixie/trixie_cape_alt2.dds"
+				"gfx/models/portraits/pony_unicorn/trixie/trixie_cape_alt3.dds"
+			}
+		}
+	}
+
+	leader = {
+		random = {
+			list = {
+				"gfx/models/portraits/pony_unicorn/trixie/trixie_cape.dds"
+				"gfx/models/portraits/pony_unicorn/trixie/trixie_cape_alt1.dds"
+				"gfx/models/portraits/pony_unicorn/trixie/trixie_cape_alt2.dds"
+				"gfx/models/portraits/pony_unicorn/trixie/trixie_cape_alt3.dds"
+			}
+		}
+	}
+
+	ruler = {
+		random = {
+			list = {
+				"gfx/models/portraits/pony_unicorn/trixie/trixie_cape.dds"
+				"gfx/models/portraits/pony_unicorn/trixie/trixie_cape_alt1.dds"
+				"gfx/models/portraits/pony_unicorn/trixie/trixie_cape_alt2.dds"
+				"gfx/models/portraits/pony_unicorn/trixie/trixie_cape_alt3.dds"
+			}
+		}
+	}
+}
+
 mtrspony_pony_unicorn_sweetie_belle_older_hair_selector = {
 	default = "gfx/models/portraits/pony_unicorn/sweetie_belle_older/sweetie_belle_older_hair.dds"
 
