@@ -99,3 +99,4 @@ Planets:
 Systems:
  > Elowniy:
 	- Behemoth
+	- Faust

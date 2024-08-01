@@ -1,6 +1,6 @@
 ﻿l_russian:
  eaw_vanilla_initializer_NAME:0 "Система Бегемот"
- eaw_vanilla_initializer_DESC:0 "The Equestria at War system, complete with the small sun and moon."
+ eaw_vanilla_initializer_DESC:0 "Older version of the Equestria at War system from Gigastructural Engineering, complete with the small sun and moon.\n\n$system_initializer_DESC$"
 
  NAME_Faust:0 "Фауст"
  NAME_Behemoth:0 "Бегемот"
@@ -11,6 +11,16 @@
  NAME_Gasarvis:0 "Гасарвис"
  NAME_Deenope:0 "Динопа"
  NAME_Rolemia:0 "Ролемия"
+
+ eawaf_vanilla_initializer_NAME:0 "Система Фауст"
+ eawaf_vanilla_initializer_DESC:0 "Current version of the Equestria at War system from Gigastructural Engineering, complete with the small sun and moon.\n\n$system_initializer_DESC$"
+
+ NAME_Arcturius:0 "Арктурия"
+ NAME_Boreas:0 "Борея"
+ NAME_Eyr:0 "Эйр"
+ NAME_Cyrus:0 "Куруш"
+ NAME_Vasily:0 "Василий"
+ NAME_Flake:0 "Флэйк"
 
  csp_system_initializer_NAME:0 "Солнечн. система (CSP)"
  csp_system_initializer_DESC:0 "The system from the fanfic Changeling Space Program.\n\n$system_initializer_DESC$"

@@ -5,7 +5,15 @@ eaw_vanilla_initializer = {
 	name = "NAME_Behemoth"
 	class = "sc_t"
 
+	usage = custom_empire
 	usage_odds = 0
+
+	flags = { eaw_system }
+
+	asteroid_belt = {
+		type = crystal_asteroid_belt
+		radius = 45
+	}
 
 	init_effect = {
 		every_neighbor_system = {
@@ -15,15 +23,6 @@ eaw_vanilla_initializer = {
 			}
 		}
 	}
-	
-	asteroid_belt = {
-		type = crystal_asteroid_belt
-		radius = 45
-	}
-
-	flags = { eaw_system }
-
-	usage = custom_empire
 	
 	planet = {
 		name = "NAME_Behemoth"
@@ -142,6 +141,164 @@ eaw_vanilla_initializer = {
 		orbit_angle = 150
 		size = 24
 		has_ring = yes
+	}
+}
+
+eawaf_vanilla_initializer = {
+	name = "NAME_Faust"
+	class = "sc_g"
+
+	usage = custom_empire
+	usage_odds = 0
+
+	flags = { eaw_system eawaf_system }
+
+	asteroid_belt = {
+		type = crystal_asteroid_belt
+		radius = 45
+	}
+
+	init_effect = {
+		every_neighbor_system = {
+			set_star_flag = empire_cluster
+			every_neighbor_system = {
+				set_star_flag = empire_cluster
+			}
+		}
+	}
+
+	planet = {
+		name = "NAME_Faust"
+		class = pc_giga_empty_space
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 28
+		has_ring = no
+	}
+
+	planet = {
+		name = "NAME_Faust"
+		class = "pc_continental"
+		orbit_distance = 1
+		orbit_angle = 240
+		size = 25
+		has_ring = no
+		entity = "mtrspony_faust_planet_entity"
+		modifiers = none
+		starting_planet = yes
+
+		init_effect = {
+			prevent_anomaly = yes
+			set_planet_flag = giga_eawaf_planet
+			save_global_event_target_as = giga_eawaf_planet
+		}
+	}
+
+	planet = {
+		name = "NAME_Selene"
+		class = "pc_barren_cold"
+		size = 7
+		orbit_distance = 15
+		orbit_angle = 90
+		has_ring = no
+
+		init_effect = {
+			set_planet_flag = giga_eawaf_moon
+			save_global_event_target_as = giga_eawaf_moon
+		}
+	}
+
+	planet = {
+		name = "NAME_Helios"
+		class = "pc_g_star"
+		size = 3
+		orbit_distance = 0
+		orbit_angle = 180
+		has_ring = no
+	
+		init_effect = {
+			save_global_event_target_as = giga_eawaf_sun
+			prevent_anomaly = yes
+			clear_deposits = yes
+			set_planet_flag = has_megastructure #nooo more SPA
+			set_planet_flag = megastructure
+			set_planet_flag = giga_eawaf_sun
+			add_deposit = d_physics_10
+			add_deposit = d_physics_10
+		}
+	}
+
+	planet = {
+		name = "NAME_Arcturius"
+		class = "pc_rare_crystal_asteroid"
+		orbit_distance = 30
+		orbit_angle = 90
+		size = 2
+		has_ring = no
+		init_effect = {
+			set_planet_flag = giga_eawaf_asteroid
+			clear_deposits = yes
+			add_deposit = d_rare_crystals_1
+		}
+	}
+
+	planet = {
+		name = "NAME_Boreas"
+		class = "pc_rare_crystal_asteroid"
+		orbit_distance = 0
+		orbit_angle = 120
+		size = 2
+		has_ring = no
+		init_effect = {
+			set_planet_flag = giga_eawaf_asteroid
+			clear_deposits = yes
+			add_deposit = d_rare_crystals_1
+		}
+	}
+
+	planet = {
+		name = "NAME_Eyr"
+		class = "pc_rare_crystal_asteroid"
+		orbit_distance = 0
+		orbit_angle = 120
+		size = 2
+		has_ring = no
+		init_effect = {
+			set_planet_flag = giga_eawaf_asteroid
+			clear_deposits = yes
+			add_deposit = d_minerals_3
+		}
+	}
+
+	planet = {
+		name = "NAME_Cyrus"
+		class = "pc_barren_cold"
+		orbit_distance = 30
+		orbit_angle = 90
+		size = 7
+		has_ring = no
+	}
+
+	planet = {
+		name = "NAME_Vasily"
+		class = "pc_barren"
+		orbit_distance = 30
+		orbit_angle = 60
+		size = 10
+		has_ring = yes
+	}
+
+	planet = {
+		name = "NAME_Flake"
+		class = "pc_frozen"
+		orbit_distance = 30
+		orbit_angle = 150
+		size = 4
+		has_ring = yes
+	}
+
+	init_effect = {
+		save_global_event_target_as = giga_eawaf_system
 	}
 }
 

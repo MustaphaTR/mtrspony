@@ -68,5 +68,6 @@
 --- This includes a flag and a background as well.
 -- Added more color options to a few portraits (Garble, Pumpkin Smoke).
 -- Added one more male dragon portrait set, based on Sludge.
+-- Added the updated version of the Faust System from Gigastructural Engineering as a selectable system option. The older one is still the default for the prescripted countries though.
 -- Fixed mod duplicating basegame portraits for the categories that it adds portraits for.
 -- Fixed named character portrait reset workaround not running for Revolutionary Faust.
