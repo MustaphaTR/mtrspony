@@ -236,6 +236,8 @@ portraits = {
 			"gfx/models/portraits/pony_unicorn/trixie/trixie_alt1.dds"
 			"gfx/models/portraits/pony_unicorn/trixie/trixie_alt2.dds"
 			"gfx/models/portraits/pony_unicorn/trixie/trixie_alt3.dds"
+			"gfx/models/portraits/pony_unicorn/trixie/trixie_alt4.dds"
+			"gfx/models/portraits/pony_unicorn/trixie/trixie_alt5.dds"
 		}
 
 		custom_attachment_label = "HAIR_COLOR"

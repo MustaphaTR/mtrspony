@@ -980,6 +980,8 @@ mtrspony_pony_unicorn_trixie_hair_selector = {
 				"gfx/models/portraits/pony_unicorn/trixie/trixie_hair_alt1.dds"
 				"gfx/models/portraits/pony_unicorn/trixie/trixie_hair_alt2.dds"
 				"gfx/models/portraits/pony_unicorn/trixie/trixie_hair_alt3.dds"
+				"gfx/models/portraits/pony_unicorn/trixie/trixie_hair_alt4.dds"
+				"gfx/models/portraits/pony_unicorn/trixie/trixie_hair_alt5.dds"
 			}
 		}
 	}
@@ -991,6 +993,8 @@ mtrspony_pony_unicorn_trixie_hair_selector = {
 				"gfx/models/portraits/pony_unicorn/trixie/trixie_hair_alt1.dds"
 				"gfx/models/portraits/pony_unicorn/trixie/trixie_hair_alt2.dds"
 				"gfx/models/portraits/pony_unicorn/trixie/trixie_hair_alt3.dds"
+				"gfx/models/portraits/pony_unicorn/trixie/trixie_hair_alt4.dds"
+				"gfx/models/portraits/pony_unicorn/trixie/trixie_hair_alt5.dds"
 			}
 		}
 	}
@@ -1002,6 +1006,8 @@ mtrspony_pony_unicorn_trixie_hair_selector = {
 				"gfx/models/portraits/pony_unicorn/trixie/trixie_hair_alt1.dds"
 				"gfx/models/portraits/pony_unicorn/trixie/trixie_hair_alt2.dds"
 				"gfx/models/portraits/pony_unicorn/trixie/trixie_hair_alt3.dds"
+				"gfx/models/portraits/pony_unicorn/trixie/trixie_hair_alt4.dds"
+				"gfx/models/portraits/pony_unicorn/trixie/trixie_hair_alt5.dds"
 			}
 		}
 	}
@@ -1027,6 +1033,8 @@ mtrspony_pony_unicorn_trixie_clothes_selector = {
 				"gfx/models/portraits/pony_unicorn/trixie/trixie_cape_alt1.dds"
 				"gfx/models/portraits/pony_unicorn/trixie/trixie_cape_alt2.dds"
 				"gfx/models/portraits/pony_unicorn/trixie/trixie_cape_alt3.dds"
+				"gfx/models/portraits/pony_unicorn/trixie/trixie_cape_alt4.dds"
+				"gfx/models/portraits/pony_unicorn/trixie/trixie_cape_alt5.dds"
 			}
 		}
 	}
@@ -1038,6 +1046,8 @@ mtrspony_pony_unicorn_trixie_clothes_selector = {
 				"gfx/models/portraits/pony_unicorn/trixie/trixie_cape_alt1.dds"
 				"gfx/models/portraits/pony_unicorn/trixie/trixie_cape_alt2.dds"
 				"gfx/models/portraits/pony_unicorn/trixie/trixie_cape_alt3.dds"
+				"gfx/models/portraits/pony_unicorn/trixie/trixie_cape_alt4.dds"
+				"gfx/models/portraits/pony_unicorn/trixie/trixie_cape_alt5.dds"
 			}
 		}
 	}
@@ -1049,6 +1059,8 @@ mtrspony_pony_unicorn_trixie_clothes_selector = {
 				"gfx/models/portraits/pony_unicorn/trixie/trixie_cape_alt1.dds"
 				"gfx/models/portraits/pony_unicorn/trixie/trixie_cape_alt2.dds"
 				"gfx/models/portraits/pony_unicorn/trixie/trixie_cape_alt3.dds"
+				"gfx/models/portraits/pony_unicorn/trixie/trixie_cape_alt4.dds"
+				"gfx/models/portraits/pony_unicorn/trixie/trixie_cape_alt5.dds"
 			}
 		}
 	}
