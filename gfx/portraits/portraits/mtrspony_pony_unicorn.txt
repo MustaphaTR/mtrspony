@@ -238,6 +238,13 @@ portraits = {
 			"gfx/models/portraits/pony_unicorn/trixie/trixie_alt3.dds"
 			"gfx/models/portraits/pony_unicorn/trixie/trixie_alt4.dds"
 			"gfx/models/portraits/pony_unicorn/trixie/trixie_alt5.dds"
+			"gfx/models/portraits/pony_unicorn/trixie/trixie_alt6.dds"
+			"gfx/models/portraits/pony_unicorn/trixie/trixie_alt7.dds"
+			"gfx/models/portraits/pony_unicorn/trixie/trixie_alt8.dds"
+			"gfx/models/portraits/pony_unicorn/trixie/trixie_alt9.dds"
+			"gfx/models/portraits/pony_unicorn/trixie/trixie_alt10.dds"
+			"gfx/models/portraits/pony_unicorn/trixie/trixie_alt11.dds"
+			"gfx/models/portraits/pony_unicorn/trixie/trixie_alt12.dds"
 		}
 
 		custom_attachment_label = "HAIR_COLOR"
