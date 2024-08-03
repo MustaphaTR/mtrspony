@@ -63,7 +63,7 @@
 -- Added Yeti namelist.
 -- If the player has Gigastructural Engineering mod as well, an event now appears at the start to optionally replace the portraits used by Faust Civilisations pre-FTL country, if they are enabled at the first place.
 
-- Version 0.2.2 (..2024):
+- Version 0.2.2 (02.08.2024):
 -- Added Faustian Conglomerate prescripted country.
 --- This includes a flag and a background as well.
 -- Added more color options to a few portraits (Garble, Pumpkin Smoke).
