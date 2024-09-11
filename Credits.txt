@@ -82,6 +82,9 @@ Portrait Bases:
 	- Alicorn Apple Bloom
 	- Luna
 
+ > ready2fail:
+	- Spitfire
+
  > thatusualguy06:
 	- Older Sweetie Belle
 

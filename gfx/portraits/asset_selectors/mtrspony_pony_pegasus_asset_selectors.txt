@@ -71,7 +71,7 @@ mtrspony_pony_pegasus_soarin_hair_selector = {
 				"gfx/models/portraits/pony_pegasus/soarin/soarin_hair_alt12.dds"
 				"gfx/models/portraits/pony_pegasus/soarin/soarin_hair_alt13.dds"
 			}
-		}		
+		}
 	}
 }
 
@@ -190,7 +190,305 @@ mtrspony_pony_pegasus_mr_shy_hair_selector = {
 				"gfx/models/portraits/pony_pegasus/mr_shy/mr_shy_hair_no_moustache_alt12.dds"
 				"gfx/models/portraits/pony_pegasus/mr_shy/mr_shy_hair_no_moustache_alt13.dds"
 			}
-		}		
+		}
+	}
+}
+
+mtrspony_pony_pegasus_spitfire_hair_selector = {
+	default = "gfx/models/portraits/pony_pegasus/spitfire/spitfire_hair.dds"
+
+	game_setup = {
+		default = "gfx/models/portraits/pony_pegasus/spitfire/spitfire_hair.dds"
+	}
+
+	species = {
+		default = "gfx/models/portraits/pony_pegasus/spitfire/spitfire_hair.dds"
+	}
+
+	pop = {
+		default = "gfx/models/portraits/pony_pegasus/spitfire/spitfire_hair.dds"
+
+		random = {
+			list = {
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_hair.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_hair_alt1.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_hair_alt2.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_hair_alt3.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_hair_alt4.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_hair_alt5.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_hair_alt6.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_hair_alt7.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_hair_alt8.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_hair_alt9.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_hair_alt10.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_hair_alt11.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_hair_alt12.dds"
+			}
+		}	
+	}
+
+	leader = {
+		random = {
+			list = {
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_hair.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_hair_alt1.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_hair_alt2.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_hair_alt3.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_hair_alt4.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_hair_alt5.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_hair_alt6.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_hair_alt7.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_hair_alt8.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_hair_alt9.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_hair_alt10.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_hair_alt11.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_hair_alt12.dds"
+			}
+		}
+	}
+
+	ruler = {
+		random = {
+			list = {
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_hair.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_hair_alt1.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_hair_alt2.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_hair_alt3.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_hair_alt4.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_hair_alt5.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_hair_alt6.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_hair_alt7.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_hair_alt8.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_hair_alt9.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_hair_alt10.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_hair_alt11.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_hair_alt12.dds"
+			}
+		}
+	}
+}
+
+mtrspony_pony_pegasus_spitfire_clothes_selector = {
+	default = "gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_civilian_glasses.dds"
+
+	game_setup = {
+		default = "gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_civilian_glasses.dds"
+	}
+
+	species = {
+		default = "gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_civilian_glasses.dds"
+	}
+
+	pop = {
+		default = "gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_civilian_glasses.dds"
+
+		random = {
+			trigger = { pop_has_miltary_job = no }
+			list = {
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_civilian_glasses.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_civilian_glasses_alt1.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_civilian_glasses_alt2.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_civilian_glasses_alt3.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_civilian_glasses_alt4.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_civilian_glasses_alt5.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_civilian_glasses_alt6.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_civilian_glasses_alt7.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_civilian_glasses_alt8.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_civilian_glasses_alt9.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_civilian_glasses_alt10.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_civilian_glasses_alt11.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_civilian_glasses_alt12.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_civilian_glasses_alt13.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_civilian.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_civilian_alt1.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_civilian_alt2.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_civilian_alt3.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_civilian_alt4.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_civilian_alt5.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_civilian_alt6.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_civilian_alt7.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_civilian_alt8.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_civilian_alt9.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_civilian_alt10.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_civilian_alt11.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_civilian_alt12.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_civilian_alt13.dds"
+			}
+		}
+
+		random = {
+			trigger = { pop_has_miltary_job = yes }
+			list = {
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_military_glasses.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_military_glasses_alt1.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_military_glasses_alt2.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_military_glasses_alt3.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_military_glasses_alt4.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_military_glasses_alt5.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_military_glasses_alt6.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_military_glasses_alt7.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_military_glasses_alt8.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_military_glasses_alt9.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_military_glasses_alt10.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_military_glasses_alt11.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_military_glasses_alt12.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_military_glasses_alt13.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_military.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_military_alt1.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_military_alt2.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_military_alt3.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_military_alt4.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_military_alt5.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_military_alt6.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_military_alt7.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_military_alt8.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_military_alt9.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_military_alt10.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_military_alt11.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_military_alt12.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_military_alt13.dds"
+			}
+		}
+	}
+
+	leader = {
+		random = {
+			trigger = { is_commander_class = no }
+			list = {
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_civilian_glasses.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_civilian_glasses_alt1.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_civilian_glasses_alt2.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_civilian_glasses_alt3.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_civilian_glasses_alt4.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_civilian_glasses_alt5.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_civilian_glasses_alt6.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_civilian_glasses_alt7.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_civilian_glasses_alt8.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_civilian_glasses_alt9.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_civilian_glasses_alt10.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_civilian_glasses_alt11.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_civilian_glasses_alt12.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_civilian_glasses_alt13.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_civilian.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_civilian_alt1.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_civilian_alt2.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_civilian_alt3.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_civilian_alt4.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_civilian_alt5.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_civilian_alt6.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_civilian_alt7.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_civilian_alt8.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_civilian_alt9.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_civilian_alt10.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_civilian_alt11.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_civilian_alt12.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_civilian_alt13.dds"
+			}
+		}
+
+		random = {
+			trigger = { is_commander_class = yes }
+			list = {
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_military_glasses.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_military_glasses_alt1.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_military_glasses_alt2.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_military_glasses_alt3.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_military_glasses_alt4.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_military_glasses_alt5.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_military_glasses_alt6.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_military_glasses_alt7.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_military_glasses_alt8.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_military_glasses_alt9.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_military_glasses_alt10.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_military_glasses_alt11.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_military_glasses_alt12.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_military_glasses_alt13.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_military.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_military_alt1.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_military_alt2.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_military_alt3.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_military_alt4.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_military_alt5.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_military_alt6.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_military_alt7.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_military_alt8.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_military_alt9.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_military_alt10.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_military_alt11.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_military_alt12.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_military_alt13.dds"
+			}
+		}
+	}
+
+	ruler = {
+		random = {
+			trigger = { is_commander_class = no }
+			list = {
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_civilian_glasses.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_civilian_glasses_alt1.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_civilian_glasses_alt2.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_civilian_glasses_alt3.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_civilian_glasses_alt4.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_civilian_glasses_alt5.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_civilian_glasses_alt6.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_civilian_glasses_alt7.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_civilian_glasses_alt8.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_civilian_glasses_alt9.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_civilian_glasses_alt10.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_civilian_glasses_alt11.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_civilian_glasses_alt12.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_civilian_glasses_alt13.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_civilian.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_civilian_alt1.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_civilian_alt2.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_civilian_alt3.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_civilian_alt4.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_civilian_alt5.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_civilian_alt6.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_civilian_alt7.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_civilian_alt8.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_civilian_alt9.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_civilian_alt10.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_civilian_alt11.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_civilian_alt12.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_civilian_alt13.dds"
+			}
+		}
+
+		random = {
+			trigger = { is_commander_class = yes }
+			list = {
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_military_glasses.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_military_glasses_alt1.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_military_glasses_alt2.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_military_glasses_alt3.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_military_glasses_alt4.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_military_glasses_alt5.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_military_glasses_alt6.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_military_glasses_alt7.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_military_glasses_alt8.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_military_glasses_alt9.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_military_glasses_alt10.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_military_glasses_alt11.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_military_glasses_alt12.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_military_glasses_alt13.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_military.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_military_alt1.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_military_alt2.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_military_alt3.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_military_alt4.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_military_alt5.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_military_alt6.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_military_alt7.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_military_alt8.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_military_alt9.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_military_alt10.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_military_alt11.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_military_alt12.dds"
+				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_military_alt13.dds"
+			}
+		}
 	}
 }
 
@@ -267,7 +565,7 @@ mtrspony_pony_pegasus_mrs_shy_hair_selector = {
 				"gfx/models/portraits/pony_pegasus/mrs_shy/mrs_shy_hair_alt12.dds"
 				"gfx/models/portraits/pony_pegasus/mrs_shy/mrs_shy_hair_alt13.dds"
 			}
-		}		
+		}
 	}
 }
 
@@ -344,7 +642,7 @@ mtrspony_pony_pegasus_fluttershy_hair_selector = {
 				"gfx/models/portraits/pony_pegasus/fluttershy/fluttershy_hair_alt12.dds"
 				"gfx/models/portraits/pony_pegasus/fluttershy/fluttershy_hair_alt13.dds"
 			}
-		}		
+		}
 	}
 }
 
@@ -431,6 +729,6 @@ mtrspony_pony_pegasus_scootaloo_hair_selector = {
 				"gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_hair_alt12.dds"
 				"gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_hair_alt13.dds"
 			}
-		}		
+		}
 	}
 }

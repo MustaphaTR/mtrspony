@@ -1,3 +1,4 @@
+# DLC Checks
 has_not_necroids = {
 	optimize_memory
 	NOT = { host_has_dlc = "Necroids Species Pack" }
@@ -60,6 +61,39 @@ has_not_megacorps_and_toxoids = {
 	}
 }
 
+# Portrait Checks
+pop_has_miltary_job = {
+	OR = {
+		has_job = knight_commander
+		has_job = enforcer
+		has_job = telepath
+		has_job = duelist
+		has_job = knight
+		has_job = soldier
+		has_job = battle_thrall
+		has_job = patrol_drone
+		has_job = warrior_drone
+		has_job = primitive_warrior
+		has_job = primitive_warrior_2
+		has_job = primitive_hive_warrior
+		has_job = primitive_hive_warrior_2
+		has_job = stasis_warden
+		has_job = stasis_warden_drone
+		has_job = fe_guardian_bot
+		has_job = fe_protector
+		has_job = overlord_recruiter
+		has_job = overlord_recruiter_drone
+		has_job = overlord_knight
+		has_job = overlord_knight_drone
+		has_job = low_tech_warrior
+	}
+}
+
+is_commander_class = {
+	leader_class = commander
+}
+
+# Others
 is_mtrspony_prescripted_country = {
 	OR = {
 		has_country_flag = convocation_of_creatures
