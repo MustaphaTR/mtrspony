@@ -18,6 +18,7 @@ Portrait Bases:
 	- Ember
 	- Gallus
 	- Gilda
+	- Pinkie Pie
 	- Thorax
 
  > durpy:

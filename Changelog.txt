@@ -75,3 +75,4 @@
 
 - Version 0.2.3 (.09.2024):
 -- Added one more female pegasus portrait set, based on Spitfire.
+-- Added one more female earth pony portrait set, based on Pinkie Pie.

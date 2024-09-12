@@ -50,7 +50,7 @@ portraits = {
 	}
 
 	mtrspony_pony_earth_igneous_rock_pie = {
-		entity = "portrait_dummy_15p_left_entity"
+		entity = "portrait_dummy_15p_left_95p_scale_entity"
 		clothes_selector = "mtrspony_pony_earth_igneous_rock_pie_clothes_selector"
 		attachment_selector = "mtrspony_pony_earth_igneous_rock_pie_hair_selector"
 		greeting_sound = "human_male_greetings_01"
@@ -76,7 +76,7 @@ portraits = {
 	}
 
 	mtrspony_pony_earth_jungle_trek_predefined = {
-		entity = "portrait_dummy_15p_left_entity"
+		entity = "portrait_dummy_15p_left_95p_scale_entity"
 		clothes_selector = "mtrspony_no_clothes_selector"
 		attachment_selector = "mtrspony_pony_earth_jungle_trek_predefined_hair_selector"
 		greeting_sound = "human_male_greetings_01"
@@ -87,7 +87,7 @@ portraits = {
 	}
 
 	mtrspony_pony_earth_arclight_predefined = {
-		entity = "portrait_dummy_15p_left_entity"
+		entity = "portrait_dummy_15p_left_95p_scale_entity"
 		clothes_selector = "mtrspony_pony_earth_arclight_predefined_clothes_selector"
 		attachment_selector = "mtrspony_pony_earth_arclight_predefined_hair_selector"
 		greeting_sound = "human_male_greetings_01"
@@ -124,6 +124,32 @@ portraits = {
 		custom_attachment_label = "HAIR_COLOR"
 	}
 
+	mtrspony_pony_earth_pinkie_pie = {
+		entity = "portrait_dummy_10p_left_entity"
+		clothes_selector = "mtrspony_no_clothes_selector"
+		attachment_selector = "mtrspony_pony_earth_pinkie_pie_hair_selector"
+		greeting_sound = "human_female_greetings_01"
+
+		character_textures = {
+			"gfx/models/portraits/pony_earth/pinkie_pie/pinkie_pie.dds"
+			"gfx/models/portraits/pony_earth/pinkie_pie/pinkie_pie_alt1.dds"
+			"gfx/models/portraits/pony_earth/pinkie_pie/pinkie_pie_alt2.dds"
+			"gfx/models/portraits/pony_earth/pinkie_pie/pinkie_pie_alt3.dds"
+			"gfx/models/portraits/pony_earth/pinkie_pie/pinkie_pie_alt4.dds"
+			"gfx/models/portraits/pony_earth/pinkie_pie/pinkie_pie_alt5.dds"
+			"gfx/models/portraits/pony_earth/pinkie_pie/pinkie_pie_alt6.dds"
+			"gfx/models/portraits/pony_earth/pinkie_pie/pinkie_pie_alt7.dds"
+			"gfx/models/portraits/pony_earth/pinkie_pie/pinkie_pie_alt8.dds"
+			"gfx/models/portraits/pony_earth/pinkie_pie/pinkie_pie_alt9.dds"
+			"gfx/models/portraits/pony_earth/pinkie_pie/pinkie_pie_alt10.dds"
+			"gfx/models/portraits/pony_earth/pinkie_pie/pinkie_pie_alt11.dds"
+			"gfx/models/portraits/pony_earth/pinkie_pie/pinkie_pie_alt12.dds"
+			"gfx/models/portraits/pony_earth/pinkie_pie/pinkie_pie_alt13.dds"
+		}
+
+		custom_attachment_label = "HAIR_COLOR"
+	}
+
 	mtrspony_pony_earth_maud_pie = {
 		entity = "portrait_dummy_15p_left_entity"
 		clothes_selector = "mtrspony_pony_earth_maud_pie_clothes_selector"
@@ -150,17 +176,6 @@ portraits = {
 		custom_attachment_label = "HAIR_COLOR"
 	}
 
-	mtrspony_pony_earth_babs_seed_predefined = {
-		entity = "portrait_dummy_15p_left_entity"
-		clothes_selector = "mtrspony_no_clothes_selector"
-		attachment_selector = "mtrspony_pony_earth_babs_seed_predefined_hair_selector"
-		greeting_sound = "human_female_greetings_01"
-
-		character_textures = {
-			"gfx/models/portraits/pony_earth/babs_seed/babs_seed.dds"
-		}
-	}
-
 	mtrspony_pony_earth_babs_seed = {
 		entity = "portrait_dummy_15p_left_entity"
 		clothes_selector = "mtrspony_no_clothes_selector"
@@ -185,6 +200,17 @@ portraits = {
 		}
 
 		custom_attachment_label = "HAIR_COLOR"
+	}
+
+	mtrspony_pony_earth_babs_seed_predefined = {
+		entity = "portrait_dummy_15p_left_entity"
+		clothes_selector = "mtrspony_no_clothes_selector"
+		attachment_selector = "mtrspony_pony_earth_babs_seed_predefined_hair_selector"
+		greeting_sound = "human_female_greetings_01"
+
+		character_textures = {
+			"gfx/models/portraits/pony_earth/babs_seed/babs_seed.dds"
+		}
 	}
 
 	mtrspony_pony_earth_cherry_berry_predefined = {
@@ -229,6 +255,7 @@ portrait_groups = {
 					}
 				}
 				portraits = {
+					mtrspony_pony_earth_pinkie_pie
 					mtrspony_pony_earth_maud_pie
 					mtrspony_pony_earth_babs_seed
 				}
@@ -242,6 +269,7 @@ portrait_groups = {
 					NOT = { species = { species_gender = male } }
 				}
 				portraits = {
+					mtrspony_pony_earth_pinkie_pie
 					mtrspony_pony_earth_maud_pie
 					mtrspony_pony_earth_babs_seed
 				}
@@ -266,6 +294,7 @@ portrait_groups = {
 					NOT = { species = { species_gender = male } }
 				}
 				portraits = {
+					mtrspony_pony_earth_pinkie_pie
 					mtrspony_pony_earth_maud_pie
 					mtrspony_pony_earth_babs_seed
 				}
@@ -307,6 +336,7 @@ portrait_groups = {
 					}
 				}
 				portraits = {
+					mtrspony_pony_earth_pinkie_pie
 					mtrspony_pony_earth_maud_pie
 					mtrspony_pony_earth_babs_seed
 				}
