@@ -73,6 +73,6 @@
 -- Fixed mod duplicating basegame portraits for the categories that it adds portraits for.
 -- Fixed named character portrait reset workaround not running for Revolutionary Faust.
 
-- Version 0.2.3 (.09.2024):
+- Version 0.2.3 (12.09.2024):
 -- Added one more female pegasus portrait set, based on Spitfire.
 -- Added one more female earth pony portrait set, based on Pinkie Pie.
