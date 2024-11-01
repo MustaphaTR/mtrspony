@@ -51,6 +51,7 @@ portrait_groups = {
 					mtrspony_pony_pegasus_spitfire
 					mtrspony_pony_pegasus_mrs_shy
 					mtrspony_pony_pegasus_fluttershy
+					mtrspony_pony_pegasus_rainbow_dash
 					mtrspony_pony_pegasus_scootaloo
 					mtrspony_pony_alicorn_celestia
 					mtrspony_pony_alicorn_luna
@@ -79,6 +80,7 @@ portrait_groups = {
 					mtrspony_pony_pegasus_spitfire
 					mtrspony_pony_pegasus_mrs_shy
 					mtrspony_pony_pegasus_fluttershy
+					mtrspony_pony_pegasus_rainbow_dash
 					mtrspony_pony_pegasus_scootaloo
 					mtrspony_pony_alicorn_celestia
 					mtrspony_pony_alicorn_luna
@@ -124,6 +126,7 @@ portrait_groups = {
 					mtrspony_pony_pegasus_spitfire
 					mtrspony_pony_pegasus_mrs_shy
 					mtrspony_pony_pegasus_fluttershy
+					mtrspony_pony_pegasus_rainbow_dash
 					mtrspony_pony_pegasus_scootaloo
 					mtrspony_pony_alicorn_celestia
 					mtrspony_pony_alicorn_luna
@@ -192,6 +195,7 @@ portrait_groups = {
 					mtrspony_pony_pegasus_spitfire
 					mtrspony_pony_pegasus_mrs_shy
 					mtrspony_pony_pegasus_fluttershy
+					mtrspony_pony_pegasus_rainbow_dash
 					mtrspony_pony_pegasus_scootaloo
 					mtrspony_pony_alicorn_celestia
 					mtrspony_pony_alicorn_luna

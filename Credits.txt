@@ -45,6 +45,9 @@ Portrait Bases:
  > fruft:
 	- Gourmand Ramsay
 
+ > geometrymathalgebra:
+	- Rainbow Dash
+
  > hendro107:
 	- Autumn Blaze
 	- Sludge

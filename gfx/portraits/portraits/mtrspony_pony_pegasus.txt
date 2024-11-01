@@ -123,6 +123,32 @@ portraits = {
 		custom_attachment_label = "HAIR_COLOR"
 	}
 
+	mtrspony_pony_pegasus_rainbow_dash = {
+		entity = "portrait_dummy_15p_left_entity"
+		clothes_selector = "mtrspony_no_clothes_selector"
+		attachment_selector = "mtrspony_pony_pegasus_rainbow_dash_hair_selector"
+		greeting_sound = "human_female_greetings_01"
+
+		character_textures = {
+			"gfx/models/portraits/pony_pegasus/rainbow_dash/rainbow_dash.dds"
+			"gfx/models/portraits/pony_pegasus/rainbow_dash/rainbow_dash_alt1.dds"
+			"gfx/models/portraits/pony_pegasus/rainbow_dash/rainbow_dash_alt2.dds"
+			"gfx/models/portraits/pony_pegasus/rainbow_dash/rainbow_dash_alt3.dds"
+			"gfx/models/portraits/pony_pegasus/rainbow_dash/rainbow_dash_alt4.dds"
+			"gfx/models/portraits/pony_pegasus/rainbow_dash/rainbow_dash_alt5.dds"
+			"gfx/models/portraits/pony_pegasus/rainbow_dash/rainbow_dash_alt6.dds"
+			"gfx/models/portraits/pony_pegasus/rainbow_dash/rainbow_dash_alt7.dds"
+			"gfx/models/portraits/pony_pegasus/rainbow_dash/rainbow_dash_alt8.dds"
+			"gfx/models/portraits/pony_pegasus/rainbow_dash/rainbow_dash_alt9.dds"
+			"gfx/models/portraits/pony_pegasus/rainbow_dash/rainbow_dash_alt10.dds"
+			"gfx/models/portraits/pony_pegasus/rainbow_dash/rainbow_dash_alt11.dds"
+			"gfx/models/portraits/pony_pegasus/rainbow_dash/rainbow_dash_alt12.dds"
+			"gfx/models/portraits/pony_pegasus/rainbow_dash/rainbow_dash_alt13.dds"
+		}
+
+		custom_attachment_label = "HAIR_COLOR"
+	}
+
 	mtrspony_pony_pegasus_scootaloo_predefined = {
 		entity = "portrait_dummy_20p_left_entity"
 		clothes_selector = "mtrspony_no_clothes_selector"
@@ -191,6 +217,7 @@ portrait_groups = {
 					mtrspony_pony_pegasus_spitfire
 					mtrspony_pony_pegasus_mrs_shy
 					mtrspony_pony_pegasus_fluttershy
+					mtrspony_pony_pegasus_rainbow_dash
 					mtrspony_pony_pegasus_scootaloo
 				}
 			}
@@ -206,6 +233,7 @@ portrait_groups = {
 					mtrspony_pony_pegasus_spitfire
 					mtrspony_pony_pegasus_mrs_shy
 					mtrspony_pony_pegasus_fluttershy
+					mtrspony_pony_pegasus_rainbow_dash
 					mtrspony_pony_pegasus_scootaloo
 				}
 			}
@@ -230,6 +258,7 @@ portrait_groups = {
 					mtrspony_pony_pegasus_spitfire
 					mtrspony_pony_pegasus_mrs_shy
 					mtrspony_pony_pegasus_fluttershy
+					mtrspony_pony_pegasus_rainbow_dash
 					mtrspony_pony_pegasus_scootaloo
 				}
 			}
@@ -269,6 +298,7 @@ portrait_groups = {
 					mtrspony_pony_pegasus_spitfire
 					mtrspony_pony_pegasus_mrs_shy
 					mtrspony_pony_pegasus_fluttershy
+					mtrspony_pony_pegasus_rainbow_dash
 					mtrspony_pony_pegasus_scootaloo
 				}
 			}
