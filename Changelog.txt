@@ -79,3 +79,4 @@
 
 - Version 0.2.4 (02.11.2024):
 -- Added one more female pegasus portrait set, based on Rainbow Dash.
+-- Added one more female earth pony portrait set, based on Applejack.

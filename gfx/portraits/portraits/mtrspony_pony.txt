@@ -38,6 +38,7 @@ portrait_groups = {
 					}
 				}
 				portraits = {
+					mtrspony_pony_earth_applejack
 					mtrspony_pony_earth_pinkie_pie
 					mtrspony_pony_earth_maud_pie
 					mtrspony_pony_earth_babs_seed
@@ -67,6 +68,7 @@ portrait_groups = {
 					NOT = { species = { species_gender = male } }
 				}
 				portraits = {
+					mtrspony_pony_earth_applejack
 					mtrspony_pony_earth_pinkie_pie
 					mtrspony_pony_earth_maud_pie
 					mtrspony_pony_earth_babs_seed
@@ -113,6 +115,7 @@ portrait_groups = {
 					NOT = { species = { species_gender = male } }
 				}
 				portraits = {
+					mtrspony_pony_earth_applejack
 					mtrspony_pony_earth_pinkie_pie
 					mtrspony_pony_earth_maud_pie
 					mtrspony_pony_earth_babs_seed
@@ -182,6 +185,7 @@ portrait_groups = {
 					}
 				}
 				portraits = {
+					mtrspony_pony_earth_applejack
 					mtrspony_pony_earth_pinkie_pie
 					mtrspony_pony_earth_maud_pie
 					mtrspony_pony_earth_babs_seed

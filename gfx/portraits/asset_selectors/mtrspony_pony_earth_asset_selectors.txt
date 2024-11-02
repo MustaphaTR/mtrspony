@@ -499,6 +499,199 @@ mtrspony_pony_earth_button_mash_clothes_selector = {
 	}
 }
 
+mtrspony_pony_earth_applejack_hair_selector = {
+	default = "gfx/models/portraits/pony_earth/applejack/applejack_hair.dds"
+
+	game_setup = {
+		default = "gfx/models/portraits/pony_earth/applejack/applejack_hair.dds"
+	}
+
+	species = {
+		default = "gfx/models/portraits/pony_earth/applejack/applejack_hair.dds"
+	}
+
+	pop = {
+		default = "gfx/models/portraits/pony_earth/applejack/applejack_hair.dds"
+
+		random = {
+			list = {
+				"gfx/models/portraits/pony_earth/applejack/applejack_hair.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hair_alt1.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hair_alt2.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hair_alt3.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hair_alt4.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hair_alt5.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hair_alt6.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hair_alt7.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hair_alt8.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hair_alt9.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hair_alt10.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hair_alt11.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hair_alt12.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hair_alt13.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hair_alt14.dds"
+			}
+		}	
+	}
+
+	leader = {
+		random = {
+			list = {
+				"gfx/models/portraits/pony_earth/applejack/applejack_hair.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hair_alt1.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hair_alt2.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hair_alt3.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hair_alt4.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hair_alt5.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hair_alt6.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hair_alt7.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hair_alt8.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hair_alt9.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hair_alt10.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hair_alt11.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hair_alt12.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hair_alt13.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hair_alt14.dds"
+			}
+		}		
+	}
+
+	ruler = {
+		random = {
+			list = {
+				"gfx/models/portraits/pony_earth/applejack/applejack_hair.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hair_alt1.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hair_alt2.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hair_alt3.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hair_alt4.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hair_alt5.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hair_alt6.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hair_alt7.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hair_alt8.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hair_alt9.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hair_alt10.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hair_alt11.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hair_alt12.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hair_alt13.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hair_alt14.dds"
+			}
+		}		
+	}
+}
+
+mtrspony_pony_earth_applejack_clothes_selector = {
+	default = "gfx/models/portraits/pony_earth/applejack/applejack_hairclip_hat.dds"
+
+	game_setup = {
+		default = "gfx/models/portraits/pony_earth/applejack/applejack_hairclip_hat.dds"
+	}
+
+	species = {
+		default = "gfx/models/portraits/pony_earth/applejack/applejack_hairclip_hat.dds"
+	}
+
+	pop = {
+		default = "gfx/models/portraits/pony_earth/applejack/applejack_hairclip_hat.dds"
+
+		random = {
+			list = {
+				"gfx/models/portraits/pony_earth/applejack/applejack_hairclip_hat.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hairclip_hat_alt1.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hairclip_hat_alt2.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hairclip_hat_alt3.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hairclip_hat_alt4.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hairclip_hat_alt5.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hairclip_hat_alt6.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hairclip_hat_alt7.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hairclip_hat_alt8.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hairclip_hat_alt9.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hairclip_hat_alt10.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hairclip_hat_alt11.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hairclip_hat_alt12.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hairclip.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hairclip_alt1.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hairclip_alt2.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hairclip_alt3.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hairclip_alt4.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hairclip_alt5.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hairclip_alt6.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hairclip_alt7.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hairclip_alt8.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hairclip_alt9.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hairclip_alt10.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hairclip_alt11.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hairclip_alt12.dds"
+			}
+		}	
+	}
+
+	leader = {
+		random = {
+			list = {
+				"gfx/models/portraits/pony_earth/applejack/applejack_hairclip_hat.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hairclip_hat_alt1.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hairclip_hat_alt2.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hairclip_hat_alt3.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hairclip_hat_alt4.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hairclip_hat_alt5.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hairclip_hat_alt6.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hairclip_hat_alt7.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hairclip_hat_alt8.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hairclip_hat_alt9.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hairclip_hat_alt10.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hairclip_hat_alt11.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hairclip_hat_alt12.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hairclip.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hairclip_alt1.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hairclip_alt2.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hairclip_alt3.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hairclip_alt4.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hairclip_alt5.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hairclip_alt6.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hairclip_alt7.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hairclip_alt8.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hairclip_alt9.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hairclip_alt10.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hairclip_alt11.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hairclip_alt12.dds"
+			}
+		}		
+	}
+
+	ruler = {
+		random = {
+			list = {
+				"gfx/models/portraits/pony_earth/applejack/applejack_hairclip_hat.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hairclip_hat_alt1.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hairclip_hat_alt2.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hairclip_hat_alt3.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hairclip_hat_alt4.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hairclip_hat_alt5.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hairclip_hat_alt6.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hairclip_hat_alt7.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hairclip_hat_alt8.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hairclip_hat_alt9.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hairclip_hat_alt10.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hairclip_hat_alt11.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hairclip_hat_alt12.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hairclip.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hairclip_alt1.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hairclip_alt2.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hairclip_alt3.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hairclip_alt4.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hairclip_alt5.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hairclip_alt6.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hairclip_alt7.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hairclip_alt8.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hairclip_alt9.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hairclip_alt10.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hairclip_alt11.dds"
+				"gfx/models/portraits/pony_earth/applejack/applejack_hairclip_alt12.dds"
+			}
+		}		
+	}
+}
+
 mtrspony_pony_earth_pinkie_pie_hair_selector = {
 	default = "gfx/models/portraits/pony_earth/pinkie_pie/pinkie_pie_hair.dds"
 
