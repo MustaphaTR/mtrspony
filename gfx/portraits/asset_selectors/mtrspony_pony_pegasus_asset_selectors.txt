@@ -726,6 +726,163 @@ mtrspony_pony_pegasus_rainbow_dash_hair_selector = {
 	}
 }
 
+mtrspony_pony_pegasus_cozy_glow_older_hair_selector = {
+	default = "gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_hair.dds"
+
+	game_setup = {
+		default = "gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_hair.dds"
+	}
+
+	species = {
+		default = "gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_hair.dds"
+	}
+
+	pop = {
+		default = "gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_hair.dds"
+
+		random = {
+			list = {
+				"gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_hair.dds"
+				"gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_hair_alt1.dds"
+				"gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_hair_alt2.dds"
+				"gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_hair_alt3.dds"
+				"gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_hair_alt4.dds"
+				"gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_hair_alt5.dds"
+				"gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_hair_alt6.dds"
+				"gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_hair_alt7.dds"
+				"gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_hair_alt8.dds"
+				"gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_hair_alt9.dds"
+				"gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_hair_alt10.dds"
+				"gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_hair_alt11.dds"
+				"gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_hair_alt12.dds"
+				"gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_hair_alt13.dds"
+			}
+		}	
+	}
+
+	leader = {
+		random = {
+			list = {
+				"gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_hair.dds"
+				"gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_hair_alt1.dds"
+				"gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_hair_alt2.dds"
+				"gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_hair_alt3.dds"
+				"gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_hair_alt4.dds"
+				"gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_hair_alt5.dds"
+				"gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_hair_alt6.dds"
+				"gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_hair_alt7.dds"
+				"gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_hair_alt8.dds"
+				"gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_hair_alt9.dds"
+				"gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_hair_alt10.dds"
+				"gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_hair_alt11.dds"
+				"gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_hair_alt12.dds"
+				"gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_hair_alt13.dds"
+			}
+		}
+	}
+
+	ruler = {
+		random = {
+			list = {
+				"gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_hair.dds"
+				"gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_hair_alt1.dds"
+				"gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_hair_alt2.dds"
+				"gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_hair_alt3.dds"
+				"gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_hair_alt4.dds"
+				"gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_hair_alt5.dds"
+				"gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_hair_alt6.dds"
+				"gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_hair_alt7.dds"
+				"gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_hair_alt8.dds"
+				"gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_hair_alt9.dds"
+				"gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_hair_alt10.dds"
+				"gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_hair_alt11.dds"
+				"gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_hair_alt12.dds"
+				"gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_hair_alt13.dds"
+			}
+		}
+	}
+}
+
+mtrspony_pony_pegasus_cozy_glow_older_clothes_selector = {
+	default = "gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_bows.dds"
+
+	game_setup = {
+		default = "gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_bows.dds"
+	}
+
+	species = {
+		default = "gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_bows.dds"
+	}
+
+	pop = {
+		default = "gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_bows.dds"
+
+		random = {
+			list = {
+				"gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_bows.dds"
+				"gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_bows_alt1.dds"
+				"gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_bows_alt2.dds"
+				"gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_bows_alt3.dds"
+				"gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_bows_alt4.dds"
+				"gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_bows_alt5.dds"
+				"gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_bows_alt6.dds"
+				"gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_bows_alt7.dds"
+				"gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_bows_alt8.dds"
+				"gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_bows_alt9.dds"
+				"gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_bows_alt10.dds"
+				"gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_bows_alt11.dds"
+				"gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_bows_alt12.dds"
+				"gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_bows_alt13.dds"
+				"gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_bows_alt14.dds"
+			}
+		}	
+	}
+
+	leader = {
+		random = {
+			list = {
+				"gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_bows.dds"
+				"gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_bows_alt1.dds"
+				"gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_bows_alt2.dds"
+				"gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_bows_alt3.dds"
+				"gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_bows_alt4.dds"
+				"gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_bows_alt5.dds"
+				"gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_bows_alt6.dds"
+				"gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_bows_alt7.dds"
+				"gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_bows_alt8.dds"
+				"gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_bows_alt9.dds"
+				"gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_bows_alt10.dds"
+				"gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_bows_alt11.dds"
+				"gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_bows_alt12.dds"
+				"gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_bows_alt13.dds"
+				"gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_bows_alt14.dds"
+			}
+		}
+	}
+
+	ruler = {
+		random = {
+			list = {
+				"gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_bows.dds"
+				"gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_bows_alt1.dds"
+				"gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_bows_alt2.dds"
+				"gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_bows_alt3.dds"
+				"gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_bows_alt4.dds"
+				"gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_bows_alt5.dds"
+				"gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_bows_alt6.dds"
+				"gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_bows_alt7.dds"
+				"gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_bows_alt8.dds"
+				"gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_bows_alt9.dds"
+				"gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_bows_alt10.dds"
+				"gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_bows_alt11.dds"
+				"gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_bows_alt12.dds"
+				"gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_bows_alt13.dds"
+				"gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_bows_alt14.dds"
+			}
+		}
+	}
+}
+
 mtrspony_pony_pegasus_scootaloo_predefined_hair_selector = {
 	default = "gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_hair.dds"
 

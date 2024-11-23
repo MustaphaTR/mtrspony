@@ -90,6 +90,9 @@ Portrait Bases:
  > ready2fail:
 	- Spitfire
 
+ > suramii:
+	- Older Cozy Glow
+
  > thatusualguy06:
 	- Older Sweetie Belle
 

@@ -81,3 +81,7 @@
 -- Added one more female pegasus portrait set, based on Rainbow Dash.
 -- Added one more female earth pony portrait set, based on Applejack.
 -- Added more color options to a portrait (Big McIntosh).
+
+- Version 0.2.5 (23.11.2024):
+-- Added one more female pegasus portrait set, based on Cozy Glow.
+-- Added more color options to a portrait (Sunburst).
