@@ -883,14 +883,24 @@ mtrspony_pony_pegasus_cozy_glow_older_clothes_selector = {
 	}
 }
 
-mtrspony_pony_pegasus_scootaloo_predefined_hair_selector = {
-	default = "gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_hair.dds"
+mtrspony_pony_pegasus_cozy_glow_older_predefined_hair_selector = {
+	default = "gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_hair.dds"
 
-	game_setup = { default = "gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_hair.dds" }
-	species = { default = "gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_hair.dds" }
-	pop = { default = "gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_hair.dds" }
-	leader = { default = "gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_hair.dds" }
-	ruler = { default = "gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_hair.dds" }
+	game_setup = { default = "gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_hair.dds" }
+	species = { default = "gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_hair.dds" }
+	pop = { default = "gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_hair.dds" }
+	leader = { default = "gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_hair.dds" }
+	ruler = { default = "gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_hair.dds" }
+}
+
+mtrspony_pony_pegasus_cozy_glow_older_predefined_clothes_selector = {
+	default = "gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_bows.dds"
+
+	game_setup = { default = "gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_bows.dds" }
+	species = { default = "gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_bows.dds" }
+	pop = { default = "gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_bows.dds" }
+	leader = { default = "gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_bows.dds" }
+	ruler = { default = "gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_bows.dds" }
 }
 
 mtrspony_pony_pegasus_scootaloo_hair_selector = {
@@ -968,4 +978,14 @@ mtrspony_pony_pegasus_scootaloo_hair_selector = {
 			}
 		}
 	}
+}
+
+mtrspony_pony_pegasus_scootaloo_predefined_hair_selector = {
+	default = "gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_hair.dds"
+
+	game_setup = { default = "gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_hair.dds" }
+	species = { default = "gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_hair.dds" }
+	pop = { default = "gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_hair.dds" }
+	leader = { default = "gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_hair.dds" }
+	ruler = { default = "gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_hair.dds" }
 }

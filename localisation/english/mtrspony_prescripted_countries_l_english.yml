@@ -68,6 +68,18 @@
  PRESCRIPTED_ruler_name_gabby_desc:0 "<insert_desc_here>"
  PRESCRIPTED_ruler_name_gabby_catch_phrase:0 "§L""§!"
 
+ # Empire of Friendship
+ EMPIRE_DESIGN_empire_of_friendship:0 "Empire of Friendship"
+ # EMPIRE_DESIGN_empire_of_friendship_desc:0 ""
+ PRESCRIPTED_adjective_empire_of_friendship:0 "Friend"
+ PRESCRIPTED_ruler_title_emperor:0 "Emperor"
+ PRESCRIPTED_ruler_title_empress:0 "Empress"
+ PRESCRIPTED_ship_prefix_empire_of_friendship:0 "ISS"
+
+ PRESCRIPTED_ruler_name_cozy_glow:0 "Cozy Glow"
+ PRESCRIPTED_ruler_name_cozy_glow_desc:0 "<insert_desc_here>"
+ PRESCRIPTED_ruler_name_cozy_glow_catch_phrase:0 "§L""§!"
+
  # Griffonian Empire
  EMPIRE_DESIGN_griffonian_empire:0 "Griffonian Empire"
  # EMPIRE_DESIGN_griffonian_empire_desc:0 ""

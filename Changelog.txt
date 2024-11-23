@@ -83,5 +83,7 @@
 -- Added more color options to a portrait (Big McIntosh).
 
 - Version 0.2.5 (23.11.2024):
+-- Added Empire of Friendship prescripted country.
+--- This includes a new flag well.
 -- Added one more female pegasus portrait set, based on Cozy Glow.
 -- Added more color options to a portrait (Sunburst).

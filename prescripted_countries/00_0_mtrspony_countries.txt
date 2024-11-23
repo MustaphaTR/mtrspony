@@ -298,6 +298,155 @@ the_crusader_state_necroids = {
 	}
 }
 
+empire_of_friendship = {
+	name = "EMPIRE_DESIGN_empire_of_friendship"
+	adjective = "PRESCRIPTED_adjective_empire_of_friendship"
+	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
+
+	playable = has_not_paragon_dlc # Crusader Spirit civic and Under One Rule origin are from Galactic Paragons DLC.
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_empire_of_friendship"
+
+	species = {
+		class = "MAM"
+		portrait = "mtrspony_pony"
+		name = "PRESCRIPTED_species_pony"
+		plural = "PRESCRIPTED_species_plural_pony"
+		adjective = "PRESCRIPTED_species_adjective_pony"
+		name_list = "mtrspony_namelists_pony"
+		trait = "trait_talented"
+		trait = "trait_cutie_marks"
+		trait = "trait_sedentary"
+	}
+
+	room = "personality_democratic_crusaders_room"
+
+	authority = "auth_dictatorial"
+	civics = { "civic_nationalistic_zeal" "civic_philosopher_king" }
+	government = gov_elective_monarchy
+
+	ethic = "ethic_xenophile"
+	ethic = "ethic_fanatic_militarist"
+
+	origin = "origin_default"
+
+	flags = { empire_of_friendship }
+
+	planet_name = "NAME_Faust"
+	planet_class = "pc_continental"
+	initializer = "eaw_vanilla_initializer"
+	system_name = "NAME_Behemoth"
+
+	graphical_culture = mammalian_01
+	city_graphical_culture = mammalian_01
+
+	empire_flag = {
+		icon= {
+			category = "mtrspony"
+			file = "SOF.dds"
+		}
+		background= {
+			category = "backgrounds"
+			file = "flag_BG_2.dds"
+		}
+		colors={
+			"light_pink"
+			"light_indigo"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_cozy_glow"
+		ruler_title = "PRESCRIPTED_ruler_title_emperor"
+		ruler_title_female = "PRESCRIPTED_ruler_title_empress"
+		gender = female
+		portrait = "mtrspony_pony_pegasus_cozy_glow_older"
+		texture = 0
+		attachment = 0
+		clothes = 0
+		trait = "trait_ruler_charismatic"
+		leader_class = official
+	}
+}
+
+empire_of_friendship_paragons = {
+	name = "EMPIRE_DESIGN_empire_of_friendship"
+	adjective = "PRESCRIPTED_adjective_empire_of_friendship"
+	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
+
+	playable = has_paragon_dlc # Crusader Spirit civic and Under One Rule origin are from Galactic Paragons DLC.
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_empire_of_friendship"
+
+	species = {
+		class = "MAM"
+		portrait = "mtrspony_pony"
+		name = "PRESCRIPTED_species_pony"
+		plural = "PRESCRIPTED_species_plural_pony"
+		adjective = "PRESCRIPTED_species_adjective_pony"
+		name_list = "mtrspony_namelists_pony"
+		trait = "trait_perfected_genes"
+		trait = "trait_talented"
+		trait = "trait_cutie_marks"
+		trait = "trait_sedentary"
+	}
+
+	room = "personality_democratic_crusaders_room"
+
+	authority = "auth_dictatorial"
+	civics = { "civic_crusader_spirit" "civic_philosopher_king" }
+	government = gov_elective_monarchy
+
+	ethic = "ethic_xenophile"
+	ethic = "ethic_fanatic_militarist"
+
+	origin = "origin_legendary_leader"
+
+	flags = { empire_of_friendship }
+
+	planet_name = "NAME_Faust"
+	planet_class = "pc_continental"
+	initializer = "eaw_vanilla_initializer"
+	system_name = "NAME_Behemoth"
+
+	graphical_culture = mammalian_01
+	city_graphical_culture = mammalian_01
+
+	empire_flag = {
+		icon= {
+			category = "mtrspony"
+			file = "SOF.dds"
+		}
+		background= {
+			category = "backgrounds"
+			file = "flag_BG_2.dds"
+		}
+		colors={
+			"light_pink"
+			"light_indigo"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_cozy_glow"
+		ruler_title = "PRESCRIPTED_ruler_title_emperor"
+		ruler_title_female = "PRESCRIPTED_ruler_title_empress"
+		gender = female
+		portrait = "mtrspony_pony_pegasus_cozy_glow_older"
+		texture = 0
+		attachment = 0
+		clothes = 0
+		trait = "leader_trait_legendary_gunboat_diplomacy"
+		leader_class = official
+	}
+}
+
 griffonian_empire = {
 	name = "EMPIRE_DESIGN_griffonian_empire"
 	adjective = "PRESCRIPTED_adjective_griffonian_empire"

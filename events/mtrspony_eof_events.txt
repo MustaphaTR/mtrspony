@@ -1,0 +1,226 @@
+namespace = eofstart
+
+#Setup Convocation of Creatures
+country_event = {
+	id = eofstart.1
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		has_country_flag = empire_of_friendship
+	}
+	immediate = {
+		if = { # Unfortunately add_trait makes pop ups appear, so have to duplicate the whole thing.
+			limit = { has_under_one_rule_origin = yes }
+
+			create_leader = {
+				name = "PRESCRIPTED_ruler_name_cozy_glow"
+				custom_description = "PRESCRIPTED_ruler_name_cozy_glow_desc"
+				species = ROOT.species
+				gender = female
+				class = official
+				skill = 4
+				set_age = 48
+				background_job = "friendship_student"
+				background_ethic = "ethic_authoritarian"
+				randomize_traits = no
+				traits = {
+					trait = leader_trait_politician
+					trait = trait_ruler_champion_of_the_people
+
+					trait = leader_trait_legendary_leader
+					trait = leader_trait_legendary_gunboat_diplomacy
+					trait = leader_trait_legendary_natural_ruler
+					trait = leader_trait_legendary_warmonger
+				}
+
+				effect = {
+					save_global_event_target_as = leader_cozy_glow
+					set_leader_flag = is_created_leader
+					change_leader_portrait = "mtrspony_pony_pegasus_cozy_glow_older_predefined"
+					ROOT = { assign_leader = event_target:leader_cozy_glow }
+				}
+			}
+		}
+		else = {
+			create_leader = {
+				name = "PRESCRIPTED_ruler_name_cozy_glow"
+				custom_description = "PRESCRIPTED_ruler_name_cozy_glow_desc"
+				species = ROOT.species
+				gender = female
+				class = official
+				skill = 4
+				set_age = 48
+				background_job = "friendship_student"
+				background_ethic = "ethic_authoritarian"
+				randomize_traits = no
+				traits = {
+					trait = leader_trait_politician
+					trait = trait_ruler_champion_of_the_people
+
+					trait = leader_trait_resilient_2
+					trait = trait_ruler_charismatic
+				}
+
+				effect = {
+					save_global_event_target_as = leader_cozy_glow
+					set_leader_flag = is_created_leader
+					change_leader_portrait = "mtrspony_pony_pegasus_cozy_glow_older_predefined"
+					ROOT = { assign_leader = event_target:leader_cozy_glow }
+				}
+			}
+		}
+
+		create_griffon_species = yes
+		event_target:griffon_species = {
+			if = {
+				limit = { ROOT = { has_under_one_rule_origin = yes } }
+				change_species_characteristics = { add_trait = trait_perfected_genes }
+			}
+			set_citizenship_type = { country = ROOT type = citizenship_full }
+			set_military_service_type = { country = ROOT type = military_service_full }
+		}
+		create_hippogriff_species = yes
+		event_target:hippogriff_species = {
+			if = {
+				limit = { ROOT = { has_under_one_rule_origin = yes } }
+				change_species_characteristics = { add_trait = trait_perfected_genes }
+			}
+			set_citizenship_type = { country = ROOT type = citizenship_full }
+			set_military_service_type = { country = ROOT type = military_service_full }
+		}
+		create_dragon_species = yes
+		event_target:dragon_species = {
+			if = {
+				limit = { ROOT = { has_under_one_rule_origin = yes } }
+				change_species_characteristics = { add_trait = trait_perfected_genes }
+			}
+			set_citizenship_type = { country = ROOT type = citizenship_full }
+			set_military_service_type = { country = ROOT type = military_service_full }
+		}
+		create_kirin_species = yes
+		event_target:kirin_species = {
+			if = {
+				limit = { ROOT = { has_under_one_rule_origin = yes } }
+				change_species_characteristics = { add_trait = trait_perfected_genes }
+			}
+			set_citizenship_type = { country = ROOT type = citizenship_full }
+			set_military_service_type = { country = ROOT type = military_service_full }
+		}
+		create_changeling_species = yes
+		event_target:changeling_species = {
+			if = {
+				limit = { ROOT = { has_under_one_rule_origin = yes } }
+				change_species_characteristics = { add_trait = trait_perfected_genes }
+			}
+			set_citizenship_type = { country = ROOT type = citizenship_full }
+			set_military_service_type = { country = ROOT type = military_service_full }
+		}
+		create_zebra_species = yes
+		event_target:zebra_species = {
+			if = {
+				limit = { ROOT = { has_under_one_rule_origin = yes } }
+				change_species_characteristics = { add_trait = trait_perfected_genes }
+			}
+			set_citizenship_type = { country = ROOT type = citizenship_full }
+			set_military_service_type = { country = ROOT type = military_service_full }
+		}
+
+		capital_scope = {
+			set_variable = { which = pop_to_remove value = 17 }
+			set_variable = { which = zebra_pops value = 4 }
+			if = {
+				limit = { ROOT = { has_under_one_rule_origin = yes } }
+
+				set_variable = { which = pop_to_remove value = 16 }
+				set_variable = { which = zebra_pops value = 3 }
+			}
+
+			while = {
+				count = pop_to_remove
+
+				random_owned_pop = { kill_pop = yes }
+			}
+			while = {
+				count = 7
+
+				create_pop = {
+					species = event_target:griffon_species
+					ethos = random
+				}
+			}
+			while = {
+				count = 1
+
+				create_pop = {
+					species = event_target:hippogriff_species
+					ethos = random
+				}
+			}
+			while = {
+				count = 1
+
+				create_pop = {
+					species = event_target:dragon_species
+					ethos = random
+				}
+			}
+			while = {
+				count = 2
+
+				create_pop = {
+					species = event_target:kirin_species
+					ethos = random
+				}
+			}
+			while = {
+				count = 2
+
+				create_pop = {
+					species = event_target:changeling_species
+					ethos = random
+				}
+			}
+			while = {
+				count = zebra_pops
+
+				create_pop = {
+					species = event_target:zebra_species
+					ethos = random
+				}
+			}
+		}
+
+		# Remove the auto-generated Cozy Glow.
+		random_owned_leader = {
+			limit = {
+				NOT = { has_leader_flag = is_created_leader }
+				OR = {
+					has_trait = leader_trait_legendary_gunboat_diplomacy
+					has_trait = trait_ruler_charismatic
+				}
+			}
+
+			kill_leader = {
+				show_notification = no
+				fire = yes
+			}
+		}
+	}
+}
+
+# Reapply named character potraits, they seem to reset after loading a save or when species got modified.
+country_event = {
+	id = eofstart.2
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		has_country_flag = empire_of_friendship
+	}
+	immediate = {
+		event_target:leader_cozy_glow = {
+			change_leader_portrait = "mtrspony_pony_pegasus_cozy_glow_older_predefined"
+		}
+	}
+}

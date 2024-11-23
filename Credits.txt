@@ -114,3 +114,7 @@ Systems:
  > Elowniy:
 	- Behemoth
 	- Faust
+
+Prescripted Country Designs:
+ > JPG:
+	- Empire of Friendship
