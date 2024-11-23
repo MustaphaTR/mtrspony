@@ -71,6 +71,7 @@ country_event = {
 			}
 		}
 
+		species = { set_living_standard = { country = ROOT type = living_standard_good } }
 		create_griffon_species = yes
 		event_target:griffon_species = {
 			if = {
@@ -78,6 +79,7 @@ country_event = {
 				change_species_characteristics = { add_trait = trait_perfected_genes }
 			}
 			set_citizenship_type = { country = ROOT type = citizenship_full }
+			set_living_standard = { country = ROOT type = living_standard_good }
 			set_military_service_type = { country = ROOT type = military_service_full }
 		}
 		create_hippogriff_species = yes
@@ -87,6 +89,7 @@ country_event = {
 				change_species_characteristics = { add_trait = trait_perfected_genes }
 			}
 			set_citizenship_type = { country = ROOT type = citizenship_full }
+			set_living_standard = { country = ROOT type = living_standard_good }
 			set_military_service_type = { country = ROOT type = military_service_full }
 		}
 		create_dragon_species = yes
@@ -96,6 +99,7 @@ country_event = {
 				change_species_characteristics = { add_trait = trait_perfected_genes }
 			}
 			set_citizenship_type = { country = ROOT type = citizenship_full }
+			set_living_standard = { country = ROOT type = living_standard_good }
 			set_military_service_type = { country = ROOT type = military_service_full }
 		}
 		create_kirin_species = yes
@@ -105,6 +109,7 @@ country_event = {
 				change_species_characteristics = { add_trait = trait_perfected_genes }
 			}
 			set_citizenship_type = { country = ROOT type = citizenship_full }
+			set_living_standard = { country = ROOT type = living_standard_good }
 			set_military_service_type = { country = ROOT type = military_service_full }
 		}
 		create_changeling_species = yes
@@ -114,6 +119,7 @@ country_event = {
 				change_species_characteristics = { add_trait = trait_perfected_genes }
 			}
 			set_citizenship_type = { country = ROOT type = citizenship_full }
+			set_living_standard = { country = ROOT type = living_standard_good }
 			set_military_service_type = { country = ROOT type = military_service_full }
 		}
 		create_zebra_species = yes
@@ -123,6 +129,7 @@ country_event = {
 				change_species_characteristics = { add_trait = trait_perfected_genes }
 			}
 			set_citizenship_type = { country = ROOT type = citizenship_full }
+			set_living_standard = { country = ROOT type = living_standard_good }
 			set_military_service_type = { country = ROOT type = military_service_full }
 		}
 
