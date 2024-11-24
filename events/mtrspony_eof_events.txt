@@ -39,6 +39,8 @@ country_event = {
 					set_leader_flag = is_created_leader
 					change_leader_portrait = "mtrspony_pony_pegasus_cozy_glow_older_predefined"
 					ROOT = { assign_leader = event_target:leader_cozy_glow }
+
+					set_leader_flag = paragon_origin_legendary_leader
 				}
 			}
 		}
