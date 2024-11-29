@@ -29,7 +29,7 @@ portraits = {
 		entity = "portrait_dummy_15p_left_entity"
 		clothes_selector = "mtrspony_no_clothes_selector"
 		attachment_selector = "mtrspony_kirin_fickle_current_predefined_hair_selector"
-		greeting_sound = "human_male_greetings_01"
+		greeting_sound = "human_male_greetings_04"
 
 		character_textures = {
 			"gfx/models/portraits/kirin/pumpkin_smoke_male/pumpkin_smoke_male_alt13.dds"

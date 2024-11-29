@@ -8,6 +8,7 @@ MTRSPONY_mammalians = {
 		"mtrspony_pony_pegasus"
 		"mtrspony_pony_alicorn"
 		"mtrspony_kirin"
+		"mtrspony_yak"
 		"mtrspony_zebra"
 	}
 
@@ -20,6 +21,7 @@ MTRSPONY_mammalians = {
 		"mtrspony_pony_pegasus"
 		"mtrspony_pony_alicorn"
 		"mtrspony_kirin"
+		"mtrspony_yak"
 		"mtrspony_zebra"
 	}
 }

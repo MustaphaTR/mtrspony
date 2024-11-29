@@ -1,0 +1,170 @@
+﻿mtrspony_namelists_yak = {
+	randomized = no
+
+	alias = "EaW Yak Namelist"
+
+	ship_names = {
+		generic = {
+			Amberjack Dolphin Saury "Sea Panther" Pilotfish Espada "Sea Fox" Croaker Bullhead Goldring Pargo "Sea Poacher" Cuttlefish Atule Guitarro Grunion Swordfish Sargo Odax Sturgeon Bream Ronquil Grayling Sculpin Tiru Razorback Pompano Threadfin Piranha Roncador Bugara Hammerhead Scamp Sealion "Sea Cat" Tiburon "Sea Devil" Corporal Kingfish Lancetfish Thresher Skate Bass Lizardfish Trumpetfish Carp Quillback Piper Scorpion Sabalo Salmon Stingray Snook Clamagore Springer Springeren Angler Pomfret "Sea Leopard" Sablefish Redfish Billfish Jawfish Marlin Halfbeak Tusk Garlopa Lamprey Silversides Chub Comber Hackleback Redfin "Sand Lance" Needlefish Plaice Baya Blackfish Tang Toro Herring Haddo Seahorse Finback Brill Wahoo Batfish Jallao Menhaden Eel Steelhead Mero Barbel Cachalot Walrus Lapon Besugo Spinax Turbot Sennet Seawolf Thornback Pickerel Tunny Gato Sunfish Seal Snapper Runner Burrfish Dogfish Tambor Shark Tautog Barb Cisco Scabbardfish Haddock Apogon Cabrilla Tarpon Bluegill Tullibee Moray Dentuda Bowfin Cochino Ulua Seadragon Sarda Robalo Pomodon Kraken Hawkbill Flounder Bang Catfish Mackerel Shad Pintado Halibut Tuna Vendace Sterlet Lionfish Rock Sea Owl Dugong Trout Guavina Crevalle Trutta Tench Escolar Parche Caiman Flying Fish Stickleback Torsk Requin Drum Picuda Cod Whale "Sea Dog" Pike Remora Irex Spikefish Bluefish Harder Entemedor Pipefish Rasher Tilefish Sailfish Narwhal Searaven Greenling Bashaw Chivo Gar Sawfish Cusk Wolffish Balao Corvina Boarfish Garrupa Flasher Spearfish Ray Devilfish Archerfish Hoe Pampanito Whitefish Tirante Ono Gurnard Gabilan Grampus Perch Growler Blenny Ling Tinosa Cobia Skipjack "Sea Robin" Nerka Kete Peto Trepang Bergall Chopper Cabezon Diodon Mingo Conger Raton Paddle Loggerhead Grayback Barracuda Hardhead Medregal Bonefish Charr Cero Guardfish Tigrone Capelin Capitaine Jack Macabi Icefish Dragonet Muskallunge Porpoise Nautilus Segundo Lagarto Golet Puffer Mapiro Manta Becuna Cobbler Barbero Bumper Albacore Pogy Spadefish Sirago Greenfish Grouper Spot Hake Darter Flier Pompon Blueback Carbonero Blackfin Whiting Queenfish Blower Cavalla Gunnel Bonita Aspro Cubera Telescopium Lynx Pictor Ara Perseus Norma Libra Aries "Canes Venatici" Auriga Cancer Apus Dorado "Leo Minor" Sextans "Coma Berenices" Carina Andromeda Fornax Camelopardalis Mensa Phoenix Crux Sagitta Taurus Lyra Monoceros Eridanus Pavo Gemini Lepus Orion Crater Sculptor Ophiuchus Serpens Aquarius Scorpius Aquila Antila Delphinus Lupus Horologium Scutum Caelum Grus Pisces Octans Cetus Cassiopeia Leo "Canis Major" Hercules Puppis Lacerta Hydra Reticulum "Corona Australis" Sagitarius Equuleus "Piscis Austrinus" Columba Indus Centaurus Cepheus "Corona Borealis" Chamaeleon Musca Pyxis Corvus Draco "Canis Minor" Hydrus Capricornus Cygnus Circinus Solarguard Lunarguard Gladiolus Marigold Snapdragon Heather Trachelium Hyacinth Daffodil Magnolia Anemone Limonium Freesia "Spray Rose" Chrysanthemum Lilac Tuberose Orchid Carnation Delphinium Protea Ranunculus "Bird of Paradise" Lily Hibiscus Iris Crocus "Oriental Lily" "Calla Lily" Azalea Kalanchoe Poinsettia Geranium Narcissus Amaryllis Lavender "Baby's Breath" "Peace Lily" Cyclamen Waxflower Pansy Tulip Sunflower Aster Alstroemeria Pompon Rose Zinnia Daisy Larkspur "Petite Rose" Hydrangea Liatris Cockscomb "Asiatic Lily" Campanula Begonia Hypericum Jonquil Jasmine Gardenia Lisianthus "Tea Rose" "Star Swirl" Rockhoof Mistmane "Flash Magnus" Somnambula Meadowbrook Platinum Clover Hurricane Puddinghead "Smart Cookie" Pansy "Twilight Sparkle" Applejack Rarity "Pinkie Pie" Fluttershy "Rainbow Dash" Pegasopolis Unicornia Dirtville Sisterhood Harmony Friendship Magic Unicorn Pegasus "Earth Pony" Thestral Hasbro Sorcery Strength Healing Hope Beauty Bravery Honesty Kindness Laughter Generosity Loyalty Magic Wisdom Humility Fairness Love Courage Charity Prudence Temperance Tenacity Mercy Gravity Duty Modesty Dilegence Patience Focus Order Forgiveness Purity Chastity Empathy Enlightenment Honor Insight Confidence Reliability Juyilkhai Mangchijid Noyamanan Arusharii Kiyatukh Süldintjid Mankhutayid Ghenikhan Yürkid Jakichikh Ubkhait Khoriikhat "Khata'ut" Yakistown Saihandale "Gol Güür" "Ariun Ordon" "Khereh Davsag" "Goliig Khuvaakh" "Manai Gazar" "Bara'dur" Tuuraikhan Karsakag "Saihan Tolgod" "Nokhorsag Oi" "Sarlag Khot" Modnihendi "Oin Shiltgeen"
+		}
+
+		colossus = {
+			Juyilkhai Mangchijid Noyamanan Arusharii Kiyatukh Süldintjid Mankhutayid Ghenikhan Yürkid Jakichikh Ubkhait Khoriikhat "Khata'ut"
+		}
+
+		constructor = {
+			Yakistown Saihandale "Gol Güür" "Ariun Ordon" "Khereh Davsag" "Goliig Khuvaakh" "Manai Gazar" "Bara'dur" Tuuraikhan Karsakag "Saihan Tolgod" "Nokhorsag Oi" "Sarlag Khot" Modnihendi "Oin Shiltgeen"
+		}
+	}
+
+	fleet_names = {
+		sequential_name = mtrspony_namelists_pony_space_fleet
+	}
+
+	army_names = {
+		machine_defense = {
+			sequential_name = mtrspony_namelists_pony_defense_force
+		}
+
+		machine_assault_1 = {
+			sequential_name = mtrspony_namelists_pony_attack_force
+		}
+
+		machine_assault_2 = {
+			sequential_name = mtrspony_namelists_pony_attack_force
+		}
+
+		machine_assault_3 = {
+			sequential_name = mtrspony_namelists_pony_attack_force
+		}
+
+		defense_army = {
+			sequential_name = mtrspony_namelists_pony_defense_force
+		}
+
+		assault_army = {
+			sequential_name = mtrspony_namelists_pony_attack_force
+		}
+
+		slave_army = {
+			sequential_name = mtrspony_namelists_pony_slave_force
+		}
+
+		clone_army = {
+			sequential_name = mtrspony_namelists_pony_mirror_force
+		}
+
+		undead_army = {
+			sequential_name = mtrspony_namelists_pony_dread_force
+		}
+
+		robotic_army = {
+			sequential_name = mtrspony_namelists_pony_drone_attack_force
+		}
+
+		robotic_defense_army = {
+			sequential_name = mtrspony_namelists_pony_drone_defense_force
+		}
+
+		psionic_army = {
+			sequential_name = mtrspony_namelists_pony_psi_corps_division
+		}
+
+		xenomorph_army = {
+			sequential_name = mtrspony_namelists_pony_monster_unit
+		}
+
+		gene_warrior_army = {
+			sequential_name = mtrspony_namelists_pony_supersoldiers
+		}
+
+		occupation_army = {
+			sequential_name = mtrspony_namelists_pony_garrison_force
+		}
+
+		robotic_occupation_army = {
+			sequential_name = mtrspony_namelists_pony_drone_garrison_force
+		}
+	}
+
+	planet_names = {
+		generic = {
+			names = {
+				Huuramch "Er Nag Uul" Saihan "Uulan Baavguy" "Khereh Davsag" "Manai Gazar" Tuuraikhan "Bara'dur" Dalma "Dund Aimag" Shidetgasar Nokhorsag Modnihendi
+			}
+		}
+
+		pc_desert = {
+			names = {
+				
+			}
+		}
+
+		pc_tropical = {
+			names = {
+				Rose
+			}
+		}
+
+		pc_arid = {
+			names = {
+				
+			}
+		}
+
+		pc_continental = {
+			names = {
+				
+			}
+		}
+
+		pc_ocean = {
+			names = {
+				
+			}
+		}
+
+		pc_tundra = {
+			names = {
+
+			}
+		}
+
+		pc_arctic = {
+			names = {
+				
+			}
+		}
+
+		pc_savannah = {
+			names = {
+				
+			}
+		}
+
+		pc_alpine = {
+			names = {
+				Numuul
+			}
+		}
+
+		pc_gaia = {
+			names = {
+				
+			}
+		}
+	}
+
+	### CHARACTERS
+	character_names = {
+		name1 = {
+			weight = 10
+			full_names_male = {
+				Crompus Dromius Grimhorn Gruntwig Horwitz Ingville Leroy Tormand Ulysses Yakatar Yojan Yksler Leibowitz Yissakhar Yonatan Brynjar Agnar Fergus Yomhar Roderick Torcall Enok Holger Sigurd Yngvar
+			}
+			full_names_female = {
+				Yakmina Yigrid Royznbarg Yaara Yachna Yemima Yona Gunnel Agnes Fiona Rhona Brynja Dagmar Elvira Erna Hedwig Ida Kari Lena Mona Nora Olaug Ruth Smilla Thyra Ylva
+			}
+		}
+	}
+}

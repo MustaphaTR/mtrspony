@@ -1,0 +1,81 @@
+mtrspony_yak_yona_hair_selector = {
+	default = "gfx/models/portraits/yak/yona/yona_hair.dds"
+
+	game_setup = {
+		default = "gfx/models/portraits/yak/yona/yona_hair.dds"
+	}
+
+	species = {
+		default = "gfx/models/portraits/yak/yona/yona_hair.dds"
+	}
+
+	pop = {
+		default = "gfx/models/portraits/yak/yona/yona_hair.dds"
+
+		random = {
+			list = {
+				"gfx/models/portraits/yak/yona/yona_hair.dds"
+				"gfx/models/portraits/yak/yona/yona_hair_alt1.dds"
+			}
+		}
+	}
+
+	leader = {
+		random = {
+			list = {
+				"gfx/models/portraits/yak/yona/yona_hair.dds"
+				"gfx/models/portraits/yak/yona/yona_hair_alt1.dds"
+			}
+		}
+	}
+
+	ruler = {
+		random = {
+			list = {
+				"gfx/models/portraits/yak/yona/yona_hair.dds"
+				"gfx/models/portraits/yak/yona/yona_hair_alt1.dds"
+			}
+		}
+	}
+}
+
+mtrspony_yak_yona_clothes_selector = {
+	default = "gfx/models/portraits/yak/yona/yona_clothes.dds"
+
+	game_setup = {
+		default = "gfx/models/portraits/yak/yona/yona_clothes.dds"
+	}
+
+	species = {
+		default = "gfx/models/portraits/yak/yona/yona_clothes.dds"
+	}
+
+	pop = {
+		default = "gfx/models/portraits/yak/yona/yona_clothes.dds"
+
+		random = {
+			list = {
+				"gfx/models/portraits/yak/yona/yona_clothes.dds"
+				"gfx/models/portraits/yak/yona/yona_clothes_alt1.dds"
+			}
+		}
+	}
+
+	leader = {
+		random = {
+			list = {
+				"gfx/models/portraits/yak/yona/yona_clothes.dds"
+				"gfx/models/portraits/yak/yona/yona_clothes_alt1.dds"
+			}
+		}
+	}
+
+	ruler = {
+		random = {
+			list = {
+				"gfx/models/portraits/yak/yona/yona_clothes.dds"
+				"gfx/models/portraits/yak/yona/yona_clothes_alt1.dds"
+			}
+		}
+	}
+}
