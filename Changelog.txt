@@ -87,3 +87,6 @@
 --- This includes a new flag well.
 -- Added one more female pegasus portrait set, based on Cozy Glow.
 -- Added more color options to a portrait (Sunburst).
+
+- Version 0.2.6 (XX.11.2024):
+-- Added one more male earth pony portrait set, based on Sandbar.

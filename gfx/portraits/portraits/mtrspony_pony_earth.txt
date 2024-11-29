@@ -98,6 +98,32 @@ portraits = {
 		}
 	}
 
+	mtrspony_pony_earth_sandbar = {
+		entity = "portrait_dummy_10p_left_entity"
+		clothes_selector = "mtrspony_no_clothes_selector"
+		attachment_selector = "mtrspony_pony_earth_sandbar_hair_selector"
+		greeting_sound = "human_male_greetings_01"
+
+		character_textures = {
+			"gfx/models/portraits/pony_earth/sandbar/sandbar.dds"
+			"gfx/models/portraits/pony_earth/sandbar/sandbar_alt1.dds"
+			"gfx/models/portraits/pony_earth/sandbar/sandbar_alt2.dds"
+			"gfx/models/portraits/pony_earth/sandbar/sandbar_alt3.dds"
+			"gfx/models/portraits/pony_earth/sandbar/sandbar_alt4.dds"
+			"gfx/models/portraits/pony_earth/sandbar/sandbar_alt5.dds"
+			"gfx/models/portraits/pony_earth/sandbar/sandbar_alt6.dds"
+			"gfx/models/portraits/pony_earth/sandbar/sandbar_alt7.dds"
+			"gfx/models/portraits/pony_earth/sandbar/sandbar_alt8.dds"
+			"gfx/models/portraits/pony_earth/sandbar/sandbar_alt9.dds"
+			"gfx/models/portraits/pony_earth/sandbar/sandbar_alt10.dds"
+			"gfx/models/portraits/pony_earth/sandbar/sandbar_alt11.dds"
+			"gfx/models/portraits/pony_earth/sandbar/sandbar_alt12.dds"
+			"gfx/models/portraits/pony_earth/sandbar/sandbar_alt13.dds"
+		}
+
+		custom_attachment_label = "HAIR_COLOR"
+	}
+
 	mtrspony_pony_earth_button_mash = {
 		entity = "portrait_dummy_20p_left_entity"
 		clothes_selector = "mtrspony_pony_earth_button_mash_clothes_selector"
@@ -269,6 +295,7 @@ portrait_groups = {
 					mtrspony_pony_earth_big_mcintosh
 					mtrspony_pony_earth_mudbriar
 					mtrspony_pony_earth_igneous_rock_pie
+					mtrspony_pony_earth_sandbar
 					mtrspony_pony_earth_button_mash
 				}
 			}
@@ -312,6 +339,7 @@ portrait_groups = {
 					mtrspony_pony_earth_big_mcintosh
 					mtrspony_pony_earth_mudbriar
 					mtrspony_pony_earth_igneous_rock_pie
+					mtrspony_pony_earth_sandbar
 					mtrspony_pony_earth_button_mash
 				}
 			}
@@ -337,6 +365,7 @@ portrait_groups = {
 					mtrspony_pony_earth_big_mcintosh
 					mtrspony_pony_earth_mudbriar
 					mtrspony_pony_earth_igneous_rock_pie
+					mtrspony_pony_earth_sandbar
 					mtrspony_pony_earth_button_mash
 				}
 			}
@@ -354,6 +383,7 @@ portrait_groups = {
 					mtrspony_pony_earth_big_mcintosh
 					mtrspony_pony_earth_mudbriar
 					mtrspony_pony_earth_igneous_rock_pie
+					mtrspony_pony_earth_sandbar
 					mtrspony_pony_earth_button_mash
 				}
 			}

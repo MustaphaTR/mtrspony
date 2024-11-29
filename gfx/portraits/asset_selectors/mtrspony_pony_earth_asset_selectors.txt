@@ -74,7 +74,84 @@ mtrspony_pony_earth_big_mcintosh_hair_selector = {
 				"gfx/models/portraits/pony_earth/big_mcintosh/big_mcintosh_hair_alt13.dds"
 				"gfx/models/portraits/pony_earth/big_mcintosh/big_mcintosh_hair_alt14.dds"
 			}
-		}		
+		}
+	}
+}
+
+mtrspony_pony_earth_mudbriar_hair_selector = {
+	default = "gfx/models/portraits/pony_earth/mudbriar/mudbriar_hair.dds"
+
+	game_setup = {
+		default = "gfx/models/portraits/pony_earth/mudbriar/mudbriar_hair.dds"
+	}
+
+	species = {
+		default = "gfx/models/portraits/pony_earth/mudbriar/mudbriar_hair.dds"
+	}
+
+	pop = {
+		default = "gfx/models/portraits/pony_earth/mudbriar/mudbriar_hair.dds"
+
+		random = {
+			list = {
+				"gfx/models/portraits/pony_earth/mudbriar/mudbriar_hair.dds"
+				"gfx/models/portraits/pony_earth/mudbriar/mudbriar_hair_alt1.dds"
+				"gfx/models/portraits/pony_earth/mudbriar/mudbriar_hair_alt2.dds"
+				"gfx/models/portraits/pony_earth/mudbriar/mudbriar_hair_alt3.dds"
+				"gfx/models/portraits/pony_earth/mudbriar/mudbriar_hair_alt4.dds"
+				"gfx/models/portraits/pony_earth/mudbriar/mudbriar_hair_alt5.dds"
+				"gfx/models/portraits/pony_earth/mudbriar/mudbriar_hair_alt6.dds"
+				"gfx/models/portraits/pony_earth/mudbriar/mudbriar_hair_alt7.dds"
+				"gfx/models/portraits/pony_earth/mudbriar/mudbriar_hair_alt8.dds"
+				"gfx/models/portraits/pony_earth/mudbriar/mudbriar_hair_alt9.dds"
+				"gfx/models/portraits/pony_earth/mudbriar/mudbriar_hair_alt10.dds"
+				"gfx/models/portraits/pony_earth/mudbriar/mudbriar_hair_alt11.dds"
+				"gfx/models/portraits/pony_earth/mudbriar/mudbriar_hair_alt12.dds"
+				"gfx/models/portraits/pony_earth/mudbriar/mudbriar_hair_alt13.dds"
+			}
+		}	
+	}
+
+	leader = {
+		random = {
+			list = {
+				"gfx/models/portraits/pony_earth/mudbriar/mudbriar_hair.dds"
+				"gfx/models/portraits/pony_earth/mudbriar/mudbriar_hair_alt1.dds"
+				"gfx/models/portraits/pony_earth/mudbriar/mudbriar_hair_alt2.dds"
+				"gfx/models/portraits/pony_earth/mudbriar/mudbriar_hair_alt3.dds"
+				"gfx/models/portraits/pony_earth/mudbriar/mudbriar_hair_alt4.dds"
+				"gfx/models/portraits/pony_earth/mudbriar/mudbriar_hair_alt5.dds"
+				"gfx/models/portraits/pony_earth/mudbriar/mudbriar_hair_alt6.dds"
+				"gfx/models/portraits/pony_earth/mudbriar/mudbriar_hair_alt7.dds"
+				"gfx/models/portraits/pony_earth/mudbriar/mudbriar_hair_alt8.dds"
+				"gfx/models/portraits/pony_earth/mudbriar/mudbriar_hair_alt9.dds"
+				"gfx/models/portraits/pony_earth/mudbriar/mudbriar_hair_alt10.dds"
+				"gfx/models/portraits/pony_earth/mudbriar/mudbriar_hair_alt11.dds"
+				"gfx/models/portraits/pony_earth/mudbriar/mudbriar_hair_alt12.dds"
+				"gfx/models/portraits/pony_earth/mudbriar/mudbriar_hair_alt13.dds"
+			}
+		}
+	}
+
+	ruler = {
+		random = {
+			list = {
+				"gfx/models/portraits/pony_earth/mudbriar/mudbriar_hair.dds"
+				"gfx/models/portraits/pony_earth/mudbriar/mudbriar_hair_alt1.dds"
+				"gfx/models/portraits/pony_earth/mudbriar/mudbriar_hair_alt2.dds"
+				"gfx/models/portraits/pony_earth/mudbriar/mudbriar_hair_alt3.dds"
+				"gfx/models/portraits/pony_earth/mudbriar/mudbriar_hair_alt4.dds"
+				"gfx/models/portraits/pony_earth/mudbriar/mudbriar_hair_alt5.dds"
+				"gfx/models/portraits/pony_earth/mudbriar/mudbriar_hair_alt6.dds"
+				"gfx/models/portraits/pony_earth/mudbriar/mudbriar_hair_alt7.dds"
+				"gfx/models/portraits/pony_earth/mudbriar/mudbriar_hair_alt8.dds"
+				"gfx/models/portraits/pony_earth/mudbriar/mudbriar_hair_alt9.dds"
+				"gfx/models/portraits/pony_earth/mudbriar/mudbriar_hair_alt10.dds"
+				"gfx/models/portraits/pony_earth/mudbriar/mudbriar_hair_alt11.dds"
+				"gfx/models/portraits/pony_earth/mudbriar/mudbriar_hair_alt12.dds"
+				"gfx/models/portraits/pony_earth/mudbriar/mudbriar_hair_alt13.dds"
+			}
+		}
 	}
 }
 
@@ -160,7 +237,7 @@ mtrspony_pony_earth_igneous_rock_pie_hair_selector = {
 				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_alt15.dds"
 				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_alt16.dds"
 			}
-		}		
+		}
 	}
 }
 
@@ -274,36 +351,37 @@ mtrspony_pony_earth_arclight_predefined_clothes_selector = {
 	ruler = { default = "gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_tie_alt13.dds" }
 }
 
-mtrspony_pony_earth_mudbriar_hair_selector = {
-	default = "gfx/models/portraits/pony_earth/mudbriar/mudbriar_hair.dds"
+mtrspony_pony_earth_sandbar_hair_selector = {
+	default = "gfx/models/portraits/pony_earth/sandbar/sandbar_hair.dds"
 
 	game_setup = {
-		default = "gfx/models/portraits/pony_earth/mudbriar/mudbriar_hair.dds"
+		default = "gfx/models/portraits/pony_earth/sandbar/sandbar_hair.dds"
 	}
 
 	species = {
-		default = "gfx/models/portraits/pony_earth/mudbriar/mudbriar_hair.dds"
+		default = "gfx/models/portraits/pony_earth/sandbar/sandbar_hair.dds"
 	}
 
 	pop = {
-		default = "gfx/models/portraits/pony_earth/mudbriar/mudbriar_hair.dds"
+		default = "gfx/models/portraits/pony_earth/sandbar/sandbar_hair.dds"
 
 		random = {
 			list = {
-				"gfx/models/portraits/pony_earth/mudbriar/mudbriar_hair.dds"
-				"gfx/models/portraits/pony_earth/mudbriar/mudbriar_hair_alt1.dds"
-				"gfx/models/portraits/pony_earth/mudbriar/mudbriar_hair_alt2.dds"
-				"gfx/models/portraits/pony_earth/mudbriar/mudbriar_hair_alt3.dds"
-				"gfx/models/portraits/pony_earth/mudbriar/mudbriar_hair_alt4.dds"
-				"gfx/models/portraits/pony_earth/mudbriar/mudbriar_hair_alt5.dds"
-				"gfx/models/portraits/pony_earth/mudbriar/mudbriar_hair_alt6.dds"
-				"gfx/models/portraits/pony_earth/mudbriar/mudbriar_hair_alt7.dds"
-				"gfx/models/portraits/pony_earth/mudbriar/mudbriar_hair_alt8.dds"
-				"gfx/models/portraits/pony_earth/mudbriar/mudbriar_hair_alt9.dds"
-				"gfx/models/portraits/pony_earth/mudbriar/mudbriar_hair_alt10.dds"
-				"gfx/models/portraits/pony_earth/mudbriar/mudbriar_hair_alt11.dds"
-				"gfx/models/portraits/pony_earth/mudbriar/mudbriar_hair_alt12.dds"
-				"gfx/models/portraits/pony_earth/mudbriar/mudbriar_hair_alt13.dds"
+				"gfx/models/portraits/pony_earth/sandbar/sandbar_hair.dds"
+				"gfx/models/portraits/pony_earth/sandbar/sandbar_hair_alt1.dds"
+				"gfx/models/portraits/pony_earth/sandbar/sandbar_hair_alt2.dds"
+				"gfx/models/portraits/pony_earth/sandbar/sandbar_hair_alt3.dds"
+				"gfx/models/portraits/pony_earth/sandbar/sandbar_hair_alt4.dds"
+				"gfx/models/portraits/pony_earth/sandbar/sandbar_hair_alt5.dds"
+				"gfx/models/portraits/pony_earth/sandbar/sandbar_hair_alt6.dds"
+				"gfx/models/portraits/pony_earth/sandbar/sandbar_hair_alt7.dds"
+				"gfx/models/portraits/pony_earth/sandbar/sandbar_hair_alt8.dds"
+				"gfx/models/portraits/pony_earth/sandbar/sandbar_hair_alt9.dds"
+				"gfx/models/portraits/pony_earth/sandbar/sandbar_hair_alt10.dds"
+				"gfx/models/portraits/pony_earth/sandbar/sandbar_hair_alt11.dds"
+				"gfx/models/portraits/pony_earth/sandbar/sandbar_hair_alt12.dds"
+				"gfx/models/portraits/pony_earth/sandbar/sandbar_hair_alt13.dds"
+				"gfx/models/portraits/pony_earth/sandbar/sandbar_hair_alt14.dds"
 			}
 		}	
 	}
@@ -311,43 +389,45 @@ mtrspony_pony_earth_mudbriar_hair_selector = {
 	leader = {
 		random = {
 			list = {
-				"gfx/models/portraits/pony_earth/mudbriar/mudbriar_hair.dds"
-				"gfx/models/portraits/pony_earth/mudbriar/mudbriar_hair_alt1.dds"
-				"gfx/models/portraits/pony_earth/mudbriar/mudbriar_hair_alt2.dds"
-				"gfx/models/portraits/pony_earth/mudbriar/mudbriar_hair_alt3.dds"
-				"gfx/models/portraits/pony_earth/mudbriar/mudbriar_hair_alt4.dds"
-				"gfx/models/portraits/pony_earth/mudbriar/mudbriar_hair_alt5.dds"
-				"gfx/models/portraits/pony_earth/mudbriar/mudbriar_hair_alt6.dds"
-				"gfx/models/portraits/pony_earth/mudbriar/mudbriar_hair_alt7.dds"
-				"gfx/models/portraits/pony_earth/mudbriar/mudbriar_hair_alt8.dds"
-				"gfx/models/portraits/pony_earth/mudbriar/mudbriar_hair_alt9.dds"
-				"gfx/models/portraits/pony_earth/mudbriar/mudbriar_hair_alt10.dds"
-				"gfx/models/portraits/pony_earth/mudbriar/mudbriar_hair_alt11.dds"
-				"gfx/models/portraits/pony_earth/mudbriar/mudbriar_hair_alt12.dds"
-				"gfx/models/portraits/pony_earth/mudbriar/mudbriar_hair_alt13.dds"
+				"gfx/models/portraits/pony_earth/sandbar/sandbar_hair.dds"
+				"gfx/models/portraits/pony_earth/sandbar/sandbar_hair_alt1.dds"
+				"gfx/models/portraits/pony_earth/sandbar/sandbar_hair_alt2.dds"
+				"gfx/models/portraits/pony_earth/sandbar/sandbar_hair_alt3.dds"
+				"gfx/models/portraits/pony_earth/sandbar/sandbar_hair_alt4.dds"
+				"gfx/models/portraits/pony_earth/sandbar/sandbar_hair_alt5.dds"
+				"gfx/models/portraits/pony_earth/sandbar/sandbar_hair_alt6.dds"
+				"gfx/models/portraits/pony_earth/sandbar/sandbar_hair_alt7.dds"
+				"gfx/models/portraits/pony_earth/sandbar/sandbar_hair_alt8.dds"
+				"gfx/models/portraits/pony_earth/sandbar/sandbar_hair_alt9.dds"
+				"gfx/models/portraits/pony_earth/sandbar/sandbar_hair_alt10.dds"
+				"gfx/models/portraits/pony_earth/sandbar/sandbar_hair_alt11.dds"
+				"gfx/models/portraits/pony_earth/sandbar/sandbar_hair_alt12.dds"
+				"gfx/models/portraits/pony_earth/sandbar/sandbar_hair_alt13.dds"
+				"gfx/models/portraits/pony_earth/sandbar/sandbar_hair_alt14.dds"
 			}
-		}		
+		}
 	}
 
 	ruler = {
 		random = {
 			list = {
-				"gfx/models/portraits/pony_earth/mudbriar/mudbriar_hair.dds"
-				"gfx/models/portraits/pony_earth/mudbriar/mudbriar_hair_alt1.dds"
-				"gfx/models/portraits/pony_earth/mudbriar/mudbriar_hair_alt2.dds"
-				"gfx/models/portraits/pony_earth/mudbriar/mudbriar_hair_alt3.dds"
-				"gfx/models/portraits/pony_earth/mudbriar/mudbriar_hair_alt4.dds"
-				"gfx/models/portraits/pony_earth/mudbriar/mudbriar_hair_alt5.dds"
-				"gfx/models/portraits/pony_earth/mudbriar/mudbriar_hair_alt6.dds"
-				"gfx/models/portraits/pony_earth/mudbriar/mudbriar_hair_alt7.dds"
-				"gfx/models/portraits/pony_earth/mudbriar/mudbriar_hair_alt8.dds"
-				"gfx/models/portraits/pony_earth/mudbriar/mudbriar_hair_alt9.dds"
-				"gfx/models/portraits/pony_earth/mudbriar/mudbriar_hair_alt10.dds"
-				"gfx/models/portraits/pony_earth/mudbriar/mudbriar_hair_alt11.dds"
-				"gfx/models/portraits/pony_earth/mudbriar/mudbriar_hair_alt12.dds"
-				"gfx/models/portraits/pony_earth/mudbriar/mudbriar_hair_alt13.dds"
+				"gfx/models/portraits/pony_earth/sandbar/sandbar_hair.dds"
+				"gfx/models/portraits/pony_earth/sandbar/sandbar_hair_alt1.dds"
+				"gfx/models/portraits/pony_earth/sandbar/sandbar_hair_alt2.dds"
+				"gfx/models/portraits/pony_earth/sandbar/sandbar_hair_alt3.dds"
+				"gfx/models/portraits/pony_earth/sandbar/sandbar_hair_alt4.dds"
+				"gfx/models/portraits/pony_earth/sandbar/sandbar_hair_alt5.dds"
+				"gfx/models/portraits/pony_earth/sandbar/sandbar_hair_alt6.dds"
+				"gfx/models/portraits/pony_earth/sandbar/sandbar_hair_alt7.dds"
+				"gfx/models/portraits/pony_earth/sandbar/sandbar_hair_alt8.dds"
+				"gfx/models/portraits/pony_earth/sandbar/sandbar_hair_alt9.dds"
+				"gfx/models/portraits/pony_earth/sandbar/sandbar_hair_alt10.dds"
+				"gfx/models/portraits/pony_earth/sandbar/sandbar_hair_alt11.dds"
+				"gfx/models/portraits/pony_earth/sandbar/sandbar_hair_alt12.dds"
+				"gfx/models/portraits/pony_earth/sandbar/sandbar_hair_alt13.dds"
+				"gfx/models/portraits/pony_earth/sandbar/sandbar_hair_alt14.dds"
 			}
-		}		
+		}
 	}
 }
 
@@ -407,7 +487,7 @@ mtrspony_pony_earth_button_mash_hair_selector = {
 				"gfx/models/portraits/pony_earth/button_mash/button_mash_hair_alt14.dds"
 				"gfx/models/portraits/pony_earth/button_mash/button_mash_hair_alt15.dds"
 			}
-		}		
+		}
 	}
 
 	ruler = {
@@ -430,7 +510,7 @@ mtrspony_pony_earth_button_mash_hair_selector = {
 				"gfx/models/portraits/pony_earth/button_mash/button_mash_hair_alt14.dds"
 				"gfx/models/portraits/pony_earth/button_mash/button_mash_hair_alt15.dds"
 			}
-		}		
+		}
 	}
 }
 
@@ -556,7 +636,7 @@ mtrspony_pony_earth_applejack_hair_selector = {
 				"gfx/models/portraits/pony_earth/applejack/applejack_hair_alt13.dds"
 				"gfx/models/portraits/pony_earth/applejack/applejack_hair_alt14.dds"
 			}
-		}		
+		}
 	}
 
 	ruler = {
@@ -578,7 +658,7 @@ mtrspony_pony_earth_applejack_hair_selector = {
 				"gfx/models/portraits/pony_earth/applejack/applejack_hair_alt13.dds"
 				"gfx/models/portraits/pony_earth/applejack/applejack_hair_alt14.dds"
 			}
-		}		
+		}
 	}
 }
 
@@ -658,7 +738,7 @@ mtrspony_pony_earth_applejack_clothes_selector = {
 				"gfx/models/portraits/pony_earth/applejack/applejack_hairclip_alt11.dds"
 				"gfx/models/portraits/pony_earth/applejack/applejack_hairclip_alt12.dds"
 			}
-		}		
+		}
 	}
 
 	ruler = {
@@ -691,7 +771,7 @@ mtrspony_pony_earth_applejack_clothes_selector = {
 				"gfx/models/portraits/pony_earth/applejack/applejack_hairclip_alt11.dds"
 				"gfx/models/portraits/pony_earth/applejack/applejack_hairclip_alt12.dds"
 			}
-		}		
+		}
 	}
 }
 
@@ -749,7 +829,7 @@ mtrspony_pony_earth_pinkie_pie_hair_selector = {
 				"gfx/models/portraits/pony_earth/pinkie_pie/pinkie_pie_hair_alt13.dds"
 				"gfx/models/portraits/pony_earth/pinkie_pie/pinkie_pie_hair_alt14.dds"
 			}
-		}		
+		}
 	}
 
 	ruler = {
@@ -771,7 +851,7 @@ mtrspony_pony_earth_pinkie_pie_hair_selector = {
 				"gfx/models/portraits/pony_earth/pinkie_pie/pinkie_pie_hair_alt13.dds"
 				"gfx/models/portraits/pony_earth/pinkie_pie/pinkie_pie_hair_alt14.dds"
 			}
-		}		
+		}
 	}
 }
 
@@ -831,7 +911,7 @@ mtrspony_pony_earth_maud_pie_hair_selector = {
 				"gfx/models/portraits/pony_earth/maud_pie/maud_pie_hair_alt14.dds"
 				"gfx/models/portraits/pony_earth/maud_pie/maud_pie_hair_alt15.dds"
 			}
-		}		
+		}
 	}
 
 	ruler = {
@@ -854,7 +934,7 @@ mtrspony_pony_earth_maud_pie_hair_selector = {
 				"gfx/models/portraits/pony_earth/maud_pie/maud_pie_hair_alt14.dds"
 				"gfx/models/portraits/pony_earth/maud_pie/maud_pie_hair_alt15.dds"
 			}
-		}		
+		}
 	}
 }
 
@@ -1014,7 +1094,7 @@ mtrspony_pony_earth_babs_seed_hair_selector = {
 				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_alt13.dds"
 				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_alt14.dds"
 			}
-		}		
+		}
 	}
 }
 
