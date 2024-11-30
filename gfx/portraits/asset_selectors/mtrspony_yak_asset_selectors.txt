@@ -16,6 +16,13 @@ mtrspony_yak_yona_hair_selector = {
 			list = {
 				"gfx/models/portraits/yak/yona/yona_hair.dds"
 				"gfx/models/portraits/yak/yona/yona_hair_alt1.dds"
+				"gfx/models/portraits/yak/yona/yona_hair_alt2.dds"
+				"gfx/models/portraits/yak/yona/yona_hair_alt3.dds"
+				"gfx/models/portraits/yak/yona/yona_hair_alt4.dds"
+				"gfx/models/portraits/yak/yona/yona_hair_alt5.dds"
+				"gfx/models/portraits/yak/yona/yona_hair_alt6.dds"
+				"gfx/models/portraits/yak/yona/yona_hair_alt7.dds"
+				"gfx/models/portraits/yak/yona/yona_hair_alt8.dds"
 			}
 		}
 	}
@@ -25,6 +32,13 @@ mtrspony_yak_yona_hair_selector = {
 			list = {
 				"gfx/models/portraits/yak/yona/yona_hair.dds"
 				"gfx/models/portraits/yak/yona/yona_hair_alt1.dds"
+				"gfx/models/portraits/yak/yona/yona_hair_alt2.dds"
+				"gfx/models/portraits/yak/yona/yona_hair_alt3.dds"
+				"gfx/models/portraits/yak/yona/yona_hair_alt4.dds"
+				"gfx/models/portraits/yak/yona/yona_hair_alt5.dds"
+				"gfx/models/portraits/yak/yona/yona_hair_alt6.dds"
+				"gfx/models/portraits/yak/yona/yona_hair_alt7.dds"
+				"gfx/models/portraits/yak/yona/yona_hair_alt8.dds"
 			}
 		}
 	}
@@ -34,6 +48,13 @@ mtrspony_yak_yona_hair_selector = {
 			list = {
 				"gfx/models/portraits/yak/yona/yona_hair.dds"
 				"gfx/models/portraits/yak/yona/yona_hair_alt1.dds"
+				"gfx/models/portraits/yak/yona/yona_hair_alt2.dds"
+				"gfx/models/portraits/yak/yona/yona_hair_alt3.dds"
+				"gfx/models/portraits/yak/yona/yona_hair_alt4.dds"
+				"gfx/models/portraits/yak/yona/yona_hair_alt5.dds"
+				"gfx/models/portraits/yak/yona/yona_hair_alt6.dds"
+				"gfx/models/portraits/yak/yona/yona_hair_alt7.dds"
+				"gfx/models/portraits/yak/yona/yona_hair_alt8.dds"
 			}
 		}
 	}
@@ -57,6 +78,14 @@ mtrspony_yak_yona_clothes_selector = {
 			list = {
 				"gfx/models/portraits/yak/yona/yona_clothes.dds"
 				"gfx/models/portraits/yak/yona/yona_clothes_alt1.dds"
+				"gfx/models/portraits/yak/yona/yona_clothes_alt2.dds"
+				"gfx/models/portraits/yak/yona/yona_clothes_alt3.dds"
+				"gfx/models/portraits/yak/yona/yona_clothes_alt4.dds"
+				"gfx/models/portraits/yak/yona/yona_clothes_alt5.dds"
+				"gfx/models/portraits/yak/yona/yona_clothes_alt6.dds"
+				"gfx/models/portraits/yak/yona/yona_clothes_alt7.dds"
+				"gfx/models/portraits/yak/yona/yona_clothes_alt8.dds"
+				"gfx/models/portraits/yak/yona/yona_clothes_alt9.dds"
 			}
 		}
 	}
@@ -66,6 +95,14 @@ mtrspony_yak_yona_clothes_selector = {
 			list = {
 				"gfx/models/portraits/yak/yona/yona_clothes.dds"
 				"gfx/models/portraits/yak/yona/yona_clothes_alt1.dds"
+				"gfx/models/portraits/yak/yona/yona_clothes_alt2.dds"
+				"gfx/models/portraits/yak/yona/yona_clothes_alt3.dds"
+				"gfx/models/portraits/yak/yona/yona_clothes_alt4.dds"
+				"gfx/models/portraits/yak/yona/yona_clothes_alt5.dds"
+				"gfx/models/portraits/yak/yona/yona_clothes_alt6.dds"
+				"gfx/models/portraits/yak/yona/yona_clothes_alt7.dds"
+				"gfx/models/portraits/yak/yona/yona_clothes_alt8.dds"
+				"gfx/models/portraits/yak/yona/yona_clothes_alt9.dds"
 			}
 		}
 	}
@@ -75,6 +112,14 @@ mtrspony_yak_yona_clothes_selector = {
 			list = {
 				"gfx/models/portraits/yak/yona/yona_clothes.dds"
 				"gfx/models/portraits/yak/yona/yona_clothes_alt1.dds"
+				"gfx/models/portraits/yak/yona/yona_clothes_alt2.dds"
+				"gfx/models/portraits/yak/yona/yona_clothes_alt3.dds"
+				"gfx/models/portraits/yak/yona/yona_clothes_alt4.dds"
+				"gfx/models/portraits/yak/yona/yona_clothes_alt5.dds"
+				"gfx/models/portraits/yak/yona/yona_clothes_alt6.dds"
+				"gfx/models/portraits/yak/yona/yona_clothes_alt7.dds"
+				"gfx/models/portraits/yak/yona/yona_clothes_alt8.dds"
+				"gfx/models/portraits/yak/yona/yona_clothes_alt9.dds"
 			}
 		}
 	}

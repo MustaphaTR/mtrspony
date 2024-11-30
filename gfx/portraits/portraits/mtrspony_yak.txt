@@ -8,6 +8,12 @@ portraits = {
 		character_textures = {
 			"gfx/models/portraits/yak/yona/yona.dds"
 			"gfx/models/portraits/yak/yona/yona_alt1.dds"
+			"gfx/models/portraits/yak/yona/yona_alt2.dds"
+			"gfx/models/portraits/yak/yona/yona_alt3.dds"
+			"gfx/models/portraits/yak/yona/yona_alt4.dds"
+			"gfx/models/portraits/yak/yona/yona_alt5.dds"
+			"gfx/models/portraits/yak/yona/yona_alt6.dds"
+			"gfx/models/portraits/yak/yona/yona_alt7.dds"
 		}
 
 		custom_attachment_label = "HAIR_COLOR"
