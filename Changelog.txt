@@ -89,5 +89,6 @@
 -- Added more color options to a portrait (Sunburst).
 
 - Version 0.2.6 (XX.11.2024):
+-- Added Yak portraits, one set for each gender. Yona for female and Rutherford for male.
 -- Added Yak namelist.
 -- Added one more male earth pony portrait set, based on Sandbar.

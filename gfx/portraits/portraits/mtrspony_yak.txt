@@ -12,6 +12,8 @@ portraits = {
 			"gfx/models/portraits/yak/rutherford/rutherford_alt3.dds"
 			"gfx/models/portraits/yak/rutherford/rutherford_alt4.dds"
 			"gfx/models/portraits/yak/rutherford/rutherford_alt5.dds"
+			"gfx/models/portraits/yak/rutherford/rutherford_alt6.dds"
+			"gfx/models/portraits/yak/rutherford/rutherford_alt7.dds"
 		}
 
 		custom_attachment_label = "HAIR_COLOR"
