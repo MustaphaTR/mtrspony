@@ -131,6 +131,29 @@ create_changeling_species = {
 	}
 }
 
+create_yak_species = {
+	create_species = {
+		name = "PRESCRIPTED_species_yak"
+		plural = "PRESCRIPTED_species_plural_yak"
+		adjective = "PRESCRIPTED_species_adjective_yak"
+		class = MAM
+		portrait = mtrspony_yak
+		namelist = mtrspony_namelists_yak
+		homeworld = ROOT.capital_scope
+		traits = {
+			trait = trait_pc_continental_preference
+			trait = trait_traditional
+			trait = trait_strong
+			trait = trait_nomadic
+			trait = trait_slow_learners
+		}
+
+		effect = {
+			save_global_event_target_as = yak_species
+		}
+	}
+}
+
 create_zebra_species = {
 	create_species = {
 		name = "PRESCRIPTED_species_zebra"

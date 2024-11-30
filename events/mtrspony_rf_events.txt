@@ -188,6 +188,11 @@ country_event = {
 			set_citizenship_type = { country = ROOT type = citizenship_full }
 			set_military_service_type = { country = ROOT type = military_service_full }
 		}
+		create_yak_species = yes
+		event_target:yak_species = {
+			set_citizenship_type = { country = ROOT type = citizenship_full }
+			set_military_service_type = { country = ROOT type = military_service_full }
+		}
 		create_zebra_species = yes
 		event_target:zebra_species = {
 			set_citizenship_type = { country = ROOT type = citizenship_full }
@@ -196,7 +201,7 @@ country_event = {
 
 		capital_scope = {
 			set_variable = { which = pop_to_remove value = 14 }
-			set_variable = { which = pony_pops value = 6 }
+			set_variable = { which = pony_pops value = 5 }
 			set_variable = { which = griffon_pops value = 3 }
 			set_variable = { which = kirin_pops value = 1 }
 			set_variable = { which = changeling_pops value = 1 }
@@ -204,7 +209,7 @@ country_event = {
 			if = {
 				limit = { ROOT = { NOT = { has_valid_civic = civic_eager_explorers } } }
 
-				set_variable = { which = pop_to_remove value = 20 }
+				set_variable = { which = pop_to_remove value = 21 }
 				set_variable = { which = pony_pops value = 8 }
 				set_variable = { which = griffon_pops value = 4 }
 				set_variable = { which = kirin_pops value = 2 }
@@ -254,6 +259,14 @@ country_event = {
 
 				create_pop = {
 					species = event_target:changeling_species
+					ethos = random
+				}
+			}
+			while = {
+				count = 1
+
+				create_pop = {
+					species = event_target:yak_species
 					ethos = random
 				}
 			}

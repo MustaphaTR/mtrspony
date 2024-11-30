@@ -165,6 +165,17 @@ country_event = {
 				remove_trait = trait_pc_continental_preference
 			}
 		}
+		create_yak_species = yes
+		event_target:yak_species = {
+			set_slavery_type = { country = ROOT type = slavery_normal }
+			change_species_characteristics = {
+				remove_trait = trait_pc_habitat_preference
+			}
+			change_species_characteristics = {
+				add_trait = trait_pc_alpine_preference
+				remove_trait = trait_pc_continental_preference
+			}
+		}
 		create_zebra_species = yes
 		event_target:zebra_species = {
 			set_slavery_type = { country = ROOT type = slavery_normal }
@@ -210,11 +221,11 @@ country_event = {
 		set_heir = event_target:leader_cherry_berry
 
 		capital_scope = {
-			set_variable = { which = pop_to_remove value = 18 }
+			set_variable = { which = pop_to_remove value = 19 }
 			if = {
 				limit = { ROOT = { has_origin = origin_default } }
 
-				set_variable = { which = pop_to_remove value = 22 }
+				set_variable = { which = pop_to_remove value = 23 }
 			}
 
 			while = {
@@ -291,6 +302,14 @@ country_event = {
 
 				create_pop = {
 					species = event_target:kirin_species
+					ethos = random
+				}
+			}
+			while = {
+				count = 1
+
+				create_pop = {
+					species = event_target:yak_species
 					ethos = random
 				}
 			}
