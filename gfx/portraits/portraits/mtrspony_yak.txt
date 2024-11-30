@@ -1,4 +1,22 @@
 portraits = {
+	mtrspony_yak_rutherford = {
+		entity = "portrait_dummy_big_15p_left_90p_scale_entity"
+		clothes_selector = "mtrspony_yak_rutherford_clothes_selector"
+		attachment_selector = "mtrspony_yak_rutherford_hair_selector"
+		greeting_sound = "human_male_greetings_04"
+
+		character_textures = {
+			"gfx/models/portraits/yak/rutherford/rutherford.dds"
+			"gfx/models/portraits/yak/rutherford/rutherford_alt1.dds"
+			"gfx/models/portraits/yak/rutherford/rutherford_alt2.dds"
+			"gfx/models/portraits/yak/rutherford/rutherford_alt3.dds"
+			"gfx/models/portraits/yak/rutherford/rutherford_alt4.dds"
+			"gfx/models/portraits/yak/rutherford/rutherford_alt5.dds"
+		}
+
+		custom_attachment_label = "HAIR_COLOR"
+	}
+
 	mtrspony_yak_yona = {
 		entity = "portrait_dummy_15p_left_entity"
 		clothes_selector = "mtrspony_yak_yona_clothes_selector"
@@ -22,7 +40,7 @@ portraits = {
 
 portrait_groups = {
 	mtrspony_yak = {
-		default = mtrspony_yak_yona
+		default = mtrspony_yak_rutherford
 		game_setup = {
 			add = {
 				trigger = {
@@ -34,7 +52,7 @@ portrait_groups = {
 					}
 				}
 				portraits = {
-					mtrspony_yak_yona
+					mtrspony_yak_rutherford
 				}
 			}
 			add = {
@@ -68,7 +86,7 @@ portrait_groups = {
 					NOT = { species = { species_gender = female } }
 				}
 				portraits = {
-					mtrspony_yak_yona
+					mtrspony_yak_rutherford
 				}
 			}
 		}
@@ -87,7 +105,7 @@ portrait_groups = {
 					NOT = { species = { species_gender = female } }
 				}
 				portraits = {
-					mtrspony_yak_yona
+					mtrspony_yak_rutherford
 				}
 			}
 		}
@@ -101,7 +119,7 @@ portrait_groups = {
 					}
 				}
 				portraits = {
-					mtrspony_yak_yona
+					mtrspony_yak_rutherford
 				}
 			}
 

@@ -90,6 +90,7 @@ Portrait Bases:
  > parclytaxel:
 	- Alicorn Apple Bloom
 	- Luna
+	- Prince Rutherford
 
  > ready2fail:
 	- Spitfire

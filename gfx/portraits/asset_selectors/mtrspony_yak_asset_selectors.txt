@@ -1,3 +1,109 @@
+mtrspony_yak_rutherford_hair_selector = {
+	default = "gfx/models/portraits/yak/rutherford/rutherford_hair.dds"
+
+	game_setup = {
+		default = "gfx/models/portraits/yak/rutherford/rutherford_hair.dds"
+	}
+
+	species = {
+		default = "gfx/models/portraits/yak/rutherford/rutherford_hair.dds"
+	}
+
+	pop = {
+		default = "gfx/models/portraits/yak/rutherford/rutherford_hair.dds"
+
+		random = {
+			list = {
+				"gfx/models/portraits/yak/rutherford/rutherford_hair.dds"
+				"gfx/models/portraits/yak/rutherford/rutherford_hair_alt1.dds"
+				"gfx/models/portraits/yak/rutherford/rutherford_hair_alt2.dds"
+				"gfx/models/portraits/yak/rutherford/rutherford_hair_alt3.dds"
+				"gfx/models/portraits/yak/rutherford/rutherford_hair_alt4.dds"
+				"gfx/models/portraits/yak/rutherford/rutherford_hair_alt5.dds"
+			}
+		}
+	}
+
+	leader = {
+		random = {
+			list = {
+				"gfx/models/portraits/yak/rutherford/rutherford_hair.dds"
+				"gfx/models/portraits/yak/rutherford/rutherford_hair_alt1.dds"
+				"gfx/models/portraits/yak/rutherford/rutherford_hair_alt2.dds"
+				"gfx/models/portraits/yak/rutherford/rutherford_hair_alt3.dds"
+				"gfx/models/portraits/yak/rutherford/rutherford_hair_alt4.dds"
+				"gfx/models/portraits/yak/rutherford/rutherford_hair_alt5.dds"
+			}
+		}
+	}
+
+	ruler = {
+		random = {
+			list = {
+				"gfx/models/portraits/yak/rutherford/rutherford_hair.dds"
+				"gfx/models/portraits/yak/rutherford/rutherford_hair_alt1.dds"
+				"gfx/models/portraits/yak/rutherford/rutherford_hair_alt2.dds"
+				"gfx/models/portraits/yak/rutherford/rutherford_hair_alt3.dds"
+				"gfx/models/portraits/yak/rutherford/rutherford_hair_alt4.dds"
+				"gfx/models/portraits/yak/rutherford/rutherford_hair_alt5.dds"
+			}
+		}
+	}
+}
+
+mtrspony_yak_rutherford_clothes_selector = {
+	default = "gfx/models/portraits/yak/rutherford/rutherford_clothes.dds"
+
+	game_setup = {
+		default = "gfx/models/portraits/yak/rutherford/rutherford_clothes.dds"
+	}
+
+	species = {
+		default = "gfx/models/portraits/yak/rutherford/rutherford_clothes.dds"
+	}
+
+	pop = {
+		default = "gfx/models/portraits/yak/rutherford/rutherford_clothes.dds"
+
+		random = {
+			list = {
+				"gfx/models/portraits/yak/rutherford/rutherford_clothes.dds"
+				"gfx/models/portraits/yak/rutherford/rutherford_clothes_alt1.dds"
+				"gfx/models/portraits/yak/rutherford/rutherford_clothes_alt2.dds"
+				"gfx/models/portraits/yak/rutherford/rutherford_clothes_alt3.dds"
+				"gfx/models/portraits/yak/rutherford/rutherford_clothes_alt4.dds"
+				"gfx/models/portraits/yak/rutherford/rutherford_clothes_alt5.dds"
+			}
+		}
+	}
+
+	leader = {
+		random = {
+			list = {
+				"gfx/models/portraits/yak/rutherford/rutherford_clothes.dds"
+				"gfx/models/portraits/yak/rutherford/rutherford_clothes_alt1.dds"
+				"gfx/models/portraits/yak/rutherford/rutherford_clothes_alt2.dds"
+				"gfx/models/portraits/yak/rutherford/rutherford_clothes_alt3.dds"
+				"gfx/models/portraits/yak/rutherford/rutherford_clothes_alt4.dds"
+				"gfx/models/portraits/yak/rutherford/rutherford_clothes_alt5.dds"
+			}
+		}
+	}
+
+	ruler = {
+		random = {
+			list = {
+				"gfx/models/portraits/yak/rutherford/rutherford_clothes.dds"
+				"gfx/models/portraits/yak/rutherford/rutherford_clothes_alt1.dds"
+				"gfx/models/portraits/yak/rutherford/rutherford_clothes_alt2.dds"
+				"gfx/models/portraits/yak/rutherford/rutherford_clothes_alt3.dds"
+				"gfx/models/portraits/yak/rutherford/rutherford_clothes_alt4.dds"
+				"gfx/models/portraits/yak/rutherford/rutherford_clothes_alt5.dds"
+			}
+		}
+	}
+}
+
 mtrspony_yak_yona_hair_selector = {
 	default = "gfx/models/portraits/yak/yona/yona_hair.dds"
 
