@@ -113,15 +113,6 @@ country_event = {
 
 		save_current_mtrspony_species = yes
 		create_other_mtrspony_species = yes
-		ROOT.species = {
-			change_species_characteristics = {
-				remove_trait = trait_pc_habitat_preference
-				add_trait = trait_pc_arid_preference
-			}
-			change_species_characteristics = {
-				remove_trait = trait_void_dweller_1
-			}
-		}
 		event_target:pony_species = {
 			change_species_characteristics = {
 				remove_trait = trait_pc_habitat_preference
@@ -148,12 +139,30 @@ country_event = {
 				remove_trait = trait_pc_habitat_preference
 				add_trait = trait_pc_arid_preference
 			}
+			change_species_characteristics = {
+				remove_trait = trait_pc_continental_preference
+			}
+		}
+		event_target:changeling_species = {
+			change_species_characteristics = {
+				remove_trait = trait_pc_habitat_preference
+				add_trait = trait_pc_arid_preference
+			}
+			change_species_characteristics = {
+				remove_trait = trait_pc_continental_preference
+			}
+			change_species_characteristics = {
+				remove_trait = trait_void_dweller_1
+			}
 		}
 		event_target:kirin_species = {
 			set_slavery_type = { country = ROOT type = slavery_normal }
 			change_species_characteristics = {
 				remove_trait = trait_pc_habitat_preference
 				add_trait = trait_pc_tropical_preference
+			}
+			change_species_characteristics = {
+				remove_trait = trait_pc_continental_preference
 			}
 		}
 		event_target:yak_species = {
@@ -162,12 +171,18 @@ country_event = {
 				remove_trait = trait_pc_habitat_preference
 				add_trait = trait_pc_alpine_preference
 			}
+			change_species_characteristics = {
+				remove_trait = trait_pc_continental_preference
+			}
 		}
 		event_target:zebra_species = {
 			set_slavery_type = { country = ROOT type = slavery_normal }
 			change_species_characteristics = {
 				remove_trait = trait_pc_habitat_preference
 				add_trait = trait_pc_savannah_preference
+			}
+			change_species_characteristics = {
+				remove_trait = trait_pc_continental_preference
 			}
 		}
 
