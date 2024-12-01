@@ -175,6 +175,8 @@ mtrspony_dragon_ember_hair_selector = {
 				"gfx/models/portraits/dragon/ember/ember_hair_alt10.dds"
 				"gfx/models/portraits/dragon/ember/ember_hair_alt11.dds"
 				"gfx/models/portraits/dragon/ember/ember_hair_alt12.dds"
+				"gfx/models/portraits/dragon/ember/ember_hair_alt13.dds"
+				"gfx/models/portraits/dragon/ember/ember_hair_alt14.dds"
 			}
 		}
 	}
@@ -195,6 +197,8 @@ mtrspony_dragon_ember_hair_selector = {
 				"gfx/models/portraits/dragon/ember/ember_hair_alt10.dds"
 				"gfx/models/portraits/dragon/ember/ember_hair_alt11.dds"
 				"gfx/models/portraits/dragon/ember/ember_hair_alt12.dds"
+				"gfx/models/portraits/dragon/ember/ember_hair_alt13.dds"
+				"gfx/models/portraits/dragon/ember/ember_hair_alt14.dds"
 			}
 		}
 	}
@@ -215,6 +219,8 @@ mtrspony_dragon_ember_hair_selector = {
 				"gfx/models/portraits/dragon/ember/ember_hair_alt10.dds"
 				"gfx/models/portraits/dragon/ember/ember_hair_alt11.dds"
 				"gfx/models/portraits/dragon/ember/ember_hair_alt12.dds"
+				"gfx/models/portraits/dragon/ember/ember_hair_alt13.dds"
+				"gfx/models/portraits/dragon/ember/ember_hair_alt14.dds"
 			}
 		}
 	}

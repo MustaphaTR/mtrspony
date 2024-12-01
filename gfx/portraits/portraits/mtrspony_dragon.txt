@@ -67,6 +67,7 @@ portraits = {
 			"gfx/models/portraits/dragon/ember/ember_alt10.dds"
 			"gfx/models/portraits/dragon/ember/ember_alt11.dds"
 			"gfx/models/portraits/dragon/ember/ember_alt12.dds"
+			"gfx/models/portraits/dragon/ember/ember_alt13.dds"
 		}
 
 		custom_attachment_label = "HAIR_COLOR"
