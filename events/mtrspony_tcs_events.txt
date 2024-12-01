@@ -160,73 +160,19 @@ country_event = {
 		}
 
 		capital_scope = {
-			while = {
-				count = 18
+			calculate_mtrspony_pop_count_keep_majority = yes
+			spawn_other_mtrspony_species = yes
 
-				random_owned_pop = { kill_pop = yes }
-			}
-			while = {
-				count = 5
-
-				create_pop = {
-					species = event_target:griffon_species
-					ethos = random
-				}
-			}
 			while = {
 				count = 2
 
-				create_pop = {
-					species = event_target:griffon_species
-					ethos = { ethic = ethic_spiritualist }
-				}
-			}
-			while = {
-				count = 1
+				random_owned_pop = {
+					limit = {
+						is_same_species = event_target:griffon_species
+						NOT = { pop_has_ethic = ethic_spiritualist }
+					}
 
-				create_pop = {
-					species = event_target:hippogriff_species
-					ethos = random
-				}
-			}
-			while = {
-				count = 1
-
-				create_pop = {
-					species = event_target:dragon_species
-					ethos = random
-				}
-			}
-			while = {
-				count = 2
-
-				create_pop = {
-					species = event_target:kirin_species
-					ethos = random
-				}
-			}
-			while = {
-				count = 2
-
-				create_pop = {
-					species = event_target:changeling_species
-					ethos = random
-				}
-			}
-			while = {
-				count = 1
-
-				create_pop = {
-					species = event_target:yak_species
-					ethos = random
-				}
-			}
-			while = {
-				count = 4
-
-				create_pop = {
-					species = event_target:zebra_species
-					ethos = random
+					pop_change_ethic = ethic_spiritualist
 				}
 			}
 		}

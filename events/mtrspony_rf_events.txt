@@ -163,121 +163,40 @@ country_event = {
 			}
 		}
 
-		create_pony_species = yes
+		save_current_mtrspony_species = yes
+		create_other_mtrspony_species = yes
 		event_target:pony_species = {
 			set_citizenship_type = { country = ROOT type = citizenship_full }
 			set_military_service_type = { country = ROOT type = military_service_full }
 		}
-		create_griffon_species = yes
 		event_target:griffon_species = {
 			set_citizenship_type = { country = ROOT type = citizenship_full }
 			set_military_service_type = { country = ROOT type = military_service_full }
 		}
-		create_dragon_species = yes
 		event_target:dragon_species = {
 			set_citizenship_type = { country = ROOT type = citizenship_full }
 			set_military_service_type = { country = ROOT type = military_service_full }
 		}
-		create_kirin_species = yes
 		event_target:kirin_species = {
 			set_citizenship_type = { country = ROOT type = citizenship_full }
 			set_military_service_type = { country = ROOT type = military_service_full }
 		}
-		create_changeling_species = yes
 		event_target:changeling_species = {
 			set_citizenship_type = { country = ROOT type = citizenship_full }
 			set_military_service_type = { country = ROOT type = military_service_full }
 		}
-		create_yak_species = yes
 		event_target:yak_species = {
 			set_citizenship_type = { country = ROOT type = citizenship_full }
 			set_military_service_type = { country = ROOT type = military_service_full }
 		}
-		create_zebra_species = yes
 		event_target:zebra_species = {
 			set_citizenship_type = { country = ROOT type = citizenship_full }
 			set_military_service_type = { country = ROOT type = military_service_full }
 		}
 
 		capital_scope = {
-			set_variable = { which = pop_to_remove value = 14 }
-			set_variable = { which = pony_pops value = 5 }
-			set_variable = { which = griffon_pops value = 3 }
-			set_variable = { which = kirin_pops value = 1 }
-			set_variable = { which = changeling_pops value = 1 }
-			set_variable = { which = zebra_pops value = 2 }
-			if = {
-				limit = { ROOT = { NOT = { has_valid_civic = civic_eager_explorers } } }
-
-				set_variable = { which = pop_to_remove value = 21 }
-				set_variable = { which = pony_pops value = 8 }
-				set_variable = { which = griffon_pops value = 4 }
-				set_variable = { which = kirin_pops value = 2 }
-				set_variable = { which = changeling_pops value = 2 }
-				set_variable = { which = zebra_pops value = 3 }
-			}
-
-			while = {
-				count = pop_to_remove
-
-				random_owned_pop = { kill_pop = yes }
-			}
-			while = {
-				count = pony_pops
-
-				create_pop = {
-					species = event_target:pony_species
-					ethos = random
-				}
-			}
-			while = {
-				count = griffon_pops
-
-				create_pop = {
-					species = event_target:griffon_species
-					ethos = random
-				}
-			}
-			while = {
-				count = 1
-
-				create_pop = {
-					species = event_target:dragon_species
-					ethos = random
-				}
-			}
-			while = {
-				count = kirin_pops
-
-				create_pop = {
-					species = event_target:kirin_species
-					ethos = random
-				}
-			}
-			while = {
-				count = changeling_pops
-
-				create_pop = {
-					species = event_target:changeling_species
-					ethos = random
-				}
-			}
-			while = {
-				count = 1
-
-				create_pop = {
-					species = event_target:yak_species
-					ethos = random
-				}
-			}
-			while = {
-				count = zebra_pops
-
-				create_pop = {
-					species = event_target:zebra_species
-					ethos = random
-				}
-			}
+			calculate_mtrspony_pop_count_keep_majority = yes
+			spawn_other_mtrspony_species = yes
 		}
 
 		# Name one of the starting ships Posada, if we have one that is.

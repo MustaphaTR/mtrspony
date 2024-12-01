@@ -107,7 +107,33 @@ has_under_one_rule_origin = {
 	}
 }
 
-# Others
+has_mtrspony_portrait = {
+	OR = {
+		species_portrait = mtrspony_pony
+		species_portrait = mtrspony_pony_earth
+		species_portrait = mtrspony_pony_unicorn
+		species_portrait = mtrspony_pony_pegasus
+		species_portrait = mtrspony_pony_alicorn
+		species_portrait = mtrspony_kirin
+		species_portrait = mtrspony_yak
+		species_portrait = mtrspony_zebra
+		species_portrait = mtrspony_dragon
+		species_portrait = mtrspony_griffon
+		species_portrait = mtrspony_hippogriff
+		species_portrait = mtrspony_changeling
+	}
+}
+
+has_mtrspony_pony_portrait = {
+	OR = {
+		species_portrait = mtrspony_pony
+		species_portrait = mtrspony_pony_earth
+		species_portrait = mtrspony_pony_unicorn
+		species_portrait = mtrspony_pony_pegasus
+		species_portrait = mtrspony_pony_alicorn
+	}
+}
+
 is_mtrspony_prescripted_country = {
 	OR = {
 		has_country_flag = convocation_of_creatures
@@ -121,8 +147,7 @@ is_mtrspony_prescripted_country = {
 	}
 }
 
-is_same_species_with_other_faustian_races = {
-	NOT = { is_same_species = owner_main_species }
+is_same_species_with_faustian_races = {
 	OR = {
 		is_same_species = event_target:pony_species
 		is_same_species = event_target:griffon_species
@@ -130,6 +155,12 @@ is_same_species_with_other_faustian_races = {
 		is_same_species = event_target:dragon_species
 		is_same_species = event_target:kirin_species
 		is_same_species = event_target:changeling_species
+		is_same_species = event_target:yak_species
 		is_same_species = event_target:zebra_species
 	}
+}
+
+is_same_species_with_other_faustian_races = {
+	NOT = { is_same_species = owner_main_species }
+	is_same_species_with_faustian_races = yes
 }

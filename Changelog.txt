@@ -89,6 +89,10 @@
 -- Added more color options to a portrait (Sunburst).
 
 - Version 0.2.6 (XX.11.2024):
+-- Added a setup event on custom empires using one of the portraits from the mod to generate rest of the MLP species on the planet as well.
+--- Also reworked how many of each species spawn on the prescripted countries along with it for consistency between the two.
+--- I tried to account for some specific cases, but if you notice any issues with the options on your setup, please let me know.
 -- Added Yak portraits, one set for each gender. Yona for female and Rutherford for male.
+--- Existing prescripted countries now start with one Yak pop.
 -- Added Yak namelist.
 -- Added one more male earth pony portrait set, based on Sandbar.

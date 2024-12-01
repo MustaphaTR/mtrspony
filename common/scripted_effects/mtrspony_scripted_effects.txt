@@ -1,3 +1,1311 @@
+save_current_mtrspony_species = {
+	if = {
+		limit = { has_mtrspony_pony_portrait = yes }
+
+		owner_main_species = { save_global_event_target_as = pony_species }
+	}
+	else_if = {
+		limit = { species_portrait = mtrspony_griffon }
+
+		owner_main_species = { save_global_event_target_as = griffon_species }
+	}
+	else_if = {
+		limit = { species_portrait = mtrspony_hippogriff }
+
+		owner_main_species = { save_global_event_target_as = hippogriff_species }
+	}
+	else_if = {
+		limit = { species_portrait = mtrspony_dragon }
+
+		owner_main_species = { save_global_event_target_as = dragon_species }
+	}
+	else_if = {
+		limit = { species_portrait = mtrspony_kirin }
+
+		owner_main_species = { save_global_event_target_as = kirin_species }
+	}
+	else_if = {
+		limit = { species_portrait = mtrspony_changeling }
+
+		owner_main_species = { save_global_event_target_as = changeling_species }
+	}
+	else_if = {
+		limit = { species_portrait = mtrspony_yak }
+
+		owner_main_species = { save_global_event_target_as = yak_species }
+	}
+	else_if = {
+		limit = { species_portrait = mtrspony_zebra }
+
+		owner_main_species = { save_global_event_target_as = zebra_species }
+	}
+}
+
+calculate_mtrspony_pop_count_default = {
+	if = {
+		limit = { num_pops > 62 }
+
+		set_variable = { which = pony_pops value = 24 }
+		set_variable = { which = griffon_pops value = 15 }
+		set_variable = { which = hippogriff_pops value = 3 }
+		set_variable = { which = dragon_pops value = 1 }
+		set_variable = { which = kirin_pops value = 3 }
+		set_variable = { which = changeling_pops value = 5 }
+		set_variable = { which = yak_pops value = 3 }
+		set_variable = { which = zebra_pops value = 9 }
+	}
+	else_if = {
+		limit = { num_pops > 36 }
+
+		set_variable = { which = pony_pops value = 14 }
+		set_variable = { which = griffon_pops value = 9 }
+		set_variable = { which = hippogriff_pops value = 2 }
+		set_variable = { which = dragon_pops value = 1 }
+		set_variable = { which = kirin_pops value = 2 }
+		set_variable = { which = changeling_pops value = 3 }
+		set_variable = { which = yak_pops value = 1 }
+		set_variable = { which = zebra_pops value = 5 }
+	}
+	else_if = {
+		limit = { num_pops > 32 }
+
+		set_variable = { which = pony_pops value = 12 }
+		set_variable = { which = griffon_pops value = 8 }
+		set_variable = { which = hippogriff_pops value = 2 }
+		set_variable = { which = dragon_pops value = 1 }
+		set_variable = { which = kirin_pops value = 2 }
+		set_variable = { which = changeling_pops value = 3 }
+		set_variable = { which = yak_pops value = 1 }
+		set_variable = { which = zebra_pops value = 4 }
+	}
+	else_if = {
+		limit = { num_pops > 31 }
+
+		set_variable = { which = pony_pops value = 12 }
+		set_variable = { which = griffon_pops value = 8 }
+		set_variable = { which = hippogriff_pops value = 2 }
+		set_variable = { which = dragon_pops value = 1 }
+		set_variable = { which = kirin_pops value = 1 }
+		set_variable = { which = changeling_pops value = 3 }
+		set_variable = { which = yak_pops value = 1 }
+		set_variable = { which = zebra_pops value = 4 }
+	}
+	else_if = {
+		limit = { num_pops > 27 }
+
+		set_variable = { which = pony_pops value = 10 }
+		set_variable = { which = griffon_pops value = 7 }
+		set_variable = { which = hippogriff_pops value = 2 }
+		set_variable = { which = dragon_pops value = 1 }
+		set_variable = { which = kirin_pops value = 1 }
+		set_variable = { which = changeling_pops value = 2 }
+		set_variable = { which = yak_pops value = 1 }
+		set_variable = { which = zebra_pops value = 4 }
+	}
+	else_if = {
+		limit = { num_pops > 24 }
+
+		set_variable = { which = pony_pops value = 9 }
+		set_variable = { which = griffon_pops value = 6 }
+		set_variable = { which = hippogriff_pops value = 1 }
+		set_variable = { which = dragon_pops value = 1 }
+		set_variable = { which = kirin_pops value = 1 }
+		set_variable = { which = changeling_pops value = 2 }
+		set_variable = { which = yak_pops value = 1 }
+		set_variable = { which = zebra_pops value = 4 }
+	}
+	else_if = {
+		limit = { num_pops > 21 }
+
+		set_variable = { which = pony_pops value = 8 }
+		set_variable = { which = griffon_pops value = 5 }
+		set_variable = { which = hippogriff_pops value = 1 }
+		set_variable = { which = dragon_pops value = 1 }
+		set_variable = { which = kirin_pops value = 1 }
+		set_variable = { which = changeling_pops value = 2 }
+		set_variable = { which = yak_pops value = 1 }
+		set_variable = { which = zebra_pops value = 3 }
+	}
+	else_if = {
+		limit = { num_pops > 19 }
+
+		set_variable = { which = pony_pops value = 7 }
+		set_variable = { which = griffon_pops value = 5 }
+		set_variable = { which = hippogriff_pops value = 1 }
+		set_variable = { which = dragon_pops value = 1 }
+		set_variable = { which = kirin_pops value = 1 }
+		set_variable = { which = changeling_pops value = 2 }
+		set_variable = { which = yak_pops value = 1 }
+		set_variable = { which = zebra_pops value = 2 }
+	}
+	else_if = {
+		limit = { num_pops > 17 }
+
+		set_variable = { which = pony_pops value = 7 }
+		set_variable = { which = griffon_pops value = 4 }
+		set_variable = { which = hippogriff_pops value = 1 }
+		set_variable = { which = dragon_pops value = 1 }
+		set_variable = { which = kirin_pops value = 1 }
+		set_variable = { which = changeling_pops value = 1 }
+		set_variable = { which = yak_pops value = 1 }
+		set_variable = { which = zebra_pops value = 2 }
+	}
+	else_if = {
+		limit = { num_pops > 15 }
+
+		set_variable = { which = pony_pops value = 6 }
+		set_variable = { which = griffon_pops value = 3 }
+		set_variable = { which = hippogriff_pops value = 1 }
+		set_variable = { which = dragon_pops value = 1 }
+		set_variable = { which = kirin_pops value = 1 }
+		set_variable = { which = changeling_pops value = 1 }
+		set_variable = { which = yak_pops value = 1 }
+		set_variable = { which = zebra_pops value = 2 }
+	}
+	else_if = {
+		limit = { num_pops > 14 }
+
+		set_variable = { which = pony_pops value = 5 }
+		set_variable = { which = griffon_pops value = 3 }
+		set_variable = { which = hippogriff_pops value = 1 }
+		set_variable = { which = dragon_pops value = 1 }
+		set_variable = { which = kirin_pops value = 1 }
+		set_variable = { which = changeling_pops value = 1 }
+		set_variable = { which = yak_pops value = 1 }
+		set_variable = { which = zebra_pops value = 2 }
+	}
+	else_if = {
+		limit = { num_pops > 9 }
+
+		set_variable = { which = pony_pops value = 2 }
+		set_variable = { which = griffon_pops value = 2 }
+		set_variable = { which = hippogriff_pops value = 1 }
+		set_variable = { which = dragon_pops value = 1 }
+		set_variable = { which = kirin_pops value = 1 }
+		set_variable = { which = changeling_pops value = 1 }
+		set_variable = { which = yak_pops value = 1 }
+		set_variable = { which = zebra_pops value = 1 }
+	}
+	else = {
+		set_variable = { which = pony_pops value = 1 }
+		set_variable = { which = griffon_pops value = 1 }
+		set_variable = { which = hippogriff_pops value = 1 }
+		set_variable = { which = dragon_pops value = 1 }
+		set_variable = { which = kirin_pops value = 1 }
+		set_variable = { which = changeling_pops value = 1 }
+		set_variable = { which = yak_pops value = 1 }
+		set_variable = { which = zebra_pops value = 1 }
+	}
+
+	calculate_pops_to_remove = yes
+}
+
+calculate_mtrspony_pop_count_keep_majority = {
+	calculate_mtrspony_pop_count_default = yes
+	if = {
+		limit = { owner = { species_portrait = mtrspony_griffon } }
+
+		calculate_mtrspony_pop_count_griffon = yes
+	}
+	else_if = {
+		limit = { owner = { species_portrait = mtrspony_hippogriff } }
+
+		calculate_mtrspony_pop_count_hippogriff = yes
+	}
+	else_if = {
+		limit = { owner = { species_portrait = mtrspony_dragon } }
+
+		calculate_mtrspony_pop_count_dragon = yes
+	}
+	else_if = {
+		limit = { owner = { species_portrait = mtrspony_kirin } }
+
+		calculate_mtrspony_pop_count_kirin = yes
+	}
+	else_if = {
+		limit = { owner = { species_portrait = mtrspony_changeling } }
+
+		calculate_mtrspony_pop_count_changeling = yes
+	}
+	else_if = {
+		limit = { owner = { species_portrait = mtrspony_yak } }
+
+		calculate_mtrspony_pop_count_yak = yes
+	}
+	else_if = {
+		limit = { owner = { species_portrait = mtrspony_zebra } }
+
+		calculate_mtrspony_pop_count_zebra = yes
+	}
+}
+
+calculate_mtrspony_pop_count_griffon = {
+	if = {
+		limit = { num_pops > 62 }
+
+		set_variable = { which = pony_pops value = 15 }
+		set_variable = { which = griffon_pops value = 24 }
+	}
+	else_if = {
+		limit = { num_pops > 36 }
+
+		set_variable = { which = pony_pops value = 9 }
+		set_variable = { which = griffon_pops value = 14 }
+	}
+	else_if = {
+		limit = { num_pops > 32 }
+
+		set_variable = { which = pony_pops value = 8 }
+		set_variable = { which = griffon_pops value = 12 }
+	}
+	else_if = {
+		limit = { num_pops > 31 }
+
+		set_variable = { which = pony_pops value = 8 }
+		set_variable = { which = griffon_pops value = 12 }
+	}
+	else_if = {
+		limit = { num_pops > 27 }
+
+		set_variable = { which = pony_pops value = 7 }
+		set_variable = { which = griffon_pops value = 10 }
+	}
+	else_if = {
+		limit = { num_pops > 24 }
+
+		set_variable = { which = pony_pops value = 6 }
+		set_variable = { which = griffon_pops value = 9 }
+	}
+	else_if = {
+		limit = { num_pops > 21 }
+
+		set_variable = { which = pony_pops value = 8 }
+		set_variable = { which = griffon_pops value = 5 }
+	}
+	else_if = {
+		limit = { num_pops > 19 }
+
+		set_variable = { which = pony_pops value = 7 }
+		set_variable = { which = griffon_pops value = 5 }
+	}
+	else_if = {
+		limit = { num_pops > 17 }
+
+		set_variable = { which = pony_pops value = 7 }
+		set_variable = { which = griffon_pops value = 4 }
+	}
+	else_if = {
+		limit = { num_pops > 15 }
+
+		set_variable = { which = pony_pops value = 6 }
+		set_variable = { which = griffon_pops value = 3 }
+	}
+	else_if = {
+		limit = { num_pops > 14 }
+
+		set_variable = { which = pony_pops value = 3 }
+		set_variable = { which = griffon_pops value = 5 }
+	}
+
+	calculate_pops_to_remove = yes
+}
+
+calculate_mtrspony_pop_count_hippogriff = {
+	if = {
+		limit = { num_pops > 62 }
+
+		set_variable = { which = pony_pops value = 15 }
+		set_variable = { which = griffon_pops value = 9 }
+		set_variable = { which = hippogriff_pops value = 24 }
+		set_variable = { which = changeling_pops value = 3 }
+		set_variable = { which = zebra_pops value = 5 }
+	}
+	else_if = {
+		limit = { num_pops > 36 }
+
+		set_variable = { which = pony_pops value = 3 }
+		set_variable = { which = griffon_pops value = 5 }
+		set_variable = { which = hippogriff_pops value = 14 }
+		set_variable = { which = changeling_pops value = 2 }
+		set_variable = { which = zebra_pops value = 3 }
+	}
+	else_if = {
+		limit = { num_pops > 32 }
+
+		set_variable = { which = pony_pops value = 8 }
+		set_variable = { which = griffon_pops value = 4 }
+		set_variable = { which = hippogriff_pops value = 12 }
+		set_variable = { which = changeling_pops value = 2 }
+		set_variable = { which = zebra_pops value = 3 }
+	}
+	else_if = {
+		limit = { num_pops > 31 }
+
+		set_variable = { which = pony_pops value = 8 }
+		set_variable = { which = griffon_pops value = 4 }
+		set_variable = { which = hippogriff_pops value = 12 }
+		set_variable = { which = changeling_pops value = 2 }
+		set_variable = { which = zebra_pops value = 3 }
+	}
+	else_if = {
+		limit = { num_pops > 27 }
+
+		set_variable = { which = pony_pops value = 7 }
+		set_variable = { which = griffon_pops value = 4 }
+		set_variable = { which = hippogriff_pops value = 10 }
+		set_variable = { which = zebra_pops value = 2 }
+	}
+	else_if = {
+		limit = { num_pops > 24 }
+
+		set_variable = { which = pony_pops value = 6 }
+		set_variable = { which = griffon_pops value = 4 }
+		set_variable = { which = hippogriff_pops value = 9 }
+		set_variable = { which = changeling_pops value = 1 }
+		set_variable = { which = zebra_pops value = 2 }
+	}
+	else_if = {
+		limit = { num_pops > 21 }
+
+		set_variable = { which = pony_pops value = 5 }
+		set_variable = { which = griffon_pops value = 3 }
+		set_variable = { which = hippogriff_pops value = 8 }
+		set_variable = { which = changeling_pops value = 1 }
+		set_variable = { which = zebra_pops value = 2 }
+	}
+	else_if = {
+		limit = { num_pops > 19 }
+
+		set_variable = { which = pony_pops value = 5 }
+		set_variable = { which = griffon_pops value = 2 }
+		set_variable = { which = hippogriff_pops value = 7 }
+		set_variable = { which = changeling_pops value = 1 }
+	}
+	else_if = {
+		limit = { num_pops > 17 }
+
+		set_variable = { which = pony_pops value = 4 }
+		set_variable = { which = griffon_pops value = 2 }
+		set_variable = { which = hippogriff_pops value = 7 }
+		set_variable = { which = zebra_pops value = 1 }
+	}
+	else_if = {
+		limit = { num_pops > 15 }
+
+		set_variable = { which = pony_pops value = 3 }
+		set_variable = { which = griffon_pops value = 2 }
+		set_variable = { which = hippogriff_pops value = 6 }
+		set_variable = { which = zebra_pops value = 1 }
+	}
+	else_if = {
+		limit = { num_pops > 14 }
+
+		set_variable = { which = pony_pops value = 3 }
+		set_variable = { which = griffon_pops value = 2 }
+		set_variable = { which = hippogriff_pops value = 5 }
+		set_variable = { which = zebra_pops value = 1 }
+	}
+	else_if = {
+		limit = { num_pops > 9 }
+
+		set_variable = { which = griffon_pops value = 1 }
+		set_variable = { which = hippogriff_pops value = 2 }
+	}
+
+	calculate_pops_to_remove = yes
+}
+
+calculate_mtrspony_pop_count_dragon = {
+	if = {
+		limit = { num_pops > 62 }
+
+		set_variable = { which = pony_pops value = 15 }
+		set_variable = { which = griffon_pops value = 9 }
+		set_variable = { which = dragon_pops value = 24 }
+		set_variable = { which = changeling_pops value = 3 }
+		set_variable = { which = yak_pops value = 1 }
+		set_variable = { which = zebra_pops value = 5 }
+	}
+	else_if = {
+		limit = { num_pops > 36 }
+
+		set_variable = { which = pony_pops value = 9 }
+		set_variable = { which = griffon_pops value = 5 }
+		set_variable = { which = dragon_pops value = 14 }
+		set_variable = { which = kirin_pops value = 1 }
+		set_variable = { which = changeling_pops value = 2 }
+		set_variable = { which = zebra_pops value = 3 }
+	}
+	else_if = {
+		limit = { num_pops > 32 }
+
+		set_variable = { which = pony_pops value = 8 }
+		set_variable = { which = griffon_pops value = 4 }
+		set_variable = { which = dragon_pops value = 12 }
+		set_variable = { which = kirin_pops value = 1 }
+		set_variable = { which = changeling_pops value = 2 }
+		set_variable = { which = zebra_pops value = 3 }
+	}
+	else_if = {
+		limit = { num_pops > 31 }
+
+		set_variable = { which = pony_pops value = 8 }
+		set_variable = { which = griffon_pops value = 4 }
+		set_variable = { which = hippogriff_pops value = 1 }
+		set_variable = { which = dragon_pops value = 12 }
+		set_variable = { which = changeling_pops value = 2 }
+		set_variable = { which = zebra_pops value = 3 }
+	}
+	else_if = {
+		limit = { num_pops > 27 }
+
+		set_variable = { which = pony_pops value = 7 }
+		set_variable = { which = griffon_pops value = 4 }
+		set_variable = { which = hippogriff_pops value = 1 }
+		set_variable = { which = dragon_pops value = 10 }
+		set_variable = { which = zebra_pops value = 2 }
+	}
+	else_if = {
+		limit = { num_pops > 24 }
+
+		set_variable = { which = pony_pops value = 6 }
+		set_variable = { which = griffon_pops value = 4 }
+		set_variable = { which = dragon_pops value = 9 }
+		set_variable = { which = changeling_pops value = 1 }
+		set_variable = { which = zebra_pops value = 2 }
+	}
+	else_if = {
+		limit = { num_pops > 21 }
+
+		set_variable = { which = pony_pops value = 5 }
+		set_variable = { which = griffon_pops value = 3 }
+		set_variable = { which = dragon_pops value = 8 }
+		set_variable = { which = changeling_pops value = 1 }
+		set_variable = { which = zebra_pops value = 2 }
+	}
+	else_if = {
+		limit = { num_pops > 19 }
+
+		set_variable = { which = pony_pops value = 5 }
+		set_variable = { which = griffon_pops value = 2 }
+		set_variable = { which = dragon_pops value = 7 }
+		set_variable = { which = changeling_pops value = 1 }
+	}
+	else_if = {
+		limit = { num_pops > 17 }
+
+		set_variable = { which = pony_pops value = 4 }
+		set_variable = { which = griffon_pops value = 2 }
+		set_variable = { which = dragon_pops value = 7 }
+		set_variable = { which = changeling_pops value = 1 }
+	}
+	else_if = {
+		limit = { num_pops > 15 }
+
+		set_variable = { which = pony_pops value = 3 }
+		set_variable = { which = griffon_pops value = 2 }
+		set_variable = { which = dragon_pops value = 6 }
+		set_variable = { which = zebra_pops value = 1 }
+	}
+	else_if = {
+		limit = { num_pops > 14 }
+
+		set_variable = { which = pony_pops value = 3 }
+		set_variable = { which = griffon_pops value = 2 }
+		set_variable = { which = dragon_pops value = 5 }
+		set_variable = { which = zebra_pops value = 1 }
+	}
+	else_if = {
+		limit = { num_pops > 9 }
+
+		set_variable = { which = griffon_pops value = 1 }
+		set_variable = { which = dragon_pops value = 2 }
+	}
+
+	calculate_pops_to_remove = yes
+}
+
+calculate_mtrspony_pop_count_kirin = {
+	if = {
+		limit = { num_pops > 62 }
+
+		set_variable = { which = pony_pops value = 15 }
+		set_variable = { which = griffon_pops value = 9 }
+		set_variable = { which = kirin_pops value = 24 }
+		set_variable = { which = changeling_pops value = 3 }
+		set_variable = { which = zebra_pops value = 5 }
+	}
+	else_if = {
+		limit = { num_pops > 36 }
+
+		set_variable = { which = pony_pops value = 9 }
+		set_variable = { which = griffon_pops value = 5 }
+		set_variable = { which = kirin_pops value = 14 }
+		set_variable = { which = changeling_pops value = 2 }
+		set_variable = { which = zebra_pops value = 3 }
+	}
+	else_if = {
+		limit = { num_pops > 32 }
+
+		set_variable = { which = pony_pops value = 8 }
+		set_variable = { which = griffon_pops value = 4 }
+		set_variable = { which = kirin_pops value = 12 }
+		set_variable = { which = changeling_pops value = 2 }
+		set_variable = { which = zebra_pops value = 3 }
+	}
+	else_if = {
+		limit = { num_pops > 31 }
+
+		set_variable = { which = pony_pops value = 8 }
+		set_variable = { which = griffon_pops value = 4 }
+		set_variable = { which = hippogriff_pops value = 1 }
+		set_variable = { which = kirin_pops value = 12 }
+		set_variable = { which = changeling_pops value = 2 }
+		set_variable = { which = zebra_pops value = 3 }
+	}
+	else_if = {
+		limit = { num_pops > 27 }
+
+		set_variable = { which = pony_pops value = 7 }
+		set_variable = { which = griffon_pops value = 4 }
+		set_variable = { which = hippogriff_pops value = 1 }
+		set_variable = { which = kirin_pops value = 10 }
+		set_variable = { which = zebra_pops value = 2 }
+	}
+	else_if = {
+		limit = { num_pops > 24 }
+
+		set_variable = { which = pony_pops value = 6 }
+		set_variable = { which = griffon_pops value = 4 }
+		set_variable = { which = kirin_pops value = 9 }
+		set_variable = { which = changeling_pops value = 1 }
+		set_variable = { which = zebra_pops value = 2 }
+	}
+	else_if = {
+		limit = { num_pops > 21 }
+
+		set_variable = { which = pony_pops value = 5 }
+		set_variable = { which = griffon_pops value = 3 }
+		set_variable = { which = kirin_pops value = 8 }
+		set_variable = { which = changeling_pops value = 1 }
+		set_variable = { which = zebra_pops value = 2 }
+	}
+	else_if = {
+		limit = { num_pops > 19 }
+
+		set_variable = { which = pony_pops value = 5 }
+		set_variable = { which = griffon_pops value = 2 }
+		set_variable = { which = kirin_pops value = 7 }
+		set_variable = { which = changeling_pops value = 1 }
+	}
+	else_if = {
+		limit = { num_pops > 17 }
+
+		set_variable = { which = pony_pops value = 4 }
+		set_variable = { which = griffon_pops value = 2 }
+		set_variable = { which = kirin_pops value = 7 }
+		set_variable = { which = zebra_pops value = 1 }
+	}
+	else_if = {
+		limit = { num_pops > 15 }
+
+		set_variable = { which = pony_pops value = 3 }
+		set_variable = { which = griffon_pops value = 2 }
+		set_variable = { which = kirin_pops value = 6 }
+		set_variable = { which = zebra_pops value = 1 }
+	}
+	else_if = {
+		limit = { num_pops > 14 }
+
+		set_variable = { which = pony_pops value = 3 }
+		set_variable = { which = griffon_pops value = 2 }
+		set_variable = { which = kirin_pops value = 5 }
+		set_variable = { which = zebra_pops value = 1 }
+	}
+	else_if = {
+		limit = { num_pops > 9 }
+
+		set_variable = { which = griffon_pops value = 1 }
+		set_variable = { which = kirin_pops value = 2 }
+	}
+
+	calculate_pops_to_remove = yes
+}
+
+calculate_mtrspony_pop_count_changeling = {
+	if = {
+		limit = { num_pops > 62 }
+
+		set_variable = { which = pony_pops value = 15 }
+		set_variable = { which = griffon_pops value = 9 }
+		set_variable = { which = changeling_pops value = 24 }
+		set_variable = { which = zebra_pops value = 5 }
+	}
+	else_if = {
+		limit = { num_pops > 36 }
+
+		set_variable = { which = pony_pops value = 9 }
+		set_variable = { which = griffon_pops value = 5 }
+		set_variable = { which = changeling_pops value = 14 }
+		set_variable = { which = zebra_pops value = 3 }
+	}
+	else_if = {
+		limit = { num_pops > 32 }
+
+		set_variable = { which = pony_pops value = 8 }
+		set_variable = { which = griffon_pops value = 4 }
+		set_variable = { which = changeling_pops value = 12 }
+		set_variable = { which = zebra_pops value = 3 }
+	}
+	else_if = {
+		limit = { num_pops > 31 }
+
+		set_variable = { which = pony_pops value = 8 }
+		set_variable = { which = griffon_pops value = 4 }
+		set_variable = { which = changeling_pops value = 12 }
+		set_variable = { which = zebra_pops value = 3 }
+	}
+	else_if = {
+		limit = { num_pops > 27 }
+
+		set_variable = { which = pony_pops value = 7 }
+		set_variable = { which = griffon_pops value = 4 }
+		set_variable = { which = changeling_pops value = 10 }
+		set_variable = { which = zebra_pops value = 2 }
+	}
+	else_if = {
+		limit = { num_pops > 24 }
+
+		set_variable = { which = pony_pops value = 6 }
+		set_variable = { which = griffon_pops value = 4 }
+		set_variable = { which = changeling_pops value = 9 }
+		set_variable = { which = zebra_pops value = 2 }
+	}
+	else_if = {
+		limit = { num_pops > 21 }
+
+		set_variable = { which = pony_pops value = 5 }
+		set_variable = { which = griffon_pops value = 3 }
+		set_variable = { which = changeling_pops value = 8 }
+		set_variable = { which = zebra_pops value = 2 }
+	}
+	else_if = {
+		limit = { num_pops > 19 }
+
+		set_variable = { which = pony_pops value = 5 }
+		set_variable = { which = griffon_pops value = 2 }
+		set_variable = { which = changeling_pops value = 7 }
+	}
+	else_if = {
+		limit = { num_pops > 17 }
+
+		set_variable = { which = pony_pops value = 4 }
+		set_variable = { which = griffon_pops value = 2 }
+		set_variable = { which = changeling_pops value = 7 }
+		set_variable = { which = zebra_pops value = 1 }
+	}
+	else_if = {
+		limit = { num_pops > 15 }
+
+		set_variable = { which = pony_pops value = 3 }
+		set_variable = { which = griffon_pops value = 2 }
+		set_variable = { which = changeling_pops value = 6 }
+		set_variable = { which = zebra_pops value = 1 }
+	}
+	else_if = {
+		limit = { num_pops > 14 }
+
+		set_variable = { which = pony_pops value = 3 }
+		set_variable = { which = griffon_pops value = 2 }
+		set_variable = { which = changeling_pops value = 5 }
+		set_variable = { which = zebra_pops value = 1 }
+	}
+	else_if = {
+		limit = { num_pops > 9 }
+
+		set_variable = { which = griffon_pops value = 1 }
+		set_variable = { which = changeling_pops value = 2 }
+	}
+
+	calculate_pops_to_remove = yes
+}
+
+calculate_mtrspony_pop_count_yak = {
+	if = {
+		limit = { num_pops > 62 }
+
+		set_variable = { which = pony_pops value = 15 }
+		set_variable = { which = griffon_pops value = 9 }
+		set_variable = { which = changeling_pops value = 3 }
+		set_variable = { which = yak_pops value = 24 }
+		set_variable = { which = zebra_pops value = 5 }
+	}
+	else_if = {
+		limit = { num_pops > 36 }
+
+		set_variable = { which = pony_pops value = 9 }
+		set_variable = { which = griffon_pops value = 5 }
+		set_variable = { which = kirin_pops value = 1 }
+		set_variable = { which = changeling_pops value = 2 }
+		set_variable = { which = yak_pops value = 14 }
+		set_variable = { which = zebra_pops value = 3 }
+	}
+	else_if = {
+		limit = { num_pops > 32 }
+
+		set_variable = { which = pony_pops value = 8 }
+		set_variable = { which = griffon_pops value = 4 }
+		set_variable = { which = kirin_pops value = 1 }
+		set_variable = { which = changeling_pops value = 2 }
+		set_variable = { which = yak_pops value = 12 }
+		set_variable = { which = zebra_pops value = 3 }
+	}
+	else_if = {
+		limit = { num_pops > 31 }
+
+		set_variable = { which = pony_pops value = 8 }
+		set_variable = { which = griffon_pops value = 4 }
+		set_variable = { which = hippogriff_pops value = 1 }
+		set_variable = { which = changeling_pops value = 2 }
+		set_variable = { which = yak_pops value = 12 }
+		set_variable = { which = zebra_pops value = 3 }
+	}
+	else_if = {
+		limit = { num_pops > 27 }
+
+		set_variable = { which = pony_pops value = 7 }
+		set_variable = { which = griffon_pops value = 4 }
+		set_variable = { which = hippogriff_pops value = 1 }
+		set_variable = { which = yak_pops value = 10 }
+		set_variable = { which = zebra_pops value = 2 }
+	}
+	else_if = {
+		limit = { num_pops > 24 }
+
+		set_variable = { which = pony_pops value = 6 }
+		set_variable = { which = griffon_pops value = 4 }
+		set_variable = { which = changeling_pops value = 1 }
+		set_variable = { which = yak_pops value = 9 }
+		set_variable = { which = zebra_pops value = 2 }
+	}
+	else_if = {
+		limit = { num_pops > 21 }
+
+		set_variable = { which = pony_pops value = 5 }
+		set_variable = { which = griffon_pops value = 3 }
+		set_variable = { which = changeling_pops value = 1 }
+		set_variable = { which = yak_pops value = 8 }
+		set_variable = { which = zebra_pops value = 2 }
+	}
+	else_if = {
+		limit = { num_pops > 19 }
+
+		set_variable = { which = pony_pops value = 5 }
+		set_variable = { which = griffon_pops value = 2 }
+		set_variable = { which = changeling_pops value = 1 }
+		set_variable = { which = yak_pops value = 7 }
+	}
+	else_if = {
+		limit = { num_pops > 17 }
+
+		set_variable = { which = pony_pops value = 4 }
+		set_variable = { which = griffon_pops value = 2 }
+		set_variable = { which = changeling_pops value = 1 }
+		set_variable = { which = yak_pops value = 7 }
+	}
+	else_if = {
+		limit = { num_pops > 15 }
+
+		set_variable = { which = pony_pops value = 3 }
+		set_variable = { which = griffon_pops value = 2 }
+		set_variable = { which = yak_pops value = 6 }
+		set_variable = { which = zebra_pops value = 1 }
+	}
+	else_if = {
+		limit = { num_pops > 14 }
+
+		set_variable = { which = pony_pops value = 3 }
+		set_variable = { which = griffon_pops value = 2 }
+		set_variable = { which = yak_pops value = 5 }
+		set_variable = { which = zebra_pops value = 1 }
+	}
+	else_if = {
+		limit = { num_pops > 9 }
+
+		set_variable = { which = griffon_pops value = 1 }
+		set_variable = { which = yak_pops value = 2 }
+	}
+
+	calculate_pops_to_remove = yes
+}
+
+calculate_mtrspony_pop_count_zebra = {
+	if = {
+		limit = { num_pops > 62 }
+
+		set_variable = { which = pony_pops value = 15 }
+		set_variable = { which = griffon_pops value = 9 }
+		set_variable = { which = zebra_pops value = 24 }
+	}
+	else_if = {
+		limit = { num_pops > 36 }
+
+		set_variable = { which = pony_pops value = 9 }
+		set_variable = { which = griffon_pops value = 5 }
+		set_variable = { which = zebra_pops value = 14 }
+	}
+	else_if = {
+		limit = { num_pops > 32 }
+
+		set_variable = { which = pony_pops value = 8 }
+		set_variable = { which = griffon_pops value = 4 }
+		set_variable = { which = zebra_pops value = 12 }
+	}
+	else_if = {
+		limit = { num_pops > 31 }
+
+		set_variable = { which = pony_pops value = 8 }
+		set_variable = { which = griffon_pops value = 4 }
+		set_variable = { which = zebra_pops value = 12 }
+	}
+	else_if = {
+		limit = { num_pops > 27 }
+
+		set_variable = { which = pony_pops value = 7 }
+		set_variable = { which = griffon_pops value = 4 }
+		set_variable = { which = zebra_pops value = 10 }
+	}
+	else_if = {
+		limit = { num_pops > 24 }
+
+		set_variable = { which = pony_pops value = 6 }
+		set_variable = { which = griffon_pops value = 4 }
+		set_variable = { which = zebra_pops value = 9 }
+	}
+	else_if = {
+		limit = { num_pops > 21 }
+
+		set_variable = { which = pony_pops value = 5 }
+		set_variable = { which = griffon_pops value = 3 }
+		set_variable = { which = zebra_pops value = 8 }
+	}
+	else_if = {
+		limit = { num_pops > 19 }
+
+		set_variable = { which = pony_pops value = 5 }
+		set_variable = { which = griffon_pops value = 2 }
+		set_variable = { which = zebra_pops value = 7 }
+	}
+	else_if = {
+		limit = { num_pops > 17 }
+
+		set_variable = { which = pony_pops value = 4 }
+		set_variable = { which = griffon_pops value = 2 }
+		set_variable = { which = zebra_pops value = 7 }
+	}
+	else_if = {
+		limit = { num_pops > 15 }
+
+		set_variable = { which = pony_pops value = 3 }
+		set_variable = { which = griffon_pops value = 2 }
+		set_variable = { which = zebra_pops value = 6 }
+	}
+	else_if = {
+		limit = { num_pops > 14 }
+
+		set_variable = { which = pony_pops value = 3 }
+		set_variable = { which = griffon_pops value = 2 }
+		set_variable = { which = zebra_pops value = 5 }
+	}
+	else_if = {
+		limit = { num_pops > 9 }
+
+		set_variable = { which = griffon_pops value = 1 }
+		set_variable = { which = zebra_pops value = 2 }
+	}
+
+	calculate_pops_to_remove = yes
+}
+
+calculate_pops_to_remove = {
+	set_variable = { which = pops_to_remove value = trigger:num_pops }
+	if = {
+		limit = { owner = { has_mtrspony_pony_portrait = yes } }
+
+		subtract_variable = { which = pops_to_remove value = pony_pops }
+	}
+	else_if = {
+		limit = { owner = { species_portrait = mtrspony_griffon } }
+
+		subtract_variable = { which = pops_to_remove value = griffon_pops }
+	}
+	else_if = {
+		limit = { owner = { species_portrait = mtrspony_hippogriff } }
+
+		subtract_variable = { which = pops_to_remove value = hippogriff_pops }
+	}
+	else_if = {
+		limit = { owner = { species_portrait = mtrspony_dragon } }
+
+		subtract_variable = { which = pops_to_remove value = dragon_pops }
+	}
+	else_if = {
+		limit = { owner = { species_portrait = mtrspony_kirin } }
+
+		subtract_variable = { which = pops_to_remove value = kirin_pops }
+	}
+	else_if = {
+		limit = { owner = { species_portrait = mtrspony_changeling } }
+
+		subtract_variable = { which = pops_to_remove value = changeling_pops }
+	}
+	else_if = {
+		limit = { owner = { species_portrait = mtrspony_yak } }
+
+		subtract_variable = { which = pops_to_remove value = yak_pops }
+	}
+	else_if = {
+		limit = { owner = { species_portrait = mtrspony_zebra } }
+
+		subtract_variable = { which = pops_to_remove value = zebra_pops }
+	}
+}
+
+create_other_mtrspony_species = {
+	if = {
+		limit = { has_mtrspony_pony_portrait = no }
+
+		create_pony_species = yes
+	}
+	if = {
+		limit = { NOT = { species_portrait = mtrspony_griffon } }
+
+		create_griffon_species = yes
+	}
+	if = {
+		limit = { NOT = { species_portrait = mtrspony_hippogriff } }
+
+		create_hippogriff_species = yes
+	}
+	if = {
+		limit = { NOT = { species_portrait = mtrspony_dragon } }
+
+		create_dragon_species = yes
+	}
+	if = {
+		limit = { NOT = { species_portrait = mtrspony_kirin } }
+
+		create_kirin_species = yes
+	}
+	if = {
+		limit = { NOT = { species_portrait = mtrspony_changeling } }
+
+		create_changeling_species = yes
+	}
+	if = {
+		limit = { NOT = { species_portrait = mtrspony_yak } }
+
+		create_yak_species = yes
+	}
+	if = {
+		limit = { NOT = { species_portrait = mtrspony_zebra } }
+
+		create_zebra_species = yes
+	}
+}
+spawn_other_mtrspony_species = {
+	if = {
+		limit = { owner = { has_mtrspony_pony_portrait = no } }
+
+		spawn_x_pony_pops = yes
+	}
+	if = {
+		limit = { owner = { NOT = { species_portrait = mtrspony_griffon } } }
+
+		spawn_x_griffon_pops = yes
+	}
+	if = {
+		limit = { owner = { NOT = { species_portrait = mtrspony_hippogriff } } }
+
+		spawn_x_hippogriff_pops = yes
+	}
+	if = {
+		limit = { owner = { NOT = { species_portrait = mtrspony_dragon } } }
+
+		spawn_x_dragon_pops = yes
+	}
+	if = {
+		limit = { owner = { NOT = { species_portrait = mtrspony_kirin } } }
+
+		spawn_x_kirin_pops = yes
+	}
+	if = {
+		limit = { owner = { NOT = { species_portrait = mtrspony_changeling } } }
+
+		spawn_x_changeling_pops = yes
+	}
+	if = {
+		limit = { owner = { NOT = { species_portrait = mtrspony_yak } } }
+
+		spawn_x_yak_pops = yes
+	}
+	if = {
+		limit = { owner = { NOT = { species_portrait = mtrspony_zebra } } }
+
+		spawn_x_zebra_pops = yes
+	}
+
+	remove_x_ROOT_species_pops = yes
+	add_extra_traits_to_mtrspony_species = yes
+
+	owner = {
+		if = {
+			limit = {
+				OR = {
+					has_authority = auth_democratic
+					has_ethic = ethic_fanatic_xenophile
+					has_ethic = ethic_xenophile
+					has_ethic = ethic_fanatic_egalitarian
+					has_ethic = ethic_egalitarian
+					has_trait = trait_hive_mind
+				}
+			}
+
+			set_species_rights_to_max = yes
+		}
+	}
+}
+
+add_extra_traits_to_mtrspony_species = {
+	# Authority
+	if = {
+		limit = { owner_main_species = { has_trait = trait_hive_mind } }
+
+		every_owned_species = {
+			limit = { is_same_species_with_faustian_races = yes }
+
+			change_species_characteristics = { add_trait = trait_hive_mind }
+		}
+	}
+
+	# Origin
+	if = {
+		limit = { owner_main_species = { has_trait = trait_survivor } }
+
+		every_owned_species = {
+			limit = { is_same_species_with_faustian_races = yes }
+
+			change_species_characteristics = { add_trait = trait_survivor }
+			change_species_characteristics = { remove_trait = trait_pc_nuked_preference }
+		}
+		add_original_species_pc_trait = yes
+	}
+	else_if = {
+		limit = { owner_main_species = { has_trait = trait_void_dweller_1 } }
+
+		every_owned_species = {
+			limit = { is_same_species_with_faustian_races = yes }
+
+			change_species_characteristics = { add_trait = trait_void_dweller_1 }
+		}
+	}
+	else_if = {
+		limit = { owner_main_species = { has_trait = trait_necrophage } }
+
+		every_owned_species = {
+			limit = { is_same_species_with_faustian_races = yes }
+
+			change_species_characteristics = { add_trait = trait_necrophage }
+		}
+	}
+	else_if = {
+		limit = { owner_main_species = { has_trait = trait_clone_soldier_infertile } }
+
+		every_owned_species = {
+			limit = { is_same_species_with_faustian_races = yes }
+
+			change_species_characteristics = { add_trait = trait_clone_soldier_infertile }
+		}
+	}
+	else_if = {
+		limit = { owner_main_species = { has_trait = trait_aquatic } }
+
+		# TODO: This eats up 2 trait points, rest of the traits will need adjustments.
+		every_owned_species = {
+			limit = { is_same_species_with_faustian_races = yes }
+
+			change_species_characteristics = { add_trait = trait_aquatic }
+		}
+	}
+	else_if = {
+		limit = { owner_main_species = { has_trait = trait_cave_dweller } }
+
+		every_owned_species = {
+			limit = { is_same_species_with_faustian_races = yes }
+
+			change_species_characteristics = { add_trait = trait_cave_dweller }
+		}
+	}
+	else_if = {
+		limit = { owner_main_species = { has_trait = trait_latent_psionic } }
+
+		every_owned_species = {
+			limit = { is_same_species_with_faustian_races = yes }
+
+			change_species_characteristics = { add_trait = trait_latent_psionic }
+		}
+	}
+	else_if = {
+		limit = { owner_main_species = { has_trait = trait_perfected_genes } }
+
+		every_owned_species = {
+			limit = { is_same_species_with_faustian_races = yes }
+
+			change_species_characteristics = { add_trait = trait_perfected_genes }
+		}
+	}
+	else_if = {
+		limit = { owner_main_species = { has_trait = trait_pathogenic_genes } }
+
+		every_owned_species = {
+			limit = { is_same_species_with_faustian_races = yes }
+
+			change_species_characteristics = { add_trait = trait_pathogenic_genes }
+		}
+	}
+}
+add_original_species_pc_trait = {
+	if = {
+		limit = { owner_main_species = { has_trait = trait_pc_desert_preference } }
+
+		every_owned_species = {
+			limit = { is_same_species_with_faustian_races = yes }
+
+			change_species_characteristics = { add_trait = trait_pc_desert_preference }
+		}
+	}
+	else_if = {
+		limit = { owner_main_species = { has_trait = trait_pc_arid_preference } }
+
+		every_owned_species = {
+			limit = { is_same_species_with_faustian_races = yes }
+
+			change_species_characteristics = { add_trait = trait_pc_arid_preference }
+		}
+	}
+	else_if = {
+		limit = { owner_main_species = { has_trait = trait_pc_savannah_preference } }
+
+		every_owned_species = {
+			limit = { is_same_species_with_faustian_races = yes }
+
+			change_species_characteristics = { add_trait = trait_pc_savannah_preference }
+		}
+	}
+	else_if = {
+		limit = { owner_main_species = { has_trait = trait_pc_tropical_preference } }
+
+		every_owned_species = {
+			limit = { is_same_species_with_faustian_races = yes }
+
+			change_species_characteristics = { add_trait = trait_pc_tropical_preference }
+		}
+	}
+	else_if = {
+		limit = { owner_main_species = { has_trait = trait_pc_continental_preference } }
+
+		every_owned_species = {
+			limit = { is_same_species_with_faustian_races = yes }
+
+			change_species_characteristics = { add_trait = trait_pc_continental_preference }
+		}
+	}
+	else_if = {
+		limit = { owner_main_species = { has_trait = trait_pc_ocean_preference } }
+
+		every_owned_species = {
+			limit = { is_same_species_with_faustian_races = yes }
+
+			change_species_characteristics = { add_trait = trait_pc_ocean_preference }
+		}
+	}
+	else_if = {
+		limit = { owner_main_species = { has_trait = trait_pc_arctic_preference } }
+
+		every_owned_species = {
+			limit = { is_same_species_with_faustian_races = yes }
+
+			change_species_characteristics = { add_trait = trait_pc_arctic_preference }
+		}
+	}
+	else_if = {
+		limit = { owner_main_species = { has_trait = trait_pc_tundra_preference } }
+
+		every_owned_species = {
+			limit = { is_same_species_with_faustian_races = yes }
+
+			change_species_characteristics = { add_trait = trait_pc_tundra_preference }
+		}
+	}
+	else_if = {
+		limit = { owner_main_species = { has_trait = trait_pc_alpine_preference } }
+
+		every_owned_species = {
+			limit = { is_same_species_with_faustian_races = yes }
+
+			change_species_characteristics = { add_trait = trait_pc_alpine_preference }
+		}
+	}
+	else_if = {
+		limit = { owner_main_species = { has_trait = trait_pc_nuked_preference } }
+
+		every_owned_species = {
+			limit = { is_same_species_with_faustian_races = yes }
+
+			change_species_characteristics = { add_trait = trait_pc_nuked_preference }
+		}
+	}
+	else_if = {
+		limit = { owner_main_species = { has_trait = trait_pc_gaia_preference } }
+
+		every_owned_species = {
+			limit = { is_same_species_with_faustian_races = yes }
+
+			change_species_characteristics = { add_trait = trait_pc_gaia_preference }
+		}
+	}
+	else_if = {
+		limit = { owner_main_species = { has_trait = trait_pc_ringworld_habitable_preference } }
+
+		every_owned_species = {
+			limit = { is_same_species_with_faustian_races = yes }
+
+			change_species_characteristics = { add_trait = trait_pc_ringworld_habitable_preference }
+		}
+	}
+	else_if = {
+		limit = { owner_main_species = { has_trait = trait_pc_habitat_preference } }
+
+		every_owned_species = {
+			limit = { is_same_species_with_faustian_races = yes }
+
+			change_species_characteristics = { add_trait = trait_pc_habitat_preference }
+		}
+	}
+}
+
+remove_x_ROOT_species_pops = {
+	while = {
+		count = pops_to_remove
+
+		random_owned_pop = {
+			limit = { is_same_species = ROOT.species }
+
+			kill_pop = yes
+		}
+	}
+}
+
 create_pony_species = {
 	create_species = {
 		name = "PRESCRIPTED_species_pony"
@@ -6,9 +1314,8 @@ create_pony_species = {
 		class = MAM
 		portrait = mtrspony_pony
 		namelist = mtrspony_namelists_pony
-		homeworld = ROOT.capital_scope
+		homeworld = ROOT.species.home_planet
 		traits = {
-			trait = trait_pc_continental_preference
 			trait = trait_talented
 			trait = trait_cutie_marks
 			trait = trait_sedentary
@@ -16,6 +1323,16 @@ create_pony_species = {
 
 		effect = {
 			save_global_event_target_as = pony_species
+		}
+	}
+}
+spawn_x_pony_pops = {
+	while = {
+		count = pony_pops
+
+		create_pop = {
+			species = event_target:pony_species
+			ethos = random
 		}
 	}
 }
@@ -28,9 +1345,8 @@ create_griffon_species = {
 		class = AVI
 		portrait = mtrspony_griffon
 		namelist = mtrspony_namelists_griffon
-		homeworld = ROOT.capital_scope
+		homeworld = ROOT.species.home_planet
 		traits = {
-			trait = trait_pc_continental_preference
 			trait = trait_thrifty
 			trait = trait_resilient
 			trait = trait_quarrelsome
@@ -38,6 +1354,16 @@ create_griffon_species = {
 
 		effect = {
 			save_global_event_target_as = griffon_species
+		}
+	}
+}
+spawn_x_griffon_pops = {
+	while = {
+		count = griffon_pops
+
+		create_pop = {
+			species = event_target:griffon_species
+			ethos = random
 		}
 	}
 }
@@ -50,9 +1376,8 @@ create_hippogriff_species = {
 		class = AVI
 		portrait = mtrspony_hippogriff
 		namelist = mtrspony_namelists_hippogriff
-		homeworld = ROOT.capital_scope
+		homeworld = ROOT.species.home_planet
 		traits = {
-			trait = trait_pc_continental_preference
 			trait = trait_nomadic
 			trait = trait_adaptive
 			trait = trait_deviants
@@ -60,6 +1385,16 @@ create_hippogriff_species = {
 
 		effect = {
 			save_global_event_target_as = hippogriff_species
+		}
+	}
+}
+spawn_x_hippogriff_pops = {
+	while = {
+		count = hippogriff_pops
+
+		create_pop = {
+			species = event_target:hippogriff_species
+			ethos = random
 		}
 	}
 }
@@ -72,9 +1407,8 @@ create_dragon_species = {
 		class = REP
 		portrait = mtrspony_dragon
 		namelist = mtrspony_namelists_dragon
-		homeworld = ROOT.capital_scope
+		homeworld = ROOT.species.home_planet
 		traits = {
-			trait = trait_pc_continental_preference
 			trait = trait_strong
 			trait = trait_venerable
 			trait = trait_slow_breeders
@@ -83,6 +1417,16 @@ create_dragon_species = {
 
 		effect = {
 			save_global_event_target_as = dragon_species
+		}
+	}
+}
+spawn_x_dragon_pops = {
+	while = {
+		count = dragon_pops
+
+		create_pop = {
+			species = event_target:dragon_species
+			ethos = random
 		}
 	}
 }
@@ -95,9 +1439,8 @@ create_kirin_species = {
 		class = MAM
 		portrait = mtrspony_kirin
 		namelist = mtrspony_namelists_kirin
-		homeworld = ROOT.capital_scope
+		homeworld = ROOT.species.home_planet
 		traits = {
-			trait = trait_pc_continental_preference
 			trait = trait_agrarian
 			trait = trait_natural_engineers
 			trait = trait_wasteful
@@ -105,6 +1448,16 @@ create_kirin_species = {
 
 		effect = {
 			save_global_event_target_as = kirin_species
+		}
+	}
+}
+spawn_x_kirin_pops = {
+	while = {
+		count = kirin_pops
+
+		create_pop = {
+			species = event_target:kirin_species
+			ethos = random
 		}
 	}
 }
@@ -117,9 +1470,8 @@ create_changeling_species = {
 		class = ART
 		portrait = mtrspony_changeling
 		namelist = mtrspony_namelists_changeling
-		homeworld = ROOT.capital_scope
+		homeworld = ROOT.species.home_planet
 		traits = {
-			trait = trait_pc_continental_preference
 			trait = trait_communal
 			trait = trait_adaptive
 			trait = trait_wasteful
@@ -127,6 +1479,16 @@ create_changeling_species = {
 
 		effect = {
 			save_global_event_target_as = changeling_species
+		}
+	}
+}
+spawn_x_changeling_pops = {
+	while = {
+		count = changeling_pops
+
+		create_pop = {
+			species = event_target:changeling_species
+			ethos = random
 		}
 	}
 }
@@ -139,9 +1501,8 @@ create_yak_species = {
 		class = MAM
 		portrait = mtrspony_yak
 		namelist = mtrspony_namelists_yak
-		homeworld = ROOT.capital_scope
+		homeworld = ROOT.species.home_planet
 		traits = {
-			trait = trait_pc_continental_preference
 			trait = trait_traditional
 			trait = trait_strong
 			trait = trait_nomadic
@@ -150,6 +1511,16 @@ create_yak_species = {
 
 		effect = {
 			save_global_event_target_as = yak_species
+		}
+	}
+}
+spawn_x_yak_pops = {
+	while = {
+		count = yak_pops
+
+		create_pop = {
+			species = event_target:yak_species
+			ethos = random
 		}
 	}
 }
@@ -162,9 +1533,8 @@ create_zebra_species = {
 		class = MAM
 		portrait = mtrspony_zebra
 		namelist = mtrspony_namelists_zebra
-		homeworld = ROOT.capital_scope
+		homeworld = ROOT.species.home_planet
 		traits = {
-			trait = trait_pc_continental_preference
 			trait = trait_conservational
 			trait = trait_natural_physicists
 		}
@@ -172,6 +1542,31 @@ create_zebra_species = {
 		effect = {
 			save_global_event_target_as = zebra_species
 		}
+	}
+}
+spawn_x_zebra_pops = {
+	while = {
+		count = zebra_pops
+
+		create_pop = {
+			species = event_target:zebra_species
+			ethos = random
+		}
+	}
+}
+
+set_species_rights_to_max = {
+	every_owned_species = {
+		limit = {
+			is_same_species_with_faustian_races = yes
+			OR = {
+				NOT = { ROOT = { has_civic = civic_selective_kinship } }
+				is_same_species_class = owner_main_species
+			}
+		}
+
+		set_citizenship_type = { country = ROOT type = citizenship_full }
+		set_military_service_type = { country = ROOT type = military_service_full }
 	}
 }
 

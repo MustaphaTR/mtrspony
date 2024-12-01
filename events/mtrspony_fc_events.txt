@@ -34,104 +34,40 @@ country_event = {
 			}
 		}
 
-		create_pony_species = yes
+		save_current_mtrspony_species = yes
+		create_other_mtrspony_species = yes
 		event_target:pony_species = {
 			set_citizenship_type = { country = ROOT type = citizenship_full }
 			set_military_service_type = { country = ROOT type = military_service_full }
 		}
-		create_griffon_species = yes
 		event_target:griffon_species = {
 			set_citizenship_type = { country = ROOT type = citizenship_full }
 			set_military_service_type = { country = ROOT type = military_service_full }
 		}
-		create_hippogriff_species = yes
 		event_target:hippogriff_species = {
 			set_citizenship_type = { country = ROOT type = citizenship_full }
 			set_military_service_type = { country = ROOT type = military_service_full }
 		}
-		create_dragon_species = yes
 		event_target:dragon_species = {
 			set_citizenship_type = { country = ROOT type = citizenship_full }
 			set_military_service_type = { country = ROOT type = military_service_full }
 		}
-		create_changeling_species = yes
 		event_target:changeling_species = {
 			set_citizenship_type = { country = ROOT type = citizenship_full }
 			set_military_service_type = { country = ROOT type = military_service_full }
 		}
-		create_yak_species = yes
 		event_target:yak_species = {
 			set_citizenship_type = { country = ROOT type = citizenship_full }
 			set_military_service_type = { country = ROOT type = military_service_full }
 		}
-		create_zebra_species = yes
 		event_target:zebra_species = {
 			set_citizenship_type = { country = ROOT type = citizenship_full }
 			set_military_service_type = { country = ROOT type = military_service_full }
 		}
 
 		capital_scope = {
-			while = {
-				count = 21
-
-				random_owned_pop = { kill_pop = yes }
-			}
-			while = {
-				count = 8
-
-				create_pop = {
-					species = event_target:pony_species
-					ethos = random
-				}
-			}
-			while = {
-				count = 5
-
-				create_pop = {
-					species = event_target:griffon_species
-					ethos = random
-				}
-			}
-			while = {
-				count = 1
-
-				create_pop = {
-					species = event_target:hippogriff_species
-					ethos = random
-				}
-			}
-			while = {
-				count = 1
-
-				create_pop = {
-					species = event_target:dragon_species
-					ethos = random
-				}
-			}
-			while = {
-				count = 2
-
-				create_pop = {
-					species = event_target:changeling_species
-					ethos = random
-				}
-			}
-			while = {
-				count = 1
-
-				create_pop = {
-					species = event_target:yak_species
-					ethos = random
-				}
-			}
-			while = {
-				count = 3
-
-				create_pop = {
-					species = event_target:zebra_species
-					ethos = random
-				}
-			}
+			calculate_mtrspony_pop_count_keep_majority = yes
+			spawn_other_mtrspony_species = yes
 		}
 
 		# Custom names for starting ships.

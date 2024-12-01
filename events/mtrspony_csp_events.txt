@@ -111,80 +111,63 @@ country_event = {
 			}
 		}
 
+		save_current_mtrspony_species = yes
+		create_other_mtrspony_species = yes
 		ROOT.species = {
 			change_species_characteristics = {
 				remove_trait = trait_pc_habitat_preference
-			}
-			change_species_characteristics = {
-				remove_trait = trait_pc_continental_preference
-			}
-			change_species_characteristics = {
 				add_trait = trait_pc_arid_preference
+			}
+			change_species_characteristics = {
 				remove_trait = trait_void_dweller_1
 			}
 		}
-		create_pony_species = yes
 		event_target:pony_species = {
 			change_species_characteristics = {
 				remove_trait = trait_pc_habitat_preference
+				add_trait = trait_pc_continental_preference
 			}
 		}
-		create_griffon_species = yes
 		event_target:griffon_species = {
 			set_slavery_type = { country = ROOT type = slavery_normal }
 			change_species_characteristics = {
 				remove_trait = trait_pc_habitat_preference
+				add_trait = trait_pc_continental_preference
 			}
 		}
-		create_hippogriff_species = yes
 		event_target:hippogriff_species = {
 			set_slavery_type = { country = ROOT type = slavery_normal }
 			change_species_characteristics = {
 				remove_trait = trait_pc_habitat_preference
+				add_trait = trait_pc_continental_preference
 			}
 		}
-		create_dragon_species = yes
 		event_target:dragon_species = {
 			set_slavery_type = { country = ROOT type = slavery_military }
 			change_species_characteristics = {
 				remove_trait = trait_pc_habitat_preference
-			}
-			change_species_characteristics = {
 				add_trait = trait_pc_arid_preference
-				remove_trait = trait_pc_continental_preference
 			}
 		}
-		create_kirin_species = yes
 		event_target:kirin_species = {
 			set_slavery_type = { country = ROOT type = slavery_normal }
 			change_species_characteristics = {
 				remove_trait = trait_pc_habitat_preference
-			}
-			change_species_characteristics = {
 				add_trait = trait_pc_tropical_preference
-				remove_trait = trait_pc_continental_preference
 			}
 		}
-		create_yak_species = yes
 		event_target:yak_species = {
 			set_slavery_type = { country = ROOT type = slavery_normal }
 			change_species_characteristics = {
 				remove_trait = trait_pc_habitat_preference
-			}
-			change_species_characteristics = {
 				add_trait = trait_pc_alpine_preference
-				remove_trait = trait_pc_continental_preference
 			}
 		}
-		create_zebra_species = yes
 		event_target:zebra_species = {
 			set_slavery_type = { country = ROOT type = slavery_normal }
 			change_species_characteristics = {
 				remove_trait = trait_pc_habitat_preference
-			}
-			change_species_characteristics = {
 				add_trait = trait_pc_savannah_preference
-				remove_trait = trait_pc_continental_preference
 			}
 		}
 
@@ -221,112 +204,99 @@ country_event = {
 		set_heir = event_target:leader_cherry_berry
 
 		capital_scope = {
-			set_variable = { which = pop_to_remove value = 19 }
+			calculate_mtrspony_pop_count_keep_majority = yes
 			if = {
 				limit = { ROOT = { has_origin = origin_default } }
 
-				set_variable = { which = pop_to_remove value = 23 }
+				change_variable = { which = pops_to_remove value = 4 }
 			}
+			spawn_other_mtrspony_species = yes
 
-			while = {
-				count = pop_to_remove
-
-				random_owned_pop = { kill_pop = yes }
-			}
-			while = {
-				count = 2
-
-				create_pop = {
-					species = event_target:pony_species
-					ethos = random
-				}
-			}
 			while = {
 				count = 4
 
-				create_pop = {
-					species = event_target:pony_species
-					ethos = { ethic = ethic_xenophile }
+				random_owned_pop = {
+					limit = {
+						is_same_species = event_target:pony_species
+						NOT = { pop_has_ethic = ethic_xenophile }
+					}
+
+					pop_change_ethic = ethic_xenophile
 				}
 			}
 			while = {
 				count = 2
 
-				create_pop = {
-					species = event_target:pony_species
-					ethos = { ethic = ethic_pacifist }
+				random_owned_pop = {
+					limit = {
+						is_same_species = event_target:pony_species
+						NOT = {
+							pop_has_ethic = ethic_xenophile
+							pop_has_ethic = ethic_pacifist
+						}
+					}
+
+					pop_change_ethic = ethic_pacifist
 				}
 			}
 			while = {
 				count = 2
 
-				create_pop = {
-					species = event_target:griffon_species
-					ethos = random
-				}
-			}
-			while = {
-				count = 2
+				random_owned_pop = {
+					limit = {
+						is_same_species = event_target:griffon_species
+						NOT = { pop_has_ethic = ethic_spiritualist }
+					}
 
-				create_pop = {
-					species = event_target:griffon_species
-					ethos = { ethic = ethic_spiritualist }
+					pop_change_ethic = ethic_spiritualist
 				}
 			}
 			while = {
 				count = 1
 
-				create_pop = {
-					species = event_target:hippogriff_species
-					ethos = { ethic = ethic_materialist }
+				random_owned_pop = {
+					limit = {
+						is_same_species = event_target:hippogriff_species
+						NOT = { pop_has_ethic = ethic_materialist }
+					}
+
+					pop_change_ethic = ethic_materialist
 				}
 			}
 			while = {
 				count = 1
 
-				create_pop = {
-					species = event_target:dragon_species
-					ethos = { ethic = ethic_militarist }
+				random_owned_pop = {
+					limit = {
+						is_same_species = event_target:dragon_species
+						NOT = { pop_has_ethic = ethic_militarist }
+					}
+
+					pop_change_ethic = ethic_militarist
 				}
 			}
 			while = {
 				count = 1
 
-				create_pop = {
-					species = event_target:kirin_species
-					ethos = { ethic = ethic_pacifist }
+				random_owned_pop = {
+					limit = {
+						is_same_species = event_target:kirin_species
+						NOT = { pop_has_ethic = ethic_pacifist }
+					}
+
+					pop_change_ethic = ethic_pacifist
 				}
 			}
 			while = {
 				count = 1
 
-				create_pop = {
-					species = event_target:kirin_species
-					ethos = random
-				}
-			}
-			while = {
-				count = 1
+				random_owned_pop = {
+					limit = {
+						is_same_species = event_target:zebra_species
+						NOT = { pop_has_ethic = ethic_materialist }
+					}
 
-				create_pop = {
-					species = event_target:yak_species
-					ethos = random
-				}
-			}
-			while = {
-				count = 1
-
-				create_pop = {
-					species = event_target:zebra_species
-					ethos = random
-				}
-			}
-			while = {
-				count = 1
-
-				create_pop = {
-					species = event_target:zebra_species
-					ethos = { ethic = ethic_materialist }
+					pop_change_ethic = ethic_materialist
 				}
 			}
 

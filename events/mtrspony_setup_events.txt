@@ -1,0 +1,109 @@
+namespace = mtrspony_setup
+
+country_event = {
+	id = mtrspony_setup.1
+	title = "mtrspony_setup.1.name"
+	desc = {
+		trigger = { has_origin = origin_lost_colony }
+
+		text = "mtrspony_setup.1.lc_desc"
+	}
+	desc = {
+		trigger = { NOT = { has_origin = origin_lost_colony } }
+
+		text = "mtrspony_setup.1.desc"
+	}
+
+	picture = GFX_evt_voting
+
+	is_triggered_only = yes
+
+	trigger = {
+		is_ai = no
+		has_mtrspony_portrait = yes
+		is_mtrspony_prescripted_country = no
+	}
+
+	immediate = {
+		save_current_mtrspony_species = yes
+		create_other_mtrspony_species = yes
+	}
+
+	option = {
+		name = mtrspony_setup.1.a
+	}
+	option = {
+		name = mtrspony_setup.1.b
+
+		hidden_effect = {
+			capital_scope = {
+				set_variable = { which = pony_pops value = 1 }
+				set_variable = { which = griffon_pops value = 1 }
+				set_variable = { which = hippogriff_pops value = 1 }
+				set_variable = { which = dragon_pops value = 1 }
+				set_variable = { which = kirin_pops value = 1 }
+				set_variable = { which = changeling_pops value = 1 }
+				set_variable = { which = yak_pops value = 1 }
+				set_variable = { which = zebra_pops value = 1 }
+				set_variable = { which = pops_to_remove value = 7 }
+				spawn_other_mtrspony_species = yes
+			}
+			if = {
+				limit = { has_origin = origin_lost_colony }
+
+				species = {
+					home_planet = {
+						set_variable = { which = pony_pops value = 1 }
+						set_variable = { which = griffon_pops value = 1 }
+						set_variable = { which = hippogriff_pops value = 1 }
+						set_variable = { which = dragon_pops value = 1 }
+						set_variable = { which = kirin_pops value = 1 }
+						set_variable = { which = changeling_pops value = 1 }
+						set_variable = { which = yak_pops value = 1 }
+						set_variable = { which = zebra_pops value = 1 }
+						set_variable = { which = pops_to_remove value = 7 }
+						spawn_other_mtrspony_species = yes
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = mtrspony_setup.1.c
+		hidden_effect = {
+			capital_scope = {
+				calculate_mtrspony_pop_count_default = yes
+				spawn_other_mtrspony_species = yes
+			}
+			if = {
+				limit = { has_origin = origin_lost_colony }
+
+				species = {
+					home_planet = {
+						calculate_mtrspony_pop_count_default = yes
+						spawn_other_mtrspony_species = yes
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = mtrspony_setup.1.d
+		hidden_effect = {
+			capital_scope = {
+				calculate_mtrspony_pop_count_keep_majority = yes
+				spawn_other_mtrspony_species = yes
+			}
+			if = {
+				limit = { has_origin = origin_lost_colony }
+
+				species = {
+					home_planet = {
+						calculate_mtrspony_pop_count_keep_majority = yes
+						spawn_other_mtrspony_species = yes
+					}
+				}
+			}
+		}
+	}
+}
