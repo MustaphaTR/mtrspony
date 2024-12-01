@@ -1069,9 +1069,13 @@ spawn_other_mtrspony_species = {
 					has_ethic = ethic_egalitarian
 					has_trait = trait_hive_mind
 				}
+				NOT = {
+					has_civic = civic_selective_kinship
+				}
 			}
 
-			set_species_rights_to_max = yes
+			set_mtrspony_citizenship_full = yes
+			set_mtrspony_military_service_full = yes
 		}
 	}
 }
@@ -1555,19 +1559,77 @@ spawn_x_zebra_pops = {
 	}
 }
 
-set_species_rights_to_max = {
-	every_owned_species = {
-		limit = {
-			is_same_species_with_faustian_races = yes
-			OR = {
-				NOT = { ROOT = { has_civic = civic_selective_kinship } }
-				is_same_species_class = owner_main_species
-			}
-		}
+set_mtrspony_citizenship_full = {
+	event_target:pony_species = { set_citizenship_type = { country = ROOT type = citizenship_full } }
+	event_target:griffon_species = { set_citizenship_type = { country = ROOT type = citizenship_full } }
+	event_target:hippogriff_species = { set_citizenship_type = { country = ROOT type = citizenship_full } }
+	event_target:dragon_species = { set_citizenship_type = { country = ROOT type = citizenship_full } }
+	event_target:kirin_species = { set_citizenship_type = { country = ROOT type = citizenship_full } }
+	event_target:changeling_species = { set_citizenship_type = { country = ROOT type = citizenship_full } }
+	event_target:yak_species = { set_citizenship_type = { country = ROOT type = citizenship_full } }
+	event_target:zebra_species = { set_citizenship_type = { country = ROOT type = citizenship_full } }
+}
+set_mtrspony_citizenship_limited = {
+	if = {
+		limit = { has_mtrspony_pony_portrait = no }
 
-		set_citizenship_type = { country = ROOT type = citizenship_full }
-		set_military_service_type = { country = ROOT type = military_service_full }
+		event_target:pony_species = { set_citizenship_type = { country = ROOT type = citizenship_limited } }
 	}
+	if = {
+		limit = { NOT = { species_portrait = mtrspony_griffon } }
+
+		event_target:griffon_species = { set_citizenship_type = { country = ROOT type = citizenship_limited } }
+	}
+	if = {
+		limit = { NOT = { species_portrait = mtrspony_hippogriff } }
+
+		event_target:hippogriff_species = { set_citizenship_type = { country = ROOT type = citizenship_limited } }
+	}
+	if = {
+		limit = { NOT = { species_portrait = mtrspony_dragon } }
+
+		event_target:dragon_species = { set_citizenship_type = { country = ROOT type = citizenship_limited } }
+	}
+	if = {
+		limit = { NOT = { species_portrait = mtrspony_kirin } }
+
+		event_target:kirin_species = { set_citizenship_type = { country = ROOT type = citizenship_limited } }
+	}
+	if = {
+		limit = { NOT = { species_portrait = mtrspony_changeling } }
+
+		event_target:changeling_species = { set_citizenship_type = { country = ROOT type = citizenship_limited } }
+	}
+	if = {
+		limit = { NOT = { species_portrait = mtrspony_yak } }
+
+		event_target:yak_species = { set_citizenship_type = { country = ROOT type = citizenship_limited } }
+	}
+	if = {
+		limit = { NOT = { species_portrait = mtrspony_zebra } }
+
+		event_target:zebra_species = { set_citizenship_type = { country = ROOT type = citizenship_limited } }
+	}
+}
+set_mtrspony_living_standard_good = {
+	event_target:pony_species = { set_living_standard = { country = ROOT type = living_standard_good } }
+	event_target:griffon_species = { set_living_standard = { country = ROOT type = living_standard_good } }
+	event_target:hippogriff_species = { set_living_standard = { country = ROOT type = living_standard_good } }
+	event_target:dragon_species = { set_living_standard = { country = ROOT type = living_standard_good } }
+	event_target:kirin_species = { set_living_standard = { country = ROOT type = living_standard_good } }
+	event_target:changeling_species = { set_living_standard = { country = ROOT type = living_standard_good } }
+	event_target:yak_species = { set_living_standard = { country = ROOT type = living_standard_good } }
+	event_target:zebra_species = { set_living_standard = { country = ROOT type = living_standard_good } }
+}
+set_mtrspony_military_service_full = {
+	event_target:pony_species = { set_military_service_type = { country = ROOT type = military_service_full } }
+	event_target:griffon_species = { set_military_service_type = { country = ROOT type = military_service_full } }
+	event_target:hippogriff_species = { set_military_service_type = { country = ROOT type = military_service_full } }
+	event_target:dragon_species = { set_military_service_type = { country = ROOT type = military_service_full } }
+	event_target:kirin_species = { set_military_service_type = { country = ROOT type = military_service_full } }
+	event_target:changeling_species = { set_military_service_type = { country = ROOT type = military_service_full } }
+	event_target:yak_species = { set_military_service_type = { country = ROOT type = military_service_full } }
+	event_target:zebra_species = { set_military_service_type = { country = ROOT type = military_service_full } }
 }
 
 set_giga_species_rights_to_max = {

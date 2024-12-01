@@ -36,34 +36,6 @@ country_event = {
 
 		save_current_mtrspony_species = yes
 		create_other_mtrspony_species = yes
-		event_target:pony_species = {
-			set_citizenship_type = { country = ROOT type = citizenship_full }
-			set_military_service_type = { country = ROOT type = military_service_full }
-		}
-		event_target:griffon_species = {
-			set_citizenship_type = { country = ROOT type = citizenship_full }
-			set_military_service_type = { country = ROOT type = military_service_full }
-		}
-		event_target:hippogriff_species = {
-			set_citizenship_type = { country = ROOT type = citizenship_full }
-			set_military_service_type = { country = ROOT type = military_service_full }
-		}
-		event_target:dragon_species = {
-			set_citizenship_type = { country = ROOT type = citizenship_full }
-			set_military_service_type = { country = ROOT type = military_service_full }
-		}
-		event_target:kirin_species = {
-			set_citizenship_type = { country = ROOT type = citizenship_full }
-			set_military_service_type = { country = ROOT type = military_service_full }
-		}
-		event_target:changeling_species = {
-			set_citizenship_type = { country = ROOT type = citizenship_full }
-			set_military_service_type = { country = ROOT type = military_service_full }
-		}
-		event_target:yak_species = {
-			set_citizenship_type = { country = ROOT type = citizenship_full }
-			set_military_service_type = { country = ROOT type = military_service_full }
-		}
 
 		capital_scope = {
 			calculate_mtrspony_pop_count_keep_majority = yes
