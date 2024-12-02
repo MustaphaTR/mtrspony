@@ -88,7 +88,7 @@
 -- Added one more female pegasus portrait set, based on Cozy Glow.
 -- Added more color options to a portrait (Sunburst).
 
-- Version 0.2.6 (XX.11.2024):
+- Version 0.2.6 (02.12.2024):
 -- Added a setup event on custom empires using one of the portraits from the mod to generate rest of the MLP species on the planet as well.
 --- Also reworked how many of each species spawn on the prescripted countries along with it for consistency between the two.
 --- I tried to account for some specific cases, but if you notice any issues with the options on your setup, please let me know.
