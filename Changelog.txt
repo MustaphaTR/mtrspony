@@ -97,3 +97,6 @@
 -- Added Yak namelist.
 -- Added one more male earth pony portrait set, based on Sandbar.
 -- Added more color options to a portrait (Ember).
+
+- Version 0.2.7 (XX.01.2025):
+-- Hopefully fixed some edge cases that lead Gigastructural Engineering faust content to trigger on player empires.
