@@ -24,6 +24,23 @@ portraits = {
 		custom_attachment_label = "HAIR_COLOR"
 	}
 
+	mtrspony_pony_pegasus_fire_streak = {
+		entity = "portrait_dummy_fire_streak_pegasus_entity"
+		clothes_selector = "mtrspony_no_clothes_selector"
+		attachment_selector = "mtrspony_pony_pegasus_fire_streak_hair_selector"
+		greeting_sound = "human_male_greetings_01"
+
+		character_textures = {
+			"gfx/models/portraits/pony_pegasus/fire_streak/fire_streak.dds"
+			"gfx/models/portraits/pony_pegasus/fire_streak/fire_streak_alt1.dds"
+			"gfx/models/portraits/pony_pegasus/fire_streak/fire_streak_alt2.dds"
+			"gfx/models/portraits/pony_pegasus/fire_streak/fire_streak_alt3.dds"
+			"gfx/models/portraits/pony_pegasus/fire_streak/fire_streak_alt4.dds"
+		}
+
+		custom_attachment_label = "HAIR_COLOR"
+	}
+
 	mtrspony_pony_pegasus_mr_shy = {
 		entity = "portrait_dummy_15p_left_entity"
 		clothes_selector = "mtrspony_no_clothes_selector"
@@ -237,6 +254,7 @@ portrait_groups = {
 				}
 				portraits = {
 					mtrspony_pony_pegasus_soarin
+					mtrspony_pony_pegasus_fire_streak
 					mtrspony_pony_pegasus_mr_shy
 				}
 			}
@@ -282,6 +300,7 @@ portrait_groups = {
 				}
 				portraits = {
 					mtrspony_pony_pegasus_soarin
+					mtrspony_pony_pegasus_fire_streak
 					mtrspony_pony_pegasus_mr_shy
 				}
 			}
@@ -307,6 +326,7 @@ portrait_groups = {
 				}
 				portraits = {
 					mtrspony_pony_pegasus_soarin
+					mtrspony_pony_pegasus_fire_streak
 					mtrspony_pony_pegasus_mr_shy
 				}
 			}
@@ -322,6 +342,7 @@ portrait_groups = {
 				}
 				portraits = {
 					mtrspony_pony_pegasus_soarin
+					mtrspony_pony_pegasus_fire_streak
 					mtrspony_pony_pegasus_mr_shy
 				}
 			}

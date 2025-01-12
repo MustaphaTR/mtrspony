@@ -98,6 +98,23 @@ portraits = {
 		}
 	}
 
+	mtrspony_pony_earth_fire_streak = {
+		entity = "portrait_dummy_fire_streak_earth_entity"
+		clothes_selector = "mtrspony_no_clothes_selector"
+		attachment_selector = "mtrspony_pony_pegasus_fire_streak_hair_selector"
+		greeting_sound = "human_male_greetings_01"
+
+		character_textures = {
+			"gfx/models/portraits/pony_pegasus/fire_streak/fire_streak.dds"
+			"gfx/models/portraits/pony_pegasus/fire_streak/fire_streak_alt1.dds"
+			"gfx/models/portraits/pony_pegasus/fire_streak/fire_streak_alt2.dds"
+			"gfx/models/portraits/pony_pegasus/fire_streak/fire_streak_alt3.dds"
+			"gfx/models/portraits/pony_pegasus/fire_streak/fire_streak_alt4.dds"
+		}
+
+		custom_attachment_label = "HAIR_COLOR"
+	}
+
 	mtrspony_pony_earth_sandbar = {
 		entity = "portrait_dummy_10p_left_entity"
 		clothes_selector = "mtrspony_no_clothes_selector"
@@ -295,6 +312,7 @@ portrait_groups = {
 					mtrspony_pony_earth_big_mcintosh
 					mtrspony_pony_earth_mudbriar
 					mtrspony_pony_earth_igneous_rock_pie
+					mtrspony_pony_earth_fire_streak
 					mtrspony_pony_earth_sandbar
 					mtrspony_pony_earth_button_mash
 				}
@@ -339,6 +357,7 @@ portrait_groups = {
 					mtrspony_pony_earth_big_mcintosh
 					mtrspony_pony_earth_mudbriar
 					mtrspony_pony_earth_igneous_rock_pie
+					mtrspony_pony_earth_fire_streak
 					mtrspony_pony_earth_sandbar
 					mtrspony_pony_earth_button_mash
 				}
@@ -365,6 +384,7 @@ portrait_groups = {
 					mtrspony_pony_earth_big_mcintosh
 					mtrspony_pony_earth_mudbriar
 					mtrspony_pony_earth_igneous_rock_pie
+					mtrspony_pony_earth_fire_streak
 					mtrspony_pony_earth_sandbar
 					mtrspony_pony_earth_button_mash
 				}
@@ -383,6 +403,7 @@ portrait_groups = {
 					mtrspony_pony_earth_big_mcintosh
 					mtrspony_pony_earth_mudbriar
 					mtrspony_pony_earth_igneous_rock_pie
+					mtrspony_pony_earth_fire_streak
 					mtrspony_pony_earth_sandbar
 					mtrspony_pony_earth_button_mash
 				}

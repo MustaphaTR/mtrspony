@@ -75,6 +75,56 @@ mtrspony_pony_pegasus_soarin_hair_selector = {
 	}
 }
 
+mtrspony_pony_pegasus_fire_streak_hair_selector = {
+	default = "gfx/models/portraits/pony_pegasus/fire_streak/fire_streak_hair.dds"
+
+	game_setup = {
+		default = "gfx/models/portraits/pony_pegasus/fire_streak/fire_streak_hair.dds"
+	}
+
+	species = {
+		default = "gfx/models/portraits/pony_pegasus/fire_streak/fire_streak_hair.dds"
+	}
+
+	pop = {
+		default = "gfx/models/portraits/pony_pegasus/fire_streak/fire_streak_hair.dds"
+
+		random = {
+			list = {
+				"gfx/models/portraits/pony_pegasus/fire_streak/fire_streak_hair.dds"
+				"gfx/models/portraits/pony_pegasus/fire_streak/fire_streak_hair_alt1.dds"
+				"gfx/models/portraits/pony_pegasus/fire_streak/fire_streak_hair_alt2.dds"
+				"gfx/models/portraits/pony_pegasus/fire_streak/fire_streak_hair_alt3.dds"
+				"gfx/models/portraits/pony_pegasus/fire_streak/fire_streak_hair_alt4.dds"
+			}
+		}	
+	}
+
+	leader = {
+		random = {
+			list = {
+				"gfx/models/portraits/pony_pegasus/fire_streak/fire_streak_hair.dds"
+				"gfx/models/portraits/pony_pegasus/fire_streak/fire_streak_hair_alt1.dds"
+				"gfx/models/portraits/pony_pegasus/fire_streak/fire_streak_hair_alt2.dds"
+				"gfx/models/portraits/pony_pegasus/fire_streak/fire_streak_hair_alt3.dds"
+				"gfx/models/portraits/pony_pegasus/fire_streak/fire_streak_hair_alt4.dds"
+			}
+		}
+	}
+
+	ruler = {
+		random = {
+			list = {
+				"gfx/models/portraits/pony_pegasus/fire_streak/fire_streak_hair.dds"
+				"gfx/models/portraits/pony_pegasus/fire_streak/fire_streak_hair_alt1.dds"
+				"gfx/models/portraits/pony_pegasus/fire_streak/fire_streak_hair_alt2.dds"
+				"gfx/models/portraits/pony_pegasus/fire_streak/fire_streak_hair_alt3.dds"
+				"gfx/models/portraits/pony_pegasus/fire_streak/fire_streak_hair_alt4.dds"
+			}
+		}
+	}
+}
+
 mtrspony_pony_pegasus_mr_shy_hair_selector = {
 	default = "gfx/models/portraits/pony_pegasus/mr_shy/mr_shy_hair.dds"
 

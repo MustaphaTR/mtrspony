@@ -232,3 +232,34 @@ entity = {
 	}
 	scale = 1.0
 }
+
+entity = {
+	name = "portrait_dummy_fire_streak_earth_entity"
+	pdxmesh = "portrait_dummy_fire_streak_earth_mesh"
+
+	default_state = "idle"
+	state = {
+		name = "idle"
+		animation = "idle"
+		animation_blend_time = 0
+		chance = 4.0
+		looping = no
+		next_state = idle
+	}
+	scale = 1.0
+}
+entity = {
+	name = "portrait_dummy_fire_streak_pegasus_entity"
+	pdxmesh = "portrait_dummy_fire_streak_pegasus_mesh"
+
+	default_state = "idle"
+	state = {
+		name = "idle"
+		animation = "idle"
+		animation_blend_time = 0
+		chance = 4.0
+		looping = no
+		next_state = idle
+	}
+	scale = 1.0
+}

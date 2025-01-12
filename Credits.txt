@@ -1,4 +1,7 @@
 Portrait Bases:
+ > 90sigma:
+	- Fire Streak
+
  > aethon056:
 	- Scootaloo
 
@@ -7,6 +10,9 @@ Portrait Bases:
 
  > cezaryy:
 	- Equalist Starlight Glimmer
+
+ > chainchomp2:
+	- Fire Streak Cutie Mark
 
  > cheezedoodle96:
 	- Big McIntosh
