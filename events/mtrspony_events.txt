@@ -134,3 +134,33 @@ country_event = {
 		}
 	}
 }
+
+# Age up immortral leaders.
+country_event = {
+	id = mtrspony.3
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		leader = { has_trait = leader_trait_mtrspony_immortal }
+	}
+	immediate = {
+		leader = {
+			export_trigger_value_to_variable = {
+				trigger = leader_age
+				variable = age
+			}
+			set_variable_to_random_value = {
+				which = extra_age
+				min = 200
+				max = 2000
+				rounded = yes
+			}
+			change_variable = {
+				which = age
+				value = extra_age
+			}
+			set_age = age
+		}
+	}
+}

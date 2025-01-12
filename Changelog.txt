@@ -100,4 +100,5 @@
 
 - Version 0.2.7 (XX.01.2025):
 -- Added one more female alicorn portrait set, based on Twilight Sparkle (older version from the Finale).
+-- Added Immortal leader trait that can be selected at the Empire Creation screen.
 -- Hopefully fixed some edge cases that lead Gigastructural Engineering faust content to trigger on player empires.

@@ -23,6 +23,8 @@ country_event = {
 			background_ethic = "ethic_xenophile"
 			randomize_traits = no
 			traits = {
+				trait = leader_trait_mtrspony_immortal
+
 				trait = leader_trait_expertise_field_manipulation
 				trait = leader_trait_spark_of_genius
 			}
