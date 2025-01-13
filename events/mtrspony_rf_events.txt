@@ -173,9 +173,10 @@ country_event = {
 
 		# Name one of the starting ships Posada, if we have one that is.
 		random_owned_ship = {
-			limit = { is_ship_size = science }
+			limit = { is_ship_class = shipclass_science_ship }
 
 			set_name = "PRESCRIPTED_ship_name_fss_posada"
+			fleet = { set_name = "PRESCRIPTED_ship_name_fss_posada" }
 		}
 
 		# Remove the genericos.
