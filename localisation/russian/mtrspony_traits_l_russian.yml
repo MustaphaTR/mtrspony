@@ -7,3 +7,5 @@
  trait_pc_continental_secondary_ocean_preference_desc:"These special fare as well in oceans as they do in their original habitats."
  leader_trait_paranoid_military:0 "Паранойя"
  leader_trait_paranoid_military_desc:0 "This leader is good at finding fault where there usually isn't any."
+ leader_trait_mtrspony_immortal:"Бессмертен"
+ leader_trait_mtrspony_immortal_desc:"This leader has managed to defeat death, despite their species not otherwise being immortals."

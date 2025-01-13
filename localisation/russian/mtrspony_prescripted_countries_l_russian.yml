@@ -27,6 +27,9 @@
  PRESCRIPTED_species_zebra:0 "Зебра"
  PRESCRIPTED_species_plural_zebra:0 "Зебры"
  PRESCRIPTED_species_adjective_zebra:0 "Зебра"
+ PRESCRIPTED_species_polar_bear:0 "Полярный Медведь"
+ PRESCRIPTED_species_plural_polar_bear:0 "Полярные Медведи"
+ PRESCRIPTED_species_adjective_polar_bear:0 "Полярный Медведь"
 
  # Convocation of Creatures
  EMPIRE_DESIGN_convocation_of_creatures:0 "Convocation of Creatures"
@@ -174,3 +177,26 @@
  PRESCRIPTED_ruler_name_cherry_berry:0 "Черри Берри"
  PRESCRIPTED_ruler_name_cherry_berry_desc:0 "<insert_desc_here>"
  PRESCRIPTED_ruler_name_cherry_berry_catch_phrase:0 "§L""§!"
+
+ # Empire of Frost
+ EMPIRE_DESIGN_new_draconian_empire:0 "Империя Мороза"
+ #EMPIRE_DESIGN_new_draconian_empire_desc:0 ""
+ PRESCRIPTED_adjective_new_draconian_empire:0 "Frost"
+ PRESCRIPTED_ruler_title_dragon_lord:0 "Владычица Драконов"
+ PRESCRIPTED_ship_prefix_new_draconian_empire:0 "ISS"
+
+ PRESCRIPTED_ruler_name_arcin_the_defiler:0 "Аркин Осквернительница"
+ PRESCRIPTED_ruler_name_arcin_the_defiler_desc:0 "<insert_desc_here>"
+ PRESCRIPTED_ruler_name_arcin_the_defiler_catch_phrase:0 "§L""§!"
+
+ PRESCRIPTED_ruler_name_charcoal:0 "Чарколь"
+ PRESCRIPTED_ruler_name_charcoal_desc:0 "<insert_desc_here>"
+ PRESCRIPTED_ruler_name_charcoal_catch_phrase:0 "§L""§!"
+
+ PRESCRIPTED_ruler_name_winter:0 "Винтер"
+ PRESCRIPTED_ruler_name_winter_desc:0 "<insert_desc_here>"
+ PRESCRIPTED_ruler_name_winter_catch_phrase:0 "§L""§!"
+
+ PRESCRIPTED_ruler_name_soeren_of_svartpels:0 "Сёрен из Свартпельс"
+ PRESCRIPTED_ruler_name_soeren_of_svartpels_desc:0 "<insert_desc_here>"
+ PRESCRIPTED_ruler_name_soeren_of_svartpels_catch_phrase:0 "§L""§!"

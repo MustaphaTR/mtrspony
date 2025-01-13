@@ -99,7 +99,11 @@
 -- Added more color options to a portrait (Ember).
 
 - Version 0.2.7 (XX.01.2025):
+-- Added Empire of Frost as a prescripted country.
+--- This includes a new flag well.
+-- Added Immortal leader trait that can be selected at the Empire Creation screen.
 -- Added one more female alicorn portrait set, based on Twilight Sparkle (older version from the Finale).
 -- Added one more male earth pony and pegasus portrait set, based on Fire Streak.
--- Added Immortal leader trait that can be selected at the Empire Creation screen.
+-- Added Polar Bear namelist.
 -- Hopefully fixed some edge cases that lead Gigastructural Engineering faust content to trigger on player empires.
+-- Revolutionary Faust now uses FSS Posada as the name of a Exploration Vessel/Science Ship, instead of a Corvette.

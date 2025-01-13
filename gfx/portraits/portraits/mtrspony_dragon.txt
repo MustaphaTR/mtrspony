@@ -23,6 +23,17 @@ portraits = {
 		custom_attachment_label = "HAIR_COLOR"
 	}
 
+	mtrspony_dragon_charcoal_predefined = {
+		entity = "portrait_dummy_centered_entity"
+		clothes_selector = "mtrspony_no_clothes_selector"
+		attachment_selector = "mtrspony_dragon_charcoal_predefined_hair_selector"
+		greeting_sound = "human_male_greetings_01"
+
+		character_textures = {
+			"gfx/models/portraits/dragon/garble/garble_alt3.dds"
+		}
+	}
+
 	mtrspony_dragon_sludge = {
 		entity = "portrait_dummy_15p_left_entity"
 		clothes_selector = "mtrspony_no_clothes_selector"
@@ -45,6 +56,17 @@ portraits = {
 		}
 
 		custom_attachment_label = "HAIR_COLOR"
+	}
+
+	mtrspony_dragon_winter_predefined = {
+		entity = "portrait_dummy_15p_left_entity"
+		clothes_selector = "mtrspony_no_clothes_selector"
+		attachment_selector = "mtrspony_dragon_winter_predefined_hair_selector"
+		greeting_sound = "human_male_greetings_01"
+
+		character_textures = {
+			"gfx/models/portraits/dragon/sludge/sludge_alt7.dds"
+		}
 	}
 
 	mtrspony_dragon_ember = {
@@ -71,6 +93,17 @@ portraits = {
 		}
 
 		custom_attachment_label = "HAIR_COLOR"
+	}
+
+	mtrspony_dragon_arcin_the_defiler_predefined = {
+		entity = "portrait_dummy_centered_entity"
+		clothes_selector = "mtrspony_no_clothes_selector"
+		attachment_selector = "mtrspony_dragon_arcin_the_defiler_predefined_hair_selector"
+		greeting_sound = "human_female_greetings_01"
+
+		character_textures = {
+			"gfx/models/portraits/dragon/ember/ember_alt13.dds"
+		}
 	}
 }
 

@@ -1,4 +1,14 @@
 # DLC Checks
+has_not_apocalypse_dlc = {
+	optimize_memory
+	NOT = { host_has_dlc = "Apocalypse" }
+}
+
+has_apocalypse_dlc = {
+	optimize_memory
+	host_has_dlc = "Apocalypse"
+}
+
 has_not_necroids = {
 	optimize_memory
 	NOT = { host_has_dlc = "Necroids Species Pack" }
@@ -144,6 +154,7 @@ is_mtrspony_prescripted_country = {
 		has_country_flag = faustian_conglomerate
 		has_country_flag = revolutionary_faust
 		has_country_flag = changeling_space_program
+		has_country_flag = new_draconian_empire
 	}
 }
 

@@ -1,0 +1,222 @@
+﻿mtrspony_namelists_polar_bear = {
+	randomized = no
+
+	alias = "EaW Polar Bear Namelist"
+
+	ship_names = {
+		generic = {
+			Paw Fur "Drift Ice" "Fast Ice" "Anchor Ice" "Ice Shelf" "Ice Sheet" "Blue Ice" "Steel Paw" Striker "Soft Fur" Paddington Brotherhood Waterbender Polarium Roar Grrr Rawr Kong Wellington Camaraderie Community Iceberg Glacier Fjord
+		}
+		
+		corvette = {
+
+		}
+		
+		destroyer = {
+			Paw Fur "Drift Ice" "Fast Ice" "Anchor Ice" "Ice Shelf" "Ice Sheet" "Blue Ice"
+		}
+		
+		cruiser = {
+			"Steel Paw" Striker "Soft Fur" Paddington Brotherhood Waterbender Polarium
+		}
+		
+		battleship = {
+			Roar Grrr Rawr Kong Wellington Camaraderie Community
+		}
+
+		titan = {
+			Iceberg Glacier Fjord
+		}
+
+		colossus = {
+			
+		}
+
+		science = {
+			
+		}
+
+		colonizer = {
+			
+		}
+
+		constructor = {
+			"Mathair Fearainn" Key Onlartir Wesslandia "Yak Mathan Criche" Geirfuglvidda "Jan Mayen"
+		}
+
+		transport = {
+			
+		}
+
+		military_station_small = {
+			
+		}
+
+		ion_cannon = {
+			HUMAN1_SHIP_Bombard HUMAN1_SHIP_Ballista HUMAN1_SHIP_Catapult HUMAN1_SHIP_Harpoon HUMAN1_SHIP_Polybolos HUMAN1_SHIP_Culverin
+		}
+	}
+
+	fleet_names = {
+		sequential_name = mtrspony_namelists_pony_space_fleet
+	}
+
+	army_names = {
+		machine_defense = {
+			sequential_name = mtrspony_namelists_pony_defense_force
+		}
+
+		machine_assault_1 = {
+			sequential_name = mtrspony_namelists_pony_attack_force
+		}
+
+		machine_assault_2 = {
+			sequential_name = mtrspony_namelists_pony_attack_force
+		}
+
+		machine_assault_3 = {
+			sequential_name = mtrspony_namelists_pony_attack_force
+		}
+
+		defense_army = {
+			sequential_name = mtrspony_namelists_pony_defense_force
+		}
+
+		assault_army = {
+			sequential_name = mtrspony_namelists_pony_attack_force
+		}
+
+		slave_army = {
+			sequential_name = mtrspony_namelists_pony_slave_force
+		}
+
+		clone_army = {
+			sequential_name = mtrspony_namelists_pony_mirror_force
+		}
+
+		undead_army = {
+			sequential_name = mtrspony_namelists_pony_dread_force
+		}
+
+		robotic_army = {
+			sequential_name = mtrspony_namelists_pony_drone_attack_force
+		}
+
+		robotic_defense_army = {
+			sequential_name = mtrspony_namelists_pony_drone_defense_force
+		}
+
+		psionic_army = {
+			sequential_name = mtrspony_namelists_pony_psi_corps_division
+		}
+
+		xenomorph_army = {
+			sequential_name = mtrspony_namelists_pony_monster_unit
+		}
+
+		gene_warrior_army = {
+			sequential_name = mtrspony_namelists_pony_supersoldiers
+		}
+
+		occupation_army = {
+			sequential_name = mtrspony_namelists_pony_garrison_force
+		}
+
+		robotic_occupation_army = {
+			sequential_name = mtrspony_namelists_pony_drone_garrison_force
+		}
+	}
+
+	planet_names = {
+		generic = {
+			names = {
+				"Mathair Fearainn" Key Onlartir Wesslandia "Yak Mathan Criche" Geirfuglvidda "Jan Mayen"
+			}
+		}
+
+		pc_desert = {
+			names = {
+
+			}
+		}
+
+		pc_tropical = {
+			names = {
+			
+			}
+		}
+
+		pc_arid = {
+			names = {
+				
+			}
+		}
+
+		pc_continental = {
+			names = {
+				
+			}
+		}
+
+		pc_ocean = {
+			names = {
+				
+			}
+		}
+
+		pc_tundra = {
+			names = {
+				
+			}
+		}
+
+		pc_arctic = {
+			names = {
+				
+			}
+		}
+
+		pc_savannah = {
+			names = {
+				
+			}
+		}
+
+		pc_alpine = {
+			names = {
+				
+			}
+		}
+
+		pc_gaia = {
+			names = {
+				
+			}
+		}
+	}
+
+	### CHARACTERS
+	character_names = {
+		name1 = {
+			weight = 10
+			first_names_male = {
+				Adolph Jens Sverre Odd Frederik Lorentz Ole Hans Harald Haakon Olaf Petter Carl Kaare Jacob Søren Wilhelm Tryggve
+			}
+			first_names_female = {
+				Trine Kajsa Helga Paula Olivia Nela Monika Torhild Trude Ingeborg Gerda
+			}
+			second_names = {
+				"of Svartpels" "of Volsungr" "of Scyfling" "of Anker" "of Falsen" "of Brodkorb" "of Benkestok" "of Rozenkrantz" "of Kane" "of Gotlung" "the Savage" "the Nomad" "the Clanless"
+			}
+			regnal_first_names_male = {
+				Adolph Jens Sverre Odd Frederik Lorentz Ole Hans Harald Haakon Olaf Petter Carl Kaare Jacob Søren Wilhelm Tryggve
+			}
+			regnal_first_names_female = {
+				Trine Kajsa Helga Paula Olivia Nela Monika Torhild Trude Ingeborg Gerda
+			}
+			regnal_second_names = {
+				"of Svartpels" "of Volsungr" "of Scyfling" "of Anker" "of Falsen" "of Brodkorb" "of Benkestok" "of Rozenkrantz" "of Kane" "of Gotlung" "the Savage" "the Nomad" "the Clanless"
+			}
+		}
+	}
+}

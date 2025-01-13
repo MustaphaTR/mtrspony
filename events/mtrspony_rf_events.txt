@@ -172,15 +172,10 @@ country_event = {
 		}
 
 		# Name one of the starting ships Posada, if we have one that is.
-		if = {
-			limit = { NOT = { has_valid_civic = civic_eager_explorers } }
+		random_owned_ship = {
+			limit = { is_ship_size = science }
 
-			random_owned_ship = {
-				limit = {
-					is_ship_size = corvette
-				}
-				set_name = "PRESCRIPTED_ship_name_fss_posada"
-			}
+			set_name = "PRESCRIPTED_ship_name_fss_posada"
 		}
 
 		# Remove the genericos.

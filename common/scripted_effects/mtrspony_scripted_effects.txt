@@ -1559,6 +1559,38 @@ spawn_x_zebra_pops = {
 	}
 }
 
+create_polar_bear_species = {
+	create_species = {
+		name = "PRESCRIPTED_species_polar_bear"
+		plural = "PRESCRIPTED_species_plural_polar_bear"
+		adjective = "PRESCRIPTED_species_adjective_polar_bear"
+		class = MAM
+		portrait = mtrspony_polar_bear
+		namelist = mtrspony_namelists_polar_bear
+		homeworld = ROOT.species.home_planet
+		traits = {
+			trait = trait_ingenious
+			trait = trait_strong
+			trait = trait_resilient
+			trait = trait_nonadaptive
+		}
+
+		effect = {
+			save_global_event_target_as = polar_bear_species
+		}
+	}
+}
+spawn_x_polar_bear_pops = {
+	while = {
+		count = polar_bear_pops
+
+		create_pop = {
+			species = event_target:polar_bear_species
+			ethos = random
+		}
+	}
+}
+
 set_mtrspony_citizenship_full = {
 	event_target:pony_species = { set_citizenship_type = { country = ROOT type = citizenship_full } }
 	event_target:griffon_species = { set_citizenship_type = { country = ROOT type = citizenship_full } }

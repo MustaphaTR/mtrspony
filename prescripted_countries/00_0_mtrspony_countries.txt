@@ -1337,3 +1337,156 @@ changeling_space_program_federations = {
 		leader_class = official
 	}
 }
+
+new_draconian_empire = {
+	name = "EMPIRE_DESIGN_new_draconian_empire"
+	adjective = "PRESCRIPTED_adjective_new_draconian_empire"
+	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
+
+	playable = has_not_apocalypse_dlc # Post-Apocalyptic origin is from Apocalypse DLC.
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_new_draconian_empire"
+
+	species = {
+		class = "REP"
+		portrait = "mtrspony_dragon"
+		name = "PRESCRIPTED_species_dragon"
+		plural = "PRESCRIPTED_species_plural_dragon"
+		adjective = "PRESCRIPTED_species_adjective_dragon"
+		name_list = "mtrspony_namelists_dragon"
+		trait = "trait_strong"
+		trait = "trait_venerable"
+		trait = "trait_slow_breeders"
+		trait = "trait_solitary"
+	}
+
+	room = "lithoid_room"
+
+	authority = "auth_dictatorial"
+	civics = { "civic_mining_guilds" "civic_warrior_culture" }
+	government = gov_martial_dictatorship
+
+	ethic = "ethic_authoritarian"
+	ethic = "ethic_xenophobe"
+	ethic = "ethic_militarist"
+
+	origin = "origin_default"
+
+	flags = { new_draconian_empire }
+
+	planet_name = "NAME_Faust"
+	planet_class = "pc_arctic"
+	initializer = "eaw_vanilla_initializer"
+	system_name = "NAME_Behemoth"
+
+	graphical_culture = reptilian_01
+	city_graphical_culture = reptilian_01
+
+	empire_flag = {
+		icon= {
+			category = "eqsatwarzebra3"
+			file = "IDT.dds"
+		}
+		background= {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors={
+			"sky_blue"
+			"sky_blue"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_arcin_the_defiler"
+		ruler_title = "PRESCRIPTED_ruler_title_dragon_lord"
+		ruler_title_female = "PRESCRIPTED_ruler_title_dragon_lord"
+		gender = female
+		portrait = "mtrspony_dragon_ember"
+		texture = 13
+		attachment = 13
+		clothes = 0
+		trait = "trait_ruler_warlike"
+		leader_class = commander
+	}
+}
+
+new_draconian_empire_apocalypse = {
+	name = "EMPIRE_DESIGN_new_draconian_empire"
+	adjective = "PRESCRIPTED_adjective_new_draconian_empire"
+	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
+
+	playable = has_apocalypse_dlc # Post-Apocalyptic origin is from Apocalypse DLC.
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_new_draconian_empire"
+
+	species = {
+		class = "REP"
+		portrait = "mtrspony_dragon"
+		name = "PRESCRIPTED_species_dragon"
+		plural = "PRESCRIPTED_species_plural_dragon"
+		adjective = "PRESCRIPTED_species_adjective_dragon"
+		name_list = "mtrspony_namelists_dragon"
+		trait = "trait_survivor"
+		trait = "trait_strong"
+		trait = "trait_venerable"
+		trait = "trait_slow_breeders"
+		trait = "trait_solitary"
+	}
+
+	room = "lithoid_room"
+
+	authority = "auth_dictatorial"
+	civics = { "civic_mining_guilds" "civic_warrior_culture" }
+	government = gov_martial_dictatorship
+
+	ethic = "ethic_authoritarian"
+	ethic = "ethic_xenophobe"
+	ethic = "ethic_militarist"
+
+	origin = "origin_post_apocalyptic"
+
+	flags = { new_draconian_empire }
+
+	planet_name = "NAME_Faust"
+	planet_class = "pc_arctic"
+	initializer = "eaw_vanilla_initializer"
+	system_name = "NAME_Behemoth"
+
+	graphical_culture = reptilian_01
+	city_graphical_culture = reptilian_01
+
+	empire_flag = {
+		icon= {
+			category = "eqsatwarzebra3"
+			file = "IDT.dds"
+		}
+		background= {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors={
+			"sky_blue"
+			"sky_blue"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_arcin_the_defiler"
+		ruler_title = "PRESCRIPTED_ruler_title_dragon_lord"
+		ruler_title_female = "PRESCRIPTED_ruler_title_dragon_lord"
+		gender = female
+		portrait = "mtrspony_dragon_ember"
+		texture = 13
+		attachment = 13
+		clothes = 0
+		trait = "trait_ruler_warlike"
+		leader_class = commander
+	}
+}

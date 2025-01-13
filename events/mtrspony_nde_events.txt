@@ -1,0 +1,241 @@
+namespace = ndestart
+
+#Setup Empire of Frost
+country_event = {
+	id = ndestart.1
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		has_country_flag = new_draconian_empire
+	}
+	immediate = {
+		create_leader = {
+			name = "PRESCRIPTED_ruler_name_arcin_the_defiler"
+			custom_description = "PRESCRIPTED_ruler_name_arcin_the_defiler_desc"
+			species = ROOT.species
+			gender = female
+			class = commander
+			skill = 1
+			set_age = 364
+			immortal = yes
+			background_ethic = "ethic_authoritarian"
+			randomize_traits = no
+			traits = {
+				trait = leader_trait_mtrspony_immortal
+
+				trait = trait_ruler_warlike
+			}
+
+			effect = {
+				save_global_event_target_as = leader_arcin_the_defiler
+				set_leader_flag = is_created_leader
+				change_leader_portrait = "mtrspony_dragon_arcin_the_defiler_predefined"
+				ROOT = { assign_leader = event_target:leader_arcin_the_defiler }
+			}
+		}
+
+		create_leader = {
+			name = "PRESCRIPTED_ruler_name_charcoal"
+			custom_description = "PRESCRIPTED_ruler_name_charcoal_desc"
+			species = ROOT.species
+			gender = male
+			class = commander
+			skill = 1
+			set_age = 120
+			background_ethic = "ethic_militarist"
+			randomize_traits = no
+			traits = {
+				trait = leader_trait_unyielding
+			}
+
+			effect = {
+				save_global_event_target_as = leader_charcoal
+				set_leader_flag = is_created_leader
+				change_leader_portrait = "mtrspony_dragon_charcoal_predefined"
+				ROOT = {
+					random_owned_fleet = {
+						limit = { is_ship_class = shipclass_military }
+
+						assign_leader = PREVPREV
+					}
+				}
+				set_council_position = councilor_defense
+			}
+		}
+
+		create_leader = {
+			name = "PRESCRIPTED_ruler_name_winter"
+			custom_description = "PRESCRIPTED_ruler_name_winter_desc"
+			species = ROOT.species
+			gender = male
+			class = official
+			skill = 1
+			set_age = 111
+			background_ethic = "ethic_xenophobe"
+			randomize_traits = no
+			traits = {
+				trait = leader_trait_private_mines
+			}
+
+			effect = {
+				save_global_event_target_as = leader_winter
+				set_leader_flag = is_created_leader
+				change_leader_portrait = "mtrspony_dragon_winter_predefined"
+				ROOT = { capital_scope = { assign_leader = event_target:leader_winter } }
+				set_council_position = councilor_state
+			}
+		}
+
+		save_current_mtrspony_species = yes
+		create_other_mtrspony_species = yes
+		event_target:pony_species = { set_slavery_type = { country = ROOT type = slavery_normal } }
+		event_target:griffon_species = {
+			set_citizenship_type = { country = ROOT type = citizenship_limited }
+			set_military_service_type = { country = ROOT type = military_service_full }
+		}
+		event_target:hippogriff_species = { set_slavery_type = { country = ROOT type = slavery_normal } }
+		event_target:kirin_species = { set_slavery_type = { country = ROOT type = slavery_normal } }
+		event_target:changeling_species = {
+			set_slavery_type = { country = ROOT type = slavery_military }
+			set_military_service_type = { country = ROOT type = military_service_full }
+		}
+		event_target:yak_species = {
+			set_slavery_type = { country = ROOT type = slavery_military }
+			set_military_service_type = { country = ROOT type = military_service_full }
+		}
+		event_target:zebra_species = { set_slavery_type = { country = ROOT type = slavery_normal } }
+
+		create_polar_bear_species = yes
+		event_target:polar_bear_species = {
+			set_citizenship_type = { country = ROOT type = citizenship_limited }
+			set_military_service_type = { country = ROOT type = military_service_full }
+
+			if = {
+				limit = { owner_main_species = { has_trait = trait_survivor } }
+
+				change_species_characteristics = {
+					remove_trait = trait_pc_nuked_preference
+					add_trait = trait_pc_arctic_preference
+				}
+				change_species_characteristics = { add_trait = trait_survivor }
+			}
+		}
+
+		capital_scope = {
+			calculate_mtrspony_pop_count_keep_majority = yes
+			set_variable = { which = pony_pops value = 2 }
+			set_variable = { which = griffon_pops value = 5 } # Placeholder, most of these should be Penguins.
+			set_variable = { which = changeling_pops value = 3 }
+			set_variable = { which = yak_pops value = 2 }
+			set_variable = { which = zebra_pops value = 1 }
+			if = {
+				limit = { num_pops > 31 }
+
+				set_variable = { which = pony_pops value = 3 }
+				set_variable = { which = yak_pops value = 3 }
+			}
+			spawn_other_mtrspony_species = yes
+			
+			set_variable = { which = polar_bear_pops value = 3 }
+			spawn_x_polar_bear_pops = yes
+		}
+
+		event_target:pony_species = {
+			change_species_characteristics = {
+				remove_trait = trait_pc_arctic_preference
+				add_trait = trait_pc_continental_preference
+			}
+		}
+		event_target:hippogriff_species = {
+			change_species_characteristics = {
+				remove_trait = trait_pc_arctic_preference
+				add_trait = trait_pc_continental_preference
+			}
+		}
+		event_target:kirin_species = {
+			change_species_characteristics = {
+				remove_trait = trait_pc_arctic_preference
+				add_trait = trait_pc_tropical_preference
+			}
+		}
+		event_target:yak_species = {
+			change_species_characteristics = {
+				remove_trait = trait_pc_arctic_preference
+				add_trait = trait_pc_alpine_preference
+			}
+		}
+		event_target:zebra_species = {
+			change_species_characteristics = {
+				remove_trait = trait_pc_arctic_preference
+				add_trait = trait_pc_savannah_preference
+			}
+		}
+
+		create_leader = {
+			name = "PRESCRIPTED_ruler_name_soeren_of_svartpels"
+			custom_description = "PRESCRIPTED_ruler_name_soeren_of_svartpels_desc"
+			species = event_target:polar_bear_species
+			gender = male
+			class = scientist
+			skill = 1
+			set_age = 41
+			background_ethic = "ethic_materialist"
+			randomize_traits = no
+			traits = {
+				trait = leader_trait_carefree
+			}
+
+			effect = {
+				save_global_event_target_as = leader_soeren_of_svartpels
+				set_leader_flag = is_created_leader
+				# change_leader_portrait = "mtrspony_polar_bear_soeren_of_svartpels_predefined"
+				ROOT = {
+					random_owned_fleet = {
+						limit = { is_ship_class = shipclass_science_ship }
+
+						assign_leader = PREVPREV
+					}
+				}
+				set_council_position = councilor_research
+			}
+		}
+
+		# Remove the genericos.
+		every_owned_leader = {
+			limit = {
+				NOT = { has_leader_flag = is_created_leader }
+			}
+
+			kill_leader = {
+				show_notification = no
+				fire = yes
+			}
+		}
+	}
+}
+
+# Reapply named character potraits, they seem to reset after loading a save or when species got modified.
+country_event = {
+	id = ndestart.2
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		has_country_flag = new_draconian_empire
+	}
+	immediate = {
+		event_target:leader_arcin_the_defiler = {
+			change_leader_portrait = "mtrspony_dragon_arcin_the_defiler_predefined"
+		}
+		event_target:leader_charcoal = {
+			change_leader_portrait = "mtrspony_dragon_charcoal_predefined"
+		}
+		event_target:leader_winter = {
+			change_leader_portrait = "mtrspony_dragon_winter_predefined"
+		}
+		#event_target:leader_soeren_of_svartpels = {
+		#	change_leader_portrait = "mtrspony_polar_bear_soeren_of_svartpels_predefined"
+		#}
+	}
+}

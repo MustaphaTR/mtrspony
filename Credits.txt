@@ -102,6 +102,9 @@ Portrait Bases:
  > ready2fail:
 	- Spitfire
 
+ > sollace:
+	- Harry
+
  > suramii:
 	- Older Cozy Glow
 

@@ -1,0 +1,114 @@
+portraits = {
+	mtrspony_polar_bear_harry = {
+		entity = "portrait_dummy_5p_left_entity"
+		clothes_selector = "mtrspony_no_clothes_selector"
+		attachment_selector = "mtrspony_no_clothes_selector"
+		greeting_sound = "human_male_greetings_01"
+
+		character_textures = {
+			"gfx/models/portraits/bear/harry/harry_alt1.dds"
+		}
+
+		custom_attachment_label = "HAIR_COLOR"
+	}
+}
+
+portrait_groups = {
+	mtrspony_polar_bear = {
+		default = mtrspony_polar_bear_harry
+		game_setup = {
+			add = {
+				trigger = {
+					ruler = {
+						OR = {
+							gender = male
+							gender = indeterminable
+						}
+					}
+				}
+				portraits = {
+					mtrspony_polar_bear_harry
+				}
+			}
+			add = {
+				trigger = {
+					ruler = {
+						OR = {
+							gender = female
+							gender = indeterminable
+						}
+					}
+				}
+				portraits = {
+					mtrspony_polar_bear_harry
+				}
+			}
+		}
+
+		species = {
+			add = {
+				trigger = {
+					exists = species
+					NOT = { species = { species_gender = male } }
+				}
+				portraits = {
+					mtrspony_polar_bear_harry
+				}
+			}
+			add = {
+				trigger = {
+					exists = species
+					NOT = { species = { species_gender = female } }
+				}
+				portraits = {
+					mtrspony_polar_bear_harry
+				}
+			}
+		}
+
+		pop = {
+			add = {
+				trigger = {
+					NOT = { species = { species_gender = male } }
+				}
+				portraits = {
+					mtrspony_polar_bear_harry
+				}
+			}
+			add = {
+				trigger = {
+					NOT = { species = { species_gender = female } }
+				}
+				portraits = {
+					mtrspony_polar_bear_harry
+				}
+			}
+		}
+
+		leader = {
+			add = {
+				trigger = {
+					OR = {
+						gender = male
+						gender = indeterminable
+					}
+				}
+				portraits = {
+					mtrspony_polar_bear_harry
+				}
+			}
+
+			add = {
+				trigger = {
+					OR = {
+						gender = female
+						gender = indeterminable
+					}
+				}
+				portraits = {
+					mtrspony_polar_bear_harry
+				}
+			}
+		}
+	}
+}
