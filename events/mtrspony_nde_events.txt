@@ -112,7 +112,7 @@ country_event = {
 			set_military_service_type = { country = ROOT type = military_service_full }
 
 			if = {
-				limit = { owner_main_species = { has_trait = trait_survivor } }
+				limit = { PREV = { owner_main_species = { has_trait = trait_survivor } } }
 
 				change_species_characteristics = {
 					remove_trait = trait_pc_nuked_preference
