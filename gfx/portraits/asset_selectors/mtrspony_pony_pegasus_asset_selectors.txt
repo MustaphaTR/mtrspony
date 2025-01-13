@@ -29,7 +29,7 @@ mtrspony_pony_pegasus_soarin_hair_selector = {
 				"gfx/models/portraits/pony_pegasus/soarin/soarin_hair_alt12.dds"
 				"gfx/models/portraits/pony_pegasus/soarin/soarin_hair_alt13.dds"
 			}
-		}	
+		}
 	}
 
 	leader = {
@@ -96,8 +96,19 @@ mtrspony_pony_pegasus_fire_streak_hair_selector = {
 				"gfx/models/portraits/pony_pegasus/fire_streak/fire_streak_hair_alt2.dds"
 				"gfx/models/portraits/pony_pegasus/fire_streak/fire_streak_hair_alt3.dds"
 				"gfx/models/portraits/pony_pegasus/fire_streak/fire_streak_hair_alt4.dds"
+				"gfx/models/portraits/pony_pegasus/fire_streak/fire_streak_hair_alt5.dds"
+				"gfx/models/portraits/pony_pegasus/fire_streak/fire_streak_hair_alt6.dds"
+				"gfx/models/portraits/pony_pegasus/fire_streak/fire_streak_hair_alt7.dds"
+				"gfx/models/portraits/pony_pegasus/fire_streak/fire_streak_hair_alt8.dds"
+				"gfx/models/portraits/pony_pegasus/fire_streak/fire_streak_hair_alt9.dds"
+				"gfx/models/portraits/pony_pegasus/fire_streak/fire_streak_hair_alt10.dds"
+				"gfx/models/portraits/pony_pegasus/fire_streak/fire_streak_hair_alt11.dds"
+				"gfx/models/portraits/pony_pegasus/fire_streak/fire_streak_hair_alt12.dds"
+				"gfx/models/portraits/pony_pegasus/fire_streak/fire_streak_hair_alt13.dds"
+				"gfx/models/portraits/pony_pegasus/fire_streak/fire_streak_hair_alt14.dds"
+				"gfx/models/portraits/pony_pegasus/fire_streak/fire_streak_hair_alt15.dds"
 			}
-		}	
+		}
 	}
 
 	leader = {
@@ -108,6 +119,17 @@ mtrspony_pony_pegasus_fire_streak_hair_selector = {
 				"gfx/models/portraits/pony_pegasus/fire_streak/fire_streak_hair_alt2.dds"
 				"gfx/models/portraits/pony_pegasus/fire_streak/fire_streak_hair_alt3.dds"
 				"gfx/models/portraits/pony_pegasus/fire_streak/fire_streak_hair_alt4.dds"
+				"gfx/models/portraits/pony_pegasus/fire_streak/fire_streak_hair_alt5.dds"
+				"gfx/models/portraits/pony_pegasus/fire_streak/fire_streak_hair_alt6.dds"
+				"gfx/models/portraits/pony_pegasus/fire_streak/fire_streak_hair_alt7.dds"
+				"gfx/models/portraits/pony_pegasus/fire_streak/fire_streak_hair_alt8.dds"
+				"gfx/models/portraits/pony_pegasus/fire_streak/fire_streak_hair_alt9.dds"
+				"gfx/models/portraits/pony_pegasus/fire_streak/fire_streak_hair_alt10.dds"
+				"gfx/models/portraits/pony_pegasus/fire_streak/fire_streak_hair_alt11.dds"
+				"gfx/models/portraits/pony_pegasus/fire_streak/fire_streak_hair_alt12.dds"
+				"gfx/models/portraits/pony_pegasus/fire_streak/fire_streak_hair_alt13.dds"
+				"gfx/models/portraits/pony_pegasus/fire_streak/fire_streak_hair_alt14.dds"
+				"gfx/models/portraits/pony_pegasus/fire_streak/fire_streak_hair_alt15.dds"
 			}
 		}
 	}
@@ -120,6 +142,17 @@ mtrspony_pony_pegasus_fire_streak_hair_selector = {
 				"gfx/models/portraits/pony_pegasus/fire_streak/fire_streak_hair_alt2.dds"
 				"gfx/models/portraits/pony_pegasus/fire_streak/fire_streak_hair_alt3.dds"
 				"gfx/models/portraits/pony_pegasus/fire_streak/fire_streak_hair_alt4.dds"
+				"gfx/models/portraits/pony_pegasus/fire_streak/fire_streak_hair_alt5.dds"
+				"gfx/models/portraits/pony_pegasus/fire_streak/fire_streak_hair_alt6.dds"
+				"gfx/models/portraits/pony_pegasus/fire_streak/fire_streak_hair_alt7.dds"
+				"gfx/models/portraits/pony_pegasus/fire_streak/fire_streak_hair_alt8.dds"
+				"gfx/models/portraits/pony_pegasus/fire_streak/fire_streak_hair_alt9.dds"
+				"gfx/models/portraits/pony_pegasus/fire_streak/fire_streak_hair_alt10.dds"
+				"gfx/models/portraits/pony_pegasus/fire_streak/fire_streak_hair_alt11.dds"
+				"gfx/models/portraits/pony_pegasus/fire_streak/fire_streak_hair_alt12.dds"
+				"gfx/models/portraits/pony_pegasus/fire_streak/fire_streak_hair_alt13.dds"
+				"gfx/models/portraits/pony_pegasus/fire_streak/fire_streak_hair_alt14.dds"
+				"gfx/models/portraits/pony_pegasus/fire_streak/fire_streak_hair_alt15.dds"
 			}
 		}
 	}
@@ -170,7 +203,7 @@ mtrspony_pony_pegasus_mr_shy_hair_selector = {
 				"gfx/models/portraits/pony_pegasus/mr_shy/mr_shy_hair_no_moustache_alt12.dds"
 				"gfx/models/portraits/pony_pegasus/mr_shy/mr_shy_hair_no_moustache_alt13.dds"
 			}
-		}	
+		}
 	}
 
 	leader = {
@@ -274,7 +307,7 @@ mtrspony_pony_pegasus_spitfire_hair_selector = {
 				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_hair_alt11.dds"
 				"gfx/models/portraits/pony_pegasus/spitfire/spitfire_hair_alt12.dds"
 			}
-		}	
+		}
 	}
 
 	leader = {
@@ -573,7 +606,7 @@ mtrspony_pony_pegasus_mrs_shy_hair_selector = {
 				"gfx/models/portraits/pony_pegasus/mrs_shy/mrs_shy_hair_alt12.dds"
 				"gfx/models/portraits/pony_pegasus/mrs_shy/mrs_shy_hair_alt13.dds"
 			}
-		}	
+		}
 	}
 
 	leader = {
@@ -650,7 +683,7 @@ mtrspony_pony_pegasus_fluttershy_hair_selector = {
 				"gfx/models/portraits/pony_pegasus/fluttershy/fluttershy_hair_alt12.dds"
 				"gfx/models/portraits/pony_pegasus/fluttershy/fluttershy_hair_alt13.dds"
 			}
-		}	
+		}
 	}
 
 	leader = {
@@ -728,7 +761,7 @@ mtrspony_pony_pegasus_rainbow_dash_hair_selector = {
 				"gfx/models/portraits/pony_pegasus/rainbow_dash/rainbow_dash_hair_alt13.dds"
 				"gfx/models/portraits/pony_pegasus/rainbow_dash/rainbow_dash_hair_alt14.dds"
 			}
-		}	
+		}
 	}
 
 	leader = {
@@ -807,7 +840,7 @@ mtrspony_pony_pegasus_cozy_glow_older_hair_selector = {
 				"gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_hair_alt12.dds"
 				"gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_hair_alt13.dds"
 			}
-		}	
+		}
 	}
 
 	leader = {
@@ -885,7 +918,7 @@ mtrspony_pony_pegasus_cozy_glow_older_clothes_selector = {
 				"gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_bows_alt13.dds"
 				"gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_bows_alt14.dds"
 			}
-		}	
+		}
 	}
 
 	leader = {
@@ -984,7 +1017,7 @@ mtrspony_pony_pegasus_scootaloo_hair_selector = {
 				"gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_hair_alt12.dds"
 				"gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_hair_alt13.dds"
 			}
-		}	
+		}
 	}
 
 	leader = {

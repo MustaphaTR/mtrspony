@@ -110,6 +110,16 @@ portraits = {
 			"gfx/models/portraits/pony_pegasus/fire_streak/fire_streak_alt2.dds"
 			"gfx/models/portraits/pony_pegasus/fire_streak/fire_streak_alt3.dds"
 			"gfx/models/portraits/pony_pegasus/fire_streak/fire_streak_alt4.dds"
+			"gfx/models/portraits/pony_pegasus/fire_streak/fire_streak_alt5.dds"
+			"gfx/models/portraits/pony_pegasus/fire_streak/fire_streak_alt6.dds"
+			"gfx/models/portraits/pony_pegasus/fire_streak/fire_streak_alt7.dds"
+			"gfx/models/portraits/pony_pegasus/fire_streak/fire_streak_alt8.dds"
+			"gfx/models/portraits/pony_pegasus/fire_streak/fire_streak_alt9.dds"
+			"gfx/models/portraits/pony_pegasus/fire_streak/fire_streak_alt10.dds"
+			"gfx/models/portraits/pony_pegasus/fire_streak/fire_streak_alt11.dds"
+			"gfx/models/portraits/pony_pegasus/fire_streak/fire_streak_alt12.dds"
+			"gfx/models/portraits/pony_pegasus/fire_streak/fire_streak_alt13.dds"
+			"gfx/models/portraits/pony_pegasus/fire_streak/fire_streak_alt14.dds"
 		}
 
 		custom_attachment_label = "HAIR_COLOR"
