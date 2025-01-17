@@ -60,6 +60,7 @@ portrait_groups = {
 					mtrspony_pony_pegasus_scootaloo
 					mtrspony_pony_alicorn_celestia
 					mtrspony_pony_alicorn_luna
+					mtrspony_pony_alicorn_nightmare_moon
 					mtrspony_pony_alicorn_twilight_sparkle
 					mtrspony_pony_alicorn_apple_bloom
 				}
@@ -92,6 +93,7 @@ portrait_groups = {
 					mtrspony_pony_pegasus_scootaloo
 					mtrspony_pony_alicorn_celestia
 					mtrspony_pony_alicorn_luna
+					mtrspony_pony_alicorn_nightmare_moon
 					mtrspony_pony_alicorn_twilight_sparkle
 					mtrspony_pony_alicorn_apple_bloom
 				}
@@ -144,6 +146,7 @@ portrait_groups = {
 					mtrspony_pony_pegasus_scootaloo
 					mtrspony_pony_alicorn_celestia
 					mtrspony_pony_alicorn_luna
+					mtrspony_pony_alicorn_nightmare_moon
 					mtrspony_pony_alicorn_twilight_sparkle
 					mtrspony_pony_alicorn_apple_bloom
 				}
@@ -222,6 +225,7 @@ portrait_groups = {
 					mtrspony_pony_pegasus_scootaloo
 					mtrspony_pony_alicorn_celestia
 					mtrspony_pony_alicorn_luna
+					mtrspony_pony_alicorn_nightmare_moon
 					mtrspony_pony_alicorn_twilight_sparkle
 					mtrspony_pony_alicorn_apple_bloom
 				}

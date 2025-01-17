@@ -28,6 +28,7 @@ Portrait Bases:
 	- Ember
 	- Gallus
 	- Gilda
+	- Nightmare Moon
 	- Pinkie Pie
 	- Thorax
 

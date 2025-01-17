@@ -84,6 +84,31 @@ portraits = {
 		custom_attachment_label = "HAIR_COLOR"
 	}
 
+	mtrspony_pony_alicorn_nightmare_moon = {
+		entity = "portrait_dummy_huge_5p_left_entity"
+		clothes_selector = "mtrspony_pony_alicorn_nightmare_moon_clothes_selector"
+		attachment_selector = "mtrspony_pony_alicorn_nightmare_moon_hair_selector"
+		greeting_sound = "human_female_greetings_01"
+
+		character_textures = {
+			"gfx/models/portraits/pony_alicorn/nightmare_moon/nightmare_moon.dds"
+			"gfx/models/portraits/pony_alicorn/nightmare_moon/nightmare_moon_alt1.dds"
+			"gfx/models/portraits/pony_alicorn/nightmare_moon/nightmare_moon_alt2.dds"
+			"gfx/models/portraits/pony_alicorn/nightmare_moon/nightmare_moon_alt3.dds"
+			"gfx/models/portraits/pony_alicorn/nightmare_moon/nightmare_moon_alt4.dds"
+			"gfx/models/portraits/pony_alicorn/nightmare_moon/nightmare_moon_alt5.dds"
+			"gfx/models/portraits/pony_alicorn/nightmare_moon/nightmare_moon_alt6.dds"
+			"gfx/models/portraits/pony_alicorn/nightmare_moon/nightmare_moon_alt7.dds"
+			"gfx/models/portraits/pony_alicorn/nightmare_moon/nightmare_moon_alt8.dds"
+			"gfx/models/portraits/pony_alicorn/nightmare_moon/nightmare_moon_alt9.dds"
+			"gfx/models/portraits/pony_alicorn/nightmare_moon/nightmare_moon_alt10.dds"
+			"gfx/models/portraits/pony_alicorn/nightmare_moon/nightmare_moon_alt11.dds"
+			"gfx/models/portraits/pony_alicorn/nightmare_moon/nightmare_moon_alt12.dds"
+		}
+
+		custom_attachment_label = "HAIR_COLOR"
+	}
+
 	mtrspony_pony_alicorn_twilight_sparkle = {
 		entity = "portrait_dummy_big_7p_left_entity"
 		clothes_selector = "mtrspony_pony_alicorn_twilight_sparkle_clothes_selector"
@@ -178,6 +203,7 @@ portrait_groups = {
 				portraits = {
 					mtrspony_pony_alicorn_celestia
 					mtrspony_pony_alicorn_luna
+					mtrspony_pony_alicorn_nightmare_moon
 					mtrspony_pony_alicorn_twilight_sparkle
 					mtrspony_pony_alicorn_apple_bloom
 				}
@@ -193,6 +219,7 @@ portrait_groups = {
 				portraits = {
 					mtrspony_pony_alicorn_celestia
 					mtrspony_pony_alicorn_luna
+					mtrspony_pony_alicorn_nightmare_moon
 					mtrspony_pony_alicorn_twilight_sparkle
 					mtrspony_pony_alicorn_apple_bloom
 				}
@@ -216,6 +243,7 @@ portrait_groups = {
 				portraits = {
 					mtrspony_pony_alicorn_celestia
 					mtrspony_pony_alicorn_luna
+					mtrspony_pony_alicorn_nightmare_moon
 					mtrspony_pony_alicorn_twilight_sparkle
 					mtrspony_pony_alicorn_apple_bloom
 				}
@@ -253,6 +281,7 @@ portrait_groups = {
 				portraits = {
 					mtrspony_pony_alicorn_celestia
 					mtrspony_pony_alicorn_luna
+					mtrspony_pony_alicorn_nightmare_moon
 					mtrspony_pony_alicorn_twilight_sparkle
 					mtrspony_pony_alicorn_apple_bloom
 				}

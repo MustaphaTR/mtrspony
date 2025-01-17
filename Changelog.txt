@@ -107,3 +107,6 @@
 -- Added Polar Bear namelist.
 -- Hopefully fixed some edge cases that lead Gigastructural Engineering faust content to trigger on player empires.
 -- Revolutionary Faust now uses FSS Posada as the name of a Exploration Vessel/Science Ship, instead of a Corvette.
+
+- Version 0.2.8 (XX.01.2025):
+-- Added one more female alicorn portrait set, based on Nightmare Moon.

@@ -107,6 +107,30 @@ objectTypes = {
 		scale = 1.0
 	}
 
+	pdxmesh = {
+		name = "portrait_dummy_huge_centered_mesh"
+		file = "gfx/models/portraits/meshes/dummy_huge_centered.mesh"
+
+		animation = {
+			id = "idle"
+			type = "human_01_female_portrait_idle1_animation"
+		}
+
+		scale = 1.0
+	}
+
+	pdxmesh = {
+		name = "portrait_dummy_huge_5p_left_mesh"
+		file = "gfx/models/portraits/meshes/dummy_huge_5p_left.mesh"
+
+		animation = {
+			id = "idle"
+			type = "human_01_female_portrait_idle1_animation"
+		}
+
+		scale = 1.0
+	}
+
 	# This is 10p left too. Bottom 40% of the hair is spit to a second layer rendered on top of the clothes due to Sunburst's beard.
 	pdxmesh = {
 		name = "portrait_dummy_sunburst_mesh"
