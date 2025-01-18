@@ -186,6 +186,8 @@ mtrspony_pony_alicorn_celestia_clothes_selector = {
 				"gfx/models/portraits/pony_alicorn/celestia/celestia_regila_alt2.dds"
 				"gfx/models/portraits/pony_alicorn/celestia/celestia_regila_alt3.dds"
 				"gfx/models/portraits/pony_alicorn/celestia/celestia_regila_alt4.dds"
+				"gfx/models/portraits/pony_alicorn/celestia/celestia_regila_alt5.dds"
+				"gfx/models/portraits/pony_alicorn/celestia/celestia_regila_alt6.dds"
 			}
 		}
 	}
@@ -198,6 +200,8 @@ mtrspony_pony_alicorn_celestia_clothes_selector = {
 				"gfx/models/portraits/pony_alicorn/celestia/celestia_regila_alt2.dds"
 				"gfx/models/portraits/pony_alicorn/celestia/celestia_regila_alt3.dds"
 				"gfx/models/portraits/pony_alicorn/celestia/celestia_regila_alt4.dds"
+				"gfx/models/portraits/pony_alicorn/celestia/celestia_regila_alt5.dds"
+				"gfx/models/portraits/pony_alicorn/celestia/celestia_regila_alt6.dds"
 			}
 		}
 	}
@@ -210,6 +214,8 @@ mtrspony_pony_alicorn_celestia_clothes_selector = {
 				"gfx/models/portraits/pony_alicorn/celestia/celestia_regila_alt2.dds"
 				"gfx/models/portraits/pony_alicorn/celestia/celestia_regila_alt3.dds"
 				"gfx/models/portraits/pony_alicorn/celestia/celestia_regila_alt4.dds"
+				"gfx/models/portraits/pony_alicorn/celestia/celestia_regila_alt5.dds"
+				"gfx/models/portraits/pony_alicorn/celestia/celestia_regila_alt6.dds"
 			}
 		}
 	}
