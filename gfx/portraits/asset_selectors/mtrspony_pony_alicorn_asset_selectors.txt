@@ -215,6 +215,163 @@ mtrspony_pony_alicorn_celestia_clothes_selector = {
 	}
 }
 
+mtrspony_pony_alicorn_daybreaker_hair_selector = {
+	default = "gfx/models/portraits/pony_alicorn/daybreaker/daybreaker_hair.dds"
+
+	game_setup = {
+		default = "gfx/models/portraits/pony_alicorn/daybreaker/daybreaker_hair.dds"
+	}
+
+	species = {
+		default = "gfx/models/portraits/pony_alicorn/daybreaker/daybreaker_hair.dds"
+	}
+
+	pop = {
+		default = "gfx/models/portraits/pony_alicorn/daybreaker/daybreaker_hair.dds"
+
+		random = {
+			list = {
+				"gfx/models/portraits/pony_alicorn/daybreaker/daybreaker_hair.dds"
+				"gfx/models/portraits/pony_alicorn/daybreaker/daybreaker_hair_alt1.dds"
+				"gfx/models/portraits/pony_alicorn/daybreaker/daybreaker_hair_alt2.dds"
+				"gfx/models/portraits/pony_alicorn/daybreaker/daybreaker_hair_alt3.dds"
+				"gfx/models/portraits/pony_alicorn/daybreaker/daybreaker_hair_alt4.dds"
+				"gfx/models/portraits/pony_alicorn/daybreaker/daybreaker_hair_alt5.dds"
+				"gfx/models/portraits/pony_alicorn/daybreaker/daybreaker_hair_alt6.dds"
+				"gfx/models/portraits/pony_alicorn/daybreaker/daybreaker_hair_alt7.dds"
+				"gfx/models/portraits/pony_alicorn/daybreaker/daybreaker_hair_alt8.dds"
+				"gfx/models/portraits/pony_alicorn/daybreaker/daybreaker_hair_alt9.dds"
+				"gfx/models/portraits/pony_alicorn/daybreaker/daybreaker_hair_alt10.dds"
+				"gfx/models/portraits/pony_alicorn/daybreaker/daybreaker_hair_alt11.dds"
+				"gfx/models/portraits/pony_alicorn/daybreaker/daybreaker_hair_alt12.dds"
+				"gfx/models/portraits/pony_alicorn/daybreaker/daybreaker_hair_alt13.dds"
+			}
+		}
+	}
+
+	leader = {
+		random = {
+			list = {
+				"gfx/models/portraits/pony_alicorn/daybreaker/daybreaker_hair.dds"
+				"gfx/models/portraits/pony_alicorn/daybreaker/daybreaker_hair_alt1.dds"
+				"gfx/models/portraits/pony_alicorn/daybreaker/daybreaker_hair_alt2.dds"
+				"gfx/models/portraits/pony_alicorn/daybreaker/daybreaker_hair_alt3.dds"
+				"gfx/models/portraits/pony_alicorn/daybreaker/daybreaker_hair_alt4.dds"
+				"gfx/models/portraits/pony_alicorn/daybreaker/daybreaker_hair_alt5.dds"
+				"gfx/models/portraits/pony_alicorn/daybreaker/daybreaker_hair_alt6.dds"
+				"gfx/models/portraits/pony_alicorn/daybreaker/daybreaker_hair_alt7.dds"
+				"gfx/models/portraits/pony_alicorn/daybreaker/daybreaker_hair_alt8.dds"
+				"gfx/models/portraits/pony_alicorn/daybreaker/daybreaker_hair_alt9.dds"
+				"gfx/models/portraits/pony_alicorn/daybreaker/daybreaker_hair_alt10.dds"
+				"gfx/models/portraits/pony_alicorn/daybreaker/daybreaker_hair_alt11.dds"
+				"gfx/models/portraits/pony_alicorn/daybreaker/daybreaker_hair_alt12.dds"
+				"gfx/models/portraits/pony_alicorn/daybreaker/daybreaker_hair_alt13.dds"
+			}
+		}
+	}
+
+	ruler = {
+		random = {
+			list = {
+				"gfx/models/portraits/pony_alicorn/daybreaker/daybreaker_hair.dds"
+				"gfx/models/portraits/pony_alicorn/daybreaker/daybreaker_hair_alt1.dds"
+				"gfx/models/portraits/pony_alicorn/daybreaker/daybreaker_hair_alt2.dds"
+				"gfx/models/portraits/pony_alicorn/daybreaker/daybreaker_hair_alt3.dds"
+				"gfx/models/portraits/pony_alicorn/daybreaker/daybreaker_hair_alt4.dds"
+				"gfx/models/portraits/pony_alicorn/daybreaker/daybreaker_hair_alt5.dds"
+				"gfx/models/portraits/pony_alicorn/daybreaker/daybreaker_hair_alt6.dds"
+				"gfx/models/portraits/pony_alicorn/daybreaker/daybreaker_hair_alt7.dds"
+				"gfx/models/portraits/pony_alicorn/daybreaker/daybreaker_hair_alt8.dds"
+				"gfx/models/portraits/pony_alicorn/daybreaker/daybreaker_hair_alt9.dds"
+				"gfx/models/portraits/pony_alicorn/daybreaker/daybreaker_hair_alt10.dds"
+				"gfx/models/portraits/pony_alicorn/daybreaker/daybreaker_hair_alt11.dds"
+				"gfx/models/portraits/pony_alicorn/daybreaker/daybreaker_hair_alt12.dds"
+				"gfx/models/portraits/pony_alicorn/daybreaker/daybreaker_hair_alt13.dds"
+			}
+		}	
+	}
+}
+
+mtrspony_pony_alicorn_daybreaker_clothes_selector = {
+	default = "gfx/models/portraits/pony_alicorn/daybreaker/daybreaker_armor.dds"
+
+	game_setup = {
+		default = "gfx/models/portraits/pony_alicorn/daybreaker/daybreaker_armor.dds"
+	}
+
+	species = {
+		default = "gfx/models/portraits/pony_alicorn/daybreaker/daybreaker_armor.dds"
+	}
+
+	pop = {
+		default = "gfx/models/portraits/pony_alicorn/daybreaker/daybreaker_armor.dds"
+
+		random = {
+			list = {
+				"gfx/models/portraits/pony_alicorn/daybreaker/daybreaker_armor.dds"
+				"gfx/models/portraits/pony_alicorn/daybreaker/daybreaker_armor_alt1.dds"
+				"gfx/models/portraits/pony_alicorn/daybreaker/daybreaker_armor_alt2.dds"
+				"gfx/models/portraits/pony_alicorn/daybreaker/daybreaker_armor_alt3.dds"
+				"gfx/models/portraits/pony_alicorn/daybreaker/daybreaker_armor_alt4.dds"
+				"gfx/models/portraits/pony_alicorn/daybreaker/daybreaker_armor_alt5.dds"
+				"gfx/models/portraits/pony_alicorn/daybreaker/daybreaker_armor_alt6.dds"
+				"gfx/models/portraits/pony_alicorn/daybreaker/daybreaker_armor_alt7.dds"
+				"gfx/models/portraits/pony_alicorn/daybreaker/daybreaker_armor_alt8.dds"
+				"gfx/models/portraits/pony_alicorn/daybreaker/daybreaker_armor_alt9.dds"
+				"gfx/models/portraits/pony_alicorn/daybreaker/daybreaker_armor_alt10.dds"
+				"gfx/models/portraits/pony_alicorn/daybreaker/daybreaker_armor_alt11.dds"
+				"gfx/models/portraits/pony_alicorn/daybreaker/daybreaker_armor_alt12.dds"
+				"gfx/models/portraits/pony_alicorn/daybreaker/daybreaker_armor_alt13.dds"
+				"gfx/models/portraits/pony_alicorn/daybreaker/daybreaker_armor_alt14.dds"
+			}
+		}
+	}
+
+	leader = {
+		random = {
+			list = {
+				"gfx/models/portraits/pony_alicorn/daybreaker/daybreaker_armor.dds"
+				"gfx/models/portraits/pony_alicorn/daybreaker/daybreaker_armor_alt1.dds"
+				"gfx/models/portraits/pony_alicorn/daybreaker/daybreaker_armor_alt2.dds"
+				"gfx/models/portraits/pony_alicorn/daybreaker/daybreaker_armor_alt3.dds"
+				"gfx/models/portraits/pony_alicorn/daybreaker/daybreaker_armor_alt4.dds"
+				"gfx/models/portraits/pony_alicorn/daybreaker/daybreaker_armor_alt5.dds"
+				"gfx/models/portraits/pony_alicorn/daybreaker/daybreaker_armor_alt6.dds"
+				"gfx/models/portraits/pony_alicorn/daybreaker/daybreaker_armor_alt7.dds"
+				"gfx/models/portraits/pony_alicorn/daybreaker/daybreaker_armor_alt8.dds"
+				"gfx/models/portraits/pony_alicorn/daybreaker/daybreaker_armor_alt9.dds"
+				"gfx/models/portraits/pony_alicorn/daybreaker/daybreaker_armor_alt10.dds"
+				"gfx/models/portraits/pony_alicorn/daybreaker/daybreaker_armor_alt11.dds"
+				"gfx/models/portraits/pony_alicorn/daybreaker/daybreaker_armor_alt12.dds"
+				"gfx/models/portraits/pony_alicorn/daybreaker/daybreaker_armor_alt13.dds"
+				"gfx/models/portraits/pony_alicorn/daybreaker/daybreaker_armor_alt14.dds"
+			}
+		}
+	}
+
+	ruler = {
+		random = {
+			list = {
+				"gfx/models/portraits/pony_alicorn/daybreaker/daybreaker_armor.dds"
+				"gfx/models/portraits/pony_alicorn/daybreaker/daybreaker_armor_alt1.dds"
+				"gfx/models/portraits/pony_alicorn/daybreaker/daybreaker_armor_alt2.dds"
+				"gfx/models/portraits/pony_alicorn/daybreaker/daybreaker_armor_alt3.dds"
+				"gfx/models/portraits/pony_alicorn/daybreaker/daybreaker_armor_alt4.dds"
+				"gfx/models/portraits/pony_alicorn/daybreaker/daybreaker_armor_alt5.dds"
+				"gfx/models/portraits/pony_alicorn/daybreaker/daybreaker_armor_alt6.dds"
+				"gfx/models/portraits/pony_alicorn/daybreaker/daybreaker_armor_alt7.dds"
+				"gfx/models/portraits/pony_alicorn/daybreaker/daybreaker_armor_alt8.dds"
+				"gfx/models/portraits/pony_alicorn/daybreaker/daybreaker_armor_alt9.dds"
+				"gfx/models/portraits/pony_alicorn/daybreaker/daybreaker_armor_alt10.dds"
+				"gfx/models/portraits/pony_alicorn/daybreaker/daybreaker_armor_alt11.dds"
+				"gfx/models/portraits/pony_alicorn/daybreaker/daybreaker_armor_alt12.dds"
+				"gfx/models/portraits/pony_alicorn/daybreaker/daybreaker_armor_alt13.dds"
+				"gfx/models/portraits/pony_alicorn/daybreaker/daybreaker_armor_alt14.dds"
+			}
+		}
+	}
+}
+
 mtrspony_pony_alicorn_luna_hair_selector = {
 	default = "gfx/models/portraits/pony_alicorn/luna/luna_hair.dds"
 

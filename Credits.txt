@@ -32,6 +32,9 @@ Portrait Bases:
 	- Pinkie Pie
 	- Thorax
 
+ > drakizora:
+	- Daybreaker
+
  > durpy:
     - Elytron
 

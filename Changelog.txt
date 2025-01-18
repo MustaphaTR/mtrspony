@@ -109,4 +109,4 @@
 -- Revolutionary Faust now uses FSS Posada as the name of a Exploration Vessel/Science Ship, instead of a Corvette.
 
 - Version 0.2.8 (XX.01.2025):
--- Added one more female alicorn portrait set, based on Nightmare Moon.
+-- Added two more female alicorn portrait sets, based on Nightmare Moon and Daybreaker.

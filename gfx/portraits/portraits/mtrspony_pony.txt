@@ -59,6 +59,7 @@ portrait_groups = {
 					mtrspony_pony_pegasus_cozy_glow_older
 					mtrspony_pony_pegasus_scootaloo
 					mtrspony_pony_alicorn_celestia
+					mtrspony_pony_alicorn_daybreaker
 					mtrspony_pony_alicorn_luna
 					mtrspony_pony_alicorn_nightmare_moon
 					mtrspony_pony_alicorn_twilight_sparkle
@@ -92,6 +93,7 @@ portrait_groups = {
 					mtrspony_pony_pegasus_cozy_glow_older
 					mtrspony_pony_pegasus_scootaloo
 					mtrspony_pony_alicorn_celestia
+					mtrspony_pony_alicorn_daybreaker
 					mtrspony_pony_alicorn_luna
 					mtrspony_pony_alicorn_nightmare_moon
 					mtrspony_pony_alicorn_twilight_sparkle
@@ -145,6 +147,7 @@ portrait_groups = {
 					mtrspony_pony_pegasus_cozy_glow_older
 					mtrspony_pony_pegasus_scootaloo
 					mtrspony_pony_alicorn_celestia
+					mtrspony_pony_alicorn_daybreaker
 					mtrspony_pony_alicorn_luna
 					mtrspony_pony_alicorn_nightmare_moon
 					mtrspony_pony_alicorn_twilight_sparkle
@@ -224,6 +227,7 @@ portrait_groups = {
 					mtrspony_pony_pegasus_cozy_glow_older
 					mtrspony_pony_pegasus_scootaloo
 					mtrspony_pony_alicorn_celestia
+					mtrspony_pony_alicorn_daybreaker
 					mtrspony_pony_alicorn_luna
 					mtrspony_pony_alicorn_nightmare_moon
 					mtrspony_pony_alicorn_twilight_sparkle
