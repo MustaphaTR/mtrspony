@@ -5,92 +5,106 @@
 
 	ship_names = {
 		generic = {
-			Amberjack Dolphin Saury "Sea Panther" Pilotfish Espada "Sea Fox" Croaker Bullhead Goldring Pargo "Sea Poacher" Cuttlefish Atule Guitarro Grunion Swordfish Sargo Odax Sturgeon Bream Ronquil Grayling Sculpin Tiru Razorback Pompano Threadfin Piranha Roncador Bugara Hammerhead Scamp Sealion "Sea Cat" Tiburon "Sea Devil" Corporal Kingfish Lancetfish Thresher Skate Bass Lizardfish Trumpetfish Carp Quillback Piper Scorpion Sabalo Salmon Stingray Snook Clamagore Springer Springeren Angler Pomfret "Sea Leopard" Sablefish Redfish Billfish Jawfish Marlin Halfbeak Tusk Garlopa Lamprey Silversides Chub Comber Hackleback Redfin "Sand Lance" Needlefish Plaice Baya Blackfish Tang Toro Herring Haddo Seahorse Finback Brill Wahoo Batfish Jallao Menhaden Eel Steelhead Mero Barbel Cachalot Walrus Lapon Besugo Spinax Turbot Sennet Seawolf Thornback Pickerel Tunny Gato Sunfish Seal Snapper Runner Burrfish Dogfish Tambor Shark Tautog Barb Cisco Scabbardfish Haddock Apogon Cabrilla Tarpon Bluegill Tullibee Moray Dentuda Bowfin Cochino Ulua Seadragon Sarda Robalo Pomodon Kraken Hawkbill Flounder Bang Catfish Mackerel Shad Pintado Halibut Tuna Vendace Sterlet Lionfish Rock Sea Owl Dugong Trout Guavina Crevalle Trutta Tench Escolar Parche Caiman Flying Fish Stickleback Torsk Requin Drum Picuda Cod Whale "Sea Dog" Pike Remora Irex Spikefish Bluefish Harder Entemedor Pipefish Rasher Tilefish Sailfish Narwhal Searaven Greenling Bashaw Chivo Gar Sawfish Cusk Wolffish Balao Corvina Boarfish Garrupa Flasher Spearfish Ray Devilfish Archerfish Hoe Pampanito Whitefish Tirante Ono Gurnard Gabilan Grampus Perch Growler Blenny Ling Tinosa Cobia Skipjack "Sea Robin" Nerka Kete Peto Trepang Bergall Chopper Cabezon Diodon Mingo Conger Raton Paddle Loggerhead Grayback Barracuda Hardhead Medregal Bonefish Charr Cero Guardfish Tigrone Capelin Capitaine Jack Macabi Icefish Dragonet Muskallunge Porpoise Nautilus Segundo Lagarto Golet Puffer Mapiro Manta Becuna Cobbler Barbero Bumper Albacore Pogy Spadefish Sirago Greenfish Grouper Spot Hake Darter Flier Pompon Blueback Carbonero Blackfin Whiting Queenfish Blower Cavalla Gunnel Bonita Aspro Cubera Telescopium Lynx Pictor Ara Perseus Norma Libra Aries "Canes Venatici" Auriga Cancer Apus Dorado "Leo Minor" Sextans "Coma Berenices" Carina Andromeda Fornax Camelopardalis Mensa Phoenix Crux Sagitta Taurus Lyra Monoceros Eridanus Pavo Gemini Lepus Orion Crater Sculptor Ophiuchus Serpens Aquarius Scorpius Aquila Antila Delphinus Lupus Horologium Scutum Caelum Grus Pisces Octans Cetus Cassiopeia Leo "Canis Major" Hercules Puppis Lacerta Hydra Reticulum "Corona Australis" Sagitarius Equuleus "Piscis Austrinus" Columba Indus Centaurus Cepheus "Corona Borealis" Chamaeleon Musca Pyxis Corvus Draco "Canis Minor" Hydrus Capricornus Cygnus Circinus Solarguard Lunarguard Gladiolus Marigold Snapdragon Heather Trachelium Hyacinth Daffodil Magnolia Anemone Limonium Freesia "Spray Rose" Chrysanthemum Lilac Tuberose Orchid Carnation Delphinium Protea Ranunculus "Bird of Paradise" Lily Hibiscus Iris Crocus "Oriental Lily" "Calla Lily" Azalea Kalanchoe Poinsettia Geranium Narcissus Amaryllis Lavender "Baby's Breath" "Peace Lily" Cyclamen Waxflower Pansy Tulip Sunflower Aster Alstroemeria Pompon Rose Zinnia Daisy Larkspur "Petite Rose" Hydrangea Liatris Cockscomb "Asiatic Lily" Campanula Begonia Hypericum Jonquil Jasmine Gardenia Lisianthus "Tea Rose" "Star Swirl" Rockhoof Mistmane "Flash Magnus" Somnambula Meadowbrook Platinum Clover Hurricane Puddinghead "Smart Cookie" Pansy "Twilight Sparkle" Applejack Rarity "Pinkie Pie" Fluttershy "Rainbow Dash" Pegasopolis Unicornia Dirtville Sisterhood Harmony Friendship Magic Unicorn Pegasus "Earth Pony" Thestral Hasbro Sorcery Strength Healing Hope Beauty Bravery Honesty Kindness Laughter Generosity Loyalty Magic Wisdom Humility Fairness Love Courage Charity Prudence Temperance Tenacity Mercy Gravity Duty Modesty Dilegence Patience Focus Order Forgiveness Purity Chastity Empathy Enlightenment Honor Insight Confidence Reliability Juyilkhai Mangchijid Noyamanan Arusharii Kiyatukh Süldintjid Mankhutayid Ghenikhan Yürkid Jakichikh Ubkhait Khoriikhat "Khata'ut" Yakistown Saihandale "Gol Güür" "Ariun Ordon" "Khereh Davsag" "Goliig Khuvaakh" "Manai Gazar" "Bara'dur" Tuuraikhan Karsakag "Saihan Tolgod" "Nokhorsag Oi" "Sarlag Khot" Modnihendi "Oin Shiltgeen"
+			PONY_SHIP_amberjack PONY_SHIP_dolphin PONY_SHIP_saury PONY_SHIP_sea_panther PONY_SHIP_pilotfish PONY_SHIP_espada PONY_SHIP_sea_fox PONY_SHIP_croaker PONY_SHIP_bullhead PONY_SHIP_goldring PONY_SHIP_pargo PONY_SHIP_sea_poacher PONY_SHIP_cuttlefish PONY_SHIP_atule PONY_SHIP_guitarro PONY_SHIP_grunion PONY_SHIP_swordfish PONY_SHIP_sargo PONY_SHIP_odax PONY_SHIP_sturgeon PONY_SHIP_bream PONY_SHIP_ronquil PONY_SHIP_grayling PONY_SHIP_sculpin PONY_SHIP_tiru PONY_SHIP_razorback PONY_SHIP_pompano PONY_SHIP_threadfin PONY_SHIP_piranha PONY_SHIP_roncador PONY_SHIP_bugara PONY_SHIP_hammerhead PONY_SHIP_scamp PONY_SHIP_sealion PONY_SHIP_sea_cat PONY_SHIP_tiburon PONY_SHIP_sea_devil PONY_SHIP_corporal PONY_SHIP_kingfish PONY_SHIP_lancetfish PONY_SHIP_thresher PONY_SHIP_skate PONY_SHIP_bass PONY_SHIP_lizardfish PONY_SHIP_trumpetfish PONY_SHIP_carp PONY_SHIP_quillback PONY_SHIP_piper PONY_SHIP_scorpion PONY_SHIP_sabalo PONY_SHIP_salmon PONY_SHIP_stingray PONY_SHIP_snook PONY_SHIP_clamagore PONY_SHIP_springer PONY_SHIP_springeren PONY_SHIP_angler PONY_SHIP_pomfret PONY_SHIP_sea_leopard PONY_SHIP_sablefish PONY_SHIP_redfish PONY_SHIP_billfish PONY_SHIP_jawfish PONY_SHIP_marlin PONY_SHIP_halfbeak PONY_SHIP_tusk PONY_SHIP_garlopa PONY_SHIP_lamprey PONY_SHIP_silversides PONY_SHIP_chub PONY_SHIP_comber PONY_SHIP_hackleback PONY_SHIP_redfin PONY_SHIP_sand_lance PONY_SHIP_needlefish PONY_SHIP_plaice PONY_SHIP_baya PONY_SHIP_blackfish PONY_SHIP_tang PONY_SHIP_toro PONY_SHIP_herring PONY_SHIP_haddo PONY_SHIP_seahorse PONY_SHIP_finback PONY_SHIP_brill PONY_SHIP_wahoo PONY_SHIP_batfish PONY_SHIP_jallao PONY_SHIP_menhaden PONY_SHIP_eel PONY_SHIP_steelhead PONY_SHIP_mero PONY_SHIP_barbel PONY_SHIP_cachalot PONY_SHIP_walrus PONY_SHIP_lapon PONY_SHIP_besugo PONY_SHIP_spinax PONY_SHIP_turbot PONY_SHIP_sennet PONY_SHIP_seawolf PONY_SHIP_thornback PONY_SHIP_pickerel PONY_SHIP_tunny PONY_SHIP_gato PONY_SHIP_sunfish PONY_SHIP_seal PONY_SHIP_snapper PONY_SHIP_runner PONY_SHIP_burrfish PONY_SHIP_dogfish PONY_SHIP_tambor PONY_SHIP_shark PONY_SHIP_tautog PONY_SHIP_barb PONY_SHIP_cisco PONY_SHIP_scabbardfish PONY_SHIP_haddock PONY_SHIP_apogon PONY_SHIP_cabrilla PONY_SHIP_tarpon PONY_SHIP_bluegill PONY_SHIP_tullibee PONY_SHIP_moray PONY_SHIP_dentuda PONY_SHIP_bowfin PONY_SHIP_cochino PONY_SHIP_ulua PONY_SHIP_seadragon PONY_SHIP_sarda PONY_SHIP_robalo PONY_SHIP_pomodon PONY_SHIP_kraken PONY_SHIP_hawkbill PONY_SHIP_flounder PONY_SHIP_bang PONY_SHIP_catfish PONY_SHIP_mackerel PONY_SHIP_shad PONY_SHIP_pintado PONY_SHIP_halibut PONY_SHIP_tuna PONY_SHIP_vendace PONY_SHIP_sterlet PONY_SHIP_lionfish PONY_SHIP_rock PONY_SHIP_sea PONY_SHIP_owl PONY_SHIP_dugong PONY_SHIP_trout PONY_SHIP_guavina PONY_SHIP_crevalle PONY_SHIP_trutta PONY_SHIP_tench PONY_SHIP_escolar PONY_SHIP_parche PONY_SHIP_caiman PONY_SHIP_flying PONY_SHIP_fish PONY_SHIP_stickleback PONY_SHIP_torsk PONY_SHIP_requin PONY_SHIP_drum PONY_SHIP_picuda PONY_SHIP_cod PONY_SHIP_whale PONY_SHIP_sea_dog PONY_SHIP_pike PONY_SHIP_remora PONY_SHIP_irex PONY_SHIP_spikefish PONY_SHIP_bluefish PONY_SHIP_harder PONY_SHIP_entemedor PONY_SHIP_pipefish PONY_SHIP_rasher PONY_SHIP_tilefish PONY_SHIP_sailfish PONY_SHIP_narwhal PONY_SHIP_searaven PONY_SHIP_greenling PONY_SHIP_bashaw PONY_SHIP_chivo PONY_SHIP_gar PONY_SHIP_sawfish PONY_SHIP_cusk PONY_SHIP_wolffish PONY_SHIP_balao PONY_SHIP_corvina PONY_SHIP_boarfish PONY_SHIP_garrupa PONY_SHIP_flasher PONY_SHIP_spearfish PONY_SHIP_ray PONY_SHIP_devilfish PONY_SHIP_archerfish PONY_SHIP_hoe PONY_SHIP_pampanito PONY_SHIP_whitefish PONY_SHIP_tirante PONY_SHIP_ono PONY_SHIP_gurnard PONY_SHIP_gabilan PONY_SHIP_grampus PONY_SHIP_perch PONY_SHIP_growler PONY_SHIP_blenny PONY_SHIP_ling PONY_SHIP_tinosa PONY_SHIP_cobia PONY_SHIP_skipjack PONY_SHIP_sea_robin PONY_SHIP_nerka PONY_SHIP_kete PONY_SHIP_peto PONY_SHIP_trepang PONY_SHIP_bergall PONY_SHIP_chopper PONY_SHIP_cabezon PONY_SHIP_diodon PONY_SHIP_mingo PONY_SHIP_conger PONY_SHIP_raton PONY_SHIP_paddle PONY_SHIP_loggerhead PONY_SHIP_grayback PONY_SHIP_barracuda PONY_SHIP_hardhead PONY_SHIP_medregal PONY_SHIP_bonefish PONY_SHIP_charr PONY_SHIP_cero PONY_SHIP_guardfish PONY_SHIP_tigrone PONY_SHIP_capelin PONY_SHIP_capitaine PONY_SHIP_jack PONY_SHIP_macabi PONY_SHIP_icefish PONY_SHIP_dragonet PONY_SHIP_muskallunge PONY_SHIP_porpoise PONY_SHIP_nautilus PONY_SHIP_segundo PONY_SHIP_lagarto PONY_SHIP_golet PONY_SHIP_puffer PONY_SHIP_mapiro PONY_SHIP_manta PONY_SHIP_becuna PONY_SHIP_cobbler PONY_SHIP_barbero PONY_SHIP_bumper PONY_SHIP_albacore PONY_SHIP_pogy PONY_SHIP_spadefish PONY_SHIP_sirago PONY_SHIP_greenfish PONY_SHIP_grouper PONY_SHIP_spot PONY_SHIP_hake PONY_SHIP_darter PONY_SHIP_flier PONY_SHIP_pompon PONY_SHIP_blueback PONY_SHIP_carbonero PONY_SHIP_blackfin PONY_SHIP_whiting PONY_SHIP_queenfish PONY_SHIP_blower PONY_SHIP_cavalla PONY_SHIP_gunnel PONY_SHIP_bonita PONY_SHIP_aspro PONY_SHIP_cubera
+
+			PONY_SHIP_telescopium PONY_SHIP_lynx PONY_SHIP_pictor PONY_SHIP_ara PONY_SHIP_perseus PONY_SHIP_norma PONY_SHIP_libra PONY_SHIP_aries PONY_SHIP_canes_venatici PONY_SHIP_auriga PONY_SHIP_cancer PONY_SHIP_apus PONY_SHIP_dorado PONY_SHIP_leo_minor PONY_SHIP_sextans PONY_SHIP_coma_berenices PONY_SHIP_carina PONY_SHIP_andromeda PONY_SHIP_fornax PONY_SHIP_camelopardalis PONY_SHIP_mensa PONY_SHIP_phoenix PONY_SHIP_crux PONY_SHIP_sagitta PONY_SHIP_taurus PONY_SHIP_lyra PONY_SHIP_monoceros PONY_SHIP_eridanus PONY_SHIP_pavo PONY_SHIP_gemini PONY_SHIP_lepus PONY_SHIP_orion PONY_SHIP_crater PONY_SHIP_sculptor PONY_SHIP_ophiuchus PONY_SHIP_serpens PONY_SHIP_aquarius PONY_SHIP_scorpius PONY_SHIP_aquila PONY_SHIP_antila PONY_SHIP_delphinus PONY_SHIP_lupus PONY_SHIP_horologium PONY_SHIP_scutum PONY_SHIP_caelum PONY_SHIP_grus PONY_SHIP_pisces PONY_SHIP_octans PONY_SHIP_cetus PONY_SHIP_cassiopeia PONY_SHIP_leo PONY_SHIP_canis_major PONY_SHIP_hercules PONY_SHIP_puppis PONY_SHIP_lacerta PONY_SHIP_hydra PONY_SHIP_reticulum PONY_SHIP_corona_australis PONY_SHIP_sagitarius PONY_SHIP_equuleus PONY_SHIP_piscis_austrinus PONY_SHIP_columba PONY_SHIP_indus PONY_SHIP_centaurus PONY_SHIP_cepheus PONY_SHIP_corona_borealis PONY_SHIP_chamaeleon PONY_SHIP_musca PONY_SHIP_pyxis PONY_SHIP_corvus PONY_SHIP_draco PONY_SHIP_canis_minor PONY_SHIP_hydrus PONY_SHIP_capricornus PONY_SHIP_cygnus PONY_SHIP_circinus PONY_SHIP_solarguard PONY_SHIP_lunarguard
+
+			PONY_SHIP_gladiolus PONY_SHIP_marigold PONY_SHIP_snapdragon PONY_SHIP_heather PONY_SHIP_trachelium PONY_SHIP_hyacinth PONY_SHIP_daffodil PONY_SHIP_magnolia PONY_SHIP_anemone PONY_SHIP_limonium PONY_SHIP_freesia PONY_SHIP_spray_rose PONY_SHIP_chrysanthemum PONY_SHIP_lilac PONY_SHIP_tuberose PONY_SHIP_orchid PONY_SHIP_carnation PONY_SHIP_delphinium PONY_SHIP_protea PONY_SHIP_ranunculus PONY_SHIP_bird_of_paradise PONY_SHIP_lily PONY_SHIP_hibiscus PONY_SHIP_iris PONY_SHIP_crocus PONY_SHIP_oriental_lily PONY_SHIP_calla_lily PONY_SHIP_azalea PONY_SHIP_kalanchoe PONY_SHIP_poinsettia PONY_SHIP_geranium PONY_SHIP_narcissus PONY_SHIP_amaryllis PONY_SHIP_lavender PONY_SHIP_foals_breath PONY_SHIP_peace_lily PONY_SHIP_cyclamen PONY_SHIP_waxflower PONY_SHIP_pansy PONY_SHIP_tulip PONY_SHIP_sunflower PONY_SHIP_aster PONY_SHIP_alstroemeria PONY_SHIP_pompon PONY_SHIP_rose PONY_SHIP_zinnia PONY_SHIP_daisy PONY_SHIP_larkspur PONY_SHIP_petite_rose PONY_SHIP_hydrangea PONY_SHIP_liatris PONY_SHIP_cockscomb PONY_SHIP_campanula PONY_SHIP_begonia PONY_SHIP_hypericum PONY_SHIP_jonquil PONY_SHIP_jasmine PONY_SHIP_gardenia PONY_SHIP_lisianthus PONY_SHIP_tea_rose
+
+			PONY_SHIP_sorcery PONY_SHIP_strength PONY_SHIP_healing PONY_SHIP_hope PONY_SHIP_beauty PONY_SHIP_bravery PONY_SHIP_honesty PONY_SHIP_kindness PONY_SHIP_laughter PONY_SHIP_generosity PONY_SHIP_loyalty PONY_SHIP_magic PONY_SHIP_wisdom PONY_SHIP_humility PONY_SHIP_fairness PONY_SHIP_love PONY_SHIP_courage PONY_SHIP_charity PONY_SHIP_prudence PONY_SHIP_temperance PONY_SHIP_tenacity PONY_SHIP_mercy PONY_SHIP_gravity PONY_SHIP_duty PONY_SHIP_modesty PONY_SHIP_dilegence PONY_SHIP_patience PONY_SHIP_focus PONY_SHIP_order PONY_SHIP_forgiveness PONY_SHIP_purity PONY_SHIP_chastity PONY_SHIP_empathy PONY_SHIP_enlightenment PONY_SHIP_honor PONY_SHIP_insight PONY_SHIP_confidence PONY_SHIP_reliability
+
+			YAK_SHIP_juyilkhai YAK_SHIP_mangchijid YAK_SHIP_noyamanan YAK_SHIP_arusharii YAK_SHIP_kiyatukh YAK_SHIP_sueldintjid YAK_SHIP_mankhutayid YAK_SHIP_ghenikhan YAK_SHIP_yuerkid YAK_SHIP_jakichikh YAK_SHIP_ubkhait YAK_SHIP_khoriikhat YAK_SHIP_khataut
+
+			YAK_SHIP_yakistown YAK_SHIP_saihandale YAK_SHIP_gol_gueuer YAK_SHIP_ariun_ordon YAK_SHIP_khereh_davsag YAK_SHIP_goliig_khuvaakh YAK_SHIP_manai_gazar YAK_SHIP_baradur YAK_SHIP_tuuraikhan YAK_SHIP_karsakag YAK_SHIP_saihan_tolgod YAK_SHIP_nokhorsag_oi YAK_SHIP_sarlag_khot YAK_SHIP_modnihendi YAK_SHIP_oin_shiltgeen
+
+			GRIFFON_SHIP_kulv_khot GRIFFON_SHIP_moeroen
 		}
 
 		colossus = {
-			Juyilkhai Mangchijid Noyamanan Arusharii Kiyatukh Süldintjid Mankhutayid Ghenikhan Yürkid Jakichikh Ubkhait Khoriikhat "Khata'ut"
+			YAK_SHIP_juyilkhai YAK_SHIP_mangchijid YAK_SHIP_noyamanan YAK_SHIP_arusharii YAK_SHIP_kiyatukh YAK_SHIP_sueldintjid YAK_SHIP_mankhutayid YAK_SHIP_ghenikhan YAK_SHIP_yuerkid YAK_SHIP_jakichikh YAK_SHIP_ubkhait YAK_SHIP_khoriikhat YAK_SHIP_khataut
 		}
 
 		constructor = {
-			Yakistown Saihandale "Gol Güür" "Ariun Ordon" "Khereh Davsag" "Goliig Khuvaakh" "Manai Gazar" "Bara'dur" Tuuraikhan Karsakag "Saihan Tolgod" "Nokhorsag Oi" "Sarlag Khot" Modnihendi "Oin Shiltgeen"
+			YAK_SHIP_yakistown YAK_SHIP_saihandale YAK_SHIP_gol_gueuer YAK_SHIP_ariun_ordon YAK_SHIP_khereh_davsag YAK_SHIP_goliig_khuvaakh YAK_SHIP_manai_gazar YAK_SHIP_baradur YAK_SHIP_tuuraikhan YAK_SHIP_karsakag YAK_SHIP_saihan_tolgod YAK_SHIP_nokhorsag_oi YAK_SHIP_sarlag_khot YAK_SHIP_modnihendi YAK_SHIP_oin_shiltgeen
+
+			GRIFFON_SHIP_kulv_khot GRIFFON_SHIP_moeroen
 		}
 	}
 
 	fleet_names = {
-		sequential_name = mtrspony_namelists_pony_space_fleet
+		sequential_name = PONY_space_fleet
 	}
 
 	army_names = {
 		machine_defense = {
-			sequential_name = mtrspony_namelists_pony_defense_force
+			sequential_name = PONY_defense_force
 		}
 
 		machine_assault_1 = {
-			sequential_name = mtrspony_namelists_pony_attack_force
+			sequential_name = PONY_attack_force
 		}
 
 		machine_assault_2 = {
-			sequential_name = mtrspony_namelists_pony_attack_force
+			sequential_name = PONY_attack_force
 		}
 
 		machine_assault_3 = {
-			sequential_name = mtrspony_namelists_pony_attack_force
+			sequential_name = PONY_attack_force
 		}
 
 		defense_army = {
-			sequential_name = mtrspony_namelists_pony_defense_force
+			sequential_name = PONY_defense_force
 		}
 
 		assault_army = {
-			sequential_name = mtrspony_namelists_pony_attack_force
+			sequential_name = PONY_attack_force
 		}
 
 		slave_army = {
-			sequential_name = mtrspony_namelists_pony_slave_force
+			sequential_name = PONY_slave_force
 		}
 
 		clone_army = {
-			sequential_name = mtrspony_namelists_pony_mirror_force
+			sequential_name = PONY_mirror_force
 		}
 
 		undead_army = {
-			sequential_name = mtrspony_namelists_pony_dread_force
+			sequential_name = PONY_dread_force
 		}
 
 		robotic_army = {
-			sequential_name = mtrspony_namelists_pony_drone_attack_force
+			sequential_name = PONY_drone_attack_force
 		}
 
 		robotic_defense_army = {
-			sequential_name = mtrspony_namelists_pony_drone_defense_force
+			sequential_name = PONY_drone_defense_force
 		}
 
 		psionic_army = {
-			sequential_name = mtrspony_namelists_pony_psi_corps_division
+			sequential_name = PONY_psi_corps_division
 		}
 
 		xenomorph_army = {
-			sequential_name = mtrspony_namelists_pony_monster_unit
+			sequential_name = PONY_monster_unit
 		}
 
 		gene_warrior_army = {
-			sequential_name = mtrspony_namelists_pony_supersoldiers
+			sequential_name = PONY_supersoldiers
 		}
 
 		occupation_army = {
-			sequential_name = mtrspony_namelists_pony_garrison_force
+			sequential_name = PONY_garrison_force
 		}
 
 		robotic_occupation_army = {
-			sequential_name = mtrspony_namelists_pony_drone_garrison_force
+			sequential_name = PONY_drone_garrison_force
 		}
 	}
 
 	planet_names = {
 		generic = {
 			names = {
-				Huuramch "Er Nag Uul" Saihan "Uulan Baavguy" "Khereh Davsag" "Manai Gazar" Tuuraikhan "Bara'dur" Dalma "Dund Aimag" Shidetgasar Nokhorsag Modnihendi
+				YAK_PLANET_huuramch YAK_PLANET_er_nag_uul YAK_PLANET_saihan YAK_PLANET_uulan_baavguy YAK_PLANET_khereh_davsag YAK_PLANET_manai_gazar YAK_PLANET_tuuraikhan YAK_PLANET_baradur YAK_PLANET_dalma YAK_PLANET_dund_aimag YAK_PLANET_shidetgasar YAK_PLANET_nokhorsag YAK_PLANET_modnihendi
 			}
 		}
 
@@ -102,7 +116,7 @@
 
 		pc_tropical = {
 			names = {
-				Rose
+				YAK_PLANET_rose
 			}
 		}
 
@@ -144,7 +158,7 @@
 
 		pc_alpine = {
 			names = {
-				Numuul
+				YAK_PLANET_numuul
 			}
 		}
 
@@ -160,10 +174,10 @@
 		name1 = {
 			weight = 10
 			full_names_male = {
-				Crompus Dromius Grimhorn Gruntwig Horwitz Ingville Leroy Tormand Ulysses Yakatar Yojan Yksler Leibowitz Yissakhar Yonatan Brynjar Agnar Fergus Yomhar Roderick Torcall Enok Holger Sigurd Yngvar
+				YAK_CHR_crompus YAK_CHR_dromius YAK_CHR_grimhorn YAK_CHR_gruntwig YAK_CHR_horwitz YAK_CHR_ingville YAK_CHR_leroy YAK_CHR_tormand YAK_CHR_ulysses YAK_CHR_yakatar YAK_CHR_yojan YAK_CHR_yksler YAK_CHR_leibowitz YAK_CHR_yissakhar YAK_CHR_yonatan YAK_CHR_brynjar YAK_CHR_agnar YAK_CHR_fergus YAK_CHR_yomhar YAK_CHR_roderick YAK_CHR_torcall YAK_CHR_enok YAK_CHR_holger YAK_CHR_sigurd YAK_CHR_yngvar
 			}
 			full_names_female = {
-				Yakmina Yigrid Royznbarg Yaara Yachna Yemima Yona Gunnel Agnes Fiona Rhona Brynja Dagmar Elvira Erna Hedwig Ida Kari Lena Mona Nora Olaug Ruth Smilla Thyra Ylva
+				YAK_CHR_yakmina YAK_CHR_yigrid YAK_CHR_royznbarg YAK_CHR_yaara YAK_CHR_yachna YAK_CHR_yemima YAK_CHR_yona YAK_CHR_gunnel YAK_CHR_agnes YAK_CHR_fiona YAK_CHR_rhona YAK_CHR_brynja YAK_CHR_dagmar YAK_CHR_elvira YAK_CHR_erna YAK_CHR_hedwig YAK_CHR_ida YAK_CHR_kari YAK_CHR_lena YAK_CHR_mona YAK_CHR_nora YAK_CHR_olaug YAK_CHR_ruth YAK_CHR_smilla YAK_CHR_thyra YAK_CHR_ylva
 			}
 		}
 	}

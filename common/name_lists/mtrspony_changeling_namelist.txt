@@ -5,7 +5,15 @@
 
 	ship_names = {
 		generic = {
-			Antagonist Neurotica Corrugator Supercilii Oculi Buccinator Medial Levator Superioris Corneal Abductor Lacrimal Modiolus Temporo Auricular Tensor Pterygoid Tympanic Procerus Septi Mentalis Depressor Masseter Platysma Hyoglossus Longitudinal Pharyngeus Salping Mastoid Capitus Scalene Erector Trapezius Dorsi Rhomboid Aconeus Pronator Flexor Extensor Ulnaris Supinator Pollicis Talus Fibula Patella Mandible Occipital Ethnerus Palatine Maxillia Lacrimus Scapulae Parietal Temporal Sezemoid Floating Rib Hyoid Proximal Phalange Tarsal Fabella Cyamella Distal Cuboid
+			CHANGELING_SHIP_antagonist CHANGELING_SHIP_neurotica CHANGELING_SHIP_corrugator CHANGELING_SHIP_supercilii CHANGELING_SHIP_oculi CHANGELING_SHIP_buccinator CHANGELING_SHIP_medial CHANGELING_SHIP_levator CHANGELING_SHIP_superioris CHANGELING_SHIP_corneal CHANGELING_SHIP_abductor CHANGELING_SHIP_lacrimal CHANGELING_SHIP_modiolus CHANGELING_SHIP_temporo CHANGELING_SHIP_auricular CHANGELING_SHIP_tensor CHANGELING_SHIP_pterygoid CHANGELING_SHIP_tympanic CHANGELING_SHIP_procerus CHANGELING_SHIP_septi CHANGELING_SHIP_mentalis CHANGELING_SHIP_depressor CHANGELING_SHIP_masseter CHANGELING_SHIP_platysma CHANGELING_SHIP_hyoglossus CHANGELING_SHIP_longitudinal CHANGELING_SHIP_pharyngeus CHANGELING_SHIP_salping CHANGELING_SHIP_mastoid CHANGELING_SHIP_capitus CHANGELING_SHIP_scalene CHANGELING_SHIP_erector CHANGELING_SHIP_trapezius CHANGELING_SHIP_dorsi CHANGELING_SHIP_rhomboid CHANGELING_SHIP_aconeus CHANGELING_SHIP_pronator CHANGELING_SHIP_flexor CHANGELING_SHIP_extensor CHANGELING_SHIP_ulnaris CHANGELING_SHIP_supinator CHANGELING_SHIP_pollicis
+
+			CHANGELING_SHIP_talus CHANGELING_SHIP_fibula CHANGELING_SHIP_patella CHANGELING_SHIP_mandible CHANGELING_SHIP_occipital CHANGELING_SHIP_ethnerus CHANGELING_SHIP_palatine CHANGELING_SHIP_maxillia CHANGELING_SHIP_lacrimus CHANGELING_SHIP_scapulae CHANGELING_SHIP_parietal CHANGELING_SHIP_temporal CHANGELING_SHIP_sezemoid CHANGELING_SHIP_floating CHANGELING_SHIP_rib CHANGELING_SHIP_hyoid CHANGELING_SHIP_proximal CHANGELING_SHIP_phalange CHANGELING_SHIP_tarsal CHANGELING_SHIP_fabella CHANGELING_SHIP_cyamella CHANGELING_SHIP_distal CHANGELING_SHIP_cuboid
+			
+			CHANGELING_SHIP_terror CHANGELING_SHIP_dread CHANGELING_SHIP_despair CHANGELING_SHIP_hopelessness CHANGELING_SHIP_fear CHANGELING_SHIP_anxiety CHANGELING_SHIP_unease CHANGELING_SHIP_sickness CHANGELING_SHIP_revulsion CHANGELING_SHIP_nightmare CHANGELING_SHIP_distress CHANGELING_SHIP_fright CHANGELING_SHIP_pain CHANGELING_SHIP_hatred CHANGELING_SHIP_submission CHANGELING_SHIP_anguish CHANGELING_SHIP_misery CHANGELING_SHIP_contempt CHANGELING_SHIP_sorrow CHANGELING_SHIP_wretchedness CHANGELING_SHIP_paralysis CHANGELING_SHIP_agony CHANGELING_SHIP_superiority CHANGELING_SHIP_loathing CHANGELING_SHIP_disquiet
+
+			CHANGELING_SHIP_hatcher
+
+			CHANGELING_SHIP_agonia CHANGELING_SHIP_antax CHANGELING_SHIP_anglossata CHANGELING_SHIP_apsychos CHANGELING_SHIP_assyna CHANGELING_SHIP_crucis CHANGELING_SHIP_ditrysium CHANGELING_SHIP_formicida CHANGELING_SHIP_gardis CHANGELING_SHIP_gorak CHANGELING_SHIP_hemelytra CHANGELING_SHIP_hoorornd CHANGELING_SHIP_kladisium CHANGELING_SHIP_larkorix CHANGELING_SHIP_lyctida CHANGELING_SHIP_phantine CHANGELING_SHIP_praesepis CHANGELING_SHIP_purifia CHANGELING_SHIP_sicarus CHANGELING_SHIP_soryth CHANGELING_SHIP_vesalipolis CHANGELING_SHIP_vraks CHANGELING_SHIP_volistad
 		}
 		
 		corvette = {
@@ -13,35 +21,35 @@
 		}
 		
 		destroyer = {
-			Antagonist Neurotica Corrugator Supercilii Oculi Buccinator Medial Levator Superioris Corneal Abductor Lacrimal Modiolus Temporo Auricular Tensor Pterygoid Tympanic Procerus Septi Mentalis Depressor Masseter Platysma Hyoglossus Longitudinal Pharyngeus Salping Mastoid Capitus Scalene Erector Trapezius Dorsi Rhomboid Aconeus Pronator Flexor Extensor Ulnaris Supinator Pollicis
+			CHANGELING_SHIP_antagonist CHANGELING_SHIP_neurotica CHANGELING_SHIP_corrugator CHANGELING_SHIP_supercilii CHANGELING_SHIP_oculi CHANGELING_SHIP_buccinator CHANGELING_SHIP_medial CHANGELING_SHIP_levator CHANGELING_SHIP_superioris CHANGELING_SHIP_corneal CHANGELING_SHIP_abductor CHANGELING_SHIP_lacrimal CHANGELING_SHIP_modiolus CHANGELING_SHIP_temporo CHANGELING_SHIP_auricular CHANGELING_SHIP_tensor CHANGELING_SHIP_pterygoid CHANGELING_SHIP_tympanic CHANGELING_SHIP_procerus CHANGELING_SHIP_septi CHANGELING_SHIP_mentalis CHANGELING_SHIP_depressor CHANGELING_SHIP_masseter CHANGELING_SHIP_platysma CHANGELING_SHIP_hyoglossus CHANGELING_SHIP_longitudinal CHANGELING_SHIP_pharyngeus CHANGELING_SHIP_salping CHANGELING_SHIP_mastoid CHANGELING_SHIP_capitus CHANGELING_SHIP_scalene CHANGELING_SHIP_erector CHANGELING_SHIP_trapezius CHANGELING_SHIP_dorsi CHANGELING_SHIP_rhomboid CHANGELING_SHIP_aconeus CHANGELING_SHIP_pronator CHANGELING_SHIP_flexor CHANGELING_SHIP_extensor CHANGELING_SHIP_ulnaris CHANGELING_SHIP_supinator CHANGELING_SHIP_pollicis
 		}
 		
 		cruiser = {
-			Talus Fibula Patella Mandible Occipital Ethnerus Palatine Maxillia Lacrimus Scapulae Parietal Temporal Sezemoid Floating Rib Hyoid Proximal Phalange Tarsal Fabella Cyamella Distal Cuboid
+			CHANGELING_SHIP_talus CHANGELING_SHIP_fibula CHANGELING_SHIP_patella CHANGELING_SHIP_mandible CHANGELING_SHIP_occipital CHANGELING_SHIP_ethnerus CHANGELING_SHIP_palatine CHANGELING_SHIP_maxillia CHANGELING_SHIP_lacrimus CHANGELING_SHIP_scapulae CHANGELING_SHIP_parietal CHANGELING_SHIP_temporal CHANGELING_SHIP_sezemoid CHANGELING_SHIP_floating CHANGELING_SHIP_rib CHANGELING_SHIP_hyoid CHANGELING_SHIP_proximal CHANGELING_SHIP_phalange CHANGELING_SHIP_tarsal CHANGELING_SHIP_fabella CHANGELING_SHIP_cyamella CHANGELING_SHIP_distal CHANGELING_SHIP_cuboid
 		}
 		
 		battleship = {
-			Terror Dread Despair Hopelessness Fear Anxiety Unease Sickness Revulsion Nightmare Distress Fright Pain Hatred Submission Anguish Misery Contempt Sorrow Wretchedness Paralysis Agony Superiority Loathing Disquiet
+			CHANGELING_SHIP_terror CHANGELING_SHIP_dread CHANGELING_SHIP_despair CHANGELING_SHIP_hopelessness CHANGELING_SHIP_fear CHANGELING_SHIP_anxiety CHANGELING_SHIP_unease CHANGELING_SHIP_sickness CHANGELING_SHIP_revulsion CHANGELING_SHIP_nightmare CHANGELING_SHIP_distress CHANGELING_SHIP_fright CHANGELING_SHIP_pain CHANGELING_SHIP_hatred CHANGELING_SHIP_submission CHANGELING_SHIP_anguish CHANGELING_SHIP_misery CHANGELING_SHIP_contempt CHANGELING_SHIP_sorrow CHANGELING_SHIP_wretchedness CHANGELING_SHIP_paralysis CHANGELING_SHIP_agony CHANGELING_SHIP_superiority CHANGELING_SHIP_loathing CHANGELING_SHIP_disquiet
 		}
 
 		titan = {
-			Vesalipolis Ditrysium Vraks Soryth Lyctida
+			CHANGELING_SHIP_vesalipolis CHANGELING_SHIP_ditrysium CHANGELING_SHIP_vraks CHANGELING_SHIP_soryth CHANGELING_SHIP_lyctida
 		}
 
 		colossus = {
-			Hatcher
+			CHANGELING_SHIP_hatcher
 		}
 
 		science = {
-			Soryth
+			CHANGELING_SHIP_soryth
 		}
 
 		colonizer = {
-			Blosmport Bugsmere Aisling
+			CHANGELING_SHIP_blosmport CHANGELING_SHIP_bugsmere CHANGELING_SHIP_aisling
 		}
 
 		constructor = {
-			Agonia Antax Anglossata Apsychos Assyna Crucis Ditrysium Formicida Gardis Gorak Hemelytra Hoorornd Kladisium Larkorix Lyctida Phantine Praesepis Purifia Sicarus Soryth Vesalipolis Vraks Volistad
+			CHANGELING_SHIP_agonia CHANGELING_SHIP_antax CHANGELING_SHIP_anglossata CHANGELING_SHIP_apsychos CHANGELING_SHIP_assyna CHANGELING_SHIP_crucis CHANGELING_SHIP_ditrysium CHANGELING_SHIP_formicida CHANGELING_SHIP_gardis CHANGELING_SHIP_gorak CHANGELING_SHIP_hemelytra CHANGELING_SHIP_hoorornd CHANGELING_SHIP_kladisium CHANGELING_SHIP_larkorix CHANGELING_SHIP_lyctida CHANGELING_SHIP_phantine CHANGELING_SHIP_praesepis CHANGELING_SHIP_purifia CHANGELING_SHIP_sicarus CHANGELING_SHIP_soryth CHANGELING_SHIP_vesalipolis CHANGELING_SHIP_vraks CHANGELING_SHIP_volistad
 		}
 
 		transport = {
@@ -58,82 +66,82 @@
 	}
 
 	fleet_names = {
-		sequential_name = mtrspony_namelists_pony_space_fleet
+		sequential_name = PONY_space_fleet
 	}
 
 	army_names = {
 		machine_defense = {
-			sequential_name = mtrspony_namelists_pony_defense_force
+			sequential_name = PONY_defense_force
 		}
 
 		machine_assault_1 = {
-			sequential_name = mtrspony_namelists_pony_attack_force
+			sequential_name = PONY_attack_force
 		}
 
 		machine_assault_2 = {
-			sequential_name = mtrspony_namelists_pony_attack_force
+			sequential_name = PONY_attack_force
 		}
 
 		machine_assault_3 = {
-			sequential_name = mtrspony_namelists_pony_attack_force
+			sequential_name = PONY_attack_force
 		}
 
 		defense_army = {
-			sequential_name = mtrspony_namelists_pony_defense_force
+			sequential_name = PONY_defense_force
 		}
 
 		assault_army = {
 			random_names = {
-				Hauptschwarm "Die Erste" "Tapfer Dabei" Königinnenfaust Kameraden Liebsüchtig Steinhart Unberechenbar "Zu Fuß mit Mut" Waffenbrüder Ehrvoll Schneeweiß Nordschwarm Standhaft Sumpf Heldenmut Stolz "Weißer Terror" Kampfgeist Grenzwacht "Treu ergeben" "Die Windigos" "Ehrgeiz und Stolz" "Schrecken des Südens" "Trautes Heim" "Die Zwanzigste" "Die Schnelle" Schüttelfrost Gefrierbrand "Die Förster" Naturfreunde Blauäugig Schlagkräftig "Alle für Einen" "Stärke in Einigkeit" Trimmel Schutztrupp Heißhunger Liebeskummer "Bunter Haufen" "Ordnung und Disziplin" "Kalte Hufe"
+				CHANGELING_ARMY_hauptschwarm CHANGELING_ARMY_die_erste CHANGELING_ARMY_tapfer_dabei CHANGELING_ARMY_koeniginnenfaust CHANGELING_ARMY_kameraden CHANGELING_ARMY_liebsuechtig CHANGELING_ARMY_steinhart CHANGELING_ARMY_unberechenbar CHANGELING_ARMY_zu_fuss_mit_mut CHANGELING_ARMY_waffenbrueder CHANGELING_ARMY_ehrvoll CHANGELING_ARMY_schneeweiss CHANGELING_ARMY_nordschwarm CHANGELING_ARMY_standhaft CHANGELING_ARMY_sumpf CHANGELING_ARMY_heldenmut CHANGELING_ARMY_stolz CHANGELING_ARMY_weisser_terror CHANGELING_ARMY_kampfgeist CHANGELING_ARMY_grenzwacht CHANGELING_ARMY_treu_ergeben CHANGELING_ARMY_die_windigos CHANGELING_ARMY_ehrgeiz_und_stolz CHANGELING_ARMY_schrecken_des_suedens CHANGELING_ARMY_trautes_heim CHANGELING_ARMY_die_zwanzigste CHANGELING_ARMY_die_schnelle CHANGELING_ARMY_schuettelfrost CHANGELING_ARMY_gefrierbrand CHANGELING_ARMY_die_foerster CHANGELING_ARMY_naturfreunde CHANGELING_ARMY_blauaeugig CHANGELING_ARMY_schlagkraeftig CHANGELING_ARMY_alle_fuer_einen CHANGELING_ARMY_staerke_in_einigkeit CHANGELING_ARMY_trimmel CHANGELING_ARMY_schutztrupp CHANGELING_ARMY_heisshunger CHANGELING_ARMY_liebeskummer CHANGELING_ARMY_bunter_haufen CHANGELING_ARMY_ordnung_und_disziplin CHANGELING_ARMY_kalte_hufe
 			}
-			sequential_name = mtrspony_namelists_pony_attack_force
+			sequential_name = PONY_attack_force
 		}
 
 		slave_army = {
-			sequential_name = mtrspony_namelists_pony_slave_force
+			sequential_name = PONY_slave_force
 		}
 
 		clone_army = {
-			sequential_name = mtrspony_namelists_pony_mirror_force
+			sequential_name = PONY_mirror_force
 		}
 
 		undead_army = {
-			sequential_name = mtrspony_namelists_pony_dread_force
+			sequential_name = PONY_dread_force
 		}
 
 		robotic_army = {
-			sequential_name = mtrspony_namelists_pony_drone_attack_force
+			sequential_name = PONY_drone_attack_force
 		}
 
 		robotic_defense_army = {
-			sequential_name = mtrspony_namelists_pony_drone_defense_force
+			sequential_name = PONY_drone_defense_force
 		}
 
 		psionic_army = {
-			sequential_name = mtrspony_namelists_pony_psi_corps_division
+			sequential_name = PONY_psi_corps_division
 		}
 
 		xenomorph_army = {
-			sequential_name = mtrspony_namelists_pony_monster_unit
+			sequential_name = PONY_monster_unit
 		}
 
 		gene_warrior_army = {
-			sequential_name = mtrspony_namelists_pony_supersoldiers
+			sequential_name = PONY_supersoldiers
 		}
 
 		occupation_army = {
-			sequential_name = mtrspony_namelists_pony_garrison_force
+			sequential_name = PONY_garrison_force
 		}
 
 		robotic_occupation_army = {
-			sequential_name = mtrspony_namelists_pony_drone_garrison_force
+			sequential_name = PONY_drone_garrison_force
 		}
 	}
 
 	planet_names = {
 		generic = {
 			names = {
-				Soryth Gorak Kladbische Jem Den Hoorornd Totles Svart Ditrysium Lyctida Vesalipolis Vraks Tainaholm Kallskog Svarm Kate Blosm Bugsmere Aisling
+				CHANGELING_PLANET_soryth CHANGELING_PLANET_gorak CHANGELING_PLANET_kladbische CHANGELING_PLANET_jem CHANGELING_PLANET_den CHANGELING_PLANET_hoorornd CHANGELING_PLANET_totles CHANGELING_PLANET_svart CHANGELING_PLANET_ditrysium CHANGELING_PLANET_lyctida CHANGELING_PLANET_vesalipolis CHANGELING_PLANET_vraks CHANGELING_PLANET_tainaholm CHANGELING_PLANET_kallskog CHANGELING_PLANET_svarm CHANGELING_PLANET_kate CHANGELING_PLANET_larvae CHANGELING_PLANET_blosm CHANGELING_PLANET_bugsmere CHANGELING_PLANET_aisling
 			}
 		}
 
@@ -175,7 +183,7 @@
 
 		pc_arctic = {
 			names = {
-				Whitehooves Neverwarm
+				CHANGELING_PLANET_whitehooves CHANGELING_PLANET_neverwarm
 			}
 		}
 
@@ -203,22 +211,22 @@
 		name1 = {
 			weight = 10
 			first_names_male = {
-				Acari Araneidae Salticidae Solifugae Opiliones Lycosidae Oxypidea Vesali Cerambycidea Hemiptera Malakith Pterygota Apterygota Zoraptera Tyran Ixodida Phasmida Pharynx Thorax Mantodea Acrididea Dispar Vanessa Lucinidea Psodi Chrysomelidae Nepidae Cynipidae Miridea Thysbe
+				CHANGELING_CHR_acari CHANGELING_CHR_araneidae CHANGELING_CHR_salticidae CHANGELING_CHR_solifugae CHANGELING_CHR_opiliones CHANGELING_CHR_lycosidae CHANGELING_CHR_oxypidea CHANGELING_CHR_vesali CHANGELING_CHR_cerambycidea CHANGELING_CHR_hemiptera CHANGELING_CHR_malakith CHANGELING_CHR_pterygota CHANGELING_CHR_apterygota CHANGELING_CHR_zoraptera CHANGELING_CHR_tyran CHANGELING_CHR_ixodida CHANGELING_CHR_phasmida CHANGELING_CHR_pharynx CHANGELING_CHR_thorax CHANGELING_CHR_mantodea CHANGELING_CHR_acrididea CHANGELING_CHR_dispar CHANGELING_CHR_vanessa CHANGELING_CHR_lucinidea CHANGELING_CHR_psodi CHANGELING_CHR_chrysomelidae CHANGELING_CHR_nepidae CHANGELING_CHR_cynipidae CHANGELING_CHR_miridea CHANGELING_CHR_thysbe
 			}
 			first_names_female = {
-				Acari Araneidae Salticidae Solifugae Opiliones Lycosidae Oxypidea Vesali Cerambycidea Hemiptera Malakith Pterygota Apterygota Zoraptera Ixodida Phasmida Mantodea Acrididea Dispar Vanessa Lucinidea Psodia Chrysomelidae Nepidae Cynipidae Miridea Thysbe
+				CHANGELING_CHR_acari CHANGELING_CHR_araneidae CHANGELING_CHR_salticidae CHANGELING_CHR_solifugae CHANGELING_CHR_opiliones CHANGELING_CHR_lycosidae CHANGELING_CHR_oxypidea CHANGELING_CHR_vesali CHANGELING_CHR_cerambycidea CHANGELING_CHR_hemiptera CHANGELING_CHR_malakith CHANGELING_CHR_pterygota CHANGELING_CHR_apterygota CHANGELING_CHR_zoraptera CHANGELING_CHR_ixodida CHANGELING_CHR_phasmida CHANGELING_CHR_mantodea CHANGELING_CHR_acrididea CHANGELING_CHR_dispar CHANGELING_CHR_vanessa CHANGELING_CHR_lucinidea CHANGELING_CHR_psodia CHANGELING_CHR_chrysomelidae CHANGELING_CHR_nepidae CHANGELING_CHR_cynipidae CHANGELING_CHR_miridea CHANGELING_CHR_thysbe
 			}
 			second_names = {
-				Agonia Antax Anglossata Apsychos Assyna Crucis Ditrysium Formicida Gardis Gorak Hemelytra Hoorornd Kladisium Larkorix Lyctida Phantine Praesepis Purifia Sicarus Soryth Vesalipolis Vraks Volistad Blosmport Bugsmere Aisling
+				CHANGELING_CHR_agonia CHANGELING_CHR_antax CHANGELING_CHR_anglossata CHANGELING_CHR_apsychos CHANGELING_CHR_assyna CHANGELING_CHR_crucis CHANGELING_CHR_ditrysium CHANGELING_CHR_formicida CHANGELING_CHR_gardis CHANGELING_CHR_gorak CHANGELING_CHR_hemelytra CHANGELING_CHR_hoorornd CHANGELING_CHR_kladisium CHANGELING_CHR_larkorix CHANGELING_CHR_lyctida CHANGELING_CHR_phantine CHANGELING_CHR_praesepis CHANGELING_CHR_purifia CHANGELING_CHR_sicarus CHANGELING_CHR_soryth CHANGELING_CHR_vesalipolis CHANGELING_CHR_vraks CHANGELING_CHR_volistad CHANGELING_CHR_blosmport CHANGELING_CHR_bugsmere CHANGELING_CHR_aisling
 			}
 			regnal_first_names_male = {
-				Acari Araneidae Salticidae Solifugae Opiliones Lycosidae Oxypidea Vesali Cerambycidea Hemiptera Malakith Pterygota Apterygota Zoraptera Tyran Ixodida Phasmida Pharynx Thorax Mantodea Acrididea Dispar Vanessa Lucinidea Psodi Chrysomelidae Nepidae Cynipidae Miridea Thysbe
+				CHANGELING_CHR_acari CHANGELING_CHR_araneidae CHANGELING_CHR_salticidae CHANGELING_CHR_solifugae CHANGELING_CHR_opiliones CHANGELING_CHR_lycosidae CHANGELING_CHR_oxypidea CHANGELING_CHR_vesali CHANGELING_CHR_cerambycidea CHANGELING_CHR_hemiptera CHANGELING_CHR_malakith CHANGELING_CHR_pterygota CHANGELING_CHR_apterygota CHANGELING_CHR_zoraptera CHANGELING_CHR_tyran CHANGELING_CHR_ixodida CHANGELING_CHR_phasmida CHANGELING_CHR_pharynx CHANGELING_CHR_thorax CHANGELING_CHR_mantodea CHANGELING_CHR_acrididea CHANGELING_CHR_dispar CHANGELING_CHR_vanessa CHANGELING_CHR_lucinidea CHANGELING_CHR_psodi CHANGELING_CHR_chrysomelidae CHANGELING_CHR_nepidae CHANGELING_CHR_cynipidae CHANGELING_CHR_miridea CHANGELING_CHR_thysbe
 			}
 			regnal_first_names_female = {
-				Acari Araneidae Salticidae Solifugae Opiliones Lycosidae Oxypidea Vesali Cerambycidea Hemiptera Malakith Pterygota Apterygota Zoraptera Ixodida Phasmida Mantodea Acrididea Dispar Vanessa Lucinidea Psodia Chrysomelidae Nepidae Cynipidae Miridea Thysbe
+				CHANGELING_CHR_acari CHANGELING_CHR_araneidae CHANGELING_CHR_salticidae CHANGELING_CHR_solifugae CHANGELING_CHR_opiliones CHANGELING_CHR_lycosidae CHANGELING_CHR_oxypidea CHANGELING_CHR_vesali CHANGELING_CHR_cerambycidea CHANGELING_CHR_hemiptera CHANGELING_CHR_malakith CHANGELING_CHR_pterygota CHANGELING_CHR_apterygota CHANGELING_CHR_zoraptera CHANGELING_CHR_ixodida CHANGELING_CHR_phasmida CHANGELING_CHR_mantodea CHANGELING_CHR_acrididea CHANGELING_CHR_dispar CHANGELING_CHR_vanessa CHANGELING_CHR_lucinidea CHANGELING_CHR_psodia CHANGELING_CHR_chrysomelidae CHANGELING_CHR_nepidae CHANGELING_CHR_cynipidae CHANGELING_CHR_miridea CHANGELING_CHR_thysbe
 			}
 			regnal_second_names = {
-				Agonia Antax Anglossata Apsychos Assyna Crucis Ditrysium Formicida Gardis Gorak Hemelytra Hoorornd Kladisium Larkorix Lyctida Phantine Praesepis Purifia Sicarus Soryth Vesalipolis Vraks Volistad Blosmport Bugsmere Aisling
+				CHANGELING_CHR_agonia CHANGELING_CHR_antax CHANGELING_CHR_anglossata CHANGELING_CHR_apsychos CHANGELING_CHR_assyna CHANGELING_CHR_crucis CHANGELING_CHR_ditrysium CHANGELING_CHR_formicida CHANGELING_CHR_gardis CHANGELING_CHR_gorak CHANGELING_CHR_hemelytra CHANGELING_CHR_hoorornd CHANGELING_CHR_kladisium CHANGELING_CHR_larkorix CHANGELING_CHR_lyctida CHANGELING_CHR_phantine CHANGELING_CHR_praesepis CHANGELING_CHR_purifia CHANGELING_CHR_sicarus CHANGELING_CHR_soryth CHANGELING_CHR_vesalipolis CHANGELING_CHR_vraks CHANGELING_CHR_volistad CHANGELING_CHR_blosmport CHANGELING_CHR_bugsmere CHANGELING_CHR_aisling
 			}
 		}
 	}

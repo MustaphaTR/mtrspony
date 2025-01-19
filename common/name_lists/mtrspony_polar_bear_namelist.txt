@@ -5,7 +5,17 @@
 
 	ship_names = {
 		generic = {
-			Paw Fur "Drift Ice" "Fast Ice" "Anchor Ice" "Ice Shelf" "Ice Sheet" "Blue Ice" "Steel Paw" Striker "Soft Fur" Paddington Brotherhood Waterbender Polarium Roar Grrr Rawr Kong Wellington Camaraderie Community Iceberg Glacier Fjord
+			POLAR_SHIP_paw POLAR_SHIP_fur POLAR_SHIP_drift_ice POLAR_SHIP_fast_ice POLAR_SHIP_anchor_ice POLAR_SHIP_ice_shelf POLAR_SHIP_ice_sheet POLAR_SHIP_blue_ice
+
+			POLAR_SHIP_steel_paw POLAR_SHIP_striker POLAR_SHIP_soft_fur POLAR_SHIP_paddington POLAR_SHIP_brotherhood POLAR_SHIP_waterbender POLAR_SHIP_polarium
+
+			POLAR_SHIP_roar POLAR_SHIP_grrr POLAR_SHIP_rawr POLAR_SHIP_kong POLAR_SHIP_wellington POLAR_SHIP_camaraderie POLAR_SHIP_community
+
+			POLAR_SHIP_iceberg POLAR_SHIP_glacier POLAR_SHIP_fjord
+
+			POLAR_SHIP_svartpels POLAR_SHIP_volsungr POLAR_SHIP_scyfling POLAR_SHIP_anker POLAR_SHIP_falsen POLAR_SHIP_brodkorb POLAR_SHIP_benkestok POLAR_SHIP_rozenkrantz POLAR_SHIP_kane POLAR_SHIP_gotlung
+
+			POLAR_SHIP_mathair_fearainn POLAR_SHIP_key POLAR_SHIP_onlartir POLAR_SHIP_wesslandia POLAR_SHIP_yak_mathan_criche POLAR_SHIP_geirfuglvidda POLAR_SHIP_jan_mayen
 		}
 		
 		corvette = {
@@ -13,23 +23,23 @@
 		}
 		
 		destroyer = {
-			Paw Fur "Drift Ice" "Fast Ice" "Anchor Ice" "Ice Shelf" "Ice Sheet" "Blue Ice"
+			POLAR_SHIP_paw POLAR_SHIP_fur POLAR_SHIP_drift_ice POLAR_SHIP_fast_ice POLAR_SHIP_anchor_ice POLAR_SHIP_ice_shelf POLAR_SHIP_ice_sheet POLAR_SHIP_blue_ice
 		}
 		
 		cruiser = {
-			"Steel Paw" Striker "Soft Fur" Paddington Brotherhood Waterbender Polarium
+			POLAR_SHIP_steel_paw POLAR_SHIP_striker POLAR_SHIP_soft_fur POLAR_SHIP_paddington POLAR_SHIP_brotherhood POLAR_SHIP_waterbender POLAR_SHIP_polarium
 		}
 		
 		battleship = {
-			Roar Grrr Rawr Kong Wellington Camaraderie Community
+			POLAR_SHIP_roar POLAR_SHIP_grrr POLAR_SHIP_rawr POLAR_SHIP_kong POLAR_SHIP_wellington POLAR_SHIP_camaraderie POLAR_SHIP_community
 		}
 
 		titan = {
-			Iceberg Glacier Fjord
+			POLAR_SHIP_iceberg POLAR_SHIP_glacier POLAR_SHIP_fjord
 		}
 
 		colossus = {
-			
+			POLAR_SHIP_svartpels POLAR_SHIP_volsungr POLAR_SHIP_scyfling POLAR_SHIP_anker POLAR_SHIP_falsen POLAR_SHIP_brodkorb POLAR_SHIP_benkestok POLAR_SHIP_rozenkrantz POLAR_SHIP_kane POLAR_SHIP_gotlung
 		}
 
 		science = {
@@ -41,7 +51,7 @@
 		}
 
 		constructor = {
-			"Mathair Fearainn" Key Onlartir Wesslandia "Yak Mathan Criche" Geirfuglvidda "Jan Mayen"
+			POLAR_SHIP_mathair_fearainn POLAR_SHIP_key POLAR_SHIP_onlartir POLAR_SHIP_wesslandia POLAR_SHIP_yak_mathan_criche POLAR_SHIP_geirfuglvidda POLAR_SHIP_jan_mayen
 		}
 
 		transport = {
@@ -58,79 +68,79 @@
 	}
 
 	fleet_names = {
-		sequential_name = mtrspony_namelists_pony_space_fleet
+		sequential_name = PONY_space_fleet
 	}
 
 	army_names = {
 		machine_defense = {
-			sequential_name = mtrspony_namelists_pony_defense_force
+			sequential_name = PONY_defense_force
 		}
 
 		machine_assault_1 = {
-			sequential_name = mtrspony_namelists_pony_attack_force
+			sequential_name = PONY_attack_force
 		}
 
 		machine_assault_2 = {
-			sequential_name = mtrspony_namelists_pony_attack_force
+			sequential_name = PONY_attack_force
 		}
 
 		machine_assault_3 = {
-			sequential_name = mtrspony_namelists_pony_attack_force
+			sequential_name = PONY_attack_force
 		}
 
 		defense_army = {
-			sequential_name = mtrspony_namelists_pony_defense_force
+			sequential_name = PONY_defense_force
 		}
 
 		assault_army = {
-			sequential_name = mtrspony_namelists_pony_attack_force
+			sequential_name = PONY_attack_force
 		}
 
 		slave_army = {
-			sequential_name = mtrspony_namelists_pony_slave_force
+			sequential_name = PONY_slave_force
 		}
 
 		clone_army = {
-			sequential_name = mtrspony_namelists_pony_mirror_force
+			sequential_name = PONY_mirror_force
 		}
 
 		undead_army = {
-			sequential_name = mtrspony_namelists_pony_dread_force
+			sequential_name = PONY_dread_force
 		}
 
 		robotic_army = {
-			sequential_name = mtrspony_namelists_pony_drone_attack_force
+			sequential_name = PONY_drone_attack_force
 		}
 
 		robotic_defense_army = {
-			sequential_name = mtrspony_namelists_pony_drone_defense_force
+			sequential_name = PONY_drone_defense_force
 		}
 
 		psionic_army = {
-			sequential_name = mtrspony_namelists_pony_psi_corps_division
+			sequential_name = PONY_psi_corps_division
 		}
 
 		xenomorph_army = {
-			sequential_name = mtrspony_namelists_pony_monster_unit
+			sequential_name = PONY_monster_unit
 		}
 
 		gene_warrior_army = {
-			sequential_name = mtrspony_namelists_pony_supersoldiers
+			sequential_name = PONY_supersoldiers
 		}
 
 		occupation_army = {
-			sequential_name = mtrspony_namelists_pony_garrison_force
+			sequential_name = PONY_garrison_force
 		}
 
 		robotic_occupation_army = {
-			sequential_name = mtrspony_namelists_pony_drone_garrison_force
+			sequential_name = PONY_drone_garrison_force
 		}
 	}
 
 	planet_names = {
 		generic = {
 			names = {
-				"Mathair Fearainn" Key Onlartir Wesslandia "Yak Mathan Criche" Geirfuglvidda "Jan Mayen"
+				POLAR_PLANET_mathair_fearainn POLAR_PLANET_key POLAR_PLANET_onlartir POLAR_PLANET_wesslandia POLAR_PLANET_yak_mathan_criche POLAR_PLANET_geirfuglvidda POLAR_PLANET_jan_mayen
 			}
 		}
 
@@ -200,22 +210,22 @@
 		name1 = {
 			weight = 10
 			first_names_male = {
-				Adolph Jens Sverre Odd Frederik Lorentz Ole Hans Harald Haakon Olaf Petter Carl Kaare Jacob Søren Wilhelm Tryggve
+				POLAR_CHR_adolph POLAR_CHR_jens POLAR_CHR_sverre POLAR_CHR_odd POLAR_CHR_frederik POLAR_CHR_lorentz POLAR_CHR_ole POLAR_CHR_hans POLAR_CHR_harald POLAR_CHR_haakon POLAR_CHR_olaf POLAR_CHR_petter POLAR_CHR_carl POLAR_CHR_kaare POLAR_CHR_jacob POLAR_CHR_soeren POLAR_CHR_wilhelm POLAR_CHR_tryggve
 			}
 			first_names_female = {
-				Trine Kajsa Helga Paula Olivia Nela Monika Torhild Trude Ingeborg Gerda
+				POLAR_CHR_trine POLAR_CHR_kajsa POLAR_CHR_helga POLAR_CHR_paula POLAR_CHR_olivia POLAR_CHR_nela POLAR_CHR_monika POLAR_CHR_torhild POLAR_CHR_trude POLAR_CHR_ingeborg POLAR_CHR_gerda
 			}
 			second_names = {
-				"of Svartpels" "of Volsungr" "of Scyfling" "of Anker" "of Falsen" "of Brodkorb" "of Benkestok" "of Rozenkrantz" "of Kane" "of Gotlung" "the Savage" "the Nomad" "the Clanless"
+				POLAR_CHR_of_svartpels POLAR_CHR_of_volsungr POLAR_CHR_of_scyfling POLAR_CHR_of_anker POLAR_CHR_of_falsen POLAR_CHR_of_brodkorb POLAR_CHR_of_benkestok POLAR_CHR_of_rozenkrantz POLAR_CHR_of_kane POLAR_CHR_of_gotlung POLAR_CHR_the_savage POLAR_CHR_the_nomad POLAR_CHR_the_clanless
 			}
 			regnal_first_names_male = {
-				Adolph Jens Sverre Odd Frederik Lorentz Ole Hans Harald Haakon Olaf Petter Carl Kaare Jacob Søren Wilhelm Tryggve
+				POLAR_CHR_adolph POLAR_CHR_jens POLAR_CHR_sverre POLAR_CHR_odd POLAR_CHR_frederik POLAR_CHR_lorentz POLAR_CHR_ole POLAR_CHR_hans POLAR_CHR_harald POLAR_CHR_haakon POLAR_CHR_olaf POLAR_CHR_petter POLAR_CHR_carl POLAR_CHR_kaare POLAR_CHR_jacob POLAR_CHR_soeren POLAR_CHR_wilhelm POLAR_CHR_tryggve
 			}
 			regnal_first_names_female = {
-				Trine Kajsa Helga Paula Olivia Nela Monika Torhild Trude Ingeborg Gerda
+				POLAR_CHR_trine POLAR_CHR_kajsa POLAR_CHR_helga POLAR_CHR_paula POLAR_CHR_olivia POLAR_CHR_nela POLAR_CHR_monika POLAR_CHR_torhild POLAR_CHR_trude POLAR_CHR_ingeborg POLAR_CHR_gerda
 			}
 			regnal_second_names = {
-				"of Svartpels" "of Volsungr" "of Scyfling" "of Anker" "of Falsen" "of Brodkorb" "of Benkestok" "of Rozenkrantz" "of Kane" "of Gotlung" "the Savage" "the Nomad" "the Clanless"
+				POLAR_CHR_of_svartpels POLAR_CHR_of_volsungr POLAR_CHR_of_scyfling POLAR_CHR_of_anker POLAR_CHR_of_falsen POLAR_CHR_of_brodkorb POLAR_CHR_of_benkestok POLAR_CHR_of_rozenkrantz POLAR_CHR_of_kane POLAR_CHR_of_gotlung POLAR_CHR_the_savage POLAR_CHR_the_nomad POLAR_CHR_the_clanless
 			}
 		}
 	}
