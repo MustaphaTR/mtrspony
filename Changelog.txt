@@ -108,7 +108,7 @@
 -- Hopefully fixed some edge cases that lead Gigastructural Engineering faust content to trigger on player empires.
 -- Revolutionary Faust now uses FSS Posada as the name of a Exploration Vessel/Science Ship, instead of a Corvette.
 
-- Version 0.2.8 (XX.01.2025):
+- Version 0.2.8 (20.01.2025):
 -- Added two more female alicorn portrait sets, based on Nightmare Moon and Daybreaker.
 -- Added more color options and adjusted some existing colors for a few portraits (Celestia, Luna).
 -- Added dummy localisation data for all languages so the game will show English text instead of codenames if you are playing the game on a different language.
