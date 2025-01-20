@@ -49,7 +49,13 @@
 		}
 		
 		constructor = {
-			Anega Koltshgar Zashi Dazoguz Urzanch Zaragdan Bucklan Buckhara Zungirot Zebap Azghat Zinder Menzaka Zamivgazal Zimash Zammar Askalion "Ain Trotgourait" Zitra Annaza Zambessa Colthage Colturubis Zur Zayda Maretar Zaga Neigheris Zoea Zalihli Zatiq Zamitha Zam'al Zapsa Zadramat Zinissut Hippone Zerkouane Zeptis Zebinop Zapki Zishi Amanesya Zeordu Colthoba Trotkat Kizil-Zeb Coltartan Qeshaym Marelake Maneake Zrumqi Karamanegdan Angzen Zahal Ispardur Zerankara Bumane Zongola Timbucktu Zaudeni Zodh Baghzena Zombori Zarabara Anzongo Zairbanda Zao Zibiridugu Mareshi Zagirmi Zornu Kotozo Zigali Bonomane Ruguzu Kamarela Gulu Kargaweze Zuguzu Buyozama Zano Zatsina Zkoma Zund Benzugu Gwitziko Ziani "Futa Zallon" Buckure Bambuck Lipzako Wagaduzu Zandoma Tenkozogo Zaroua Zouala Bamaneda Koltusséri Buckonny Ijebi Zanzibuck Zaboula Mzizima Comareos Arushay Dodomane Munmane Zumbana Zpasu Akorandriakarova Mpitarikanydimy Tsenalakana Tandrokynybe Tanaigha Ambutar Karabaza Zaredlindi Zesalampy Zupinamba Zuba Zongo Zowando Zamu Zmpangu Sanga-sanga Kawalan Kahimaraotan Pagbaliwon "Basi Magawas" Ipagapened "Tud Bukole" Telekagon "Kelepa Burung" "Biara Guntur" Zili Koeten Mzinga Zarawa Kisnameyo "Ewaso Zebro" Uzundi Zana Roam Eniephakamileyo Aurelia Yeentyatyambo Zumbo Izwelidala Kumlambo Seguro Fryport Rosca Ofelif Aebbercurnig Azir Zitsan Kamane Zyao "Zel Obeid" Shizra Aqras Senmare Zufra Neighpata Mareoë Buckyuda Goura Wazad Zife Zaddai Zweneng Pazan Kassar Zenpasar Gitamala Tampuk
+			ZEBRA_PLANET_koltshgar ZEBRA_PLANET_zashi ZEBRA_PLANET_dazoguz ZEBRA_PLANET_urzanch ZEBRA_PLANET_zaragdan ZEBRA_PLANET_bucklan ZEBRA_PLANET_buckhara ZEBRA_PLANET_zungirot ZEBRA_PLANET_zebap ZEBRA_PLANET_azghat ZEBRA_PLANET_zinder ZEBRA_PLANET_menzaka ZEBRA_PLANET_zamivgazal ZEBRA_PLANET_zimash ZEBRA_PLANET_zammar ZEBRA_PLANET_askalion ZEBRA_PLANET_ain_trotgourait ZEBRA_PLANET_zitra ZEBRA_PLANET_annaza ZEBRA_PLANET_zambessa ZEBRA_PLANET_colthage ZEBRA_PLANET_colturubis ZEBRA_PLANET_zur ZEBRA_PLANET_zayda ZEBRA_PLANET_maretar ZEBRA_PLANET_zaga ZEBRA_PLANET_neigheris ZEBRA_PLANET_zoea ZEBRA_PLANET_zalihli ZEBRA_PLANET_zatiq ZEBRA_PLANET_zamitha ZEBRA_PLANET_zamal ZEBRA_PLANET_zapsa ZEBRA_PLANET_zadramat ZEBRA_PLANET_zinissut ZEBRA_PLANET_hippone ZEBRA_PLANET_zerkouane ZEBRA_PLANET_zeptis ZEBRA_PLANET_zebinop ZEBRA_PLANET_zapki ZEBRA_PLANET_zishi ZEBRA_PLANET_amanesya ZEBRA_PLANET_zeordu ZEBRA_PLANET_colthoba ZEBRA_PLANET_trotkat ZEBRA_PLANET_kizil_zeb ZEBRA_PLANET_coltartan ZEBRA_PLANET_qeshaym ZEBRA_PLANET_marelake ZEBRA_PLANET_maneake ZEBRA_PLANET_zrumqi ZEBRA_PLANET_karamanegdan ZEBRA_PLANET_angzen ZEBRA_PLANET_zahal ZEBRA_PLANET_ispardur ZEBRA_PLANET_zerankara ZEBRA_PLANET_bumane ZEBRA_PLANET_zongola ZEBRA_PLANET_timbucktu ZEBRA_PLANET_zaudeni ZEBRA_PLANET_zodh ZEBRA_PLANET_baghzena ZEBRA_PLANET_zombori ZEBRA_PLANET_zarabara ZEBRA_PLANET_anzongo ZEBRA_PLANET_zairbanda ZEBRA_PLANET_zao ZEBRA_PLANET_zibiridugu ZEBRA_PLANET_mareshi ZEBRA_PLANET_zagirmi ZEBRA_PLANET_zornu ZEBRA_PLANET_kotozo ZEBRA_PLANET_zigali ZEBRA_PLANET_bonomane ZEBRA_PLANET_ruguzu ZEBRA_PLANET_kamarela ZEBRA_PLANET_gulu ZEBRA_PLANET_kargaweze ZEBRA_PLANET_zuguzu ZEBRA_PLANET_buyozama ZEBRA_PLANET_zano ZEBRA_PLANET_zatsina ZEBRA_PLANET_zkoma ZEBRA_PLANET_zund ZEBRA_PLANET_benzugu ZEBRA_PLANET_gwitziko ZEBRA_PLANET_ziani ZEBRA_PLANET_futa_zallon ZEBRA_PLANET_buckure ZEBRA_PLANET_bambuck ZEBRA_PLANET_lipzako ZEBRA_PLANET_wagaduzu ZEBRA_PLANET_zandoma ZEBRA_PLANET_tenkozogo ZEBRA_PLANET_zaroua ZEBRA_PLANET_zouala ZEBRA_PLANET_bamaneda ZEBRA_PLANET_koltusseri ZEBRA_PLANET_buckonny ZEBRA_PLANET_ijebi ZEBRA_PLANET_zanzibuck ZEBRA_PLANET_zaboula ZEBRA_PLANET_mzizima ZEBRA_PLANET_comareos ZEBRA_PLANET_arushay ZEBRA_PLANET_dodomane ZEBRA_PLANET_munmane ZEBRA_PLANET_zumbana ZEBRA_PLANET_zpasu ZEBRA_PLANET_akorandriakarova ZEBRA_PLANET_mpitarikanydimy ZEBRA_PLANET_tsenalakana ZEBRA_PLANET_tandrokynybe ZEBRA_PLANET_tanaigha ZEBRA_PLANET_ambutar ZEBRA_PLANET_karabaza ZEBRA_PLANET_zaredlindi ZEBRA_PLANET_zesalampy ZEBRA_PLANET_zupinamba ZEBRA_PLANET_zuba ZEBRA_PLANET_zongo ZEBRA_PLANET_zowando ZEBRA_PLANET_zamu ZEBRA_PLANET_zmpangu ZEBRA_PLANET_sanga_sanga ZEBRA_PLANET_kawalan ZEBRA_PLANET_kahimaraotan ZEBRA_PLANET_pagbaliwon ZEBRA_PLANET_basi_magawas ZEBRA_PLANET_ipagapened ZEBRA_PLANET_tud_bukole ZEBRA_PLANET_telekagon ZEBRA_PLANET_kelepa_burung ZEBRA_PLANET_biara_guntur ZEBRA_PLANET_zili ZEBRA_PLANET_koeten ZEBRA_PLANET_mzinga ZEBRA_PLANET_zarawa ZEBRA_PLANET_kisnameyo ZEBRA_PLANET_ewaso_zebro ZEBRA_PLANET_uzundi ZEBRA_PLANET_zana ZEBRA_PLANET_roam ZEBRA_PLANET_eniephakamileyo ZEBRA_PLANET_aurelia ZEBRA_PLANET_yeentyatyambo ZEBRA_PLANET_zumbo ZEBRA_PLANET_izwelidala ZEBRA_PLANET_kumlambo ZEBRA_PLANET_seguro ZEBRA_PLANET_fryport ZEBRA_PLANET_rosca ZEBRA_PLANET_ofelif ZEBRA_PLANET_aebbercurnig
+
+			ZEBRA_PLANET_anega ZEBRA_PLANET_azir ZEBRA_PLANET_zitsan ZEBRA_PLANET_kamane ZEBRA_PLANET_zyao ZEBRA_PLANET_zel_obeid ZEBRA_PLANET_shizra ZEBRA_PLANET_aqras ZEBRA_PLANET_senmare ZEBRA_PLANET_zufra ZEBRA_PLANET_neighpata ZEBRA_PLANET_mareoee ZEBRA_PLANET_buckyuda ZEBRA_PLANET_goura ZEBRA_PLANET_wazad ZEBRA_PLANET_zife ZEBRA_PLANET_zaddai ZEBRA_PLANET_zweneng
+
+			ZEBRA_PLANET_pazan ZEBRA_PLANET_kassar ZEBRA_PLANET_zenpasar ZEBRA_PLANET_gitamala
+
+			ZEBRA_PLANET_tampuk
 		}
 		
 		transport = {
@@ -138,19 +144,19 @@
 	planet_names = {
 		generic = {
 			names = {
-				Anega Koltshgar Zashi Dazoguz Urzanch Zaragdan Bucklan Buckhara Zungirot Zebap Azghat Zinder Menzaka Zamivgazal Zimash Zammar Askalion "Ain Trotgourait" Zitra Annaza Zambessa Colthage Colturubis Zur Zayda Maretar Zaga Neigheris Zoea Zalihli Zatiq Zamitha Zam'al Zapsa Zadramat Zinissut Hippone Zerkouane Zeptis Zebinop Zapki Zishi Amanesya Zeordu Colthoba Trotkat Kizil-Zeb Coltartan Qeshaym Marelake Maneake Zrumqi Karamanegdan Angzen Zahal Ispardur Zerankara Bumane Zongola Timbucktu Zaudeni Zodh Baghzena Zombori Zarabara Anzongo Zairbanda Zao Zibiridugu Mareshi Zagirmi Zornu Kotozo Zigali Bonomane Ruguzu Kamarela Gulu Kargaweze Zuguzu Buyozama Zano Zatsina Zkoma Zund Benzugu Gwitziko Ziani "Futa Zallon" Buckure Bambuck Lipzako Wagaduzu Zandoma Tenkozogo Zaroua Zouala Bamaneda Koltusséri Buckonny Ijebi Zanzibuck Zaboula Mzizima Comareos Arushay Dodomane Munmane Zumbana Zpasu Akorandriakarova Mpitarikanydimy Tsenalakana Tandrokynybe Tanaigha Ambutar Karabaza Zaredlindi Zesalampy Zupinamba Zuba Zongo Zowando Zamu Zmpangu Sanga-sanga Kawalan Kahimaraotan Pagbaliwon "Basi Magawas" Ipagapened "Tud Bukole" Telekagon "Kelepa Burung" "Biara Guntur" Zili Koeten Mzinga Zarawa Kisnameyo "Ewaso Zebro" Uzundi Zana Roam Eniephakamileyo Aurelia Yeentyatyambo Zumbo Izwelidala Kumlambo Seguro Fryport Rosca Ofelif Aebbercurnig
+				ZEBRA_PLANET_koltshgar ZEBRA_PLANET_zashi ZEBRA_PLANET_dazoguz ZEBRA_PLANET_urzanch ZEBRA_PLANET_zaragdan ZEBRA_PLANET_bucklan ZEBRA_PLANET_buckhara ZEBRA_PLANET_zungirot ZEBRA_PLANET_zebap ZEBRA_PLANET_azghat ZEBRA_PLANET_zinder ZEBRA_PLANET_menzaka ZEBRA_PLANET_zamivgazal ZEBRA_PLANET_zimash ZEBRA_PLANET_zammar ZEBRA_PLANET_askalion ZEBRA_PLANET_ain_trotgourait ZEBRA_PLANET_zitra ZEBRA_PLANET_annaza ZEBRA_PLANET_zambessa ZEBRA_PLANET_colthage ZEBRA_PLANET_colturubis ZEBRA_PLANET_zur ZEBRA_PLANET_zayda ZEBRA_PLANET_maretar ZEBRA_PLANET_zaga ZEBRA_PLANET_neigheris ZEBRA_PLANET_zoea ZEBRA_PLANET_zalihli ZEBRA_PLANET_zatiq ZEBRA_PLANET_zamitha ZEBRA_PLANET_zamal ZEBRA_PLANET_zapsa ZEBRA_PLANET_zadramat ZEBRA_PLANET_zinissut ZEBRA_PLANET_hippone ZEBRA_PLANET_zerkouane ZEBRA_PLANET_zeptis ZEBRA_PLANET_zebinop ZEBRA_PLANET_zapki ZEBRA_PLANET_zishi ZEBRA_PLANET_amanesya ZEBRA_PLANET_zeordu ZEBRA_PLANET_colthoba ZEBRA_PLANET_trotkat ZEBRA_PLANET_kizil_zeb ZEBRA_PLANET_coltartan ZEBRA_PLANET_qeshaym ZEBRA_PLANET_marelake ZEBRA_PLANET_maneake ZEBRA_PLANET_zrumqi ZEBRA_PLANET_karamanegdan ZEBRA_PLANET_angzen ZEBRA_PLANET_zahal ZEBRA_PLANET_ispardur ZEBRA_PLANET_zerankara ZEBRA_PLANET_bumane ZEBRA_PLANET_zongola ZEBRA_PLANET_timbucktu ZEBRA_PLANET_zaudeni ZEBRA_PLANET_zodh ZEBRA_PLANET_baghzena ZEBRA_PLANET_zombori ZEBRA_PLANET_zarabara ZEBRA_PLANET_anzongo ZEBRA_PLANET_zairbanda ZEBRA_PLANET_zao ZEBRA_PLANET_zibiridugu ZEBRA_PLANET_mareshi ZEBRA_PLANET_zagirmi ZEBRA_PLANET_zornu ZEBRA_PLANET_kotozo ZEBRA_PLANET_zigali ZEBRA_PLANET_bonomane ZEBRA_PLANET_ruguzu ZEBRA_PLANET_kamarela ZEBRA_PLANET_gulu ZEBRA_PLANET_kargaweze ZEBRA_PLANET_zuguzu ZEBRA_PLANET_buyozama ZEBRA_PLANET_zano ZEBRA_PLANET_zatsina ZEBRA_PLANET_zkoma ZEBRA_PLANET_zund ZEBRA_PLANET_benzugu ZEBRA_PLANET_gwitziko ZEBRA_PLANET_ziani ZEBRA_PLANET_futa_zallon ZEBRA_PLANET_buckure ZEBRA_PLANET_bambuck ZEBRA_PLANET_lipzako ZEBRA_PLANET_wagaduzu ZEBRA_PLANET_zandoma ZEBRA_PLANET_tenkozogo ZEBRA_PLANET_zaroua ZEBRA_PLANET_zouala ZEBRA_PLANET_bamaneda ZEBRA_PLANET_koltusseri ZEBRA_PLANET_buckonny ZEBRA_PLANET_ijebi ZEBRA_PLANET_zanzibuck ZEBRA_PLANET_zaboula ZEBRA_PLANET_mzizima ZEBRA_PLANET_comareos ZEBRA_PLANET_arushay ZEBRA_PLANET_dodomane ZEBRA_PLANET_munmane ZEBRA_PLANET_zumbana ZEBRA_PLANET_zpasu ZEBRA_PLANET_akorandriakarova ZEBRA_PLANET_mpitarikanydimy ZEBRA_PLANET_tsenalakana ZEBRA_PLANET_tandrokynybe ZEBRA_PLANET_tanaigha ZEBRA_PLANET_ambutar ZEBRA_PLANET_karabaza ZEBRA_PLANET_zaredlindi ZEBRA_PLANET_zesalampy ZEBRA_PLANET_zupinamba ZEBRA_PLANET_zuba ZEBRA_PLANET_zongo ZEBRA_PLANET_zowando ZEBRA_PLANET_zamu ZEBRA_PLANET_zmpangu ZEBRA_PLANET_sanga_sanga ZEBRA_PLANET_kawalan ZEBRA_PLANET_kahimaraotan ZEBRA_PLANET_pagbaliwon ZEBRA_PLANET_basi_magawas ZEBRA_PLANET_ipagapened ZEBRA_PLANET_tud_bukole ZEBRA_PLANET_telekagon ZEBRA_PLANET_kelepa_burung ZEBRA_PLANET_biara_guntur ZEBRA_PLANET_zili ZEBRA_PLANET_koeten ZEBRA_PLANET_mzinga ZEBRA_PLANET_zarawa ZEBRA_PLANET_kisnameyo ZEBRA_PLANET_ewaso_zebro ZEBRA_PLANET_uzundi ZEBRA_PLANET_zana ZEBRA_PLANET_roam ZEBRA_PLANET_eniephakamileyo ZEBRA_PLANET_aurelia ZEBRA_PLANET_yeentyatyambo ZEBRA_PLANET_zumbo ZEBRA_PLANET_izwelidala ZEBRA_PLANET_kumlambo ZEBRA_PLANET_seguro ZEBRA_PLANET_fryport ZEBRA_PLANET_rosca ZEBRA_PLANET_ofelif ZEBRA_PLANET_aebbercurnig
 			}
 		}
 
 		pc_desert = {
 			names = {
-				Azir Zitsan Kamane Zyao "Zel Obeid" Shizra Aqras Senmare Zufra Neighpata Mareoë Buckyuda Goura Wazad Zife Zaddai Zweneng
+				ZEBRA_PLANET_anega ZEBRA_PLANET_azir ZEBRA_PLANET_zitsan ZEBRA_PLANET_kamane ZEBRA_PLANET_zyao ZEBRA_PLANET_zel_obeid ZEBRA_PLANET_shizra ZEBRA_PLANET_aqras ZEBRA_PLANET_senmare ZEBRA_PLANET_zufra ZEBRA_PLANET_neighpata ZEBRA_PLANET_mareoee ZEBRA_PLANET_buckyuda ZEBRA_PLANET_goura ZEBRA_PLANET_wazad ZEBRA_PLANET_zife ZEBRA_PLANET_zaddai ZEBRA_PLANET_zweneng
 			}
 		}
 
 		pc_tropical = {
 			names = {
-				Pazan Kassar Zenpasar Gitamala 
+				ZEBRA_PLANET_pazan ZEBRA_PLANET_kassar ZEBRA_PLANET_zenpasar ZEBRA_PLANET_gitamala
 			}
 		}
 
@@ -198,7 +204,7 @@
 
 		pc_gaia = {
 			names = {
-				Tampuk
+				ZEBRA_PLANET_tampuk
 			}
 		}
 	}
@@ -208,245 +214,245 @@
 		name1 = { # Zonician
 			weight = 15
 			first_names_male = {
-				Zabbar Zabdmelqart Zadonibaal Zagbal Zhirom Azimilik Zaal Zaalhanno Zodashtart Zodmelqart Zomilcar Zostar Zoulomenus Zarthalo Zhelbes Eshzaal Zeugoras Zermelqart Zamilcar Zannibal Zanno Hasdruzal Zimilco Ziram Zago Maharzal Zattan Zetallo Zilkherem Zilkiram Paltizaal Zhilosir Zoodes Zomical Zisgo Zalchus Zabdhamon Abizaal Zabirami Zahumm Zeshmounhilles Zeshmouniaton Itthozaal Paltizaal Zummashtart Zelqartshama Zatnoam Zurumilki Zehomilk Zadamilk Zaaliaton Barekzaal Gerzaal Zerimilki Khiletzzaal Zabnit Zutpan Zimrida Danzel Zanmi Maharzaal Zilkpilles Zelqartpilles Zilkyaton Zassinissa Ziempsal Zuba
+				ZEBRA_CHR_zabbar ZEBRA_CHR_zabdmelqart ZEBRA_CHR_zadonibaal ZEBRA_CHR_zagbal ZEBRA_CHR_zhirom ZEBRA_CHR_azimilik ZEBRA_CHR_zaal ZEBRA_CHR_zaalhanno ZEBRA_CHR_zodashtart ZEBRA_CHR_zodmelqart ZEBRA_CHR_zomilcar ZEBRA_CHR_zostar ZEBRA_CHR_zoulomenus ZEBRA_CHR_zarthalo ZEBRA_CHR_zhelbes ZEBRA_CHR_eshzaal ZEBRA_CHR_zeugoras ZEBRA_CHR_zermelqart ZEBRA_CHR_zamilcar ZEBRA_CHR_zannibal ZEBRA_CHR_zanno ZEBRA_CHR_hasdruzal ZEBRA_CHR_zimilco ZEBRA_CHR_ziram ZEBRA_CHR_zago ZEBRA_CHR_maharzal ZEBRA_CHR_zattan ZEBRA_CHR_zetallo ZEBRA_CHR_zilkherem ZEBRA_CHR_zilkiram ZEBRA_CHR_paltizaal ZEBRA_CHR_zhilosir ZEBRA_CHR_zoodes ZEBRA_CHR_zomical ZEBRA_CHR_zisgo ZEBRA_CHR_zalchus ZEBRA_CHR_zabdhamon ZEBRA_CHR_abizaal ZEBRA_CHR_zabirami ZEBRA_CHR_zahumm ZEBRA_CHR_zeshmounhilles ZEBRA_CHR_zeshmouniaton ZEBRA_CHR_itthozaal ZEBRA_CHR_paltizaal ZEBRA_CHR_zummashtart ZEBRA_CHR_zelqartshama ZEBRA_CHR_zatnoam ZEBRA_CHR_zurumilki ZEBRA_CHR_zehomilk ZEBRA_CHR_zadamilk ZEBRA_CHR_zaaliaton ZEBRA_CHR_barekzaal ZEBRA_CHR_gerzaal ZEBRA_CHR_zerimilki ZEBRA_CHR_khiletzzaal ZEBRA_CHR_zabnit ZEBRA_CHR_zutpan ZEBRA_CHR_zimrida ZEBRA_CHR_danzel ZEBRA_CHR_zanmi ZEBRA_CHR_maharzaal ZEBRA_CHR_zilkpilles ZEBRA_CHR_zelqartpilles ZEBRA_CHR_zilkyaton ZEBRA_CHR_zassinissa ZEBRA_CHR_ziempsal ZEBRA_CHR_zuba
 			}
 			first_names_female = {
-				Zabdosir Zarishat Zastarte Zatnoam Zido Zhayna Sophonisza Zamar Zadiya Zabua Yapa Ytab Zuhaima Zuldu Zashah Zamila Zasherah Izavel Iezazel Zelissa Muttunzaal
+				ZEBRA_CHR_zabdosir ZEBRA_CHR_zarishat ZEBRA_CHR_zastarte ZEBRA_CHR_zatnoam ZEBRA_CHR_zido ZEBRA_CHR_zhayna ZEBRA_CHR_sophonisza ZEBRA_CHR_zamar ZEBRA_CHR_zadiya ZEBRA_CHR_zabua ZEBRA_CHR_yapa ZEBRA_CHR_ytab ZEBRA_CHR_zuhaima ZEBRA_CHR_zuldu ZEBRA_CHR_zashah ZEBRA_CHR_zamila ZEBRA_CHR_zasherah ZEBRA_CHR_izavel ZEBRA_CHR_iezazel ZEBRA_CHR_zelissa ZEBRA_CHR_muttunzaal
 			}
 			second_names = {
-				Zabbarid Adonizaal Zahirom Zaalhannid Zarca Zostara Chelzesid Eshzaalid Zeugorid Zannid Ziramid Zago Zattanid Zetallid Zilkiramid Zilosirid Zisgo Gerzalid Zammid Zugarid Zashhid Zummashid
+				ZEBRA_CHR_zabbarid ZEBRA_CHR_adonizaal ZEBRA_CHR_zahirom ZEBRA_CHR_zaalhannid ZEBRA_CHR_zarca ZEBRA_CHR_zostara ZEBRA_CHR_chelzesid ZEBRA_CHR_eshzaalid ZEBRA_CHR_zeugorid ZEBRA_CHR_zannid ZEBRA_CHR_ziramid ZEBRA_CHR_zago ZEBRA_CHR_zattanid ZEBRA_CHR_zetallid ZEBRA_CHR_zilkiramid ZEBRA_CHR_zilosirid ZEBRA_CHR_zisgo ZEBRA_CHR_gerzalid ZEBRA_CHR_zammid ZEBRA_CHR_zugarid ZEBRA_CHR_zashhid ZEBRA_CHR_zummashid
 			}
 			regnal_first_names_male = {
-				Zabbar Zabdmelqart Zadonibaal Zagbal Zhirom Azimilik Zaal Zaalhanno Zodashtart Zodmelqart Zomilcar Zostar Zoulomenus Zarthalo Zhelbes Eshzaal Zeugoras Zermelqart Zamilcar Zannibal Zanno Hasdruzal Zimilco Ziram Zago Maharzal Zattan Zetallo Zilkherem Zilkiram Paltizaal Zhilosir Zoodes Zomical Zisgo Zalchus Zabdhamon Abizaal Zabirami Zahumm Zeshmounhilles Zeshmouniaton Itthozaal Paltizaal Zummashtart Zelqartshama Zatnoam Zurumilki Zehomilk Zadamilk Zaaliaton Barekzaal Gerzaal Zerimilki Khiletzzaal Zabnit Zutpan Zimrida Danzel Zanmi Maharzaal Zilkpilles Zelqartpilles Zilkyaton Zassinissa Ziempsal Zuba
+				ZEBRA_CHR_zabbar ZEBRA_CHR_zabdmelqart ZEBRA_CHR_zadonibaal ZEBRA_CHR_zagbal ZEBRA_CHR_zhirom ZEBRA_CHR_azimilik ZEBRA_CHR_zaal ZEBRA_CHR_zaalhanno ZEBRA_CHR_zodashtart ZEBRA_CHR_zodmelqart ZEBRA_CHR_zomilcar ZEBRA_CHR_zostar ZEBRA_CHR_zoulomenus ZEBRA_CHR_zarthalo ZEBRA_CHR_zhelbes ZEBRA_CHR_eshzaal ZEBRA_CHR_zeugoras ZEBRA_CHR_zermelqart ZEBRA_CHR_zamilcar ZEBRA_CHR_zannibal ZEBRA_CHR_zanno ZEBRA_CHR_hasdruzal ZEBRA_CHR_zimilco ZEBRA_CHR_ziram ZEBRA_CHR_zago ZEBRA_CHR_maharzal ZEBRA_CHR_zattan ZEBRA_CHR_zetallo ZEBRA_CHR_zilkherem ZEBRA_CHR_zilkiram ZEBRA_CHR_paltizaal ZEBRA_CHR_zhilosir ZEBRA_CHR_zoodes ZEBRA_CHR_zomical ZEBRA_CHR_zisgo ZEBRA_CHR_zalchus ZEBRA_CHR_zabdhamon ZEBRA_CHR_abizaal ZEBRA_CHR_zabirami ZEBRA_CHR_zahumm ZEBRA_CHR_zeshmounhilles ZEBRA_CHR_zeshmouniaton ZEBRA_CHR_itthozaal ZEBRA_CHR_paltizaal ZEBRA_CHR_zummashtart ZEBRA_CHR_zelqartshama ZEBRA_CHR_zatnoam ZEBRA_CHR_zurumilki ZEBRA_CHR_zehomilk ZEBRA_CHR_zadamilk ZEBRA_CHR_zaaliaton ZEBRA_CHR_barekzaal ZEBRA_CHR_gerzaal ZEBRA_CHR_zerimilki ZEBRA_CHR_khiletzzaal ZEBRA_CHR_zabnit ZEBRA_CHR_zutpan ZEBRA_CHR_zimrida ZEBRA_CHR_danzel ZEBRA_CHR_zanmi ZEBRA_CHR_maharzaal ZEBRA_CHR_zilkpilles ZEBRA_CHR_zelqartpilles ZEBRA_CHR_zilkyaton ZEBRA_CHR_zassinissa ZEBRA_CHR_ziempsal ZEBRA_CHR_zuba
 			}
 			regnal_first_names_female = {
-				Zabdosir Zarishat Zastarte Zatnoam Zido Zhayna Sophonisza Zamar Zadiya Zabua Yapa Ytab Zuhaima Zuldu Zashah Zamila Zasherah Izavel Iezazel Zelissa Muttunzaal
+				ZEBRA_CHR_zabdosir ZEBRA_CHR_zarishat ZEBRA_CHR_zastarte ZEBRA_CHR_zatnoam ZEBRA_CHR_zido ZEBRA_CHR_zhayna ZEBRA_CHR_sophonisza ZEBRA_CHR_zamar ZEBRA_CHR_zadiya ZEBRA_CHR_zabua ZEBRA_CHR_yapa ZEBRA_CHR_ytab ZEBRA_CHR_zuhaima ZEBRA_CHR_zuldu ZEBRA_CHR_zashah ZEBRA_CHR_zamila ZEBRA_CHR_zasherah ZEBRA_CHR_izavel ZEBRA_CHR_iezazel ZEBRA_CHR_zelissa ZEBRA_CHR_muttunzaal
 			}
 			regnal_second_names = {
-				Zabbarid Adonizaal Zahirom Zaalhannid Zarca Zostara Chelzesid Eshzaalid Zeugorid Zannid Ziramid Zago Zattanid Zetallid Zilkiramid Zilosirid Zisgo Gerzalid Zammid Zugarid Zashhid Zummashid
+				ZEBRA_CHR_zabbarid ZEBRA_CHR_adonizaal ZEBRA_CHR_zahirom ZEBRA_CHR_zaalhannid ZEBRA_CHR_zarca ZEBRA_CHR_zostara ZEBRA_CHR_chelzesid ZEBRA_CHR_eshzaalid ZEBRA_CHR_zeugorid ZEBRA_CHR_zannid ZEBRA_CHR_ziramid ZEBRA_CHR_zago ZEBRA_CHR_zattanid ZEBRA_CHR_zetallid ZEBRA_CHR_zilkiramid ZEBRA_CHR_zilosirid ZEBRA_CHR_zisgo ZEBRA_CHR_gerzalid ZEBRA_CHR_zammid ZEBRA_CHR_zugarid ZEBRA_CHR_zashhid ZEBRA_CHR_zummashid
 			}
 		}
 
 		name2 = { # Imazeeb
 			weight = 2
 			first_names_male = {
-				Ameqran Idir Itri Izem Agerzam Ghanim Massen Rezki Usem Winaruz
+				ZEBRA_CHR_ameqran ZEBRA_CHR_idir ZEBRA_CHR_itri ZEBRA_CHR_izem ZEBRA_CHR_agerzam ZEBRA_CHR_ghanim ZEBRA_CHR_massen ZEBRA_CHR_rezki ZEBRA_CHR_usem ZEBRA_CHR_winaruz
 			}
 			first_names_female = {
-				Kahina Tajeddigt Tidir Tifawt Titrit Bakhta Dihya Tagwizult Ultasila Zawgha
+				ZEBRA_CHR_kahina ZEBRA_CHR_tajeddigt ZEBRA_CHR_tidir ZEBRA_CHR_tifawt ZEBRA_CHR_titrit ZEBRA_CHR_bakhta ZEBRA_CHR_dihya ZEBRA_CHR_tagwizult ZEBRA_CHR_ultasila ZEBRA_CHR_zawgha
 			}
 			second_names = {
-				Aït Ameziane Bouhouche Grigahcine Halliche Jlassi Mkerref Mazigh Zammit Zeroual
+				ZEBRA_CHR_ait ZEBRA_CHR_ameziane ZEBRA_CHR_bouhouche ZEBRA_CHR_grigahcine ZEBRA_CHR_halliche ZEBRA_CHR_jlassi ZEBRA_CHR_mkerref ZEBRA_CHR_mazigh ZEBRA_CHR_zammit ZEBRA_CHR_zeroual
 			}
 			regnal_first_names_male = {
-				Ameqran Idir Itri Izem Agerzam Ghanim Massen Rezki Usem Winaruz
+				ZEBRA_CHR_ameqran ZEBRA_CHR_idir ZEBRA_CHR_itri ZEBRA_CHR_izem ZEBRA_CHR_agerzam ZEBRA_CHR_ghanim ZEBRA_CHR_massen ZEBRA_CHR_rezki ZEBRA_CHR_usem ZEBRA_CHR_winaruz
 			}
 			regnal_first_names_female = {
-				Kahina Tajeddigt Tidir Tifawt Titrit Bakhta Dihya Tagwizult Ultasila Zawgha
+				ZEBRA_CHR_kahina ZEBRA_CHR_tajeddigt ZEBRA_CHR_tidir ZEBRA_CHR_tifawt ZEBRA_CHR_titrit ZEBRA_CHR_bakhta ZEBRA_CHR_dihya ZEBRA_CHR_tagwizult ZEBRA_CHR_ultasila ZEBRA_CHR_zawgha
 			}
 			regnal_second_names = {
-				Aït Ameziane Bouhouche Grigahcine Halliche Jlassi Mkerref Mazigh Zammit Zeroual
+				ZEBRA_CHR_ait ZEBRA_CHR_ameziane ZEBRA_CHR_bouhouche ZEBRA_CHR_grigahcine ZEBRA_CHR_halliche ZEBRA_CHR_jlassi ZEBRA_CHR_mkerref ZEBRA_CHR_mazigh ZEBRA_CHR_zammit ZEBRA_CHR_zeroual
 			}
 		}
 
 		name3 = { # South Zebridean
 			weight = 1
 			first_names_male = {
-				"Kipas Yuemalaka" "Orang Suryabotol" "Tuang Sanikabel" "Sendok Sisingamaraja" "Apilan Siahaanbantal" "Candramawa Cakumenja"
+				ZEBRA_CHR_kipas_yuemalaka ZEBRA_CHR_orang_suryabotol ZEBRA_CHR_tuang_sanikabel ZEBRA_CHR_sendok_sisingamaraja ZEBRA_CHR_apilan_siahaanbantal ZEBRA_CHR_candramawa_cakumenja
 			}
 			first_names_female = {
-				"Ayu Tingtingtutup" "Saphira Micinkertas" "Lampu Harunindah" "Sapu Dewiman" "Dalil Ndarivisi" "Dingkis Citrakarta"
+				ZEBRA_CHR_ayu_tingtingtutup ZEBRA_CHR_saphira_micinkertas ZEBRA_CHR_lampu_harunindah ZEBRA_CHR_sapu_dewiman ZEBRA_CHR_dalil_ndarivisi ZEBRA_CHR_dingkis_citrakarta
 			}
 			second_names = {
-				Sari Setiawan Hidayat Lestari Saputra Wati Rahayu Dewi
+				ZEBRA_CHR_sari ZEBRA_CHR_setiawan ZEBRA_CHR_hidayat ZEBRA_CHR_lestari ZEBRA_CHR_saputra ZEBRA_CHR_wati ZEBRA_CHR_rahayu ZEBRA_CHR_dewi
 			}
 			regnal_first_names_male = {
-				"Kipas Yuemalaka" "Orang Suryabotol" "Tuang Sanikabel" "Sendok Sisingamaraja" "Apilan Siahaanbantal" "Candramawa Cakumenja"
+				ZEBRA_CHR_kipas_yuemalaka ZEBRA_CHR_orang_suryabotol ZEBRA_CHR_tuang_sanikabel ZEBRA_CHR_sendok_sisingamaraja ZEBRA_CHR_apilan_siahaanbantal ZEBRA_CHR_candramawa_cakumenja
 			}
 			regnal_first_names_female = {
-				"Ayu Tingtingtutup" "Saphira Micinkertas" "Lampu Harunindah" "Sapu Dewiman" "Dalil Ndarivisi" "Dingkis Citrakarta"
+				ZEBRA_CHR_ayu_tingtingtutup ZEBRA_CHR_saphira_micinkertas ZEBRA_CHR_lampu_harunindah ZEBRA_CHR_sapu_dewiman ZEBRA_CHR_dalil_ndarivisi ZEBRA_CHR_dingkis_citrakarta
 			}
 			regnal_second_names = {
-				Sari Setiawan Hidayat Lestari Saputra Wati Rahayu Dewi
+				ZEBRA_CHR_sari ZEBRA_CHR_setiawan ZEBRA_CHR_hidayat ZEBRA_CHR_lestari ZEBRA_CHR_saputra ZEBRA_CHR_wati ZEBRA_CHR_rahayu ZEBRA_CHR_dewi
 			}
 		}
 
 		name4 = { # Talayarian
 			weight = 1
 			first_names_male = {
-				Akhom Chaianan Khaokong Mekhin Narong Panya Phiansak Samart Surawit Yongyut
+				ZEBRA_CHR_akhom ZEBRA_CHR_chaianan ZEBRA_CHR_khaokong ZEBRA_CHR_mekhin ZEBRA_CHR_narong ZEBRA_CHR_panya ZEBRA_CHR_phiansak ZEBRA_CHR_samart ZEBRA_CHR_surawit ZEBRA_CHR_yongyut
 			}
 			first_names_female = {
-				Adisai Chalaem Daranee Hathai Itsari Lamyai Mukda Natthika Onwara Phraiwan
+				ZEBRA_CHR_adisai ZEBRA_CHR_chalaem ZEBRA_CHR_daranee ZEBRA_CHR_hathai ZEBRA_CHR_itsari ZEBRA_CHR_lamyai ZEBRA_CHR_mukda ZEBRA_CHR_natthika ZEBRA_CHR_onwara ZEBRA_CHR_phraiwan
 			}
 			second_names = {
-				"Phea Thung" "Phea Phukea" "Phea Pami" "Phea Chayfang" "Phea Maena" "Phea Neinkhea"
+				ZEBRA_CHR_phea_thung ZEBRA_CHR_phea_phukea ZEBRA_CHR_phea_pami ZEBRA_CHR_phea_chayfang ZEBRA_CHR_phea_maena ZEBRA_CHR_phea_neinkhea
 			}
 			regnal_first_names_male = {
-				Akhom Chaianan Khaokong Mekhin Narong Panya Phiansak Samart Surawit Yongyut
+				ZEBRA_CHR_akhom ZEBRA_CHR_chaianan ZEBRA_CHR_khaokong ZEBRA_CHR_mekhin ZEBRA_CHR_narong ZEBRA_CHR_panya ZEBRA_CHR_phiansak ZEBRA_CHR_samart ZEBRA_CHR_surawit ZEBRA_CHR_yongyut
 			}
 			regnal_first_names_female = {
-				Adisai Chalaem Daranee Hathai Itsari Lamyai Mukda Natthika Onwara Phraiwan
+				ZEBRA_CHR_adisai ZEBRA_CHR_chalaem ZEBRA_CHR_daranee ZEBRA_CHR_hathai ZEBRA_CHR_itsari ZEBRA_CHR_lamyai ZEBRA_CHR_mukda ZEBRA_CHR_natthika ZEBRA_CHR_onwara ZEBRA_CHR_phraiwan
 			}
 			regnal_second_names = {
-				"Phea Thung" "Phea Phukea" "Phea Pami" "Phea Chayfang" "Phea Maena" "Phea Neinkhea"
+				ZEBRA_CHR_phea_thung ZEBRA_CHR_phea_phukea ZEBRA_CHR_phea_pami ZEBRA_CHR_phea_chayfang ZEBRA_CHR_phea_maena ZEBRA_CHR_phea_neinkhea
 			}
 		}
 
 		name5 = { # Naugdawian/Maglibingian
 			weight = 2
 			first_names_male = {
-				"Dran Reb" "Co Hor" Terek Retser Cercermor Jerumar Alab Banoy Limar
+				ZEBRA_CHR_dran_reb ZEBRA_CHR_co_hor ZEBRA_CHR_terek ZEBRA_CHR_retser ZEBRA_CHR_cercermor ZEBRA_CHR_jerumar ZEBRA_CHR_alab ZEBRA_CHR_banoy ZEBRA_CHR_limar
 			}
 			first_names_female = {
-				Abrigaleya Luzviminade Rublylyn Jezlane Liryo Tumalona Bituina Bayabayn Manansa
+				ZEBRA_CHR_abrigaleya ZEBRA_CHR_luzviminade ZEBRA_CHR_rublylyn ZEBRA_CHR_jezlane ZEBRA_CHR_liryo ZEBRA_CHR_tumalona ZEBRA_CHR_bituina ZEBRA_CHR_bayabayn ZEBRA_CHR_manansa
 			}
 			second_names = {
-				Shenshe Mudilaki Hantugasotsu Thacsayshin Meishiren Barynam Rabanlag Tuppinuliam
+				ZEBRA_CHR_shenshe ZEBRA_CHR_mudilaki ZEBRA_CHR_hantugasotsu ZEBRA_CHR_thacsayshin ZEBRA_CHR_meishiren ZEBRA_CHR_barynam ZEBRA_CHR_rabanlag ZEBRA_CHR_tuppinuliam
 			}
 			regnal_first_names_male = {
-				"Dran Reb" "Co Hor" Terek Retser Cercermor Jerumar Alab Banoy Limar
+				ZEBRA_CHR_dran_reb ZEBRA_CHR_co_hor ZEBRA_CHR_terek ZEBRA_CHR_retser ZEBRA_CHR_cercermor ZEBRA_CHR_jerumar ZEBRA_CHR_alab ZEBRA_CHR_banoy ZEBRA_CHR_limar
 			}
 			regnal_first_names_female = {
-				Abrigaleya Luzviminade Rublylyn Jezlane Liryo Tumalona Bituina Bayabayn Manansa
+				ZEBRA_CHR_abrigaleya ZEBRA_CHR_luzviminade ZEBRA_CHR_rublylyn ZEBRA_CHR_jezlane ZEBRA_CHR_liryo ZEBRA_CHR_tumalona ZEBRA_CHR_bituina ZEBRA_CHR_bayabayn ZEBRA_CHR_manansa
 			}
 			regnal_second_names = {
-				Shenshe Mudilaki Hantugasotsu Thacsayshin Meishiren Barynam Rabanlag Tuppinuliam
+				ZEBRA_CHR_shenshe ZEBRA_CHR_mudilaki ZEBRA_CHR_hantugasotsu ZEBRA_CHR_thacsayshin ZEBRA_CHR_meishiren ZEBRA_CHR_barynam ZEBRA_CHR_rabanlag ZEBRA_CHR_tuppinuliam
 			}
 		}
 
 		name6 = { # Zongolese/Melahakan/Tanaighan
 			weight = 2
 			first_names_male = {
-				Alongi Imani Lufua Lushiku Manoka Milandu Tshilobu Nyindu
+				ZEBRA_CHR_alongi ZEBRA_CHR_imani ZEBRA_CHR_lufua ZEBRA_CHR_lushiku ZEBRA_CHR_manoka ZEBRA_CHR_milandu ZEBRA_CHR_tshilobu ZEBRA_CHR_nyindu
 			}
 			first_names_female = {
-				Baraka Feza Kapia Kayipu Malundama Mpata Nzuzi Ndaya
+				ZEBRA_CHR_baraka ZEBRA_CHR_feza ZEBRA_CHR_kapia ZEBRA_CHR_kayipu ZEBRA_CHR_malundama ZEBRA_CHR_mpata ZEBRA_CHR_nzuzi ZEBRA_CHR_ndaya
 			}
 			second_names = {
-				Mtengo Nkhuyu Zitsulo Phiri Nyenyezi Mkwiyo
+				ZEBRA_CHR_mtengo ZEBRA_CHR_nkhuyu ZEBRA_CHR_zitsulo ZEBRA_CHR_phiri ZEBRA_CHR_nyenyezi ZEBRA_CHR_mkwiyo
 			}
 			regnal_first_names_male = {
-				Alongi Imani Lufua Lushiku Manoka Milandu Tshilobu Nyindu
+				ZEBRA_CHR_alongi ZEBRA_CHR_imani ZEBRA_CHR_lufua ZEBRA_CHR_lushiku ZEBRA_CHR_manoka ZEBRA_CHR_milandu ZEBRA_CHR_tshilobu ZEBRA_CHR_nyindu
 			}
 			regnal_first_names_female = {
-				Baraka Feza Kapia Kayipu Malundama Mpata Nzuzi Ndaya
+				ZEBRA_CHR_baraka ZEBRA_CHR_feza ZEBRA_CHR_kapia ZEBRA_CHR_kayipu ZEBRA_CHR_malundama ZEBRA_CHR_mpata ZEBRA_CHR_nzuzi ZEBRA_CHR_ndaya
 			}
 			regnal_second_names = {
-				Mtengo Nkhuyu Zitsulo Phiri Nyenyezi Mkwiyo
+				ZEBRA_CHR_mtengo ZEBRA_CHR_nkhuyu ZEBRA_CHR_zitsulo ZEBRA_CHR_phiri ZEBRA_CHR_nyenyezi ZEBRA_CHR_mkwiyo
 			}
 		}
 
 		name7 = { # Great Lakish
 			weight = 8
 			first_names_male = {
-				Zatau Kyauta Bitruz Ngari Garwa Zalla Zonto Bunami Meze Zheka Mazza Mamadou Mouzza Fouzzeni Yoro Zoumani Zundiata Zolo Faraji Zengo Zibwe Mwenye Zuberi Ganza Imanzi Ntare
+				ZEBRA_CHR_zatau ZEBRA_CHR_kyauta ZEBRA_CHR_bitruz ZEBRA_CHR_ngari ZEBRA_CHR_garwa ZEBRA_CHR_zalla ZEBRA_CHR_zonto ZEBRA_CHR_bunami ZEBRA_CHR_meze ZEBRA_CHR_zheka ZEBRA_CHR_mazza ZEBRA_CHR_mamadou ZEBRA_CHR_mouzza ZEBRA_CHR_fouzzeni ZEBRA_CHR_yoro ZEBRA_CHR_zoumani ZEBRA_CHR_zundiata ZEBRA_CHR_zolo ZEBRA_CHR_faraji ZEBRA_CHR_zengo ZEBRA_CHR_zibwe ZEBRA_CHR_mwenye ZEBRA_CHR_zuberi ZEBRA_CHR_ganza ZEBRA_CHR_imanzi ZEBRA_CHR_ntare
 			}
 			first_names_female = {
-				Aizhatu Zamina Alheri Madari Kodo Budu Balu Zato Amza Oumou Aoua Bako Azha Chauziku Furaha Mchumba Zia Zanaa Zauda Zuri Zhumbusho Yennenga Poko
+				ZEBRA_CHR_aizhatu ZEBRA_CHR_zamina ZEBRA_CHR_alheri ZEBRA_CHR_madari ZEBRA_CHR_kodo ZEBRA_CHR_budu ZEBRA_CHR_balu ZEBRA_CHR_zato ZEBRA_CHR_amza ZEBRA_CHR_oumou ZEBRA_CHR_aoua ZEBRA_CHR_bako ZEBRA_CHR_azha ZEBRA_CHR_chauziku ZEBRA_CHR_furaha ZEBRA_CHR_mchumba ZEBRA_CHR_zia ZEBRA_CHR_zanaa ZEBRA_CHR_zauda ZEBRA_CHR_zuri ZEBRA_CHR_zhumbusho ZEBRA_CHR_yennenga ZEBRA_CHR_poko
 			}
 			second_names = {
-				Zaramy Zabba Zeita Touze Dabo Zonde Baru Muza Zuzo Dibba Zissoko Bakaba Diao Zerbo Kinte Outtara Berahino
+				ZEBRA_CHR_zaramy ZEBRA_CHR_zabba ZEBRA_CHR_zeita ZEBRA_CHR_touze ZEBRA_CHR_dabo ZEBRA_CHR_zonde ZEBRA_CHR_baru ZEBRA_CHR_muza ZEBRA_CHR_zuzo ZEBRA_CHR_dibba ZEBRA_CHR_zissoko ZEBRA_CHR_bakaba ZEBRA_CHR_diao ZEBRA_CHR_zerbo ZEBRA_CHR_kinte ZEBRA_CHR_outtara ZEBRA_CHR_berahino
 			}
 			regnal_first_names_male = {
-				Zatau Kyauta Bitruz Ngari Garwa Zalla Zonto Bunami Meze Zheka Mazza Mamadou Mouzza Fouzzeni Yoro Zoumani Zundiata Zolo Faraji Zengo Zibwe Mwenye Zuberi Ganza Imanzi Ntare
+				ZEBRA_CHR_zatau ZEBRA_CHR_kyauta ZEBRA_CHR_bitruz ZEBRA_CHR_ngari ZEBRA_CHR_garwa ZEBRA_CHR_zalla ZEBRA_CHR_zonto ZEBRA_CHR_bunami ZEBRA_CHR_meze ZEBRA_CHR_zheka ZEBRA_CHR_mazza ZEBRA_CHR_mamadou ZEBRA_CHR_mouzza ZEBRA_CHR_fouzzeni ZEBRA_CHR_yoro ZEBRA_CHR_zoumani ZEBRA_CHR_zundiata ZEBRA_CHR_zolo ZEBRA_CHR_faraji ZEBRA_CHR_zengo ZEBRA_CHR_zibwe ZEBRA_CHR_mwenye ZEBRA_CHR_zuberi ZEBRA_CHR_ganza ZEBRA_CHR_imanzi ZEBRA_CHR_ntare
 			}
 			regnal_first_names_female = {
-				Aizhatu Zamina Alheri Madari Kodo Budu Balu Zato Amza Oumou Aoua Bako Azha Chauziku Furaha Mchumba Zia Zanaa Zauda Zuri Zhumbusho Yennenga Poko
+				ZEBRA_CHR_aizhatu ZEBRA_CHR_zamina ZEBRA_CHR_alheri ZEBRA_CHR_madari ZEBRA_CHR_kodo ZEBRA_CHR_budu ZEBRA_CHR_balu ZEBRA_CHR_zato ZEBRA_CHR_amza ZEBRA_CHR_oumou ZEBRA_CHR_aoua ZEBRA_CHR_bako ZEBRA_CHR_azha ZEBRA_CHR_chauziku ZEBRA_CHR_furaha ZEBRA_CHR_mchumba ZEBRA_CHR_zia ZEBRA_CHR_zanaa ZEBRA_CHR_zauda ZEBRA_CHR_zuri ZEBRA_CHR_zhumbusho ZEBRA_CHR_yennenga ZEBRA_CHR_poko
 			}
 			regnal_second_names = {
-				Zaramy Zabba Zeita Touze Dabo Zonde Baru Muza Zuzo Dibba Zissoko Bakaba Diao Zerbo Kinte Outtara Berahino
+				ZEBRA_CHR_zaramy ZEBRA_CHR_zabba ZEBRA_CHR_zeita ZEBRA_CHR_touze ZEBRA_CHR_dabo ZEBRA_CHR_zonde ZEBRA_CHR_baru ZEBRA_CHR_muza ZEBRA_CHR_zuzo ZEBRA_CHR_dibba ZEBRA_CHR_zissoko ZEBRA_CHR_bakaba ZEBRA_CHR_diao ZEBRA_CHR_zerbo ZEBRA_CHR_kinte ZEBRA_CHR_outtara ZEBRA_CHR_berahino
 			}
 		}
 
 		name7 = { # Roaman
 			weight = 2
 			first_names_male = {
-				Melisizwe Nkosana Sizwe Themba Zola Appius Caeso Decimus Gaius Marcus
+				ZEBRA_CHR_melisizwe ZEBRA_CHR_nkosana ZEBRA_CHR_sizwe ZEBRA_CHR_themba ZEBRA_CHR_zola ZEBRA_CHR_appius ZEBRA_CHR_caeso ZEBRA_CHR_decimus ZEBRA_CHR_gaius ZEBRA_CHR_marcus
 			}
 			first_names_female = {
-				Nkosazana Nonhle Noxolo Thandi Zola Agrippina Caesonia Decima Glaucia Quintina
+				ZEBRA_CHR_nkosazana ZEBRA_CHR_nonhle ZEBRA_CHR_noxolo ZEBRA_CHR_thandi ZEBRA_CHR_zola ZEBRA_CHR_agrippina ZEBRA_CHR_caesonia ZEBRA_CHR_decima ZEBRA_CHR_glaucia ZEBRA_CHR_quintina
 			}
 			second_names = {
-				Aelius Aurelius Quinctilius Domitius Junius Jabavu Madikzela Matanzima Mxenge Ndungane
+				ZEBRA_CHR_aelius ZEBRA_CHR_aurelius ZEBRA_CHR_quinctilius ZEBRA_CHR_domitius ZEBRA_CHR_junius ZEBRA_CHR_jabavu ZEBRA_CHR_madikzela ZEBRA_CHR_matanzima ZEBRA_CHR_mxenge ZEBRA_CHR_ndungane
 			}
 			regnal_first_names_male = {
-				Melisizwe Nkosana Sizwe Themba Zola Appius Caeso Decimus Gaius Marcus
+				ZEBRA_CHR_melisizwe ZEBRA_CHR_nkosana ZEBRA_CHR_sizwe ZEBRA_CHR_themba ZEBRA_CHR_zola ZEBRA_CHR_appius ZEBRA_CHR_caeso ZEBRA_CHR_decimus ZEBRA_CHR_gaius ZEBRA_CHR_marcus
 			}
 			regnal_first_names_female = {
-				Nkosazana Nonhle Noxolo Thandi Zola Agrippina Caesonia Decima Glaucia Quintina
+				ZEBRA_CHR_nkosazana ZEBRA_CHR_nonhle ZEBRA_CHR_noxolo ZEBRA_CHR_thandi ZEBRA_CHR_zola ZEBRA_CHR_agrippina ZEBRA_CHR_caesonia ZEBRA_CHR_decima ZEBRA_CHR_glaucia ZEBRA_CHR_quintina
 			}
 			regnal_second_names = {
-				Aelius Aurelius Quinctilius Domitius Junius Jabavu Madikzela Matanzima Mxenge Ndungane
+				ZEBRA_CHR_aelius ZEBRA_CHR_aurelius ZEBRA_CHR_quinctilius ZEBRA_CHR_domitius ZEBRA_CHR_junius ZEBRA_CHR_jabavu ZEBRA_CHR_madikzela ZEBRA_CHR_matanzima ZEBRA_CHR_mxenge ZEBRA_CHR_ndungane
 			}
 		}
 
 		name8 = { # Quaggatai
 			weight = 2
 			first_names_male = {
-				Arslanbek Atajan Berdimyrat Dayanch Ezizjan Hemra Isanguly Khodzhakuli Murgen Oraz
+				ZEBRA_CHR_arslanbek ZEBRA_CHR_atajan ZEBRA_CHR_berdimyrat ZEBRA_CHR_dayanch ZEBRA_CHR_ezizjan ZEBRA_CHR_hemra ZEBRA_CHR_isanguly ZEBRA_CHR_khodzhakuli ZEBRA_CHR_murgen ZEBRA_CHR_oraz
 			}
 			first_names_female = {
-				Akdzha Akgyz Bibi Dilnaza Gulbadam Hesel Jemal Mahym Nartach Pamyk
+				ZEBRA_CHR_akdzha ZEBRA_CHR_akgyz ZEBRA_CHR_bibi ZEBRA_CHR_dilnaza ZEBRA_CHR_gulbadam ZEBRA_CHR_hesel ZEBRA_CHR_jemal ZEBRA_CHR_mahym ZEBRA_CHR_nartach ZEBRA_CHR_pamyk
 			}
 			second_names = {
-				Abaev Ashyrow Charye Begum Gul Kul Khan Orazgeldiyew Juma Kurban
+				ZEBRA_CHR_abaev ZEBRA_CHR_ashyrow ZEBRA_CHR_charye ZEBRA_CHR_begum ZEBRA_CHR_gul ZEBRA_CHR_kul ZEBRA_CHR_khan ZEBRA_CHR_orazgeldiyew ZEBRA_CHR_juma ZEBRA_CHR_kurban
 			}
 			regnal_first_names_male = {
-				Arslanbek Atajan Berdimyrat Dayanch Ezizjan Hemra Isanguly Khodzhakuli Murgen Oraz
+				ZEBRA_CHR_arslanbek ZEBRA_CHR_atajan ZEBRA_CHR_berdimyrat ZEBRA_CHR_dayanch ZEBRA_CHR_ezizjan ZEBRA_CHR_hemra ZEBRA_CHR_isanguly ZEBRA_CHR_khodzhakuli ZEBRA_CHR_murgen ZEBRA_CHR_oraz
 			}
 			regnal_first_names_female = {
-				Akdzha Akgyz Bibi Dilnaza Gulbadam Hesel Jemal Mahym Nartach Pamyk
+				ZEBRA_CHR_akdzha ZEBRA_CHR_akgyz ZEBRA_CHR_bibi ZEBRA_CHR_dilnaza ZEBRA_CHR_gulbadam ZEBRA_CHR_hesel ZEBRA_CHR_jemal ZEBRA_CHR_mahym ZEBRA_CHR_nartach ZEBRA_CHR_pamyk
 			}
 			regnal_second_names = {
-				Abaev Ashyrow Charye Begum Gul Kul Khan Orazgeldiyew Juma Kurban
+				ZEBRA_CHR_abaev ZEBRA_CHR_ashyrow ZEBRA_CHR_charye ZEBRA_CHR_begum ZEBRA_CHR_gul ZEBRA_CHR_kul ZEBRA_CHR_khan ZEBRA_CHR_orazgeldiyew ZEBRA_CHR_juma ZEBRA_CHR_kurban
 			}
 		}
 
 		name9 = { # Zebluan
 			weight = 1
 			first_names_male = {
-				Shaka Linda Dumisani Themba Ndleleni Sipho Phiwokwakhe
+				ZEBRA_CHR_shaka ZEBRA_CHR_linda ZEBRA_CHR_dumisani ZEBRA_CHR_themba ZEBRA_CHR_ndleleni ZEBRA_CHR_sipho ZEBRA_CHR_phiwokwakhe
 			}
 			first_names_female = {
-				Hlengiwe Nofoto Ulwazi Khulekani Sindisiwe Zanele Mhambi
+				ZEBRA_CHR_hlengiwe ZEBRA_CHR_nofoto ZEBRA_CHR_ulwazi ZEBRA_CHR_khulekani ZEBRA_CHR_sindisiwe ZEBRA_CHR_zanele ZEBRA_CHR_mhambi
 			}
 			second_names = {
-				Athule Bhekimuzi Musa Luyanda Langa Sufiso Thalente Jabulani
+				ZEBRA_CHR_athule ZEBRA_CHR_bhekimuzi ZEBRA_CHR_musa ZEBRA_CHR_luyanda ZEBRA_CHR_langa ZEBRA_CHR_sufiso ZEBRA_CHR_thalente ZEBRA_CHR_jabulani
 			}
 			regnal_first_names_male = {
-				Shaka Linda Dumisani Themba Ndleleni Sipho Phiwokwakhe
+				ZEBRA_CHR_shaka ZEBRA_CHR_linda ZEBRA_CHR_dumisani ZEBRA_CHR_themba ZEBRA_CHR_ndleleni ZEBRA_CHR_sipho ZEBRA_CHR_phiwokwakhe
 			}
 			regnal_first_names_female = {
-				Hlengiwe Nofoto Ulwazi Khulekani Sindisiwe Zanele Mhambi
+				ZEBRA_CHR_hlengiwe ZEBRA_CHR_nofoto ZEBRA_CHR_ulwazi ZEBRA_CHR_khulekani ZEBRA_CHR_sindisiwe ZEBRA_CHR_zanele ZEBRA_CHR_mhambi
 			}
 			regnal_second_names = {
-				Athule Bhekimuzi Musa Luyanda Langa Sufiso Thalente Jabulani
+				ZEBRA_CHR_athule ZEBRA_CHR_bhekimuzi ZEBRA_CHR_musa ZEBRA_CHR_luyanda ZEBRA_CHR_langa ZEBRA_CHR_sufiso ZEBRA_CHR_thalente ZEBRA_CHR_jabulani
 			}
 		}
 
 		name10 = { # Sambovatan
 			weight = 1
 			first_names_male = {
-				Demir Galip Tontsay Zehab Hary Koray Firat
+				ZEBRA_CHR_demir ZEBRA_CHR_galip ZEBRA_CHR_tontsay ZEBRA_CHR_zehab ZEBRA_CHR_hary ZEBRA_CHR_koray ZEBRA_CHR_firat
 			}
 			first_names_female = {
-				Meltem Somahy Esan Yildiz Zeynep Jale Rabia
+				ZEBRA_CHR_meltem ZEBRA_CHR_somahy ZEBRA_CHR_esan ZEBRA_CHR_yildiz ZEBRA_CHR_zeynep ZEBRA_CHR_jale ZEBRA_CHR_rabia
 			}
 			second_names_male = {
-				Tsora Ankoay Lingilingy Matanjaka Antsy Mazava Ngazana
+				ZEBRA_CHR_tsora ZEBRA_CHR_ankoay ZEBRA_CHR_lingilingy ZEBRA_CHR_matanjaka ZEBRA_CHR_antsy ZEBRA_CHR_mazava ZEBRA_CHR_ngazana
 			}
 			second_names_female = {
-				Rahona Zavona Tahotra Randrana Famirapiratana Mamirifiry Voninkazo
+				ZEBRA_CHR_rahona ZEBRA_CHR_zavona ZEBRA_CHR_tahotra ZEBRA_CHR_randrana ZEBRA_CHR_famirapiratana ZEBRA_CHR_mamirifiry ZEBRA_CHR_voninkazo
 			}
 			regnal_first_names_male = {
-				Demir Galip Tontsay Zehab Hary Koray Firat
+				ZEBRA_CHR_demir ZEBRA_CHR_galip ZEBRA_CHR_tontsay ZEBRA_CHR_zehab ZEBRA_CHR_hary ZEBRA_CHR_koray ZEBRA_CHR_firat
 			}
 			regnal_first_names_female = {
-				Meltem Somahy Esan Yildiz Zeynep Jale Rabia
+				ZEBRA_CHR_meltem ZEBRA_CHR_somahy ZEBRA_CHR_esan ZEBRA_CHR_yildiz ZEBRA_CHR_zeynep ZEBRA_CHR_jale ZEBRA_CHR_rabia
 			}
 			regnal_second_names = {
-				Tsora Ankoay Lingilingy Matanjaka Antsy Mazava Ngazana Rahona Zavona Tahotra Randrana Famirapiratana Mamirifiry Voninkazo
+				ZEBRA_CHR_tsora ZEBRA_CHR_ankoay ZEBRA_CHR_lingilingy ZEBRA_CHR_matanjaka ZEBRA_CHR_antsy ZEBRA_CHR_mazava ZEBRA_CHR_ngazana ZEBRA_CHR_rahona ZEBRA_CHR_zavona ZEBRA_CHR_tahotra ZEBRA_CHR_randrana ZEBRA_CHR_famirapiratana ZEBRA_CHR_mamirifiry ZEBRA_CHR_voninkazo
 			}
 		}
 	}

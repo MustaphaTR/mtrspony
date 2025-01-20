@@ -12,18 +12,18 @@
 			PONY_SHIP_gladiolus PONY_SHIP_marigold PONY_SHIP_snapdragon PONY_SHIP_heather PONY_SHIP_trachelium PONY_SHIP_hyacinth PONY_SHIP_daffodil PONY_SHIP_magnolia PONY_SHIP_anemone PONY_SHIP_limonium PONY_SHIP_freesia PONY_SHIP_spray_rose PONY_SHIP_chrysanthemum PONY_SHIP_lilac PONY_SHIP_tuberose PONY_SHIP_orchid PONY_SHIP_carnation PONY_SHIP_delphinium PONY_SHIP_protea PONY_SHIP_ranunculus PONY_SHIP_bird_of_paradise PONY_SHIP_lily PONY_SHIP_hibiscus PONY_SHIP_iris PONY_SHIP_crocus PONY_SHIP_oriental_lily PONY_SHIP_calla_lily PONY_SHIP_azalea PONY_SHIP_kalanchoe PONY_SHIP_poinsettia PONY_SHIP_geranium PONY_SHIP_narcissus PONY_SHIP_amaryllis PONY_SHIP_lavender PONY_SHIP_foals_breath PONY_SHIP_peace_lily PONY_SHIP_cyclamen PONY_SHIP_waxflower PONY_SHIP_pansy PONY_SHIP_tulip PONY_SHIP_sunflower PONY_SHIP_aster PONY_SHIP_alstroemeria PONY_SHIP_pompon PONY_SHIP_rose PONY_SHIP_zinnia PONY_SHIP_daisy PONY_SHIP_larkspur PONY_SHIP_petite_rose PONY_SHIP_hydrangea PONY_SHIP_liatris PONY_SHIP_cockscomb PONY_SHIP_campanula PONY_SHIP_begonia PONY_SHIP_hypericum PONY_SHIP_jonquil PONY_SHIP_jasmine PONY_SHIP_gardenia PONY_SHIP_lisianthus PONY_SHIP_tea_rose
 
 			PONY_SHIP_sorcery PONY_SHIP_strength PONY_SHIP_healing PONY_SHIP_hope PONY_SHIP_beauty PONY_SHIP_bravery PONY_SHIP_honesty PONY_SHIP_kindness PONY_SHIP_laughter PONY_SHIP_generosity PONY_SHIP_loyalty PONY_SHIP_magic PONY_SHIP_wisdom PONY_SHIP_humility PONY_SHIP_fairness PONY_SHIP_love PONY_SHIP_courage PONY_SHIP_charity PONY_SHIP_prudence PONY_SHIP_temperance PONY_SHIP_tenacity PONY_SHIP_mercy PONY_SHIP_gravity PONY_SHIP_duty PONY_SHIP_modesty PONY_SHIP_dilegence PONY_SHIP_patience PONY_SHIP_focus PONY_SHIP_order PONY_SHIP_forgiveness PONY_SHIP_purity PONY_SHIP_chastity PONY_SHIP_empathy PONY_SHIP_enlightenment PONY_SHIP_honor PONY_SHIP_insight PONY_SHIP_confidence PONY_SHIP_reliability
-			
-			"Storm King" "Storm Queen" Icepaw Hailstorm Windborn Thunderbringer Alokasa Boltrus
-			
-			"Icepaw Hold" "Thunder Cliffs" Windborn Frostspring Karen "Raging River" Boltport "Eye of the Storm" "Thunder Point" "Lightning Harbour" Highstorms Wetbanks Rainguard Clearpine Thunderbowl Northvale
+
+			YETI_SHIP_storm_king YETI_SHIP_storm_queen YETI_SHIP_icepaw YETI_SHIP_hailstorm YETI_SHIP_windborn YETI_SHIP_thunderbringer YETI_SHIP_alokasa YETI_SHIP_boltrus
+
+			YETI_SHIP_icepaw_hold YETI_SHIP_thunder_cliffs YETI_SHIP_windborn YETI_SHIP_frostspring YETI_SHIP_karen YETI_SHIP_raging_river YETI_SHIP_boltport YETI_SHIP_eye_of_the_storm YETI_SHIP_thunder_point YETI_SHIP_lightning_harbour YETI_SHIP_highstorms YETI_SHIP_wetbanks YETI_SHIP_rainguard YETI_SHIP_clearpine YETI_SHIP_thunderbowl YETI_SHIP_northvale
 		}
 
 		colossus = {
-			"Storm King" "Storm Queen" Icepaw Hailstorm Windborn Thunderbringer Alokasa Boltrus
+			YETI_SHIP_storm_king YETI_SHIP_storm_queen YETI_SHIP_icepaw YETI_SHIP_hailstorm YETI_SHIP_windborn YETI_SHIP_thunderbringer YETI_SHIP_alokasa YETI_SHIP_boltrus
 		}
 
 		constructor = {
-			"Icepaw Hold" "Thunder Cliffs" Windborn Frostspring Karen "Raging River" Boltport "Eye of the Storm" "Thunder Point" "Lightning Harbour" Highstorms Wetbanks Rainguard Clearpine Thunderbowl Northvale
+			YETI_SHIP_icepaw_hold YETI_SHIP_thunder_cliffs YETI_SHIP_windborn YETI_SHIP_frostspring YETI_SHIP_karen YETI_SHIP_raging_river YETI_SHIP_boltport YETI_SHIP_eye_of_the_storm YETI_SHIP_thunder_point YETI_SHIP_lightning_harbour YETI_SHIP_highstorms YETI_SHIP_wetbanks YETI_SHIP_rainguard YETI_SHIP_clearpine YETI_SHIP_thunderbowl YETI_SHIP_northvale
 		}
 	}
 
@@ -100,7 +100,7 @@
 	planet_names = {
 		generic = {
 			names = {
-				"The Eye" Tempest Thunder Maelstorm Windborn Karen Highstorms Rainguard Thunderbowl
+				YETI_PLANET_the_eye YETI_PLANET_tempest YETI_PLANET_thunder YETI_PLANET_maelstorm YETI_PLANET_windborn YETI_PLANET_karen YETI_PLANET_highstorms YETI_PLANET_rainguard YETI_PLANET_thunderbowl
 			}
 		}
 
@@ -124,13 +124,13 @@
 
 		pc_continental = {
 			names = {
-				Clearpine
+				YETI_PLANET_clearpine
 			}
 		}
 
 		pc_ocean = {
 			names = {
-				Wetbanks
+				YETI_PLANET_wetbanks
 			}
 		}
 
@@ -170,22 +170,22 @@
 		name1 = {
 			weight = 16
 			first_names_male = {
-				Kavus Sekur Vetus Karvur Rekrus Zukvid Ganfur Itrus Nofur Bevak Urzak Ravakh Vurka Savuk Vakaz Ukzah Khazar Rakhav Arkyz Inzekh Gezhra Kakhyz Vazark Rakka Nazruk Grozak Drizakh Duzruv Ryzak Gerzha Harzuk Grakhu Ikhavu
+				YETI_CHR_kavus YETI_CHR_sekur YETI_CHR_vetus YETI_CHR_karvur YETI_CHR_rekrus YETI_CHR_zukvid YETI_CHR_ganfur YETI_CHR_itrus YETI_CHR_nofur YETI_CHR_bevak YETI_CHR_urzak YETI_CHR_ravakh YETI_CHR_vurka YETI_CHR_savuk YETI_CHR_vakaz YETI_CHR_ukzah YETI_CHR_khazar YETI_CHR_rakhav YETI_CHR_arkyz YETI_CHR_inzekh YETI_CHR_gezhra YETI_CHR_kakhyz YETI_CHR_vazark YETI_CHR_rakka YETI_CHR_nazruk YETI_CHR_grozak YETI_CHR_drizakh YETI_CHR_duzruv YETI_CHR_ryzak YETI_CHR_gerzha YETI_CHR_harzuk YETI_CHR_grakhu YETI_CHR_ikhavu
 			}
 			first_names_female = {
-				Zyk Vik Rez Kaz Kor Gur Biz Izi Wud Saz Nor Ibyz Gaz Erhk Hukz Rok Kryz Kzak Graz Verk Kyiz Fuz Vru Kur Mak Ozha Vaz Ezhi Krav Ayz
+				YETI_CHR_zyk YETI_CHR_vik YETI_CHR_rez YETI_CHR_kaz YETI_CHR_kor YETI_CHR_gur YETI_CHR_biz YETI_CHR_izi YETI_CHR_wud YETI_CHR_saz YETI_CHR_nor YETI_CHR_ibyz YETI_CHR_gaz YETI_CHR_erhk YETI_CHR_hukz YETI_CHR_rok YETI_CHR_kryz YETI_CHR_kzak YETI_CHR_graz YETI_CHR_verk YETI_CHR_kyiz YETI_CHR_fuz YETI_CHR_vru YETI_CHR_kur YETI_CHR_mak YETI_CHR_ozha YETI_CHR_vaz YETI_CHR_ezhi YETI_CHR_krav YETI_CHR_ayz
 			}
 			second_names = {
-				Stormbringer Stormrider Stormcloud Thunderbolt Whirlwind Lightningstrike Rainstorm Snowfall Frostbite Icewind Deepfrost Blackice Cloudcracker Cloudburst Icebreaker Permafrost Sheerstorm Thunderclap Deepstorm Snowsheet Hailrain Boltshear Wavebreaker Icehoof Thunderhammer Boltbearer Surgeswell Galeshackler Cryospike Flurrystruck Bruntshock Flashstorm Hailshatter Stormshield Boltsquall Thunderburst Windshear Haildrift Tidebreaker Flashflood Tremorrain Silverstorm Snowmaker Bolthavoc Thundercurrent Skyfracture Riptide Icepeak Stormside Depthbreak
+				YETI_CHR_stormbringer YETI_CHR_stormrider YETI_CHR_stormcloud YETI_CHR_thunderbolt YETI_CHR_whirlwind YETI_CHR_lightningstrike YETI_CHR_rainstorm YETI_CHR_snowfall YETI_CHR_frostbite YETI_CHR_icewind YETI_CHR_deepfrost YETI_CHR_blackice YETI_CHR_cloudcracker YETI_CHR_cloudburst YETI_CHR_icebreaker YETI_CHR_permafrost YETI_CHR_sheerstorm YETI_CHR_thunderclap YETI_CHR_deepstorm YETI_CHR_snowsheet YETI_CHR_hailrain YETI_CHR_boltshear YETI_CHR_wavebreaker YETI_CHR_icehoof YETI_CHR_thunderhammer YETI_CHR_boltbearer YETI_CHR_surgeswell YETI_CHR_galeshackler YETI_CHR_cryospike YETI_CHR_flurrystruck YETI_CHR_bruntshock YETI_CHR_flashstorm YETI_CHR_hailshatter YETI_CHR_stormshield YETI_CHR_boltsquall YETI_CHR_thunderburst YETI_CHR_windshear YETI_CHR_haildrift YETI_CHR_tidebreaker YETI_CHR_flashflood YETI_CHR_tremorrain YETI_CHR_silverstorm YETI_CHR_snowmaker YETI_CHR_bolthavoc YETI_CHR_thundercurrent YETI_CHR_skyfracture YETI_CHR_riptide YETI_CHR_icepeak YETI_CHR_stormside YETI_CHR_depthbreak
 			}
 			regnal_first_names_male = {
-				Kavus Sekur Vetus Karvur Rekrus Zukvid Ganfur Itrus Nofur Bevak Urzak Ravakh Vurka Savuk Vakaz Ukzah Khazar Rakhav Arkyz Inzekh Gezhra Kakhyz Vazark Rakka Nazruk Grozak Drizakh Duzruv Ryzak Gerzha Harzuk Grakhu Ikhavu
+				YETI_CHR_kavus YETI_CHR_sekur YETI_CHR_vetus YETI_CHR_karvur YETI_CHR_rekrus YETI_CHR_zukvid YETI_CHR_ganfur YETI_CHR_itrus YETI_CHR_nofur YETI_CHR_bevak YETI_CHR_urzak YETI_CHR_ravakh YETI_CHR_vurka YETI_CHR_savuk YETI_CHR_vakaz YETI_CHR_ukzah YETI_CHR_khazar YETI_CHR_rakhav YETI_CHR_arkyz YETI_CHR_inzekh YETI_CHR_gezhra YETI_CHR_kakhyz YETI_CHR_vazark YETI_CHR_rakka YETI_CHR_nazruk YETI_CHR_grozak YETI_CHR_drizakh YETI_CHR_duzruv YETI_CHR_ryzak YETI_CHR_gerzha YETI_CHR_harzuk YETI_CHR_grakhu YETI_CHR_ikhavu
 			}
 			regnal_first_names_female = {
-				Zyk Vik Rez Kaz Kor Gur Biz Izi Wud Saz Nor Ibyz Gaz Erhk Hukz Rok Kryz Kzak Graz Verk Kyiz Fuz Vru Kur Mak Ozha Vaz Ezhi Krav Ayz
+				YETI_CHR_zyk YETI_CHR_vik YETI_CHR_rez YETI_CHR_kaz YETI_CHR_kor YETI_CHR_gur YETI_CHR_biz YETI_CHR_izi YETI_CHR_wud YETI_CHR_saz YETI_CHR_nor YETI_CHR_ibyz YETI_CHR_gaz YETI_CHR_erhk YETI_CHR_hukz YETI_CHR_rok YETI_CHR_kryz YETI_CHR_kzak YETI_CHR_graz YETI_CHR_verk YETI_CHR_kyiz YETI_CHR_fuz YETI_CHR_vru YETI_CHR_kur YETI_CHR_mak YETI_CHR_ozha YETI_CHR_vaz YETI_CHR_ezhi YETI_CHR_krav YETI_CHR_ayz
 			}
 			regnal_second_names = {
-				Stormbringer Stormrider Stormcloud Thunderbolt Whirlwind Lightningstrike Rainstorm Snowfall Frostbite Icewind Deepfrost Blackice Cloudcracker Cloudburst Icebreaker Permafrost Sheerstorm Thunderclap Deepstorm Snowsheet Hailrain Boltshear Wavebreaker Icehoof Thunderhammer Boltbearer Surgeswell Galeshackler Cryospike Flurrystruck Bruntshock Flashstorm Hailshatter Stormshield Boltsquall Thunderburst Windshear Haildrift Tidebreaker Flashflood Tremorrain Silverstorm Snowmaker Bolthavoc Thundercurrent Skyfracture Riptide Icepeak Stormside Depthbreak
+				YETI_CHR_stormbringer YETI_CHR_stormrider YETI_CHR_stormcloud YETI_CHR_thunderbolt YETI_CHR_whirlwind YETI_CHR_lightningstrike YETI_CHR_rainstorm YETI_CHR_snowfall YETI_CHR_frostbite YETI_CHR_icewind YETI_CHR_deepfrost YETI_CHR_blackice YETI_CHR_cloudcracker YETI_CHR_cloudburst YETI_CHR_icebreaker YETI_CHR_permafrost YETI_CHR_sheerstorm YETI_CHR_thunderclap YETI_CHR_deepstorm YETI_CHR_snowsheet YETI_CHR_hailrain YETI_CHR_boltshear YETI_CHR_wavebreaker YETI_CHR_icehoof YETI_CHR_thunderhammer YETI_CHR_boltbearer YETI_CHR_surgeswell YETI_CHR_galeshackler YETI_CHR_cryospike YETI_CHR_flurrystruck YETI_CHR_bruntshock YETI_CHR_flashstorm YETI_CHR_hailshatter YETI_CHR_stormshield YETI_CHR_boltsquall YETI_CHR_thunderburst YETI_CHR_windshear YETI_CHR_haildrift YETI_CHR_tidebreaker YETI_CHR_flashflood YETI_CHR_tremorrain YETI_CHR_silverstorm YETI_CHR_snowmaker YETI_CHR_bolthavoc YETI_CHR_thundercurrent YETI_CHR_skyfracture YETI_CHR_riptide YETI_CHR_icepeak YETI_CHR_stormside YETI_CHR_depthbreak
 			}
 		}
 	}
