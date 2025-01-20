@@ -111,3 +111,6 @@
 - Version 0.2.8 (XX.01.2025):
 -- Added two more female alicorn portrait sets, based on Nightmare Moon and Daybreaker.
 -- Added more color options and adjusted some existing colors for a few portraits (Celestia, Luna).
+-- Added dummy localisation data for all languages so the game will show English text instead of codenames if you are playing the game on a different language.
+--- Though, i did try to do some basic and probably error ridden translation work for other European languages. If anyone would be willing to help with proper translation, i'm open for help.
+-- Small changes to the namelists.

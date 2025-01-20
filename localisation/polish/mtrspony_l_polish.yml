@@ -1,0 +1,13 @@
+﻿l_polish:
+ FLAG_CATEGORY_eqsatwarequus:0 "EaW - Equus"
+ FLAG_CATEGORY_eqsatwarequus2:0 "EaW - Equus 2"
+ FLAG_CATEGORY_eqsatwarequus3:0 "EaW - Equus 3"
+ FLAG_CATEGORY_eqsatwargriffon2:0 "EaW - Griffonia 2"
+ FLAG_CATEGORY_eqsatwarzebra:0 "EaW - Zebrica"
+ FLAG_CATEGORY_eqsatwarzebra2:0 "EaW - Zebrica 2"
+ FLAG_CATEGORY_eqsatwarzebra3:0 "EaW - Zebrica 3"
+ FLAG_CATEGORY_eqsatwarzebra4:0 "EaW - Zebrica 4"
+ FLAG_CATEGORY_esieaw:0 "ESI-EaW"
+ FLAG_CATEGORY_mtrspony:0 "Other MLP"
+
+ HAIR_COLOR:0 "Kolor Włosów"

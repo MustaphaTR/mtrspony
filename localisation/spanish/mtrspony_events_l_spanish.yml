@@ -1,0 +1,13 @@
+﻿l_spanish:
+ mtrspony_setup.1.name:0 "MustaphaTR's Pony Mod - Multi-Species Setup"
+ mtrspony_setup.1.desc:0 "Hello there. MustaphaTR here.\n\nIt seems like you are using the portraits from my pony mod. Would you like to have variety of MLP species that the mod has portraits for on your planet?"
+ mtrspony_setup.1.lc_desc:0 "$mtrspony_setup.1.desc$\n\nAs you have §YLost Colony§! origin, the changes will apply both to this colony and the home planet."
+ mtrspony_setup.1.a:0 "No, keep using §Y[Root.GetSpeciesNamePlural]§! only."
+ mtrspony_setup.1.b:0 "Spawn one pop each of other species."
+ mtrspony_setup.1.c:0 "Adjust pop amount according to §YEquestria at War§! populations."
+ mtrspony_setup.1.d:0 "Adjust pop amount, but keep §Y[Root.GetSpeciesNamePlural]§! as the most populous."
+
+ gigacompat.2.name:0 "Faust Civilisations - Portraits"
+ gigacompat.2.desc:0 "Hello there. MustaphaTR here.\n\nIt seems like you have both my pony portraits mod and Gigastructural Engineering enabled, and latter's Faustian Civilisations pre-FTL country seems to have appeared on this galaxy. Would you like them to use my mod's portraits, rather than the basegame ones that Gigastructural Engineering normally use?"
+ gigacompat.2.a:0 "Yes, use the portraits from MustaphaTR's Pony Mod."
+ gigacompat.2.b:0 "No, use the basegame portraits."

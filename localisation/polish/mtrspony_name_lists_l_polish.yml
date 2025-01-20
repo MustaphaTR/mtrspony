@@ -1,14 +1,14 @@
-﻿l_english:
+﻿l_polish:
  ###### Namelist Names
- name_list_mtrspony_namelists_changeling:0 "Changeling"
- name_list_mtrspony_namelists_deer:0 "Deer"
- name_list_mtrspony_namelists_dragon:0 "Dragon"
- name_list_mtrspony_namelists_griffon:0 "Griffon"
- name_list_mtrspony_namelists_hippogriff:0 "Hippogriff"
+ name_list_mtrspony_namelists_changeling:0 "Podmieńce"
+ name_list_mtrspony_namelists_deer:0 "Jeleń"
+ name_list_mtrspony_namelists_dragon:0 "Smok"
+ name_list_mtrspony_namelists_griffon:0 "Gryf"
+ name_list_mtrspony_namelists_hippogriff:0 "Hipogryf"
  name_list_mtrspony_namelists_kirin:0 "Kirin"
- name_list_mtrspony_namelists_polar_bear:0 "Polar Bear"
- name_list_mtrspony_namelists_pony:0 "Pony"
- name_list_mtrspony_namelists_yak:0 "Yak"
+ name_list_mtrspony_namelists_polar_bear:0 "Niedźwiedź polarny"
+ name_list_mtrspony_namelists_pony:0 "Kucyk"
+ name_list_mtrspony_namelists_yak:0 "Jak"
  name_list_mtrspony_namelists_yeti:0 "Yeti"
  name_list_mtrspony_namelists_zebra:0 "Zebra"
 

@@ -1,16 +1,16 @@
-﻿l_english:
+﻿l_spanish:
  ###### Namelist Names
- name_list_mtrspony_namelists_changeling:0 "Changeling"
- name_list_mtrspony_namelists_deer:0 "Deer"
- name_list_mtrspony_namelists_dragon:0 "Dragon"
- name_list_mtrspony_namelists_griffon:0 "Griffon"
- name_list_mtrspony_namelists_hippogriff:0 "Hippogriff"
+ name_list_mtrspony_namelists_changeling:0 "Cambiante"
+ name_list_mtrspony_namelists_deer:0 "Cérvido"
+ name_list_mtrspony_namelists_dragon:0 "Dragón"
+ name_list_mtrspony_namelists_griffon:0 "Grifo"
+ name_list_mtrspony_namelists_hippogriff:0 "Hipogrifo"
  name_list_mtrspony_namelists_kirin:0 "Kirin"
- name_list_mtrspony_namelists_polar_bear:0 "Polar Bear"
- name_list_mtrspony_namelists_pony:0 "Pony"
+ name_list_mtrspony_namelists_polar_bear:0 "Oso polar"
+ name_list_mtrspony_namelists_pony:0 "Poni"
  name_list_mtrspony_namelists_yak:0 "Yak"
  name_list_mtrspony_namelists_yeti:0 "Yeti"
- name_list_mtrspony_namelists_zebra:0 "Zebra"
+ name_list_mtrspony_namelists_zebra:0 "Cebra"
 
  ##### Changeling Names
  ### Changeling Ships

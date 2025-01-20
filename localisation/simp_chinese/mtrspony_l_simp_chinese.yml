@@ -1,0 +1,14 @@
+﻿# Translation by 星尘荧荧 (https://steamcommunity.com/profiles/76561199020527463)
+l_simp_chinese:
+ FLAG_CATEGORY_eqsatwarequus:0 "EaW-马奎斯"
+ FLAG_CATEGORY_eqsatwarequus2:0 "EaW-马奎斯 2"
+ FLAG_CATEGORY_eqsatwarequus3:0 "EaW-马奎斯 3"
+ FLAG_CATEGORY_eqsatwargriffon2:0 "EaW-狮鹫尼亚 2"
+ FLAG_CATEGORY_eqsatwarzebra:0 "EaW-斑马里加"
+ FLAG_CATEGORY_eqsatwarzebra2:0 "EaW-斑马里加 2"
+ FLAG_CATEGORY_eqsatwarzebra3:0 "EaW-斑马里加 3"
+ FLAG_CATEGORY_eqsatwarzebra4:0 "EaW-斑马里加 4"
+ FLAG_CATEGORY_esieaw:0 "EaW-独立州旗"
+ FLAG_CATEGORY_mtrspony:0 "Other MLP"
+
+ HAIR_COLOR:0 "Hair Color"
