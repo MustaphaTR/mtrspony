@@ -114,3 +114,6 @@
 -- Added dummy localisation data for all languages so the game will show English text instead of codenames if you are playing the game on a different language.
 --- Though, i did try to do some basic and probably error ridden translation work for other European languages. If anyone would be willing to help with proper translation, i'm open for help.
 -- Small changes to the namelists.
+
+- Version 0.2.8 (20.01.2025):
+-- Added one more female earth pony portrait set, based on Cheerilee.

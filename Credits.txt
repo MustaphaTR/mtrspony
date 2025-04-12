@@ -75,6 +75,7 @@ Portrait Bases:
  > luckreza8:
 	- Babs Seed
 	- Button Mash
+	- Cheerilee
 	- Fluttershy
 	- Maud Pie
 	- Mr. Shy
