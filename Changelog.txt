@@ -115,5 +115,6 @@
 --- Though, i did try to do some basic and probably error ridden translation work for other European languages. If anyone would be willing to help with proper translation, i'm open for help.
 -- Small changes to the namelists.
 
-- Version 0.2.8 (20.01.2025):
+- Version 0.2.9 (12.04.2025):
 -- Added one more female earth pony portrait set, based on Cheerilee.
+-- Integrated the Equestria at War Flag Symbols mod into this one, coming with over 500 flag icons.
