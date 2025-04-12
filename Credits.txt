@@ -138,3 +138,7 @@ Systems:
 Prescripted Country Designs:
  > JPG:
 	- Empire of Friendship
+
+Flags Icons (Created via https://9kenm.github.io/stellaris-emblem-maker/)
+ > cheezedoodle96:
+	Cutie Marks
