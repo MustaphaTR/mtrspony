@@ -1,0 +1,126 @@
+portraits = {
+	mtrspony_pony_thestral_echo = {
+		entity = "portrait_dummy_10p_left_entity"
+		clothes_selector = "mtrspony_no_clothes_selector"
+		attachment_selector = "mtrspony_pony_thestral_echo_hair_selector"
+		greeting_sound = "human_female_greetings_01"
+
+		character_textures = {
+			"gfx/models/portraits/pony_thestral/echo/echo.dds"
+			"gfx/models/portraits/pony_thestral/echo/echo_alt1.dds"
+			"gfx/models/portraits/pony_thestral/echo/echo_alt2.dds"
+			"gfx/models/portraits/pony_thestral/echo/echo_alt3.dds"
+			"gfx/models/portraits/pony_thestral/echo/echo_alt4.dds"
+			"gfx/models/portraits/pony_thestral/echo/echo_alt5.dds"
+			"gfx/models/portraits/pony_thestral/echo/echo_alt6.dds"
+			"gfx/models/portraits/pony_thestral/echo/echo_alt7.dds"
+			"gfx/models/portraits/pony_thestral/echo/echo_alt8.dds"
+			"gfx/models/portraits/pony_thestral/echo/echo_alt9.dds"
+			"gfx/models/portraits/pony_thestral/echo/echo_alt10.dds"
+			"gfx/models/portraits/pony_thestral/echo/echo_alt11.dds"
+			"gfx/models/portraits/pony_thestral/echo/echo_alt12.dds"
+		}
+
+		custom_attachment_label = "HAIR_COLOR"
+	}
+}
+
+portrait_groups = {
+	mtrspony_pony_thestral = {
+		default = mtrspony_pony_thestral_echo
+		game_setup = {
+			add = {
+				trigger = {
+					ruler = {
+						OR = {
+							gender = male
+							gender = indeterminable
+						}
+					}
+				}
+				portraits = {
+					mtrspony_pony_thestral_echo
+				}
+			}
+			add = {
+				trigger = {
+					ruler = {
+						OR = {
+							gender = female
+							gender = indeterminable
+						}
+					}
+				}
+				portraits = {
+					mtrspony_pony_thestral_echo
+				}
+			}
+		}
+
+		species = {
+			add = {
+				trigger = {
+					exists = species
+					NOT = { species = { species_gender = male } }
+				}
+				portraits = {
+					mtrspony_pony_thestral_echo
+				}
+			}
+			add = {
+				trigger = {
+					exists = species
+					NOT = { species = { species_gender = female } }
+				}
+				portraits = {
+					mtrspony_pony_thestral_echo
+				}
+			}
+		}
+
+		pop = {
+			add = {
+				trigger = {
+					NOT = { species = { species_gender = male } }
+				}
+				portraits = {
+					mtrspony_pony_thestral_echo
+				}
+			}
+			add = {
+				trigger = {
+					NOT = { species = { species_gender = female } }
+				}
+				portraits = {
+					mtrspony_pony_thestral_echo
+				}
+			}
+		}
+
+		leader = {
+			add = {
+				trigger = {
+					OR = {
+						gender = male
+						gender = indeterminable
+					}
+				}
+				portraits = {
+					mtrspony_pony_thestral_echo
+				}
+			}
+
+			add = {
+				trigger = {
+					OR = {
+						gender = female
+						gender = indeterminable
+					}
+				}
+				portraits = {
+					mtrspony_pony_thestral_echo
+				}
+			}
+		}
+	}
+}

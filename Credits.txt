@@ -122,6 +122,9 @@ Portrait Bases:
  > walrusinc:
 	- Skystar
 
+ > zee66:
+	- Echo
+
 Flag Backgrounds:
  > Elowniy:
 	- Griffonian Empire
@@ -139,6 +142,6 @@ Prescripted Country Designs:
  > JPG:
 	- Empire of Friendship
 
-Flags Icons (Created via https://9kenm.github.io/stellaris-emblem-maker/)
+Flags Icons (Created using https://9kenm.github.io/stellaris-emblem-maker/)
  > cheezedoodle96:
 	Cutie Marks
