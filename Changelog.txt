@@ -119,5 +119,5 @@
 -- Added one more female earth pony portrait set, based on Cheerilee.
 -- Added thestral portraits, for now using one set based on Echo for both genders.
 -- Integrated Equestria at War Flag Symbols mod into this one, coming with over 500 flag icons.
---- Added 10 more flag icons over the current version of that mod.
+--- Added 11 more flag icons over the current version of that mod.
 -- Added 15 more flag backgrounds.
