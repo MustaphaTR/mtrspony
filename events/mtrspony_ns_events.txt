@@ -47,8 +47,8 @@ country_event = {
 			background_ethic = "ethic_militarist"
 			randomize_traits = no
 			traits = {
-				leader_trait_aggresive
-				leader_trait_reckless
+				trait = leader_trait_aggresive
+				trait = leader_trait_reckless
 			}
 
 			effect = {
