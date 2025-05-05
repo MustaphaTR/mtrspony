@@ -90,7 +90,8 @@
 
  # Novyy Stalliongrad
  EMPIRE_DESIGN_novyy_stalliongrad:0 "Novyy Stalliongrad"
- # EMPIRE_DESIGN_novyy_stalliongrad_desc:0 ""
+ EMPIRE_DESIGN_novyy_stalliongrad_desc:0 ""I'm going to the one place that has not been corrupted by capitalism! SPACE!!!""
+ EMPIRE_DESIGN_novyy_stalliongrad_megacorps_desc:0 ""I'm going to the one place that has not been corrupted by capitalism! SPACE!!!""
  PRESCRIPTED_adjective_novyy_stalliongrad:0 "Stalliongradian"
  PRESCRIPTED_ruler_title_premier:0 "Premier"
  PRESCRIPTED_ruler_title_premier_female:0 "Premier"

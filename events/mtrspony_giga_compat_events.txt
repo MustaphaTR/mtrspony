@@ -92,10 +92,7 @@ country_event = {
 			random_owned_leader = {
 				limit = {
 					leader_class = commander
-					OR = {
-						has_trait = leader_trait_aggressive
-						has_trait = leader_trait_aggressive_2
-					}
+					has_trait = leader_trait_aggressive
 				}
 
 				save_global_event_target_as = leader_grover_ii
@@ -113,10 +110,7 @@ country_event = {
 			random_owned_leader = {
 				limit = {
 					leader_class = commander
-					OR = {
-						has_trait = leader_trait_adaptable
-						has_trait = leader_trait_adaptable_2
-					}
+					has_trait = leader_trait_adaptable
 				}
 
 				save_global_event_target_as = leader_blueblood
@@ -134,10 +128,7 @@ country_event = {
 			random_owned_leader = {
 				limit = {
 					leader_class = commander
-					OR = {
-						has_trait = leader_trait_aggressive
-						has_trait = leader_trait_aggressive_2
-					}
+					has_trait = leader_trait_aggressive
 				}
 
 				save_global_event_target_as = leader_ferdinand_dawnclaw
@@ -193,10 +184,7 @@ country_event = {
 			random_owned_leader = {
 				limit = {
 					leader_class = commander
-					OR = {
-						has_trait = leader_trait_adaptable
-						has_trait = leader_trait_adaptable_2
-					}
+					has_trait = leader_trait_adaptable
 				}
 
 				save_global_event_target_as = leader_arclight
@@ -215,10 +203,7 @@ country_event = {
 			random_owned_leader = {
 				limit = {
 					leader_class = commander
-					OR = {
-						has_trait = leader_trait_aggressive
-						has_trait = leader_trait_aggressive_2
-					}
+					has_trait = leader_trait_aggressive
 				}
 
 				save_global_event_target_as = leader_beakolini
@@ -242,10 +227,7 @@ country_event = {
 			random_owned_leader = {
 				limit = {
 					leader_class = commander
-					OR = {
-						has_trait = leader_trait_aggressive
-						has_trait = leader_trait_aggressive_2
-					}
+					has_trait = leader_trait_aggressive
 				}
 
 				change_species = event_target:eawaf_ponies

@@ -84,6 +84,61 @@
  PRESCRIPTED_ruler_name_cozy_glow_desc:0 "<insert_desc_here>"
  PRESCRIPTED_ruler_name_cozy_glow_catch_phrase:0 "§L""§!"
 
+ # Novyy Stalliongrad
+ EMPIRE_DESIGN_novyy_stalliongrad:0 "Новый Сталлионград"
+ EMPIRE_DESIGN_novyy_stalliongrad_desc:0 ""I'm going to the one place that has not been corrupted by capitalism! SPACE!!!""
+ EMPIRE_DESIGN_novyy_stalliongrad_megacorps_desc:0 ""I'm going to the one place that has not been corrupted by capitalism! SPACE!!!""
+ PRESCRIPTED_adjective_novyy_stalliongrad:0 "Stalliongradian"
+ PRESCRIPTED_ruler_title_premier:0 "Премьер"
+ PRESCRIPTED_ruler_title_premier_female:0 "Премьер"
+ PRESCRIPTED_ship_prefix_novyy_stalliongrad:0 "PMS"
+
+ PRESCRIPTED_ruler_name_tall_cherry:0 "Толл Черри"
+ PRESCRIPTED_ruler_name_tall_cherry_desc:0 "<insert_desc_here>"
+ PRESCRIPTED_ruler_name_tall_cherry_catch_phrase:0 "§L""§!"
+
+ PRESCRIPTED_ruler_name_drew_nikolayev:0 "Дрю Николаев"
+ PRESCRIPTED_ruler_name_drew_nikolayev_desc:0 "<insert_desc_here>"
+ PRESCRIPTED_ruler_name_drew_nikolayev_catch_phrase:0 "§L""§!"
+
+ PRESCRIPTED_ruler_name_petra_stormmare:0 "Петра Шторммейр"
+ PRESCRIPTED_ruler_name_petra_stormmare_desc:0 "<insert_desc_here>"
+ PRESCRIPTED_ruler_name_petra_stormmare_catch_phrase:0 "§L""§!"
+
+ PRESCRIPTED_ruler_name_dashing_gift:0 "Дэшинг Гифт"
+ PRESCRIPTED_ruler_name_dashing_gift_desc:0 "<insert_desc_here>"
+ PRESCRIPTED_ruler_name_dashing_gift_catch_phrase:0 "§L""§!"
+
+ # United Allied Nations
+ EMPIRE_DESIGN_united_allied_nations:0 "Объединенные Союзные Нации"
+ # EMPIRE_DESIGN_united_allied_nations_desc:0 ""
+ PRESCRIPTED_adjective_united_allied_nations:0 "Allied"
+ PRESCRIPTED_ship_prefix_united_allied_nations:0 "ASS"
+
+ PRESCRIPTED_ruler_name_archer_mane:0 "Арчер Мейн"
+ PRESCRIPTED_ruler_name_archer_mane_desc:0 "<insert_desc_here>"
+ PRESCRIPTED_ruler_name_archer_mane_catch_phrase:0 "§L""§!"
+
+ PRESCRIPTED_ruler_name_hazel_hoof:0 "Хейзел Хуф"
+ PRESCRIPTED_ruler_name_hazel_hoof_desc:0 "<insert_desc_here>"
+ PRESCRIPTED_ruler_name_hazel_hoof_catch_phrase:0 "§L""§!"
+
+ PRESCRIPTED_ruler_name_duty_price:0 "Дьюти Прайс"
+ PRESCRIPTED_ruler_name_duty_price_desc:0 "<insert_desc_here>"
+ PRESCRIPTED_ruler_name_duty_price_catch_phrase:0 "§L""§!"
+
+ # Holy Pony Empire
+ EMPIRE_DESIGN_holy_pony_empire:0 "Священная Империя Пони"
+ # EMPIRE_DESIGN_holy_pony_empire_desc:0 ""
+ PRESCRIPTED_adjective_holy_pony_empire:0 "Pony"
+ PRESCRIPTED_ruler_title_prince:0 "Принц"
+ PRESCRIPTED_ruler_title_princess:0 "Принцесса"
+ PRESCRIPTED_ship_prefix_holy_pony_empire:0 "ISS"
+
+ PRESCRIPTED_ruler_name_deep_geode:0 "Дип Геод"
+ PRESCRIPTED_ruler_name_deep_geode_desc:0 "<insert_desc_here>"
+ PRESCRIPTED_ruler_name_deep_geode_catch_phrase:0 "§L""§!"
+
  # Griffonian Empire
  EMPIRE_DESIGN_griffonian_empire:0 "Империя Грифонов"
  # EMPIRE_DESIGN_griffonian_empire_desc:0 ""
