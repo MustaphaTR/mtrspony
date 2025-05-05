@@ -47,6 +47,8 @@ country_event = {
 			background_ethic = "ethic_militarist"
 			randomize_traits = no
 			traits = {
+				leader_trait_aggresive
+				leader_trait_reckless
 			}
 
 			effect = {
@@ -364,6 +366,37 @@ country_event = {
 			}
 		}
 
+		create_leader = {
+			name = "PRESCRIPTED_ruler_name_rock_trot"
+			custom_description = "PRESCRIPTED_ruler_name_rock_trot_desc"
+			species = ROOT.species
+			gender = male
+			class = commander
+			skill = 1
+			set_age = 35
+			background_job = "noble"
+			background_ethic = "ethic_militarist"
+			randomize_traits = no
+			traits = {
+				trait = trait_imperial_heir
+			}
+
+			effect = {
+				save_global_event_target_as = leader_rock_trot
+				set_leader_flag = is_created_leader
+				change_leader_portrait = "mtrspony_pony_earth_rock_trot_predefined"
+				ROOT = {
+					random_owned_fleet = {
+						limit = { is_ship_class = shipclass_military }
+
+						assign_leader = PREVPREV
+					}
+				}
+				set_council_position = councilor_defense
+			}
+		}
+		set_heir = event_target:leader_rock_trot
+
 		# Remove the genericos.
 		every_owned_leader = {
 			limit = {
@@ -390,6 +423,9 @@ country_event = {
 	immediate = {
 		event_target:leader_deep_geode = {
 			change_leader_portrait = "mtrspony_pony_earth_deep_geode_predefined"
+		}
+		event_target:leader_rock_trot = {
+			change_leader_portrait = "mtrspony_pony_earth_rock_trot_predefined"
 		}
 	}
 }

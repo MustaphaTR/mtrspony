@@ -36,6 +36,17 @@ portraits = {
 		}
 	}
 
+	mtrspony_pony_earth_rock_trot_predefined = {
+		entity = "portrait_dummy_10p_left_entity"
+		clothes_selector = "mtrspony_no_clothes_selector"
+		attachment_selector = "mtrspony_pony_earth_rock_trot_predefined_hair_selector"
+		greeting_sound = "human_male_greetings_01"
+
+		character_textures = {
+			"gfx/models/portraits/pony_earth/big_mcintosh/big_mcintosh_alt12.dds"
+		}
+	}
+
 	mtrspony_pony_earth_mudbriar = {
 		entity = "portrait_dummy_20p_left_entity"
 		clothes_selector = "mtrspony_no_clothes_selector"

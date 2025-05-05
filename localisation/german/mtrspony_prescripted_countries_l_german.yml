@@ -143,6 +143,10 @@
  PRESCRIPTED_ruler_name_deep_geode_desc:0 "<insert_desc_here>"
  PRESCRIPTED_ruler_name_deep_geode_catch_phrase:0 "§L""§!"
 
+ PRESCRIPTED_ruler_name_rock_trot:0 "Rock Trot"
+ PRESCRIPTED_ruler_name_rock_trot_desc:0 "<insert_desc_here>"
+ PRESCRIPTED_ruler_name_rock_trot_catch_phrase:0 "§L""§!"
+
  # Griffonian Empire
  EMPIRE_DESIGN_griffonian_empire:0 "Griffonisches Reich"
  # EMPIRE_DESIGN_griffonian_empire_desc:0 ""
