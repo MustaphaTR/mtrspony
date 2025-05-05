@@ -21,6 +21,7 @@ country_event = {
 			background_ethic = "ethic_authoritarian"
 			randomize_traits = no
 			traits = {
+				trait = trait_imperial_heir
 				trait = trait_ruler_charismatic
 			}
 
