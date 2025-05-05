@@ -1,6 +1,6 @@
 portraits = {
 	mtrspony_pony_earth_big_mcintosh = {
-		entity = "portrait_dummy_15p_left_entity"
+		entity = "portrait_dummy_10p_left_entity"
 		clothes_selector = "mtrspony_no_clothes_selector"
 		attachment_selector = "mtrspony_pony_earth_big_mcintosh_hair_selector"
 		greeting_sound = "human_male_greetings_01"
@@ -23,6 +23,17 @@ portraits = {
 		}
 
 		custom_attachment_label = "HAIR_COLOR"
+	}
+
+	mtrspony_pony_earth_tall_cherry_predefined = {
+		entity = "portrait_dummy_10p_left_entity"
+		clothes_selector = "mtrspony_no_clothes_selector"
+		attachment_selector = "mtrspony_pony_earth_tall_cherry_predefined_hair_selector"
+		greeting_sound = "human_male_greetings_01"
+
+		character_textures = {
+			"gfx/models/portraits/pony_earth/big_mcintosh/tall_cherry.dds"
+		}
 	}
 
 	mtrspony_pony_earth_mudbriar = {
@@ -50,6 +61,17 @@ portraits = {
 		custom_attachment_label = "HAIR_COLOR"
 	}
 
+	mtrspony_pony_earth_hazel_hoof_predefined = {
+		entity = "portrait_dummy_20p_left_entity"
+		clothes_selector = "mtrspony_no_clothes_selector"
+		attachment_selector = "mtrspony_pony_earth_hazel_hoof_predefined_hair_selector"
+		greeting_sound = "human_male_greetings_01"
+
+		character_textures = {
+			"gfx/models/portraits/pony_earth/mudbriar/mudbriar_alt1.dds"
+		}
+	}
+
 	mtrspony_pony_earth_igneous_rock_pie = {
 		entity = "portrait_dummy_15p_left_95p_scale_entity"
 		clothes_selector = "mtrspony_pony_earth_igneous_rock_pie_clothes_selector"
@@ -71,9 +93,21 @@ portraits = {
 			"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_alt11.dds"
 			"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_alt12.dds"
 			"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_alt13.dds"
+			"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_alt14.dds"
 		}
 
 		custom_attachment_label = "HAIR_COLOR"
+	}
+
+	mtrspony_pony_earth_archer_mane_predefined = {
+		entity = "portrait_dummy_15p_left_95p_scale_entity"
+		clothes_selector = "mtrspony_pony_earth_archer_mane_predefined_clothes_selector"
+		attachment_selector = "mtrspony_pony_earth_archer_mane_predefined_hair_selector"
+		greeting_sound = "human_male_greetings_01"
+
+		character_textures = {
+			"gfx/models/portraits/pony_earth/igneous_rock_pie/archer_mane.dds"
+		}
 	}
 
 	mtrspony_pony_earth_jungle_trek_predefined = {
@@ -254,6 +288,17 @@ portraits = {
 		}
 
 		custom_attachment_label = "HAIR_COLOR"
+	}
+
+	mtrspony_pony_earth_deep_geode_predefined = {
+		entity = "portrait_dummy_15p_left_entity"
+		clothes_selector = "mtrspony_pony_earth_deep_geode_predefined_clothes_selector"
+		attachment_selector = "mtrspony_pony_earth_deep_geode_predefined_hair_selector"
+		greeting_sound = "human_female_greetings_01"
+
+		character_textures = {
+			"gfx/models/portraits/pony_earth/maud_pie/maud_pie_alt12.dds"
+		}
 	}
 
 	mtrspony_pony_earth_cheerilee = {

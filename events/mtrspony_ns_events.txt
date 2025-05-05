@@ -1,0 +1,395 @@
+namespace = nsstart
+namespace = uanstart
+namespace = hpestart
+
+#Setup Novyy Stalliongrad
+country_event = {
+	id = nsstart.1
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		has_country_flag = novyy_stalliongrad
+	}
+	immediate = {
+		create_leader = {
+			name = "PRESCRIPTED_ruler_name_tall_cherry"
+			custom_description = "PRESCRIPTED_ruler_name_tall_cherry_desc"
+			species = ROOT.species
+			gender = male
+			class = commander
+			skill = 1
+			set_age = 62
+			background_job = "commanding_officer"
+			background_ethic = "ethic_militarist"
+			randomize_traits = no
+			traits = {
+				trait = trait_ruler_charismatic
+			}
+
+			effect = {
+				save_global_event_target_as = leader_tall_cherry
+				set_leader_flag = is_created_leader
+				change_leader_portrait = "mtrspony_pony_earth_tall_cherry_predefined"
+				ROOT = { assign_leader = event_target:leader_tall_cherry }
+			}
+		}
+
+		create_leader = {
+			name = "PRESCRIPTED_ruler_name_drew_nikolayev"
+			custom_description = "PRESCRIPTED_ruler_name_drew_nikolayev_desc"
+			species = ROOT.species
+			gender = male
+			class = commander
+			skill = 1
+			set_age = 52
+			background_job = "commanding_officer"
+			background_ethic = "ethic_militarist"
+			randomize_traits = no
+			traits = {
+			}
+
+			effect = {
+				save_global_event_target_as = leader_drew_nikolayev
+				set_leader_flag = is_created_leader
+				change_leader_portrait = "mtrspony_pony_pegasus_drew_nikolayev_predefined"
+				ROOT = {
+					random_owned_fleet = {
+						limit = { is_ship_class = shipclass_military }
+
+						assign_leader = PREVPREV
+					}
+				}
+				set_council_position = councilor_defense
+			}
+		}
+		create_leader = {
+			name = "PRESCRIPTED_ruler_name_petra_stormmare"
+			custom_description = "PRESCRIPTED_ruler_name_petra_stormmare_desc"
+			species = ROOT.species
+			gender = female
+			class = scientist
+			skill = 1
+			set_age = 54
+			background_job = "head_researcher"
+			background_ethic = "ethic_materialist"
+			randomize_traits = no
+			traits = {
+				trait = leader_trait_expertise_field_manipulation
+			}
+
+			effect = {
+				save_global_event_target_as = leader_petra_stormmare
+				set_leader_flag = is_created_leader
+				change_leader_portrait = "mtrspony_pony_pegasus_petra_stormmare_predefined"
+				ROOT = {
+					random_owned_fleet = {
+						limit = { is_ship_class = shipclass_science_ship }
+
+						assign_leader = PREVPREV
+					}
+				}
+				set_council_position = councilor_research
+			}
+		}
+		create_leader = {
+			name = "PRESCRIPTED_ruler_name_dashing_gift"
+			custom_description = "PRESCRIPTED_ruler_name_dashing_gift_desc"
+			species = ROOT.species
+			gender = female
+			class = official
+			skill = 1
+			set_age = 34
+			background_job = "intelligence_officer"
+			background_ethic = "ethic_egalitarian"
+			randomize_traits = no
+			traits = {
+				trait = leader_trait_army_veteran
+			}
+
+			effect = {
+				save_global_event_target_as = leader_dashing_gift
+				set_leader_flag = is_created_leader
+				change_leader_portrait = "mtrspony_pony_pegasus_dashing_gift_predefined"
+				ROOT = { capital_scope = { assign_leader = event_target:leader_dashing_gift } }
+				set_council_position = councilor_state
+			}
+		}
+
+		save_current_mtrspony_species = yes
+		create_other_mtrspony_species = yes
+
+		capital_scope = {
+			calculate_mtrspony_pop_count_keep_majority = yes
+			spawn_other_mtrspony_species = yes
+		}
+		if = {
+			limit = { has_origin = origin_lost_colony }
+
+			species = {
+				home_planet = {
+					owner = {
+						every_owned_planet = {
+							calculate_mtrspony_pop_count_default = yes
+							spawn_other_mtrspony_species = yes
+						}
+					}
+				}
+			}
+		}
+
+		random_planet_within_border = {
+			limit = {
+				is_planet_class = pc_frozen
+				planet_size = 5
+			}
+
+			set_name = "NAME_New_Selena"
+		}
+		random_planet_within_border = {
+			limit = {
+				is_planet_class = pc_frozen
+				planet_size = 8
+			}
+
+			set_name = "NAME_Eos"
+		}
+		random_planet_within_border = {
+			limit = {
+				is_planet_class = pc_frozen
+				planet_size = 20
+			}
+
+			set_name = "NAME_Yacks_Planet"
+		}
+
+		# Remove the genericos.
+		every_owned_leader = {
+			limit = {
+				NOT = { has_leader_flag = is_created_leader }
+			}
+
+			kill_leader = {
+				show_notification = no
+				fire = yes
+			}
+		}
+	}
+}
+
+# Reapply named character potraits, they seem to reset after loading a save or when species got modified.
+country_event = {
+	id = nsstart.2
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		has_country_flag = novyy_stalliongrad
+	}
+	immediate = {
+		event_target:leader_tall_cherry = {
+			change_leader_portrait = "mtrspony_pony_earth_tall_cherry_predefined"
+		}
+		event_target:leader_drew_nikolayev = {
+			change_leader_portrait = "mtrspony_pony_pegasus_drew_nikolayev_predefined"
+		}
+		event_target:leader_petra_stormmare = {
+			change_leader_portrait = "mtrspony_pony_pegasus_petra_stormmare_predefined"
+		}
+		event_target:leader_dashing_gift = {
+			change_leader_portrait = "mtrspony_pony_pegasus_dashing_gift_predefined"
+		}
+	}
+}
+
+#Setup United Allied Nations
+country_event = {
+	id = uanstart.1
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		has_country_flag = united_allied_nations
+	}
+	immediate = {
+		set_male_ruler_title = "PRESCRIPTED_ruler_title_president"
+		set_female_ruler_title = "PRESCRIPTED_ruler_title_president_female"
+
+		create_leader = {
+			name = "PRESCRIPTED_ruler_name_archer_mane"
+			custom_description = "PRESCRIPTED_ruler_name_archer_mane_desc"
+			species = ROOT.species
+			gender = male
+			class = official
+			skill = 1
+			set_age = 53
+			background_job = "politician"
+			background_ethic = "ethic_militarist"
+			randomize_traits = no
+			traits = {
+				trait = leader_trait_principled
+			}
+
+			effect = {
+				save_global_event_target_as = leader_archer_mane
+				set_leader_flag = is_created_leader
+				change_leader_portrait = "mtrspony_pony_earth_archer_mane_predefined"
+				ROOT = { assign_leader = event_target:leader_archer_mane }
+			}
+		}
+
+		create_leader = {
+			name = "PRESCRIPTED_ruler_name_hazel_hoof"
+			custom_description = "PRESCRIPTED_ruler_name_hazel_hoof_desc"
+			species = ROOT.species
+			gender = male
+			class = official
+			skill = 1
+			set_age = 55
+			background_job = "politician"
+			background_ethic = "ethic_egalitarian"
+			randomize_traits = no
+			traits = {
+			}
+
+			effect = {
+				save_global_event_target_as = leader_hazel_hoof
+				set_leader_flag = is_created_leader
+				change_leader_portrait = "mtrspony_pony_earth_hazel_hoof_predefined"
+				ROOT = { capital_scope = { assign_leader = event_target:leader_hazel_hoof } }
+				set_council_position = councilor_state
+			}
+		}
+		create_leader = {
+			name = "PRESCRIPTED_ruler_name_duty_price"
+			custom_description = "PRESCRIPTED_ruler_name_duty_price_desc"
+			species = ROOT.species
+			gender = male
+			class = commander
+			skill = 1
+			set_age = 60
+			background_job = "politician"
+			background_ethic = "ethic_egalitarian"
+			randomize_traits = no
+			traits = {
+			}
+
+			effect = {
+				save_global_event_target_as = leader_duty_price
+				set_leader_flag = is_created_leader
+				change_leader_portrait = "mtrspony_pony_pegasus_duty_price_predefined"
+				ROOT = {
+					random_owned_fleet = {
+						limit = { is_ship_class = shipclass_military }
+
+						assign_leader = PREVPREV
+					}
+				}
+				set_council_position = councilor_defense
+			}
+		}
+
+		# Remove the genericos.
+		every_owned_leader = {
+			limit = {
+				NOT = { has_leader_flag = is_created_leader }
+			}
+
+			kill_leader = {
+				show_notification = no
+				fire = yes
+			}
+		}
+	}
+}
+
+# Reapply named character potraits, they seem to reset after loading a save or when species got modified.
+country_event = {
+	id = uanstart.2
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		has_country_flag = united_allied_nations
+	}
+	immediate = {
+		event_target:leader_archer_mane = {
+			change_leader_portrait = "mtrspony_pony_earth_archer_mane_predefined"
+		}
+		event_target:leader_hazel_hoof = {
+			change_leader_portrait = "mtrspony_pony_earth_hazel_hoof_predefined"
+		}
+		event_target:leader_duty_price = {
+			change_leader_portrait = "mtrspony_pony_pegasus_duty_price_predefined"
+		}
+	}
+}
+
+#Setup Holy Pony Empire
+country_event = {
+	id = hpestart.1
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		has_country_flag = holy_pony_empire
+	}
+	immediate = {
+		set_male_ruler_title = "PRESCRIPTED_ruler_title_emperor"
+		set_female_ruler_title = "PRESCRIPTED_ruler_title_empress"
+		set_male_heir_title = "PRESCRIPTED_ruler_title_princce"
+		set_female_heir_title = "PRESCRIPTED_ruler_title_princess"
+
+		create_leader = {
+			name = "PRESCRIPTED_ruler_name_deep_geode"
+			custom_description = "PRESCRIPTED_ruler_name_deep_geode_desc"
+			species = ROOT.species
+			gender = female
+			class = official
+			skill = 1
+			set_age = 71
+			background_job = "noble"
+			background_ethic = "ethic_militarist"
+			randomize_traits = no
+			traits = {
+				trait = trait_imperial_heir
+				trait = trait_ruler_charismatic
+			}
+
+			effect = {
+				save_global_event_target_as = leader_deep_geode
+				set_leader_flag = is_created_leader
+				change_leader_portrait = "mtrspony_pony_earth_deep_geode_predefined"
+				ROOT = { assign_leader = event_target:leader_deep_geode }
+			}
+		}
+
+		# Remove the genericos.
+		every_owned_leader = {
+			limit = {
+				NOT = { has_leader_flag = is_created_leader }
+			}
+
+			kill_leader = {
+				show_notification = no
+				fire = yes
+			}
+		}
+	}
+}
+
+# Reapply named character potraits, they seem to reset after loading a save or when species got modified.
+country_event = {
+	id = hpestart.2
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		has_country_flag = holy_pony_empire
+	}
+	immediate = {
+		event_target:leader_deep_geode = {
+			change_leader_portrait = "mtrspony_pony_earth_deep_geode_predefined"
+		}
+	}
+}

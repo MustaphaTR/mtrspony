@@ -158,6 +158,16 @@ mtrspony_pony_pegasus_fire_streak_hair_selector = {
 	}
 }
 
+mtrspony_pony_pegasus_duty_price_predefined_hair_selector = {
+	default = "gfx/models/portraits/pony_pegasus/fire_streak/fire_streak_hair_alt10.dds"
+
+	game_setup = { default = "gfx/models/portraits/pony_pegasus/fire_streak/fire_streak_hair_alt10.dds" }
+	species = { default = "gfx/models/portraits/pony_pegasus/fire_streak/fire_streak_hair_alt10.dds" }
+	pop = { default = "gfx/models/portraits/pony_pegasus/fire_streak/fire_streak_hair_alt10.dds" }
+	leader = { default = "gfx/models/portraits/pony_pegasus/fire_streak/fire_streak_hair_alt10.dds" }
+	ruler = { default = "gfx/models/portraits/pony_pegasus/fire_streak/fire_streak_hair_alt10.dds" }
+}
+
 mtrspony_pony_pegasus_mr_shy_hair_selector = {
 	default = "gfx/models/portraits/pony_pegasus/mr_shy/mr_shy_hair.dds"
 
@@ -275,6 +285,16 @@ mtrspony_pony_pegasus_mr_shy_hair_selector = {
 			}
 		}
 	}
+}
+
+mtrspony_pony_pegasus_drew_nikolayev_predefined_hair_selector = {
+	default = "gfx/models/portraits/pony_pegasus/mr_shy/mr_shy_hair_alt3.dds"
+
+	game_setup = { default = "gfx/models/portraits/pony_pegasus/mr_shy/mr_shy_hair_alt3.dds" }
+	species = { default = "gfx/models/portraits/pony_pegasus/mr_shy/mr_shy_hair_alt3.dds" }
+	pop = { default = "gfx/models/portraits/pony_pegasus/mr_shy/mr_shy_hair_alt3.dds" }
+	leader = { default = "gfx/models/portraits/pony_pegasus/mr_shy/mr_shy_hair_alt3.dds" }
+	ruler = { default = "gfx/models/portraits/pony_pegasus/mr_shy/mr_shy_hair_alt3.dds" }
 }
 
 mtrspony_pony_pegasus_spitfire_hair_selector = {
@@ -575,6 +595,26 @@ mtrspony_pony_pegasus_spitfire_clothes_selector = {
 	}
 }
 
+mtrspony_pony_pegasus_petra_stormmare_predefined_hair_selector = {
+	default = "gfx/models/portraits/pony_pegasus/spitfire/spitfire_hair_alt3.dds"
+
+	game_setup = { default = "gfx/models/portraits/pony_pegasus/spitfire/spitfire_hair_alt3.dds" }
+	species = { default = "gfx/models/portraits/pony_pegasus/spitfire/spitfire_hair_alt3.dds" }
+	pop = { default = "gfx/models/portraits/pony_pegasus/spitfire/spitfire_hair_alt3.dds" }
+	leader = { default = "gfx/models/portraits/pony_pegasus/spitfire/spitfire_hair_alt3.dds" }
+	ruler = { default = "gfx/models/portraits/pony_pegasus/spitfire/spitfire_hair_alt3.dds" }
+}
+
+mtrspony_pony_pegasus_petra_stormmare_predefined_clothes_selector = {
+	default = "gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_civilian_glasses_alt1.dds"
+
+	game_setup = { default = "gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_civilian_glasses_alt1.dds" }
+	species = { default = "gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_civilian_glasses_alt1.dds" }
+	pop = { default = "gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_civilian_glasses_alt1.dds" }
+	leader = { default = "gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_civilian_glasses_alt1.dds" }
+	ruler = { default = "gfx/models/portraits/pony_pegasus/spitfire/spitfire_uniform_civilian_glasses_alt1.dds" }
+}
+
 mtrspony_pony_pegasus_mrs_shy_hair_selector = {
 	default = "gfx/models/portraits/pony_pegasus/mrs_shy/mrs_shy_hair.dds"
 
@@ -760,6 +800,7 @@ mtrspony_pony_pegasus_rainbow_dash_hair_selector = {
 				"gfx/models/portraits/pony_pegasus/rainbow_dash/rainbow_dash_hair_alt12.dds"
 				"gfx/models/portraits/pony_pegasus/rainbow_dash/rainbow_dash_hair_alt13.dds"
 				"gfx/models/portraits/pony_pegasus/rainbow_dash/rainbow_dash_hair_alt14.dds"
+				"gfx/models/portraits/pony_pegasus/rainbow_dash/rainbow_dash_hair_alt15.dds"
 			}
 		}
 	}
@@ -782,6 +823,7 @@ mtrspony_pony_pegasus_rainbow_dash_hair_selector = {
 				"gfx/models/portraits/pony_pegasus/rainbow_dash/rainbow_dash_hair_alt12.dds"
 				"gfx/models/portraits/pony_pegasus/rainbow_dash/rainbow_dash_hair_alt13.dds"
 				"gfx/models/portraits/pony_pegasus/rainbow_dash/rainbow_dash_hair_alt14.dds"
+				"gfx/models/portraits/pony_pegasus/rainbow_dash/rainbow_dash_hair_alt15.dds"
 			}
 		}
 	}
@@ -804,9 +846,20 @@ mtrspony_pony_pegasus_rainbow_dash_hair_selector = {
 				"gfx/models/portraits/pony_pegasus/rainbow_dash/rainbow_dash_hair_alt12.dds"
 				"gfx/models/portraits/pony_pegasus/rainbow_dash/rainbow_dash_hair_alt13.dds"
 				"gfx/models/portraits/pony_pegasus/rainbow_dash/rainbow_dash_hair_alt14.dds"
+				"gfx/models/portraits/pony_pegasus/rainbow_dash/rainbow_dash_hair_alt15.dds"
 			}
 		}
 	}
+}
+
+mtrspony_pony_pegasus_dashing_gift_predefined_hair_selector = {
+	default = "gfx/models/portraits/pony_pegasus/rainbow_dash/rainbow_dash_hair_alt15.dds"
+
+	game_setup = { default = "gfx/models/portraits/pony_pegasus/rainbow_dash/rainbow_dash_hair_alt15.dds" }
+	species = { default = "gfx/models/portraits/pony_pegasus/rainbow_dash/rainbow_dash_hair_alt15.dds" }
+	pop = { default = "gfx/models/portraits/pony_pegasus/rainbow_dash/rainbow_dash_hair_alt15.dds" }
+	leader = { default = "gfx/models/portraits/pony_pegasus/rainbow_dash/rainbow_dash_hair_alt15.dds" }
+	ruler = { default = "gfx/models/portraits/pony_pegasus/rainbow_dash/rainbow_dash_hair_alt15.dds" }
 }
 
 mtrspony_pony_pegasus_cozy_glow_older_hair_selector = {

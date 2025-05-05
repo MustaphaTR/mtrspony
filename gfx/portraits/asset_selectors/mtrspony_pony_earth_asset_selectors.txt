@@ -78,6 +78,16 @@ mtrspony_pony_earth_big_mcintosh_hair_selector = {
 	}
 }
 
+mtrspony_pony_earth_tall_cherry_predefined_hair_selector = {
+	default = "gfx/models/portraits/pony_earth/big_mcintosh/big_mcintosh_hair_alt12.dds"
+
+	game_setup = { default = "gfx/models/portraits/pony_earth/big_mcintosh/big_mcintosh_hair_alt12.dds" }
+	species = { default = "gfx/models/portraits/pony_earth/big_mcintosh/big_mcintosh_hair_alt12.dds" }
+	pop = { default = "gfx/models/portraits/pony_earth/big_mcintosh/big_mcintosh_hair_alt12.dds" }
+	leader = { default = "gfx/models/portraits/pony_earth/big_mcintosh/big_mcintosh_hair_alt12.dds" }
+	ruler = { default = "gfx/models/portraits/pony_earth/big_mcintosh/big_mcintosh_hair_alt12.dds" }
+}
+
 mtrspony_pony_earth_mudbriar_hair_selector = {
 	default = "gfx/models/portraits/pony_earth/mudbriar/mudbriar_hair.dds"
 
@@ -155,6 +165,16 @@ mtrspony_pony_earth_mudbriar_hair_selector = {
 	}
 }
 
+mtrspony_pony_earth_hazel_hoof_predefined_hair_selector = {
+	default = "gfx/models/portraits/pony_earth/mudbriar/mudbriar_hair.dds"
+
+	game_setup = { default = "gfx/models/portraits/pony_earth/mudbriar/mudbriar_hair.dds" }
+	species = { default = "gfx/models/portraits/pony_earth/mudbriar/mudbriar_hair.dds" }
+	pop = { default = "gfx/models/portraits/pony_earth/mudbriar/mudbriar_hair.dds" }
+	leader = { default = "gfx/models/portraits/pony_earth/mudbriar/mudbriar_hair.dds" }
+	ruler = { default = "gfx/models/portraits/pony_earth/mudbriar/mudbriar_hair.dds" }
+}
+
 mtrspony_pony_earth_igneous_rock_pie_hair_selector = {
 	default = "gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair.dds"
 
@@ -188,6 +208,7 @@ mtrspony_pony_earth_igneous_rock_pie_hair_selector = {
 				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_alt14.dds"
 				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_alt15.dds"
 				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_alt16.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_alt17.dds"
 			}
 		}
 	}
@@ -212,6 +233,7 @@ mtrspony_pony_earth_igneous_rock_pie_hair_selector = {
 				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_alt14.dds"
 				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_alt15.dds"
 				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_alt16.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_alt17.dds"
 			}
 		}
 	}
@@ -236,6 +258,7 @@ mtrspony_pony_earth_igneous_rock_pie_hair_selector = {
 				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_alt14.dds"
 				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_alt15.dds"
 				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_alt16.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_alt17.dds"
 			}
 		}
 	}
@@ -271,6 +294,7 @@ mtrspony_pony_earth_igneous_rock_pie_clothes_selector = {
 				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_tie_alt11.dds"
 				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_tie_alt12.dds"
 				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_tie_alt13.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_tie_alt14.dds"
 				"gfx/models/portraits/no_attachment.dds"
 			}
 		}	
@@ -293,6 +317,7 @@ mtrspony_pony_earth_igneous_rock_pie_clothes_selector = {
 				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_tie_alt11.dds"
 				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_tie_alt12.dds"
 				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_tie_alt13.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_tie_alt14.dds"
 				"gfx/models/portraits/no_attachment.dds"
 			}
 		}
@@ -315,10 +340,31 @@ mtrspony_pony_earth_igneous_rock_pie_clothes_selector = {
 				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_tie_alt11.dds"
 				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_tie_alt12.dds"
 				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_tie_alt13.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_tie_alt14.dds"
 				"gfx/models/portraits/no_attachment.dds"
 			}
 		}
 	}
+}
+
+mtrspony_pony_earth_archer_mane_predefined_hair_selector = {
+	default = "gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_alt17_bald.dds"
+
+	game_setup = { default = "gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_alt17_bald.dds" }
+	species = { default = "gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_alt17_bald.dds" }
+	pop = { default = "gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_alt17_bald.dds" }
+	leader = { default = "gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_alt17_bald.dds" }
+	ruler = { default = "gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_alt17_bald.dds" }
+}
+
+mtrspony_pony_earth_archer_mane_predefined_clothes_selector = {
+	default = "gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_tie_alt14.dds"
+
+	game_setup = { default = "gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_tie_alt14.dds" }
+	species = { default = "gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_tie_alt14.dds" }
+	pop = { default = "gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_tie_alt14.dds" }
+	leader = { default = "gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_tie_alt14.dds" }
+	ruler = { default = "gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_tie_alt14.dds" }
 }
 
 mtrspony_pony_earth_jungle_trek_predefined_hair_selector = {
@@ -969,6 +1015,7 @@ mtrspony_pony_earth_maud_pie_clothes_selector = {
 				"gfx/models/portraits/pony_earth/maud_pie/maud_pie_dress_alt12.dds"
 				"gfx/models/portraits/pony_earth/maud_pie/maud_pie_dress_alt13.dds"
 				"gfx/models/portraits/pony_earth/maud_pie/maud_pie_dress_alt14.dds"
+				"gfx/models/portraits/pony_earth/maud_pie/maud_pie_dress_alt15.dds"
 			}
 		}	
 	}
@@ -991,6 +1038,7 @@ mtrspony_pony_earth_maud_pie_clothes_selector = {
 				"gfx/models/portraits/pony_earth/maud_pie/maud_pie_dress_alt12.dds"
 				"gfx/models/portraits/pony_earth/maud_pie/maud_pie_dress_alt13.dds"
 				"gfx/models/portraits/pony_earth/maud_pie/maud_pie_dress_alt14.dds"
+				"gfx/models/portraits/pony_earth/maud_pie/maud_pie_dress_alt15.dds"
 			}
 		}
 	}
@@ -1013,9 +1061,30 @@ mtrspony_pony_earth_maud_pie_clothes_selector = {
 				"gfx/models/portraits/pony_earth/maud_pie/maud_pie_dress_alt12.dds"
 				"gfx/models/portraits/pony_earth/maud_pie/maud_pie_dress_alt13.dds"
 				"gfx/models/portraits/pony_earth/maud_pie/maud_pie_dress_alt14.dds"
+				"gfx/models/portraits/pony_earth/maud_pie/maud_pie_dress_alt15.dds"
 			}
 		}
 	}
+}
+
+mtrspony_pony_earth_deep_geode_predefined_hair_selector = {
+	default = "gfx/models/portraits/pony_earth/maud_pie/maud_pie_hair_alt2.dds"
+
+	game_setup = { default = "gfx/models/portraits/pony_earth/maud_pie/maud_pie_hair_alt2.dds" }
+	species = { default = "gfx/models/portraits/pony_earth/maud_pie/maud_pie_hair_alt2.dds" }
+	pop = { default = "gfx/models/portraits/pony_earth/maud_pie/maud_pie_hair_alt2.dds" }
+	leader = { default = "gfx/models/portraits/pony_earth/maud_pie/maud_pie_hair_alt2.dds" }
+	ruler = { default = "gfx/models/portraits/pony_earth/maud_pie/maud_pie_hair_alt2.dds" }
+}
+
+mtrspony_pony_earth_deep_geode_predefined_clothes_selector = {
+	default = "gfx/models/portraits/pony_earth/maud_pie/maud_pie_dress_alt15.dds"
+
+	game_setup = { default = "gfx/models/portraits/pony_earth/maud_pie/maud_pie_dress_alt15.dds" }
+	species = { default = "gfx/models/portraits/pony_earth/maud_pie/maud_pie_dress_alt15.dds" }
+	pop = { default = "gfx/models/portraits/pony_earth/maud_pie/maud_pie_dress_alt15.dds" }
+	leader = { default = "gfx/models/portraits/pony_earth/maud_pie/maud_pie_dress_alt15.dds" }
+	ruler = { default = "gfx/models/portraits/pony_earth/maud_pie/maud_pie_dress_alt15.dds" }
 }
 
 mtrspony_pony_earth_cheerilee_hair_selector = {

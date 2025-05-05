@@ -121,3 +121,10 @@
 -- Integrated Equestria at War Flag Symbols mod into this one, coming with over 500 flag icons.
 --- Added 11 more flag icons over the current version of that mod.
 -- Added 15 more flag backgrounds.
+
+- Version 0.3.0 (05.05.2025):
+-- Updated the mod to work with 4.0 Phoenix update.
+-- Added Novyy Stalliongrad prescripted country.
+-- Added more color options to a few portraits (Rainbow Dash, Maud Pie, Igneous Rock Pie).
+-- Added one more flag background.
+-- Fixed Grover IX not having Imperial Ruler trait.

@@ -233,95 +233,63 @@ country_event = {
 			if = {
 				limit = { ROOT = { has_origin = origin_default } }
 
-				change_variable = { which = pops_to_remove value = 4 }
+				change_variable = { which = pops_to_remove value = 400 }
 			}
 			spawn_other_mtrspony_species = yes
 
-			while = {
-				count = 4
+			every_owned_pop_group = {
+				limit = { is_same_species = event_target:pony_species }
 
-				random_owned_pop = {
-					limit = {
-						is_same_species = event_target:pony_species
-						NOT = { pop_has_ethic = ethic_xenophile }
-					}
-
-					pop_change_ethic = ethic_xenophile
+				pop_group_transfer_ethic = {
+					POP_GROUP = this
+					ETHOS = ethic_xenophile
+					PERCENTAGE = 0.4
+				}
+				pop_group_transfer_ethic = {
+					POP_GROUP = this
+					ETHOS = ethic_pacifist
+					PERCENTAGE = 0.2
 				}
 			}
-			while = {
-				count = 2
+			every_owned_pop_group = {
+				limit = { is_same_species = event_target:griffon_species }
 
-				random_owned_pop = {
-					limit = {
-						is_same_species = event_target:pony_species
-						NOT = {
-							pop_has_ethic = ethic_xenophile
-							pop_has_ethic = ethic_pacifist
-						}
-					}
-
-					pop_change_ethic = ethic_pacifist
+				pop_group_transfer_ethic = {
+					POP_GROUP = this
+					ETHOS = ethic_spiritualist
+					PERCENTAGE = 0.3
 				}
 			}
-			while = {
-				count = 2
-
-				random_owned_pop = {
-					limit = {
-						is_same_species = event_target:griffon_species
-						NOT = { pop_has_ethic = ethic_spiritualist }
-					}
-
-					pop_change_ethic = ethic_spiritualist
-				}
-			}
-			while = {
-				count = 1
-
-				random_owned_pop = {
-					limit = {
+			every_owned_pop_group = {
+				limit = {
+					OR = {
 						is_same_species = event_target:hippogriff_species
-						NOT = { pop_has_ethic = ethic_materialist }
-					}
-
-					pop_change_ethic = ethic_materialist
-				}
-			}
-			while = {
-				count = 1
-
-				random_owned_pop = {
-					limit = {
-						is_same_species = event_target:dragon_species
-						NOT = { pop_has_ethic = ethic_militarist }
-					}
-
-					pop_change_ethic = ethic_militarist
-				}
-			}
-			while = {
-				count = 1
-
-				random_owned_pop = {
-					limit = {
-						is_same_species = event_target:kirin_species
-						NOT = { pop_has_ethic = ethic_pacifist }
-					}
-
-					pop_change_ethic = ethic_pacifist
-				}
-			}
-			while = {
-				count = 1
-
-				random_owned_pop = {
-					limit = {
 						is_same_species = event_target:zebra_species
-						NOT = { pop_has_ethic = ethic_materialist }
 					}
+				}
 
-					pop_change_ethic = ethic_materialist
+				pop_group_transfer_ethic = {
+					POP_GROUP = this
+					ETHOS = ethic_materialist
+					PERCENTAGE = 0.3
+				}
+			}
+			every_owned_pop_group = {
+				limit = { is_same_species = event_target:dragon_species }
+
+				pop_group_transfer_ethic = {
+					POP_GROUP = this
+					ETHOS = ethic_militarist
+					PERCENTAGE = 1
+				}
+			}
+			every_owned_pop_group = {
+				limit = { is_same_species = event_target:kirin_species }
+
+				pop_group_transfer_ethic = {
+					POP_GROUP = this
+					ETHOS = ethic_pacifist
+					PERCENTAGE = 0.3
 				}
 			}
 

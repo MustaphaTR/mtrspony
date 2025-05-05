@@ -18,6 +18,7 @@ on_game_start_country = {
 		fcstart.1
 		cspstart.1
 		ndestart.1
+		nsstart.1
 	}
 }
 
@@ -32,6 +33,10 @@ on_monthly_pulse_country = { # It also triggers when species are modified, there
 		fcstart.2
 		cspstart.2
 		ndestart.2
+		nsstart.2
+
+		uanstart.2
+		hpestart.2
 
 		gigacompat.3
 		gigacompat.4

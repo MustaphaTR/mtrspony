@@ -447,6 +447,80 @@ empire_of_friendship_paragons = {
 	}
 }
 
+novyy_stalliongrad = {
+	name = "EMPIRE_DESIGN_novyy_stalliongrad"
+	adjective = "PRESCRIPTED_adjective_novyy_stalliongrad"
+	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
+
+	playable = has_megacorp # Shared Burdens civic is from Megacorps DLC.
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_novyy_stalliongrad"
+
+	species = {
+		class = "MAM"
+		portrait = "mtrspony_pony"
+		name = "PRESCRIPTED_species_pony"
+		plural = "PRESCRIPTED_species_plural_pony"
+		adjective = "PRESCRIPTED_species_adjective_pony"
+		name_list = "mtrspony_namelists_pony"
+		trait = "trait_talented"
+		trait = "trait_cutie_marks"
+		trait = "trait_sedentary"
+	}
+
+	room = "personality_erudite_explorers_room"
+
+	authority = "auth_democratic"
+	civics = { "civic_shared_burden" "civic_idealistic_foundation" }
+	government = gov_communal_parity
+
+	ethic = "ethic_fanatic_egalitarian"
+	ethic = "ethic_militarist"
+
+	origin = "origin_lost_colony"
+
+	flags = { novyy_stalliongrad }
+
+	planet_name = "NAME_Equality"
+	planet_class = "pc_continental"
+	initializer = "deneb_system"
+	system_name = "NAME_Deneb"
+
+	graphical_culture = mammalian_01
+	city_graphical_culture = mammalian_01
+
+	empire_flag = {
+		icon= {
+			category = "eqsatwarequus3"
+			file = "STG.dds"
+		}
+		background= {
+			category = "backgrounds"
+			file = "flag_BG_51.dds"
+		}
+		colors={
+			"intense_red"
+			"bright_yellow"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_tall_cherry"
+		ruler_title = "PRESCRIPTED_ruler_title_premier"
+		ruler_title_female = "PRESCRIPTED_ruler_title_premier_female"
+		gender = male
+		portrait = "mtrspony_pony_earth_tall_cherry_predefined"
+		texture = 0
+		attachment = 0
+		clothes = 0
+		trait = "trait_ruler_charismatic"
+		leader_class = commander
+	}
+}
+
 griffonian_empire = {
 	name = "EMPIRE_DESIGN_griffonian_empire"
 	adjective = "PRESCRIPTED_adjective_griffonian_empire"

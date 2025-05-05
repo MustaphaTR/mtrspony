@@ -2,7 +2,35 @@
 # BACKGROUND JOBS #
 ###################
 
-hairdresser = { icon = colonist possible = { always = no } }
-mailgriffon = { icon = colonist possible = { always = no } }
-astronaut = { icon = colonist possible = { always = no } }
-friendship_student = { icon = colonist possible = { always = no } }
+hairdresser = {
+	swappable_data = {
+		default = {
+			icon = colonist
+		}
+	}
+	possible = { always = no }
+}
+mailgriffon = {
+	swappable_data = {
+		default = {
+			icon = colonist
+		}
+	}
+	possible = { always = no }
+}
+astronaut = {
+	swappable_data = {
+		default = {
+			icon = colonist
+		}
+	}
+	possible = { always = no }
+}
+friendship_student = {
+	swappable_data = {
+		default = {
+			icon = colonist
+		}
+	}
+	possible = { always = no }
+}

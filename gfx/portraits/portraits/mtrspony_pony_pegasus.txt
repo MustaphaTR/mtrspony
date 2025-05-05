@@ -51,6 +51,17 @@ portraits = {
 		custom_attachment_label = "HAIR_COLOR"
 	}
 
+	mtrspony_pony_pegasus_duty_price_predefined = {
+		entity = "portrait_dummy_fire_streak_pegasus_entity"
+		clothes_selector = "mtrspony_no_clothes_selector"
+		attachment_selector = "mtrspony_pony_pegasus_duty_price_predefined_hair_selector"
+		greeting_sound = "human_male_greetings_01"
+
+		character_textures = {
+			"gfx/models/portraits/pony_pegasus/fire_streak/fire_streak_alt9.dds"
+		}
+	}
+
 	mtrspony_pony_pegasus_mr_shy = {
 		entity = "portrait_dummy_15p_left_entity"
 		clothes_selector = "mtrspony_no_clothes_selector"
@@ -76,6 +87,17 @@ portraits = {
 		custom_attachment_label = "HAIR_COLOR"
 	}
 
+	mtrspony_pony_pegasus_drew_nikolayev_predefined = {
+		entity = "portrait_dummy_15p_left_entity"
+		clothes_selector = "mtrspony_no_clothes_selector"
+		attachment_selector = "mtrspony_pony_pegasus_drew_nikolayev_predefined_hair_selector"
+		greeting_sound = "human_male_greetings_01"
+
+		character_textures = {
+			"gfx/models/portraits/pony_pegasus/mr_shy/mr_shy_alt12.dds"
+		}
+	}
+
 	mtrspony_pony_pegasus_spitfire = {
 		entity = "portrait_dummy_10p_left_entity"
 		clothes_selector = "mtrspony_pony_pegasus_spitfire_clothes_selector"
@@ -98,6 +120,17 @@ portraits = {
 		}
 
 		custom_attachment_label = "HAIR_COLOR"
+	}
+
+	mtrspony_pony_pegasus_petra_stormmare_predefined = {
+		entity = "portrait_dummy_10p_left_entity"
+		clothes_selector = "mtrspony_pony_pegasus_petra_stormmare_predefined_clothes_selector"
+		attachment_selector = "mtrspony_pony_pegasus_petra_stormmare_predefined_hair_selector"
+		greeting_sound = "human_female_greetings_01"
+
+		character_textures = {
+			"gfx/models/portraits/pony_pegasus/spitfire/spitfire_alt4.dds"
+		}
 	}
 
 	mtrspony_pony_pegasus_mrs_shy = {
@@ -174,6 +207,17 @@ portraits = {
 		}
 
 		custom_attachment_label = "HAIR_COLOR"
+	}
+
+	mtrspony_pony_pegasus_dashing_gift_predefined = {
+		entity = "portrait_dummy_15p_left_entity"
+		clothes_selector = "mtrspony_no_clothes_selector"
+		attachment_selector = "mtrspony_pony_pegasus_dashing_gift_predefined_hair_selector"
+		greeting_sound = "human_female_greetings_01"
+
+		character_textures = {
+			"gfx/models/portraits/pony_pegasus/rainbow_dash/rainbow_dash_alt4.dds"
+		}
 	}
 
 	mtrspony_pony_pegasus_cozy_glow_older = {

@@ -37,15 +37,15 @@ country_event = {
 
 		hidden_effect = {
 			capital_scope = {
-				set_variable = { which = pony_pops value = 1 }
-				set_variable = { which = griffon_pops value = 1 }
-				set_variable = { which = hippogriff_pops value = 1 }
-				set_variable = { which = dragon_pops value = 1 }
-				set_variable = { which = kirin_pops value = 1 }
-				set_variable = { which = changeling_pops value = 1 }
-				set_variable = { which = yak_pops value = 1 }
-				set_variable = { which = zebra_pops value = 1 }
-				set_variable = { which = pops_to_remove value = 7 }
+				set_variable = { which = pony_pops value = 100 }
+				set_variable = { which = griffon_pops value = 100 }
+				set_variable = { which = hippogriff_pops value = 100 }
+				set_variable = { which = dragon_pops value = 100 }
+				set_variable = { which = kirin_pops value = 100 }
+				set_variable = { which = changeling_pops value = 100 }
+				set_variable = { which = yak_pops value = 100 }
+				set_variable = { which = zebra_pops value = 100 }
+				set_variable = { which = pops_to_remove value = 700 }
 				spawn_other_mtrspony_species = yes
 			}
 			if = {
@@ -53,15 +53,15 @@ country_event = {
 
 				species = {
 					home_planet = {
-						set_variable = { which = pony_pops value = 1 }
-						set_variable = { which = griffon_pops value = 1 }
-						set_variable = { which = hippogriff_pops value = 1 }
-						set_variable = { which = dragon_pops value = 1 }
-						set_variable = { which = kirin_pops value = 1 }
-						set_variable = { which = changeling_pops value = 1 }
-						set_variable = { which = yak_pops value = 1 }
-						set_variable = { which = zebra_pops value = 1 }
-						set_variable = { which = pops_to_remove value = 7 }
+						set_variable = { which = pony_pops value = 100 }
+						set_variable = { which = griffon_pops value = 100 }
+						set_variable = { which = hippogriff_pops value = 100 }
+						set_variable = { which = dragon_pops value = 100 }
+						set_variable = { which = kirin_pops value = 100 }
+						set_variable = { which = changeling_pops value = 100 }
+						set_variable = { which = yak_pops value = 100 }
+						set_variable = { which = zebra_pops value = 100 }
+						set_variable = { which = pops_to_remove value = 700 }
 						spawn_other_mtrspony_species = yes
 					}
 				}
@@ -80,8 +80,12 @@ country_event = {
 
 				species = {
 					home_planet = {
-						calculate_mtrspony_pop_count_default = yes
-						spawn_other_mtrspony_species = yes
+						owner = {
+							every_owned_planet = {
+								calculate_mtrspony_pop_count_default = yes
+								spawn_other_mtrspony_species = yes
+							}
+						}
 					}
 				}
 			}
@@ -99,8 +103,12 @@ country_event = {
 
 				species = {
 					home_planet = {
-						calculate_mtrspony_pop_count_keep_majority = yes
-						spawn_other_mtrspony_species = yes
+						owner = {
+							every_owned_planet = {
+								calculate_mtrspony_pop_count_default = yes
+								spawn_other_mtrspony_species = yes
+							}
+						}
 					}
 				}
 			}

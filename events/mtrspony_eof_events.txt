@@ -60,7 +60,7 @@ country_event = {
 					trait = leader_trait_politician
 					trait = trait_ruler_champion_of_the_people
 
-					trait = leader_trait_resilient_2
+					trait = leader_trait_resilient
 					trait = trait_ruler_charismatic
 				}
 
