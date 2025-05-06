@@ -4,11 +4,6 @@ has_not_apocalypse_dlc = {
 	NOT = { host_has_dlc = "Apocalypse" }
 }
 
-has_apocalypse_dlc = {
-	optimize_memory
-	host_has_dlc = "Apocalypse"
-}
-
 has_not_necroids = {
 	optimize_memory
 	NOT = { host_has_dlc = "Necroids Species Pack" }
@@ -78,30 +73,31 @@ has_not_paragon_dlc = {
 
 # Portrait Checks
 pop_has_miltary_job = {
-	OR = {
-		has_job_type = knight_commander
-		has_job_type = enforcer
-		has_job_type = telepath
-		has_job_type = duelist
-		has_job_type = knight
-		has_job_type = soldier
-		has_job_type = battle_thrall
-		has_job_type = patrol_drone
-		has_job_type = warrior_drone
-		has_job_type = primitive_warrior
-		has_job_type = primitive_warrior_2
-		has_job_type = primitive_hive_warrior
-		has_job_type = primitive_hive_warrior_2
-		has_job_type = stasis_warden
-		has_job_type = stasis_warden_drone
-		has_job_type = fe_guardian_bot
-		has_job_type = fe_protector
-		has_job_type = overlord_recruiter
-		has_job_type = overlord_recruiter_drone
-		has_job_type = overlord_knight
-		has_job_type = overlord_knight_drone
-		has_job_type = low_tech_warrior
-	}
+	always = no # It is not possible to check for this properly anymore.
+	#OR = {
+	#	has_job_type = knight_commander
+	#	has_job_type = enforcer
+	#	has_job_type = telepath
+	#	has_job_type = duelist
+	#	has_job_type = knight
+	#	has_job_type = soldier
+	#	has_job_type = battle_thrall
+	#	has_job_type = patrol_drone
+	#	has_job_type = warrior_drone
+	#	has_job_type = primitive_warrior
+	#	has_job_type = primitive_warrior_2
+	#	has_job_type = primitive_hive_warrior
+	#	has_job_type = primitive_hive_warrior_2
+	#	has_job_type = stasis_warden
+	#	has_job_type = stasis_warden_drone
+	#	has_job_type = fe_guardian_bot
+	#	has_job_type = fe_protector
+	#	has_job_type = overlord_recruiter
+	#	has_job_type = overlord_recruiter_drone
+	#	has_job_type = overlord_knight
+	#	has_job_type = overlord_knight_drone
+	#	has_job_type = low_tech_warrior
+	#}
 }
 
 is_commander_class = {

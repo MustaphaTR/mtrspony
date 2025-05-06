@@ -10,9 +10,9 @@ trait_cutie_marks = {
 	species_possible_merge_remove = {
 		always = yes
 	}
-	potential_crossbreeding_chance = 1.0	# 1.0 = 100% chance of being considered for new traits when forming half-species. does not guarantee the trait will be added if it costs points.
 	opposites = { "trait_equality_marks" }
 	allowed_archetypes = { BIOLOGICAL LITHOID }
+	tags = { organic positive pop_output happiness }
 	modifier = {
 		planet_jobs_produces_mult = 0.05
 		pop_happiness = 0.05
@@ -31,9 +31,9 @@ trait_equality_marks = {
 	species_potential_add = {
 		can_do_advanced_gene_modding = yes
 	}
-	potential_crossbreeding_chance = 1.0
 	opposites = { "trait_cutie_marks" "trait_talented" }
 	allowed_archetypes = { BIOLOGICAL LITHOID }
+	tags = { organic negative pop_output happiness }
 	modifier = {
 		planet_jobs_produces_mult = -0.05
 		pop_happiness = -0.05

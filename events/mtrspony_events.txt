@@ -14,7 +14,7 @@ country_event = {
 	immediate = {
 		set_country_flag = applied_multi_species_psionics_workaround_1
 
-		every_owned_pop = {
+		every_owned_pop_group = {
 			limit = {
 				is_same_species_with_other_faustian_races = yes
 				species = {
@@ -43,7 +43,7 @@ country_event = {
 	immediate = {
 		set_country_flag = applied_multi_species_psionics_workaround_2
 
-		every_owned_pop = {
+		every_owned_pop_group = {
 			limit = {
 				is_same_species_with_other_faustian_races = yes
 				has_trait = trait_latent_psionic
