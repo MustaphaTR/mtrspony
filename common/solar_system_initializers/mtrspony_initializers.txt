@@ -168,7 +168,7 @@ ns_eaw_vanilla_initializer = {
 				has_country_flag = novyy_stalliongrad
 				NOT = { has_country_flag = parent_system_spawned }
 			}
-			NOT = { any_system = { has_star_flag = sol } }
+			NOT = { any_system = { has_star_flag = eaw_system } }
 			is_fe_cluster = no
 			is_marauder_cluster = no
 
