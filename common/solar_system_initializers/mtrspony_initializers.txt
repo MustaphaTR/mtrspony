@@ -172,7 +172,7 @@ ns_eaw_vanilla_initializer = {
 			is_fe_cluster = no
 			is_marauder_cluster = no
 
-			add = 99999
+			add = 999999
 		}
 	}
 
