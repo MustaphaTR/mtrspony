@@ -128,3 +128,6 @@
 -- Added more color options to a few portraits (Rainbow Dash, Maud Pie, Igneous Rock Pie).
 -- Added one more flag background.
 -- Fixed Grover IX not having Imperial Ruler trait.
+
+- Version 0.3.1 (07.05.2025):
+-- Species traits from new BioGenesis origins are now applied to other MLP species when they are created.

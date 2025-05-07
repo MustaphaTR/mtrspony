@@ -728,10 +728,122 @@ add_extra_traits_to_mtrspony_species = {
 	else_if = {
 		limit = { owner_main_species = { has_trait = trait_pathogenic_genes } }
 
+		# TODO: This gives 1 more trait points, rest of the traits could use adjustments.
 		every_owned_species = {
 			limit = { is_same_species_with_faustian_races = yes }
 
 			change_species_characteristics = { add_trait = trait_pathogenic_genes }
+		}
+	}
+	else_if = {
+		limit = { owner_main_species = { has_trait = trait_malleable_genes } }
+
+		every_owned_species = {
+			limit = { is_same_species_with_faustian_races = yes }
+
+			change_species_characteristics = { add_trait = trait_malleable_genes }
+		}
+		if = {
+			limit = { NOT = { owner_main_species = { is_same_species = event_target:pony_species } } }
+
+			event_target:pony_species = {
+				change_species_characteristics = { remove_trait = trait_talented }
+				change_species_characteristics = { add_trait = trait_slow_breeders }
+				change_species_characteristics = { add_trait = trait_unruly }
+				change_species_characteristics = { add_trait = trait_quarrelsome }
+			}
+		}
+		if = {
+			limit = { NOT = { owner_main_species = { is_same_species = event_target:griffon_species } } }
+
+			event_target:griffon_species = {
+				change_species_characteristics = { remove_trait = trait_resilient }
+				change_species_characteristics = { add_trait = trait_slow_breeders }
+				change_species_characteristics = { add_trait = trait_unruly }
+				change_species_characteristics = { add_trait = trait_deviants }
+			}
+		}
+		if = {
+			limit = { NOT = { owner_main_species = { is_same_species = event_target:zebra_species } } }
+
+			event_target:zebra_species = {
+				change_species_characteristics = { remove_trait = trait_natural_physicists }
+				change_species_characteristics = { add_trait = trait_slow_breeders }
+				change_species_characteristics = { add_trait = trait_unruly }
+				change_species_characteristics = { add_trait = trait_solitary }
+			}
+		}
+		if = {
+			limit = { NOT = { owner_main_species = { is_same_species = event_target:changeling_species } } }
+
+			event_target:changeling_species = {
+				change_species_characteristics = { remove_trait = trait_communal }
+				change_species_characteristics = { add_trait = trait_slow_breeders }
+				change_species_characteristics = { add_trait = trait_repugnant }
+				change_species_characteristics = { add_trait = trait_slow_learners }
+			}
+		}
+		if = {
+			limit = { NOT = { owner_main_species = { is_same_species = event_target:hippogriff_species } } }
+
+			event_target:hippogriff_species = {
+				change_species_characteristics = { remove_trait = trait_nomadic }
+				change_species_characteristics = { add_trait = trait_slow_breeders }
+				change_species_characteristics = { add_trait = trait_unruly }
+				change_species_characteristics = { add_trait = trait_wasteful }
+			}
+		}
+		if = {
+			limit = { NOT = { owner_main_species = { is_same_species = event_target:kirin_species } } }
+
+			event_target:kirin_species = {
+				change_species_characteristics = { remove_trait = trait_natural_engineers }
+				change_species_characteristics = { add_trait = trait_slow_breeders }
+				change_species_characteristics = { add_trait = trait_unruly }
+				change_species_characteristics = { add_trait = trait_deviants }
+			}
+		}
+		if = {
+			limit = { NOT = { owner_main_species = { is_same_species = event_target:yak_species } } }
+
+			event_target:yak_species = {
+				change_species_characteristics = { remove_trait = trait_nomadic }
+				change_species_characteristics = { remove_trait = trait_strong }
+				change_species_characteristics = { add_trait = trait_slow_breeders }
+				change_species_characteristics = { add_trait = trait_unruly }
+			}
+		}
+		if = {
+			limit = { NOT = { owner_main_species = { is_same_species = event_target:dragon_species } } }
+
+			event_target:dragon_species = {
+				change_species_characteristics = { remove_trait = trait_strong }
+				change_species_characteristics = { remove_trait = trait_solitary }
+				change_species_characteristics = { add_trait = trait_repugnant }
+				change_species_characteristics = { add_trait = trait_unruly }
+				change_species_characteristics = { add_trait = trait_nonadaptive }
+			}
+		}
+	}
+	else_if = {
+		limit = { owner_main_species = { has_trait = trait_wilderness } }
+
+		every_owned_species = {
+			limit = { is_same_species_with_faustian_races = yes }
+
+			if = {
+				limit = { has_trait = trait_nomadic }
+				
+				change_species_characteristics = { remove_trait = trait_nomadic }
+				change_species_characteristics = { add_trait = trait_communal }
+			}
+			else_if = {
+				limit = { has_trait = trait_sedentary }
+				
+				change_species_characteristics = { remove_trait = trait_sedentary }
+				change_species_characteristics = { add_trait = trait_solitary }
+			}
+			change_species_characteristics = { add_trait = trait_wilderness }
 		}
 	}
 }
