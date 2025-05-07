@@ -671,6 +671,16 @@ add_extra_traits_to_mtrspony_species = {
 		}
 	}
 	else_if = {
+		limit = { owner_main_species = { has_trait = trait_unplugged_cybernetic_positives_3 } }
+
+		every_owned_species = {
+			limit = { is_same_species_with_faustian_races = yes }
+
+			change_species_characteristics = { add_trait = trait_unplugged_cybernetic_positives_3 }
+			change_species_characteristics = { add_trait = trait_unplugged_cybernetic_negatives_3 }
+		}
+	}
+	else_if = {
 		limit = { owner_main_species = { has_trait = trait_necrophage } }
 
 		every_owned_species = {
@@ -686,16 +696,6 @@ add_extra_traits_to_mtrspony_species = {
 			limit = { is_same_species_with_faustian_races = yes }
 
 			change_species_characteristics = { add_trait = trait_clone_soldier_infertile }
-		}
-	}
-	else_if = {
-		limit = { owner_main_species = { has_trait = trait_aquatic } }
-
-		# TODO: This eats up 2 trait points, rest of the traits will need adjustments.
-		every_owned_species = {
-			limit = { is_same_species_with_faustian_races = yes }
-
-			change_species_characteristics = { add_trait = trait_aquatic }
 		}
 	}
 	else_if = {
@@ -844,6 +844,44 @@ add_extra_traits_to_mtrspony_species = {
 				change_species_characteristics = { add_trait = trait_solitary }
 			}
 			change_species_characteristics = { add_trait = trait_wilderness }
+		}
+	}
+
+	# Civic
+	if = {
+		limit = { owner_main_species = { has_trait = trait_stargazer } }
+
+		every_owned_species = {
+			limit = { is_same_species_with_faustian_races = yes }
+
+			if = {
+				limit = { has_trait = trait_sedentary }
+				
+				change_species_characteristics = { remove_trait = trait_sedentary }
+				change_species_characteristics = { add_trait = trait_solitary }
+			}
+			change_species_characteristics = { add_trait = trait_stargazer }
+		}
+	}
+	if = {
+		limit = { owner_main_species = { has_trait = trait_storm_touched } }
+
+		every_owned_species = {
+			limit = { is_same_species_with_faustian_races = yes }
+
+			change_species_characteristics = { add_trait = trait_storm_touched }
+		}
+	}
+
+	# Other
+	if = {
+		limit = { owner_main_species = { has_trait = trait_aquatic } }
+
+		# TODO: This eats up 2 trait points, rest of the traits will need adjustments.
+		every_owned_species = {
+			limit = { is_same_species_with_faustian_races = yes }
+
+			change_species_characteristics = { add_trait = trait_aquatic }
 		}
 	}
 }

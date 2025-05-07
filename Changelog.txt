@@ -130,4 +130,4 @@
 -- Fixed Grover IX not having Imperial Ruler trait.
 
 - Version 0.3.1 (07.05.2025):
--- Species traits from new BioGenesis origins are now applied to other MLP species when they are created.
+-- Fixed Cyber Commandos, Malleable Genes, Stargazer, Storm Touched, Unplugged and Wilderness traits not applying to other species when relevant Origin/Civic is chosen.
