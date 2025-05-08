@@ -77,6 +77,12 @@ eaw_vanilla_initializer = {
 			orbit_distance = 9
 			orbit_angle = 90
 			has_ring = no
+
+			init_effect = {
+				prevent_anomaly = yes
+				clear_deposits = yes
+				add_deposit = d_physics_2
+			}
 		}
 
 		moon = {
@@ -86,9 +92,11 @@ eaw_vanilla_initializer = {
 			orbit_distance = 0
 			orbit_angle = 180
 			has_ring = no
-		
+
 			init_effect = {
 				prevent_anomaly = yes
+				clear_deposits = yes
+				add_deposit = d_physics_3
 			}
 		}
 	}
@@ -395,6 +403,12 @@ ns_eaw_vanilla_initializer = {
 			orbit_distance = 9
 			orbit_angle = 90
 			has_ring = no
+
+			init_effect = {
+				prevent_anomaly = yes
+				clear_deposits = yes
+				add_deposit = d_physics_2
+			}
 		}
 
 		moon = {
@@ -404,9 +418,11 @@ ns_eaw_vanilla_initializer = {
 			orbit_distance = 0
 			orbit_angle = 180
 			has_ring = no
-		
+
 			init_effect = {
 				prevent_anomaly = yes
+				clear_deposits = yes
+				add_deposit = d_physics_3
 			}
 		}
 	}
@@ -572,6 +588,12 @@ eawaf_vanilla_initializer = {
 		orbit_distance = 15
 		orbit_angle = 90
 		has_ring = no
+
+		init_effect = {
+			prevent_anomaly = yes
+			clear_deposits = yes
+			add_deposit = d_physics_5
+		}
 	}
 
 	planet = {
@@ -581,14 +603,12 @@ eawaf_vanilla_initializer = {
 		orbit_distance = 0
 		orbit_angle = 180
 		has_ring = no
-	
+
 		init_effect = {
 			prevent_anomaly = yes
 			clear_deposits = yes
 			set_planet_flag = has_megastructure #nooo more SPA
 			set_planet_flag = megastructure
-			add_deposit = d_physics_10
-			add_deposit = d_physics_10
 		}
 	}
 

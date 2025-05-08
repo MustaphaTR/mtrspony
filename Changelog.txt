@@ -131,3 +131,7 @@
 
 - Version 0.3.1 (07.05.2025):
 -- Fixed Cyber Commandos, Malleable Genes, Stargazer, Storm Touched, Unplugged and Wilderness traits not applying to other species when relevant Origin/Civic is chosen.
+
+- Version 0.3.2 (XX.05.2025):
+-- Faust System now starts with 5 Physics research on Selene, instead of 20 on Helios that you couldn't use.
+-- Behemoth System now always starts with 3 Physics research on Helios and 2 on Selene.
