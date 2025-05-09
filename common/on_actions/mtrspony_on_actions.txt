@@ -43,9 +43,10 @@ on_monthly_pulse_country = { # It also triggers when species are modified, there
 	}
 }
 
-on_tradition_picked = { # Workaround to apply psionics tradition effects to all starting species.
+on_tradition_picked = { # Workaround to apply tradition effects to all starting species.
 	events = {
 		mtrspony.1
 		mtrspony.2
+		mtrspony.4
 	}
 }

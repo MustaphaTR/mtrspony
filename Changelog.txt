@@ -135,3 +135,6 @@
 - Version 0.3.2 (XX.05.2025):
 -- Faust System now starts with 5 Physics research on Selene, instead of 20 on Helios that you couldn't use.
 -- Behemoth System now always starts with 3 Physics research on Helios and 2 on Selene.
+-- Enviromental Integration tradition now gives Mutagenic Habitability to other Faustian species too.
+-- Fixed the workaround for giving Psionic traits to other Faustian species only working on prescripted countries and not on custom empires.
+-- Fixed using the last option of multi-species setup for Lost Colony custom empires, applying the 3rd option's effects to the parent empire.

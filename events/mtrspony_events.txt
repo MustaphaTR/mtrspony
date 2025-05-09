@@ -7,7 +7,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		is_mtrspony_prescripted_country = yes
+		using_mtrspony_multi_species_setup = yes
 		has_tradition = tr_psionics_adopt
 		NOT = { has_country_flag = applied_multi_species_psionics_workaround_1 }
 	}
@@ -36,7 +36,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		is_mtrspony_prescripted_country = yes
+		using_mtrspony_multi_species_setup = yes
 		has_tradition = tr_psionics_psionic_assimilation
 		NOT = { has_country_flag = applied_multi_species_psionics_workaround_2 }
 	}
@@ -161,6 +161,40 @@ country_event = {
 				value = extra_age
 			}
 			set_age = age
+		}
+	}
+}
+
+# After taking Enviromental Integration tradition give Mutagenic Habitability trait to other Faustian species too.
+# Normally, there's a Council Agenda to apply this to other species instantly, but Evolutionary Predetors do not get it. So better do it automatically.
+country_event = {
+	id = mtrspony.4
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		using_mtrspony_multi_species_setup = yes
+		has_tradition = tr_mutation_adopt
+		has_mutation_environmental_integration_tradition = yes
+		NOT = { has_country_flag = applied_multi_species_mutation_workaround_1 }
+	}
+	immediate = {
+		set_country_flag = applied_multi_species_mutation_workaround_1
+
+		every_owned_pop_group = {
+			limit = {
+				is_same_species_with_other_faustian_races = yes
+				species = {
+					NOT = {
+						has_trait = trait_auto_hab_preference
+					}
+					OR = {
+						is_archetype = BIOLOGICAL
+						is_archetype = LITHOID
+					}
+				}
+			}
+			species = { set_habitability_trait = { trait = trait_auto_hab_preference } }
 		}
 	}
 }

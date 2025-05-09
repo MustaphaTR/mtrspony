@@ -167,10 +167,18 @@ is_same_species_with_faustian_races = {
 		is_same_species = event_target:changeling_species
 		is_same_species = event_target:yak_species
 		is_same_species = event_target:zebra_species
+		is_same_species = event_target:polar_bear_species
 	}
 }
 
 is_same_species_with_other_faustian_races = {
 	NOT = { is_same_species = owner_main_species }
 	is_same_species_with_faustian_races = yes
+}
+
+using_mtrspony_multi_species_setup = {
+	OR = {
+		is_mtrspony_prescripted_country = yes
+		has_country_flag = using_mtrspony_multi_species_setup
+	}
 }

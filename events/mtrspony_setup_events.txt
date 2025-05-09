@@ -66,6 +66,8 @@ country_event = {
 					}
 				}
 			}
+
+			set_country_flag = using_mtrspony_multi_species_setup
 		}
 	}
 	option = {
@@ -89,6 +91,8 @@ country_event = {
 					}
 				}
 			}
+
+			set_country_flag = using_mtrspony_multi_species_setup
 		}
 	}
 	option = {
@@ -105,13 +109,15 @@ country_event = {
 					home_planet = {
 						owner = {
 							every_owned_planet = {
-								calculate_mtrspony_pop_count_default = yes
+								calculate_mtrspony_pop_count_keep_majority = yes
 								spawn_other_mtrspony_species = yes
 							}
 						}
 					}
 				}
 			}
+
+			set_country_flag = using_mtrspony_multi_species_setup
 		}
 	}
 }
