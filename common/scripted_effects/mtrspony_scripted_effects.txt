@@ -633,6 +633,9 @@ spawn_other_mtrspony_species = {
 
 			set_mtrspony_citizenship_full = yes
 			set_mtrspony_military_service_full = yes
+			set_mtrspony_colonisation_allowed = yes
+			set_mtrspony_population_control_none = yes
+			set_mtrspony_migration_control_none = yes
 		}
 	}
 }
@@ -1404,6 +1407,36 @@ set_mtrspony_military_service_full = {
 	event_target:changeling_species = { set_military_service_type = { country = ROOT type = military_service_full } }
 	event_target:yak_species = { set_military_service_type = { country = ROOT type = military_service_full } }
 	event_target:zebra_species = { set_military_service_type = { country = ROOT type = military_service_full } }
+}
+set_mtrspony_colonisation_allowed = {
+	event_target:pony_species = { set_colonization_controls = { country = ROOT type = colonization_control_no } }
+	event_target:griffon_species = { set_colonization_controls = { country = ROOT type = colonization_control_no } }
+	event_target:hippogriff_species = { set_colonization_controls = { country = ROOT type = colonization_control_no } }
+	event_target:dragon_species = { set_colonization_controls = { country = ROOT type = colonization_control_no } }
+	event_target:kirin_species = { set_colonization_controls = { country = ROOT type = colonization_control_no } }
+	event_target:changeling_species = { set_colonization_controls = { country = ROOT type = colonization_control_no } }
+	event_target:yak_species = { set_colonization_controls = { country = ROOT type = colonization_control_no } }
+	event_target:zebra_species = { set_colonization_controls = { country = ROOT type = colonization_control_no } }
+}
+set_mtrspony_population_control_none = {
+	event_target:pony_species = { set_population_controls = { country = ROOT type = population_control_no } }
+	event_target:griffon_species = { set_population_controls = { country = ROOT type = population_control_no } }
+	event_target:hippogriff_species = { set_population_controls = { country = ROOT type = population_control_no } }
+	event_target:dragon_species = { set_population_controls = { country = ROOT type = population_control_no } }
+	event_target:kirin_species = { set_population_controls = { country = ROOT type = population_control_no } }
+	event_target:changeling_species = { set_population_controls = { country = ROOT type = population_control_no } }
+	event_target:yak_species = { set_population_controls = { country = ROOT type = population_control_no } }
+	event_target:zebra_species = { set_population_controls = { country = ROOT type = population_control_no } }
+}
+set_mtrspony_migration_control_none = {
+	event_target:pony_species = { set_migration_controls = { country = ROOT type = migration_control_no } }
+	event_target:griffon_species = { set_migration_controls = { country = ROOT type = migration_control_no } }
+	event_target:hippogriff_species = { set_migration_controls = { country = ROOT type = migration_control_no } }
+	event_target:dragon_species = { set_migration_controls = { country = ROOT type = migration_control_no } }
+	event_target:kirin_species = { set_migration_controls = { country = ROOT type = migration_control_no } }
+	event_target:changeling_species = { set_migration_controls = { country = ROOT type = migration_control_no } }
+	event_target:yak_species = { set_migration_controls = { country = ROOT type = migration_control_no } }
+	event_target:zebra_species = { set_migration_controls = { country = ROOT type = migration_control_no } }
 }
 
 set_giga_species_rights_to_max = {
