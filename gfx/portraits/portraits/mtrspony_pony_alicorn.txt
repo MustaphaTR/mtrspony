@@ -17,6 +17,9 @@ portraits = {
 			"gfx/models/portraits/pony_alicorn/dusk_shine/dusk_shine_alt8.dds"
 			"gfx/models/portraits/pony_alicorn/dusk_shine/dusk_shine_alt9.dds"
 			"gfx/models/portraits/pony_alicorn/dusk_shine/dusk_shine_alt10.dds"
+			"gfx/models/portraits/pony_alicorn/dusk_shine/dusk_shine_alt11.dds"
+			"gfx/models/portraits/pony_alicorn/dusk_shine/dusk_shine_alt12.dds"
+			"gfx/models/portraits/pony_alicorn/dusk_shine/dusk_shine_alt13.dds"
 		}
 
 		custom_attachment_label = "HAIR_COLOR"

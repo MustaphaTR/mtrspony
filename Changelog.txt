@@ -139,3 +139,6 @@
 -- Fixed the workaround for giving Psionic traits to other Faustian species only working on prescripted countries and not on custom empires.
 -- Fixed using the last option of multi-species setup for Lost Colony custom empires, applying the 3rd option's effects to the parent empire.
 -- Fixed other Faustian species starting with Colonisation, Migration and Population controls enabled when playing as a Hive-Mind.
+
+- Version 0.3.3 (XX.05.2025):
+-- Reworked the colors used for Dusk Shine portrait set. Added 3 more colors for it.

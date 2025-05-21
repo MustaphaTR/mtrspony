@@ -22,7 +22,28 @@ on_game_start_country = {
 	}
 }
 
-on_monthly_pulse_country = { # It also triggers when species are modified, there's no on action for that so brute force it with on_monthly_pulse_country.
+# Workaround for named characters losing their portrait when modified.
+on_modification_complete = {
+	events = {
+		cocstart.2
+		tcsstart.2
+		eofstart.2
+		gestart.2
+		#ftstart.2
+		rfstart.2
+		fcstart.2
+		cspstart.2
+		ndestart.2
+		nsstart.2
+
+		uanstart.2
+		hpestart.2
+
+		gigacompat.3
+		gigacompat.4
+	}
+}
+on_monthly_pulse_country = { # Above only triggers with manual species modification, while bug can happen with any kind of modification. So just to be sure.
 	events = {
 		cocstart.2
 		tcsstart.2
