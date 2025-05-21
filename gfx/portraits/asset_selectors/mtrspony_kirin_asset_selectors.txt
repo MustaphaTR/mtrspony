@@ -29,6 +29,8 @@ mtrspony_kirin_pumpkin_smoke_male_hair_selector = {
 				"gfx/models/portraits/kirin/pumpkin_smoke_male/pumpkin_smoke_male_hair_alt12.dds"
 				"gfx/models/portraits/kirin/pumpkin_smoke_male/pumpkin_smoke_male_hair_alt13.dds"
 				"gfx/models/portraits/kirin/pumpkin_smoke_male/pumpkin_smoke_male_hair_alt14.dds"
+				"gfx/models/portraits/kirin/pumpkin_smoke_male/pumpkin_smoke_male_hair_alt15.dds"
+				"gfx/models/portraits/kirin/pumpkin_smoke_male/pumpkin_smoke_male_hair_alt16.dds"
 			}
 		}
 	}
@@ -51,6 +53,8 @@ mtrspony_kirin_pumpkin_smoke_male_hair_selector = {
 				"gfx/models/portraits/kirin/pumpkin_smoke_male/pumpkin_smoke_male_hair_alt12.dds"
 				"gfx/models/portraits/kirin/pumpkin_smoke_male/pumpkin_smoke_male_hair_alt13.dds"
 				"gfx/models/portraits/kirin/pumpkin_smoke_male/pumpkin_smoke_male_hair_alt14.dds"
+				"gfx/models/portraits/kirin/pumpkin_smoke_male/pumpkin_smoke_male_hair_alt15.dds"
+				"gfx/models/portraits/kirin/pumpkin_smoke_male/pumpkin_smoke_male_hair_alt16.dds"
 			}
 		}
 	}
@@ -73,6 +77,8 @@ mtrspony_kirin_pumpkin_smoke_male_hair_selector = {
 				"gfx/models/portraits/kirin/pumpkin_smoke_male/pumpkin_smoke_male_hair_alt12.dds"
 				"gfx/models/portraits/kirin/pumpkin_smoke_male/pumpkin_smoke_male_hair_alt13.dds"
 				"gfx/models/portraits/kirin/pumpkin_smoke_male/pumpkin_smoke_male_hair_alt14.dds"
+				"gfx/models/portraits/kirin/pumpkin_smoke_male/pumpkin_smoke_male_hair_alt15.dds"
+				"gfx/models/portraits/kirin/pumpkin_smoke_male/pumpkin_smoke_male_hair_alt16.dds"
 			}
 		}
 	}

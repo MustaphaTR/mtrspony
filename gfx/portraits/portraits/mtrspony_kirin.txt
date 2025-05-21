@@ -20,6 +20,8 @@ portraits = {
 			"gfx/models/portraits/kirin/pumpkin_smoke_male/pumpkin_smoke_male_alt11.dds"
 			"gfx/models/portraits/kirin/pumpkin_smoke_male/pumpkin_smoke_male_alt12.dds"
 			"gfx/models/portraits/kirin/pumpkin_smoke_male/pumpkin_smoke_male_alt13.dds"
+			"gfx/models/portraits/kirin/pumpkin_smoke_male/pumpkin_smoke_male_alt14.dds"
+			"gfx/models/portraits/kirin/pumpkin_smoke_male/pumpkin_smoke_male_alt15.dds"
 		}
 
 		custom_attachment_label = "HAIR_COLOR"
