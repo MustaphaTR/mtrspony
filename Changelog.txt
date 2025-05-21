@@ -141,4 +141,4 @@
 -- Fixed other Faustian species starting with Colonisation, Migration and Population controls enabled when playing as a Hive-Mind.
 
 - Version 0.3.3 (XX.05.2025):
--- Reworked the colors used for Dusk Shine portrait set. Added 3 more colors for it.
+-- Reworked the colors used for a few portrait sets, and added more color options to them (Dusk Shine, Autumn Blaze).

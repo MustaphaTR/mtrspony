@@ -81,6 +81,9 @@ portraits = {
 			"gfx/models/portraits/kirin/autumn_blaze/autumn_blaze_alt10.dds"
 			"gfx/models/portraits/kirin/autumn_blaze/autumn_blaze_alt11.dds"
 			"gfx/models/portraits/kirin/autumn_blaze/autumn_blaze_alt12.dds"
+			"gfx/models/portraits/kirin/autumn_blaze/autumn_blaze_alt13.dds"
+			"gfx/models/portraits/kirin/autumn_blaze/autumn_blaze_alt14.dds"
+			"gfx/models/portraits/kirin/autumn_blaze/autumn_blaze_alt15.dds"
 		}
 
 		custom_attachment_label = "HAIR_COLOR"
