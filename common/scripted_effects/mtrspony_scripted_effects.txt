@@ -1469,3 +1469,110 @@ set_giga_species_rights_to_max = {
 		set_migration_controls = { country = ROOT type = migration_control_no }
 	}
 }
+
+generate_faust_deposits_and_blockers = {
+	optimize_memory
+	clear_deposits = yes
+	add_deposit = d_magical_jungles
+	add_deposit = d_zebharan_solar_farms
+	add_deposit = d_thundarian_range
+	add_deposit = d_griffking_dam
+	add_deposit = d_rock_farms
+	add_deposit = d_andelayan_mines
+	add_deposit = d_panthalassic_ore_veins
+	add_deposit = d_evi_valley_farmlands
+	add_deposit = d_seaquestrian_algae_farms
+	add_deposit = d_neighle_river_delta
+	add_deposit = d_crystal_mountains
+	if = {
+		limit = {
+			owner = { is_machine_empire = yes }
+		}
+		add_deposit = d_rushing_waterfalls
+	}
+
+	if = {
+		limit = {
+			owner = {
+				is_environmental_architects_empire = yes
+			}
+		}
+		add_random_natural_blocker_and_give_tech = yes
+
+		if = {
+			limit = {
+				owner = { has_valid_civic = civic_machine_servitor }
+			}
+			add_deposit = d_unsupervised_settlement
+		}
+	}
+	else = {
+		add_deposit = d_failing_infrastructure_faust
+		if = {
+			limit = {
+				owner = { has_valid_civic = civic_machine_servitor }
+			}
+			add_deposit = d_hot_springs
+			add_deposit = d_strip_mine
+			add_deposit = d_unsupervised_settlement
+		}
+		else_if = {
+			limit = {
+				owner = {
+					is_hive_empire = yes
+				}
+			}
+
+			add_deposit = d_collapsed_burrows
+		}
+		else = {
+			add_deposit = d_decrepit_dwellings
+		}
+	}
+
+	if = {
+		limit = {
+			owner = {
+				is_lithoid_empire = yes
+				NOT = { has_valid_civic = civic_hive_devouring_swarm }
+			}
+		}
+		while = {
+			count = 4
+			add_deposit = d_hibernating_lithoids
+		}
+	}
+
+	if = {
+		limit = {
+			owner = {
+				is_lithoid_devouring_swarm = yes
+			}
+		}
+		while = {
+			count = 2
+			add_deposit = d_hibernating_lithoids
+		}
+	}
+
+	if = {
+		limit = {
+			owner = {
+				has_origin = origin_life_seeded
+			}
+		}
+
+		set_planet_size = 30
+
+		add_deposit = d_dust_caverns
+		add_deposit = d_bubbling_swamp
+		add_deposit = d_crystalline_caverns
+	}
+
+	if = {
+		limit = {
+			is_planet_class = pc_desert # Just in case players cause trouble
+		}
+		set_planet_flag = tasty_desert
+	}
+}

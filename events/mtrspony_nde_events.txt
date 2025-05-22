@@ -123,6 +123,9 @@ country_event = {
 		}
 
 		capital_scope = {
+			remove_deposit = d_failing_infrastructure_faust
+			add_deposit = d_failing_infrastructure_frost
+
 			calculate_mtrspony_pop_count_keep_majority = yes
 			set_variable = { which = griffon_pops value = 700 } # Placeholder, most of these should be Penguins.
 			set_variable = { which = changeling_pops value = 500 }

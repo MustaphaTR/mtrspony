@@ -71,3 +71,9 @@ on_tradition_picked = { # Workaround to apply tradition effects to all starting 
 		mtrspony.4
 	}
 }
+
+empire_init_capital_planet = {
+	events = {
+		mtrspony.5
+	}
+}

@@ -69,6 +69,7 @@ eaw_vanilla_initializer = {
 		entity = "mtrspony_faust_planet_entity"
 		modifiers = none
 		starting_planet = yes
+		flags = { planet_faust }
 
 		moon = {
 			name = "NAME_Selene"
@@ -238,7 +239,7 @@ ns_eaw_vanilla_initializer = {
 		has_ring = no
 		entity = "mtrspony_faust_planet_entity"
 		modifiers = none
-		flags = { lost_colony_homeworld }
+		flags = { lost_colony_homeworld planet_faust }
 
 		init_effect = {
 			prevent_anomaly = yes
@@ -306,7 +307,7 @@ ns_eaw_vanilla_initializer = {
 						owner = event_target:united_allied_nations
 					}
 					set_planet_size = 18
-					generate_start_deposits_and_blockers = yes
+					generate_faust_deposits_and_blockers = yes
 					clear_blockers = yes
 					generate_start_buildings_and_districts = yes
 					generate_start_pops = yes
@@ -375,7 +376,7 @@ ns_eaw_vanilla_initializer = {
 						owner = event_target:holy_pony_empire
 					}
 					set_planet_size = 18
-					generate_start_deposits_and_blockers = yes
+					generate_faust_deposits_and_blockers = yes
 					clear_blockers = yes
 					generate_start_buildings_and_districts = yes
 					generate_start_pops = yes
@@ -575,6 +576,7 @@ eawaf_vanilla_initializer = {
 		entity = "mtrspony_faust_planet_entity"
 		modifiers = none
 		starting_planet = yes
+		flags = { planet_faust }
 
 		init_effect = {
 			prevent_anomaly = yes

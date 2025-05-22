@@ -1,0 +1,410 @@
+## Possible Deposit Variables ##
+# resources, resource and amount
+# potential trigger (planet scope)
+# planet_modifier - applied to planet only when deposit blocker has been cleared
+# constant_modifier - applied to planet always
+# blocker = <key/any/none> - default any
+# station = station class in orbit to gather
+
+@high = 16
+@med = 8
+@low = 4
+
+@high_rare = 2
+@med_rare = 1
+@low_rare = 0.5
+
+# Faust Deposits
+d_magical_jungles = {
+	icon = d_dense_jungle
+	time = 180
+
+	is_for_colonizable = yes
+	category = deposit_cat_blockers
+
+	can_be_cleared = {
+		custom_tooltip = {
+			fail_text = has_ranger_lodge
+			planet = {
+				NOT = { has_building = building_ranger_lodge }
+			}
+		}
+	}
+
+	resources = {
+		category = deposit_blockers_natural
+		cost = {
+			energy = 500
+		}
+	}
+
+	planet_modifier = {
+		planet_max_districts_add = -1
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			biologist_is_ranger_trigger = yes
+		}
+		planet_biologists_food_produces_add = @ranger_small_production
+	}
+
+	on_cleared = {
+		hidden_effect = {
+			give_bio_repurposing_reward_on_organic_deposit_cleared = yes
+		}
+		planetscaper_pop_effect = yes
+		give_evolutionary_predator_situation_progress = { PROGRESS = @evopred_large_blocker_progress }
+	}
+
+	blocker_swap_types = {
+		d_south_eastern_jungles
+	}
+
+	inline_script = deposits/ai_weight_natural_blocker
+
+	drop_weight = {
+		weight = 0
+	}
+
+	prerequisites = { "tech_dense_jungle" }
+}
+
+d_failing_infrastructure_faust = {
+	icon = d_metal_boneyard
+	time = 120
+
+	is_for_colonizable = yes
+	category = deposit_cat_blockers
+
+	potential = { always = no }
+
+	planet_modifier = {
+		planet_max_districts_add = -1
+	}
+
+	use_weights_for_blocker_swap_types = no
+
+	blocker_swap_types = {
+		d_greater_vesalipolitian_metropolis
+	}
+
+	resources = {
+		category = deposit_blockers
+		cost = {
+			energy = 300
+		}
+	}
+}
+
+d_greater_vesalipolitian_metropolis = {
+	is_for_colonizable = yes
+	icon = d_city
+
+	planet_modifier = {
+		district_generator_max = 2
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			always = yes
+		}
+		district_generator_max = 2
+		mult = value:natural_desposit_district_amount_multiplier
+	}
+
+	drop_weight = {
+		weight = 0
+	}
+}
+
+d_zebharan_solar_farms = {
+	is_for_colonizable = yes
+	icon = d_searing_desert
+
+	planet_modifier = {
+		district_generator_max = 3
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			always = yes
+		}
+		district_generator_max = 3
+		mult = value:natural_desposit_district_amount_multiplier
+	}
+
+	drop_weight = {
+		weight = 0
+	}
+}
+
+d_thundarian_range = {
+	is_for_colonizable = yes
+	icon = d_tempestous_mountain
+
+	planet_modifier = {
+		district_generator_max = 2
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			always = yes
+		}
+		district_generator_max = 2
+		mult = value:natural_desposit_district_amount_multiplier
+	}
+
+	drop_weight = {
+		weight = 0
+	}
+}
+
+d_griffking_dam = {
+	is_for_colonizable = yes
+	icon = d_great_river
+
+	planet_modifier = {
+		district_generator_max = 1
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			always = yes
+		}
+		district_generator_max = 1
+		mult = value:natural_desposit_district_amount_multiplier
+	}
+
+	drop_weight = {
+		weight = 0
+	}
+}
+
+d_rock_farms = {
+	is_for_colonizable = yes
+	icon = d_mineral_fields
+
+	planet_modifier = {
+		district_mining_max = 1
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			always = yes
+		}
+		district_mining_max = 1
+		mult = value:natural_desposit_district_amount_multiplier
+	}
+
+	drop_weight = {
+		weight = 0
+	}
+}
+
+d_andelayan_mines = {
+	is_for_colonizable = yes
+	icon = d_rich_mountain
+
+	planet_modifier = {
+		district_mining_max = 3
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			always = yes
+		}
+		district_mining_max = 3
+		mult = value:natural_desposit_district_amount_multiplier
+	}
+
+	drop_weight = {
+		weight = 0
+	}
+}
+
+d_panthalassic_ore_veins = {
+	is_for_colonizable = yes
+	icon = d_submerged_ore_veins
+
+	planet_modifier = {
+		district_mining_max = 3
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			always = yes
+		}
+		district_mining_max = 3
+		mult = value:natural_desposit_district_amount_multiplier
+	}
+
+	drop_weight = {
+		weight = 0
+	}
+}
+
+d_evi_valley_farmlands = {
+	is_for_colonizable = yes
+	icon = d_bountiful_plains
+
+	planet_modifier = {
+		district_farming_max = 1
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			always = yes
+		}
+		district_farming_max = 1
+		mult = value:natural_desposit_district_amount_multiplier
+	}
+
+	drop_weight = {
+		weight = 0
+	}
+}
+
+d_seaquestrian_algae_farms = {
+	is_for_colonizable = yes
+	icon = d_toxic_kelp
+
+	planet_modifier = {
+		district_farming_max = 1
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			always = yes
+		}
+		district_farming_max = 1
+		mult = value:natural_desposit_district_amount_multiplier
+	}
+
+	drop_weight = {
+		weight = 0
+	}
+}
+
+d_neighle_river_delta = {
+	is_for_colonizable = yes
+	icon = d_marvelous_oasis
+
+	planet_modifier = {
+		district_farming_max = 2
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			always = yes
+		}
+		district_farming_max = 2
+		mult = value:natural_desposit_district_amount_multiplier
+	}
+
+	drop_weight = {
+		weight = 0
+	}
+}
+
+d_south_eastern_jungles = {
+	is_for_colonizable = yes
+	icon = d_lush_jungle
+
+	planet_modifier = {
+		district_farming_max = 2
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			always = yes
+		}
+		district_farming_max = 2
+		mult = value:natural_desposit_district_amount_multiplier
+	}
+
+	drop_weight = {
+		weight = 0
+	}
+}
+
+d_crystal_mountains = {
+	is_for_colonizable = yes
+	icon = d_crystalline_caverns
+
+	triggered_planet_modifier = {
+		potential = {
+			always = yes
+		}
+		#potential = {
+		#	exists = owner
+		#	owner = {
+		#		has_technology = tech_mine_rare_crystals
+		#	}
+		#}
+		planet_miners_rare_crystals_produces_add = 0.2
+	}
+
+	planet_modifier = {
+		district_mining_max = 2
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			always = yes
+		}
+		district_mining_max = 2
+		mult = value:natural_desposit_district_amount_multiplier
+	}
+
+	drop_weight = {
+		weight = 0
+	}
+}
+
+# Used by Empire of Frost Specifically.
+d_failing_infrastructure_frost = {
+	icon = d_metal_boneyard
+	time = 120
+
+	is_for_colonizable = yes
+	category = deposit_cat_blockers
+
+	potential = { always = no }
+
+	planet_modifier = {
+		planet_max_districts_add = -1
+	}
+
+	use_weights_for_blocker_swap_types = no
+
+	blocker_swap_types = { d_geirfundsen_metrapolitian_area }
+
+	resources = {
+		category = deposit_blockers
+		cost = {
+			energy = 300
+		}
+	}
+}
+
+d_geirfundsen_metrapolitian_area = {
+	is_for_colonizable = yes
+	icon = d_city
+
+	planet_modifier = {
+		district_generator_max = 2
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			always = yes
+		}
+		district_generator_max = 2
+		mult = value:natural_desposit_district_amount_multiplier
+	}
+
+	drop_weight = {
+		weight = 0
+	}
+}

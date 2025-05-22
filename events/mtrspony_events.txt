@@ -198,3 +198,27 @@ country_event = {
 		}
 	}
 }
+
+# this: capital planet
+# from: founder species
+planet_event = {
+	id = mtrspony.5
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		has_planet_flag = planet_faust
+	}
+	immediate = {
+		if = {
+			limit = {
+				NOR = {
+					owner = { has_origin = origin_shattered_ring }	 #setup in initializer
+					owner = { has_origin = origin_remnants }		 #custom blockers
+				}
+			}
+
+			generate_faust_deposits_and_blockers = yes
+		}
+	}
+}
