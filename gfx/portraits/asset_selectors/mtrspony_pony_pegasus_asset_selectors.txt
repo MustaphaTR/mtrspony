@@ -1069,6 +1069,7 @@ mtrspony_pony_pegasus_scootaloo_hair_selector = {
 				"gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_hair_alt11.dds"
 				"gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_hair_alt12.dds"
 				"gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_hair_alt13.dds"
+				"gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_hair_alt14.dds"
 			}
 		}
 	}
@@ -1090,6 +1091,7 @@ mtrspony_pony_pegasus_scootaloo_hair_selector = {
 				"gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_hair_alt11.dds"
 				"gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_hair_alt12.dds"
 				"gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_hair_alt13.dds"
+				"gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_hair_alt14.dds"
 			}
 		}
 	}
@@ -1111,6 +1113,7 @@ mtrspony_pony_pegasus_scootaloo_hair_selector = {
 				"gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_hair_alt11.dds"
 				"gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_hair_alt12.dds"
 				"gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_hair_alt13.dds"
+				"gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_hair_alt14.dds"
 			}
 		}
 	}
