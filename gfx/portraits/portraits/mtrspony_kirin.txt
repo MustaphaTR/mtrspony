@@ -58,6 +58,9 @@ portraits = {
 			"gfx/models/portraits/kirin/rain_shine/rain_shine_alt10.dds"
 			"gfx/models/portraits/kirin/rain_shine/rain_shine_alt11.dds"
 			"gfx/models/portraits/kirin/rain_shine/rain_shine_alt12.dds"
+			"gfx/models/portraits/kirin/rain_shine/rain_shine_alt13.dds"
+			"gfx/models/portraits/kirin/rain_shine/rain_shine_alt14.dds"
+			"gfx/models/portraits/kirin/rain_shine/rain_shine_alt15.dds"
 		}
 
 		custom_attachment_label = "HAIR_COLOR"
