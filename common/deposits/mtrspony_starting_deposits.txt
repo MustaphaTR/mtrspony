@@ -334,14 +334,20 @@ d_crystal_mountains = {
 
 	triggered_planet_modifier = {
 		potential = {
-			always = yes
+			exists = owner
+			owner = {
+				NOT = { has_technology = tech_mine_rare_crystals }
+			}
 		}
-		#potential = {
-		#	exists = owner
-		#	owner = {
-		#		has_technology = tech_mine_rare_crystals
-		#	}
-		#}
+		planet_miners_rare_crystals_produces_add = 0.1
+	}
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				has_technology = tech_mine_rare_crystals
+			}
+		}
 		planet_miners_rare_crystals_produces_add = 0.2
 	}
 
@@ -378,7 +384,7 @@ d_failing_infrastructure_frost = {
 
 	use_weights_for_blocker_swap_types = no
 
-	blocker_swap_types = { d_geirfundsen_metrapolitian_area }
+	blocker_swap_types = { d_geirfundsen_metropolitan_area }
 
 	resources = {
 		category = deposit_blockers
@@ -388,7 +394,7 @@ d_failing_infrastructure_frost = {
 	}
 }
 
-d_geirfundsen_metrapolitian_area = {
+d_geirfundsen_metropolitan_area = {
 	is_for_colonizable = yes
 	icon = d_city
 
