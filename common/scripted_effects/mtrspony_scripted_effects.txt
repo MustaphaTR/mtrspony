@@ -1,43 +1,77 @@
 save_current_mtrspony_species = {
-	if = {
-		limit = { has_mtrspony_pony_portrait = yes }
+	every_country = {
+		if = {
+			limit = { has_mtrspony_pony_portrait = yes }
 
-		owner_main_species = { save_global_event_target_as = pony_species }
-	}
-	else_if = {
-		limit = { species_portrait = mtrspony_griffon }
+			owner_main_species = {
+				save_global_event_target_as = pony_species
+				set_global_flag = pony_species_created
+				set_species_flag = species_creator@PREV
+			}
+		}
+		else_if = {
+			limit = { species_portrait = mtrspony_griffon }
 
-		owner_main_species = { save_global_event_target_as = griffon_species }
-	}
-	else_if = {
-		limit = { species_portrait = mtrspony_hippogriff }
+			owner_main_species = {
+				save_global_event_target_as = griffon_species
+				set_global_flag = griffon_species_created
+				set_species_flag = species_creator@PREV
+			}
+		}
+		else_if = {
+			limit = { species_portrait = mtrspony_zebra }
 
-		owner_main_species = { save_global_event_target_as = hippogriff_species }
-	}
-	else_if = {
-		limit = { species_portrait = mtrspony_dragon }
+			owner_main_species = {
+				save_global_event_target_as = zebra_species
+				set_global_flag = zebra_species_created
+				set_species_flag = species_creator@PREV
+			}
+		}
+		else_if = {
+			limit = { species_portrait = mtrspony_changeling }
 
-		owner_main_species = { save_global_event_target_as = dragon_species }
-	}
-	else_if = {
-		limit = { species_portrait = mtrspony_kirin }
+			owner_main_species = {
+				save_global_event_target_as = changeling_species
+				set_global_flag = changeling_species_created
+				set_species_flag = species_creator@PREV
+			}
+		}
+		else_if = {
+			limit = { species_portrait = mtrspony_hippogriff }
 
-		owner_main_species = { save_global_event_target_as = kirin_species }
-	}
-	else_if = {
-		limit = { species_portrait = mtrspony_changeling }
+			owner_main_species = {
+				save_global_event_target_as = hippogriff_species
+				set_global_flag = hippogriff_species_created
+				set_species_flag = species_creator@PREV
+			}
+		}
+		else_if = {
+			limit = { species_portrait = mtrspony_kirin }
 
-		owner_main_species = { save_global_event_target_as = changeling_species }
-	}
-	else_if = {
-		limit = { species_portrait = mtrspony_yak }
+			owner_main_species = {
+				save_global_event_target_as = kirin_species
+				set_global_flag = kirin_species_created
+				set_species_flag = species_creator@PREV
+			}
+		}
+		else_if = {
+			limit = { species_portrait = mtrspony_yak }
 
-		owner_main_species = { save_global_event_target_as = yak_species }
-	}
-	else_if = {
-		limit = { species_portrait = mtrspony_zebra }
+			owner_main_species = {
+				save_global_event_target_as = yak_species
+				set_global_flag = yak_species_created
+				set_species_flag = species_creator@PREV
+			}
+		}
+		else_if = {
+			limit = { species_portrait = mtrspony_dragon }
 
-		owner_main_species = { save_global_event_target_as = zebra_species }
+			owner_main_species = {
+				save_global_event_target_as = dragon_species
+				set_global_flag = dragon_species_created
+				set_species_flag = species_creator@PREV
+			}
+		}
 	}
 }
 
@@ -530,44 +564,44 @@ calculate_pops_to_remove = {
 
 create_other_mtrspony_species = {
 	if = {
-		limit = { has_mtrspony_pony_portrait = no }
+		limit = { NOT = { has_global_flag = pony_species_created } }
 
 		create_pony_species = yes
 	}
 	if = {
-		limit = { NOT = { species_portrait = mtrspony_griffon } }
+		limit = { NOT = { has_global_flag = griffon_species_created } }
 
 		create_griffon_species = yes
 	}
 	if = {
-		limit = { NOT = { species_portrait = mtrspony_hippogriff } }
+		limit = { NOT = { has_global_flag = zebra_species_created } }
 
-		create_hippogriff_species = yes
+		create_zebra_species = yes
 	}
 	if = {
-		limit = { NOT = { species_portrait = mtrspony_dragon } }
-
-		create_dragon_species = yes
-	}
-	if = {
-		limit = { NOT = { species_portrait = mtrspony_kirin } }
-
-		create_kirin_species = yes
-	}
-	if = {
-		limit = { NOT = { species_portrait = mtrspony_changeling } }
+		limit = { NOT = { has_global_flag = changeling_species_created } }
 
 		create_changeling_species = yes
 	}
 	if = {
-		limit = { NOT = { species_portrait = mtrspony_yak } }
+		limit = { NOT = { has_global_flag = hippogriff_species_created } }
+
+		create_hippogriff_species = yes
+	}
+	if = {
+		limit = { NOT = { has_global_flag = kirin_species_created } }
+
+		create_kirin_species = yes
+	}
+	if = {
+		limit = { NOT = { has_global_flag = yak_species_created } }
 
 		create_yak_species = yes
 	}
 	if = {
-		limit = { NOT = { species_portrait = mtrspony_zebra } }
+		limit = { NOT = { has_global_flag = dragon_species_created } }
 
-		create_zebra_species = yes
+		create_dragon_species = yes
 	}
 }
 spawn_other_mtrspony_species = {
@@ -613,7 +647,7 @@ spawn_other_mtrspony_species = {
 	}
 
 	remove_x_ROOT_species_pops = yes
-	add_extra_traits_to_mtrspony_species = yes
+	setup_extra_traits_to_mtrspony_species = yes
 
 	owner = {
 		if = {
@@ -640,370 +674,351 @@ spawn_other_mtrspony_species = {
 	}
 }
 
-add_extra_traits_to_mtrspony_species = {
+setup_extra_traits_to_mtrspony_species = {
 	# Authority
 	if = {
 		limit = { owner_main_species = { has_trait = trait_hive_mind } }
 
-		every_owned_species = {
-			limit = { is_same_species_with_faustian_races = yes }
-
-			change_species_characteristics = { add_trait = trait_hive_mind }
-		}
+		add_trait_to_mtrspony_species_effect = { TRAIT = trait_hive_mind }
 	}
+	else = { remove_trait_from_mtrspony_species_effect = { TRAIT = trait_hive_mind } }
 
 	# Origin
 	if = {
 		limit = { owner_main_species = { has_trait = trait_survivor } }
 
-		every_owned_species = {
-			limit = { is_same_species_with_faustian_races = yes }
-
-			change_species_characteristics = { add_trait = trait_survivor }
-			change_species_characteristics = { remove_trait = trait_pc_nuked_preference }
-		}
-		add_original_species_pc_trait = yes
+		add_trait_to_mtrspony_species_effect = { TRAIT = trait_survivor }
 	}
-	else_if = {
+	else = { remove_trait_from_mtrspony_species_effect = { TRAIT = trait_survivor } }
+
+	if = {
 		limit = { owner_main_species = { has_trait = trait_void_dweller_1 } }
 
-		every_owned_species = {
-			limit = { is_same_species_with_faustian_races = yes }
-
-			change_species_characteristics = { add_trait = trait_void_dweller_1 }
-		}
+		add_trait_to_mtrspony_species_effect = { TRAIT = trait_void_dweller_1 }
 	}
-	else_if = {
+	else = { remove_trait_from_mtrspony_species_effect = { TRAIT = trait_void_dweller_1 } }
+
+	if = {
 		limit = { owner_main_species = { has_trait = trait_unplugged_cybernetic_positives_3 } }
 
-		every_owned_species = {
-			limit = { is_same_species_with_faustian_races = yes }
-
-			change_species_characteristics = { add_trait = trait_unplugged_cybernetic_positives_3 }
-			change_species_characteristics = { add_trait = trait_unplugged_cybernetic_negatives_3 }
-		}
+		add_trait_to_mtrspony_species_effect = { TRAIT = trait_unplugged_cybernetic_positives_3 }
+		add_trait_to_mtrspony_species_effect = { TRAIT = trait_unplugged_cybernetic_negatives_3 }
 	}
-	else_if = {
+	else = {
+		remove_trait_from_mtrspony_species_effect = { TRAIT = trait_unplugged_cybernetic_positives_3 }
+		remove_trait_from_mtrspony_species_effect = { TRAIT = trait_unplugged_cybernetic_negatives_3 }
+	}
+
+	if = {
 		limit = { owner_main_species = { has_trait = trait_necrophage } }
 
-		every_owned_species = {
-			limit = { is_same_species_with_faustian_races = yes }
-
-			change_species_characteristics = { add_trait = trait_necrophage }
-		}
+		add_trait_to_mtrspony_species_effect = { TRAIT = trait_necrophage }
 	}
-	else_if = {
+	else = { remove_trait_from_mtrspony_species_effect = { TRAIT = trait_necrophage } }
+
+	if = {
 		limit = { owner_main_species = { has_trait = trait_clone_soldier_infertile } }
 
-		every_owned_species = {
-			limit = { is_same_species_with_faustian_races = yes }
-
-			change_species_characteristics = { add_trait = trait_clone_soldier_infertile }
-		}
+		add_trait_to_mtrspony_species_effect = { TRAIT = trait_clone_soldier_infertile }
 	}
-	else_if = {
+	else = { remove_trait_from_mtrspony_species_effect = { TRAIT = trait_clone_soldier_infertile } }
+
+	if = {
 		limit = { owner_main_species = { has_trait = trait_cave_dweller } }
 
-		every_owned_species = {
-			limit = { is_same_species_with_faustian_races = yes }
-
-			change_species_characteristics = { add_trait = trait_cave_dweller }
-		}
+		add_trait_to_mtrspony_species_effect = { TRAIT = trait_cave_dweller }
 	}
-	else_if = {
+	else = { remove_trait_from_mtrspony_species_effect = { TRAIT = trait_cave_dweller } }
+
+	if = {
 		limit = { owner_main_species = { has_trait = trait_latent_psionic } }
 
-		every_owned_species = {
-			limit = { is_same_species_with_faustian_races = yes }
-
-			change_species_characteristics = { add_trait = trait_latent_psionic }
-		}
+		add_trait_to_mtrspony_species_effect = { TRAIT = trait_latent_psionic }
 	}
-	else_if = {
+	else = { remove_trait_from_mtrspony_species_effect = { TRAIT = trait_latent_psionic } }
+
+	if = {
 		limit = { owner_main_species = { has_trait = trait_perfected_genes } }
 
-		every_owned_species = {
-			limit = { is_same_species_with_faustian_races = yes }
-
-			change_species_characteristics = { add_trait = trait_perfected_genes }
-		}
+		add_trait_to_mtrspony_species_effect = { TRAIT = trait_perfected_genes }
 	}
-	else_if = {
+	else = { remove_trait_from_mtrspony_species_effect = { TRAIT = trait_perfected_genes } }
+
+	if = {
 		limit = { owner_main_species = { has_trait = trait_pathogenic_genes } }
 
 		# TODO: This gives 1 more trait points, rest of the traits could use adjustments.
-		every_owned_species = {
-			limit = { is_same_species_with_faustian_races = yes }
-
-			change_species_characteristics = { add_trait = trait_pathogenic_genes }
-		}
+		add_trait_to_mtrspony_species_effect = { TRAIT = trait_pathogenic_genes }
 	}
-	else_if = {
+	else = { remove_trait_from_mtrspony_species_effect = { TRAIT = trait_pathogenic_genes } }
+
+	if = {
 		limit = { owner_main_species = { has_trait = trait_malleable_genes } }
 
-		every_owned_species = {
-			limit = { is_same_species_with_faustian_races = yes }
-
-			change_species_characteristics = { add_trait = trait_malleable_genes }
-		}
+		add_trait_to_mtrspony_species_effect = { TRAIT = trait_malleable_genes }
 		if = {
 			limit = { NOT = { owner_main_species = { is_same_species = event_target:pony_species } } }
 
-			event_target:pony_species = {
-				change_species_characteristics = { remove_trait = trait_talented }
-				change_species_characteristics = { add_trait = trait_slow_breeders }
-				change_species_characteristics = { add_trait = trait_unruly }
-				change_species_characteristics = { add_trait = trait_quarrelsome }
-			}
+			remove_trait_from_mtrspony_species_effect = { SPECIES = event_target:pony_species TRAIT = trait_talented }
+			add_trait_to_mtrspony_species_effect = { SPECIES = event_target:pony_species TRAIT = trait_slow_breeders }
+			add_trait_to_mtrspony_species_effect = { SPECIES = event_target:pony_species TRAIT = trait_unruly }
+			add_trait_to_mtrspony_species_effect = { SPECIES = event_target:pony_species TRAIT = trait_quarrelsome }
 		}
 		if = {
 			limit = { NOT = { owner_main_species = { is_same_species = event_target:griffon_species } } }
 
-			event_target:griffon_species = {
-				change_species_characteristics = { remove_trait = trait_resilient }
-				change_species_characteristics = { add_trait = trait_slow_breeders }
-				change_species_characteristics = { add_trait = trait_unruly }
-				change_species_characteristics = { add_trait = trait_deviants }
-			}
+			remove_trait_from_mtrspony_species_effect = { SPECIES = event_target:griffon_species TRAIT = trait_resilient }
+			add_trait_to_mtrspony_species_effect = { SPECIES = event_target:griffon_species TRAIT = trait_slow_breeders }
+			add_trait_to_mtrspony_species_effect = { SPECIES = event_target:griffon_species TRAIT = trait_unruly }
+			add_trait_to_mtrspony_species_effect = { SPECIES = event_target:griffon_species TRAIT = trait_deviants }
 		}
 		if = {
 			limit = { NOT = { owner_main_species = { is_same_species = event_target:zebra_species } } }
 
-			event_target:zebra_species = {
-				change_species_characteristics = { remove_trait = trait_natural_physicists }
-				change_species_characteristics = { add_trait = trait_slow_breeders }
-				change_species_characteristics = { add_trait = trait_unruly }
-				change_species_characteristics = { add_trait = trait_solitary }
-			}
+			remove_trait_from_mtrspony_species_effect = { SPECIES = event_target:zebra_species TRAIT = trait_natural_physicists }
+			add_trait_to_mtrspony_species_effect = { SPECIES = event_target:zebra_species TRAIT = trait_slow_breeders }
+			add_trait_to_mtrspony_species_effect = { SPECIES = event_target:zebra_species TRAIT = trait_unruly }
+			add_trait_to_mtrspony_species_effect = { SPECIES = event_target:zebra_species TRAIT = trait_solitary }
 		}
 		if = {
 			limit = { NOT = { owner_main_species = { is_same_species = event_target:changeling_species } } }
 
-			event_target:changeling_species = {
-				change_species_characteristics = { remove_trait = trait_communal }
-				change_species_characteristics = { add_trait = trait_slow_breeders }
-				change_species_characteristics = { add_trait = trait_repugnant }
-				change_species_characteristics = { add_trait = trait_slow_learners }
-			}
+			remove_trait_from_mtrspony_species_effect = { SPECIES = event_target:changeling_species TRAIT = trait_communal }
+			add_trait_to_mtrspony_species_effect = { SPECIES = event_target:changeling_species TRAIT = trait_slow_breeders }
+			add_trait_to_mtrspony_species_effect = { SPECIES = event_target:changeling_species TRAIT = trait_repugnant }
+			add_trait_to_mtrspony_species_effect = { SPECIES = event_target:changeling_species TRAIT = trait_slow_learners }
 		}
 		if = {
 			limit = { NOT = { owner_main_species = { is_same_species = event_target:hippogriff_species } } }
 
-			event_target:hippogriff_species = {
-				change_species_characteristics = { remove_trait = trait_nomadic }
-				change_species_characteristics = { add_trait = trait_slow_breeders }
-				change_species_characteristics = { add_trait = trait_unruly }
-				change_species_characteristics = { add_trait = trait_wasteful }
-			}
+			remove_trait_from_mtrspony_species_effect = { SPECIES = event_target:hippogriff_species TRAIT = trait_nomadic }
+			add_trait_to_mtrspony_species_effect = { SPECIES = event_target:hippogriff_species TRAIT = trait_slow_breeders }
+			add_trait_to_mtrspony_species_effect = { SPECIES = event_target:hippogriff_species TRAIT = trait_unruly }
+			add_trait_to_mtrspony_species_effect = { SPECIES = event_target:hippogriff_species TRAIT = trait_wasteful }
 		}
 		if = {
 			limit = { NOT = { owner_main_species = { is_same_species = event_target:kirin_species } } }
 
-			event_target:kirin_species = {
-				change_species_characteristics = { remove_trait = trait_natural_engineers }
-				change_species_characteristics = { add_trait = trait_slow_breeders }
-				change_species_characteristics = { add_trait = trait_unruly }
-				change_species_characteristics = { add_trait = trait_deviants }
-			}
+			remove_trait_from_mtrspony_species_effect = { SPECIES = event_target:kirin_species TRAIT = trait_natural_engineers }
+			add_trait_to_mtrspony_species_effect = { SPECIES = event_target:kirin_species TRAIT = trait_slow_breeders }
+			add_trait_to_mtrspony_species_effect = { SPECIES = event_target:kirin_species TRAIT = trait_unruly }
+			add_trait_to_mtrspony_species_effect = { SPECIES = event_target:kirin_species TRAIT = trait_deviants }
 		}
 		if = {
 			limit = { NOT = { owner_main_species = { is_same_species = event_target:yak_species } } }
 
-			event_target:yak_species = {
-				change_species_characteristics = { remove_trait = trait_nomadic }
-				change_species_characteristics = { remove_trait = trait_strong }
-				change_species_characteristics = { add_trait = trait_slow_breeders }
-				change_species_characteristics = { add_trait = trait_unruly }
-			}
+			remove_trait_from_mtrspony_species_effect = { SPECIES = event_target:yak_species TRAIT = trait_nomadic }
+			remove_trait_from_mtrspony_species_effect = { SPECIES = event_target:yak_species TRAIT = trait_strong }
+			add_trait_to_mtrspony_species_effect = { SPECIES = event_target:yak_species TRAIT = trait_slow_breeders }
+			add_trait_to_mtrspony_species_effect = { SPECIES = event_target:yak_species TRAIT = trait_unruly }
 		}
 		if = {
 			limit = { NOT = { owner_main_species = { is_same_species = event_target:dragon_species } } }
 
-			event_target:dragon_species = {
-				change_species_characteristics = { remove_trait = trait_strong }
-				change_species_characteristics = { remove_trait = trait_solitary }
-				change_species_characteristics = { add_trait = trait_repugnant }
-				change_species_characteristics = { add_trait = trait_unruly }
-				change_species_characteristics = { add_trait = trait_nonadaptive }
-			}
+			remove_trait_from_mtrspony_species_effect = { SPECIES = event_target:dragon_species TRAIT = trait_strong }
+			remove_trait_from_mtrspony_species_effect = { SPECIES = event_target:dragon_species TRAIT = trait_solitary }
+			add_trait_to_mtrspony_species_effect = { SPECIES = event_target:dragon_species TRAIT = trait_repugnant }
+			add_trait_to_mtrspony_species_effect = { SPECIES = event_target:dragon_species TRAIT = trait_unruly }
+			add_trait_to_mtrspony_species_effect = { SPECIES = event_target:dragon_species TRAIT = trait_nonadaptive }
 		}
 	}
-	else_if = {
+	else = { remove_trait_from_mtrspony_species_effect = { TRAIT = trait_malleable_genes } } # TODO: REVERT TRAIT CHANGES
+
+	if = {
 		limit = { owner_main_species = { has_trait = trait_wilderness } }
 
-		every_owned_species = {
-			limit = { is_same_species_with_faustian_races = yes }
-
-			if = {
-				limit = { has_trait = trait_nomadic }
-				
-				change_species_characteristics = { remove_trait = trait_nomadic }
-				change_species_characteristics = { add_trait = trait_communal }
-			}
-			else_if = {
-				limit = { has_trait = trait_sedentary }
-				
-				change_species_characteristics = { remove_trait = trait_sedentary }
-				change_species_characteristics = { add_trait = trait_solitary }
-			}
-			change_species_characteristics = { add_trait = trait_wilderness }
-		}
+		replace_traits_on_mtrspony_species_effect = { REMOVE_TRAIT = trait_nomadic ADD_TRAIT = trait_communal }
+		replace_traits_on_mtrspony_species_effect = { REMOVE_TRAIT = trait_sedentary ADD_TRAIT = trait_solitary }
+		add_trait_to_mtrspony_species_effect = { TRAIT = trait_wilderness }
 	}
+	else = { remove_trait_from_mtrspony_species_effect = { TRAIT = trait_wilderness } } # TODO: REVERT TRAIT CHANGES
 
 	# Civic
 	if = {
 		limit = { owner_main_species = { has_trait = trait_stargazer } }
 
-		every_owned_species = {
-			limit = { is_same_species_with_faustian_races = yes }
-
-			if = {
-				limit = { has_trait = trait_sedentary }
-				
-				change_species_characteristics = { remove_trait = trait_sedentary }
-				change_species_characteristics = { add_trait = trait_solitary }
-			}
-			change_species_characteristics = { add_trait = trait_stargazer }
-		}
+		replace_traits_on_mtrspony_species_effect = { REMOVE_TRAIT = trait_sedentary ADD_TRAIT = trait_solitary }
+		add_trait_to_mtrspony_species_effect = { TRAIT = trait_stargazer }
 	}
+	else = { remove_trait_from_mtrspony_species_effect = { TRAIT = trait_stargazer } } # TODO: REVERT TRAIT CHANGES
+
 	if = {
 		limit = { owner_main_species = { has_trait = trait_storm_touched } }
 
-		every_owned_species = {
-			limit = { is_same_species_with_faustian_races = yes }
-
-			change_species_characteristics = { add_trait = trait_storm_touched }
-		}
+		add_trait_to_mtrspony_species_effect = { TRAIT = trait_storm_touched }
 	}
+	else = { remove_trait_from_mtrspony_species_effect = { TRAIT = trait_storm_touched } }
 
 	# Other
 	if = {
 		limit = { owner_main_species = { has_trait = trait_aquatic } }
 
 		# TODO: This eats up 2 trait points, rest of the traits will need adjustments.
-		every_owned_species = {
-			limit = { is_same_species_with_faustian_races = yes }
+		add_trait_to_mtrspony_species_effect = { TRAIT = trait_aquatic }
+	}
+	else = { remove_trait_from_mtrspony_species_effect = { TRAIT = trait_aquatic } }
 
-			change_species_characteristics = { add_trait = trait_aquatic }
+	add_original_species_pc_trait = yes
+}
+
+add_trait_to_mtrspony_species_effect = {
+	every_owned_pop_group = {
+		limit = {
+			[[SPECIES] is_same_species = $SPECIES$ ]
+			[[!SPECIES] is_same_species_with_other_faustian_races = yes	]
+			NOT = { has_trait = $TRAIT$ }
+		}
+
+		if = {
+			limit = { species = { has_species_flag = species_creator@PREV.owner } }
+
+			species = { change_species_characteristics = { add_trait = $TRAIT$ } }
+		}
+		else = {
+			modify_species = {
+				species = species
+				add_trait = $TRAIT$
+			}
 		}
 	}
 }
+replace_traits_on_mtrspony_species_effect = {
+	every_owned_pop_group = {
+		limit = {
+			[[SPECIES] is_same_species = $SPECIES$ ]
+			[[!SPECIES] is_same_species_with_other_faustian_races = yes	]
+			has_trait = $REMOVE_TRAIT$
+		}
+
+		if = {
+			limit = { species = { has_species_flag = species_creator@PREV.owner } }
+
+			species = { 
+				change_species_characteristics = { remove_trait = $REMOVE_TRAIT$ }
+				change_species_characteristics = { add_trait = $ADD_TRAIT$ }
+			}
+		}
+		else = {
+			modify_species = {
+				species = species
+				remove_trait = $REMOVE_TRAIT$
+				add_trait = $ADD_TRAIT$
+			}
+		}
+	}
+}
+remove_trait_from_mtrspony_species_effect = {
+	every_owned_pop_group = {
+		limit = {
+			[[SPECIES] is_same_species = $SPECIES$ ]
+			[[!SPECIES] is_same_species_with_other_faustian_races = yes	]
+			has_trait = $TRAIT$
+		}
+
+		if = {
+			limit = { species = { has_species_flag = species_creator@PREV.owner } }
+
+			species = { change_species_characteristics = { remove_trait = $TRAIT$ } }
+		}
+		else = {
+			modify_species = {
+				species = species
+				remove_trait = $TRAIT$
+			}
+		}
+	}
+}
+
 add_original_species_pc_trait = {
 	if = {
 		limit = { owner_main_species = { has_trait = trait_pc_desert_preference } }
 
-		every_owned_species = {
-			limit = { is_same_species_with_faustian_races = yes }
-
-			change_species_characteristics = { add_trait = trait_pc_desert_preference }
-		}
+		add_original_species_pc_trait_effect = { TRAIT = trait_pc_desert_preference }
 	}
 	else_if = {
 		limit = { owner_main_species = { has_trait = trait_pc_arid_preference } }
 
-		every_owned_species = {
-			limit = { is_same_species_with_faustian_races = yes }
-
-			change_species_characteristics = { add_trait = trait_pc_arid_preference }
-		}
+		add_original_species_pc_trait_effect = { TRAIT = trait_pc_arid_preference }
 	}
 	else_if = {
 		limit = { owner_main_species = { has_trait = trait_pc_savannah_preference } }
 
-		every_owned_species = {
-			limit = { is_same_species_with_faustian_races = yes }
-
-			change_species_characteristics = { add_trait = trait_pc_savannah_preference }
-		}
+		add_original_species_pc_trait_effect = { TRAIT = trait_pc_savannah_preference }
 	}
 	else_if = {
 		limit = { owner_main_species = { has_trait = trait_pc_tropical_preference } }
 
-		every_owned_species = {
-			limit = { is_same_species_with_faustian_races = yes }
-
-			change_species_characteristics = { add_trait = trait_pc_tropical_preference }
-		}
+		add_original_species_pc_trait_effect = { TRAIT = trait_pc_tropical_preference }
 	}
 	else_if = {
 		limit = { owner_main_species = { has_trait = trait_pc_continental_preference } }
 
-		every_owned_species = {
-			limit = { is_same_species_with_faustian_races = yes }
-
-			change_species_characteristics = { add_trait = trait_pc_continental_preference }
-		}
+		add_original_species_pc_trait_effect = { TRAIT = trait_pc_continental_preference }
 	}
 	else_if = {
 		limit = { owner_main_species = { has_trait = trait_pc_ocean_preference } }
 
-		every_owned_species = {
-			limit = { is_same_species_with_faustian_races = yes }
-
-			change_species_characteristics = { add_trait = trait_pc_ocean_preference }
-		}
+		add_original_species_pc_trait_effect = { TRAIT = trait_pc_ocean_preference }
 	}
 	else_if = {
 		limit = { owner_main_species = { has_trait = trait_pc_arctic_preference } }
 
-		every_owned_species = {
-			limit = { is_same_species_with_faustian_races = yes }
-
-			change_species_characteristics = { add_trait = trait_pc_arctic_preference }
-		}
+		add_original_species_pc_trait_effect = { TRAIT = trait_pc_arctic_preference }
 	}
 	else_if = {
 		limit = { owner_main_species = { has_trait = trait_pc_tundra_preference } }
 
-		every_owned_species = {
-			limit = { is_same_species_with_faustian_races = yes }
-
-			change_species_characteristics = { add_trait = trait_pc_tundra_preference }
-		}
+		add_original_species_pc_trait_effect = { TRAIT = trait_pc_tundra_preference }
 	}
 	else_if = {
 		limit = { owner_main_species = { has_trait = trait_pc_alpine_preference } }
 
-		every_owned_species = {
-			limit = { is_same_species_with_faustian_races = yes }
-
-			change_species_characteristics = { add_trait = trait_pc_alpine_preference }
-		}
+		add_original_species_pc_trait_effect = { TRAIT = trait_pc_alpine_preference }
 	}
 	else_if = {
 		limit = { owner_main_species = { has_trait = trait_pc_nuked_preference } }
 
-		every_owned_species = {
-			limit = { is_same_species_with_faustian_races = yes }
-
-			change_species_characteristics = { add_trait = trait_pc_nuked_preference }
-		}
+		add_original_species_pc_trait_effect = { TRAIT = trait_pc_nuked_preference }
 	}
 	else_if = {
 		limit = { owner_main_species = { has_trait = trait_pc_gaia_preference } }
 
-		every_owned_species = {
-			limit = { is_same_species_with_faustian_races = yes }
-
-			change_species_characteristics = { add_trait = trait_pc_gaia_preference }
-		}
+		add_original_species_pc_trait_effect = { TRAIT = trait_pc_gaia_preference }
 	}
 	else_if = {
 		limit = { owner_main_species = { has_trait = trait_pc_ringworld_habitable_preference } }
 
-		every_owned_species = {
-			limit = { is_same_species_with_faustian_races = yes }
-
-			change_species_characteristics = { add_trait = trait_pc_ringworld_habitable_preference }
-		}
+		add_original_species_pc_trait_effect = { TRAIT = trait_pc_ringworld_habitable_preference }
 	}
 	else_if = {
 		limit = { owner_main_species = { has_trait = trait_pc_habitat_preference } }
 
-		every_owned_species = {
-			limit = { is_same_species_with_faustian_races = yes }
+		add_original_species_pc_trait_effect = { TRAIT = trait_pc_habitat_preference }
+	}
+}
+add_original_species_pc_trait_effect = {
+	every_owned_pop_group = {
+		limit = {
+			[[SPECIES] is_same_species = $SPECIES$ ]
+			[[!SPECIES] is_same_species_with_other_faustian_races = yes	]
+			NOT = { has_trait = $TRAIT$ }
+		}
 
-			change_species_characteristics = { add_trait = trait_pc_habitat_preference }
+		if = {
+			limit = { species = { has_species_flag = species_creator@PREV.owner } }
+
+			species = { set_habitability_trait = { trait = $TRAIT$ } }
+		}
+		else = {
+			modify_species = {
+				species = species
+				add_trait = $TRAIT$
+
+				effect = {
+					set_habitability_trait = { trait = $TRAIT$ } # Actually removes the other habitability traits.
+					set_species_homeworld = PREV.owner.capital_scope
+				}
+			}
 		}
 	}
 }
@@ -1043,6 +1058,9 @@ create_pony_species = {
 
 		effect = {
 			save_global_event_target_as = pony_species
+			set_species_flag = created_species
+			set_global_flag = pony_species_created
+			set_species_flag = species_creator@PREV
 		}
 	}
 }
@@ -1078,6 +1096,9 @@ create_griffon_species = {
 
 		effect = {
 			save_global_event_target_as = griffon_species
+			set_species_flag = created_species
+			set_global_flag = griffon_species_created
+			set_species_flag = species_creator@PREV
 		}
 	}
 }
@@ -1113,6 +1134,9 @@ create_hippogriff_species = {
 
 		effect = {
 			save_global_event_target_as = hippogriff_species
+			set_species_flag = created_species
+			set_global_flag = hippogriff_species_created
+			set_species_flag = species_creator@PREV
 		}
 	}
 }
@@ -1149,6 +1173,9 @@ create_dragon_species = {
 
 		effect = {
 			save_global_event_target_as = dragon_species
+			set_species_flag = created_species
+			set_global_flag = dragon_species_created
+			set_species_flag = species_creator@PREV
 		}
 	}
 }
@@ -1177,6 +1204,9 @@ create_kirin_species = {
 
 		effect = {
 			save_global_event_target_as = kirin_species
+			set_species_flag = created_species
+			set_global_flag = kirin_species_created
+			set_species_flag = species_creator@PREV
 		}
 	}
 }
@@ -1212,6 +1242,9 @@ create_changeling_species = {
 
 		effect = {
 			save_global_event_target_as = changeling_species
+			set_species_flag = created_species
+			set_global_flag = changeling_species_created
+			set_species_flag = species_creator@PREV
 		}
 	}
 }
@@ -1248,6 +1281,9 @@ create_yak_species = {
 
 		effect = {
 			save_global_event_target_as = yak_species
+			set_species_flag = created_species
+			set_global_flag = yak_species_created
+			set_species_flag = species_creator@PREV
 		}
 	}
 }
@@ -1282,6 +1318,9 @@ create_zebra_species = {
 
 		effect = {
 			save_global_event_target_as = zebra_species
+			set_species_flag = created_species
+			set_global_flag = zebra_species_created
+			set_species_flag = species_creator@PREV
 		}
 	}
 }
@@ -1318,6 +1357,9 @@ create_polar_bear_species = {
 
 		effect = {
 			save_global_event_target_as = polar_bear_species
+			set_species_flag = created_species
+			set_global_flag = polar_bear_species_created
+			set_species_flag = species_creator@PREV
 		}
 	}
 }

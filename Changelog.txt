@@ -142,5 +142,6 @@
 
 - Version 0.3.3 (XX.05.2025):
 -- Added a custom set of planetary features/blockers for Faust.
+-- Reworked the multi-species setup event to work better with multiple players using mod's portraits.
 -- Reworked the colors used for a few portrait sets, and added more color options to them (Autumn Blaze, Dusk Shine, Pumpkin Smoke, Rain Shine).
 -- Added more color options to a few portraits (Scootaloo, Sweetie Belle).

@@ -121,39 +121,13 @@ country_event = {
 
 		save_current_mtrspony_species = yes
 		create_other_mtrspony_species = yes
-		event_target:pony_species = {
-			set_habitability_trait = { trait = trait_pc_continental_preference }
-		}
-		event_target:griffon_species = {
-			set_slavery_type = { country = ROOT type = slavery_normal }
-			set_habitability_trait = { trait = trait_pc_continental_preference }
-		}
-		event_target:hippogriff_species = {
-			set_slavery_type = { country = ROOT type = slavery_normal }
-			set_habitability_trait = { trait = trait_pc_continental_preference }
-		}
-		event_target:dragon_species = {
-			set_slavery_type = { country = ROOT type = slavery_military }
-			set_habitability_trait = { trait = trait_pc_arid_preference }
-		}
-		event_target:changeling_species = {
-			set_habitability_trait = { trait = trait_pc_arid_preference }
-			change_species_characteristics = {
-				remove_trait = trait_void_dweller_1
-			}
-		}
-		event_target:kirin_species = {
-			set_slavery_type = { country = ROOT type = slavery_normal }
-			set_habitability_trait = { trait = trait_pc_tropical_preference }
-		}
-		event_target:yak_species = {
-			set_slavery_type = { country = ROOT type = slavery_normal }
-			set_habitability_trait = { trait = trait_pc_alpine_preference }
-		}
-		event_target:zebra_species = {
-			set_slavery_type = { country = ROOT type = slavery_normal }
-			set_habitability_trait = { trait = trait_pc_savannah_preference }
-		}
+		event_target:griffon_species = { set_slavery_type = { country = ROOT type = slavery_normal } }
+		event_target:zebra_species = { set_slavery_type = { country = ROOT type = slavery_normal } }
+		event_target:hippogriff_species = { set_slavery_type = { country = ROOT type = slavery_normal } }
+		event_target:changeling_species = { change_species_characteristics = { remove_trait = trait_void_dweller_1 } }
+		event_target:kirin_species = { set_slavery_type = { country = ROOT type = slavery_normal } }
+		event_target:yak_species = { set_slavery_type = { country = ROOT type = slavery_normal } }
+		event_target:dragon_species = { set_slavery_type = { country = ROOT type = slavery_military } }
 
 		create_leader = {
 			name = "PRESCRIPTED_ruler_name_cherry_berry"
@@ -269,6 +243,15 @@ country_event = {
 				}
 			}
 		}
+
+		add_original_species_pc_trait_effect = { SPECIES = event_target:pony_species TRAIT = trait_pc_continental_preference }
+		add_original_species_pc_trait_effect = { SPECIES = event_target:griffon_species TRAIT = trait_pc_continental_preference }
+		add_original_species_pc_trait_effect = { SPECIES = event_target:zebra_species TRAIT = trait_pc_savannah_preference }
+		add_original_species_pc_trait_effect = { SPECIES = event_target:changeling_species TRAIT = trait_pc_arid_preference }
+		add_original_species_pc_trait_effect = { SPECIES = event_target:hippogriff_species TRAIT = trait_pc_continental_preference }
+		add_original_species_pc_trait_effect = { SPECIES = event_target:kirin_species TRAIT = trait_pc_tropical_preference }
+		add_original_species_pc_trait_effect = { SPECIES = event_target:yak_species TRAIT = trait_pc_alpine_preference }
+		add_original_species_pc_trait_effect = { SPECIES = event_target:dragon_species TRAIT = trait_pc_arid_preference }
 
 		# Remove the genericos.
 		every_owned_leader = {

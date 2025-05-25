@@ -153,36 +153,11 @@ country_event = {
 			spawn_x_polar_bear_pops = yes
 		}
 
-		event_target:pony_species = {
-			change_species_characteristics = {
-				remove_trait = trait_pc_arctic_preference
-				add_trait = trait_pc_continental_preference
-			}
-		}
-		event_target:hippogriff_species = {
-			change_species_characteristics = {
-				remove_trait = trait_pc_arctic_preference
-				add_trait = trait_pc_continental_preference
-			}
-		}
-		event_target:kirin_species = {
-			change_species_characteristics = {
-				remove_trait = trait_pc_arctic_preference
-				add_trait = trait_pc_tropical_preference
-			}
-		}
-		event_target:yak_species = {
-			change_species_characteristics = {
-				remove_trait = trait_pc_arctic_preference
-				add_trait = trait_pc_alpine_preference
-			}
-		}
-		event_target:zebra_species = {
-			change_species_characteristics = {
-				remove_trait = trait_pc_arctic_preference
-				add_trait = trait_pc_savannah_preference
-			}
-		}
+		add_original_species_pc_trait_effect = { SPECIES = event_target:pony_species TRAIT = trait_pc_continental_preference }
+		add_original_species_pc_trait_effect = { SPECIES = event_target:hippogriff_species TRAIT = trait_pc_continental_preference }
+		add_original_species_pc_trait_effect = { SPECIES = event_target:zebra_species TRAIT = trait_pc_savannah_preference }
+		add_original_species_pc_trait_effect = { SPECIES = event_target:kirin_species TRAIT = trait_pc_tropical_preference }
+		add_original_species_pc_trait_effect = { SPECIES = event_target:yak_species TRAIT = trait_pc_alpine_preference }
 
 		create_leader = {
 			name = "PRESCRIPTED_ruler_name_soeren_of_svartpels"
