@@ -14,6 +14,13 @@
 @med_rare = 1
 @low_rare = 0.5
 
+@blocker_high = 10
+@blocker_low = 5
+@ranger_small_production = 0.5
+@ranger_large_production = 1
+@evopred_large_blocker_progress = 40
+@evopred_small_blocker_progress = 20
+
 # Faust Deposits
 d_magical_jungles = {
 	icon = d_dense_jungle

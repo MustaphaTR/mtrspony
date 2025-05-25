@@ -1,3 +1,23 @@
+# It drops error when you hover over the options without this, even tho the tooptip is hidden.
+set_mtrspony_setup_variables = {
+	set_variable = { which = pony_pops value = 0 }
+	set_variable = { which = griffon_pops value = 0 }
+	set_variable = { which = griffon_pops_prev value = 0 }
+	set_variable = { which = zebra_pops value = 0 }
+	set_variable = { which = zebra_pops_prev value = 0 }
+	set_variable = { which = changeling_pops value = 0 }
+	set_variable = { which = changeling_pops_prev value = 0 }
+	set_variable = { which = hippogriff_pops value = 0 }
+	set_variable = { which = hippogriff_pops_prev value = 0 }
+	set_variable = { which = kirin_pops value = 0 }
+	set_variable = { which = kirin_pops_prev value = 0 }
+	set_variable = { which = yak_pops value = 0 }
+	set_variable = { which = yak_pops_prev value = 0 }
+	set_variable = { which = dragon_pops value = 0 }
+	set_variable = { which = dragon_pops_prev value = 0 }
+	set_variable = { which = pops_to_remove value = 0 }
+}
+
 save_current_mtrspony_species = {
 	every_country = {
 		if = {
@@ -871,7 +891,7 @@ add_trait_to_mtrspony_species_effect = {
 	every_owned_pop_group = {
 		limit = {
 			[[SPECIES] is_same_species = $SPECIES$ ]
-			[[!SPECIES] is_same_species_with_other_faustian_races = yes	]
+			[[!SPECIES] is_same_species_with_other_faustian_races = yes ]
 			NOT = { has_trait = $TRAIT$ }
 		}
 
@@ -892,7 +912,7 @@ replace_traits_on_mtrspony_species_effect = {
 	every_owned_pop_group = {
 		limit = {
 			[[SPECIES] is_same_species = $SPECIES$ ]
-			[[!SPECIES] is_same_species_with_other_faustian_races = yes	]
+			[[!SPECIES] is_same_species_with_other_faustian_races = yes ]
 			has_trait = $REMOVE_TRAIT$
 		}
 
@@ -917,7 +937,7 @@ remove_trait_from_mtrspony_species_effect = {
 	every_owned_pop_group = {
 		limit = {
 			[[SPECIES] is_same_species = $SPECIES$ ]
-			[[!SPECIES] is_same_species_with_other_faustian_races = yes	]
+			[[!SPECIES] is_same_species_with_other_faustian_races = yes ]
 			has_trait = $TRAIT$
 		}
 
@@ -1001,12 +1021,73 @@ add_original_species_pc_trait = {
 
 		add_original_species_pc_trait_effect = { TRAIT = trait_pc_habitat_preference }
 	}
+	# Planetary Diversity mod preference traits. Creates errors without the mod, but doesn't break anything.
+	else_if = {
+		limit = { owner_main_species = { has_trait = trait_pc_pd_dry_gaia_preference } }
+
+		add_original_species_pc_trait_effect = { TRAIT = trait_pc_pd_dry_gaia_preference }
+	}
+	else_if = {
+		limit = { owner_main_species = { has_trait = trait_pc_pd_dry_gaia_preference } }
+
+		add_original_species_pc_trait_effect = { TRAIT = trait_pc_pd_dry_gaia_preference }
+	}
+	else_if = {
+		limit = { owner_main_species = { has_trait = trait_pc_pd_cold_gaia_preference } }
+
+		add_original_species_pc_trait_effect = { TRAIT = trait_pc_pd_cold_gaia_preference }
+	}
+	else_if = {
+		limit = { owner_main_species = { has_trait = trait_pc_pd_dry_superhabitable_preference } }
+
+		add_original_species_pc_trait_effect = { TRAIT = trait_pc_pd_dry_superhabitable_preference }
+	}
+	else_if = {
+		limit = { owner_main_species = { has_trait = trait_pc_pd_dry_superhabitable_preference } }
+
+		add_original_species_pc_trait_effect = { TRAIT = trait_pc_pd_dry_superhabitable_preference }
+	}
+	else_if = {
+		limit = { owner_main_species = { has_trait = trait_pc_pd_cold_superhabitable_preference } }
+
+		add_original_species_pc_trait_effect = { TRAIT = trait_pc_pd_cold_superhabitable_preference }
+	}
+	else_if = {
+		limit = { owner_main_species = { has_trait = trait_pc_pd_dry_tidally_locked_preference } }
+
+		add_original_species_pc_trait_effect = { TRAIT = trait_pc_pd_dry_tidally_locked_preference }
+	}
+	else_if = {
+		limit = { owner_main_species = { has_trait = trait_pc_pd_dry_tidally_locked_preference } }
+
+		add_original_species_pc_trait_effect = { TRAIT = trait_pc_pd_dry_tidally_locked_preference }
+	}
+	else_if = {
+		limit = { owner_main_species = { has_trait = trait_pc_pd_cold_tidally_locked_preference } }
+
+		add_original_species_pc_trait_effect = { TRAIT = trait_pc_pd_cold_tidally_locked_preference }
+	}
+	else_if = {
+		limit = { owner_main_species = { has_trait = trait_pc_pd_dry_cave_preference } }
+
+		add_original_species_pc_trait_effect = { TRAIT = trait_pc_pd_dry_cave_preference }
+	}
+	else_if = {
+		limit = { owner_main_species = { has_trait = trait_pc_pd_dry_cave_preference } }
+
+		add_original_species_pc_trait_effect = { TRAIT = trait_pc_pd_dry_cave_preference }
+	}
+	else_if = {
+		limit = { owner_main_species = { has_trait = trait_pc_pd_cold_cave_preference } }
+
+		add_original_species_pc_trait_effect = { TRAIT = trait_pc_pd_cold_cave_preference }
+	}
 }
 add_original_species_pc_trait_effect = {
 	every_owned_pop_group = {
 		limit = {
 			[[SPECIES] is_same_species = $SPECIES$ ]
-			[[!SPECIES] is_same_species_with_other_faustian_races = yes	]
+			[[!SPECIES] is_same_species_with_other_faustian_races = yes ]
 			NOT = { has_trait = $TRAIT$ }
 		}
 
