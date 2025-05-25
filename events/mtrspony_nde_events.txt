@@ -114,10 +114,7 @@ country_event = {
 			if = {
 				limit = { PREV = { owner_main_species = { has_trait = trait_survivor } } }
 
-				change_species_characteristics = {
-					remove_trait = trait_pc_nuked_preference
-					add_trait = trait_pc_arctic_preference
-				}
+				set_habitability_trait = { trait = trait_pc_arctic_preference }
 				change_species_characteristics = { add_trait = trait_survivor }
 			}
 		}
