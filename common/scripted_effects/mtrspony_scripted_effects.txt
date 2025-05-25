@@ -608,42 +608,42 @@ spawn_other_mtrspony_species = {
 	if = {
 		limit = { owner = { has_mtrspony_pony_portrait = no } }
 
-		spawn_x_pony_pops = yes
+		spawn_mtrspony_pops = { SPECIES = pony }
 	}
 	if = {
 		limit = { owner = { NOT = { species_portrait = mtrspony_griffon } } }
 
-		spawn_x_griffon_pops = yes
+		spawn_mtrspony_pops = { SPECIES = griffon }
 	}
 	if = {
 		limit = { owner = { NOT = { species_portrait = mtrspony_hippogriff } } }
 
-		spawn_x_hippogriff_pops = yes
+		spawn_mtrspony_pops = { SPECIES = hippogriff }
 	}
 	if = {
 		limit = { owner = { NOT = { species_portrait = mtrspony_dragon } } }
 
-		spawn_x_dragon_pops = yes
+		spawn_mtrspony_pops = { SPECIES = dragon }
 	}
 	if = {
 		limit = { owner = { NOT = { species_portrait = mtrspony_kirin } } }
 
-		spawn_x_kirin_pops = yes
+		spawn_mtrspony_pops = { SPECIES = kirin }
 	}
 	if = {
 		limit = { owner = { NOT = { species_portrait = mtrspony_changeling } } }
 
-		spawn_x_changeling_pops = yes
+		spawn_mtrspony_pops = { SPECIES = changeling }
 	}
 	if = {
 		limit = { owner = { NOT = { species_portrait = mtrspony_yak } } }
 
-		spawn_x_yak_pops = yes
+		spawn_mtrspony_pops = { SPECIES = yak }
 	}
 	if = {
 		limit = { owner = { NOT = { species_portrait = mtrspony_zebra } } }
 
-		spawn_x_zebra_pops = yes
+		spawn_mtrspony_pops = { SPECIES = zebra }
 	}
 
 	remove_x_ROOT_species_pops = yes
@@ -665,11 +665,17 @@ spawn_other_mtrspony_species = {
 				}
 			}
 
-			set_mtrspony_citizenship_full = yes
-			set_mtrspony_military_service_full = yes
-			set_mtrspony_colonisation_allowed = yes
-			set_mtrspony_population_control_none = yes
-			set_mtrspony_migration_control_none = yes
+			every_owned_pop_group = {
+				limit = { is_same_species_with_other_faustian_races = yes }
+
+				species = {
+					set_citizenship_full = { COUNTRY = PREVPREV }
+					set_military_service_full = { COUNTRY = PREVPREV }
+					set_colonisation_allowed = { COUNTRY = PREVPREV }
+					set_population_control_none = { COUNTRY = PREVPREV }
+					set_migration_control_none = { COUNTRY = PREVPREV }
+				}
+			}
 		}
 	}
 }
@@ -1031,7 +1037,7 @@ remove_x_ROOT_species_pops = {
 		count = pops_to_remove_div_5
 
 		random_owned_pop_group = {
-			limit = { is_same_species = ROOT.species }
+			limit = { is_same_species = owner.species }
 
 			kill_pop_group = {
 				pop_group = this
@@ -1064,20 +1070,6 @@ create_pony_species = {
 		}
 	}
 }
-spawn_x_pony_pops = {
-	set_variable = { which = pony_pops_div_5 value = pony_pops }
-	divide_variable = { which = pony_pops_div_5 value = 5 }
-
-	while = {
-		count = 5
-
-		create_pop_group = {
-			species = event_target:pony_species
-			ethos = random
-			size = pony_pops_div_5
-		}
-	}
-}
 
 create_griffon_species = {
 	create_species = {
@@ -1102,20 +1094,6 @@ create_griffon_species = {
 		}
 	}
 }
-spawn_x_griffon_pops = {
-	set_variable = { which = griffon_pops_div_5 value = griffon_pops }
-	divide_variable = { which = griffon_pops_div_5 value = 5 }
-
-	while = {
-		count = 5
-
-		create_pop_group = {
-			species = event_target:griffon_species
-			ethos = random
-			size = griffon_pops_div_5
-		}
-	}
-}
 
 create_hippogriff_species = {
 	create_species = {
@@ -1137,20 +1115,6 @@ create_hippogriff_species = {
 			set_species_flag = created_species
 			set_global_flag = hippogriff_species_created
 			set_species_flag = species_creator@PREV
-		}
-	}
-}
-spawn_x_hippogriff_pops = {
-	set_variable = { which = hippogriff_pops_div_5 value = hippogriff_pops }
-	divide_variable = { which = hippogriff_pops_div_5 value = 5 }
-
-	while = {
-		count = 5
-
-		create_pop_group = {
-			species = event_target:hippogriff_species
-			ethos = random
-			size = hippogriff_pops_div_5
 		}
 	}
 }
@@ -1179,13 +1143,6 @@ create_dragon_species = {
 		}
 	}
 }
-spawn_x_dragon_pops = { # Don't randomise the dragons, they already spawn in low numbers.
-	create_pop_group = {
-		species = event_target:dragon_species
-		ethos = random
-		size = dragon_pops
-	}
-}
 
 create_kirin_species = {
 	create_species = {
@@ -1210,20 +1167,6 @@ create_kirin_species = {
 		}
 	}
 }
-spawn_x_kirin_pops = {
-	set_variable = { which = kirin_pops_div_5 value = kirin_pops }
-	divide_variable = { which = kirin_pops_div_5 value = 5 }
-
-	while = {
-		count = 5
-
-		create_pop_group = {
-			species = event_target:kirin_species
-			ethos = random
-			size = kirin_pops_div_5
-		}
-	}
-}
 
 create_changeling_species = {
 	create_species = {
@@ -1245,20 +1188,6 @@ create_changeling_species = {
 			set_species_flag = created_species
 			set_global_flag = changeling_species_created
 			set_species_flag = species_creator@PREV
-		}
-	}
-}
-spawn_x_changeling_pops = {
-	set_variable = { which = changeling_pops_div_5 value = changeling_pops }
-	divide_variable = { which = changeling_pops_div_5 value = 5 }
-
-	while = {
-		count = 5
-
-		create_pop_group = {
-			species = event_target:changeling_species
-			ethos = random
-			size = changeling_pops_div_5
 		}
 	}
 }
@@ -1287,20 +1216,6 @@ create_yak_species = {
 		}
 	}
 }
-spawn_x_yak_pops = {
-	set_variable = { which = yak_pops_div_5 value = yak_pops }
-	divide_variable = { which = yak_pops_div_5 value = 5 }
-
-	while = {
-		count = 5
-
-		create_pop_group = {
-			species = event_target:yak_species
-			ethos = random
-			size = yak_pops_div_5
-		}
-	}
-}
 
 create_zebra_species = {
 	create_species = {
@@ -1321,20 +1236,6 @@ create_zebra_species = {
 			set_species_flag = created_species
 			set_global_flag = zebra_species_created
 			set_species_flag = species_creator@PREV
-		}
-	}
-}
-spawn_x_zebra_pops = {
-	set_variable = { which = zebra_pops_div_5 value = zebra_pops }
-	divide_variable = { which = zebra_pops_div_5 value = 5 }
-
-	while = {
-		count = 5
-
-		create_pop_group = {
-			species = event_target:zebra_species
-			ethos = random
-			size = zebra_pops_div_5
 		}
 	}
 }
@@ -1363,122 +1264,81 @@ create_polar_bear_species = {
 		}
 	}
 }
-spawn_x_polar_bear_pops = {
-	set_variable = { which = polar_bear_pops_div_5 value = polar_bear_pops }
-	divide_variable = { which = polar_bear_pops_div_5 value = 5 }
+
+spawn_mtrspony_pops = {
+	set_variable = { which = $SPECIES$_pops_div_5 value = $SPECIES$_pops }
+	divide_variable = { which = $SPECIES$_pops_div_5 value = 5 }
 
 	while = {
 		count = 5
 
 		create_pop_group = {
-			species = event_target:polar_bear_species
+			species = event_target:$SPECIES$_species
 			ethos = random
-			size = polar_bear_pops_div_5
+			size = $SPECIES$_pops_div_5
 		}
 	}
 }
 
-set_mtrspony_citizenship_full = {
-	event_target:pony_species = { set_citizenship_type = { country = ROOT type = citizenship_full } }
-	event_target:griffon_species = { set_citizenship_type = { country = ROOT type = citizenship_full } }
-	event_target:hippogriff_species = { set_citizenship_type = { country = ROOT type = citizenship_full } }
-	event_target:dragon_species = { set_citizenship_type = { country = ROOT type = citizenship_full } }
-	event_target:kirin_species = { set_citizenship_type = { country = ROOT type = citizenship_full } }
-	event_target:changeling_species = { set_citizenship_type = { country = ROOT type = citizenship_full } }
-	event_target:yak_species = { set_citizenship_type = { country = ROOT type = citizenship_full } }
-	event_target:zebra_species = { set_citizenship_type = { country = ROOT type = citizenship_full } }
+set_citizenship_full = {
+	set_citizenship_type = { country = $COUNTRY$ type = citizenship_full }
 }
 set_mtrspony_citizenship_limited = {
 	if = {
 		limit = { has_mtrspony_pony_portrait = no }
 
-		event_target:pony_species = { set_citizenship_type = { country = ROOT type = citizenship_limited } }
+		event_target:pony_species = { set_citizenship_type = { country = PREV type = citizenship_limited } }
 	}
 	if = {
 		limit = { NOT = { species_portrait = mtrspony_griffon } }
 
-		event_target:griffon_species = { set_citizenship_type = { country = ROOT type = citizenship_limited } }
+		event_target:griffon_species = { set_citizenship_type = { country = PREV type = citizenship_limited } }
 	}
 	if = {
 		limit = { NOT = { species_portrait = mtrspony_hippogriff } }
 
-		event_target:hippogriff_species = { set_citizenship_type = { country = ROOT type = citizenship_limited } }
+		event_target:hippogriff_species = { set_citizenship_type = { country = PREV type = citizenship_limited } }
 	}
 	if = {
 		limit = { NOT = { species_portrait = mtrspony_dragon } }
 
-		event_target:dragon_species = { set_citizenship_type = { country = ROOT type = citizenship_limited } }
+		event_target:dragon_species = { set_citizenship_type = { country = PREV type = citizenship_limited } }
 	}
 	if = {
 		limit = { NOT = { species_portrait = mtrspony_kirin } }
 
-		event_target:kirin_species = { set_citizenship_type = { country = ROOT type = citizenship_limited } }
+		event_target:kirin_species = { set_citizenship_type = { country = PREV type = citizenship_limited } }
 	}
 	if = {
 		limit = { NOT = { species_portrait = mtrspony_changeling } }
 
-		event_target:changeling_species = { set_citizenship_type = { country = ROOT type = citizenship_limited } }
+		event_target:changeling_species = { set_citizenship_type = { country = PREV type = citizenship_limited } }
 	}
 	if = {
 		limit = { NOT = { species_portrait = mtrspony_yak } }
 
-		event_target:yak_species = { set_citizenship_type = { country = ROOT type = citizenship_limited } }
+		event_target:yak_species = { set_citizenship_type = { country = PREV type = citizenship_limited } }
 	}
 	if = {
 		limit = { NOT = { species_portrait = mtrspony_zebra } }
 
-		event_target:zebra_species = { set_citizenship_type = { country = ROOT type = citizenship_limited } }
+		event_target:zebra_species = { set_citizenship_type = { country = PREV type = citizenship_limited } }
 	}
 }
-set_mtrspony_living_standard_good = {
-	event_target:pony_species = { set_living_standard = { country = ROOT type = living_standard_good } }
-	event_target:griffon_species = { set_living_standard = { country = ROOT type = living_standard_good } }
-	event_target:hippogriff_species = { set_living_standard = { country = ROOT type = living_standard_good } }
-	event_target:dragon_species = { set_living_standard = { country = ROOT type = living_standard_good } }
-	event_target:kirin_species = { set_living_standard = { country = ROOT type = living_standard_good } }
-	event_target:changeling_species = { set_living_standard = { country = ROOT type = living_standard_good } }
-	event_target:yak_species = { set_living_standard = { country = ROOT type = living_standard_good } }
-	event_target:zebra_species = { set_living_standard = { country = ROOT type = living_standard_good } }
+set_living_standard_good = {
+	set_living_standard = { country = $COUNTRY$ type = living_standard_good }
 }
-set_mtrspony_military_service_full = {
-	event_target:pony_species = { set_military_service_type = { country = ROOT type = military_service_full } }
-	event_target:griffon_species = { set_military_service_type = { country = ROOT type = military_service_full } }
-	event_target:hippogriff_species = { set_military_service_type = { country = ROOT type = military_service_full } }
-	event_target:dragon_species = { set_military_service_type = { country = ROOT type = military_service_full } }
-	event_target:kirin_species = { set_military_service_type = { country = ROOT type = military_service_full } }
-	event_target:changeling_species = { set_military_service_type = { country = ROOT type = military_service_full } }
-	event_target:yak_species = { set_military_service_type = { country = ROOT type = military_service_full } }
-	event_target:zebra_species = { set_military_service_type = { country = ROOT type = military_service_full } }
+set_military_service_full = {
+	set_military_service_type = { country = $COUNTRY$ type = military_service_full }
 }
-set_mtrspony_colonisation_allowed = {
-	event_target:pony_species = { set_colonization_controls = { country = ROOT type = colonization_control_no } }
-	event_target:griffon_species = { set_colonization_controls = { country = ROOT type = colonization_control_no } }
-	event_target:hippogriff_species = { set_colonization_controls = { country = ROOT type = colonization_control_no } }
-	event_target:dragon_species = { set_colonization_controls = { country = ROOT type = colonization_control_no } }
-	event_target:kirin_species = { set_colonization_controls = { country = ROOT type = colonization_control_no } }
-	event_target:changeling_species = { set_colonization_controls = { country = ROOT type = colonization_control_no } }
-	event_target:yak_species = { set_colonization_controls = { country = ROOT type = colonization_control_no } }
-	event_target:zebra_species = { set_colonization_controls = { country = ROOT type = colonization_control_no } }
+set_colonisation_allowed = {
+	set_colonization_controls = { country = $COUNTRY$ type = colonization_control_no }
 }
-set_mtrspony_population_control_none = {
-	event_target:pony_species = { set_population_controls = { country = ROOT type = population_control_no } }
-	event_target:griffon_species = { set_population_controls = { country = ROOT type = population_control_no } }
-	event_target:hippogriff_species = { set_population_controls = { country = ROOT type = population_control_no } }
-	event_target:dragon_species = { set_population_controls = { country = ROOT type = population_control_no } }
-	event_target:kirin_species = { set_population_controls = { country = ROOT type = population_control_no } }
-	event_target:changeling_species = { set_population_controls = { country = ROOT type = population_control_no } }
-	event_target:yak_species = { set_population_controls = { country = ROOT type = population_control_no } }
-	event_target:zebra_species = { set_population_controls = { country = ROOT type = population_control_no } }
+set_population_control_none = {
+	set_population_controls = { country = $COUNTRY$ type = population_control_no }
 }
-set_mtrspony_migration_control_none = {
-	event_target:pony_species = { set_migration_controls = { country = ROOT type = migration_control_no } }
-	event_target:griffon_species = { set_migration_controls = { country = ROOT type = migration_control_no } }
-	event_target:hippogriff_species = { set_migration_controls = { country = ROOT type = migration_control_no } }
-	event_target:dragon_species = { set_migration_controls = { country = ROOT type = migration_control_no } }
-	event_target:kirin_species = { set_migration_controls = { country = ROOT type = migration_control_no } }
-	event_target:changeling_species = { set_migration_controls = { country = ROOT type = migration_control_no } }
-	event_target:yak_species = { set_migration_controls = { country = ROOT type = migration_control_no } }
-	event_target:zebra_species = { set_migration_controls = { country = ROOT type = migration_control_no } }
+set_migration_control_none = {
+	set_migration_controls = { country = $COUNTRY$ type = migration_control_no }
 }
 
 set_giga_species_rights_to_max = {
@@ -1501,7 +1361,7 @@ set_giga_species_rights_to_max = {
 		set_military_service_type = { country = ROOT type = military_service_full }
 		set_colonization_controls = { country = ROOT type = colonization_control_no }
 		set_population_controls = { country = ROOT type = population_control_no }
-		set_migration_controls = { country = ROOT type = migration_control_no }
+		set_migration_controls = { country = PREV type = migration_control_no }
 	}
 	event_target:eawaf_ponies = {
 		set_citizenship_type = { country = ROOT type = citizenship_full }

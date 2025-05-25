@@ -150,7 +150,7 @@ country_event = {
 				set_variable = { which = kirin_pops value = 170 }
 			}
 			spawn_other_mtrspony_species = yes
-			spawn_x_polar_bear_pops = yes
+			spawn_mtrspony_pops = { SPECIES = polar_bear }
 		}
 
 		add_original_species_pc_trait_effect = { SPECIES = event_target:pony_species TRAIT = trait_pc_continental_preference }

@@ -36,8 +36,6 @@ country_event = {
 
 		save_current_mtrspony_species = yes
 		create_other_mtrspony_species = yes
-		set_mtrspony_citizenship_full = yes
-		set_mtrspony_military_service_full = yes
 
 		capital_scope = {
 			calculate_mtrspony_pop_count_keep_majority = yes

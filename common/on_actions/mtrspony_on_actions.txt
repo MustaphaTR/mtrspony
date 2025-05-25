@@ -8,6 +8,7 @@ on_game_start_country = {
 	events = {
 		mtrspony.3
 		mtrspony_setup.1
+		mtrspony_setup.2
 
 		cocstart.1
 		tcsstart.1
