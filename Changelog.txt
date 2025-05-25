@@ -140,7 +140,7 @@
 -- Fixed using the last option of multi-species setup for Lost Colony custom empires, applying the 3rd option's effects to the parent empire.
 -- Fixed other Faustian species starting with Colonisation, Migration and Population controls enabled when playing as a Hive-Mind.
 
-- Version 0.3.3 (XX.05.2025):
+- Version 0.3.3 (25.05.2025):
 -- Added a custom set of planetary features/blockers for Faust.
 -- Reworked the multi-species setup event to work better with multiple players using mod's portraits.
 -- Reworked the multi-species setup to give you seperate events for each AI player in your game that uses mod's portraits.
