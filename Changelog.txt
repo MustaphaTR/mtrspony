@@ -146,3 +146,6 @@
 -- Reworked the multi-species setup to give you seperate events for each AI player in your game that uses mod's portraits.
 -- Reworked the colors used for a few portrait sets, and added more color options to them (Autumn Blaze, Dusk Shine, Pumpkin Smoke, Rain Shine).
 -- Added more color options to a few portraits (Scootaloo, Sweetie Belle).
+
+- Version 0.3.4 (XX.XX.2025):
+-- Fixed prescripted countries' hidden setup events not firing.

@@ -32,7 +32,7 @@ convocation_of_creatures = {
 
 	origin = "origin_default"
 
-	flags = { convocation_of_creatures }
+	flag = empire_convocation_of_creatures
 
 	planet_name = "NAME_Faust"
 	planet_class = "pc_continental"
@@ -107,7 +107,7 @@ convocation_of_creatures_federations = {
 
 	origin = "origin_default"
 
-	flags = { convocation_of_creatures }
+	flag = empire_convocation_of_creatures
 
 	planet_name = "NAME_Faust"
 	planet_class = "pc_continental"
@@ -182,7 +182,7 @@ the_crusader_state = {
 
 	origin = "origin_default"
 
-	flags = { the_crusader_state }
+	flag = empire_the_crusader_state
 
 	planet_name = "NAME_Faust"
 	planet_class = "pc_continental"
@@ -257,7 +257,7 @@ the_crusader_state_necroids = {
 
 	origin = "origin_default"
 
-	flags = { the_crusader_state }
+	flag = empire_the_crusader_state
 
 	planet_name = "NAME_Faust"
 	planet_class = "pc_continental"
@@ -331,7 +331,7 @@ empire_of_friendship = {
 
 	origin = "origin_default"
 
-	flags = { empire_of_friendship }
+	flag = empire_empire_of_friendship
 
 	planet_name = "NAME_Faust"
 	planet_class = "pc_continental"
@@ -406,7 +406,7 @@ empire_of_friendship_paragons = {
 
 	origin = "origin_legendary_leader"
 
-	flags = { empire_of_friendship }
+	flag = empire_empire_of_friendship
 
 	planet_name = "NAME_Faust"
 	planet_class = "pc_continental"
@@ -480,7 +480,7 @@ novyy_stalliongrad = {
 
 	origin = "origin_lost_colony"
 
-	flags = { novyy_stalliongrad }
+	flag = empire_novyy_stalliongrad
 
 	planet_name = "NAME_Equality"
 	planet_class = "pc_continental"
@@ -554,7 +554,7 @@ novyy_stalliongrad_megacorps = {
 
 	origin = "origin_lost_colony"
 
-	flags = { novyy_stalliongrad }
+	flag = empire_novyy_stalliongrad
 
 	planet_name = "NAME_Equality"
 	planet_class = "pc_continental"
@@ -627,7 +627,7 @@ griffonian_empire = {
 
 	origin = "origin_default"
 
-	flags = { griffonian_empire }
+	flag = empire_griffonian_empire
 
 	planet_name = "NAME_Faust"
 	planet_class = "pc_continental"
@@ -698,7 +698,7 @@ faustian_technate = {
 
 	origin = "origin_default"
 
-	flags = { faustian_technate }
+	flag = empire_faustian_technate
 
 	planet_name = "NAME_Faust"
 	planet_class = "pc_continental"
@@ -772,7 +772,7 @@ revolutionary_faust = {
 
 	origin = "origin_default"
 
-	flags = { revolutionary_faust }
+	flag = empire_revolutionary_faust
 
 	planet_name = "NAME_Faust"
 	planet_class = "pc_continental"
@@ -846,7 +846,7 @@ revolutionary_faust_megacorps = {
 
 	origin = "origin_default"
 
-	flags = { revolutionary_faust }
+	flag = empire_revolutionary_faust
 
 	planet_name = "NAME_Faust"
 	planet_class = "pc_continental"
@@ -920,7 +920,7 @@ revolutionary_faust_first_contact = {
 
 	origin = "origin_default"
 
-	flags = { revolutionary_faust }
+	flag = empire_revolutionary_faust
 
 	planet_name = "NAME_Faust"
 	planet_class = "pc_continental"
@@ -994,7 +994,7 @@ revolutionary_faust_megacorps_first_contact = {
 
 	origin = "origin_default"
 
-	flags = { revolutionary_faust }
+	flag = empire_revolutionary_faust
 
 	planet_name = "NAME_Faust"
 	planet_class = "pc_continental"
@@ -1069,7 +1069,7 @@ faustian_conglomerate = {
 
 	origin = "origin_default"
 
-	flags = { faustian_conglomerate }
+	flag = empire_faustian_conglomerate
 
 	planet_name = "NAME_Faust"
 	planet_class = "pc_continental"
@@ -1144,7 +1144,7 @@ faustian_conglomerate_megacorps = {
 
 	origin = "origin_default"
 
-	flags = { faustian_conglomerate }
+	flag = empire_faustian_conglomerate
 
 	planet_name = "NAME_Faust"
 	planet_class = "pc_continental"
@@ -1219,7 +1219,7 @@ faustian_conglomerate_toxoids = {
 
 	origin = "origin_default"
 
-	flags = { faustian_conglomerate }
+	flag = empire_faustian_conglomerate
 
 	planet_name = "NAME_Faust"
 	planet_class = "pc_continental"
@@ -1294,7 +1294,7 @@ faustian_conglomerate_megacorps_toxoids = {
 
 	origin = "origin_default"
 
-	flags = { faustian_conglomerate }
+	flag = empire_faustian_conglomerate
 
 	planet_name = "NAME_Faust"
 	planet_class = "pc_continental"
@@ -1369,7 +1369,7 @@ changeling_space_program = {
 
 	origin = "origin_default"
 
-	flags = { changeling_space_program }
+	flag = empire_changeling_space_program
 
 	planet_name = "NAME_Equus"
 	planet_class = "pc_continental"
@@ -1445,7 +1445,7 @@ changeling_space_program_federations = {
 
 	origin = "origin_void_dwellers"
 
-	flags = { changeling_space_program }
+	flag = empire_changeling_space_program
 
 	planet_name = "NAME_Equus_Habitat"
 	planet_class = "pc_continental"
@@ -1521,7 +1521,7 @@ new_draconian_empire = {
 
 	origin = "origin_default"
 
-	flags = { new_draconian_empire }
+	flag = empire_new_draconian_empire
 
 	planet_name = "NAME_Faust"
 	planet_class = "pc_arctic"
@@ -1598,7 +1598,7 @@ new_draconian_empire_apocalypse = {
 
 	origin = "origin_post_apocalyptic"
 
-	flags = { new_draconian_empire }
+	flag = empire_new_draconian_empire
 
 	planet_name = "NAME_Faust"
 	planet_class = "pc_arctic"

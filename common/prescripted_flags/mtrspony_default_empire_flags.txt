@@ -1,0 +1,39 @@
+empire_convocation_of_creatures = {
+	flags = { convocation_of_creatures }
+}
+
+empire_the_crusader_state = {
+	flags = { the_crusader_state }
+}
+
+empire_empire_of_friendship = {
+	flags = { empire_of_friendship }
+}
+
+empire_novyy_stalliongrad = {
+	flags = { novyy_stalliongrad }
+}
+
+empire_griffonian_empire = {
+	flags = { griffonian_empire }
+}
+
+empire_faustian_technate = {
+	flags = { faustian_technate }
+}
+
+empire_revolutionary_faust = {
+	flags = { revolutionary_faust }
+}
+
+empire_faustian_conglomerate = {
+	flags = { faustian_conglomerate }
+}
+
+empire_changeling_space_program = {
+	flags = { changeling_space_program }
+}
+
+empire_new_draconian_empire = {
+	flags = { new_draconian_empire }
+}
