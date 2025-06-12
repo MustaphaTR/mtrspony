@@ -20,6 +20,7 @@ country_event = {
 			set_age = 364
 			immortal = yes
 			background_ethic = "ethic_authoritarian"
+			skip_background_generation = yes
 			randomize_traits = no
 			traits = {
 				trait = leader_trait_mtrspony_immortal
@@ -44,6 +45,7 @@ country_event = {
 			skill = 1
 			set_age = 120
 			background_ethic = "ethic_militarist"
+			skip_background_generation = yes
 			randomize_traits = no
 			traits = {
 				trait = leader_trait_unyielding
@@ -73,6 +75,7 @@ country_event = {
 			skill = 1
 			set_age = 111
 			background_ethic = "ethic_xenophobe"
+			skip_background_generation = yes
 			randomize_traits = no
 			traits = {
 				trait = leader_trait_private_mines
@@ -90,24 +93,24 @@ country_event = {
 		save_current_mtrspony_species = yes
 		create_other_mtrspony_species = yes
 		event_target:pony_species = { set_slavery_type = { country = ROOT type = slavery_normal } }
-		event_target:griffon_species = {
+		event_target:griffon_species@ROOT = {
 			set_citizenship_type = { country = ROOT type = citizenship_limited }
 			set_military_service_type = { country = ROOT type = military_service_full }
 		}
-		event_target:hippogriff_species = { set_slavery_type = { country = ROOT type = slavery_normal } }
-		event_target:kirin_species = { set_slavery_type = { country = ROOT type = slavery_normal } }
-		event_target:changeling_species = {
+		event_target:hippogriff_species@ROOT = { set_slavery_type = { country = ROOT type = slavery_normal } }
+		event_target:kirin_species@ROOT = { set_slavery_type = { country = ROOT type = slavery_normal } }
+		event_target:changeling_species@ROOT = {
 			set_slavery_type = { country = ROOT type = slavery_military }
 			set_military_service_type = { country = ROOT type = military_service_full }
 		}
-		event_target:yak_species = {
+		event_target:yak_species@ROOT = {
 			set_slavery_type = { country = ROOT type = slavery_military }
 			set_military_service_type = { country = ROOT type = military_service_full }
 		}
-		event_target:zebra_species = { set_slavery_type = { country = ROOT type = slavery_normal } }
+		event_target:zebra_species@ROOT = { set_slavery_type = { country = ROOT type = slavery_normal } }
 
 		create_polar_bear_species = yes
-		event_target:polar_bear_species = {
+		event_target:polar_bear_species@ROOT = {
 			set_citizenship_type = { country = ROOT type = citizenship_limited }
 			set_military_service_type = { country = ROOT type = military_service_full }
 
@@ -122,6 +125,14 @@ country_event = {
 		capital_scope = {
 			remove_deposit = d_failing_infrastructure_faust
 			add_deposit = d_failing_infrastructure_frost
+
+			add_original_species_pc_trait_effect = { SPECIES = event_target:pony_species@ROOT TRAIT = trait_pc_continental_preference }
+			add_original_species_pc_trait_effect = { SPECIES = event_target:griffon_species@ROOT TRAIT = trait_pc_arctic_preference }
+			add_original_species_pc_trait_effect = { SPECIES = event_target:zebra_species@ROOT TRAIT = trait_pc_savannah_preference }
+			add_original_species_pc_trait_effect = { SPECIES = event_target:changeling_species@ROOT TRAIT = trait_pc_arctic_preference }
+			add_original_species_pc_trait_effect = { SPECIES = event_target:hippogriff_species@ROOT TRAIT = trait_pc_continental_preference }
+			add_original_species_pc_trait_effect = { SPECIES = event_target:kirin_species@ROOT TRAIT = trait_pc_tropical_preference }
+			add_original_species_pc_trait_effect = { SPECIES = event_target:yak_species@ROOT TRAIT = trait_pc_alpine_preference }
 
 			calculate_mtrspony_pop_count_keep_majority = yes
 			set_variable = { which = griffon_pops value = 700 } # Placeholder, most of these should be Penguins.
@@ -149,25 +160,20 @@ country_event = {
 				set_variable = { which = hippogriff_pops value = 180 }
 				set_variable = { which = kirin_pops value = 170 }
 			}
-			spawn_other_mtrspony_species = yes
-			spawn_mtrspony_pops = { SPECIES = polar_bear }
+			spawn_other_mtrspony_species = { IGNORE_PC = yes }
+			spawn_mtrspony_pops = { COUNTRY = owner SPECIES = polar_bear }
 		}
-
-		add_original_species_pc_trait_effect = { SPECIES = event_target:pony_species TRAIT = trait_pc_continental_preference }
-		add_original_species_pc_trait_effect = { SPECIES = event_target:hippogriff_species TRAIT = trait_pc_continental_preference }
-		add_original_species_pc_trait_effect = { SPECIES = event_target:zebra_species TRAIT = trait_pc_savannah_preference }
-		add_original_species_pc_trait_effect = { SPECIES = event_target:kirin_species TRAIT = trait_pc_tropical_preference }
-		add_original_species_pc_trait_effect = { SPECIES = event_target:yak_species TRAIT = trait_pc_alpine_preference }
 
 		create_leader = {
 			name = "PRESCRIPTED_ruler_name_soeren_of_svartpels"
 			custom_description = "PRESCRIPTED_ruler_name_soeren_of_svartpels_desc"
-			species = event_target:polar_bear_species
+			species = event_target:polar_bear_species@ROOT
 			gender = male
 			class = scientist
 			skill = 1
 			set_age = 41
 			background_ethic = "ethic_materialist"
+			skip_background_generation = yes
 			randomize_traits = no
 			traits = {
 				trait = leader_trait_carefree

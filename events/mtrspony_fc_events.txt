@@ -20,6 +20,7 @@ country_event = {
 			set_age = 56
 			background_job = "politician"
 			background_ethic = "ethic_materialist"
+			skip_background_generation = yes
 			randomize_traits = no
 			traits = {
 				trait = leader_trait_principled

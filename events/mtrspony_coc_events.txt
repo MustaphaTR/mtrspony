@@ -21,6 +21,7 @@ country_event = {
 			immortal = yes
 			background_job = "head_researcher"
 			background_ethic = "ethic_xenophile"
+			skip_background_generation = yes
 			randomize_traits = no
 			traits = {
 				trait = leader_trait_mtrspony_immortal

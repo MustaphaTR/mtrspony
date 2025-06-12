@@ -618,7 +618,7 @@ united_faustian_hives = {
 		trait = "trait_sedentary"
 	}
 
-	room = "default_room"
+	room = "personality_spiritual_seekers_room"
 
 	authority = "auth_hive_mind"
 	civics = { "civic_hive_divided_attention" "civic_hive_pooled_knowledge" }
@@ -692,7 +692,7 @@ united_faustian_hives_necroids = {
 		trait = "trait_sedentary"
 	}
 
-	room = "default_room"
+	room = "personality_spiritual_seekers_room"
 
 	authority = "auth_hive_mind"
 	civics = { "civic_hive_divided_attention" "civic_hive_memorialist" }
@@ -766,7 +766,7 @@ united_faustian_hives_paragons = {
 		trait = "trait_sedentary"
 	}
 
-	room = "default_room"
+	room = "personality_spiritual_seekers_room"
 
 	authority = "auth_hive_mind"
 	civics = { "civic_hive_upkeep_twister" "civic_hive_pooled_knowledge" }
@@ -840,7 +840,7 @@ united_faustian_hives_necroids_paragons = {
 		trait = "trait_sedentary"
 	}
 
-	room = "default_room"
+	room = "personality_spiritual_seekers_room"
 
 	authority = "auth_hive_mind"
 	civics = { "civic_hive_upkeep_twister" "civic_hive_memorialist" }

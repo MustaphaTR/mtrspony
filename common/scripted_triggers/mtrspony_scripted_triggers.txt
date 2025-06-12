@@ -241,10 +241,23 @@ is_same_species_with_faustian_races = {
 		is_same_species = event_target:polar_bear_species
 	}
 }
-
 is_same_species_with_other_faustian_races = {
 	NOT = { is_same_species = owner_main_species }
 	is_same_species_with_faustian_races = yes
+}
+
+is_exact_same_species_with_empire_faustian_races = {
+	OR = {
+		is_exact_same_species = event_target:pony_species@$COUNTRY$
+		is_exact_same_species = event_target:griffon_species@$COUNTRY$
+		is_exact_same_species = event_target:hippogriff_species@$COUNTRY$
+		is_exact_same_species = event_target:dragon_species@$COUNTRY$
+		is_exact_same_species = event_target:kirin_species@$COUNTRY$
+		is_exact_same_species = event_target:changeling_species@$COUNTRY$
+		is_exact_same_species = event_target:yak_species@$COUNTRY$
+		is_exact_same_species = event_target:zebra_species@$COUNTRY$
+		is_exact_same_species = event_target:polar_bear_species@$COUNTRY$
+	}
 }
 
 using_mtrspony_multi_species_setup = {

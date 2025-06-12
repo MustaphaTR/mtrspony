@@ -19,14 +19,14 @@ country_event = {
 			skill = 1
 			set_age = 1377
 			hide_age = no
+			background_job = "noble"
+			background_ethic = "ethic_gestalt_consciousness"
+			skip_background_generation = yes
 			immortal = yes
 			randomize_traits = no
 			traits = { }
 
 			effect = {
-				change_background_job = "noble"
-				change_background_ethic = "ethic_gestalt_consciousness"
-
 				save_global_event_target_as = leader_luna
 				set_leader_flag = is_created_leader
 				change_leader_portrait = "mtrspony_pony_alicorn_luna_predefined"
@@ -64,6 +64,9 @@ country_event = {
 			skill = 1
 			set_age = 291
 			immortal = yes
+			background_job = "head_researcher"
+			background_ethic = "ethic_xenophile"
+			skip_background_generation = yes
 			randomize_traits = no
 			traits = {
 				trait = leader_trait_mtrspony_immortal
@@ -73,9 +76,6 @@ country_event = {
 			}
 
 			effect = {
-				change_background_job = "head_researcher"
-				change_background_ethic = "ethic_xenophile"
-
 				save_global_event_target_as = leader_twilight_sparkle
 				set_leader_flag = is_created_leader
 				change_leader_portrait = "mtrspony_pony_alicorn_twilight_sparkle_predefined"

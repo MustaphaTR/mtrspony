@@ -19,6 +19,7 @@ country_event = {
 			skill = 1
 			set_age = 19
 			background_ethic = "ethic_authoritarian"
+			skip_background_generation = yes
 			randomize_traits = no
 			traits = {
 				trait = trait_imperial_heir
@@ -36,7 +37,7 @@ country_event = {
 		save_current_mtrspony_species = yes
 		create_other_mtrspony_species = yes
 		set_mtrspony_citizenship_limited = yes
-		event_target:changeling_species = { set_military_service_type = { country = ROOT type = military_service_full } }
+		event_target:changeling_species@ROOT = { set_military_service_type = { country = ROOT type = military_service_full } }
 
 		capital_scope = {
 			calculate_mtrspony_pop_count_keep_majority = yes

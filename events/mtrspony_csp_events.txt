@@ -20,6 +20,7 @@ country_event = {
 			set_age = 92
 			immortal = yes
 			background_ethic = "ethic_authoritarian"
+			skip_background_generation = yes
 			randomize_traits = no
 			traits = {
 				trait = leader_trait_mtrspony_immortal
@@ -47,6 +48,7 @@ country_event = {
 			immortal = yes
 			background_job = "chief_security_officer"
 			background_ethic = "ethic_xenophobe"
+			skip_background_generation = yes
 			randomize_traits = no
 			traits = {
 				trait = leader_trait_mtrspony_immortal
@@ -73,6 +75,7 @@ country_event = {
 			immortal = yes
 			background_job = "commanding_officer"
 			background_ethic = "ethic_militarist"
+			skip_background_generation = yes
 			randomize_traits = no
 			traits = {
 				trait = leader_trait_mtrspony_immortal
@@ -104,6 +107,7 @@ country_event = {
 			immortal = yes
 			background_job = "bureaucrat"
 			background_ethic = "ethic_xenophile"
+			skip_background_generation = yes
 			randomize_traits = no
 			traits = {
 				trait = leader_trait_mtrspony_immortal
@@ -121,18 +125,18 @@ country_event = {
 
 		save_current_mtrspony_species = yes
 		create_other_mtrspony_species = yes
-		event_target:griffon_species = { set_slavery_type = { country = ROOT type = slavery_normal } }
-		event_target:zebra_species = { set_slavery_type = { country = ROOT type = slavery_normal } }
-		event_target:hippogriff_species = { set_slavery_type = { country = ROOT type = slavery_normal } }
-		event_target:changeling_species = { change_species_characteristics = { remove_trait = trait_void_dweller_1 } }
-		event_target:kirin_species = { set_slavery_type = { country = ROOT type = slavery_normal } }
-		event_target:yak_species = { set_slavery_type = { country = ROOT type = slavery_normal } }
-		event_target:dragon_species = { set_slavery_type = { country = ROOT type = slavery_military } }
+		event_target:griffon_species@ROOT = { set_slavery_type = { country = ROOT type = slavery_normal } }
+		event_target:zebra_species@ROOT = { set_slavery_type = { country = ROOT type = slavery_normal } }
+		event_target:hippogriff_species@ROOT = { set_slavery_type = { country = ROOT type = slavery_normal } }
+		event_target:changeling_species@ROOT = { change_species_characteristics = { remove_trait = trait_void_dweller_1 } }
+		event_target:kirin_species@ROOT = { set_slavery_type = { country = ROOT type = slavery_normal } }
+		event_target:yak_species@ROOT = { set_slavery_type = { country = ROOT type = slavery_normal } }
+		event_target:dragon_species@ROOT = { set_slavery_type = { country = ROOT type = slavery_military } }
 
 		create_leader = {
 			name = "PRESCRIPTED_ruler_name_cherry_berry"
 			custom_description = "PRESCRIPTED_ruler_name_cherry_berry_desc"
-			species = event_target:pony_species
+			species = event_target:pony_species@ROOT
 			gender = female
 			class = scientist
 			skill = 1
@@ -140,6 +144,7 @@ country_event = {
 			immortal = yes
 			background_job = "astronaut"
 			background_ethic = "ethic_xenophile"
+			skip_background_generation = yes
 			randomize_traits = no
 			traits = {
 				trait = leader_trait_mtrspony_immortal
@@ -164,16 +169,25 @@ country_event = {
 		set_heir = event_target:leader_cherry_berry
 
 		capital_scope = {
+			add_original_species_pc_trait_effect = { SPECIES = event_target:pony_species@ROOT TRAIT = trait_pc_continental_preference }
+			add_original_species_pc_trait_effect = { SPECIES = event_target:griffon_species@ROOT TRAIT = trait_pc_continental_preference }
+			add_original_species_pc_trait_effect = { SPECIES = event_target:zebra_species@ROOT TRAIT = trait_pc_savannah_preference }
+			add_original_species_pc_trait_effect = { SPECIES = event_target:changeling_species@ROOT TRAIT = trait_pc_arid_preference }
+			add_original_species_pc_trait_effect = { SPECIES = event_target:hippogriff_species@ROOT TRAIT = trait_pc_continental_preference }
+			add_original_species_pc_trait_effect = { SPECIES = event_target:kirin_species@ROOT TRAIT = trait_pc_tropical_preference }
+			add_original_species_pc_trait_effect = { SPECIES = event_target:yak_species@ROOT TRAIT = trait_pc_alpine_preference }
+			add_original_species_pc_trait_effect = { SPECIES = event_target:dragon_species@ROOT TRAIT = trait_pc_arid_preference }
+
 			calculate_mtrspony_pop_count_keep_majority = yes
 			if = {
 				limit = { ROOT = { has_origin = origin_default } }
 
 				change_variable = { which = pops_to_remove value = 400 }
 			}
-			spawn_other_mtrspony_species = yes
+			spawn_other_mtrspony_species = { IGNORE_PC = yes }
 
 			every_owned_pop_group = {
-				limit = { is_same_species = event_target:pony_species }
+				limit = { is_same_species = event_target:pony_species@ROOT }
 
 				pop_group_transfer_ethic = {
 					POP_GROUP = this
@@ -187,7 +201,7 @@ country_event = {
 				}
 			}
 			every_owned_pop_group = {
-				limit = { is_same_species = event_target:griffon_species }
+				limit = { is_same_species = event_target:griffon_species@ROOT }
 
 				pop_group_transfer_ethic = {
 					POP_GROUP = this
@@ -198,8 +212,8 @@ country_event = {
 			every_owned_pop_group = {
 				limit = {
 					OR = {
-						is_same_species = event_target:hippogriff_species
-						is_same_species = event_target:zebra_species
+						is_same_species = event_target:hippogriff_species@ROOT
+						is_same_species = event_target:zebra_species@ROOT
 					}
 				}
 
@@ -210,7 +224,7 @@ country_event = {
 				}
 			}
 			every_owned_pop_group = {
-				limit = { is_same_species = event_target:dragon_species }
+				limit = { is_same_species = event_target:dragon_species@ROOT }
 
 				pop_group_transfer_ethic = {
 					POP_GROUP = this
@@ -219,7 +233,7 @@ country_event = {
 				}
 			}
 			every_owned_pop_group = {
-				limit = { is_same_species = event_target:kirin_species }
+				limit = { is_same_species = event_target:kirin_species@ROOT }
 
 				pop_group_transfer_ethic = {
 					POP_GROUP = this
@@ -243,15 +257,6 @@ country_event = {
 				}
 			}
 		}
-
-		add_original_species_pc_trait_effect = { SPECIES = event_target:pony_species TRAIT = trait_pc_continental_preference }
-		add_original_species_pc_trait_effect = { SPECIES = event_target:griffon_species TRAIT = trait_pc_continental_preference }
-		add_original_species_pc_trait_effect = { SPECIES = event_target:zebra_species TRAIT = trait_pc_savannah_preference }
-		add_original_species_pc_trait_effect = { SPECIES = event_target:changeling_species TRAIT = trait_pc_arid_preference }
-		add_original_species_pc_trait_effect = { SPECIES = event_target:hippogriff_species TRAIT = trait_pc_continental_preference }
-		add_original_species_pc_trait_effect = { SPECIES = event_target:kirin_species TRAIT = trait_pc_tropical_preference }
-		add_original_species_pc_trait_effect = { SPECIES = event_target:yak_species TRAIT = trait_pc_alpine_preference }
-		add_original_species_pc_trait_effect = { SPECIES = event_target:dragon_species TRAIT = trait_pc_arid_preference }
 
 		# Remove the genericos.
 		every_owned_leader = {
