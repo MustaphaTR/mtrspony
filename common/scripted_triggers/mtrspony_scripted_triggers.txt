@@ -113,8 +113,8 @@ has_hive_minds_and_necroids_but_not_paragons = {
 		host_has_dlc = "Utopia"
 		host_has_dlc = "BioGenesis"
 	}
-	NOT = { host_has_dlc = "Necroids Species Pack" }
-	host_has_dlc = "Galactic Paragons"
+	host_has_dlc = "Necroids Species Pack"
+	NOT = { host_has_dlc = "Galactic Paragons" }
 }
 
 has_hive_minds_and_paragons_but_not_necroids = {
@@ -123,8 +123,8 @@ has_hive_minds_and_paragons_but_not_necroids = {
 		host_has_dlc = "Utopia"
 		host_has_dlc = "BioGenesis"
 	}
-	host_has_dlc = "Necroids Species Pack"
-	NOT = { host_has_dlc = "Galactic Paragons" }
+	NOT = { host_has_dlc = "Necroids Species Pack" }
+	host_has_dlc = "Galactic Paragons"
 }
 
 has_hive_minds_but_not_necroids_and_paragons = {
