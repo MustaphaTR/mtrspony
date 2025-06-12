@@ -149,4 +149,5 @@
 
 - Version 0.3.4 (XX.XX.2025):
 -- Added United Faustian Hives prescripted country.
+-- Changelings now start with Camouflage trait instead of Communal if player has BioGenesis DLC.
 -- Fixed prescripted countries' hidden setup events not firing.

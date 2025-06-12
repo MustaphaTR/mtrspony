@@ -14,6 +14,32 @@ has_not_federations_dlc = {
 	NOT = { host_has_dlc = "Federations" }
 }
 
+has_federations_and_biogenesis = {
+	optimize_memory
+	host_has_dlc = "Federations"
+	host_has_dlc = "BioGenesis"
+}
+
+has_federations_but_not_biogenesis = {
+	optimize_memory
+	host_has_dlc = "Federations"
+	NOT = { host_has_dlc = "BioGenesis" }
+}
+
+has_biogenesis_but_not_federations = {
+	optimize_memory
+	NOT = { host_has_dlc = "Federations" }
+	host_has_dlc = "BioGenesis"
+}
+
+has_not_federations_and_biogenesis = {
+	optimize_memory
+	NOT = {
+		host_has_dlc = "Federations"
+		host_has_dlc = "BioGenesis"
+	}
+}
+
 has_megacorps_and_first_contact = {
 	optimize_memory
 	host_has_dlc = "Megacorp"
@@ -74,8 +100,8 @@ has_not_paragon_dlc = {
 has_hive_minds_necroids_and_paragons = {
 	optimize_memory
 	OR = {
-		host_has_dlc = "BioGenesis"
 		host_has_dlc = "Utopia"
+		host_has_dlc = "BioGenesis"
 	}
 	host_has_dlc = "Necroids Species Pack"
 	host_has_dlc = "Galactic Paragons"
@@ -84,8 +110,8 @@ has_hive_minds_necroids_and_paragons = {
 has_hive_minds_and_necroids_but_not_paragons = {
 	optimize_memory
 	OR = {
-		host_has_dlc = "BioGenesis"
 		host_has_dlc = "Utopia"
+		host_has_dlc = "BioGenesis"
 	}
 	NOT = { host_has_dlc = "Necroids Species Pack" }
 	host_has_dlc = "Galactic Paragons"
@@ -94,8 +120,8 @@ has_hive_minds_and_necroids_but_not_paragons = {
 has_hive_minds_and_paragons_but_not_necroids = {
 	optimize_memory
 	OR = {
-		host_has_dlc = "BioGenesis"
 		host_has_dlc = "Utopia"
+		host_has_dlc = "BioGenesis"
 	}
 	host_has_dlc = "Necroids Species Pack"
 	NOT = { host_has_dlc = "Galactic Paragons" }
@@ -104,8 +130,8 @@ has_hive_minds_and_paragons_but_not_necroids = {
 has_hive_minds_but_not_necroids_and_paragons = {
 	optimize_memory
 	OR = {
-		host_has_dlc = "BioGenesis"
 		host_has_dlc = "Utopia"
+		host_has_dlc = "BioGenesis"
 	}
 	NOT = {
 		host_has_dlc = "Necroids Species Pack"

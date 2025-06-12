@@ -809,7 +809,14 @@ setup_extra_traits_to_mtrspony_species = {
 		if = {
 			limit = { NOT = { owner_main_species = { is_same_species = event_target:changeling_species } } }
 
-			remove_trait_from_mtrspony_species_effect = { SPECIES = event_target:changeling_species TRAIT = trait_communal }
+			if = {
+				limit = { has_biogenesis_dlc = yes }
+
+				remove_trait_from_mtrspony_species_effect = { SPECIES = event_target:changeling_species TRAIT = trait_camouflage }
+			}
+			else = {
+				remove_trait_from_mtrspony_species_effect = { SPECIES = event_target:changeling_species TRAIT = trait_communal }
+			}
 			add_trait_to_mtrspony_species_effect = { SPECIES = event_target:changeling_species TRAIT = trait_slow_breeders }
 			add_trait_to_mtrspony_species_effect = { SPECIES = event_target:changeling_species TRAIT = trait_repugnant }
 			add_trait_to_mtrspony_species_effect = { SPECIES = event_target:changeling_species TRAIT = trait_slow_learners }
@@ -919,7 +926,7 @@ replace_traits_on_mtrspony_species_effect = {
 		if = {
 			limit = { species = { has_species_flag = species_creator@PREV.owner } }
 
-			species = { 
+			species = {
 				change_species_characteristics = { remove_trait = $REMOVE_TRAIT$ }
 				change_species_characteristics = { add_trait = $ADD_TRAIT$ }
 			}
@@ -1269,6 +1276,13 @@ create_changeling_species = {
 			set_species_flag = created_species
 			set_global_flag = changeling_species_created
 			set_species_flag = species_creator@PREV
+
+			if = {
+				limit = { has_biogenesis_dlc = yes }
+
+				change_species_characteristics = { remove_trait = trait_communal }
+				change_species_characteristics = { add_trait = trait_camouflage }
+			}
 		}
 	}
 }
