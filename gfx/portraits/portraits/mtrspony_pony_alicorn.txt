@@ -113,6 +113,17 @@ portraits = {
 		custom_attachment_label = "HAIR_COLOR"
 	}
 
+	mtrspony_pony_alicorn_luna_predefined = {
+		entity = "portrait_dummy_25p_left_entity"
+		clothes_selector = "mtrspony_pony_alicorn_luna_predefined_clothes_selector"
+		attachment_selector = "mtrspony_pony_alicorn_luna_predefined_hair_selector"
+		greeting_sound = "human_female_greetings_01"
+
+		character_textures = {
+			"gfx/models/portraits/pony_alicorn/luna/luna.dds"
+		}
+	}
+
 	mtrspony_pony_alicorn_nightmare_moon = {
 		entity = "portrait_dummy_huge_5p_left_entity"
 		clothes_selector = "mtrspony_pony_alicorn_nightmare_moon_clothes_selector"
@@ -164,14 +175,14 @@ portraits = {
 		custom_attachment_label = "HAIR_COLOR"
 	}
 
-	mtrspony_pony_alicorn_apple_bloom_predefined = {
-		entity = "portrait_dummy_centered_entity"
-		clothes_selector = "mtrspony_pony_alicorn_apple_bloom_predefined_clothes_selector"
-		attachment_selector = "mtrspony_pony_alicorn_apple_bloom_predefined_hair_selector"
+	mtrspony_pony_alicorn_twilight_sparkle_predefined = {
+		entity = "portrait_dummy_big_7p_left_entity"
+		clothes_selector = "mtrspony_no_clothes_selector"
+		attachment_selector = "mtrspony_pony_alicorn_twilight_sparkle_predefined_hair_selector"
 		greeting_sound = "human_female_greetings_01"
 
 		character_textures = {
-			"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn.dds"
+			"gfx/models/portraits/pony_alicorn/twilight_sparkle/twilight_sparkle_alicorn.dds"
 		}
 	}
 
@@ -200,6 +211,17 @@ portraits = {
 		}
 
 		custom_attachment_label = "HAIR_COLOR"
+	}
+
+	mtrspony_pony_alicorn_apple_bloom_predefined = {
+		entity = "portrait_dummy_centered_entity"
+		clothes_selector = "mtrspony_pony_alicorn_apple_bloom_predefined_clothes_selector"
+		attachment_selector = "mtrspony_pony_alicorn_apple_bloom_predefined_hair_selector"
+		greeting_sound = "human_female_greetings_01"
+
+		character_textures = {
+			"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn.dds"
+		}
 	}
 }
 

@@ -148,4 +148,5 @@
 -- Added more color options to a few portraits (Scootaloo, Sweetie Belle).
 
 - Version 0.3.4 (XX.XX.2025):
+-- Added United Faustian Hives prescripted country.
 -- Fixed prescripted countries' hidden setup events not firing.

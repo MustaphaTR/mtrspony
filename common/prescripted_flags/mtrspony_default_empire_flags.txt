@@ -14,6 +14,10 @@ empire_novyy_stalliongrad = {
 	flags = { novyy_stalliongrad }
 }
 
+empire_united_faustian_hives = {
+	flags = { united_faustian_hives }
+}
+
 empire_griffonian_empire = {
 	flags = { griffonian_empire }
 }

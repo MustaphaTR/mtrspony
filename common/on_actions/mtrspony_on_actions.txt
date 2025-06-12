@@ -13,13 +13,14 @@ on_game_start_country = {
 		cocstart.1
 		tcsstart.1
 		eofstart.1
+		nsstart.1
+		ufhstart.1
 		gestart.1
 		ftstart.1
 		rfstart.1
 		fcstart.1
 		cspstart.1
 		ndestart.1
-		nsstart.1
 	}
 }
 
@@ -29,13 +30,14 @@ on_modification_complete = {
 		cocstart.2
 		tcsstart.2
 		eofstart.2
+		nsstart.2
+		ufhstart.2
 		gestart.2
 		#ftstart.2
 		rfstart.2
 		fcstart.2
 		cspstart.2
 		ndestart.2
-		nsstart.2
 
 		uanstart.2
 		hpestart.2

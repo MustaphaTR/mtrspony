@@ -1,0 +1,125 @@
+namespace = ufhstart
+
+#Setup United Faustian Hives
+country_event = {
+	id = ufhstart.1
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		has_country_flag = united_faustian_hives
+	}
+	immediate = {
+		create_leader = {
+			name = "PRESCRIPTED_ruler_name_luna"
+			custom_description = "PRESCRIPTED_ruler_name_luna_desc"
+			species = ROOT.species
+			gender = female
+			class = official
+			skill = 1
+			set_age = 1377
+			hide_age = no
+			immortal = yes
+			randomize_traits = no
+			traits = { }
+
+			effect = {
+				change_background_job = "noble"
+				change_background_ethic = "ethic_gestalt_consciousness"
+
+				save_global_event_target_as = leader_luna
+				set_leader_flag = is_created_leader
+				change_leader_portrait = "mtrspony_pony_alicorn_luna_predefined"
+				ROOT = {
+					leader = {
+						kill_leader = {
+							show_notification = no
+							fire = yes
+						}
+					}
+					assign_leader = event_target:leader_luna
+				}
+
+				add_trait = {
+					trait = subclass_official_economy_councilor
+					show_message = no
+				}
+				add_trait = {
+					trait = leader_trait_ruler_hive_mind
+					show_message = no
+				}
+				add_trait = {
+					trait = leader_trait_principled
+					show_message = no
+				}
+			}
+		}
+
+		create_leader = {
+			name = "PRESCRIPTED_ruler_name_twilight_sparkle"
+			custom_description = "PRESCRIPTED_ruler_name_twilight_sparkle_desc"
+			species = ROOT.species
+			gender = female
+			class = scientist
+			skill = 1
+			set_age = 291
+			immortal = yes
+			randomize_traits = no
+			traits = {
+				trait = leader_trait_mtrspony_immortal
+
+				trait = leader_trait_physics_focus
+				trait = leader_trait_mtrspony_disconnected
+			}
+
+			effect = {
+				change_background_job = "head_researcher"
+				change_background_ethic = "ethic_xenophile"
+
+				save_global_event_target_as = leader_twilight_sparkle
+				set_leader_flag = is_created_leader
+				change_leader_portrait = "mtrspony_pony_alicorn_twilight_sparkle_predefined"
+				ROOT = {
+					random_owned_fleet = {
+						limit = { is_ship_class = shipclass_science_ship }
+
+						leader = {
+							kill_leader = {
+								show_notification = no
+								fire = yes
+							}
+						}
+						assign_leader = PREVPREV
+					}
+				}
+			}
+		}
+
+		save_current_mtrspony_species = yes
+		create_other_mtrspony_species = yes
+
+		capital_scope = {
+			calculate_mtrspony_pop_count_keep_majority = yes
+			spawn_other_mtrspony_species = yes
+		}
+	}
+}
+
+# Reapply named character potraits, they seem to reset after loading a save or when species got modified.
+country_event = {
+	id = ufhstart.2
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		has_country_flag = united_faustian_hives
+	}
+	immediate = {
+		event_target:leader_luna = {
+			change_leader_portrait = "mtrspony_pony_alicorn_luna_predefined"
+		}
+		event_target:leader_twilight_sparkle = {
+			change_leader_portrait = "mtrspony_pony_alicorn_twilight_sparkle_predefined"
+		}
+	}
+}

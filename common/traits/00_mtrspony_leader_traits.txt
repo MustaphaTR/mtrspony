@@ -37,7 +37,7 @@ leader_trait_paranoid_military = {
 	}
 	selectable_weight = {
 		weight = @class_negative_trait_weight
-		inline_script = paragon/council_weight_mult
+		inline_script = paragon/governor_weight_mult
 	}
 }
 
@@ -96,6 +96,24 @@ leader_trait_mtrspony_immortal = {
 		TIER = none
 	}
 	immortal_leaders = yes
+	leader_class = { commander scientist official }
+	selectable_weight = 0
+	randomized = no
+}
+
+leader_trait_mtrspony_disconnected = {
+	leader_trait_type = negative
+	inline_script = {
+		script = trait/icon_negative
+		CLASS = leader
+		ICON = "GFX_leader_trait_disconnected"
+		COUNCIL = no
+		TIER = none
+	}
+	self_modifier = {
+		species_leader_exp_gain = -0.2
+		leaders_upkeep_mult = 0.2
+	}
 	leader_class = { commander scientist official }
 	selectable_weight = 0
 	randomized = no

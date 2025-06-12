@@ -595,6 +595,302 @@ novyy_stalliongrad_megacorps = {
 	}
 }
 
+united_faustian_hives = {
+	name = "EMPIRE_DESIGN_united_faustian_hives"
+	adjective = "PRESCRIPTED_adjective_united_faustian_hives"
+	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
+
+	playable = has_hive_minds_but_not_necroids_and_paragons # Hive Mind authority is from Utopia or BioGenesis DLCs. Memorialist civic is from Necroids DLC. Autonomous Drones civic is from Galactic Paragons DLCç
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_united_faustian_hives"
+
+	species = {
+		class = "MAM"
+		portrait = "mtrspony_pony"
+		name = "PRESCRIPTED_species_pony"
+		plural = "PRESCRIPTED_species_plural_pony"
+		adjective = "PRESCRIPTED_species_adjective_pony"
+		name_list = "mtrspony_namelists_pony"
+		trait = "trait_hive_mind"
+		trait = "trait_talented"
+		trait = "trait_cutie_marks"
+		trait = "trait_sedentary"
+	}
+
+	room = "default_room"
+
+	authority = "auth_hive_mind"
+	civics = { "civic_hive_divided_attention" "civic_hive_pooled_knowledge" }
+	government = gov_hive_mind
+
+	ethic = "ethic_gestalt_consciousness"
+
+	origin = "origin_default"
+
+	flag = empire_united_faustian_hives
+
+	planet_name = "NAME_Faust"
+	planet_class = "pc_continental"
+	initializer = "eaw_vanilla_initializer"
+	system_name = "NAME_Behemoth"
+
+	graphical_culture = mammalian_01
+	city_graphical_culture = mammalian_01
+
+	empire_flag = {
+		icon= {
+			category = "esieaw2"
+			file = "SCH_DEM.dds"
+		}
+		background= {
+			category = "backgrounds"
+			file = "triangle_split.dds"
+		}
+		colors={
+			"red"
+			"dark_purple"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_luna"
+		ruler_title = "PRESCRIPTED_ruler_title_hive_king"
+		ruler_title_female = "PRESCRIPTED_ruler_title_hive_queen"
+		gender = female
+		portrait = "mtrspony_pony_alicorn_luna"
+		texture = 0
+		attachment = 0
+		clothes = 0
+		trait = "leader_trait_principled"
+		leader_class = official
+	}
+}
+
+united_faustian_hives_necroids = {
+	name = "EMPIRE_DESIGN_united_faustian_hives"
+	adjective = "PRESCRIPTED_adjective_united_faustian_hives"
+	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
+
+	playable = has_hive_minds_and_necroids_but_not_paragons  # Hive Mind authority is from Utopia or BioGenesis DLCs. Memorialist civic is from Necroids DLC. Autonomous Drones civic is from Galactic Paragons DLCç
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_united_faustian_hives"
+
+	species = {
+		class = "MAM"
+		portrait = "mtrspony_pony"
+		name = "PRESCRIPTED_species_pony"
+		plural = "PRESCRIPTED_species_plural_pony"
+		adjective = "PRESCRIPTED_species_adjective_pony"
+		name_list = "mtrspony_namelists_pony"
+		trait = "trait_hive_mind"
+		trait = "trait_talented"
+		trait = "trait_cutie_marks"
+		trait = "trait_sedentary"
+	}
+
+	room = "default_room"
+
+	authority = "auth_hive_mind"
+	civics = { "civic_hive_divided_attention" "civic_hive_memorialist" }
+	government = gov_hive_mind
+
+	ethic = "ethic_gestalt_consciousness"
+
+	origin = "origin_default"
+
+	flag = empire_united_faustian_hives
+
+	planet_name = "NAME_Faust"
+	planet_class = "pc_continental"
+	initializer = "eaw_vanilla_initializer"
+	system_name = "NAME_Behemoth"
+
+	graphical_culture = mammalian_01
+	city_graphical_culture = mammalian_01
+
+	empire_flag = {
+		icon= {
+			category = "esieaw2"
+			file = "SCH_DEM.dds"
+		}
+		background= {
+			category = "backgrounds"
+			file = "triangle_split.dds"
+		}
+		colors={
+			"red"
+			"dark_purple"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_luna"
+		ruler_title = "PRESCRIPTED_ruler_title_hive_king"
+		ruler_title_female = "PRESCRIPTED_ruler_title_hive_queen"
+		gender = female
+		portrait = "mtrspony_pony_alicorn_luna"
+		texture = 0
+		attachment = 0
+		clothes = 0
+		trait = "leader_trait_principled"
+		leader_class = official
+	}
+}
+
+united_faustian_hives_paragons = {
+	name = "EMPIRE_DESIGN_united_faustian_hives"
+	adjective = "PRESCRIPTED_adjective_united_faustian_hives"
+	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
+
+	playable = has_hive_minds_and_paragons_but_not_necroids # Hive Mind authority is from Utopia or BioGenesis DLCs. Memorialist civic is from Necroids DLC. Autonomous Drones civic is from Galactic Paragons DLCç
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_united_faustian_hives"
+
+	species = {
+		class = "MAM"
+		portrait = "mtrspony_pony"
+		name = "PRESCRIPTED_species_pony"
+		plural = "PRESCRIPTED_species_plural_pony"
+		adjective = "PRESCRIPTED_species_adjective_pony"
+		name_list = "mtrspony_namelists_pony"
+		trait = "trait_hive_mind"
+		trait = "trait_talented"
+		trait = "trait_cutie_marks"
+		trait = "trait_sedentary"
+	}
+
+	room = "default_room"
+
+	authority = "auth_hive_mind"
+	civics = { "civic_hive_upkeep_twister" "civic_hive_pooled_knowledge" }
+	government = gov_hive_mind
+
+	ethic = "ethic_gestalt_consciousness"
+
+	origin = "origin_default"
+
+	flag = empire_united_faustian_hives
+
+	planet_name = "NAME_Faust"
+	planet_class = "pc_continental"
+	initializer = "eaw_vanilla_initializer"
+	system_name = "NAME_Behemoth"
+
+	graphical_culture = mammalian_01
+	city_graphical_culture = mammalian_01
+
+	empire_flag = {
+		icon= {
+			category = "esieaw2"
+			file = "SCH_DEM.dds"
+		}
+		background= {
+			category = "backgrounds"
+			file = "triangle_split.dds"
+		}
+		colors={
+			"red"
+			"dark_purple"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_luna"
+		ruler_title = "PRESCRIPTED_ruler_title_hive_king"
+		ruler_title_female = "PRESCRIPTED_ruler_title_hive_queen"
+		gender = female
+		portrait = "mtrspony_pony_alicorn_luna"
+		texture = 0
+		attachment = 0
+		clothes = 0
+		trait = "leader_trait_principled"
+		leader_class = official
+	}
+}
+
+united_faustian_hives_necroids_paragons = {
+	name = "EMPIRE_DESIGN_united_faustian_hives"
+	adjective = "PRESCRIPTED_adjective_united_faustian_hives"
+	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
+
+	playable = has_hive_minds_necroids_and_paragons # Hive Mind authority is from Utopia or BioGenesis DLCs. Memorialist civic is from Necroids DLC. Autonomous Drones civic is from Galactic Paragons DLCç
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_united_faustian_hives"
+
+	species = {
+		class = "MAM"
+		portrait = "mtrspony_pony"
+		name = "PRESCRIPTED_species_pony"
+		plural = "PRESCRIPTED_species_plural_pony"
+		adjective = "PRESCRIPTED_species_adjective_pony"
+		name_list = "mtrspony_namelists_pony"
+		trait = "trait_hive_mind"
+		trait = "trait_talented"
+		trait = "trait_cutie_marks"
+		trait = "trait_sedentary"
+	}
+
+	room = "default_room"
+
+	authority = "auth_hive_mind"
+	civics = { "civic_hive_upkeep_twister" "civic_hive_memorialist" }
+	government = gov_hive_mind
+
+	ethic = "ethic_gestalt_consciousness"
+
+	origin = "origin_default"
+
+	flag = empire_united_faustian_hives
+
+	planet_name = "NAME_Faust"
+	planet_class = "pc_continental"
+	initializer = "eaw_vanilla_initializer"
+	system_name = "NAME_Behemoth"
+
+	graphical_culture = mammalian_01
+	city_graphical_culture = mammalian_01
+
+	empire_flag = {
+		icon= {
+			category = "esieaw2"
+			file = "SCH_DEM.dds"
+		}
+		background= {
+			category = "backgrounds"
+			file = "triangle_split.dds"
+		}
+		colors={
+			"red"
+			"dark_purple"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_luna"
+		ruler_title = "PRESCRIPTED_ruler_title_hive_king"
+		ruler_title_female = "PRESCRIPTED_ruler_title_hive_queen"
+		gender = female
+		portrait = "mtrspony_pony_alicorn_luna"
+		texture = 0
+		attachment = 0
+		clothes = 0
+		trait = "leader_trait_principled"
+		leader_class = official
+	}
+}
+
 griffonian_empire = {
 	name = "EMPIRE_DESIGN_griffonian_empire"
 	adjective = "PRESCRIPTED_adjective_griffonian_empire"

@@ -71,6 +71,48 @@ has_not_paragon_dlc = {
 	NOT = { host_has_dlc = "Galactic Paragons" }
 }
 
+has_hive_minds_necroids_and_paragons = {
+	optimize_memory
+	OR = {
+		host_has_dlc = "BioGenesis"
+		host_has_dlc = "Utopia"
+	}
+	host_has_dlc = "Necroids Species Pack"
+	host_has_dlc = "Galactic Paragons"
+}
+
+has_hive_minds_and_necroids_but_not_paragons = {
+	optimize_memory
+	OR = {
+		host_has_dlc = "BioGenesis"
+		host_has_dlc = "Utopia"
+	}
+	NOT = { host_has_dlc = "Necroids Species Pack" }
+	host_has_dlc = "Galactic Paragons"
+}
+
+has_hive_minds_and_paragons_but_not_necroids = {
+	optimize_memory
+	OR = {
+		host_has_dlc = "BioGenesis"
+		host_has_dlc = "Utopia"
+	}
+	host_has_dlc = "Necroids Species Pack"
+	NOT = { host_has_dlc = "Galactic Paragons" }
+}
+
+has_hive_minds_but_not_necroids_and_paragons = {
+	optimize_memory
+	OR = {
+		host_has_dlc = "BioGenesis"
+		host_has_dlc = "Utopia"
+	}
+	NOT = {
+		host_has_dlc = "Necroids Species Pack"
+		host_has_dlc = "Galactic Paragons"
+	}
+}
+
 # Portrait Checks
 pop_has_miltary_job = {
 	always = no # It is not possible to check for this properly anymore.
@@ -150,6 +192,7 @@ is_mtrspony_prescripted_country = {
 		has_country_flag = novyy_stalliongrad
 		has_country_flag = united_allied_nations
 		has_country_flag = holy_pony_empire
+		has_country_flag = united_faustian_hives
 		has_country_flag = griffonian_empire
 		has_country_flag = faustian_technate
 		has_country_flag = faustian_conglomerate
