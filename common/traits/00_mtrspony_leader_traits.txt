@@ -110,9 +110,20 @@ leader_trait_mtrspony_disconnected = {
 		COUNCIL = no
 		TIER = none
 	}
+	triggered_self_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				has_civic = civic_hive_upkeep_twister
+			}
+		}
+		leader_trait_selection_options_add = -1
+		leader_scientists_unity_upkeep_add = 1
+		leader_scientists_food_upkeep_add = -2
+	}
 	self_modifier = {
-		species_leader_exp_gain = -0.2
-		leaders_upkeep_mult = 0.2
+		species_leader_exp_gain = -0.15
+		leaders_upkeep_mult = 0.15
 	}
 	leader_class = { commander scientist official }
 	selectable_weight = 0
