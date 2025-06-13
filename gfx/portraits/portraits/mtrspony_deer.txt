@@ -1,0 +1,130 @@
+portraits = {
+	mtrspony_deer_alice = {
+		entity = "portrait_dummy_10p_left_entity"
+		clothes_selector = "mtrspony_no_clothes_selector"
+		attachment_selector = "mtrspony_no_clothes_selector"
+		greeting_sound = "human_male_greetings_01"
+
+		character_textures = {
+			"gfx/models/portraits/deer/alice/alice.dds"
+		}
+
+		custom_attachment_label = "HAIR_COLOR"
+	}
+
+	mtrspony_deer_aurora = {
+		entity = "portrait_dummy_10p_left_entity"
+		clothes_selector = "mtrspony_deer_aurora_clothes_selector"
+		attachment_selector = "mtrspony_deer_aurora_hair_selector"
+		greeting_sound = "human_female_greetings_01"
+
+		character_textures = {
+			"gfx/models/portraits/deer/aurora/aurora.dds"
+			"gfx/models/portraits/deer/aurora/aurora_alt1.dds"
+			"gfx/models/portraits/deer/aurora/aurora_alt2.dds"
+			"gfx/models/portraits/deer/aurora/aurora_alt3.dds"
+		}
+
+		custom_attachment_label = "HAIR_COLOR"
+	}
+}
+
+portrait_groups = {
+	mtrspony_deer = {
+		default = mtrspony_deer_alice
+		game_setup = {
+			add = {
+				trigger = {
+					ruler = {
+						OR = {
+							gender = male
+							gender = indeterminable
+						}
+					}
+				}
+				portraits = {
+					mtrspony_deer_alice
+				}
+			}
+			add = {
+				trigger = {
+					ruler = {
+						OR = {
+							gender = female
+							gender = indeterminable
+						}
+					}
+				}
+				portraits = {
+					mtrspony_deer_aurora
+				}
+			}
+		}
+
+		species = {
+			add = {
+				trigger = {
+					exists = species
+					NOT = { species = { species_gender = male } }
+				}
+				portraits = {
+					mtrspony_deer_aurora
+				}
+			}
+			add = {
+				trigger = {
+					exists = species
+					NOT = { species = { species_gender = female } }
+				}
+				portraits = {
+					mtrspony_deer_alice
+				}
+			}
+		}
+
+		pop = {
+			add = {
+				trigger = {
+					NOT = { species = { species_gender = male } }
+				}
+				portraits = {
+					mtrspony_deer_aurora
+				}
+			}
+			add = {
+				trigger = {
+					NOT = { species = { species_gender = female } }
+				}
+				portraits = {
+					mtrspony_deer_alice
+				}
+			}
+		}
+
+		leader = {
+			add = {
+				trigger = {
+					OR = {
+						gender = male
+						gender = indeterminable
+					}
+				}
+				portraits = {
+					mtrspony_deer_alice
+				}
+			}
+
+			add = {
+				trigger = {
+					OR = {
+						gender = female
+						gender = indeterminable
+					}
+				}
+				portraits = {
+					mtrspony_deer_aurora
+				}
+			}
+		}
+	}
+}

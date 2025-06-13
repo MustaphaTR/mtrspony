@@ -1,0 +1,105 @@
+mtrspony_deer_aurora_hair_selector = {
+	default = "gfx/models/portraits/deer/aurora/aurora_hair.dds"
+
+	game_setup = {
+		default = "gfx/models/portraits/deer/aurora/aurora_hair.dds"
+	}
+
+	species = {
+		default = "gfx/models/portraits/deer/aurora/aurora_hair.dds"
+	}
+
+	pop = {
+		default = "gfx/models/portraits/deer/aurora/aurora_hair.dds"
+
+		random = {
+			list = {
+				"gfx/models/portraits/deer/aurora/aurora_hair.dds"
+				"gfx/models/portraits/deer/aurora/aurora_hair_alt1.dds"
+				"gfx/models/portraits/deer/aurora/aurora_hair_alt2.dds"
+				"gfx/models/portraits/deer/aurora/aurora_hair_alt3.dds"
+			}
+		}
+	}
+
+	leader = {
+		random = {
+			list = {
+				"gfx/models/portraits/deer/aurora/aurora_hair.dds"
+				"gfx/models/portraits/deer/aurora/aurora_hair_alt1.dds"
+				"gfx/models/portraits/deer/aurora/aurora_hair_alt2.dds"
+				"gfx/models/portraits/deer/aurora/aurora_hair_alt3.dds"
+			}
+		}
+	}
+
+	ruler = {
+		random = {
+			list = {
+				"gfx/models/portraits/deer/aurora/aurora_hair.dds"
+				"gfx/models/portraits/deer/aurora/aurora_hair_alt1.dds"
+				"gfx/models/portraits/deer/aurora/aurora_hair_alt2.dds"
+				"gfx/models/portraits/deer/aurora/aurora_hair_alt3.dds"
+			}
+		}
+	}
+}
+
+mtrspony_deer_aurora_clothes_selector = {
+	default = "gfx/models/portraits/deer/aurora/aurora_clothes.dds"
+
+	game_setup = {
+		default = "gfx/models/portraits/deer/aurora/aurora_clothes.dds"
+	}
+
+	species = {
+		default = "gfx/models/portraits/deer/aurora/aurora_clothes.dds"
+	}
+
+	pop = {
+		default = "gfx/models/portraits/deer/aurora/aurora_clothes.dds"
+
+		random = {
+			list = {
+				"gfx/models/portraits/deer/aurora/aurora_clothes.dds"
+				"gfx/models/portraits/deer/aurora/aurora_clothes_alt1.dds"
+				"gfx/models/portraits/deer/aurora/aurora_clothes_alt2.dds"
+				"gfx/models/portraits/deer/aurora/aurora_clothes_alt3.dds"
+				"gfx/models/portraits/deer/aurora/aurora_clothes_no_bell.dds"
+				"gfx/models/portraits/deer/aurora/aurora_clothes_no_bell_alt1.dds"
+				"gfx/models/portraits/deer/aurora/aurora_clothes_no_bell_alt2.dds"
+				"gfx/models/portraits/deer/aurora/aurora_clothes_no_bell_alt3.dds"
+			}
+		}
+	}
+
+	leader = {
+		random = {
+			list = {
+				"gfx/models/portraits/deer/aurora/aurora_clothes.dds"
+				"gfx/models/portraits/deer/aurora/aurora_clothes_alt1.dds"
+				"gfx/models/portraits/deer/aurora/aurora_clothes_alt2.dds"
+				"gfx/models/portraits/deer/aurora/aurora_clothes_alt3.dds"
+				"gfx/models/portraits/deer/aurora/aurora_clothes_no_bell.dds"
+				"gfx/models/portraits/deer/aurora/aurora_clothes_no_bell_alt1.dds"
+				"gfx/models/portraits/deer/aurora/aurora_clothes_no_bell_alt2.dds"
+				"gfx/models/portraits/deer/aurora/aurora_clothes_no_bell_alt3.dds"
+			}
+		}
+	}
+
+	ruler = {
+		random = {
+			list = {
+				"gfx/models/portraits/deer/aurora/aurora_clothes.dds"
+				"gfx/models/portraits/deer/aurora/aurora_clothes_alt1.dds"
+				"gfx/models/portraits/deer/aurora/aurora_clothes_alt2.dds"
+				"gfx/models/portraits/deer/aurora/aurora_clothes_alt3.dds"
+				"gfx/models/portraits/deer/aurora/aurora_clothes_no_bell.dds"
+				"gfx/models/portraits/deer/aurora/aurora_clothes_no_bell_alt1.dds"
+				"gfx/models/portraits/deer/aurora/aurora_clothes_no_bell_alt2.dds"
+				"gfx/models/portraits/deer/aurora/aurora_clothes_no_bell_alt3.dds"
+			}
+		}
+	}
+}

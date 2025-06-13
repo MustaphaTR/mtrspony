@@ -31,13 +31,14 @@ country_event = {
 			capital_scope = {
 				set_variable = { which = pony_pops value = 100 }
 				set_variable = { which = griffon_pops value = 100 }
-				set_variable = { which = hippogriff_pops value = 100 }
-				set_variable = { which = dragon_pops value = 100 }
-				set_variable = { which = kirin_pops value = 100 }
-				set_variable = { which = changeling_pops value = 100 }
-				set_variable = { which = yak_pops value = 100 }
 				set_variable = { which = zebra_pops value = 100 }
-				set_variable = { which = pops_to_remove value = 700 }
+				set_variable = { which = deer_pops value = 100 }
+				set_variable = { which = changeling_pops value = 100 }
+				set_variable = { which = hippogriff_pops value = 100 }
+				set_variable = { which = kirin_pops value = 100 }
+				set_variable = { which = yak_pops value = 100 }
+				set_variable = { which = dragon_pops value = 100 }
+				set_variable = { which = pops_to_remove value = 800 }
 				spawn_other_mtrspony_species = yes
 			}
 
@@ -117,13 +118,14 @@ country_event = {
 				capital_scope = {
 					set_variable = { which = pony_pops value = 100 }
 					set_variable = { which = griffon_pops value = 100 }
-					set_variable = { which = hippogriff_pops value = 100 }
-					set_variable = { which = dragon_pops value = 100 }
-					set_variable = { which = kirin_pops value = 100 }
-					set_variable = { which = changeling_pops value = 100 }
-					set_variable = { which = yak_pops value = 100 }
 					set_variable = { which = zebra_pops value = 100 }
-					set_variable = { which = pops_to_remove value = 700 }
+					set_variable = { which = deer_pops value = 100 }
+					set_variable = { which = changeling_pops value = 100 }
+					set_variable = { which = hippogriff_pops value = 100 }
+					set_variable = { which = kirin_pops value = 100 }
+					set_variable = { which = yak_pops value = 100 }
+					set_variable = { which = dragon_pops value = 100 }
+					set_variable = { which = pops_to_remove value = 800 }
 					spawn_other_mtrspony_species = yes
 				}
 
