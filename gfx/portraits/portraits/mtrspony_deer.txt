@@ -12,17 +12,27 @@ portraits = {
 		custom_attachment_label = "HAIR_COLOR"
 	}
 
-	mtrspony_deer_aurora = {
+	mtrspony_deer_bori = {
 		entity = "portrait_dummy_10p_left_entity"
-		clothes_selector = "mtrspony_deer_aurora_clothes_selector"
-		attachment_selector = "mtrspony_deer_aurora_hair_selector"
+		clothes_selector = "mtrspony_deer_bori_clothes_selector"
+		attachment_selector = "mtrspony_deer_bori_hair_selector"
 		greeting_sound = "human_female_greetings_01"
 
 		character_textures = {
-			"gfx/models/portraits/deer/aurora/aurora.dds"
-			"gfx/models/portraits/deer/aurora/aurora_alt1.dds"
-			"gfx/models/portraits/deer/aurora/aurora_alt2.dds"
-			"gfx/models/portraits/deer/aurora/aurora_alt3.dds"
+			"gfx/models/portraits/deer/bori/bori.dds"
+			"gfx/models/portraits/deer/bori/bori_alt1.dds"
+			"gfx/models/portraits/deer/bori/bori_alt2.dds"
+			"gfx/models/portraits/deer/bori/bori_alt3.dds"
+			"gfx/models/portraits/deer/bori/bori_alt4.dds"
+			"gfx/models/portraits/deer/bori/bori_alt5.dds"
+			"gfx/models/portraits/deer/bori/bori_alt6.dds"
+			"gfx/models/portraits/deer/bori/bori_alt7.dds"
+			"gfx/models/portraits/deer/bori/bori_alt8.dds"
+			"gfx/models/portraits/deer/bori/bori_alt9.dds"
+			"gfx/models/portraits/deer/bori/bori_alt10.dds"
+			"gfx/models/portraits/deer/bori/bori_alt11.dds"
+			"gfx/models/portraits/deer/bori/bori_alt12.dds"
+			"gfx/models/portraits/deer/bori/bori_alt13.dds"
 		}
 
 		custom_attachment_label = "HAIR_COLOR"
@@ -56,7 +66,7 @@ portrait_groups = {
 					}
 				}
 				portraits = {
-					mtrspony_deer_aurora
+					mtrspony_deer_bori
 				}
 			}
 		}
@@ -68,7 +78,7 @@ portrait_groups = {
 					NOT = { species = { species_gender = male } }
 				}
 				portraits = {
-					mtrspony_deer_aurora
+					mtrspony_deer_bori
 				}
 			}
 			add = {
@@ -88,7 +98,7 @@ portrait_groups = {
 					NOT = { species = { species_gender = male } }
 				}
 				portraits = {
-					mtrspony_deer_aurora
+					mtrspony_deer_bori
 				}
 			}
 			add = {
@@ -122,7 +132,7 @@ portrait_groups = {
 					}
 				}
 				portraits = {
-					mtrspony_deer_aurora
+					mtrspony_deer_bori
 				}
 			}
 		}

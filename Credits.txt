@@ -122,6 +122,9 @@ Portrait Bases:
  > walrusinc:
 	- Skystar
 
+ > whalepornoz:
+	- Bori
+
  > zee66:
 	- Echo
 

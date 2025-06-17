@@ -149,6 +149,9 @@
 
 - Version 0.3.4 (XX.XX.2025):
 -- Added United Faustian Hives prescripted country.
+-- Added Deer portraits, one set for each gender. Bori for female and Alice for male.
+--- Multi-species setup option now gives with Deer pops as well.
+-- Added more color options to a portrait (Unicorn Twilight Sparkle).
 -- Changelings now start with Camouflage trait instead of Communal if player has BioGenesis DLC.
 -- Reworked the multi-species setup to modify the species first, then spawn the pops.
 -- Fixed prescripted countries' hidden setup events not firing.

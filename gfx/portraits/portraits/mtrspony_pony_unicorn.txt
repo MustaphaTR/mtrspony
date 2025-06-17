@@ -106,6 +106,7 @@ portraits = {
 			"gfx/models/portraits/pony_unicorn/twilight_sparkle/twilight_sparkle_unicorn_alt10.dds"
 			"gfx/models/portraits/pony_unicorn/twilight_sparkle/twilight_sparkle_unicorn_alt11.dds"
 			"gfx/models/portraits/pony_unicorn/twilight_sparkle/twilight_sparkle_unicorn_alt12.dds"
+			"gfx/models/portraits/pony_unicorn/twilight_sparkle/twilight_sparkle_unicorn_alt13.dds"
 		}
 
 		custom_attachment_label = "HAIR_COLOR"
