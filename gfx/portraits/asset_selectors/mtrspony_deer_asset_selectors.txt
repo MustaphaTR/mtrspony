@@ -1,3 +1,82 @@
+mtrspony_deer_alice_hair_selector = {
+	default = "gfx/models/portraits/deer/alice/alice_hair.dds"
+
+	game_setup = {
+		default = "gfx/models/portraits/deer/alice/alice_hair.dds"
+	}
+
+	species = {
+		default = "gfx/models/portraits/deer/alice/alice_hair.dds"
+	}
+
+	pop = {
+		default = "gfx/models/portraits/deer/alice/alice_hair.dds"
+
+		random = {
+			list = {
+				"gfx/models/portraits/deer/alice/alice_hair.dds"
+			}
+		}
+	}
+
+	leader = {
+		random = {
+			list = {
+				"gfx/models/portraits/deer/alice/alice_hair.dds"
+			}
+		}
+	}
+
+	ruler = {
+		random = {
+			list = {
+				"gfx/models/portraits/deer/alice/alice_hair.dds"
+			}
+		}
+	}
+}
+
+mtrspony_deer_alice_clothes_selector = {
+	default = "gfx/models/portraits/deer/alice/alice_clothes.dds"
+
+	game_setup = {
+		default = "gfx/models/portraits/deer/alice/alice_clothes.dds"
+	}
+
+	species = {
+		default = "gfx/models/portraits/deer/alice/alice_clothes.dds"
+	}
+
+	pop = {
+		default = "gfx/models/portraits/deer/alice/alice_clothes.dds"
+
+		random = {
+			list = {
+				"gfx/models/portraits/deer/alice/alice_clothes.dds"
+				"gfx/models/portraits/deer/alice/alice_clothes_no_bell.dds"
+			}
+		}
+	}
+
+	leader = {
+		random = {
+			list = {
+				"gfx/models/portraits/deer/alice/alice_clothes.dds"
+				"gfx/models/portraits/deer/alice/alice_clothes_no_bell.dds"
+			}
+		}
+	}
+
+	ruler = {
+		random = {
+			list = {
+				"gfx/models/portraits/deer/alice/alice_clothes.dds"
+				"gfx/models/portraits/deer/alice/alice_clothes_no_bell.dds"
+			}
+		}
+	}
+}
+
 mtrspony_deer_bori_hair_selector = {
 	default = "gfx/models/portraits/deer/bori/bori_hair.dds"
 

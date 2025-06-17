@@ -1,8 +1,8 @@
 portraits = {
 	mtrspony_deer_alice = {
 		entity = "portrait_dummy_10p_left_entity"
-		clothes_selector = "mtrspony_no_clothes_selector"
-		attachment_selector = "mtrspony_no_clothes_selector"
+		clothes_selector = "mtrspony_deer_alice_clothes_selector"
+		attachment_selector = "mtrspony_deer_alice_hair_selector"
 		greeting_sound = "human_male_greetings_01"
 
 		character_textures = {

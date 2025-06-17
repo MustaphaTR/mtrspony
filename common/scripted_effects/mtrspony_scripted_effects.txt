@@ -918,6 +918,14 @@ setup_extra_traits_to_mtrspony_species = {
 			add_trait_to_mtrspony_species_effect = { SPECIES = event_target:zebra_species TRAIT = trait_solitary }
 		}
 		if = {
+			limit = { NOT = { owner_main_species = { is_same_species = event_target:deer_species } } }
+
+			remove_trait_from_mtrspony_species_effect = { SPECIES = event_target:deer_species TRAIT = trait_natural_sociologists }
+			add_trait_to_mtrspony_species_effect = { SPECIES = event_target:deer_species TRAIT = trait_slow_breeders }
+			add_trait_to_mtrspony_species_effect = { SPECIES = event_target:deer_species TRAIT = trait_unruly }
+			add_trait_to_mtrspony_species_effect = { SPECIES = event_target:deer_species TRAIT = trait_deviants }
+		}
+		if = {
 			limit = { NOT = { owner_main_species = { is_same_species = event_target:changeling_species } } }
 
 			if = {
@@ -1387,7 +1395,7 @@ create_deer_species = {
 		homeworld = ROOT.species.home_planet
 		traits = {
 			trait = trait_adaptive
-			trait = trait_resilient
+			trait = trait_natural_sociologists
 			trait = trait_fleeting
 		}
 
