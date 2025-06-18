@@ -51,6 +51,7 @@ Portrait Bases:
 	- Unicorn Twilight Sparkle
 
  > frownfactory:
+	- Cadance
 	- Celestia
 	- Rain Shine
 	- Shining Armor
@@ -95,6 +96,9 @@ Portrait Bases:
 
  > negatif22:
 	- Armored Prince Blueblood
+
+ > n0kkun:
+	- Flurry Heart
 
  > nukarulesthehouse1:
 	- Storm King
