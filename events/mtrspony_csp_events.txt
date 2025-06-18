@@ -127,8 +127,9 @@ country_event = {
 		create_other_mtrspony_species = yes
 		event_target:griffon_species@ROOT = { set_slavery_type = { country = ROOT type = slavery_normal } }
 		event_target:zebra_species@ROOT = { set_slavery_type = { country = ROOT type = slavery_normal } }
-		event_target:hippogriff_species@ROOT = { set_slavery_type = { country = ROOT type = slavery_normal } }
+		event_target:deer_species@ROOT = { set_slavery_type = { country = ROOT type = slavery_normal } }
 		event_target:changeling_species@ROOT = { change_species_characteristics = { remove_trait = trait_void_dweller_1 } }
+		event_target:hippogriff_species@ROOT = { set_slavery_type = { country = ROOT type = slavery_normal } }
 		event_target:kirin_species@ROOT = { set_slavery_type = { country = ROOT type = slavery_normal } }
 		event_target:yak_species@ROOT = { set_slavery_type = { country = ROOT type = slavery_normal } }
 		event_target:dragon_species@ROOT = { set_slavery_type = { country = ROOT type = slavery_military } }
@@ -172,6 +173,7 @@ country_event = {
 			add_original_species_pc_trait_effect = { SPECIES = event_target:pony_species@ROOT TRAIT = trait_pc_continental_preference }
 			add_original_species_pc_trait_effect = { SPECIES = event_target:griffon_species@ROOT TRAIT = trait_pc_continental_preference }
 			add_original_species_pc_trait_effect = { SPECIES = event_target:zebra_species@ROOT TRAIT = trait_pc_savannah_preference }
+			add_original_species_pc_trait_effect = { SPECIES = event_target:deer_species@ROOT TRAIT = trait_pc_alpine_preference }
 			add_original_species_pc_trait_effect = { SPECIES = event_target:changeling_species@ROOT TRAIT = trait_pc_arid_preference }
 			add_original_species_pc_trait_effect = { SPECIES = event_target:hippogriff_species@ROOT TRAIT = trait_pc_continental_preference }
 			add_original_species_pc_trait_effect = { SPECIES = event_target:kirin_species@ROOT TRAIT = trait_pc_tropical_preference }
