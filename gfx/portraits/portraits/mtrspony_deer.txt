@@ -7,6 +7,19 @@ portraits = {
 
 		character_textures = {
 			"gfx/models/portraits/deer/alice/alice.dds"
+			"gfx/models/portraits/deer/alice/alice_alt1.dds"
+			"gfx/models/portraits/deer/alice/alice_alt2.dds"
+			"gfx/models/portraits/deer/alice/alice_alt3.dds"
+			"gfx/models/portraits/deer/alice/alice_alt4.dds"
+			"gfx/models/portraits/deer/alice/alice_alt5.dds"
+			"gfx/models/portraits/deer/alice/alice_alt6.dds"
+			"gfx/models/portraits/deer/alice/alice_alt7.dds"
+			"gfx/models/portraits/deer/alice/alice_alt8.dds"
+			"gfx/models/portraits/deer/alice/alice_alt9.dds"
+			"gfx/models/portraits/deer/alice/alice_alt10.dds"
+			"gfx/models/portraits/deer/alice/alice_alt11.dds"
+			"gfx/models/portraits/deer/alice/alice_alt12.dds"
+			"gfx/models/portraits/deer/alice/alice_alt13.dds"
 		}
 
 		custom_attachment_label = "HAIR_COLOR"

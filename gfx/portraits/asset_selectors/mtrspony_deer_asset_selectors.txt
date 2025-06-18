@@ -15,6 +15,20 @@ mtrspony_deer_alice_hair_selector = {
 		random = {
 			list = {
 				"gfx/models/portraits/deer/alice/alice_hair.dds"
+				"gfx/models/portraits/deer/alice/alice_hair_alt1.dds"
+				"gfx/models/portraits/deer/alice/alice_hair_alt2.dds"
+				"gfx/models/portraits/deer/alice/alice_hair_alt3.dds"
+				"gfx/models/portraits/deer/alice/alice_hair_alt4.dds"
+				"gfx/models/portraits/deer/alice/alice_hair_alt5.dds"
+				"gfx/models/portraits/deer/alice/alice_hair_alt6.dds"
+				"gfx/models/portraits/deer/alice/alice_hair_alt7.dds"
+				"gfx/models/portraits/deer/alice/alice_hair_alt8.dds"
+				"gfx/models/portraits/deer/alice/alice_hair_alt9.dds"
+				"gfx/models/portraits/deer/alice/alice_hair_alt10.dds"
+				"gfx/models/portraits/deer/alice/alice_hair_alt11.dds"
+				"gfx/models/portraits/deer/alice/alice_hair_alt12.dds"
+				"gfx/models/portraits/deer/alice/alice_hair_alt13.dds"
+				"gfx/models/portraits/deer/alice/alice_hair_alt14.dds"
 			}
 		}
 	}
@@ -23,6 +37,20 @@ mtrspony_deer_alice_hair_selector = {
 		random = {
 			list = {
 				"gfx/models/portraits/deer/alice/alice_hair.dds"
+				"gfx/models/portraits/deer/alice/alice_hair_alt1.dds"
+				"gfx/models/portraits/deer/alice/alice_hair_alt2.dds"
+				"gfx/models/portraits/deer/alice/alice_hair_alt3.dds"
+				"gfx/models/portraits/deer/alice/alice_hair_alt4.dds"
+				"gfx/models/portraits/deer/alice/alice_hair_alt5.dds"
+				"gfx/models/portraits/deer/alice/alice_hair_alt6.dds"
+				"gfx/models/portraits/deer/alice/alice_hair_alt7.dds"
+				"gfx/models/portraits/deer/alice/alice_hair_alt8.dds"
+				"gfx/models/portraits/deer/alice/alice_hair_alt9.dds"
+				"gfx/models/portraits/deer/alice/alice_hair_alt10.dds"
+				"gfx/models/portraits/deer/alice/alice_hair_alt11.dds"
+				"gfx/models/portraits/deer/alice/alice_hair_alt12.dds"
+				"gfx/models/portraits/deer/alice/alice_hair_alt13.dds"
+				"gfx/models/portraits/deer/alice/alice_hair_alt14.dds"
 			}
 		}
 	}
@@ -31,6 +59,20 @@ mtrspony_deer_alice_hair_selector = {
 		random = {
 			list = {
 				"gfx/models/portraits/deer/alice/alice_hair.dds"
+				"gfx/models/portraits/deer/alice/alice_hair_alt1.dds"
+				"gfx/models/portraits/deer/alice/alice_hair_alt2.dds"
+				"gfx/models/portraits/deer/alice/alice_hair_alt3.dds"
+				"gfx/models/portraits/deer/alice/alice_hair_alt4.dds"
+				"gfx/models/portraits/deer/alice/alice_hair_alt5.dds"
+				"gfx/models/portraits/deer/alice/alice_hair_alt6.dds"
+				"gfx/models/portraits/deer/alice/alice_hair_alt7.dds"
+				"gfx/models/portraits/deer/alice/alice_hair_alt8.dds"
+				"gfx/models/portraits/deer/alice/alice_hair_alt9.dds"
+				"gfx/models/portraits/deer/alice/alice_hair_alt10.dds"
+				"gfx/models/portraits/deer/alice/alice_hair_alt11.dds"
+				"gfx/models/portraits/deer/alice/alice_hair_alt12.dds"
+				"gfx/models/portraits/deer/alice/alice_hair_alt13.dds"
+				"gfx/models/portraits/deer/alice/alice_hair_alt14.dds"
 			}
 		}
 	}
@@ -53,7 +95,37 @@ mtrspony_deer_alice_clothes_selector = {
 		random = {
 			list = {
 				"gfx/models/portraits/deer/alice/alice_clothes.dds"
+				"gfx/models/portraits/deer/alice/alice_clothes_alt1.dds"
+				"gfx/models/portraits/deer/alice/alice_clothes_alt2.dds"
+				"gfx/models/portraits/deer/alice/alice_clothes_alt3.dds"
+				"gfx/models/portraits/deer/alice/alice_clothes_alt4.dds"
+				"gfx/models/portraits/deer/alice/alice_clothes_alt5.dds"
+				"gfx/models/portraits/deer/alice/alice_clothes_alt6.dds"
+				"gfx/models/portraits/deer/alice/alice_clothes_alt7.dds"
+				"gfx/models/portraits/deer/alice/alice_clothes_alt8.dds"
+				"gfx/models/portraits/deer/alice/alice_clothes_alt9.dds"
+				"gfx/models/portraits/deer/alice/alice_clothes_alt10.dds"
+				"gfx/models/portraits/deer/alice/alice_clothes_alt11.dds"
+				"gfx/models/portraits/deer/alice/alice_clothes_alt12.dds"
+				"gfx/models/portraits/deer/alice/alice_clothes_alt13.dds"
+				"gfx/models/portraits/deer/alice/alice_clothes_alt14.dds"
+				"gfx/models/portraits/deer/alice/alice_clothes_alt15.dds"
 				"gfx/models/portraits/deer/alice/alice_clothes_no_bell.dds"
+				"gfx/models/portraits/deer/alice/alice_clothes_no_bell_alt1.dds"
+				"gfx/models/portraits/deer/alice/alice_clothes_no_bell_alt2.dds"
+				"gfx/models/portraits/deer/alice/alice_clothes_no_bell_alt3.dds"
+				"gfx/models/portraits/deer/alice/alice_clothes_no_bell_alt4.dds"
+				"gfx/models/portraits/deer/alice/alice_clothes_no_bell_alt5.dds"
+				"gfx/models/portraits/deer/alice/alice_clothes_no_bell_alt6.dds"
+				"gfx/models/portraits/deer/alice/alice_clothes_no_bell_alt7.dds"
+				"gfx/models/portraits/deer/alice/alice_clothes_no_bell_alt8.dds"
+				"gfx/models/portraits/deer/alice/alice_clothes_no_bell_alt9.dds"
+				"gfx/models/portraits/deer/alice/alice_clothes_no_bell_alt10.dds"
+				"gfx/models/portraits/deer/alice/alice_clothes_no_bell_alt11.dds"
+				"gfx/models/portraits/deer/alice/alice_clothes_no_bell_alt12.dds"
+				"gfx/models/portraits/deer/alice/alice_clothes_no_bell_alt13.dds"
+				"gfx/models/portraits/deer/alice/alice_clothes_no_bell_alt14.dds"
+				"gfx/models/portraits/deer/alice/alice_clothes_no_bell_alt15.dds"
 			}
 		}
 	}
@@ -62,7 +134,37 @@ mtrspony_deer_alice_clothes_selector = {
 		random = {
 			list = {
 				"gfx/models/portraits/deer/alice/alice_clothes.dds"
+				"gfx/models/portraits/deer/alice/alice_clothes_alt1.dds"
+				"gfx/models/portraits/deer/alice/alice_clothes_alt2.dds"
+				"gfx/models/portraits/deer/alice/alice_clothes_alt3.dds"
+				"gfx/models/portraits/deer/alice/alice_clothes_alt4.dds"
+				"gfx/models/portraits/deer/alice/alice_clothes_alt5.dds"
+				"gfx/models/portraits/deer/alice/alice_clothes_alt6.dds"
+				"gfx/models/portraits/deer/alice/alice_clothes_alt7.dds"
+				"gfx/models/portraits/deer/alice/alice_clothes_alt8.dds"
+				"gfx/models/portraits/deer/alice/alice_clothes_alt9.dds"
+				"gfx/models/portraits/deer/alice/alice_clothes_alt10.dds"
+				"gfx/models/portraits/deer/alice/alice_clothes_alt11.dds"
+				"gfx/models/portraits/deer/alice/alice_clothes_alt12.dds"
+				"gfx/models/portraits/deer/alice/alice_clothes_alt13.dds"
+				"gfx/models/portraits/deer/alice/alice_clothes_alt14.dds"
+				"gfx/models/portraits/deer/alice/alice_clothes_alt15.dds"
 				"gfx/models/portraits/deer/alice/alice_clothes_no_bell.dds"
+				"gfx/models/portraits/deer/alice/alice_clothes_no_bell_alt1.dds"
+				"gfx/models/portraits/deer/alice/alice_clothes_no_bell_alt2.dds"
+				"gfx/models/portraits/deer/alice/alice_clothes_no_bell_alt3.dds"
+				"gfx/models/portraits/deer/alice/alice_clothes_no_bell_alt4.dds"
+				"gfx/models/portraits/deer/alice/alice_clothes_no_bell_alt5.dds"
+				"gfx/models/portraits/deer/alice/alice_clothes_no_bell_alt6.dds"
+				"gfx/models/portraits/deer/alice/alice_clothes_no_bell_alt7.dds"
+				"gfx/models/portraits/deer/alice/alice_clothes_no_bell_alt8.dds"
+				"gfx/models/portraits/deer/alice/alice_clothes_no_bell_alt9.dds"
+				"gfx/models/portraits/deer/alice/alice_clothes_no_bell_alt10.dds"
+				"gfx/models/portraits/deer/alice/alice_clothes_no_bell_alt11.dds"
+				"gfx/models/portraits/deer/alice/alice_clothes_no_bell_alt12.dds"
+				"gfx/models/portraits/deer/alice/alice_clothes_no_bell_alt13.dds"
+				"gfx/models/portraits/deer/alice/alice_clothes_no_bell_alt14.dds"
+				"gfx/models/portraits/deer/alice/alice_clothes_no_bell_alt15.dds"
 			}
 		}
 	}
@@ -71,7 +173,37 @@ mtrspony_deer_alice_clothes_selector = {
 		random = {
 			list = {
 				"gfx/models/portraits/deer/alice/alice_clothes.dds"
+				"gfx/models/portraits/deer/alice/alice_clothes_alt1.dds"
+				"gfx/models/portraits/deer/alice/alice_clothes_alt2.dds"
+				"gfx/models/portraits/deer/alice/alice_clothes_alt3.dds"
+				"gfx/models/portraits/deer/alice/alice_clothes_alt4.dds"
+				"gfx/models/portraits/deer/alice/alice_clothes_alt5.dds"
+				"gfx/models/portraits/deer/alice/alice_clothes_alt6.dds"
+				"gfx/models/portraits/deer/alice/alice_clothes_alt7.dds"
+				"gfx/models/portraits/deer/alice/alice_clothes_alt8.dds"
+				"gfx/models/portraits/deer/alice/alice_clothes_alt9.dds"
+				"gfx/models/portraits/deer/alice/alice_clothes_alt10.dds"
+				"gfx/models/portraits/deer/alice/alice_clothes_alt11.dds"
+				"gfx/models/portraits/deer/alice/alice_clothes_alt12.dds"
+				"gfx/models/portraits/deer/alice/alice_clothes_alt13.dds"
+				"gfx/models/portraits/deer/alice/alice_clothes_alt14.dds"
+				"gfx/models/portraits/deer/alice/alice_clothes_alt15.dds"
 				"gfx/models/portraits/deer/alice/alice_clothes_no_bell.dds"
+				"gfx/models/portraits/deer/alice/alice_clothes_no_bell_alt1.dds"
+				"gfx/models/portraits/deer/alice/alice_clothes_no_bell_alt2.dds"
+				"gfx/models/portraits/deer/alice/alice_clothes_no_bell_alt3.dds"
+				"gfx/models/portraits/deer/alice/alice_clothes_no_bell_alt4.dds"
+				"gfx/models/portraits/deer/alice/alice_clothes_no_bell_alt5.dds"
+				"gfx/models/portraits/deer/alice/alice_clothes_no_bell_alt6.dds"
+				"gfx/models/portraits/deer/alice/alice_clothes_no_bell_alt7.dds"
+				"gfx/models/portraits/deer/alice/alice_clothes_no_bell_alt8.dds"
+				"gfx/models/portraits/deer/alice/alice_clothes_no_bell_alt9.dds"
+				"gfx/models/portraits/deer/alice/alice_clothes_no_bell_alt10.dds"
+				"gfx/models/portraits/deer/alice/alice_clothes_no_bell_alt11.dds"
+				"gfx/models/portraits/deer/alice/alice_clothes_no_bell_alt12.dds"
+				"gfx/models/portraits/deer/alice/alice_clothes_no_bell_alt13.dds"
+				"gfx/models/portraits/deer/alice/alice_clothes_no_bell_alt14.dds"
+				"gfx/models/portraits/deer/alice/alice_clothes_no_bell_alt15.dds"
 			}
 		}
 	}
