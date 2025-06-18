@@ -147,7 +147,7 @@
 -- Reworked the colors used for a few portrait sets, and added more color options to them (Autumn Blaze, Dusk Shine, Pumpkin Smoke, Rain Shine).
 -- Added more color options to a few portraits (Scootaloo, Sweetie Belle).
 
-- Version 0.3.4 (XX.XX.2025):
+- Version 0.3.4 (18.06.2025):
 -- Added United Faustian Hives prescripted country.
 -- Added Deer portraits, one set for each gender. Bori for female and Alice for male.
 --- Multi-species setup option now gives with Deer pops as well.
