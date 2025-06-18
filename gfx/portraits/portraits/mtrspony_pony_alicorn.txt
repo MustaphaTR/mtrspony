@@ -223,6 +223,28 @@ portraits = {
 			"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn.dds"
 		}
 	}
+
+	mtrspony_pony_alicorn_cadance_predefined = {
+		entity = "portrait_dummy_15p_left_entity"
+		clothes_selector = "mtrspony_no_clothes_selector"
+		attachment_selector = "mtrspony_no_clothes_selector"
+		greeting_sound = "human_female_greetings_01"
+
+		character_textures = {
+			"gfx/models/portraits/pony_alicorn/cadance/cadance.dds"
+		}
+	}
+
+	mtrspony_pony_alicorn_flurry_heart_predefined = {
+		entity = "portrait_dummy_15p_left_entity"
+		clothes_selector = "mtrspony_no_clothes_selector"
+		attachment_selector = "mtrspony_no_clothes_selector"
+		greeting_sound = "human_female_greetings_01"
+
+		character_textures = {
+			"gfx/models/portraits/pony_alicorn/flurry_heart/flurry_heart.dds"
+		}
+	}
 }
 
 portrait_groups = {

@@ -59,15 +59,15 @@
  PRESCRIPTED_ship_name_tcsss_warhammer:0 "TCSSS Warhammer"
  PRESCRIPTED_ship_name_tcsss_unique_horn:0 "TCSSS Unique Horn"
 
- PRESCRIPTED_ruler_name_sweetie_belle:0 "Sweetie Belle"
+ PRESCRIPTED_ruler_name_sweetie_belle:0 "スウィーティーベル"
  PRESCRIPTED_ruler_name_sweetie_belle_desc:0 "<insert_desc_here>"
  PRESCRIPTED_ruler_name_sweetie_belle_catch_phrase:0 "§L""§!"
 
- PRESCRIPTED_ruler_name_apple_bloom:0 "Apple Bloom"
+ PRESCRIPTED_ruler_name_apple_bloom:0 "アップルブルーム"
  PRESCRIPTED_ruler_name_apple_bloom_desc:0 "<insert_desc_here>"
  PRESCRIPTED_ruler_name_apple_bloom_catch_phrase:0 "§L""§!"
 
- PRESCRIPTED_ruler_name_scootaloo:0 "Scootaloo"
+ PRESCRIPTED_ruler_name_scootaloo:0 "スクータルー"
  PRESCRIPTED_ruler_name_scootaloo_desc:0 "<insert_desc_here>"
  PRESCRIPTED_ruler_name_scootaloo_catch_phrase:0 "§L""§!"
 
@@ -149,6 +149,35 @@
  PRESCRIPTED_ruler_name_rock_trot:0 "Rock Trot"
  PRESCRIPTED_ruler_name_rock_trot_desc:0 "<insert_desc_here>"
  PRESCRIPTED_ruler_name_rock_trot_catch_phrase:0 "§L""§!"
+
+ # United Faustian Hives
+ EMPIRE_DESIGN_united_faustian_hives:0 "United Faustian Hives"
+ EMPIRE_DESIGN_united_faustian_hives_desc:0 "The day of Princess Luna's return from her 1000-year banishment marks the turning point of the evolutionary history of Faustian species. A fear-fueled magical flare from one young filly by the name of Sweetie Belle led the creation of the first proto-Hivemind on the planet, consisting of 3 ponies. Despite their attempts to hide it, they quickly got the attention of both Twilight Sparkle and Princess Luna. But Princess Luna supported the group in hiding their ability and with her interference Twilight stopped looking into what made the trio's friendship tick. In the following years, the spell was recrated by Sweetie Belle and Princess Luna, allowing the expansion of the hive, using the Cutie Mark Camp as a front for it. Their numbers continued to grow in secret in the upcoming decades, with Princess Luna joining as well.\n\nTheir secrecy didn't last forever though. Conflict rose up between the hive and free-minded creatures from time to time, eventually leading to the hive considaliting its control over the whole planet. Nowadays there exists only one free-minded pony, Twilight Sparkle, who was barred from joining by the first "Hive Queen" due to initial friction between the two."
+ EMPIRE_DESIGN_united_faustian_hives_necroids_desc:0 "$EMPIRE_DESIGN_united_faustian_hives_desc$"
+ EMPIRE_DESIGN_united_faustian_hives_hive_desc:0 "$EMPIRE_DESIGN_united_faustian_hives_desc$"
+ EMPIRE_DESIGN_united_faustian_hives_hive_necroids_desc:0 "$EMPIRE_DESIGN_united_faustian_hives_desc$"
+ EMPIRE_DESIGN_united_faustian_hives_hive_paragons_desc:0 "$EMPIRE_DESIGN_united_faustian_hives_desc$"
+ EMPIRE_DESIGN_united_faustian_hives_hive_necroids_paragons_desc:0 "$EMPIRE_DESIGN_united_faustian_hives_desc$"
+ PRESCRIPTED_adjective_united_faustian_hives:0 "Faustian"
+ PRESCRIPTED_ruler_title_hive_king:0 "Hive King"
+ PRESCRIPTED_ruler_title_hive_queen:0 "Hive Queen"
+ PRESCRIPTED_ship_prefix_united_faustian_hives:0 "FSS"
+
+ PRESCRIPTED_ruler_name_luna:0 "ルナ"
+ PRESCRIPTED_ruler_name_luna_desc:0 "<insert_desc_here>"
+ PRESCRIPTED_ruler_name_luna_catch_phrase:0 "§L""§!"
+
+ PRESCRIPTED_ruler_name_twilight_sparkle:0 "トワイライトスパークル"
+ PRESCRIPTED_ruler_name_twilight_sparkle_desc:0 "<insert_desc_here>"
+ PRESCRIPTED_ruler_name_twilight_sparkle_catch_phrase:0 "§L""§!"
+
+ PRESCRIPTED_ruler_name_mi_amore_cadenza:0 "Mi Amore Cadenza"
+ PRESCRIPTED_ruler_name_mi_amore_cadenza_desc:0 "<insert_desc_here>"
+ PRESCRIPTED_ruler_name_mi_amore_cadenza_catch_phrase:0 "§L""§!"
+
+ PRESCRIPTED_ruler_name_flurry_heart:0 "Flurry Heart"
+ PRESCRIPTED_ruler_name_flurry_heart_desc:0 "<insert_desc_here>"
+ PRESCRIPTED_ruler_name_flurry_heart_catch_phrase:0 "§L""§!"
 
  # Griffonian Empire
  EMPIRE_DESIGN_griffonian_empire:0 "Griffonian Empire"

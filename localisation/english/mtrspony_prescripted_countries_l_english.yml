@@ -171,6 +171,14 @@
  PRESCRIPTED_ruler_name_twilight_sparkle_desc:0 "<insert_desc_here>"
  PRESCRIPTED_ruler_name_twilight_sparkle_catch_phrase:0 "§L""§!"
 
+ PRESCRIPTED_ruler_name_mi_amore_cadenza:0 "Mi Amore Cadenza"
+ PRESCRIPTED_ruler_name_mi_amore_cadenza_desc:0 "<insert_desc_here>"
+ PRESCRIPTED_ruler_name_mi_amore_cadenza_catch_phrase:0 "§L""§!"
+
+ PRESCRIPTED_ruler_name_flurry_heart:0 "Flurry Heart"
+ PRESCRIPTED_ruler_name_flurry_heart_desc:0 "<insert_desc_here>"
+ PRESCRIPTED_ruler_name_flurry_heart_catch_phrase:0 "§L""§!"
+
  # Griffonian Empire
  EMPIRE_DESIGN_griffonian_empire:0 "Griffonian Empire"
  # EMPIRE_DESIGN_griffonian_empire_desc:0 ""

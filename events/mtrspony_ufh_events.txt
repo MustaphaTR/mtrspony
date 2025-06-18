@@ -127,6 +127,98 @@ country_event = {
 			}
 		}
 
+		create_leader = {
+			name = "PRESCRIPTED_ruler_name_mi_amore_cadenza"
+			custom_description = "PRESCRIPTED_ruler_name_mi_amore_cadenza_desc"
+			species = ROOT.species
+			gender = female
+			class = official
+			skill = 1
+			set_age = 315
+			immortal = yes
+			background_job = "noble"
+			background_ethic = "ethic_gestalt_consciousness"
+			skip_background_generation = yes
+			randomize_traits = no
+			traits = {
+				trait = leader_trait_mtrspony_immortal
+
+				trait = leader_trait_venerated
+			}
+
+			effect = {
+				save_global_event_target_as = leader_cadance
+				set_leader_flag = is_created_leader
+				change_leader_portrait = "mtrspony_pony_alicorn_cadance_predefined"
+				ROOT = {
+					capital_scope = {
+						leader = {
+							kill_leader = {
+								show_notification = no
+								fire = yes
+							}
+						}
+						assign_leader = event_target:leader_cadance
+					}
+				}
+				if = {
+					limit = { ROOT = { NOT = { has_ethic = ethic_gestalt_consciousness } } }
+
+					set_council_position = councilor_state
+					change_background_ethic = ethic_xenophile
+				}
+			}
+		}
+
+		create_leader = {
+			name = "PRESCRIPTED_ruler_name_flurry_heart"
+			custom_description = "PRESCRIPTED_ruler_name_flurry_heart_desc"
+			species = ROOT.species
+			gender = female
+			class = commander
+			skill = 1
+			set_age = 267
+			immortal = yes
+			background_job = "noble"
+			background_ethic = "ethic_gestalt_consciousness"
+			skip_background_generation = yes
+			randomize_traits = no
+			traits = {
+				trait = leader_trait_mtrspony_immortal
+
+				trait = leader_trait_stubborn
+			}
+
+			effect = {
+				save_global_event_target_as = leader_flurry_heart
+				set_leader_flag = is_created_leader
+				change_leader_portrait = "mtrspony_pony_alicorn_flurry_heart_predefined"
+				ROOT = {
+					random_owned_fleet = {
+						limit = { is_ship_class = shipclass_military }
+
+						leader = {
+							kill_leader = {
+								show_notification = no
+								fire = yes
+							}
+						}
+						assign_leader = PREVPREV
+					}
+				}
+				if = {
+					limit = { ROOT = { NOT = { has_ethic = ethic_gestalt_consciousness } } }
+
+					add_trait = {
+						trait = trait_ruler_logistic_understanding
+						show_message = no
+					}
+					set_council_position = councilor_defense
+					change_background_ethic = ethic_spiritualist
+				}
+			}
+		}
+
 		save_current_mtrspony_species = yes
 		create_other_mtrspony_species = yes
 
@@ -152,6 +244,12 @@ country_event = {
 		}
 		event_target:leader_twilight_sparkle = {
 			change_leader_portrait = "mtrspony_pony_alicorn_twilight_sparkle_predefined"
+		}
+		event_target:leader_cadance = {
+			change_leader_portrait = "mtrspony_pony_alicorn_cadance_predefined"
+		}
+		event_target:leader_flurry_heart = {
+			change_leader_portrait = "mtrspony_pony_alicorn_flurry_heart_predefined"
 		}
 	}
 }
