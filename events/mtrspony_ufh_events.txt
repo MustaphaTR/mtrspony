@@ -40,13 +40,24 @@ country_event = {
 					assign_leader = event_target:leader_luna
 				}
 
-				add_trait = {
-					trait = subclass_official_economy_councilor
-					show_message = no
+				if = {
+					limit = { ROOT = { has_ethic = ethic_gestalt_consciousness } }
+
+					add_trait = {
+						trait = subclass_official_economy_councilor
+						show_message = no
+					}
+					add_trait = {
+						trait = leader_trait_ruler_hive_mind
+						show_message = no
+					}
 				}
-				add_trait = {
-					trait = leader_trait_ruler_hive_mind
-					show_message = no
+				else = {
+					add_trait = {
+						trait = leader_trait_mtrspony_immortal
+						show_message = no
+					}
+					change_background_ethic = ethic_spiritualist
 				}
 				add_trait = {
 					trait = leader_trait_principled
@@ -70,9 +81,6 @@ country_event = {
 			randomize_traits = no
 			traits = {
 				trait = leader_trait_mtrspony_immortal
-
-				trait = leader_trait_physics_focus
-				trait = leader_trait_mtrspony_disconnected
 			}
 
 			effect = {
@@ -91,6 +99,30 @@ country_event = {
 						}
 						assign_leader = PREVPREV
 					}
+				}
+
+				if = {
+					limit = { ROOT = { has_ethic = ethic_gestalt_consciousness } }
+
+					add_trait = {
+						trait = leader_trait_physics_focus
+						show_message = no
+					}
+					add_trait = {
+						trait = leader_trait_mtrspony_disconnected
+						show_message = no
+					}
+				}
+				else = {
+					add_trait = {
+						trait = leader_trait_expertise_field_manipulation
+						show_message = no
+					}
+					add_trait = {
+						trait = leader_trait_spark_of_genius
+						show_message = no
+					}
+					set_council_position = councilor_research
 				}
 			}
 		}

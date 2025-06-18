@@ -139,6 +139,24 @@ has_hive_minds_but_not_necroids_and_paragons = {
 	}
 }
 
+has_necroids_but_not_hive_minds = {
+	optimize_memory
+	NOT = {
+		host_has_dlc = "Utopia"
+		host_has_dlc = "BioGenesis"
+	}
+	host_has_dlc = "Necroids Species Pack"
+}
+
+has_not_hive_minds_and_necroids = {
+	optimize_memory
+	NOT = {
+		host_has_dlc = "Utopia"
+		host_has_dlc = "BioGenesis"
+		host_has_dlc = "Necroids Species Pack"
+	}
+}
+
 # Portrait Checks
 pop_has_miltary_job = {
 	always = no # It is not possible to check for this properly anymore.
