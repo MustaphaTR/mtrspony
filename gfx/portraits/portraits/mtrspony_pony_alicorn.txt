@@ -36,6 +36,27 @@ portraits = {
 		}
 	}
 
+	mtrspony_pony_alicorn_shining_armor = {
+		entity = "portrait_dummy_10p_left_entity"
+		clothes_selector = "mtrspony_pony_alicorn_shining_armor_clothes_selector"
+		attachment_selector = "mtrspony_pony_alicorn_shining_armor_hair_selector"
+		greeting_sound = "human_male_greetings_01"
+
+		character_textures = {
+			"gfx/models/portraits/pony_alicorn/shining_armor/shining_armor_alicorn.dds"
+			"gfx/models/portraits/pony_alicorn/shining_armor/shining_armor_alicorn_alt1.dds"
+			"gfx/models/portraits/pony_alicorn/shining_armor/shining_armor_alicorn_alt2.dds"
+			"gfx/models/portraits/pony_alicorn/shining_armor/shining_armor_alicorn_alt3.dds"
+			"gfx/models/portraits/pony_alicorn/shining_armor/shining_armor_alicorn_alt4.dds"
+			"gfx/models/portraits/pony_alicorn/shining_armor/shining_armor_alicorn_alt5.dds"
+			"gfx/models/portraits/pony_alicorn/shining_armor/shining_armor_alicorn_alt6.dds"
+			"gfx/models/portraits/pony_alicorn/shining_armor/shining_armor_alicorn_alt7.dds"
+			"gfx/models/portraits/pony_alicorn/shining_armor/shining_armor_alicorn_alt8.dds"
+		}
+
+		custom_attachment_label = "HAIR_COLOR"
+	}
+
 	mtrspony_pony_alicorn_celestia = {
 		entity = "portrait_dummy_big_centered_entity"
 		clothes_selector = "mtrspony_pony_alicorn_celestia_clothes_selector"
@@ -262,6 +283,7 @@ portrait_groups = {
 				}
 				portraits = {
 					mtrspony_pony_alicorn_dusk_shine
+					mtrspony_pony_alicorn_shining_armor
 				}
 			}
 			add = {
@@ -306,6 +328,7 @@ portrait_groups = {
 				}
 				portraits = {
 					mtrspony_pony_alicorn_dusk_shine
+					mtrspony_pony_alicorn_shining_armor
 				}
 			}
 		}
@@ -330,6 +353,7 @@ portrait_groups = {
 				}
 				portraits = {
 					mtrspony_pony_alicorn_dusk_shine
+					mtrspony_pony_alicorn_shining_armor
 				}
 			}
 		}
@@ -344,6 +368,7 @@ portrait_groups = {
 				}
 				portraits = {
 					mtrspony_pony_alicorn_dusk_shine
+					mtrspony_pony_alicorn_shining_armor
 				}
 			}
 

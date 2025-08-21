@@ -94,6 +94,130 @@ mtrspony_pony_alicorn_dusk_shine_predefined_hair_selector = {
 	ruler = { default = "gfx/models/portraits/pony_alicorn/dusk_shine/dusk_shine_hair.dds" }
 }
 
+mtrspony_pony_alicorn_shining_armor_hair_selector = {
+	default = "gfx/models/portraits/pony_alicorn/shining_armor/shining_armor_alicorn_hair.dds"
+
+	game_setup = {
+		default = "gfx/models/portraits/pony_alicorn/shining_armor/shining_armor_alicorn_hair.dds"
+	}
+
+	species = {
+		default = "gfx/models/portraits/pony_alicorn/shining_armor/shining_armor_alicorn_hair.dds"
+	}
+
+	pop = {
+		default = "gfx/models/portraits/pony_alicorn/shining_armor/shining_armor_alicorn_hair.dds"
+
+		random = {
+			list = {
+				"gfx/models/portraits/pony_alicorn/shining_armor/shining_armor_alicorn_hair.dds"
+				"gfx/models/portraits/pony_alicorn/shining_armor/shining_armor_alicorn_hair_alt1.dds"
+				"gfx/models/portraits/pony_alicorn/shining_armor/shining_armor_alicorn_hair_alt2.dds"
+				"gfx/models/portraits/pony_alicorn/shining_armor/shining_armor_alicorn_hair_alt3.dds"
+				"gfx/models/portraits/pony_alicorn/shining_armor/shining_armor_alicorn_hair_alt4.dds"
+				"gfx/models/portraits/pony_alicorn/shining_armor/shining_armor_alicorn_hair_alt5.dds"
+				"gfx/models/portraits/pony_alicorn/shining_armor/shining_armor_alicorn_hair_alt6.dds"
+				"gfx/models/portraits/pony_alicorn/shining_armor/shining_armor_alicorn_hair_alt7.dds"
+				"gfx/models/portraits/pony_alicorn/shining_armor/shining_armor_alicorn_hair_alt8.dds"
+			}
+		}
+	}
+
+	leader = {
+		random = {
+			list = {
+				"gfx/models/portraits/pony_alicorn/shining_armor/shining_armor_alicorn_hair.dds"
+				"gfx/models/portraits/pony_alicorn/shining_armor/shining_armor_alicorn_hair_alt1.dds"
+				"gfx/models/portraits/pony_alicorn/shining_armor/shining_armor_alicorn_hair_alt2.dds"
+				"gfx/models/portraits/pony_alicorn/shining_armor/shining_armor_alicorn_hair_alt3.dds"
+				"gfx/models/portraits/pony_alicorn/shining_armor/shining_armor_alicorn_hair_alt4.dds"
+				"gfx/models/portraits/pony_alicorn/shining_armor/shining_armor_alicorn_hair_alt5.dds"
+				"gfx/models/portraits/pony_alicorn/shining_armor/shining_armor_alicorn_hair_alt6.dds"
+				"gfx/models/portraits/pony_alicorn/shining_armor/shining_armor_alicorn_hair_alt7.dds"
+				"gfx/models/portraits/pony_alicorn/shining_armor/shining_armor_alicorn_hair_alt8.dds"
+			}
+		}
+	}
+
+	ruler = {
+		random = {
+			list = {
+				"gfx/models/portraits/pony_alicorn/shining_armor/shining_armor_alicorn_hair.dds"
+				"gfx/models/portraits/pony_alicorn/shining_armor/shining_armor_alicorn_hair_alt1.dds"
+				"gfx/models/portraits/pony_alicorn/shining_armor/shining_armor_alicorn_hair_alt2.dds"
+				"gfx/models/portraits/pony_alicorn/shining_armor/shining_armor_alicorn_hair_alt3.dds"
+				"gfx/models/portraits/pony_alicorn/shining_armor/shining_armor_alicorn_hair_alt4.dds"
+				"gfx/models/portraits/pony_alicorn/shining_armor/shining_armor_alicorn_hair_alt5.dds"
+				"gfx/models/portraits/pony_alicorn/shining_armor/shining_armor_alicorn_hair_alt6.dds"
+				"gfx/models/portraits/pony_alicorn/shining_armor/shining_armor_alicorn_hair_alt7.dds"
+				"gfx/models/portraits/pony_alicorn/shining_armor/shining_armor_alicorn_hair_alt8.dds"
+			}
+		}	
+	}
+}
+
+mtrspony_pony_alicorn_shining_armor_clothes_selector = {
+	default = "gfx/models/portraits/pony_alicorn/shining_armor/shining_armor_alicorn_regalia.dds"
+
+	game_setup = {
+		default = "gfx/models/portraits/pony_alicorn/shining_armor/shining_armor_alicorn_regalia.dds"
+	}
+
+	species = {
+		default = "gfx/models/portraits/pony_alicorn/shining_armor/shining_armor_alicorn_regalia.dds"
+	}
+
+	pop = {
+		default = "gfx/models/portraits/pony_alicorn/shining_armor/shining_armor_alicorn_regalia.dds"
+
+		random = {
+			list = {
+				"gfx/models/portraits/pony_alicorn/shining_armor/shining_armor_alicorn_regalia.dds"
+				"gfx/models/portraits/pony_alicorn/shining_armor/shining_armor_alicorn_regalia_alt1.dds"
+				"gfx/models/portraits/pony_alicorn/shining_armor/shining_armor_alicorn_regalia_alt2.dds"
+				"gfx/models/portraits/pony_alicorn/shining_armor/shining_armor_alicorn_regalia_alt3.dds"
+				"gfx/models/portraits/pony_alicorn/shining_armor/shining_armor_alicorn_regalia_alt4.dds"
+				"gfx/models/portraits/pony_alicorn/shining_armor/shining_armor_alicorn_regalia_alt5.dds"
+				"gfx/models/portraits/pony_alicorn/shining_armor/shining_armor_alicorn_regalia_alt6.dds"
+				"gfx/models/portraits/pony_alicorn/shining_armor/shining_armor_alicorn_regalia_alt7.dds"
+				"gfx/models/portraits/pony_alicorn/shining_armor/shining_armor_alicorn_regalia_alt8.dds"
+			}
+		}
+	}
+
+	leader = {
+		random = {
+			list = {
+				"gfx/models/portraits/pony_alicorn/shining_armor/shining_armor_alicorn_regalia.dds"
+				"gfx/models/portraits/pony_alicorn/shining_armor/shining_armor_alicorn_regalia_alt1.dds"
+				"gfx/models/portraits/pony_alicorn/shining_armor/shining_armor_alicorn_regalia_alt2.dds"
+				"gfx/models/portraits/pony_alicorn/shining_armor/shining_armor_alicorn_regalia_alt3.dds"
+				"gfx/models/portraits/pony_alicorn/shining_armor/shining_armor_alicorn_regalia_alt4.dds"
+				"gfx/models/portraits/pony_alicorn/shining_armor/shining_armor_alicorn_regalia_alt5.dds"
+				"gfx/models/portraits/pony_alicorn/shining_armor/shining_armor_alicorn_regalia_alt6.dds"
+				"gfx/models/portraits/pony_alicorn/shining_armor/shining_armor_alicorn_regalia_alt7.dds"
+				"gfx/models/portraits/pony_alicorn/shining_armor/shining_armor_alicorn_regalia_alt8.dds"
+			}
+		}
+	}
+
+	ruler = {
+		random = {
+			list = {
+				"gfx/models/portraits/pony_alicorn/shining_armor/shining_armor_alicorn_regalia.dds"
+				"gfx/models/portraits/pony_alicorn/shining_armor/shining_armor_alicorn_regalia_alt1.dds"
+				"gfx/models/portraits/pony_alicorn/shining_armor/shining_armor_alicorn_regalia_alt2.dds"
+				"gfx/models/portraits/pony_alicorn/shining_armor/shining_armor_alicorn_regalia_alt3.dds"
+				"gfx/models/portraits/pony_alicorn/shining_armor/shining_armor_alicorn_regalia_alt4.dds"
+				"gfx/models/portraits/pony_alicorn/shining_armor/shining_armor_alicorn_regalia_alt5.dds"
+				"gfx/models/portraits/pony_alicorn/shining_armor/shining_armor_alicorn_regalia_alt6.dds"
+				"gfx/models/portraits/pony_alicorn/shining_armor/shining_armor_alicorn_regalia_alt7.dds"
+				"gfx/models/portraits/pony_alicorn/shining_armor/shining_armor_alicorn_regalia_alt8.dds"
+			}
+		}	
+	}
+}
+
 mtrspony_pony_alicorn_celestia_hair_selector = {
 	default = "gfx/models/portraits/pony_alicorn/celestia/celestia_hair.dds"
 
