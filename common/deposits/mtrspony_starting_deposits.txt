@@ -109,15 +109,7 @@ d_greater_vesalipolitian_metropolis = {
 	icon = d_city
 
 	planet_modifier = {
-		district_generator_max = 2
-	}
-
-	triggered_planet_modifier = {
-		potential = {
-			always = yes
-		}
-		district_generator_max = 2
-		mult = value:natural_desposit_district_amount_multiplier
+		district_generator_max_add = 2
 	}
 
 	drop_weight = {
@@ -130,15 +122,7 @@ d_zebharan_solar_farms = {
 	icon = d_searing_desert
 
 	planet_modifier = {
-		district_generator_max = 3
-	}
-
-	triggered_planet_modifier = {
-		potential = {
-			always = yes
-		}
-		district_generator_max = 3
-		mult = value:natural_desposit_district_amount_multiplier
+		district_generator_max_add = 3
 	}
 
 	drop_weight = {
@@ -151,15 +135,7 @@ d_thundarian_range = {
 	icon = d_tempestous_mountain
 
 	planet_modifier = {
-		district_generator_max = 2
-	}
-
-	triggered_planet_modifier = {
-		potential = {
-			always = yes
-		}
-		district_generator_max = 2
-		mult = value:natural_desposit_district_amount_multiplier
+		district_generator_max_add = 2
 	}
 
 	drop_weight = {
@@ -172,15 +148,7 @@ d_griffking_dam = {
 	icon = d_great_river
 
 	planet_modifier = {
-		district_generator_max = 1
-	}
-
-	triggered_planet_modifier = {
-		potential = {
-			always = yes
-		}
-		district_generator_max = 1
-		mult = value:natural_desposit_district_amount_multiplier
+		district_generator_max_add = 1
 	}
 
 	drop_weight = {
@@ -193,15 +161,7 @@ d_rock_farms = {
 	icon = d_mineral_fields
 
 	planet_modifier = {
-		district_mining_max = 1
-	}
-
-	triggered_planet_modifier = {
-		potential = {
-			always = yes
-		}
-		district_mining_max = 1
-		mult = value:natural_desposit_district_amount_multiplier
+		district_mining_max_add = 1
 	}
 
 	drop_weight = {
@@ -214,15 +174,7 @@ d_andelayan_mines = {
 	icon = d_rich_mountain
 
 	planet_modifier = {
-		district_mining_max = 3
-	}
-
-	triggered_planet_modifier = {
-		potential = {
-			always = yes
-		}
-		district_mining_max = 3
-		mult = value:natural_desposit_district_amount_multiplier
+		district_mining_max_add = 3
 	}
 
 	drop_weight = {
@@ -235,15 +187,7 @@ d_panthalassic_ore_veins = {
 	icon = d_submerged_ore_veins
 
 	planet_modifier = {
-		district_mining_max = 3
-	}
-
-	triggered_planet_modifier = {
-		potential = {
-			always = yes
-		}
-		district_mining_max = 3
-		mult = value:natural_desposit_district_amount_multiplier
+		district_mining_max_add = 3
 	}
 
 	drop_weight = {
@@ -256,15 +200,7 @@ d_evi_valley_farmlands = {
 	icon = d_bountiful_plains
 
 	planet_modifier = {
-		district_farming_max = 1
-	}
-
-	triggered_planet_modifier = {
-		potential = {
-			always = yes
-		}
-		district_farming_max = 1
-		mult = value:natural_desposit_district_amount_multiplier
+		district_farming_max_add = 1
 	}
 
 	drop_weight = {
@@ -277,15 +213,7 @@ d_seaquestrian_algae_farms = {
 	icon = d_toxic_kelp
 
 	planet_modifier = {
-		district_farming_max = 1
-	}
-
-	triggered_planet_modifier = {
-		potential = {
-			always = yes
-		}
-		district_farming_max = 1
-		mult = value:natural_desposit_district_amount_multiplier
+		district_farming_max_add = 1
 	}
 
 	drop_weight = {
@@ -298,15 +226,7 @@ d_neighle_river_delta = {
 	icon = d_marvelous_oasis
 
 	planet_modifier = {
-		district_farming_max = 2
-	}
-
-	triggered_planet_modifier = {
-		potential = {
-			always = yes
-		}
-		district_farming_max = 2
-		mult = value:natural_desposit_district_amount_multiplier
+		district_farming_max_add = 2
 	}
 
 	drop_weight = {
@@ -319,15 +239,7 @@ d_south_eastern_jungles = {
 	icon = d_lush_jungle
 
 	planet_modifier = {
-		district_farming_max = 2
-	}
-
-	triggered_planet_modifier = {
-		potential = {
-			always = yes
-		}
-		district_farming_max = 2
-		mult = value:natural_desposit_district_amount_multiplier
+		district_farming_max_add = 2
 	}
 
 	drop_weight = {
@@ -359,15 +271,7 @@ d_crystal_mountains = {
 	}
 
 	planet_modifier = {
-		district_mining_max = 2
-	}
-
-	triggered_planet_modifier = {
-		potential = {
-			always = yes
-		}
-		district_mining_max = 2
-		mult = value:natural_desposit_district_amount_multiplier
+		district_mining_max_add = 2
 	}
 
 	drop_weight = {
@@ -406,15 +310,7 @@ d_geirfundsen_metropolitan_area = {
 	icon = d_city
 
 	planet_modifier = {
-		district_generator_max = 2
-	}
-
-	triggered_planet_modifier = {
-		potential = {
-			always = yes
-		}
-		district_generator_max = 2
-		mult = value:natural_desposit_district_amount_multiplier
+		district_generator_max_add = 2
 	}
 
 	drop_weight = {
