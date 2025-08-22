@@ -52,6 +52,11 @@ portraits = {
 			"gfx/models/portraits/pony_alicorn/shining_armor/shining_armor_alicorn_alt6.dds"
 			"gfx/models/portraits/pony_alicorn/shining_armor/shining_armor_alicorn_alt7.dds"
 			"gfx/models/portraits/pony_alicorn/shining_armor/shining_armor_alicorn_alt8.dds"
+			"gfx/models/portraits/pony_alicorn/shining_armor/shining_armor_alicorn_alt9.dds"
+			"gfx/models/portraits/pony_alicorn/shining_armor/shining_armor_alicorn_alt10.dds"
+			"gfx/models/portraits/pony_alicorn/shining_armor/shining_armor_alicorn_alt11.dds"
+			"gfx/models/portraits/pony_alicorn/shining_armor/shining_armor_alicorn_alt12.dds"
+			"gfx/models/portraits/pony_alicorn/shining_armor/shining_armor_alicorn_alt13.dds"
 		}
 
 		custom_attachment_label = "HAIR_COLOR"

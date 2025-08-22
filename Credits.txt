@@ -133,6 +133,9 @@ Portrait Bases:
  > zee66:
 	- Echo
 
+ > Anonymous/Unknown:
+	- Alicorn Shining Armor
+
 Flag Backgrounds:
  > Elowniy:
 	- Griffonian Empire

@@ -155,3 +155,7 @@
 -- Changelings now start with Camouflage trait instead of Communal if player has BioGenesis DLC.
 -- Reworked the multi-species setup to modify the species first, then spawn the pops.
 -- Fixed prescripted countries' hidden setup events not firing.
+
+- Version 0.3.5 (22.08.2025):
+-- Added one more male alicorn portrait set, based on Shining Armor.
+-- Fixed the custom planetary features/blockers of Faust, which was broken due to changes from 4.0.22 update.
