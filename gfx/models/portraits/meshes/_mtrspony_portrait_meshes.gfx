@@ -166,4 +166,27 @@ objectTypes = {
 
 		scale = 1.0
 	}
+
+	pdxmesh = {
+		name = "portrait_dummy_scootaloo_earth_mesh"
+		file = "gfx/models/portraits/meshes/dummy_scootaloo_earth.mesh"
+
+		animation = {
+			id = "idle"
+			type = "human_01_female_portrait_idle1_animation"
+		}
+
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "portrait_dummy_scootaloo_pegasus_mesh"
+		file = "gfx/models/portraits/meshes/dummy_scootaloo_pegasus.mesh"
+
+		animation = {
+			id = "idle"
+			type = "human_01_female_portrait_idle1_animation"
+		}
+
+		scale = 1.0
+	}
 }

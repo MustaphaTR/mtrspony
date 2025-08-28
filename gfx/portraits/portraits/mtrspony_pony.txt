@@ -47,6 +47,7 @@ portrait_groups = {
 					mtrspony_pony_earth_maud_pie
 					mtrspony_pony_earth_cheerilee
 					mtrspony_pony_earth_babs_seed
+					mtrspony_pony_earth_scootaloo
 					mtrspony_pony_unicorn_twilight_sparkle
 					mtrspony_pony_unicorn_twilight_velvet
 					mtrspony_pony_unicorn_rarity
@@ -83,6 +84,7 @@ portrait_groups = {
 					mtrspony_pony_earth_maud_pie
 					mtrspony_pony_earth_cheerilee
 					mtrspony_pony_earth_babs_seed
+					mtrspony_pony_earth_scootaloo
 					mtrspony_pony_unicorn_twilight_sparkle
 					mtrspony_pony_unicorn_twilight_velvet
 					mtrspony_pony_unicorn_rarity
@@ -140,6 +142,7 @@ portrait_groups = {
 					mtrspony_pony_earth_maud_pie
 					mtrspony_pony_earth_cheerilee
 					mtrspony_pony_earth_babs_seed
+					mtrspony_pony_earth_scootaloo
 					mtrspony_pony_unicorn_twilight_sparkle
 					mtrspony_pony_unicorn_twilight_velvet
 					mtrspony_pony_unicorn_rarity
@@ -224,6 +227,7 @@ portrait_groups = {
 					mtrspony_pony_earth_maud_pie
 					mtrspony_pony_earth_cheerilee
 					mtrspony_pony_earth_babs_seed
+					mtrspony_pony_earth_scootaloo
 					mtrspony_pony_unicorn_twilight_sparkle
 					mtrspony_pony_unicorn_twilight_velvet
 					mtrspony_pony_unicorn_rarity

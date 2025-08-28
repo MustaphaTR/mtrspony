@@ -2,9 +2,6 @@ Portrait Bases:
  > 90sigma:
 	- Fire Streak
 
- > aethon056:
-	- Scootaloo
-
  > byteslice:
 	- Yona
 
@@ -93,6 +90,9 @@ Portrait Bases:
 	- Garble
 	- Male Pumpkin Smoke
 	- Sandbar
+
+ > mustaphatr:
+	- Older Scootaloo
 
  > negatif22:
 	- Armored Prince Blueblood

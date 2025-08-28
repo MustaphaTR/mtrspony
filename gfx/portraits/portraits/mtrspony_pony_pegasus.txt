@@ -257,8 +257,8 @@ portraits = {
 	}
 
 	mtrspony_pony_pegasus_scootaloo = {
-		entity = "portrait_dummy_20p_left_entity"
-		clothes_selector = "mtrspony_no_clothes_selector"
+		entity = "portrait_dummy_scootaloo_pegasus_entity"
+		clothes_selector = "mtrspony_pony_pegasus_scootaloo_clothes_selector"
 		attachment_selector = "mtrspony_pony_pegasus_scootaloo_hair_selector"
 		greeting_sound = "human_female_greetings_01"
 
@@ -277,14 +277,15 @@ portraits = {
 			"gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_alt11.dds"
 			"gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_alt12.dds"
 			"gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_alt13.dds"
+			"gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_alt14.dds"
 		}
 
 		custom_attachment_label = "HAIR_COLOR"
 	}
 
 	mtrspony_pony_pegasus_scootaloo_predefined = {
-		entity = "portrait_dummy_20p_left_entity"
-		clothes_selector = "mtrspony_no_clothes_selector"
+		entity = "portrait_dummy_scootaloo_pegasus_entity"
+		clothes_selector = "mtrspony_pony_pegasus_scootaloo_predefined_clothes_selector"
 		attachment_selector = "mtrspony_pony_pegasus_scootaloo_predefined_hair_selector"
 		greeting_sound = "human_female_greetings_01"
 
