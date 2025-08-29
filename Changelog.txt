@@ -165,3 +165,4 @@
 -- Replaced the Scootaloo portrait set with a new one based on her adult/future design.
 --- Also comes with Earth Pony variant in the same way that i set up Fire Streak's portraits for.
 --- Also added one more color option for it.
+-- Added different levels of mane loss to Igneous Rock Pie portrait set.

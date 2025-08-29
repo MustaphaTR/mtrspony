@@ -219,6 +219,60 @@ mtrspony_pony_earth_igneous_rock_pie_hair_selector = {
 				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_alt15.dds"
 				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_alt16.dds"
 				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_alt17.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_nofront.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_nofront_alt1.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_nofront_alt2.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_nofront_alt3.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_nofront_alt4.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_nofront_alt5.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_nofront_alt6.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_nofront_alt7.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_nofront_alt8.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_nofront_alt9.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_nofront_alt10.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_nofront_alt11.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_nofront_alt12.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_nofront_alt13.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_nofront_alt14.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_nofront_alt15.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_nofront_alt16.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_nofront_alt17.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_back.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_back_alt1.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_back_alt2.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_back_alt3.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_back_alt4.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_back_alt5.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_back_alt6.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_back_alt7.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_back_alt8.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_back_alt9.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_back_alt10.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_back_alt11.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_back_alt12.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_back_alt13.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_back_alt14.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_back_alt15.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_back_alt16.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_back_alt17.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_bald.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_bald_alt1.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_bald_alt2.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_bald_alt3.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_bald_alt4.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_bald_alt5.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_bald_alt6.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_bald_alt7.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_bald_alt8.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_bald_alt9.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_bald_alt10.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_bald_alt11.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_bald_alt12.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_bald_alt13.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_bald_alt14.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_bald_alt15.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_bald_alt16.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_bald_alt17.dds"
 			}
 		}
 	}
@@ -244,6 +298,60 @@ mtrspony_pony_earth_igneous_rock_pie_hair_selector = {
 				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_alt15.dds"
 				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_alt16.dds"
 				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_alt17.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_nofront.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_nofront_alt1.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_nofront_alt2.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_nofront_alt3.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_nofront_alt4.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_nofront_alt5.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_nofront_alt6.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_nofront_alt7.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_nofront_alt8.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_nofront_alt9.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_nofront_alt10.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_nofront_alt11.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_nofront_alt12.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_nofront_alt13.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_nofront_alt14.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_nofront_alt15.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_nofront_alt16.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_nofront_alt17.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_back.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_back_alt1.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_back_alt2.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_back_alt3.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_back_alt4.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_back_alt5.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_back_alt6.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_back_alt7.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_back_alt8.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_back_alt9.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_back_alt10.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_back_alt11.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_back_alt12.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_back_alt13.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_back_alt14.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_back_alt15.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_back_alt16.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_back_alt17.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_bald.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_bald_alt1.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_bald_alt2.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_bald_alt3.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_bald_alt4.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_bald_alt5.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_bald_alt6.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_bald_alt7.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_bald_alt8.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_bald_alt9.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_bald_alt10.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_bald_alt11.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_bald_alt12.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_bald_alt13.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_bald_alt14.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_bald_alt15.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_bald_alt16.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_bald_alt17.dds"
 			}
 		}
 	}
@@ -269,6 +377,60 @@ mtrspony_pony_earth_igneous_rock_pie_hair_selector = {
 				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_alt15.dds"
 				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_alt16.dds"
 				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_alt17.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_nofront.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_nofront_alt1.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_nofront_alt2.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_nofront_alt3.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_nofront_alt4.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_nofront_alt5.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_nofront_alt6.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_nofront_alt7.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_nofront_alt8.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_nofront_alt9.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_nofront_alt10.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_nofront_alt11.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_nofront_alt12.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_nofront_alt13.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_nofront_alt14.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_nofront_alt15.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_nofront_alt16.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_nofront_alt17.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_back.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_back_alt1.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_back_alt2.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_back_alt3.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_back_alt4.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_back_alt5.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_back_alt6.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_back_alt7.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_back_alt8.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_back_alt9.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_back_alt10.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_back_alt11.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_back_alt12.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_back_alt13.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_back_alt14.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_back_alt15.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_back_alt16.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_back_alt17.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_bald.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_bald_alt1.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_bald_alt2.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_bald_alt3.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_bald_alt4.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_bald_alt5.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_bald_alt6.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_bald_alt7.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_bald_alt8.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_bald_alt9.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_bald_alt10.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_bald_alt11.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_bald_alt12.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_bald_alt13.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_bald_alt14.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_bald_alt15.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_bald_alt16.dds"
+				"gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_bald_alt17.dds"
 			}
 		}
 	}
@@ -358,13 +520,13 @@ mtrspony_pony_earth_igneous_rock_pie_clothes_selector = {
 }
 
 mtrspony_pony_earth_archer_mane_predefined_hair_selector = {
-	default = "gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_alt17_bald.dds"
+	default = "gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_bald_alt17.dds"
 
-	game_setup = { default = "gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_alt17_bald.dds" }
-	species = { default = "gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_alt17_bald.dds" }
-	pop = { default = "gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_alt17_bald.dds" }
-	leader = { default = "gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_alt17_bald.dds" }
-	ruler = { default = "gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_alt17_bald.dds" }
+	game_setup = { default = "gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_bald_alt17.dds" }
+	species = { default = "gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_bald_alt17.dds" }
+	pop = { default = "gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_bald_alt17.dds" }
+	leader = { default = "gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_bald_alt17.dds" }
+	ruler = { default = "gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_bald_alt17.dds" }
 }
 
 mtrspony_pony_earth_archer_mane_predefined_clothes_selector = {
@@ -378,23 +540,23 @@ mtrspony_pony_earth_archer_mane_predefined_clothes_selector = {
 }
 
 mtrspony_pony_earth_jungle_trek_predefined_hair_selector = {
-	default = "gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_alt15.dds"
+	default = "gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_nofront_alt15.dds"
 
-	game_setup = { default = "gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_alt15.dds" }
-	species = { default = "gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_alt15.dds" }
-	pop = { default = "gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_alt15.dds" }
-	leader = { default = "gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_alt15.dds" }
-	ruler = { default = "gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_alt15.dds" }
+	game_setup = { default = "gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_nofront_alt15.dds" }
+	species = { default = "gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_nofront_alt15.dds" }
+	pop = { default = "gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_nofront_alt15.dds" }
+	leader = { default = "gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_nofront_alt15.dds" }
+	ruler = { default = "gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_nofront_alt15.dds" }
 }
 
 mtrspony_pony_earth_arclight_predefined_hair_selector = {
-	default = "gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_alt16.dds"
+	default = "gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_nofront_alt16.dds"
 
-	game_setup = { default = "gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_alt16.dds" }
-	species = { default = "gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_alt16.dds" }
-	pop = { default = "gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_alt16.dds" }
-	leader = { default = "gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_alt16.dds" }
-	ruler = { default = "gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_alt16.dds" }
+	game_setup = { default = "gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_nofront_alt16.dds" }
+	species = { default = "gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_nofront_alt16.dds" }
+	pop = { default = "gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_nofront_alt16.dds" }
+	leader = { default = "gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_nofront_alt16.dds" }
+	ruler = { default = "gfx/models/portraits/pony_earth/igneous_rock_pie/igneous_rock_pie_hair_nofront_alt16.dds" }
 }
 
 mtrspony_pony_earth_arclight_predefined_clothes_selector = {
