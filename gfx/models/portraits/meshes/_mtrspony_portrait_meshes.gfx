@@ -189,4 +189,49 @@ objectTypes = {
 
 		scale = 1.0
 	}
+
+	pdxmesh = {
+		name = "portrait_dummy_apple_bloom_alicorn_mesh"
+		file = "gfx/models/portraits/meshes/dummy_apple_bloom_alicorn.mesh"
+
+		animation = {
+			id = "idle"
+			type = "human_01_female_portrait_idle1_animation"
+		}
+
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "portrait_dummy_apple_bloom_unicorn_mesh"
+		file = "gfx/models/portraits/meshes/dummy_apple_bloom_unicorn.mesh"
+
+		animation = {
+			id = "idle"
+			type = "human_01_female_portrait_idle1_animation"
+		}
+
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "portrait_dummy_apple_bloom_pegasus_mesh"
+		file = "gfx/models/portraits/meshes/dummy_apple_bloom_pegasus.mesh"
+
+		animation = {
+			id = "idle"
+			type = "human_01_female_portrait_idle1_animation"
+		}
+
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "portrait_dummy_apple_bloom_earth_mesh"
+		file = "gfx/models/portraits/meshes/dummy_apple_bloom_earth.mesh"
+
+		animation = {
+			id = "idle"
+			type = "human_01_female_portrait_idle1_animation"
+		}
+
+		scale = 1.0
+	}
 }

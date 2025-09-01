@@ -1084,17 +1084,11 @@ mtrspony_pony_alicorn_apple_bloom_hair_selector = {
 				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_hair_alt2.dds"
 				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_hair_alt3.dds"
 				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_hair_alt4.dds"
-				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_hair_alt5.dds"
-				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_hair_alt6.dds"
-				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_hair_alt7.dds"
-				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_hair_alt8.dds"
-				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_hair_alt9.dds"
-				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_hair_alt10.dds"
-				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_hair_alt11.dds"
-				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_hair_alt12.dds"
-				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_hair_alt13.dds"
-				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_hair_alt14.dds"
-				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_hair_alt15.dds"
+				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_hair_front.dds"
+				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_hair_front_alt1.dds"
+				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_hair_front_alt2.dds"
+				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_hair_front_alt3.dds"
+				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_hair_front_alt4.dds"
 			}
 		}
 	}
@@ -1107,17 +1101,11 @@ mtrspony_pony_alicorn_apple_bloom_hair_selector = {
 				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_hair_alt2.dds"
 				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_hair_alt3.dds"
 				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_hair_alt4.dds"
-				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_hair_alt5.dds"
-				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_hair_alt6.dds"
-				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_hair_alt7.dds"
-				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_hair_alt8.dds"
-				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_hair_alt9.dds"
-				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_hair_alt10.dds"
-				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_hair_alt11.dds"
-				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_hair_alt12.dds"
-				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_hair_alt13.dds"
-				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_hair_alt14.dds"
-				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_hair_alt15.dds"
+				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_hair_front.dds"
+				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_hair_front_alt1.dds"
+				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_hair_front_alt2.dds"
+				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_hair_front_alt3.dds"
+				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_hair_front_alt4.dds"
 			}
 		}
 	}
@@ -1130,103 +1118,145 @@ mtrspony_pony_alicorn_apple_bloom_hair_selector = {
 				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_hair_alt2.dds"
 				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_hair_alt3.dds"
 				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_hair_alt4.dds"
-				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_hair_alt5.dds"
-				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_hair_alt6.dds"
-				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_hair_alt7.dds"
-				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_hair_alt8.dds"
-				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_hair_alt9.dds"
-				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_hair_alt10.dds"
-				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_hair_alt11.dds"
-				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_hair_alt12.dds"
-				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_hair_alt13.dds"
-				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_hair_alt14.dds"
-				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_hair_alt15.dds"
+				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_hair_front.dds"
+				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_hair_front_alt1.dds"
+				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_hair_front_alt2.dds"
+				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_hair_front_alt3.dds"
+				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_hair_front_alt4.dds"
 			}
 		}	
 	}
 }
 
 mtrspony_pony_alicorn_apple_bloom_clothes_selector = {
-	default = "gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_bow.dds"
+	default = "gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_clothes_civilian.dds"
 
 	game_setup = {
-		default = "gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_bow.dds"
+		default = "gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_clothes_civilian.dds"
 	}
 
 	species = {
-		default = "gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_bow.dds"
+		default = "gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_clothes_civilian.dds"
 	}
 
 	pop = {
-		default = "gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_bow.dds"
+		default = "gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_clothes_civilian.dds"
 
 		random = {
+			trigger = { pop_has_miltary_job = no }
 			list = {
+				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_clothes_civilian.dds"
+				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_clothes_civilian_alt1.dds"
+				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_clothes_civilian_alt2.dds"
+				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_clothes_civilian_alt3.dds"
+				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_clothes_civilian_alt4.dds"
+				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_uniform_civilian.dds"
+				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_uniform_civilian_alt1.dds"
+				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_uniform_civilian_alt2.dds"
+				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_uniform_civilian_alt3.dds"
+				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_uniform_civilian_alt4.dds"
 				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_bow.dds"
 				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_bow_alt1.dds"
 				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_bow_alt2.dds"
 				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_bow_alt3.dds"
 				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_bow_alt4.dds"
-				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_bow_alt5.dds"
-				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_bow_alt6.dds"
-				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_bow_alt7.dds"
-				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_bow_alt8.dds"
-				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_bow_alt9.dds"
-				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_bow_alt10.dds"
-				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_bow_alt11.dds"
-				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_bow_alt12.dds"
-				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_bow_alt13.dds"
-				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_bow_alt14.dds"
-				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_bow_alt15.dds"
 				"gfx/models/portraits/no_attachment.dds"
+			}
+		}
+
+		random = {
+			trigger = { pop_has_miltary_job = yes }
+			list = {
+				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_clothes_military.dds"
+				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_clothes_military_alt1.dds"
+				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_clothes_military_alt2.dds"
+				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_clothes_military_alt3.dds"
+				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_clothes_military_alt4.dds"
+				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_uniform_military.dds"
+				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_uniform_military_alt1.dds"
+				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_uniform_military_alt2.dds"
+				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_uniform_military_alt3.dds"
+				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_uniform_military_alt4.dds"
 			}
 		}
 	}
 
 	leader = {
 		random = {
+			trigger = { is_commander_class = no }
 			list = {
+				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_clothes_civilian.dds"
+				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_clothes_civilian_alt1.dds"
+				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_clothes_civilian_alt2.dds"
+				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_clothes_civilian_alt3.dds"
+				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_clothes_civilian_alt4.dds"
+				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_uniform_civilian.dds"
+				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_uniform_civilian_alt1.dds"
+				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_uniform_civilian_alt2.dds"
+				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_uniform_civilian_alt3.dds"
+				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_uniform_civilian_alt4.dds"
 				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_bow.dds"
 				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_bow_alt1.dds"
 				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_bow_alt2.dds"
 				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_bow_alt3.dds"
 				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_bow_alt4.dds"
-				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_bow_alt5.dds"
-				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_bow_alt6.dds"
-				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_bow_alt7.dds"
-				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_bow_alt8.dds"
-				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_bow_alt9.dds"
-				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_bow_alt10.dds"
-				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_bow_alt11.dds"
-				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_bow_alt12.dds"
-				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_bow_alt13.dds"
-				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_bow_alt14.dds"
-				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_bow_alt15.dds"
 				"gfx/models/portraits/no_attachment.dds"
+			}
+		}
+
+		random = {
+			trigger = { is_commander_class = yes }
+			list = {
+				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_clothes_military.dds"
+				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_clothes_military_alt1.dds"
+				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_clothes_military_alt2.dds"
+				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_clothes_military_alt3.dds"
+				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_clothes_military_alt4.dds"
+				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_uniform_military.dds"
+				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_uniform_military_alt1.dds"
+				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_uniform_military_alt2.dds"
+				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_uniform_military_alt3.dds"
+				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_uniform_military_alt4.dds"
 			}
 		}
 	}
 
 	ruler = {
 		random = {
+			trigger = { is_commander_class = no }
 			list = {
+				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_clothes_civilian.dds"
+				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_clothes_civilian_alt1.dds"
+				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_clothes_civilian_alt2.dds"
+				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_clothes_civilian_alt3.dds"
+				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_clothes_civilian_alt4.dds"
+				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_uniform_civilian.dds"
+				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_uniform_civilian_alt1.dds"
+				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_uniform_civilian_alt2.dds"
+				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_uniform_civilian_alt3.dds"
+				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_uniform_civilian_alt4.dds"
 				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_bow.dds"
 				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_bow_alt1.dds"
 				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_bow_alt2.dds"
 				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_bow_alt3.dds"
 				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_bow_alt4.dds"
-				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_bow_alt5.dds"
-				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_bow_alt6.dds"
-				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_bow_alt7.dds"
-				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_bow_alt8.dds"
-				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_bow_alt9.dds"
-				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_bow_alt10.dds"
-				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_bow_alt11.dds"
-				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_bow_alt12.dds"
-				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_bow_alt13.dds"
-				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_bow_alt14.dds"
-				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_bow_alt15.dds"
 				"gfx/models/portraits/no_attachment.dds"
+			}
+		}
+
+		random = {
+			trigger = { is_commander_class = yes }
+			list = {
+				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_clothes_military.dds"
+				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_clothes_military_alt1.dds"
+				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_clothes_military_alt2.dds"
+				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_clothes_military_alt3.dds"
+				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_clothes_military_alt4.dds"
+				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_uniform_military.dds"
+				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_uniform_military_alt1.dds"
+				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_uniform_military_alt2.dds"
+				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_uniform_military_alt3.dds"
+				"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_uniform_military_alt4.dds"
 			}
 		}
 	}
@@ -1243,11 +1273,11 @@ mtrspony_pony_alicorn_apple_bloom_predefined_hair_selector = {
 }
 
 mtrspony_pony_alicorn_apple_bloom_predefined_clothes_selector = {
-	default = "gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_bow.dds"
+	default = "gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_clothes_civilian.dds"
 
-	game_setup = { default = "gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_bow.dds" }
-	species = { default = "gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_bow.dds" }
-	pop = { default = "gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_bow.dds" }
-	leader = { default = "gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_bow.dds" }
-	ruler = { default = "gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_bow.dds" }
+	game_setup = { default = "gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_clothes_civilian.dds" }
+	species = { default = "gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_clothes_civilian.dds" }
+	pop = { default = "gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_clothes_civilian.dds" }
+	leader = { default = "gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_clothes_civilian.dds" }
+	ruler = { default = "gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_clothes_civilian.dds" }
 }

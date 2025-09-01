@@ -162,7 +162,7 @@
 -- Fixed the custom planetary features/blockers of Faust, which was broken due to changes from 4.0.22 update.
 
 - Version 0.3.6 (XX.XX.2025):
--- Replaced the Scootaloo portrait set with a new one based on her adult/future design.
---- Also comes with Earth Pony variant in the same way that i set up Fire Streak's portraits for.
---- Also added one more color option for it.
+-- Replaced the Scootaloo and Apple Bloom portrait sets with a new ones based on their adult/future designs.
+--- They also come with additional racial variants in the same way that i set up Fire Streak's portraits for.
+--- Also added one more color options for them.
 -- Added different levels of mane loss to Igneous Rock Pie portrait set.

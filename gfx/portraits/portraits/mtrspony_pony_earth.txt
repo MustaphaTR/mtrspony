@@ -386,6 +386,23 @@ portraits = {
 		}
 	}
 
+	mtrspony_pony_earth_apple_bloom = {
+		entity = "portrait_dummy_apple_bloom_earth_entity"
+		clothes_selector = "mtrspony_pony_alicorn_apple_bloom_clothes_selector"
+		attachment_selector = "mtrspony_pony_alicorn_apple_bloom_hair_selector"
+		greeting_sound = "human_female_greetings_01"
+
+		character_textures = {
+			"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn.dds"
+			"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_alt1.dds"
+			"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_alt2.dds"
+			"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_alt3.dds"
+			"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_alt4.dds"
+		}
+
+		custom_attachment_label = "HAIR_COLOR"
+	}
+
 	mtrspony_pony_earth_scootaloo = {
 		entity = "portrait_dummy_scootaloo_earth_entity"
 		clothes_selector = "mtrspony_pony_pegasus_scootaloo_clothes_selector"
@@ -451,6 +468,7 @@ portrait_groups = {
 					mtrspony_pony_earth_maud_pie
 					mtrspony_pony_earth_cheerilee
 					mtrspony_pony_earth_babs_seed
+					mtrspony_pony_earth_apple_bloom
 					mtrspony_pony_earth_scootaloo
 				}
 			}
@@ -468,6 +486,7 @@ portrait_groups = {
 					mtrspony_pony_earth_maud_pie
 					mtrspony_pony_earth_cheerilee
 					mtrspony_pony_earth_babs_seed
+					mtrspony_pony_earth_apple_bloom
 					mtrspony_pony_earth_scootaloo
 				}
 			}
@@ -498,6 +517,7 @@ portrait_groups = {
 					mtrspony_pony_earth_maud_pie
 					mtrspony_pony_earth_cheerilee
 					mtrspony_pony_earth_babs_seed
+					mtrspony_pony_earth_apple_bloom
 					mtrspony_pony_earth_scootaloo
 				}
 			}
@@ -547,6 +567,7 @@ portrait_groups = {
 					mtrspony_pony_earth_maud_pie
 					mtrspony_pony_earth_cheerilee
 					mtrspony_pony_earth_babs_seed
+					mtrspony_pony_earth_apple_bloom
 					mtrspony_pony_earth_scootaloo
 				}
 			}

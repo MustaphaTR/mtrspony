@@ -326,3 +326,64 @@ entity = {
 	}
 	scale = 1.0
 }
+
+entity = {
+	name = "portrait_dummy_apple_bloom_alicorn_entity"
+	pdxmesh = "portrait_dummy_apple_bloom_alicorn_mesh"
+
+	default_state = "idle"
+	state = {
+		name = "idle"
+		animation = "idle"
+		animation_blend_time = 0
+		chance = 4.0
+		looping = no
+		next_state = idle
+	}
+	scale = 1.0
+}
+entity = {
+	name = "portrait_dummy_apple_bloom_unicorn_entity"
+	pdxmesh = "portrait_dummy_apple_bloom_unicorn_mesh"
+
+	default_state = "idle"
+	state = {
+		name = "idle"
+		animation = "idle"
+		animation_blend_time = 0
+		chance = 4.0
+		looping = no
+		next_state = idle
+	}
+	scale = 0.85
+}
+entity = {
+	name = "portrait_dummy_apple_bloom_pegasus_entity"
+	pdxmesh = "portrait_dummy_apple_bloom_pegasus_mesh"
+
+	default_state = "idle"
+	state = {
+		name = "idle"
+		animation = "idle"
+		animation_blend_time = 0
+		chance = 4.0
+		looping = no
+		next_state = idle
+	}
+	scale = 0.85
+}
+entity = {
+	name = "portrait_dummy_apple_bloom_earth_entity"
+	pdxmesh = "portrait_dummy_apple_bloom_earth_mesh"
+
+	default_state = "idle"
+	state = {
+		name = "idle"
+		animation = "idle"
+		animation_blend_time = 0
+		chance = 4.0
+		looping = no
+		next_state = idle
+	}
+	scale = 0.85
+}
