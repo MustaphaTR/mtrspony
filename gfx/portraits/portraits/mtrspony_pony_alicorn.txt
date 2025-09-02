@@ -224,6 +224,17 @@ portraits = {
 			"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_alt2.dds"
 			"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_alt3.dds"
 			"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_alt4.dds"
+			"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_alt5.dds"
+			"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_alt6.dds"
+			"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_alt7.dds"
+			"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_alt8.dds"
+			"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_alt9.dds"
+			"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_alt10.dds"
+			"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_alt11.dds"
+			"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_alt12.dds"
+			"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_alt13.dds"
+			"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_alt14.dds"
+			"gfx/models/portraits/pony_alicorn/apple_bloom/apple_bloom_alicorn_alt15.dds"
 		}
 
 		custom_attachment_label = "HAIR_COLOR"
