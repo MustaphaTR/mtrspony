@@ -167,3 +167,5 @@
 --- Also added one more color options for them.
 -- Added different levels of mane loss to Igneous Rock Pie portrait set.
 -- Added Sandbar as the starting Official for Empire of Friendship.
+-- Reworked the starting traits of the CMC in The Crusader State with custom traits so they no logner start with veteran or destiny traits.
+-- Fixed named leaders in the prescripted countries starting with free trait slots despite having starting traits.

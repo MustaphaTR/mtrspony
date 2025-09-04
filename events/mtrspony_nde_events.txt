@@ -25,7 +25,7 @@ country_event = {
 			traits = {
 				trait = leader_trait_mtrspony_immortal
 
-				trait = trait_ruler_warlike
+				1 = trait_ruler_warlike
 			}
 
 			effect = {
@@ -48,7 +48,7 @@ country_event = {
 			skip_background_generation = yes
 			randomize_traits = no
 			traits = {
-				trait = leader_trait_unyielding
+				1 = leader_trait_unyielding
 			}
 
 			effect = {
@@ -78,7 +78,7 @@ country_event = {
 			skip_background_generation = yes
 			randomize_traits = no
 			traits = {
-				trait = leader_trait_private_mines
+				1 = leader_trait_private_mines
 			}
 
 			effect = {
@@ -183,7 +183,7 @@ country_event = {
 			skip_background_generation = yes
 			randomize_traits = no
 			traits = {
-				trait = leader_trait_carefree
+				1 = leader_trait_carefree
 			}
 
 			effect = {

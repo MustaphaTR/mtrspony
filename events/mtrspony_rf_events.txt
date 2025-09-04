@@ -23,7 +23,7 @@ country_event = {
 			skip_background_generation = yes
 			randomize_traits = no
 			traits = {
-				trait = leader_trait_principled
+				1 = leader_trait_principled
 				trait = leader_trait_utopian_idealist
 			}
 
@@ -48,7 +48,7 @@ country_event = {
 			skip_background_generation = yes
 			randomize_traits = no
 			traits = {
-				trait = leader_trait_expertise_particles
+				1 = leader_trait_expertise_particles
 				trait = leader_trait_expertise_voidcraft
 			}
 
@@ -82,7 +82,7 @@ country_event = {
 			randomize_traits = no
 			traits = {
 				trait = leader_trait_expertise_military_theory
-				trait = leader_trait_army_veteran
+				1 = leader_trait_army_veteran
 			}
 
 			effect = {
@@ -119,7 +119,7 @@ country_event = {
 			skip_background_generation = yes
 			randomize_traits = no
 			traits = {
-				trait = leader_trait_unyielding
+				1 = leader_trait_unyielding
 				trait = leader_trait_resilient
 			}
 
@@ -155,7 +155,7 @@ country_event = {
 			skip_background_generation = yes
 			randomize_traits = no
 			traits = {
-				trait = leader_trait_architectural_interest
+				1 = leader_trait_architectural_interest
 				trait = leader_trait_eager
 			}
 

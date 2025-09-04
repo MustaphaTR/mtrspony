@@ -26,12 +26,12 @@ country_event = {
 				skip_background_generation = yes
 				randomize_traits = no
 				traits = {
-					trait = leader_trait_politician
-					trait = trait_ruler_champion_of_the_people
+					1 = leader_trait_politician
+					2 = trait_ruler_champion_of_the_people
 
 					trait = leader_trait_legendary_leader
 					trait = leader_trait_legendary_gunboat_diplomacy
-					trait = leader_trait_legendary_natural_ruler
+					3 = leader_trait_legendary_natural_ruler
 					trait = leader_trait_legendary_warmonger
 				}
 
@@ -59,11 +59,11 @@ country_event = {
 				skip_background_generation = yes
 				randomize_traits = no
 				traits = {
-					trait = leader_trait_politician
-					trait = trait_ruler_champion_of_the_people
+					1 = leader_trait_politician
+					2 = trait_ruler_champion_of_the_people
 
+					3 = trait_ruler_charismatic
 					trait = leader_trait_resilient
-					trait = trait_ruler_charismatic
 				}
 
 				effect = {

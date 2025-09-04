@@ -1,4 +1,18 @@
 spriteTypes = {
+
+	spriteType = {
+		name = "GFX_leader_trait_alicorn"
+		texturefile = "gfx/interface/icons/traits/leader_trait_icons/alicorn.dds"
+	}
+	spriteType = {
+		name = "GFX_leader_trait_griffon_skull"
+		texturefile = "gfx/interface/icons/traits/leader_trait_icons/griffon_skull.dds"
+	}
+	spriteType = {
+		name = "GFX_leader_trait_zombie"
+		texturefile = "gfx/interface/icons/traits/leader_trait_icons/zombie.dds"
+	}
+
 	spriteType = {
 		name = "GFX_leader_trait_disconnected"
 		texturefile = "gfx/interface/icons/traits/leader_trait_icons/disconnected.dds"

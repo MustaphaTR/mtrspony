@@ -25,7 +25,7 @@ country_event = {
 			skip_background_generation = yes
 			randomize_traits = no
 			traits = {
-				trait = trait_ruler_charismatic
+				1 = trait_ruler_charismatic
 			}
 
 			effect = {
@@ -49,7 +49,7 @@ country_event = {
 			skip_background_generation = yes
 			randomize_traits = no
 			traits = {
-				trait = leader_trait_aggressive
+				1 = leader_trait_aggressive
 				trait = leader_trait_reckless
 			}
 
@@ -80,7 +80,7 @@ country_event = {
 			skip_background_generation = yes
 			randomize_traits = no
 			traits = {
-				trait = leader_trait_expertise_field_manipulation
+				1 = leader_trait_expertise_field_manipulation
 			}
 
 			effect = {
@@ -110,7 +110,7 @@ country_event = {
 			skip_background_generation = yes
 			randomize_traits = no
 			traits = {
-				trait = leader_trait_army_veteran
+				1 = leader_trait_army_veteran
 			}
 
 			effect = {

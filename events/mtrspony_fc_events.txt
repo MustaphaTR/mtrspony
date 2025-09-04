@@ -23,7 +23,7 @@ country_event = {
 			skip_background_generation = yes
 			randomize_traits = no
 			traits = {
-				trait = leader_trait_principled
+				1 = leader_trait_principled
 				trait = leader_trait_entrepreneur
 			}
 

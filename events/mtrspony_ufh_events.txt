@@ -61,6 +61,7 @@ country_event = {
 				}
 				add_trait = {
 					trait = leader_trait_principled
+					consume_selection = yes
 					show_message = no
 				}
 			}
@@ -106,6 +107,7 @@ country_event = {
 
 					add_trait = {
 						trait = leader_trait_physics_focus
+						consume_selection = yes
 						show_message = no
 					}
 					add_trait = {
@@ -120,6 +122,7 @@ country_event = {
 					}
 					add_trait = {
 						trait = leader_trait_spark_of_genius
+						consume_selection = yes
 						show_message = no
 					}
 					set_council_position = councilor_research
@@ -143,7 +146,7 @@ country_event = {
 			traits = {
 				trait = leader_trait_mtrspony_immortal
 
-				trait = leader_trait_venerated
+				1 = leader_trait_venerated
 			}
 
 			effect = {
@@ -211,6 +214,7 @@ country_event = {
 
 					add_trait = {
 						trait = trait_ruler_logistic_understanding
+						consume_selection = yes
 						show_message = no
 					}
 					set_council_position = councilor_defense

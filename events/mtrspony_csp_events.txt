@@ -25,7 +25,7 @@ country_event = {
 			traits = {
 				trait = leader_trait_mtrspony_immortal
 
-				trait = leader_trait_spycraft
+				1 = leader_trait_spycraft
 				trait = trait_imperial_heir
 			}
 
@@ -112,7 +112,7 @@ country_event = {
 			traits = {
 				trait = leader_trait_mtrspony_immortal
 
-				trait = leader_trait_bureaucrat
+				1 = leader_trait_bureaucrat
 			}
 
 			effect = {
@@ -150,7 +150,7 @@ country_event = {
 			traits = {
 				trait = leader_trait_mtrspony_immortal
 
-				trait = leader_trait_expertise_voidcraft
+				1 = leader_trait_expertise_voidcraft
 			}
 
 			effect = {

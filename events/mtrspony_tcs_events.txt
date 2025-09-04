@@ -24,10 +24,10 @@ country_event = {
 			skip_background_generation = yes
 			randomize_traits = no
 			traits = {
-				trait = leader_trait_mtrspony_immortal
+				1 = leader_trait_lich
 
-				trait = leader_trait_expertise_field_manipulation
 				trait = trait_ruler_eye_for_talent
+				trait = leader_trait_spycraft_scientist
 			}
 
 			effect = {
@@ -52,9 +52,8 @@ country_event = {
 			skip_background_generation = yes
 			randomize_traits = no
 			traits = {
-				trait = leader_trait_mtrspony_immortal
+				1 = leader_trait_alicorn_of_industry
 
-				trait = leader_trait_expertise_industry
 				trait = trait_ruler_eye_for_talent
 			}
 
@@ -86,11 +85,11 @@ country_event = {
 			skip_background_generation = yes
 			randomize_traits = no
 			traits = {
-				trait = leader_trait_mtrspony_immortal
+				1 = leader_trait_mtrspony_immortal
 
-				trait = leader_trait_cyborg
 				trait = leader_trait_scout
 				trait = trait_ruler_eye_for_talent
+				trait = leader_trait_limited_cyborg
 			}
 
 			effect = {
@@ -121,7 +120,7 @@ country_event = {
 			skip_background_generation = yes
 			randomize_traits = no
 			traits = {
-				trait = leader_trait_mtrspony_immortal
+				1 = leader_trait_mtrspony_immortal
 
 				trait = leader_trait_urbanist
 				trait = leader_trait_trade_focus
@@ -167,10 +166,9 @@ country_event = {
 			skip_background_generation = yes
 			randomize_traits = no
 			traits = {
-				trait = leader_trait_mtrspony_immortal
+				1 = leader_trait_maar_chosen
 
 				trait = leader_trait_righteous
-				trait = leader_trait_utopian_idealist
 			}
 
 			effect = {

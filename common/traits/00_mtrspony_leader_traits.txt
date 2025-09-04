@@ -1,3 +1,162 @@
+
+##################
+# SPECIAL TRAITS #
+##################
+
+#### Immortaily Traits
+leader_trait_mtrspony_immortal = {
+	starting_ruler_trait = yes
+	forbidden_origins = { origin_legendary_leader }
+	forbidden_ethics = { ethic_gestalt_consciousness }
+	cost = 1
+	inline_script = {
+		script = trait/icon
+		CLASS = leader
+		ICON = "GFX_leader_trait_intemporal"
+		RARITY = common
+		COUNCIL = no
+		TIER = none
+	}
+	immortal_leaders = yes
+	leader_class = { commander scientist official }
+	selectable_weight = 0
+	randomized = no
+}
+
+leader_trait_lich = {
+	inline_script = {
+		script = trait/icon_physics
+		CLASS = leader
+		ICON = "GFX_leader_trait_zombie"
+		RARITY = common
+		COUNCIL = yes
+		TIER = none
+	}
+	councilor_modifier = {
+		category_field_manipulation_research_speed_mult = 0.1
+		category_field_manipulation_draw_chance_mult = 0.15
+	}
+	immortal_leaders = yes
+	leader_class = { commander scientist official }
+	selectable_weight = 0
+	randomized = no
+}
+
+leader_trait_alicorn_of_industry = {
+	inline_script = {
+		script = trait/icon_engineering
+		CLASS = leader
+		ICON = "GFX_leader_trait_alicorn"
+		RARITY = common
+		COUNCIL = yes
+		TIER = none
+	}
+	councilor_modifier = {
+		category_industry_research_speed_mult = 0.1
+		category_industry_draw_chance_mult = 0.15
+	}
+	immortal_leaders = yes
+	leader_class = { commander scientist official }
+	selectable_weight = 0
+	randomized = no
+}
+
+leader_trait_maar_chosen = {
+	immortal_leaders = yes
+	inline_script = {
+		script = trait/icon_psionic
+		CLASS = leader
+		ICON = "GFX_leader_trait_griffon_skull"
+		RARITY = common
+		COUNCIL = triggered
+		TIER = none
+	}
+	# Any Class - Ruler
+	triggered_councilor_modifier = {
+		potential = {
+			is_ruler = yes
+		}
+		ships_upkeep_mult = -0.05
+		starbase_shipyard_build_cost_mult = -0.05
+		starbase_shipyard_build_speed_mult = 0.10
+	}
+	# Official - GalCom Modifier
+	triggered_galcom_modifier = {
+		potential = {
+			is_ruler = no
+			leader_class = official
+		}
+		resolutions_cost_mult = -0.05
+		resolution_category_mutualdefense_vote_strength_mult = 0.125
+	}
+	# Official - Federation Modifier
+	triggered_federation_modifier = {
+		potential = {
+			is_ruler = no
+			leader_class = official
+		}
+		federation_experience_add = 0.5
+		cohesion_ethics_penalty_mult = -0.125
+	}
+	# Any Class - Planet Modifier
+	triggered_planet_modifier = {
+		potential = {
+			is_ruler = no
+		}
+		job_soldier_per_pop = 0.05
+	}
+	# Any Class - Sector Modifier
+	triggered_sector_modifier = {
+		potential = {
+			is_ruler = no
+		}
+		job_soldier_per_pop = 0.025
+	}
+	leader_class = { official }
+	opposites = {
+		leader_trait_cyborg
+		leader_trait_limited_cyborg
+		leader_trait_synthetic
+		trait_ruler_fertility_preacher
+	}
+	initial = no
+	randomized = no
+}
+
+#### Other Special Traits
+leader_trait_mtrspony_disconnected = {
+	leader_trait_type = negative
+	inline_script = {
+		script = trait/icon_negative
+		CLASS = leader
+		ICON = "GFX_leader_trait_disconnected"
+		COUNCIL = no
+		TIER = none
+	}
+	triggered_self_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				has_civic = civic_hive_upkeep_twister
+			}
+		}
+		leader_trait_selection_options_add = -1
+		leader_scientists_unity_upkeep_add = 1
+		leader_scientists_food_upkeep_add = -2
+	}
+	self_modifier = {
+		species_leader_exp_gain = -0.15
+		leaders_upkeep_mult = 0.15
+	}
+	leader_class = { commander scientist official }
+	selectable_weight = 0
+	randomized = no
+}
+
+####################
+# DUPLICATE TRAITS #
+####################
+### Duplicate version of Paranoid for Commanders. Used by Pharynx in CSP Remnants.
 leader_trait_paranoid_military = {
 	leader_trait_type = negative
 	inline_script = {
@@ -82,50 +241,121 @@ leader_trait_paranoid_military_2 = {
 	selectable_weight = @tier2_negative_trait_weight
 }
 
-leader_trait_mtrspony_immortal = {
-	starting_ruler_trait = yes
-	forbidden_origins = { origin_legendary_leader }
-	forbidden_ethics = { ethic_gestalt_consciousness }
-	cost = 1
+### Duplicate version of Spycraft traits for Scientists. Doesn't normally appear, but used by Sweetie Belle in The Crusader State.
+leader_trait_spycraft_scientist = {
 	inline_script = {
 		script = trait/icon
-		CLASS = leader
-		ICON = "GFX_leader_trait_intemporal"
+		CLASS = scientist
+		ICON = "GFX_leader_trait_spycraft"
 		RARITY = common
-		COUNCIL = no
-		TIER = none
+		COUNCIL = yes
+		TIER = 1
 	}
-	immortal_leaders = yes
-	leader_class = { commander scientist official }
+	councilor_modifier = {
+		spy_network_daily_value_mult = 0.15
+		operations_cost_mult = -0.05
+	}
+	leader_class = { scientist }
 	selectable_weight = 0
 	randomized = no
 }
 
-leader_trait_mtrspony_disconnected = {
-	leader_trait_type = negative
+leader_trait_spycraft_scientist_2 = {
+	replace_traits = { "leader_trait_spycraft_scientist" }
 	inline_script = {
-		script = trait/icon_negative
-		CLASS = leader
-		ICON = "GFX_leader_trait_disconnected"
-		COUNCIL = no
+		script = trait/icon
+		CLASS = scientist
+		ICON = "GFX_leader_trait_spycraft"
+		RARITY = common
+		COUNCIL = yes
+		TIER = 2
+	}
+	councilor_modifier = {
+		spy_network_daily_value_mult = 0.25
+		operations_cost_mult = -0.10
+	}
+	leader_class = { scientist }
+}
+
+leader_trait_shadow_broker_scientist = {
+	leader_trait_type = veteran
+	inline_script = {
+		script = trait/icon
+		CLASS = scientist
+		ICON = "GFX_leader_trait_shadow_broker"
+		RARITY = veteran
+		COUNCIL = yes
+		TIER = 1
+	}
+	councilor_modifier = {
+		intel_decryption_add = 1
+		intel_encryption_add = 1
+	}
+	leader_potential_add = {
+		has_paragon_dlc = yes
+		has_trait = subclass_scientist_councilor
+		OR = {
+			has_trait = leader_trait_spycraft_scientist
+			has_trait = leader_trait_spycraft_scientist_2
+		}
+	}
+	leader_class = { scientist }
+	selectable_weight = {
+		inline_script = paragon/subclass_free_trait_weight
+		inline_script = paragon/council_weight_mult
+	}
+}
+
+leader_trait_shadow_broker_scientist_2 = {
+	leader_trait_type = veteran
+	replace_traits = { "leader_trait_shadow_broker" }
+	inline_script = {
+		script = trait/icon
+		CLASS = scientist
+		ICON = "GFX_leader_trait_shadow_broker"
+		RARITY = veteran
+		COUNCIL = yes
+		TIER = 2
+	}
+	councilor_modifier = {
+		intel_decryption_add = 2
+		intel_encryption_add = 2
+	}
+	leader_class = { scientist }
+}
+
+leader_trait_spymaster_scientist = {
+	leader_trait_type = destiny
+	inline_script = {
+		script = trait/icon
+		CLASS = scientist
+		ICON = "GFX_leader_trait_spymaster"
+		RARITY = paragon
+		COUNCIL = yes
 		TIER = none
 	}
-	triggered_self_modifier = {
-		potential = {
-			exists = owner
-			owner = {
-				has_civic = civic_hive_upkeep_twister
-			}
+	on_gained_effect = {
+		owner = {
+			country_event = { id = timeline.50 } # Timeline First Leader with Destiny Trait
 		}
-		leader_trait_selection_options_add = -1
-		leader_scientists_unity_upkeep_add = 1
-		leader_scientists_food_upkeep_add = -2
 	}
-	self_modifier = {
-		species_leader_exp_gain = -0.15
-		leaders_upkeep_mult = 0.15
+	councilor_modifier = {
+		spy_network_daily_value_mult = 1.5
+		operations_cost_mult = -0.25
+		envoys_add = 2
 	}
-	leader_class = { commander scientist official }
-	selectable_weight = 0
-	randomized = no
+	leader_potential_add = {
+		has_paragon_dlc = yes
+		has_trait = subclass_scientist_councilor
+		OR = {
+			has_trait = leader_trait_spycraft_scientist
+			has_trait = leader_trait_spycraft_scientist_2
+		}
+	}
+	leader_class = { scientist }
+	selectable_weight = {
+		weight = @subclass_trait_weight
+		inline_script = paragon/council_weight_mult
+	}
+	background_icon = "GFX_leader_background_destiny_1"
 }

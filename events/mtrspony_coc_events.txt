@@ -27,7 +27,7 @@ country_event = {
 				trait = leader_trait_mtrspony_immortal
 
 				trait = leader_trait_expertise_field_manipulation
-				trait = leader_trait_spark_of_genius
+				1 = leader_trait_spark_of_genius
 			}
 
 			effect = {
