@@ -1,6 +1,6 @@
 namespace = eofstart
 
-#Setup Convocation of Creatures
+#Setup Empire of Frienship
 country_event = {
 	id = eofstart.1
 	hide_window = yes
@@ -75,6 +75,31 @@ country_event = {
 			}
 		}
 
+		create_leader = {
+			name = "PRESCRIPTED_ruler_name_sandbar"
+			custom_description = "PRESCRIPTED_ruler_name_sandbar_desc"
+			species = ROOT.species
+			gender = male
+			class = official
+			skill = 1
+			set_age = 58
+			background_job = "friendship_student"
+			background_ethic = "ethic_xenophile"
+			skip_background_generation = yes
+			randomize_traits = no
+			traits = {
+				1 = leader_trait_eager
+			}
+
+			effect = {
+				save_global_event_target_as = leader_sandbar
+				set_leader_flag = is_created_leader
+				change_leader_portrait = "mtrspony_pony_earth_sandbar_predefined"
+				ROOT = { capital_scope = { assign_leader = event_target:leader_sandbar } }
+				set_council_position = councilor_state
+			}
+		}
+
 		save_current_mtrspony_species = yes
 		create_other_mtrspony_species = yes
 
@@ -89,14 +114,11 @@ country_event = {
 			species = { set_living_standard_good = { COUNTRY = PREVPREV } }
 		}
 
-		# Remove the auto-generated Cozy Glow.
+		# Remove the auto-generated Cozy Glow and the other official.
 		random_owned_leader = {
 			limit = {
 				NOT = { has_leader_flag = is_created_leader }
-				OR = {
-					has_trait = leader_trait_legendary_gunboat_diplomacy
-					has_trait = trait_ruler_charismatic
-				}
+				leader_class = official
 			}
 
 			kill_leader = {
@@ -119,6 +141,9 @@ country_event = {
 	immediate = {
 		event_target:leader_cozy_glow = {
 			change_leader_portrait = "mtrspony_pony_pegasus_cozy_glow_older_predefined"
+		}
+		event_target:leader_sandbar = {
+			change_leader_portrait = "mtrspony_pony_earth_sandbar_predefined"
 		}
 	}
 }

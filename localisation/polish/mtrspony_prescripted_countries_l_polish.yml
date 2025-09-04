@@ -91,6 +91,10 @@
  PRESCRIPTED_ruler_name_cozy_glow_desc:0 "<insert_desc_here>"
  PRESCRIPTED_ruler_name_cozy_glow_catch_phrase:0 "§L""§!"
 
+ PRESCRIPTED_ruler_name_sandbar:0 "Sandbar"
+ PRESCRIPTED_ruler_name_sandbar_desc:0 "<insert_desc_here>"
+ PRESCRIPTED_ruler_name_sandbar_catch_phrase:0 "§L""§!"
+
  # Novyy Stalliongrad
  EMPIRE_DESIGN_novyy_stalliongrad:0 "Novyy Stalliongrad"
  EMPIRE_DESIGN_novyy_stalliongrad_desc:0 ""I'm going to the one place that has not been corrupted by capitalism! SPACE!!!""

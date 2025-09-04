@@ -166,3 +166,4 @@
 --- They also come with additional racial variants in the same way that i set up Fire Streak's portraits for.
 --- Also added one more color options for them.
 -- Added different levels of mane loss to Igneous Rock Pie portrait set.
+-- Added Sandbar as the starting Official for Empire of Friendship.
