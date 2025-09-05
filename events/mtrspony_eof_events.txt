@@ -10,67 +10,70 @@ country_event = {
 		has_country_flag = empire_of_friendship
 	}
 	immediate = {
-		if = { # Unfortunately add_trait makes pop ups appear, so have to duplicate the whole thing.
-			limit = { has_under_one_rule_origin = yes }
+		create_leader = {
+			name = "PRESCRIPTED_ruler_name_cozy_glow"
+			custom_description = "PRESCRIPTED_ruler_name_cozy_glow_desc"
+			species = ROOT.species
+			gender = female
+			class = official
+			skill = 4
+			set_age = 48
+			background_job = "friendship_student"
+			background_ethic = "ethic_authoritarian"
+			skip_background_generation = yes
+			randomize_traits = no
+			traits = {
 
-			create_leader = {
-				name = "PRESCRIPTED_ruler_name_cozy_glow"
-				custom_description = "PRESCRIPTED_ruler_name_cozy_glow_desc"
-				species = ROOT.species
-				gender = female
-				class = official
-				skill = 4
-				set_age = 48
-				background_job = "friendship_student"
-				background_ethic = "ethic_authoritarian"
-				skip_background_generation = yes
-				randomize_traits = no
-				traits = {
-					1 = leader_trait_politician
-					2 = trait_ruler_champion_of_the_people
+				1 = leader_trait_politician
+				2 = trait_ruler_champion_of_the_people
+			}
 
-					trait = leader_trait_legendary_leader
-					trait = leader_trait_legendary_gunboat_diplomacy
-					3 = leader_trait_legendary_natural_ruler
-					trait = leader_trait_legendary_warmonger
+			effect = {
+				save_global_event_target_as = leader_cozy_glow
+				set_leader_flag = is_created_leader
+				change_leader_portrait = "mtrspony_pony_pegasus_cozy_glow_older_predefined"
+				ROOT = {
+					leader = {
+						kill_leader = {
+							show_notification = no
+							fire = yes
+						}
+					}
+					assign_leader = event_target:leader_cozy_glow
 				}
 
-				effect = {
-					save_global_event_target_as = leader_cozy_glow
-					set_leader_flag = is_created_leader
-					change_leader_portrait = "mtrspony_pony_pegasus_cozy_glow_older_predefined"
-					ROOT = { assign_leader = event_target:leader_cozy_glow }
+				if = {
+					limit = { ROOT = { has_under_one_rule_origin = yes } }
 
+					add_trait = {
+						trait = leader_trait_legendary_leader
+						show_message = no
+					}
+					add_trait = {
+						trait = leader_trait_legendary_gunboat_diplomacy
+						show_message = no
+					}
+					add_trait = {
+						trait = leader_trait_legendary_natural_ruler
+						consume_selection = yes
+						show_message = no
+					}
+					add_trait = {
+						trait = leader_trait_legendary_warmonger
+						show_message = no
+					}
 					set_leader_flag = paragon_origin_legendary_leader
 				}
-			}
-		}
-		else = {
-			create_leader = {
-				name = "PRESCRIPTED_ruler_name_cozy_glow"
-				custom_description = "PRESCRIPTED_ruler_name_cozy_glow_desc"
-				species = ROOT.species
-				gender = female
-				class = official
-				skill = 4
-				set_age = 48
-				background_job = "friendship_student"
-				background_ethic = "ethic_authoritarian"
-				skip_background_generation = yes
-				randomize_traits = no
-				traits = {
-					1 = leader_trait_politician
-					2 = trait_ruler_champion_of_the_people
-
-					3 = trait_ruler_charismatic
-					trait = leader_trait_resilient
-				}
-
-				effect = {
-					save_global_event_target_as = leader_cozy_glow
-					set_leader_flag = is_created_leader
-					change_leader_portrait = "mtrspony_pony_pegasus_cozy_glow_older_predefined"
-					ROOT = { assign_leader = event_target:leader_cozy_glow }
+				else = {
+					add_trait = {
+						trait = trait_ruler_charismatic
+						consume_selection = yes
+						show_message = no
+					}
+					add_trait = {
+						trait = leader_trait_resilient
+						show_message = no
+					}
 				}
 			}
 		}
@@ -95,7 +98,17 @@ country_event = {
 				save_global_event_target_as = leader_sandbar
 				set_leader_flag = is_created_leader
 				change_leader_portrait = "mtrspony_pony_earth_sandbar_predefined"
-				ROOT = { capital_scope = { assign_leader = event_target:leader_sandbar } }
+				ROOT = {
+					capital_scope = {
+						leader = {
+							kill_leader = {
+								show_notification = no
+								fire = yes
+							}
+						}
+						assign_leader = event_target:leader_sandbar
+					}
+				}
 				set_council_position = councilor_state
 			}
 		}
@@ -112,19 +125,6 @@ country_event = {
 			limit = { is_same_species_with_faustian_races  = yes }
 
 			species = { set_living_standard_good = { COUNTRY = PREVPREV } }
-		}
-
-		# Remove the auto-generated Cozy Glow and the other official.
-		random_owned_leader = {
-			limit = {
-				NOT = { has_leader_flag = is_created_leader }
-				leader_class = official
-			}
-
-			kill_leader = {
-				show_notification = no
-				fire = yes
-			}
 		}
 	}
 }
