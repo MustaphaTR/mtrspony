@@ -228,3 +228,960 @@ planet_event = {
 		}
 	}
 }
+
+# New Leaders Get A Cutie Mark Trait
+country_event = {
+	id = mtrspony.6
+	is_triggered_only = yes
+	hide_window = yes
+
+	trigger = {
+		from = {
+			NOT = { leader_class = envoy }
+			species = {
+				has_trait = trait_cutie_marks
+			}
+			has_cutie_mark_trait = no
+			is_event_leader = no # To disable nodes from getting cutie marks, hopefully doesn't disable anything else.
+		}
+	}
+
+	immediate = {
+		from = {
+			random_list = {
+				10 = {
+					modifier = {
+						factor = 0
+						leader_class = official
+						can_leader_get_council_trait_trigger = no
+					}
+
+					add_trait = {
+						trait = leader_trait_cutie_mark_computing
+						show_message = no
+					}
+				}
+				10 = {
+					if = {
+						limit = { leader_class = commander }
+
+						add_trait = {
+							trait = leader_trait_cutie_mark_shields
+							show_message = no
+						}
+					}
+					else_if = {
+						limit = { leader_class = scientist }
+
+						add_trait = {
+							trait = leader_trait_cutie_mark_field_manupilation
+							show_message = no
+						}
+					}
+					else_if = {
+						limit = { leader_class = official }
+
+						add_trait = {
+							trait = leader_trait_cutie_mark_energy
+							show_message = no
+						}
+					}
+				}
+				10 = {
+					modifier = {
+						factor = 0
+						OR = {
+							leader_class = official
+							AND = {
+								leader_class = scientist
+								can_leader_get_council_trait_trigger = no
+							}
+						}
+					}
+
+					add_trait = {
+						trait = leader_trait_cutie_mark_particles
+						show_message = no
+					}
+				}
+
+				10 = {
+					modifier = {
+						factor = 1.5
+						leader_class = official
+						ROOT = { has_valid_civic = civic_agrarian_idyll }
+					}
+
+					if = {
+						limit = { NOT = { leader_class = official } }
+
+						add_trait = {
+							trait = leader_trait_cutie_mark_biology
+							show_message = no
+						}
+					}
+					else_if = {
+						limit = {
+							leader_class = official
+							ROOT = { country_uses_food = yes }
+						}
+
+						add_trait = {
+							trait = leader_trait_cutie_mark_farming
+							show_message = no
+						}
+					}
+					else_if = {
+						limit = {
+							leader_class = official
+							ROOT = { country_uses_food = no }
+						}
+
+						add_trait = {
+							trait = leader_trait_cutie_mark_love
+							show_message = no
+						}
+					}
+				}
+				10 = {
+					modifier = {
+						factor = 1.5
+						leader_class = official
+						ROOT = { has_valid_civic = civic_police_state }
+					}
+					modifier = {
+						factor = 0
+						leader_class = scientist
+						can_leader_get_council_trait_trigger = no
+					}
+
+					add_trait = {
+						trait = leader_trait_cutie_mark_military_theory
+						show_message = no
+					}
+				}
+				10 = {
+					add_trait = {
+						trait = leader_trait_cutie_mark_new_worlds
+						show_message = no
+					}
+				}
+				10 = {
+					modifier = {
+						factor = 1.5
+						leader_class = official
+						ROOT = { has_valid_civic = civic_byzantine_bureaucracy }
+					}
+					modifier = {
+						factor = 0
+						NOT = { leader_class = official }
+						can_leader_get_council_trait_trigger = no
+					}
+
+					if = {
+						limit = { NOT = { leader_class = official } }
+
+						add_trait = {
+							trait = leader_trait_cutie_mark_statecraft
+							show_message = no
+						}
+					}
+					else_if = {
+						limit = { leader_class = official }
+
+						add_trait = {
+							trait = leader_trait_cutie_mark_bureaucracy
+							show_message = no
+						}
+					}
+				}
+				5 = {
+					modifier = {
+						factor = 0
+						OR = {
+							leader_class = official
+							has_ancrel = no
+						}
+					}
+
+					add_trait = {
+						trait = leader_trait_cutie_mark_archaeology
+						show_message = no
+					}
+				}
+
+				10 = {
+					modifier = {
+						factor = 1.5
+						leader_class = official
+						ROOT = { has_valid_civic = civic_mining_guilds }
+					}
+					modifier = {
+						factor = 0
+						OR = {
+							AND = {
+								leader_class = commander
+								OR = {
+									ROOT = { NOT = { has_technology = tech_robotic_workers } }
+									has_policy_flag = robots_outlawed
+								}
+							}
+							AND = {
+								leader_class = scientist
+								can_leader_get_council_trait_trigger = no
+							}
+						}
+					}
+
+					if = {
+						limit = { leader_class = commander }
+
+						add_trait = {
+							trait = leader_trait_cutie_mark_robotics
+							show_message = no
+						}
+					}
+					else_if = {
+						limit = { leader_class = scientist }
+
+						add_trait = {
+							trait = leader_trait_cutie_mark_industry
+							show_message = no
+						}
+					}
+					else_if = {
+						limit = { leader_class = official }
+
+						add_trait = {
+							trait = leader_trait_cutie_mark_mining
+							show_message = no
+						}
+					}
+				}
+				10 = {
+					modifier = {
+						factor = 1.5
+						leader_class = official
+						ROOT = {
+							OR = {
+								has_valid_civic = civic_crafters
+								has_valid_civic = civic_corporate_crafters
+							}
+						}
+					}
+					modifier = {
+						factor = 0
+						OR = {
+							AND = {
+								leader_class = scientist
+								can_leader_get_council_trait_trigger = no
+							}
+							AND = {
+								leader_class = official
+								ROOT = { country_uses_consumer_goods = no }
+							}
+						}
+					}
+
+					if = {
+						limit = { NOT = { leader_class = official } }
+
+						add_trait = {
+							trait = leader_trait_cutie_mark_materials
+							show_message = no
+						}
+					}
+					else_if = {
+						limit = { leader_class = official }
+
+						add_trait = {
+							trait = leader_trait_cutie_mark_crafts
+							show_message = no
+						}
+					}
+				}
+				10 = {
+					modifier = {
+						factor = 0
+						leader_class = official
+					}
+
+					if = {
+						limit = { leader_class = commander }
+
+						add_trait = {
+							trait = leader_trait_cutie_mark_speed
+							show_message = no
+						}
+					}
+					else_if = {
+						limit = { leader_class = scientist }
+
+						add_trait = {
+							trait = leader_trait_cutie_mark_propulsion
+							show_message = no
+						}
+					}
+				}
+				10 = {
+					modifier = {
+						factor = 0
+						OR = {
+							leader_class = official
+							AND = {
+								leader_class = scientist
+								can_leader_get_council_trait_trigger = no
+							}
+						}
+					}
+
+					add_trait = {
+						trait = leader_trait_cutie_mark_voidcraft
+						show_message = no
+					}
+				}
+
+				10 = {
+					modifier = {
+						factor = 0
+						OR = {
+							leader_class = scientist
+							AND = {
+								leader_class = commander
+								ROOT = { NOT = { has_valid_civic = civic_warrior_culture } }
+							}
+						}
+					}
+
+					add_trait = {
+						trait = leader_trait_cutie_mark_art
+						show_message = no
+					}
+				}
+				10 = {
+					modifier = {
+						factor = 1.5
+						ROOT = {
+							OR = {
+								has_authority = auth_corporate
+								has_valid_civic = civic_corporate_dominion
+							}
+						}
+					}
+					modifier = {
+						factor = 0
+						NOT = { leader_class = official }
+					}
+
+					add_trait = {
+						trait = leader_trait_cutie_mark_trade
+						show_message = no
+					}
+				}
+			}
+		}
+	}
+}
+
+# New leaders with Equality Marks species traits do not get any starting traits.
+country_event = {
+	id = mtrspony.7
+	is_triggered_only = yes
+	hide_window = yes
+
+	trigger = {
+		from = {
+			NOT = { leader_class = envoy }
+			species = {
+				has_trait = trait_equality_marks
+			}
+		}
+	}
+
+	immediate = {
+		from = {
+			if = {
+				limit = { has_trait = leader_trait_adaptable }
+
+				remove_trait = leader_trait_adaptable
+			}
+			if = {
+				limit = { has_trait = leader_trait_resilient }
+
+				remove_trait = leader_trait_resilient
+			}
+			if = {
+				limit = { has_trait = leader_trait_eager }
+
+				remove_trait = leader_trait_eager
+			}
+			if = {
+				limit = { has_trait = leader_trait_gifted }
+
+				remove_trait = leader_trait_gifted
+			}
+			else_if = {
+				limit = { has_trait = leader_trait_gifted_2 }
+
+				remove_trait = leader_trait_gifted_2
+			}
+
+			if = {
+				limit = { has_trait = leader_trait_bureaucrat }
+
+				remove_trait = leader_trait_bureaucrat
+			}
+			if = {
+				limit = { has_trait = leader_trait_environmental_engineer }
+
+				remove_trait = leader_trait_environmental_engineer
+			}
+			if = {
+				limit = { has_trait = leader_trait_architectural_interest }
+
+				remove_trait = leader_trait_architectural_interest
+			}
+			if = {
+				limit = { has_trait = leader_trait_agrarian_upbringing }
+
+				remove_trait = leader_trait_agrarian_upbringing
+			}
+			if = {
+				limit = { has_trait = leader_trait_righteous }
+
+				remove_trait = leader_trait_righteous
+			}
+			else_if = {
+				limit = { has_trait = leader_trait_righteous_2 }
+
+				remove_trait = leader_trait_righteous_2
+			}
+
+			if = {
+				limit = { has_trait = trait_ruler_charismatic }
+
+				remove_trait = trait_ruler_charismatic
+			}
+			else_if = {
+				limit = { has_trait = trait_ruler_charismatic_2 }
+
+				remove_trait = trait_ruler_charismatic_2
+			}
+			if = {
+				limit = { has_trait = trait_ruler_eye_for_talent }
+
+				remove_trait = trait_ruler_eye_for_talent
+			}
+			else_if = {
+				limit = { has_trait = trait_ruler_eye_for_talent_2 }
+
+				remove_trait = trait_ruler_eye_for_talent_2
+			}
+			if = {
+				limit = { has_trait = trait_ruler_logistic_understanding }
+
+				remove_trait = trait_ruler_logistic_understanding
+			}
+			else_if = {
+				limit = { has_trait = trait_ruler_logistic_understanding_2 }
+
+				remove_trait = trait_ruler_logistic_understanding_2
+			}
+			if = {
+				limit = { has_trait = trait_ruler_industrialist }
+
+				remove_trait = trait_ruler_industrialist
+			}
+			else_if = {
+				limit = { has_trait = trait_ruler_industrialist_2 }
+
+				remove_trait = trait_ruler_industrialist_2
+			}
+			if = {
+				limit = { has_trait = leader_trait_politician }
+
+				remove_trait = leader_trait_politician
+			}
+			if = {
+				limit = { has_trait = trait_ruler_champion_of_the_people }
+
+				remove_trait = trait_ruler_champion_of_the_people
+			}
+			else_if = {
+				limit = { has_trait = trait_ruler_champion_of_the_people_2 }
+
+				remove_trait = trait_ruler_champion_of_the_people_2
+			}
+			if = {
+				limit = { has_trait = trait_ruler_feedback_loop }
+
+				remove_trait = trait_ruler_feedback_loop
+			}
+			else_if = {
+				limit = { has_trait = trait_ruler_feedback_loop_2 }
+
+				remove_trait = trait_ruler_feedback_loop_2
+			}
+
+			if = {
+				limit = { has_trait = leader_trait_army_veteran }
+
+				remove_trait = leader_trait_army_veteran
+			}
+			if = {
+				limit = { has_trait = leader_trait_retired_fleet_officer }
+
+				remove_trait = leader_trait_retired_fleet_officer
+			}
+
+			if = {
+				limit = { has_trait = leader_trait_butcher }
+
+				remove_trait = leader_trait_butcher
+			}
+			if = {
+				limit = { has_trait = leader_trait_restrained }
+
+				remove_trait = leader_trait_restrained
+			}
+			if = {
+				limit = { has_trait = leader_trait_enlister }
+
+				remove_trait = leader_trait_enlister
+			}
+			if = {
+				limit = { has_trait = leader_trait_iron_fist }
+
+				remove_trait = leader_trait_iron_fist
+			}
+			else_if = {
+				limit = { has_trait = leader_trait_iron_fist_2 }
+
+				remove_trait = leader_trait_iron_fist_2
+			}
+
+			if = {
+				limit = { has_trait = leader_trait_aggressive }
+
+				remove_trait = leader_trait_aggressive
+			}
+			if = {
+				limit = { has_trait = leader_trait_engineer }
+
+				remove_trait = leader_trait_engineer
+			}
+			if = {
+				limit = { has_trait = leader_trait_cautious }
+
+				remove_trait = leader_trait_cautious
+			}
+			if = {
+				limit = { has_trait = leader_trait_trickster }
+
+				remove_trait = leader_trait_trickster
+			}
+			if = {
+				limit = { has_trait = leader_trait_unyielding }
+
+				remove_trait = leader_trait_unyielding
+			}
+			if = {
+				limit = { has_trait = leader_trait_void_hunter }
+
+				remove_trait = leader_trait_void_hunter
+			}
+			else_if = {
+				limit = { has_trait = leader_trait_void_hunter_2 }
+
+				remove_trait = leader_trait_void_hunter_2
+			}
+
+			if = {
+				limit = { has_trait = leader_trait_fleet_organizer }
+
+				remove_trait = leader_trait_fleet_organizer
+			}
+			else_if = {
+				limit = { has_trait = leader_trait_fleet_organizer_2 }
+
+				remove_trait = leader_trait_fleet_organizer_2
+			}
+			if = {
+				limit = { has_trait = trait_ruler_warlike }
+
+				remove_trait = trait_ruler_warlike
+			}
+			else_if = {
+				limit = { has_trait = trait_ruler_warlike_2 }
+
+				remove_trait = trait_ruler_warlike_2
+			}
+			if = {
+				limit = { has_trait = leader_trait_defence_engineer }
+
+				remove_trait = leader_trait_defence_engineer
+			}
+			if = {
+				limit = { has_trait = leader_trait_skirmisher }
+
+				remove_trait = leader_trait_skirmisher
+			}
+
+			if = {
+				limit = { has_trait = trait_ruler_corvette_focus }
+
+				remove_trait = trait_ruler_corvette_focus
+			}
+			if = {
+				limit = { has_trait = trait_ruler_destroyer_focus }
+
+				remove_trait = trait_ruler_destroyer_focus
+			}
+			if = {
+				limit = { has_trait = trait_ruler_cruiser_focus }
+
+				remove_trait = trait_ruler_cruiser_focus
+			}
+			if = {
+				limit = { has_trait = trait_ruler_battleship_focus }
+
+				remove_trait = trait_ruler_battleship_focus
+			}
+			if = {
+				limit = { has_trait = leader_trait_fleet_logistician }
+
+				remove_trait = leader_trait_fleet_logistician
+			}
+
+			if = {
+				limit = { has_trait = leader_trait_roamer }
+
+				remove_trait = leader_trait_roamer
+			}
+			else_if = {
+				limit = { has_trait = leader_trait_roamer_2 }
+
+				remove_trait = leader_trait_roamer_2
+			}
+			if = {
+				limit = { has_trait = leader_trait_meticulous }
+
+				remove_trait = leader_trait_meticulous
+			}
+			else_if = {
+				limit = { has_trait = leader_trait_meticulous_2 }
+
+				remove_trait = leader_trait_meticulous_2
+			}
+			if = {
+				limit = { has_trait = leader_trait_carefree }
+
+				remove_trait = leader_trait_carefree
+			}
+			else_if = {
+				limit = { has_trait = leader_trait_carefree_2 }
+
+				remove_trait = leader_trait_carefree_2
+			}
+			if = {
+				limit = { has_trait = leader_trait_archaeologist }
+
+				remove_trait = leader_trait_archaeologist
+			}
+			else_if = {
+				limit = { has_trait = leader_trait_archaeologist_2 }
+
+				remove_trait = leader_trait_archaeologist_2
+			}
+			if = {
+				limit = { has_trait = leader_trait_void_tracker }
+
+				remove_trait = leader_trait_void_tracker
+			}
+			else_if = {
+				limit = { has_trait = leader_trait_void_tracker_2 }
+
+				remove_trait = leader_trait_void_tracker_2
+			}
+			if = {
+				limit = { has_trait = leader_trait_spark_of_genius }
+
+				remove_trait = leader_trait_spark_of_genius
+			}
+			else_if = {
+				limit = { has_trait = leader_trait_spark_of_genius_2 }
+
+				remove_trait = leader_trait_spark_of_genius_2
+			}
+			if = {
+				limit = { has_trait = leader_trait_planar_theorist }
+
+				remove_trait = leader_trait_planar_theorist
+			}
+
+			if = {
+				limit = { has_trait = leader_trait_trade_focus }
+
+				remove_trait = leader_trait_trade_focus
+			}
+			else_if = {
+				limit = { has_trait = leader_trait_trade_focus_2 }
+
+				remove_trait = leader_trait_trade_focus_2
+			}
+
+			if = {
+				limit = { has_trait = leader_trait_principled }
+
+				remove_trait = leader_trait_principled
+			}
+			else_if = {
+				limit = { has_trait = leader_trait_principled_2 }
+
+				remove_trait = leader_trait_principled_2
+			}
+			if = {
+				limit = { has_trait = leader_trait_spycraft }
+
+				remove_trait = leader_trait_spycraft
+			}
+			else_if = {
+				limit = { has_trait = leader_trait_spycraft_2 }
+
+				remove_trait = leader_trait_spycraft_2
+			}
+			if = {
+				limit = { has_trait = leader_trait_shipwright }
+
+				remove_trait = leader_trait_shipwright
+			}
+			if = {
+				limit = { has_trait = trait_ruler_fertility_preacher }
+
+				remove_trait = trait_ruler_fertility_preacher
+			}
+
+			if = {
+				limit = { has_trait = leader_trait_intellectual }
+
+				remove_trait = leader_trait_intellectual
+			}
+			if = {
+				limit = { has_trait = trait_ruler_frontier_spirit }
+
+				remove_trait = trait_ruler_frontier_spirit
+			}
+
+			if = {
+				limit = { has_trait = leader_trait_arrested_development }
+
+				remove_trait = leader_trait_arrested_development
+			}
+			if = {
+				limit = { has_trait = leader_trait_destructive }
+
+				remove_trait = leader_trait_destructive
+			}
+			if = {
+				limit = { has_trait = leader_trait_lavish_lifestyle }
+
+				remove_trait = leader_trait_lavish_lifestyle
+			}
+			if = {
+				limit = { has_trait = leader_trait_melancholic }
+
+				remove_trait = leader_trait_melancholic
+			}
+			if = {
+				limit = { has_trait = leader_trait_stubborn }
+
+				remove_trait = leader_trait_stubborn
+			}
+			if = {
+				limit = { has_trait = leader_trait_fallible }
+
+				remove_trait = leader_trait_fallible
+			}
+			if = {
+				limit = { has_trait = leader_trait_excessive }
+
+				remove_trait = leader_trait_excessive
+			}
+			if = {
+				limit = { has_trait = leader_trait_substance_abuser }
+
+				remove_trait = leader_trait_substance_abuser
+			}
+
+			if = {
+				limit = { has_trait = leader_trait_sadistic }
+
+				remove_trait = leader_trait_sadistic
+			}
+			if = {
+				limit = { has_trait = leader_trait_procrastinator }
+
+				remove_trait = leader_trait_procrastinator
+			}
+			if = {
+				limit = { has_trait = leader_trait_polluter }
+
+				remove_trait = leader_trait_polluter
+			}
+			if = {
+				limit = { has_trait = leader_trait_corrupt }
+
+				remove_trait = leader_trait_corrupt
+			}
+			if = {
+				limit = { has_trait = leader_trait_lawless }
+
+				remove_trait = leader_trait_lawless
+			}
+			if = {
+				limit = { has_trait = leader_trait_insider_trading }
+
+				remove_trait = leader_trait_insider_trading
+			}
+			if = {
+				limit = { has_trait = leader_trait_profligate }
+
+				remove_trait = leader_trait_profligate
+			}
+			if = {
+				limit = { has_trait = leader_trait_irenic }
+
+				remove_trait = leader_trait_irenic
+			}
+
+			if = {
+				limit = { has_trait = leader_trait_embezzler }
+
+				remove_trait = leader_trait_embezzler
+			}
+			if = {
+				limit = { has_trait = leader_trait_passive }
+
+				remove_trait = leader_trait_passive
+			}
+			if = {
+				limit = { has_trait = leader_trait_bureaucratic }
+
+				remove_trait = leader_trait_bureaucratic
+			}
+			if = {
+				limit = { has_trait = leader_trait_gullible }
+
+				remove_trait = leader_trait_gullible
+			}
+			if = {
+				limit = { has_trait = leader_trait_intolerant }
+
+				remove_trait = leader_trait_intolerant
+			}
+			if = {
+				limit = { has_trait = leader_trait_reclusive }
+
+				remove_trait = leader_trait_reclusive
+			}
+			if = {
+				limit = { has_trait = leader_trait_volatile }
+
+				remove_trait = leader_trait_volatile
+			}
+			if = {
+				limit = { has_trait = leader_trait_tyrannical }
+
+				remove_trait = leader_trait_tyrannical
+			}
+
+			if = {
+				limit = { has_trait = leader_trait_disorganized }
+
+				remove_trait = leader_trait_disorganized
+			}
+			if = {
+				limit = { has_trait = leader_trait_micromanager }
+
+				remove_trait = leader_trait_micromanager
+			}
+			if = {
+				limit = { has_trait = leader_trait_slipshod }
+
+				remove_trait = leader_trait_slipshod
+			}
+			if = {
+				limit = { has_trait = leader_trait_reckless }
+
+				remove_trait = leader_trait_reckless
+			}
+			if = {
+				limit = { has_trait = leader_trait_slothful }
+
+				remove_trait = leader_trait_slothful
+			}
+			if = {
+				limit = { has_trait = leader_trait_uninspiring }
+
+				remove_trait = leader_trait_uninspiring
+			}
+			if = {
+				limit = { has_trait = leader_trait_nervous }
+
+				remove_trait = leader_trait_nervous
+			}
+			if = {
+				limit = { has_trait = leader_trait_lethargic }
+
+				remove_trait = leader_trait_lethargic
+			}
+			if = {
+				limit = { has_trait = leader_trait_armchair_commander }
+
+				remove_trait = leader_trait_armchair_commander
+			}
+			if = {
+				limit = { has_trait = leader_trait_victory_or_death }
+
+				remove_trait = leader_trait_victory_or_death
+			}
+
+			if = {
+				limit = { has_trait = leader_trait_narrow_minded }
+
+				remove_trait = leader_trait_narrow_minded
+			}
+			if = {
+				limit = { has_trait = leader_trait_paranoid }
+
+				remove_trait = leader_trait_paranoid
+			}
+			if = {
+				limit = { has_trait = leader_trait_paranoid_military }
+
+				remove_trait = leader_trait_paranoid_military
+			}
+
+			if = {
+				limit = { has_trait = leader_trait_stubborn }
+
+				remove_trait = leader_trait_stubborn
+			}
+			if = {
+				limit = { has_trait = leader_trait_traumatized }
+
+				remove_trait = leader_trait_traumatized
+			}
+			if = {
+				limit = { has_trait = leader_trait_neurotic }
+
+				remove_trait = leader_trait_neurotic
+			}
+			if = {
+				limit = { has_trait = leader_trait_opinionated }
+
+				remove_trait = leader_trait_opinionated
+			}
+		}
+	}
+}

@@ -1,0 +1,7 @@
+﻿l_french:
+ mod_pop_colonist_bonus_workforce_mult:0 "$BONUS_WORKFORCE_FOR$ colons "
+ mod_pop_politician_bonus_workforce_mult:0 "$BONUS_WORKFORCE_FOR$ politiciens "
+ mod_pop_synapse_drone_bonus_workforce_mult:0 "$BONUS_WORKFORCE_FOR$ drones synaptiques "
+ mod_pop_spawning_drone_bonus_workforce_mult:0 "$BONUS_WORKFORCE_FOR$ drones de reproduction "
+ mod_ships_minor_artifacts_upkeep_mult:0 "Maintenance en £minor_artifacts£ des vaisseaux "
+ mod_planet_structures_minerals_cost_mult:0 "Coût des £minerals£ des £district£districts et £building£bâtiments "

@@ -24,7 +24,9 @@ country_event = {
 			skip_background_generation = yes
 			immortal = yes
 			randomize_traits = no
-			traits = { }
+			traits = {
+				trait = leader_trait_cutie_mark_talent
+			}
 
 			effect = {
 				save_global_event_target_as = leader_luna
@@ -60,6 +62,11 @@ country_event = {
 					change_background_ethic = ethic_spiritualist
 				}
 				add_trait = {
+					trait = leader_trait_cutie_mark_luna
+					show_message = no
+				}
+				remove_trait = leader_trait_cutie_mark_talent
+				add_trait = {
 					trait = leader_trait_principled
 					consume_selection = yes
 					show_message = no
@@ -82,6 +89,10 @@ country_event = {
 			randomize_traits = no
 			traits = {
 				trait = leader_trait_mtrspony_immortal
+
+				trait = leader_trait_cutie_mark_twilight_sparkle
+
+				trait = leader_trait_neurotic
 			}
 
 			effect = {
@@ -106,7 +117,7 @@ country_event = {
 					limit = { ROOT = { has_ethic = ethic_gestalt_consciousness } }
 
 					add_trait = {
-						trait = leader_trait_physics_focus
+						trait = leader_trait_meticulous
 						consume_selection = yes
 						show_message = no
 					}
@@ -116,10 +127,6 @@ country_event = {
 					}
 				}
 				else = {
-					add_trait = {
-						trait = leader_trait_expertise_field_manipulation
-						show_message = no
-					}
 					add_trait = {
 						trait = leader_trait_spark_of_genius
 						consume_selection = yes
@@ -145,6 +152,8 @@ country_event = {
 			randomize_traits = no
 			traits = {
 				trait = leader_trait_mtrspony_immortal
+
+				trait = leader_trait_cutie_mark_mi_amore_cadenza
 
 				1 = leader_trait_venerated
 			}
@@ -188,6 +197,8 @@ country_event = {
 			randomize_traits = no
 			traits = {
 				trait = leader_trait_mtrspony_immortal
+
+				trait = leader_trait_cutie_mark_flurry_heart
 
 				trait = leader_trait_stubborn
 			}

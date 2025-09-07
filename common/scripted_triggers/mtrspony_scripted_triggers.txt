@@ -287,3 +287,59 @@ using_mtrspony_multi_species_setup = {
 		has_country_flag = using_mtrspony_multi_species_setup
 	}
 }
+
+has_cutie_mark_trait = {
+	OR = {
+		# Named Leader Cutie Marks
+		has_trait = leader_trait_cutie_mark_dusk_shine
+		has_trait = leader_trait_cutie_mark_apple_bloom
+		has_trait = leader_trait_cutie_mark_scootaloo
+		has_trait = leader_trait_cutie_mark_sweetie_belle
+		has_trait = leader_trait_cutie_mark_babs_seed
+		has_trait = leader_trait_cutie_mark_cozy_glow
+		has_trait = leader_trait_cutie_mark_sandbar
+		has_trait = leader_trait_cutie_mark_luna
+		has_trait = leader_trait_cutie_mark_twilight_sparkle
+		has_trait = leader_trait_cutie_mark_mi_amore_cadenza
+		has_trait = leader_trait_cutie_mark_flurry_heart
+		has_trait = leader_trait_cutie_mark_cherry_berry
+
+		# Physcics Cutie Marks
+		has_trait = leader_trait_cutie_mark_computing
+		has_trait = leader_trait_cutie_mark_shields
+		has_trait = leader_trait_cutie_mark_field_manupilation
+		has_trait = leader_trait_cutie_mark_energy
+		has_trait = leader_trait_cutie_mark_particles
+
+		# Society Cutie Marks
+		has_trait = leader_trait_cutie_mark_biology
+		has_trait = leader_trait_cutie_mark_farming
+		has_trait = leader_trait_cutie_mark_love
+		has_trait = leader_trait_cutie_mark_military_theory
+		has_trait = leader_trait_cutie_mark_new_worlds
+		has_trait = leader_trait_cutie_mark_statecraft
+		has_trait = leader_trait_cutie_mark_bureaucracy
+		has_trait = leader_trait_cutie_mark_archaeology
+
+		has_trait = leader_trait_cutie_mark_robotics
+		has_trait = leader_trait_cutie_mark_industry
+		has_trait = leader_trait_cutie_mark_mining
+		has_trait = leader_trait_cutie_mark_materials
+		has_trait = leader_trait_cutie_mark_crafts
+		has_trait = leader_trait_cutie_mark_speed
+		has_trait = leader_trait_cutie_mark_propulsion
+		has_trait = leader_trait_cutie_mark_voidcraft
+
+		# Other Cutie Marks
+		has_trait = leader_trait_cutie_mark_art
+		has_trait = leader_trait_cutie_mark_trade
+
+		# Unused Cutie Marks
+		has_trait = leader_trait_cutie_mark_medicine
+		has_trait = leader_trait_cutie_mark_security
+		has_trait = leader_trait_cutie_mark_metallurgy
+		has_trait = leader_trait_cutie_mark_endurance
+		has_trait = leader_trait_cutie_mark_learning
+		has_trait = leader_trait_cutie_mark_talent
+	}
+}

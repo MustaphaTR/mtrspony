@@ -1,0 +1,7 @@
+﻿l_russian:
+ mod_pop_colonist_bonus_workforce_mult:0 "$BONUS_WORKFORCE_FOR$ [colonist.GetNamePlural]"
+ mod_pop_politician_bonus_workforce_mult:0 "$BONUS_WORKFORCE_FOR$ [politician.GetNamePlural]"
+ mod_pop_synapse_drone_bonus_workforce_mult:0 "$BONUS_WORKFORCE_FOR$ [synapse_drone.GetNamePlural]"
+ mod_pop_spawning_drone_bonus_workforce_mult:0 "$BONUS_WORKFORCE_FOR$ [spawning_drone.GetNamePlural]"
+ mod_ships_minor_artifacts_upkeep_mult:0 "£minor_artifacts£ Малых артефакты на содержание кораблей"
+ mod_planet_structures_minerals_cost_mult:0 ""Затраты минералов на районы и сооружения"

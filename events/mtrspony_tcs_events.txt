@@ -26,7 +26,8 @@ country_event = {
 			traits = {
 				1 = leader_trait_lich
 
-				trait = trait_ruler_eye_for_talent
+				trait = leader_trait_cutie_mark_sweetie_belle
+
 				trait = leader_trait_spycraft_scientist
 			}
 
@@ -54,7 +55,7 @@ country_event = {
 			traits = {
 				1 = leader_trait_alicorn_of_industry
 
-				trait = trait_ruler_eye_for_talent
+				trait = leader_trait_cutie_mark_apple_bloom
 			}
 
 			effect = {
@@ -87,9 +88,8 @@ country_event = {
 			traits = {
 				1 = leader_trait_mtrspony_immortal
 
-				trait = leader_trait_scout
-				trait = trait_ruler_eye_for_talent
 				trait = leader_trait_limited_cyborg
+				trait = leader_trait_cutie_mark_scootaloo
 			}
 
 			effect = {
@@ -122,7 +122,8 @@ country_event = {
 			traits = {
 				1 = leader_trait_mtrspony_immortal
 
-				trait = leader_trait_urbanist
+				trait = leader_trait_cutie_mark_babs_seed
+
 				trait = leader_trait_trade_focus
 			}
 

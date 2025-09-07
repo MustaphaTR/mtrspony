@@ -1,0 +1,14 @@
+custom_subtitle = triggered_cutie_mark_class_trait
+icon = {
+	layer = {
+		icon = "GFX_trait_bg"
+		color = "trait_bg_cutie_mark"
+	}
+	layer = {
+		icon = $ICON$
+		color = "trait_icon_default"
+	}
+	inline_script = trait/icon_element/tier_$TIER$
+	inline_script = trait/icon_element/cutie_mark_council_$COUNCIL$
+}
+sorting_priority = @trait_sorting_priority_$COUNCIL$_cutie_mark

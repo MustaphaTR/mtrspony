@@ -1,0 +1,6 @@
+# Trait sorting priorities
+
+# trait_sorting_priority_<council yes/no>_cutie_mark
+@trait_sorting_priority_no_cutie_mark = 270
+@trait_sorting_priority_triggered_cutie_mark = 275
+@trait_sorting_priority_yes_cutie_mark = 280

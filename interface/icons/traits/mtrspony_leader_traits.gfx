@@ -1,4 +1,157 @@
 spriteTypes = {
+	spriteType = {
+		name = "GFX_leader_trait_cutie_mark_apple_bloom"
+		texturefile = "gfx/interface/icons/traits/leader_trait_icons/cutie_mark_apple_bloom.dds"
+	}
+	spriteType = {
+		name = "GFX_leader_trait_cutie_mark_applejack"
+		texturefile = "gfx/interface/icons/traits/leader_trait_icons/cutie_mark_applejack.dds"
+	}
+	spriteType = {
+		name = "GFX_leader_trait_cutie_mark_babs_seed"
+		texturefile = "gfx/interface/icons/traits/leader_trait_icons/cutie_mark_babs_seed.dds"
+	}
+	spriteType = {
+		name = "GFX_leader_trait_cutie_mark_button_mash"
+		texturefile = "gfx/interface/icons/traits/leader_trait_icons/cutie_mark_button_mash.dds"
+	}
+	spriteType = {
+		name = "GFX_leader_trait_cutie_mark_cadance"
+		texturefile = "gfx/interface/icons/traits/leader_trait_icons/cutie_mark_cadance.dds"
+	}
+	spriteType = {
+		name = "GFX_leader_trait_cutie_mark_celestia"
+		texturefile = "gfx/interface/icons/traits/leader_trait_icons/cutie_mark_celestia.dds"
+	}
+	spriteType = {
+		name = "GFX_leader_trait_cutie_mark_cherry_berry"
+		texturefile = "gfx/interface/icons/traits/leader_trait_icons/cutie_mark_cherry_berry.dds"
+	}
+	spriteType = {
+		name = "GFX_leader_trait_cutie_mark_copper_top"
+		texturefile = "gfx/interface/icons/traits/leader_trait_icons/cutie_mark_copper_top.dds"
+	}
+	spriteType = {
+		name = "GFX_leader_trait_cutie_mark_cozy_glow"
+		texturefile = "gfx/interface/icons/traits/leader_trait_icons/cutie_mark_cozy_glow.dds"
+	}
+	spriteType = {
+		name = "GFX_leader_trait_cutie_mark_filthy_rich"
+		texturefile = "gfx/interface/icons/traits/leader_trait_icons/cutie_mark_filthy_rich.dds"
+	}
+	spriteType = {
+		name = "GFX_leader_trait_cutie_mark_flurry_heart"
+		texturefile = "gfx/interface/icons/traits/leader_trait_icons/cutie_mark_flurry_heart.dds"
+	}
+	spriteType = {
+		name = "GFX_leader_trait_cutie_mark_fluttershy"
+		texturefile = "gfx/interface/icons/traits/leader_trait_icons/cutie_mark_fluttershy.dds"
+	}
+	spriteType = {
+		name = "GFX_leader_trait_cutie_mark_gizmo"
+		texturefile = "gfx/interface/icons/traits/leader_trait_icons/cutie_mark_gizmo.dds"
+	}
+	spriteType = {
+		name = "GFX_leader_trait_cutie_mark_igneous_rock_pie"
+		texturefile = "gfx/interface/icons/traits/leader_trait_icons/cutie_mark_igneous_rock_pie.dds"
+	}
+	spriteType = {
+		name = "GFX_leader_trait_cutie_mark_jet_set"
+		texturefile = "gfx/interface/icons/traits/leader_trait_icons/cutie_mark_jet_set.dds"
+	}
+	spriteType = {
+		name = "GFX_leader_trait_cutie_mark_luna"
+		texturefile = "gfx/interface/icons/traits/leader_trait_icons/cutie_mark_luna.dds"
+	}
+	spriteType = {
+		name = "GFX_leader_trait_cutie_mark_mayor_mare"
+		texturefile = "gfx/interface/icons/traits/leader_trait_icons/cutie_mark_mayor_mare.dds"
+	}
+	spriteType = {
+		name = "GFX_leader_trait_cutie_mark_nurse_redheart"
+		texturefile = "gfx/interface/icons/traits/leader_trait_icons/cutie_mark_nurse_redheart.dds"
+	}
+	spriteType = {
+		name = "GFX_leader_trait_cutie_mark_octavia"
+		texturefile = "gfx/interface/icons/traits/leader_trait_icons/cutie_mark_octavia.dds"
+	}
+	spriteType = {
+		name = "GFX_leader_trait_cutie_mark_petunia_paleo"
+		texturefile = "gfx/interface/icons/traits/leader_trait_icons/cutie_mark_petunia_paleo.dds"
+	}
+	spriteType = {
+		name = "GFX_leader_trait_cutie_mark_quiet_gestures"
+		texturefile = "gfx/interface/icons/traits/leader_trait_icons/cutie_mark_quiet_gestures.dds"
+	}
+	spriteType = {
+		name = "GFX_leader_trait_cutie_mark_radiant_hope"
+		texturefile = "gfx/interface/icons/traits/leader_trait_icons/cutie_mark_radiant_hope.dds"
+	}
+	spriteType = {
+		name = "GFX_leader_trait_cutie_mark_rainbow_dash"
+		texturefile = "gfx/interface/icons/traits/leader_trait_icons/cutie_mark_rainbow_dash.dds"
+	}
+	spriteType = {
+		name = "GFX_leader_trait_cutie_mark_raven_inkwell"
+		texturefile = "gfx/interface/icons/traits/leader_trait_icons/cutie_mark_raven_inkwell.dds"
+	}
+	spriteType = {
+		name = "GFX_leader_trait_cutie_mark_sandbar"
+		texturefile = "gfx/interface/icons/traits/leader_trait_icons/cutie_mark_sandbar.dds"
+	}
+	spriteType = {
+		name = "GFX_leader_trait_cutie_mark_scootaloo"
+		texturefile = "gfx/interface/icons/traits/leader_trait_icons/cutie_mark_scootaloo.dds"
+	}
+	spriteType = {
+		name = "GFX_leader_trait_cutie_mark_silver_spoon"
+		texturefile = "gfx/interface/icons/traits/leader_trait_icons/cutie_mark_silver_spoon.dds"
+	}
+	spriteType = {
+		name = "GFX_leader_trait_cutie_mark_silver_star"
+		texturefile = "gfx/interface/icons/traits/leader_trait_icons/cutie_mark_silver_star.dds"
+	}
+	spriteType = {
+		name = "GFX_leader_trait_cutie_mark_shining_armor"
+		texturefile = "gfx/interface/icons/traits/leader_trait_icons/cutie_mark_shining_armor.dds"
+	}
+	spriteType = {
+		name = "GFX_leader_trait_cutie_mark_spitfire"
+		texturefile = "gfx/interface/icons/traits/leader_trait_icons/cutie_mark_spitfire.dds"
+	}
+	spriteType = {
+		name = "GFX_leader_trait_cutie_mark_sprout_greenhoof"
+		texturefile = "gfx/interface/icons/traits/leader_trait_icons/cutie_mark_sprout_greenhoof.dds"
+	}
+	spriteType = {
+		name = "GFX_leader_trait_cutie_mark_sunburst"
+		texturefile = "gfx/interface/icons/traits/leader_trait_icons/cutie_mark_sunburst.dds"
+	}
+	spriteType = {
+		name = "GFX_leader_trait_cutie_mark_sweetie_belle"
+		texturefile = "gfx/interface/icons/traits/leader_trait_icons/cutie_mark_sweetie_belle.dds"
+	}
+	spriteType = {
+		name = "GFX_leader_trait_cutie_mark_trouble_shoes"
+		texturefile = "gfx/interface/icons/traits/leader_trait_icons/cutie_mark_trouble_shoes.dds"
+	}
+	spriteType = {
+		name = "GFX_leader_trait_cutie_mark_tune_up"
+		texturefile = "gfx/interface/icons/traits/leader_trait_icons/cutie_mark_tune_up.dds"
+	}
+	spriteType = {
+		name = "GFX_leader_trait_cutie_mark_twilight_sparkle"
+		texturefile = "gfx/interface/icons/traits/leader_trait_icons/cutie_mark_twilight_sparkle.dds"
+	}
+	spriteType = {
+		name = "GFX_leader_trait_cutie_mark_vapor_trail"
+		texturefile = "gfx/interface/icons/traits/leader_trait_icons/cutie_mark_vapor_trail.dds"
+	}
+
+	spriteType = {
+		name = "GFX_leader_trait_talented"
+		texturefile = "gfx/interface/icons/traits/leader_trait_icons/talented.dds"
+	}
 
 	spriteType = {
 		name = "GFX_leader_trait_alicorn"

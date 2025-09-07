@@ -1,0 +1,5 @@
+# trait backgrounds colors
+
+trait_bg_cutie_mark = {
+	color = { 246 184 210 255 }
+}

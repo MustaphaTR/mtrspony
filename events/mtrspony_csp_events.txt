@@ -150,6 +150,8 @@ country_event = {
 			traits = {
 				trait = leader_trait_mtrspony_immortal
 
+				trait = leader_trait_cutie_mark_cherry_berry
+
 				1 = leader_trait_expertise_voidcraft
 			}
 

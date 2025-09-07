@@ -24,7 +24,7 @@ country_event = {
 		#	randomize_traits = no
 		#	traits = {
 		#		trait = leader_trait_expertise_computing
-		#		trait = leader_trait_spark_of_genius
+		#		1 = leader_trait_spark_of_genius
 		#	}
 		#
 		#	effect = {

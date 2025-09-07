@@ -1,3 +1,1524 @@
+#####################
+# CUTIE MARK TRAITS #
+#####################
+
+#### Named Leader Cutie Marks
+# Convocation of Creatures
+leader_trait_cutie_mark_dusk_shine = {
+	inline_script = {
+		script = trait/icon_cutie_mark
+		ICON = "GFX_leader_trait_cutie_mark_twilight_sparkle"
+		COUNCIL = triggered
+		TIER = none
+	}
+	triggered_councilor_modifier = {
+		potential = {
+			OR = {
+				is_councilor = yes
+				trait_is_gestalt_check = no
+			}
+		}
+		category_field_manipulation_research_speed_mult = 0.075
+		category_field_manipulation_draw_chance_mult = 0.125
+	}
+	triggered_planet_modifier = {
+		planet_jobs_physics_research_produces_mult = 0.05
+	}
+	triggered_sector_modifier = {
+		planet_jobs_physics_research_produces_mult = 0.025
+	}
+	leader_class = { scientist }
+	selectable_weight = 0
+	randomized = no
+}
+
+# The Crusader State
+leader_trait_cutie_mark_apple_bloom = {
+	inline_script = {
+		script = trait/icon_cutie_mark
+		ICON = "GFX_leader_trait_cutie_mark_apple_bloom"
+		COUNCIL = yes
+		TIER = none
+	}
+	councilor_modifier = {
+		species_leader_exp_gain = 0.025
+		logistic_growth_mult = 0.025
+	}
+	triggered_councilor_modifier = {
+		potential = {
+			exists = owner
+			owner = { country_uses_food = yes }
+		}
+		planet_jobs_food_produces_mult = 0.075
+	}
+	leader_class = { scientist }
+	selectable_weight = 0
+	randomized = no
+}
+
+leader_trait_cutie_mark_scootaloo = {
+	inline_script = {
+		script = trait/icon_cutie_mark
+		ICON = "GFX_leader_trait_cutie_mark_scootaloo"
+		COUNCIL = yes
+		TIER = none
+	}
+	councilor_modifier = {
+		species_leader_exp_gain = 0.025
+	}
+	modifier = {
+		ship_speed_mult = 0.1
+		ship_evasion_mult = 0.1
+	}
+	leader_class = { commander }
+	selectable_weight = 0
+	randomized = no
+}
+
+leader_trait_cutie_mark_sweetie_belle = {
+	inline_script = {
+		script = trait/icon_cutie_mark
+		ICON = "GFX_leader_trait_cutie_mark_sweetie_belle"
+		COUNCIL = yes
+		TIER = none
+	}
+	councilor_modifier = {
+		species_leader_exp_gain = 0.025
+	}
+	triggered_councilor_modifier = {
+		potential = { trait_is_gestalt_check = no }
+		pop_entertainer_bonus_workforce_mult = 0.075
+	}
+	triggered_councilor_modifier = {
+		potential = { trait_is_gestalt_check = yes }
+		pop_evaluator_bonus_workforce_mult = 0.075
+	}
+	leader_class = { scientist }
+	selectable_weight = 0
+	randomized = no
+}
+
+leader_trait_cutie_mark_babs_seed = {
+	inline_script = {
+		script = trait/icon_cutie_mark
+		ICON = "GFX_leader_trait_cutie_mark_babs_seed"
+		COUNCIL = yes
+		TIER = none
+	}
+	councilor_modifier = {
+		envoy_improve_relations_mult = 0.15
+		envoy_harm_relations_mult = 0.15
+	}
+	leader_class = { official }
+	selectable_weight = 0
+	randomized = no
+}
+
+# Empire of Friendship
+leader_trait_cutie_mark_cozy_glow = {
+	inline_script = {
+		script = trait/icon_cutie_mark
+		ICON = "GFX_leader_trait_cutie_mark_cozy_glow"
+		COUNCIL = yes
+		TIER = none
+	}
+	councilor_modifier = {
+		diplomacy_influence_upkeep_mult = -0.1
+	}
+	leader_class = { official }
+	selectable_weight = 0
+	randomized = no
+}
+
+leader_trait_cutie_mark_sandbar = {
+	inline_script = {
+		script = trait/icon_cutie_mark
+		ICON = "GFX_leader_trait_cutie_mark_sandbar"
+		COUNCIL = yes
+		TIER = none
+	}
+	councilor_modifier = {
+		pc_ocean_habitability = 0.075
+	}
+	leader_class = { official }
+	selectable_weight = 0
+	randomized = no
+}
+
+# United Faustian Hives
+leader_trait_cutie_mark_luna = {
+	inline_script = {
+		script = trait/icon_cutie_mark
+		ICON = "GFX_leader_trait_cutie_mark_luna"
+		COUNCIL = yes
+		TIER = none
+	}
+	councilor_modifier = {
+		planet_sensor_range_add = 1
+		ship_sensor_range_add = 1
+		planet_hyperlane_range_add = 1
+		ship_hyperlane_range_add = 1
+	}
+	leader_class = { official }
+	selectable_weight = 0
+	randomized = no
+}
+
+leader_trait_cutie_mark_twilight_sparkle = {
+	inline_script = {
+		script = trait/icon_cutie_mark
+		ICON = "GFX_leader_trait_cutie_mark_twilight_sparkle"
+		COUNCIL = triggered
+		TIER = none
+	}
+	triggered_councilor_modifier = {
+		potential = {
+			OR = {
+				is_councilor = yes
+				trait_is_gestalt_check = no
+			}
+		}
+		category_field_manipulation_research_speed_mult = 0.075
+		category_field_manipulation_draw_chance_mult = 0.125
+	}
+	triggered_planet_modifier = {
+		show_if_not_potential = yes
+		planet_jobs_physics_research_produces_mult = 0.05
+	}
+	triggered_sector_modifier = {
+		show_if_not_potential = yes
+		planet_jobs_physics_research_produces_mult = 0.025
+	}
+	leader_class = { scientist }
+	selectable_weight = 0
+	randomized = no
+}
+
+leader_trait_cutie_mark_mi_amore_cadenza = {
+	inline_script = {
+		script = trait/icon_cutie_mark
+		ICON = "GFX_leader_trait_cutie_mark_cadance"
+		COUNCIL = triggered
+		TIER = none
+	}
+	triggered_councilor_modifier = {
+		potential = {
+			OR = {
+				is_councilor = yes
+				trait_is_gestalt_check = no
+			}
+		}
+		logistic_growth_mult = 0.04
+	}
+	triggered_planet_modifier = {
+		logistic_growth_mult = 0.08
+	}
+	triggered_sector_modifier = {
+		logistic_growth_mult = 0.04
+	}
+	triggered_planet_modifier = {
+		potential = {
+			is_councilor = no
+			trait_is_gestalt_check = yes
+		}
+		logistic_growth_mult = 0.08
+	}
+	triggered_sector_modifier = {
+		potential = {
+			is_councilor = no
+			trait_is_gestalt_check = yes
+		}
+		logistic_growth_mult = 0.04
+	}
+	leader_class = { official }
+	selectable_weight = 0
+	randomized = no
+}
+
+leader_trait_cutie_mark_flurry_heart = {
+	inline_script = {
+		script = trait/icon_cutie_mark
+		ICON = "GFX_leader_trait_cutie_mark_flurry_heart"
+		COUNCIL = triggered
+		TIER = none
+	}
+	triggered_councilor_modifier = {
+		potential = { trait_is_gestalt_check = no }
+		army_morale = 0.15
+		army_health = 0.1
+	}
+	triggered_councilor_modifier = {
+		potential = { trait_is_gestalt_check = yes }
+		army_health = 0.2
+	}
+	triggered_army_modifier = {
+		potential = { trait_is_gestalt_check = no }
+		army_morale = 0.15
+		army_health = 0.1
+	}
+	triggered_army_modifier = {
+		potential = { trait_is_gestalt_check = yes }
+		army_health = 0.2
+	}
+	leader_class = { commander }
+	selectable_weight = 0
+	randomized = no
+}
+
+# CSP Remnants
+leader_trait_cutie_mark_cherry_berry = {
+	inline_script = {
+		script = trait/icon_cutie_mark
+		ICON = "GFX_leader_trait_cutie_mark_cherry_berry"
+		COUNCIL = yes
+		TIER = none
+	}
+	councilor_modifier = {
+		planet_jobs_food_produces_mult = 0.15
+	}
+	self_modifier = {
+		leader_scientists_food_upkeep_add = 1
+	}
+	leader_class = { scientist }
+	selectable_weight = 0
+	randomized = no
+}
+
+#### Generic Cutie Marks
+### Physcics Marks
+# Computing
+leader_trait_cutie_mark_computing = {
+	#starting_ruler_trait = yes
+	cost = 0
+	opposites = { "leader_trait_cutie_mark_field_manupilation" "leader_trait_cutie_mark_particles" "leader_trait_cutie_mark_biology" "leader_trait_cutie_mark_new_worlds" "leader_trait_cutie_mark_military_theory" "leader_trait_cutie_mark_statecraft" "leader_trait_cutie_mark_archaeology" "leader_trait_cutie_mark_industry" "leader_trait_cutie_mark_materials" "leader_trait_cutie_mark_propulsion" "leader_trait_cutie_mark_voidcraft" }
+	inline_script = {
+		script = trait/icon_cutie_mark
+		ICON = "GFX_leader_trait_cutie_mark_button_mash"
+		COUNCIL = triggered
+		TIER = none
+	}
+	triggered_councilor_modifier = {
+		potential = {
+			leader_class = commander
+			OR = {
+				is_councilor = yes
+				trait_is_gestalt_check = no
+			}
+		}
+		ship_fire_rate_mult = 0.05
+	}
+	triggered_councilor_modifier = {
+		potential = {
+			leader_class = scientist
+			OR = {
+				is_councilor = yes
+				trait_is_gestalt_check = no
+			}
+		}
+		category_computing_research_speed_mult = 0.075
+		category_computing_draw_chance_mult = 0.125
+	}
+	triggered_councilor_modifier = {
+		potential = {
+			leader_class = official
+			OR = {
+				is_councilor = yes
+				trait_is_gestalt_check = no
+			}
+		}
+		intel_encryption_add = 1
+		intel_decryption_add = 1
+	}
+	triggered_planet_modifier = {
+		potential = {
+			leader_class = scientist
+			trait_is_gestalt_check = no
+		}
+		pop_physicist_bonus_workforce_mult = 0.05
+	}
+	triggered_sector_modifier = {
+		potential = {
+			leader_class = scientist
+			trait_is_gestalt_check = no
+		}
+		pop_physicist_bonus_workforce_mult = 0.025
+	}
+	triggered_planet_modifier = {
+		potential = {
+			leader_class = scientist
+			trait_is_gestalt_check = yes
+		}
+		pop_calculator_physicist_bonus_workforce_mult = 0.05
+	}
+	triggered_sector_modifier = {
+		potential = {
+			leader_class = scientist
+			trait_is_gestalt_check = yes
+		}
+		pop_calculator_physicist_bonus_workforce_mult = 0.025
+	}
+	triggered_modifier = {
+		potential = { NOT = { leader_class = official } }
+		ship_sensor_range_add = 1
+		ship_hyperlane_range_add = 1
+	}
+	triggered_fleet_modifier = {
+		potential = {
+			leader_class = commander
+			is_councilor = no
+			trait_is_gestalt_check = yes
+		}
+		ship_fire_rate_mult = 0.05
+	}
+	leader_class = { commander scientist official }
+	selectable_weight = 0
+	randomized = no
+}
+
+# Field Manupilation
+leader_trait_cutie_mark_shields = {
+	inline_script = {
+		script = trait/icon_cutie_mark
+		ICON = "GFX_leader_trait_cutie_mark_shining_armor"
+		COUNCIL = triggered
+		TIER = none
+	}
+	triggered_councilor_modifier = {
+		potential = {
+			OR = {
+				is_councilor = yes
+				trait_is_gestalt_check = no
+			}
+		}
+		ship_shield_add = 100
+		ship_shield_hardening_add = 0.2
+	}
+	planet_modifier = {
+		planet_orbital_bombardment_damage = -0.25
+	}
+	sector_modifier = {
+		planet_orbital_bombardment_damage = -0.125
+	}
+	triggered_fleet_modifier = {
+		potential = {
+			is_councilor = no
+			trait_is_gestalt_check = yes
+		}
+		ship_shield_add = 100
+		ship_shield_hardening_add = 0.2
+	}
+	leader_class = { commander }
+	selectable_weight = 0
+	randomized = no
+}
+leader_trait_cutie_mark_field_manupilation = {
+	#starting_ruler_trait = yes
+	cost = 0
+	opposites = { "leader_trait_cutie_mark_computing" "leader_trait_cutie_mark_particles" "leader_trait_cutie_mark_biology" "leader_trait_cutie_mark_new_worlds" "leader_trait_cutie_mark_military_theory" "leader_trait_cutie_mark_statecraft" "leader_trait_cutie_mark_archaeology" "leader_trait_cutie_mark_industry" "leader_trait_cutie_mark_materials" "leader_trait_cutie_mark_propulsion" "leader_trait_cutie_mark_voidcraft" }
+	inline_script = {
+		script = trait/icon_cutie_mark
+		ICON = "GFX_leader_trait_cutie_mark_twilight_sparkle"
+		COUNCIL = triggered
+		TIER = none
+	}
+	triggered_councilor_modifier = {
+		potential = {
+			OR = {
+				is_councilor = yes
+				trait_is_gestalt_check = no
+			}
+		}
+		category_field_manipulation_research_speed_mult = 0.075
+		category_field_manipulation_draw_chance_mult = 0.125
+	}
+	triggered_modifier = {
+		potential = {
+			has_astral_planes_dlc = no
+			has_first_contact_dlc = no
+		}
+		ship_shield_add = 100
+		ship_shield_hardening_add = 0.2
+	}
+	triggered_modifier = {
+		potential = {
+			has_astral_planes_dlc = no
+			has_first_contact_dlc = yes
+		}
+		ship_cloaking_strength_add = 1
+		ship_cloaking_detection_add = 1
+	}
+	triggered_modifier = {
+		potential = {
+			has_astral_planes_dlc = yes
+		}
+		ship_astral_rift_speed_mult = 0.05
+	}
+	leader_class = { scientist }
+	selectable_weight = 0
+	randomized = no
+}
+leader_trait_cutie_mark_energy = {
+	inline_script = {
+		script = trait/icon_cutie_mark
+		ICON = "GFX_leader_trait_cutie_mark_celestia"
+		COUNCIL = no
+		TIER = none
+	}
+	triggered_planet_modifier = {
+		potential = { trait_is_gestalt_check = no }
+		pop_technician_bonus_workforce_mult = 0.05
+	}
+	triggered_sector_modifier = {
+		potential = { trait_is_gestalt_check = no }
+		pop_technician_bonus_workforce_mult = 0.025
+	}
+	triggered_planet_modifier = {
+		potential = { trait_is_gestalt_check = yes }
+		pop_technician_drone_bonus_workforce_mult = 0.05
+	}
+	triggered_sector_modifier = {
+		potential = { trait_is_gestalt_check = yes }
+		pop_technician_drone_bonus_workforce_mult = 0.025
+	}
+	leader_class = { official }
+	selectable_weight = 0
+	randomized = no
+}
+
+# Particles
+leader_trait_cutie_mark_particles = {
+	#starting_ruler_trait = yes
+	cost = 0
+	opposites = { "leader_trait_cutie_mark_computing" "leader_trait_cutie_mark_field_manupilation" "leader_trait_cutie_mark_biology" "leader_trait_cutie_mark_new_worlds" "leader_trait_cutie_mark_military_theory" "leader_trait_cutie_mark_statecraft" "leader_trait_cutie_mark_archaeology" "leader_trait_cutie_mark_industry" "leader_trait_cutie_mark_materials" "leader_trait_cutie_mark_propulsion" "leader_trait_cutie_mark_voidcraft" }
+	inline_script = {
+		script = trait/icon_cutie_mark
+		ICON = "GFX_leader_trait_cutie_mark_sunburst"
+		COUNCIL = triggered
+		TIER = none
+	}
+	triggered_councilor_modifier = {
+		potential = {
+			leader_class = commander
+			OR = {
+				is_councilor = yes
+				trait_is_gestalt_check = no
+			}
+		}
+		ship_windup_mult = -0.1
+	}
+	triggered_councilor_modifier = {
+		potential = {
+			leader_class = scientist
+			OR = {
+				is_councilor = yes
+				trait_is_gestalt_check = no
+			}
+		}
+		category_particles_research_speed_mult = 0.075
+		category_particles_draw_chance_mult = 0.125
+	}
+	triggered_fleet_modifier = {
+		potential = { leader_class = commander }
+		weapon_type_energy_weapon_damage_mult = 0.05
+	}
+	triggered_fleet_modifier = {
+		potential = {
+			leader_class = commander
+			is_councilor = no
+			trait_is_gestalt_check = yes
+		}
+		ship_windup_mult = -0.1
+	}
+	leader_class = { commander scientist }
+	selectable_weight = 0
+	randomized = no
+}
+
+### Society Marks
+# Biology
+leader_trait_cutie_mark_biology = {
+	#starting_ruler_trait = yes
+	cost = 0
+	opposites = { "leader_trait_cutie_mark_computing" "leader_trait_cutie_mark_field_manupilation" "leader_trait_cutie_mark_particles" "leader_trait_cutie_mark_new_worlds" "leader_trait_cutie_mark_military_theory" "leader_trait_cutie_mark_statecraft" "leader_trait_cutie_mark_archaeology" "leader_trait_cutie_mark_industry" "leader_trait_cutie_mark_materials" "leader_trait_cutie_mark_propulsion" "leader_trait_cutie_mark_voidcraft" }
+	inline_script = {
+		script = trait/icon_cutie_mark
+		ICON = "GFX_leader_trait_cutie_mark_fluttershy"
+		COUNCIL = triggered
+		TIER = none
+	}
+	triggered_councilor_modifier = {
+		potential = {
+			leader_class = commander
+			OR = {
+				is_councilor = yes
+				trait_is_gestalt_check = no
+			}
+		}
+		space_fauna_ship_upkeep_mult = -0.1
+	}
+	triggered_councilor_modifier = {
+		potential = {
+			leader_class = scientist
+			OR = {
+				is_councilor = yes
+				trait_is_gestalt_check = no
+			}
+		}
+		category_biology_research_speed_mult = 0.075
+		category_biology_draw_chance_mult = 0.125
+	}
+	triggered_planet_modifier = {
+		potential = {
+			trait_is_gestalt_check = no
+			leader_class = scientist
+		}
+		pop_healthcare_bonus_workforce_mult = 0.05
+	}
+	triggered_sector_modifier = {
+		potential = {
+			trait_is_gestalt_check = no
+			leader_class = scientist
+		}
+		pop_healthcare_bonus_workforce_mult = 0.025
+	}
+	triggered_planet_modifier = {
+		potential = {
+			trait_is_gestalt_check = yes
+			leader_class = scientist
+		}
+		pop_spawning_drone_bonus_workforce_mult = 0.05
+	}
+	triggered_sector_modifier = {
+		potential = {
+			trait_is_gestalt_check = yes
+			leader_class = scientist
+		}
+		pop_spawning_drone_bonus_workforce_mult = 0.025
+	}
+	triggered_fleet_modifier = {
+		potential = { leader_class = commander }
+		ship_damage_against_space_fauna_mult = 0.1
+	}
+	triggered_army_modifier = {
+		potential = { leader_class = commander }
+		army_health = 0.1
+	}
+	triggered_fleet_modifier = {
+		potential = {
+			leader_class = commander
+			is_councilor = no
+			trait_is_gestalt_check = yes
+		}
+		space_fauna_ship_upkeep_mult = -0.1
+	}
+	leader_class = { commander scientist }
+	selectable_weight = 0
+	randomized = no
+}
+leader_trait_cutie_mark_farming = {
+	inline_script = {
+		script = trait/icon_cutie_mark
+		ICON = "GFX_leader_trait_cutie_mark_applejack"
+		COUNCIL = triggered
+		TIER = none
+	}
+	triggered_councilor_modifier = {
+		potential = {
+			OR = {
+				is_councilor = yes
+				trait_is_gestalt_check = no
+			}
+		}
+		logistic_growth_mult = 0.04
+	}
+	triggered_planet_modifier = {
+		potential = { trait_is_gestalt_check = no }
+		pop_farmer_bonus_workforce_mult = 0.05
+	}
+	triggered_sector_modifier = {
+		potential = { trait_is_gestalt_check = no }
+		pop_farmer_bonus_workforce_mult = 0.025
+	}
+	triggered_planet_modifier = {
+		potential = { trait_is_gestalt_check = yes }
+		pop_agri_drone_bonus_workforce_mult = 0.05
+	}
+	triggered_sector_modifier = {
+		potential = { trait_is_gestalt_check = yes }
+		pop_agri_drone_bonus_workforce_mult = 0.025
+	}
+	triggered_planet_modifier = {
+		potential = {
+			is_councilor = no
+			trait_is_gestalt_check = yes
+		}
+		logistic_growth_mult = 0.08
+	}
+	triggered_sector_modifier = {
+		potential = {
+			is_councilor = no
+			trait_is_gestalt_check = yes
+		}
+		logistic_growth_mult = 0.04
+	}
+	leader_class = { official }
+	selectable_weight = 0
+	randomized = no
+}
+leader_trait_cutie_mark_love = {
+	inline_script = {
+		script = trait/icon_cutie_mark
+		ICON = "GFX_leader_trait_cutie_mark_cadance"
+		COUNCIL = triggered
+		TIER = none
+	}
+	triggered_councilor_modifier = {
+		potential = {
+			OR = {
+				is_councilor = yes
+				trait_is_gestalt_check = no
+			}
+		}
+		logistic_growth_mult = 0.04
+	}
+	planet_modifier = {
+		logistic_growth_mult = 0.08
+	}
+	sector_modifier = {
+		logistic_growth_mult = 0.04
+	}
+	triggered_planet_modifier = {
+		potential = {
+			is_councilor = no
+			trait_is_gestalt_check = yes
+		}
+		logistic_growth_mult = 0.04
+	}
+	triggered_sector_modifier = {
+		potential = {
+			is_councilor = no
+			trait_is_gestalt_check = yes
+		}
+		logistic_growth_mult = 0.04
+	}
+	leader_class = { commander scientist official }
+	selectable_weight = 0
+	randomized = no
+}
+
+# Military Theory
+leader_trait_cutie_mark_military_theory = {
+	#starting_ruler_trait = yes
+	cost = 0
+	opposites = { "leader_trait_cutie_mark_computing" "leader_trait_cutie_mark_field_manupilation" "leader_trait_cutie_mark_particles" "leader_trait_cutie_mark_biology" "leader_trait_cutie_mark_new_worlds" "leader_trait_cutie_mark_statecraft" "leader_trait_cutie_mark_archaeology" "leader_trait_cutie_mark_industry" "leader_trait_cutie_mark_materials" "leader_trait_cutie_mark_propulsion" "leader_trait_cutie_mark_voidcraft" }
+	inline_script = {
+		script = trait/icon_cutie_mark
+		ICON = "GFX_leader_trait_cutie_mark_silver_star"
+		COUNCIL = triggered
+		TIER = none
+	}
+	triggered_councilor_modifier = {
+		potential = {
+			leader_class = commander
+			OR = {
+				is_councilor = yes
+				trait_is_gestalt_check = no
+			}
+		}
+		ship_starting_experience_add = 60
+		army_starting_experience_add = 60
+	}
+	triggered_councilor_modifier = {
+		potential = {
+			leader_class = scientist
+			OR = {
+				is_councilor = yes
+				trait_is_gestalt_check = no
+			}
+		}
+		category_military_theory_research_speed_mult = 0.075
+		category_military_theory_draw_chance_mult = 0.125
+	}
+	triggered_planet_modifier = {
+		potential = {
+			leader_class = commander
+			trait_is_gestalt_check = no
+		}
+		pop_soldier_bonus_workforce_mult = 0.05
+	}
+	triggered_sector_modifier = {
+		potential = {
+			leader_class = commander
+			trait_is_gestalt_check = no
+		}
+		pop_soldier_bonus_workforce_mult = 0.025
+	}
+	triggered_planet_modifier = {
+		potential = {
+			leader_class = commander
+			trait_is_gestalt_check = yes
+		}
+		pop_warrior_drone_bonus_workforce_mult = 0.05
+	}
+	triggered_sector_modifier = {
+		potential = {
+			leader_class = commander
+			trait_is_gestalt_check = yes
+		}
+		pop_warrior_drone_bonus_workforce_mult = 0.025
+	}
+	triggered_planet_modifier = {
+		potential = {
+			leader_class = official
+			trait_is_gestalt_check = no
+		}
+		pop_enforcer_bonus_workforce_mult = 0.05
+	}
+	triggered_sector_modifier = {
+		potential = {
+			leader_class = official
+			trait_is_gestalt_check = no
+		}
+		pop_enforcer_bonus_workforce_mult = 0.025
+	}
+	triggered_planet_modifier = {
+		potential = {
+			leader_class = official
+			trait_is_gestalt_check = yes
+		}
+		pop_patrol_drone_bonus_workforce_mult = 0.05
+	}
+	triggered_sector_modifier = {
+		potential = {
+			leader_class = official
+			trait_is_gestalt_check = yes
+		}
+		pop_patrol_drone_bonus_workforce_mult = 0.025
+	}
+	triggered_fleet_modifier = {
+		potential = { leader_class = commander }
+		ship_experience_gain_mult = 0.1
+	}
+	triggered_army_modifier = {
+		potential = { leader_class = commander }
+		army_experience_gain_mult = 0.1
+	}
+	triggered_federation_modifier = {
+		potential = { leader_class = official }
+		federation_fleet_cap_add = 10
+	}
+	leader_class = { commander scientist official }
+	selectable_weight = 0
+	randomized = no
+}
+
+# New Worlds
+leader_trait_cutie_mark_new_worlds = {
+	#starting_ruler_trait = yes
+	cost = 0
+	opposites = { "leader_trait_cutie_mark_computing" "leader_trait_cutie_mark_field_manupilation" "leader_trait_cutie_mark_particles" "leader_trait_cutie_mark_biology" "leader_trait_cutie_mark_military_theory" "leader_trait_cutie_mark_statecraft" "leader_trait_cutie_mark_archaeology" "leader_trait_cutie_mark_industry" "leader_trait_cutie_mark_materials" "leader_trait_cutie_mark_propulsion" "leader_trait_cutie_mark_voidcraft" }
+	inline_script = {
+		script = trait/icon_cutie_mark
+		ICON = "GFX_leader_trait_cutie_mark_sprout_greenhoof"
+		COUNCIL = triggered
+		TIER = none
+	}
+	triggered_councilor_modifier = {
+		potential = {
+			leader_class = commander
+			OR = {
+				is_councilor = yes
+				trait_is_gestalt_check = no
+			}
+		}
+		country_starbase_capacity_add = 1
+	}
+	triggered_councilor_modifier = {
+		potential = {
+			leader_class = scientist
+			OR = {
+				is_councilor = yes
+				trait_is_gestalt_check = no
+			}
+		}
+		category_new_worlds_research_speed_mult = 0.075
+		category_new_worlds_draw_chance_mult = 0.125
+	}
+	triggered_councilor_modifier = {
+		potential = {
+			leader_class = official
+			OR = {
+				is_councilor = yes
+				trait_is_gestalt_check = no
+			}
+		}
+		planet_colony_development_speed_mult = 0.15
+	}
+	triggered_planet_modifier = {
+		potential = { leader_class = commander }
+		planet_clear_blocker_speed_mult = 0.35
+	}
+	triggered_sector_modifier = {
+		potential = { leader_class = commander }
+		planet_clear_blocker_speed_mult = 0.15
+	}
+	triggered_planet_modifier = {
+		potential = { leader_class = official }
+		pop_colonist_bonus_workforce_mult = 0.05
+	}
+	triggered_sector_modifier = {
+		potential = { leader_class = official }
+		pop_colonist_bonus_workforce_mult = 0.025
+	}
+	triggered_modifier = {
+		potential = { leader_class = scientist }
+		science_ship_survey_speed = 0.1
+	}
+	triggered_planet_modifier = {
+		potential = {
+			leader_class = official
+			is_councilor = no
+			trait_is_gestalt_check = yes
+		}
+		planet_colony_development_speed_mult = 0.3
+	}
+	triggered_sector_modifier = {
+		potential = {
+			leader_class = official
+			is_councilor = no
+			trait_is_gestalt_check = yes
+		}
+		planet_colony_development_speed_mult = 0.15
+	}
+	leader_class = { commander scientist official }
+	selectable_weight = 0
+	randomized = no
+}
+
+# Statecraft
+leader_trait_cutie_mark_statecraft = {
+	#starting_ruler_trait = yes
+	cost = 0
+	opposites = { "leader_trait_cutie_mark_computing" "leader_trait_cutie_mark_field_manupilation" "leader_trait_cutie_mark_particles" "leader_trait_cutie_mark_biology" "leader_trait_cutie_mark_new_worlds" "leader_trait_cutie_mark_military_theory" "leader_trait_cutie_mark_archaeology" "leader_trait_cutie_mark_industry" "leader_trait_cutie_mark_materials" "leader_trait_cutie_mark_propulsion" "leader_trait_cutie_mark_voidcraft" }
+	inline_script = {
+		script = trait/icon_cutie_mark
+		ICON = "GFX_leader_trait_cutie_mark_mayor_mare"
+		COUNCIL = yes
+		TIER = none
+	}
+	triggered_councilor_modifier = {
+		potential = {
+			leader_class = commander
+			OR = {
+				is_councilor = yes
+				trait_is_gestalt_check = no
+			}
+		}
+		country_power_projection_influence_produces_add = 0.25
+	}
+	triggered_councilor_modifier = {
+		potential = {
+			leader_class = scientist
+			OR = {
+				is_councilor = yes
+				trait_is_gestalt_check = no
+			}
+		}
+		category_statecraft_research_speed_mult = 0.075
+		category_statecraft_draw_chance_mult = 0.125
+	}
+	leader_class = { commander scientist }
+	selectable_weight = 0
+	randomized = no
+}
+leader_trait_cutie_mark_bureaucracy = {
+	inline_script = {
+		script = trait/icon_cutie_mark
+		ICON = "GFX_leader_trait_cutie_mark_raven_inkwell"
+		COUNCIL = triggered
+		TIER = none
+	}
+	triggered_councilor_modifier = {
+		potential = {
+			OR = {
+				is_councilor = yes
+				trait_is_gestalt_check = no
+			}
+		}
+		diplomacy_influence_upkeep_mult = -0.1
+	}
+	triggered_planet_modifier = {
+		potential = { trait_is_gestalt_check = no }
+		pop_bureaucrat_bonus_workforce_mult = 0.05
+	}
+	triggered_sector_modifier = {
+		potential = { trait_is_gestalt_check = no }
+		pop_bureaucrat_bonus_workforce_mult = 0.025
+	}
+	triggered_planet_modifier = {
+		potential = { trait_is_gestalt_check = yes }
+		pop_synapse_drone_bonus_workforce_mult = 0.05
+	}
+	triggered_sector_modifier = {
+		potential = { trait_is_gestalt_check = yes }
+		pop_synapse_drone_bonus_workforce_mult = 0.025
+	}
+	leader_class = { official }
+	selectable_weight = 0
+	randomized = no
+}
+
+# Archaeology
+leader_trait_cutie_mark_archaeology = {
+	#starting_ruler_trait = yes
+	cost = 0
+	opposites = { "leader_trait_cutie_mark_computing" "leader_trait_cutie_mark_field_manupilation" "leader_trait_cutie_mark_particles" "leader_trait_cutie_mark_biology" "leader_trait_cutie_mark_new_worlds" "leader_trait_cutie_mark_military_theory" "leader_trait_cutie_mark_statecraft" "leader_trait_cutie_mark_industry" "leader_trait_cutie_mark_materials" "leader_trait_cutie_mark_propulsion" "leader_trait_cutie_mark_voidcraft" }
+	inline_script = {
+		script = trait/icon_cutie_mark
+		ICON = "GFX_leader_trait_cutie_mark_petunia_paleo"
+		COUNCIL = triggered
+		TIER = none
+	}
+	triggered_councilor_modifier = {
+		potential = {
+			leader_class = commander
+			OR = {
+				is_councilor = yes
+				trait_is_gestalt_check = no
+			}
+		}
+		ships_minor_artifacts_upkeep_mult = -0.1
+	}
+	triggered_councilor_modifier = {
+		potential = {
+			leader_class = scientist
+			OR = {
+				is_councilor = yes
+				trait_is_gestalt_check = no
+			}
+		}
+		category_archaeostudies_research_speed_mult = 0.075
+		category_archaeostudies_draw_chance_mult = 0.125
+	}
+	triggered_modifier = {
+		potential = { leader_class = scientist }
+		ship_archaeological_site_excavation_speed_mult = 0.1
+	}
+	triggered_fleet_modifier = {
+		potential = { leader_class = commander }
+		weapon_archaeotech_weapon_damage_mult = 0.15
+	}
+	triggered_fleet_modifier = {
+		potential = {
+			leader_class = commander
+			is_councilor = no
+			trait_is_gestalt_check = yes
+		}
+		ships_minor_artifacts_upkeep_mult = -0.1
+	}
+	leader_class = { commander scientist }
+	selectable_weight = 0
+	randomized = no
+}
+
+### Engineering Marks
+# Industry
+leader_trait_cutie_mark_robotics = {
+	inline_script = {
+		script = trait/icon_cutie_mark
+		ICON = "GFX_leader_trait_cutie_mark_gizmo"
+		COUNCIL = triggered
+		TIER = none
+	}
+	councilor_modifier = {
+		planet_pop_assembly_mult = 0.04
+	}
+	planet_modifier = {
+		pop_roboticist_bonus_workforce_mult = 0.05
+	}
+	sector_modifier = {
+		pop_roboticist_bonus_workforce_mult = 0.025
+	}
+	leader_class = { commander }
+	selectable_weight = 0
+	randomized = no
+}
+leader_trait_cutie_mark_industry = {
+	#starting_ruler_trait = yes
+	cost = 0
+	opposites = { "leader_trait_cutie_mark_computing" "leader_trait_cutie_mark_field_manupilation" "leader_trait_cutie_mark_particles" "leader_trait_cutie_mark_biology" "leader_trait_cutie_mark_new_worlds" "leader_trait_cutie_mark_military_theory" "leader_trait_cutie_mark_statecraft" "leader_trait_cutie_mark_archaeology" "leader_trait_cutie_mark_materials" "leader_trait_cutie_mark_propulsion" "leader_trait_cutie_mark_voidcraft" }
+	inline_script = {
+		script = trait/icon_cutie_mark
+		ICON = "GFX_leader_trait_cutie_mark_tune_up"
+		COUNCIL = yes
+		TIER = none
+	}
+	triggered_councilor_modifier = {
+		potential = {
+			OR = {
+				is_councilor = yes
+				trait_is_gestalt_check = no
+			}
+		}
+		category_industry_research_speed_mult = 0.075
+		category_industry_draw_chance_mult = 0.125
+	}
+	leader_class = { scientist }
+	selectable_weight = 0
+	randomized = no
+}
+leader_trait_cutie_mark_mining = {
+	inline_script = {
+		script = trait/icon_cutie_mark
+		ICON = "GFX_leader_trait_cutie_mark_igneous_rock_pie"
+		COUNCIL = triggered
+		TIER = none
+	}
+	triggered_councilor_modifier = {
+		potential = {
+			OR = {
+				is_councilor = yes
+				trait_is_gestalt_check = no
+			}
+		}
+		planet_structures_minerals_cost_mult = -0.025
+		planet_structures_rare_crystals_cost_mult = -0.025
+	}
+	triggered_planet_modifier = {
+		potential = { trait_is_gestalt_check = no }
+		pop_miner_bonus_workforce_mult = 0.05
+	}
+	triggered_sector_modifier = {
+		potential = { trait_is_gestalt_check = no }
+		pop_miner_bonus_workforce_mult = 0.025
+	}
+	triggered_planet_modifier = {
+		potential = { trait_is_gestalt_check = yes }
+		pop_mining_drone_bonus_workforce_mult = 0.05
+	}
+	triggered_sector_modifier = {
+		potential = { trait_is_gestalt_check = yes }
+		pop_mining_drone_bonus_workforce_mult = 0.025
+	}
+	galcom_modifier = {
+		resolution_category_industry_vote_strength_mult = 0.1
+	}
+	custom_tooltip_with_modifiers = leader_trait_resolution_category_focus_1_favor_tt
+	triggered_planet_modifier = {
+		potential = {
+			is_councilor = no
+			trait_is_gestalt_check = yes
+		}
+		planet_structures_minerals_cost_mult = -0.05
+		planet_structures_rare_crystals_cost_mult = -0.05
+	}
+	triggered_sector_modifier = {
+		potential = {
+			is_councilor = no
+			trait_is_gestalt_check = yes
+		}
+		planet_structures_minerals_cost_mult = -0.025
+		planet_structures_rare_crystals_cost_mult = -0.025
+	}
+	leader_class = { official }
+	selectable_weight = 0
+	randomized = no
+}
+
+# Materials
+leader_trait_cutie_mark_materials = {
+	#starting_ruler_trait = yes
+	cost = 0
+	opposites = { "leader_trait_cutie_mark_computing" "leader_trait_cutie_mark_field_manupilation" "leader_trait_cutie_mark_particles" "leader_trait_cutie_mark_biology" "leader_trait_cutie_mark_new_worlds" "leader_trait_cutie_mark_military_theory" "leader_trait_cutie_mark_statecraft" "leader_trait_cutie_mark_archaeology" "leader_trait_cutie_mark_industry" "leader_trait_cutie_mark_propulsion" "leader_trait_cutie_mark_voidcraft" }
+	inline_script = {
+		script = trait/icon_cutie_mark
+		ICON = "GFX_leader_trait_cutie_mark_quiet_gestures"
+		COUNCIL = triggered
+		TIER = none
+	}
+	triggered_councilor_modifier = {
+		potential = {
+			leader_class = commander
+			OR = {
+				is_councilor = yes
+				trait_is_gestalt_check = no
+			}
+		}
+		starbase_upgrade_cost_mult = -0.025
+		ship_military_station_small_cost_mult = -0.025
+	}
+	triggered_councilor_modifier = {
+		potential = {
+			leader_class = scientist
+			OR = {
+				is_councilor = yes
+				trait_is_gestalt_check = no
+			}
+		}
+		category_materials_research_speed_mult = 0.075
+		category_materials_draw_chance_mult = 0.125
+	}
+	triggered_planet_modifier = {
+		potential = {
+			leader_class = commander
+			trait_is_gestalt_check = no
+		}
+		pop_foundry_bonus_workforce_mult = 0.05
+	}
+	triggered_sector_modifier = {
+		potential = {
+			leader_class = commander
+			trait_is_gestalt_check = no
+		}
+		pop_foundry_bonus_workforce_mult = 0.025
+	}
+	triggered_planet_modifier = {
+		potential = {
+			leader_class = commander
+			trait_is_gestalt_check = yes
+		}
+		pop_fabricator_bonus_workforce_mult = 0.05
+	}
+	triggered_sector_modifier = {
+		potential = {
+			leader_class = commander
+			trait_is_gestalt_check = yes
+		}
+		pop_fabricator_bonus_workforce_mult = 0.025
+	}
+	triggered_fleet_modifier = {
+		potential = { leader_class = commander }
+		ship_armor_add = 100
+		ship_armor_hardening_add = 0.2
+	}
+	leader_class = { commander scientist }
+	selectable_weight = 0
+	randomized = no
+}
+leader_trait_cutie_mark_crafts = {
+	inline_script = {
+		script = trait/icon_cutie_mark
+		ICON = "GFX_leader_trait_cutie_mark_silver_spoon"
+		COUNCIL = no
+		TIER = none
+	}
+	triggered_planet_modifier = {
+		potential = { trait_is_gestalt_check = no }
+		pop_artisan_bonus_workforce_mult = 0.05
+	}
+	triggered_sector_modifier = {
+		potential = { trait_is_gestalt_check = no }
+		pop_artisan_bonus_workforce_mult = 0.025
+	}
+	triggered_planet_modifier = {
+		potential = { trait_is_gestalt_check = yes }
+		pop_artisan_drone_bonus_workforce_mult = 0.05
+	}
+	triggered_sector_modifier = {
+		potential = { trait_is_gestalt_check = yes }
+		pop_artisan_drone_bonus_workforce_mult = 0.025
+	}
+	leader_class = { official }
+	selectable_weight = 0
+	randomized = no
+}
+
+leader_trait_cutie_mark_speed = {
+	inline_script = {
+		script = trait/icon_cutie_mark
+		ICON = "GFX_leader_trait_cutie_mark_rainbow_dash"
+		COUNCIL = no
+		TIER = none
+	}
+	fleet_modifier = {
+		ship_speed_mult = 0.1
+	}
+	leader_class = { commander }
+	selectable_weight = 0
+	randomized = no
+}
+leader_trait_cutie_mark_propulsion = {
+	#starting_ruler_trait = yes
+	cost = 0
+	opposites = { "leader_trait_cutie_mark_computing" "leader_trait_cutie_mark_field_manupilation" "leader_trait_cutie_mark_particles" "leader_trait_cutie_mark_biology" "leader_trait_cutie_mark_new_worlds" "leader_trait_cutie_mark_military_theory" "leader_trait_cutie_mark_statecraft" "leader_trait_cutie_mark_archaeology" "leader_trait_cutie_mark_industry" "leader_trait_cutie_mark_materials" "leader_trait_cutie_mark_voidcraft" }
+	inline_script = {
+		script = trait/icon_cutie_mark
+		ICON = "GFX_leader_trait_cutie_mark_vapor_trail"
+		COUNCIL = triggered
+		TIER = none
+	}
+	triggered_councilor_modifier = {
+		potential = {
+			OR = {
+				is_councilor = yes
+				trait_is_gestalt_check = no
+			}
+		}
+		category_propulsion_research_speed_mult = 0.075
+		category_propulsion_draw_chance_mult = 0.125
+	}
+	fleet_modifier = {
+		ship_speed_mult = 0.2
+	}
+	leader_class = { scientist }
+	selectable_weight = 0
+	randomized = no
+}
+
+leader_trait_cutie_mark_voidcraft = {
+	#starting_ruler_trait = yes
+	cost = 0
+	opposites = { "leader_trait_cutie_mark_computing" "leader_trait_cutie_mark_field_manupilation" "leader_trait_cutie_mark_particles" "leader_trait_cutie_mark_biology" "leader_trait_cutie_mark_new_worlds" "leader_trait_cutie_mark_military_theory" "leader_trait_cutie_mark_statecraft" "leader_trait_cutie_mark_archaeology" "leader_trait_cutie_mark_industry" "leader_trait_cutie_mark_materials" "leader_trait_cutie_mark_propulsion" }
+	inline_script = {
+		script = trait/icon_cutie_mark
+		ICON = "GFX_leader_trait_cutie_mark_jet_set"
+		COUNCIL = triggered
+		TIER = none
+	}
+	triggered_councilor_modifier = {
+		potential = {
+			leader_class = commander
+			OR = {
+				is_councilor = yes
+				trait_is_gestalt_check = no
+			}
+		}
+		shipclass_military_build_speed_mult = 0.05
+	}
+	triggered_councilor_modifier = {
+		potential = {
+			leader_class = scientist
+			OR = {
+				is_councilor = yes
+				trait_is_gestalt_check = no
+			}
+		}
+		category_voidcraft_research_speed_mult = 0.075
+		category_voidcraft_draw_chance_mult = 0.125
+	}
+	triggered_fleet_modifier = {
+		potential = { leader_class = commander }
+		ship_hull_mult = 0.1
+	}
+	leader_class = { commander scientist }
+	selectable_weight = 0
+	randomized = no
+}
+
+# Other Used Marks
+leader_trait_cutie_mark_art = {
+	inline_script = {
+		script = trait/icon_cutie_mark
+		ICON = "GFX_leader_trait_cutie_mark_octavia"
+		COUNCIL = no
+		TIER = none
+	}
+	triggered_planet_modifier = {
+		potential = { trait_is_gestalt_check = no }
+		pop_entertainer_bonus_workforce_mult = 0.05
+	}
+	triggered_sector_modifier = {
+		potential = { trait_is_gestalt_check = no }
+		pop_entertainer_bonus_workforce_mult = 0.025
+	}
+	triggered_planet_modifier = {
+		potential = { trait_is_gestalt_check = yes }
+		pop_evaluator_bonus_workforce_mult = 0.05
+	}
+	triggered_sector_modifier = {
+		potential = { trait_is_gestalt_check = yes }
+		pop_evaluator_bonus_workforce_mult = 0.025
+	}
+	leader_class = { commander official }
+	selectable_weight = 0
+	randomized = no
+}
+
+leader_trait_cutie_mark_trade = {
+	inline_script = {
+		script = trait/icon_cutie_mark
+		ICON = "GFX_leader_trait_cutie_mark_filthy_rich"
+		COUNCIL = triggered
+		TIER = none
+	}
+	councilor_modifier = {
+		commercial_pact_mult = 0.025
+	}
+	triggered_planet_modifier = {
+		potential = { trait_is_gestalt_check = no }
+		pop_trader_bonus_workforce_mult = 0.05
+	}
+	triggered_sector_modifier = {
+		potential = { trait_is_gestalt_check = no }
+		pop_trader_bonus_workforce_mult = 0.025
+	}
+	triggered_planet_modifier = {
+		potential = { trait_is_gestalt_check = yes }
+		pop_logistics_drone_bonus_workforce_mult = 0.05
+	}
+	triggered_sector_modifier = {
+		potential = { trait_is_gestalt_check = yes }
+		pop_logistics_drone_bonus_workforce_mult = 0.025
+	}
+	leader_class = { official }
+	selectable_weight = 0
+	randomized = no
+}
+
+# Unused Marks
+leader_trait_cutie_mark_medicine = {
+	inline_script = {
+		script = trait/icon_cutie_mark
+		ICON = "GFX_leader_trait_cutie_mark_radiant_hope"
+		COUNCIL = no
+		TIER = none
+	}
+	triggered_planet_modifier = {
+		potential = {
+			trait_is_gestalt_check = no
+			NOT = { leader_class = commander }
+		}
+		pop_healthcare_bonus_workforce_mult = 0.05
+	}
+	triggered_sector_modifier = {
+		potential = {
+			trait_is_gestalt_check = no
+			NOT = { leader_class = commander }
+		}
+		pop_healthcare_bonus_workforce_mult = 0.025
+	}
+	triggered_planet_modifier = {
+		potential = {
+			trait_is_gestalt_check = yes
+			NOT = { leader_class = commander }
+		}
+		pop_spawning_drone_bonus_workforce_mult = 0.05
+	}
+	triggered_sector_modifier = {
+		potential = {
+			trait_is_gestalt_check = yes
+			NOT = { leader_class = commander }
+		}
+		pop_spawning_drone_bonus_workforce_mult = 0.025
+	}
+	triggered_army_modifier = {
+		potential = {
+			leader_class = commander
+		}
+		army_health = 0.1
+	}
+	leader_class = { commander scientist official }
+	selectable_weight = 0
+	randomized = no
+}
+
+leader_trait_cutie_mark_security = {
+	inline_script = {
+		script = trait/icon_cutie_mark
+		ICON = "GFX_leader_trait_cutie_mark_copper_top"
+		COUNCIL = no
+		TIER = none
+	}
+	triggered_planet_modifier = {
+		potential = { trait_is_gestalt_check = no }
+		pop_enforcer_bonus_workforce_mult = 0.05
+	}
+	triggered_sector_modifier = {
+		potential = { trait_is_gestalt_check = no }
+		pop_enforcer_bonus_workforce_mult = 0.025
+	}
+	triggered_planet_modifier = {
+		potential = { trait_is_gestalt_check = yes }
+		pop_patrol_drone_bonus_workforce_mult = 0.05
+	}
+	triggered_sector_modifier = {
+		potential = { trait_is_gestalt_check = yes }
+		pop_patrol_drone_bonus_workforce_mult = 0.025
+	}
+	leader_class = { commander official }
+	opposites = {
+		leader_trait_lawless
+		leader_trait_lawless_2
+		leader_trait_corrupt
+		leader_trait_corrupt_2
+	}
+	selectable_weight = 0
+	randomized = no
+}
+
+leader_trait_cutie_mark_metallurgy = {
+	inline_script = {
+		script = trait/icon_cutie_mark
+		ICON = "GFX_leader_trait_cutie_mark_trouble_shoes"
+		COUNCIL = no
+		TIER = none
+	}
+	triggered_planet_modifier = {
+		potential = { trait_is_gestalt_check = no }
+		pop_foundry_bonus_workforce_mult = 0.05
+	}
+	triggered_sector_modifier = {
+		potential = { trait_is_gestalt_check = no }
+		pop_foundry_bonus_workforce_mult = 0.025
+	}
+	triggered_planet_modifier = {
+		potential = { trait_is_gestalt_check = yes }
+		pop_fabricator_bonus_workforce_mult = 0.05
+	}
+	triggered_sector_modifier = {
+		potential = { trait_is_gestalt_check = yes }
+		pop_fabricator_bonus_workforce_mult = 0.025
+	}
+	leader_class = { official }
+	selectable_weight = 0
+	randomized = no
+}
+
+leader_trait_cutie_mark_endurance = {
+	inline_script = {
+		script = trait/icon_cutie_mark
+		ICON = "GFX_leader_trait_resilient"
+		COUNCIL = no
+		TIER = none
+	}
+	self_modifier = {
+		leader_lifespan_add = 20
+	}
+	leader_class = { commander scientist official }
+	selectable_weight = 0
+	randomized = no
+}
+
+leader_trait_cutie_mark_learning = {
+	inline_script = {
+		script = trait/icon_cutie_mark
+		ICON = "GFX_leader_trait_adaptable"
+		COUNCIL = no
+		TIER = none
+	}
+	self_modifier = {
+		species_leader_exp_gain = 0.1
+	}
+	leader_class = { commander scientist official }
+	selectable_weight = 0
+	randomized = no
+}
+
+leader_trait_cutie_mark_talent = {
+	inline_script = {
+		script = trait/icon_cutie_mark
+		ICON = "GFX_leader_trait_talented"
+		COUNCIL = no
+		TIER = none
+	}
+	self_modifier = {
+		leaders_upkeep_mult = -0.1
+		negative_traits_leader = -1
+	}
+	leader_class = { commander scientist official }
+	selectable_weight = 0
+	randomized = no
+}
 
 ##################
 # SPECIAL TRAITS #

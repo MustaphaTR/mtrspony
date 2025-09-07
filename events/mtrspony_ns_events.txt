@@ -25,6 +25,8 @@ country_event = {
 			skip_background_generation = yes
 			randomize_traits = no
 			traits = {
+				trait = leader_trait_cutie_mark_statecraft
+
 				1 = trait_ruler_charismatic
 			}
 
@@ -49,6 +51,8 @@ country_event = {
 			skip_background_generation = yes
 			randomize_traits = no
 			traits = {
+				trait = leader_trait_cutie_mark_particles
+
 				1 = leader_trait_aggressive
 				trait = leader_trait_reckless
 			}
@@ -80,7 +84,9 @@ country_event = {
 			skip_background_generation = yes
 			randomize_traits = no
 			traits = {
-				1 = leader_trait_expertise_field_manipulation
+				trait = leader_trait_cutie_mark_field_manupilation
+
+				1 = leader_trait_adaptable
 			}
 
 			effect = {
@@ -110,6 +116,8 @@ country_event = {
 			skip_background_generation = yes
 			randomize_traits = no
 			traits = {
+				trait = leader_trait_cutie_mark_computing
+
 				1 = leader_trait_army_veteran
 			}
 
@@ -234,6 +242,8 @@ country_event = {
 			skip_background_generation = yes
 			randomize_traits = no
 			traits = {
+				trait = leader_trait_cutie_mark_bureaucracy
+
 				1 = leader_trait_principled
 			}
 
@@ -241,7 +251,15 @@ country_event = {
 				save_global_event_target_as = leader_archer_mane
 				set_leader_flag = is_created_leader
 				change_leader_portrait = "mtrspony_pony_earth_archer_mane_predefined"
-				ROOT = { assign_leader = event_target:leader_archer_mane }
+				ROOT = {
+					leader = {
+						kill_leader = {
+							show_notification = no
+							fire = yes
+						}
+					}
+					assign_leader = event_target:leader_archer_mane
+				}
 			}
 		}
 
@@ -258,13 +276,24 @@ country_event = {
 			skip_background_generation = yes
 			randomize_traits = no
 			traits = {
+				trait = leader_trait_cutie_mark_military_theory
 			}
 
 			effect = {
 				save_global_event_target_as = leader_hazel_hoof
 				set_leader_flag = is_created_leader
 				change_leader_portrait = "mtrspony_pony_earth_hazel_hoof_predefined"
-				ROOT = { capital_scope = { assign_leader = event_target:leader_hazel_hoof } }
+				ROOT = {
+					capital_scope = {
+						leader = {
+							kill_leader = {
+								show_notification = no
+								fire = yes
+							}
+						}
+						assign_leader = event_target:leader_hazel_hoof
+					}
+				}
 				set_council_position = councilor_state
 			}
 		}
@@ -281,6 +310,9 @@ country_event = {
 			skip_background_generation = yes
 			randomize_traits = no
 			traits = {
+				trait = leader_trait_cutie_mark_shields
+
+				1 = leader_trait_cautious
 			}
 
 			effect = {
@@ -291,22 +323,16 @@ country_event = {
 					random_owned_fleet = {
 						limit = { is_ship_class = shipclass_military }
 
+						leader = {
+							kill_leader = {
+								show_notification = no
+								fire = yes
+							}
+						}
 						assign_leader = PREVPREV
 					}
 				}
 				set_council_position = councilor_defense
-			}
-		}
-
-		# Remove the genericos.
-		every_owned_leader = {
-			limit = {
-				NOT = { has_leader_flag = is_created_leader }
-			}
-
-			kill_leader = {
-				show_notification = no
-				fire = yes
 			}
 		}
 	}
@@ -364,13 +390,23 @@ country_event = {
 			traits = {
 				trait = trait_imperial_heir
 				1 = trait_ruler_charismatic
+
+				trait = leader_trait_cutie_mark_mining
 			}
 
 			effect = {
 				save_global_event_target_as = leader_deep_geode
 				set_leader_flag = is_created_leader
 				change_leader_portrait = "mtrspony_pony_earth_deep_geode_predefined"
-				ROOT = { assign_leader = event_target:leader_deep_geode }
+				ROOT = {
+					leader = {
+						kill_leader = {
+							show_notification = no
+							fire = yes
+						}
+					}
+					assign_leader = event_target:leader_deep_geode
+				}
 			}
 		}
 
@@ -388,6 +424,10 @@ country_event = {
 			randomize_traits = no
 			traits = {
 				trait = trait_imperial_heir
+
+				trait = leader_trait_cutie_mark_materials
+
+				1 = trait_ruler_warlike
 			}
 
 			effect = {
@@ -398,6 +438,12 @@ country_event = {
 					random_owned_fleet = {
 						limit = { is_ship_class = shipclass_military }
 
+						leader = {
+							kill_leader = {
+								show_notification = no
+								fire = yes
+							}
+						}
 						assign_leader = PREVPREV
 					}
 				}
@@ -405,18 +451,6 @@ country_event = {
 			}
 		}
 		set_heir = event_target:leader_rock_trot
-
-		# Remove the genericos.
-		every_owned_leader = {
-			limit = {
-				NOT = { has_leader_flag = is_created_leader }
-			}
-
-			kill_leader = {
-				show_notification = no
-				fire = yes
-			}
-		}
 	}
 }
 

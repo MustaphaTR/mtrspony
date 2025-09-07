@@ -80,3 +80,10 @@ empire_init_capital_planet = {
 		mtrspony.5
 	}
 }
+
+on_leader_spawned = {
+	events = {
+		mtrspony.6			# New Leaders Get A Cutie Mark Trait
+		mtrspony.7			# New leaders with Equality Marks species traits do not get any starting traits.
+	}
+}

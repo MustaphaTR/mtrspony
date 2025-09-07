@@ -26,8 +26,10 @@ country_event = {
 			traits = {
 				trait = leader_trait_mtrspony_immortal
 
-				trait = leader_trait_expertise_field_manipulation
+				trait = leader_trait_cutie_mark_dusk_shine
+
 				1 = leader_trait_spark_of_genius
+				trait = leader_trait_neurotic
 			}
 
 			effect = {
