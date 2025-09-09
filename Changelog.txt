@@ -166,8 +166,8 @@
 --- Cutie Marks now gives each leader a random Cutie Mark trait, giving additional small bonuses.
 --- Equality Marks trait now removes leaders' starting traits and tanks their Leader Experience Gain, in exchange for increased Efective Leader Skill Level.
 ---- Sole exception to this is the Emotional Support Pet trait, which new leaders can still get.
--- Replaced the Scootaloo and Apple Bloom portrait sets with a new ones based on their adult/future designs.
---- They also come with additional racial variants in the same way that i set up Fire Streak's portraits for.
+-- Replaced the Apple Bloom, Button Mash and Scootaloo portrait sets with a new ones based on their adult/future designs.
+--- Bloom and Scoots' ones also come with additional racial variants in the same way that i set up Fire Streak's portraits for.
 --- Also added one more color options for them.
 -- Added different levels of mane loss to Igneous Rock Pie portrait set.
 -- Added Sandbar as the starting Official for Empire of Friendship.

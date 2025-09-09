@@ -208,7 +208,7 @@ portraits = {
 	}
 
 	mtrspony_pony_earth_button_mash = {
-		entity = "portrait_dummy_20p_left_entity"
+		entity = "portrait_dummy_10p_left_entity"
 		clothes_selector = "mtrspony_pony_earth_button_mash_clothes_selector"
 		attachment_selector = "mtrspony_pony_earth_button_mash_hair_selector"
 		greeting_sound = "human_male_greetings_01"
@@ -229,6 +229,7 @@ portraits = {
 			"gfx/models/portraits/pony_earth/button_mash/button_mash_alt12.dds"
 			"gfx/models/portraits/pony_earth/button_mash/button_mash_alt13.dds"
 			"gfx/models/portraits/pony_earth/button_mash/button_mash_alt14.dds"
+			"gfx/models/portraits/pony_earth/button_mash/button_mash_alt15.dds"
 		}
 
 		custom_attachment_label = "HAIR_COLOR"
