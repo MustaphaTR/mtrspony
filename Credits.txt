@@ -2,6 +2,9 @@ Portrait Bases:
  > 90sigma:
 	- Fire Streak
 
+ > austiniousi:
+	- Babs Seed
+
  > byteslice:
 	- Yona
 
@@ -71,7 +74,6 @@ Portrait Bases:
 	- Zecora
 
  > luckreza8:
-	- Babs Seed
 	- Cheerilee
 	- Fluttershy
 	- Maud Pie
@@ -91,9 +93,10 @@ Portrait Bases:
 	- Sandbar
 
  > mustaphatr:
+	- Apple Bloom
+	- Babs Seed
 	- Button Mash
-	- Older Apple Bloom
-	- Older Scootaloo
+	- Scootaloo
 
  > negatif22:
 	- Armored Prince Blueblood
@@ -115,10 +118,10 @@ Portrait Bases:
 	- Harry
 
  > suramii:
-	- Older Cozy Glow
+	- Cozy Glow
 
  > thatusualguy06:
-	- Older Sweetie Belle
+	- Sweetie Belle
 
  > thebosscamacho:
 	- Chrysalis

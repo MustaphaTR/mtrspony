@@ -1814,7 +1814,50 @@ mtrspony_pony_earth_babs_seed_hair_selector = {
 				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_alt11.dds"
 				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_alt12.dds"
 				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_alt13.dds"
-				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_alt14.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_front.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_front_alt1.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_front_alt2.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_front_alt3.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_front_alt4.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_front_alt5.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_front_alt6.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_front_alt7.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_front_alt8.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_front_alt9.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_front_alt10.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_front_alt11.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_front_alt12.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_front_alt13.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_monochrome.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_monochrome_alt1.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_monochrome_alt2.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_monochrome_alt3.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_monochrome_alt4.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_monochrome_alt5.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_monochrome_alt6.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_monochrome_alt7.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_monochrome_alt8.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_monochrome_alt9.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_monochrome_alt10.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_monochrome_alt11.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_monochrome_alt12.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_monochrome_alt13.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_monochrome_alt13_reverse.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_monochrome_front.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_monochrome_front_alt1.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_monochrome_front_alt2.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_monochrome_front_alt3.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_monochrome_front_alt4.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_monochrome_front_alt5.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_monochrome_front_alt6.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_monochrome_front_alt7.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_monochrome_front_alt8.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_monochrome_front_alt9.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_monochrome_front_alt10.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_monochrome_front_alt11.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_monochrome_front_alt12.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_monochrome_front_alt13.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_monochrome_front_alt13_reverse.dds"
 			}
 		}
 	}
@@ -1836,7 +1879,50 @@ mtrspony_pony_earth_babs_seed_hair_selector = {
 				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_alt11.dds"
 				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_alt12.dds"
 				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_alt13.dds"
-				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_alt14.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_front.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_front_alt1.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_front_alt2.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_front_alt3.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_front_alt4.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_front_alt5.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_front_alt6.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_front_alt7.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_front_alt8.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_front_alt9.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_front_alt10.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_front_alt11.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_front_alt12.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_front_alt13.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_monochrome.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_monochrome_alt1.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_monochrome_alt2.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_monochrome_alt3.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_monochrome_alt4.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_monochrome_alt5.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_monochrome_alt6.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_monochrome_alt7.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_monochrome_alt8.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_monochrome_alt9.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_monochrome_alt10.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_monochrome_alt11.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_monochrome_alt12.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_monochrome_alt13.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_monochrome_alt13_reverse.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_monochrome_front.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_monochrome_front_alt1.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_monochrome_front_alt2.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_monochrome_front_alt3.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_monochrome_front_alt4.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_monochrome_front_alt5.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_monochrome_front_alt6.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_monochrome_front_alt7.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_monochrome_front_alt8.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_monochrome_front_alt9.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_monochrome_front_alt10.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_monochrome_front_alt11.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_monochrome_front_alt12.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_monochrome_front_alt13.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_monochrome_front_alt13_reverse.dds"
 			}
 		}
 	}
@@ -1858,7 +1944,193 @@ mtrspony_pony_earth_babs_seed_hair_selector = {
 				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_alt11.dds"
 				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_alt12.dds"
 				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_alt13.dds"
-				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_alt14.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_front.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_front_alt1.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_front_alt2.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_front_alt3.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_front_alt4.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_front_alt5.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_front_alt6.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_front_alt7.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_front_alt8.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_front_alt9.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_front_alt10.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_front_alt11.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_front_alt12.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_front_alt13.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_monochrome.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_monochrome_alt1.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_monochrome_alt2.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_monochrome_alt3.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_monochrome_alt4.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_monochrome_alt5.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_monochrome_alt6.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_monochrome_alt7.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_monochrome_alt8.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_monochrome_alt9.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_monochrome_alt10.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_monochrome_alt11.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_monochrome_alt12.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_monochrome_alt13.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_monochrome_alt13_reverse.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_monochrome_front.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_monochrome_front_alt1.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_monochrome_front_alt2.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_monochrome_front_alt3.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_monochrome_front_alt4.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_monochrome_front_alt5.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_monochrome_front_alt6.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_monochrome_front_alt7.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_monochrome_front_alt8.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_monochrome_front_alt9.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_monochrome_front_alt10.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_monochrome_front_alt11.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_monochrome_front_alt12.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_monochrome_front_alt13.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair_monochrome_front_alt13_reverse.dds"
+			}
+		}
+	}
+}
+
+mtrspony_pony_earth_babs_seed_clothes_selector = {
+	default = "gfx/models/portraits/pony_earth/babs_seed/babs_seed_uniform_civilian.dds"
+
+	game_setup = {
+		default = "gfx/models/portraits/pony_earth/babs_seed/babs_seed_uniform_civilian.dds"
+	}
+
+	species = {
+		default = "gfx/models/portraits/pony_earth/babs_seed/babs_seed_uniform_civilian.dds"
+	}
+
+	pop = {
+		default = "gfx/models/portraits/pony_earth/babs_seed/babs_seed_uniform_civilian.dds"
+
+		random = {
+			trigger = { pop_has_miltary_job = no }
+			list = {
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_uniform_civilian.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_uniform_civilian_alt1.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_uniform_civilian_alt2.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_uniform_civilian_alt3.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_uniform_civilian_alt4.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_uniform_civilian_alt5.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_uniform_civilian_alt6.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_uniform_civilian_alt7.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_uniform_civilian_alt8.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_uniform_civilian_alt9.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_uniform_civilian_alt10.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_uniform_civilian_alt11.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_uniform_civilian_alt12.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_uniform_civilian_alt13.dds"
+				"gfx/models/portraits/no_attachment.dds"
+			}
+		}
+
+		random = {
+			trigger = { pop_has_miltary_job = yes }
+			list = {
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_uniform_military.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_uniform_military_alt1.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_uniform_military_alt2.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_uniform_military_alt3.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_uniform_military_alt4.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_uniform_military_alt5.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_uniform_military_alt6.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_uniform_military_alt7.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_uniform_military_alt8.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_uniform_military_alt9.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_uniform_military_alt10.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_uniform_military_alt11.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_uniform_military_alt12.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_uniform_military_alt13.dds"
+			}
+		}
+	}
+
+	leader = {
+		random = {
+			trigger = { is_commander_class = no }
+			list = {
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_uniform_civilian.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_uniform_civilian_alt1.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_uniform_civilian_alt2.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_uniform_civilian_alt3.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_uniform_civilian_alt4.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_uniform_civilian_alt5.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_uniform_civilian_alt6.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_uniform_civilian_alt7.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_uniform_civilian_alt8.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_uniform_civilian_alt9.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_uniform_civilian_alt10.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_uniform_civilian_alt11.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_uniform_civilian_alt12.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_uniform_civilian_alt13.dds"
+				"gfx/models/portraits/no_attachment.dds"
+			}
+		}
+
+		random = {
+			trigger = { is_commander_class = yes }
+			list = {
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_uniform_military.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_uniform_military_alt1.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_uniform_military_alt2.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_uniform_military_alt3.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_uniform_military_alt4.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_uniform_military_alt5.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_uniform_military_alt6.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_uniform_military_alt7.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_uniform_military_alt8.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_uniform_military_alt9.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_uniform_military_alt10.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_uniform_military_alt11.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_uniform_military_alt12.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_uniform_military_alt13.dds"
+			}
+		}
+	}
+
+	ruler = {
+		random = {
+			trigger = { is_commander_class = no }
+			list = {
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_uniform_civilian.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_uniform_civilian_alt1.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_uniform_civilian_alt2.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_uniform_civilian_alt3.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_uniform_civilian_alt4.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_uniform_civilian_alt5.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_uniform_civilian_alt6.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_uniform_civilian_alt7.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_uniform_civilian_alt8.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_uniform_civilian_alt9.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_uniform_civilian_alt10.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_uniform_civilian_alt11.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_uniform_civilian_alt12.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_uniform_civilian_alt13.dds"
+				"gfx/models/portraits/no_attachment.dds"
+			}
+		}
+
+		random = {
+			trigger = { is_commander_class = yes }
+			list = {
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_uniform_military.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_uniform_military_alt1.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_uniform_military_alt2.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_uniform_military_alt3.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_uniform_military_alt4.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_uniform_military_alt5.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_uniform_military_alt6.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_uniform_military_alt7.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_uniform_military_alt8.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_uniform_military_alt9.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_uniform_military_alt10.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_uniform_military_alt11.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_uniform_military_alt12.dds"
+				"gfx/models/portraits/pony_earth/babs_seed/babs_seed_uniform_military_alt13.dds"
 			}
 		}
 	}
@@ -1873,3 +2145,14 @@ mtrspony_pony_earth_babs_seed_predefined_hair_selector = {
 	leader = { default = "gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair.dds" }
 	ruler = { default = "gfx/models/portraits/pony_earth/babs_seed/babs_seed_hair.dds" }
 }
+
+mtrspony_pony_earth_babs_seed_predefined_clothes_selector = {
+	default = "gfx/models/portraits/pony_earth/babs_seed/babs_seed_uniform_cmc.dds"
+
+	game_setup = { default = "gfx/models/portraits/pony_earth/babs_seed/babs_seed_uniform_cmc.dds" }
+	species = { default = "gfx/models/portraits/pony_earth/babs_seed/babs_seed_uniform_cmc.dds" }
+	pop = { default = "gfx/models/portraits/pony_earth/babs_seed/babs_seed_uniform_cmc.dds" }
+	leader = { default = "gfx/models/portraits/pony_earth/babs_seed/babs_seed_uniform_cmc.dds" }
+	ruler = { default = "gfx/models/portraits/pony_earth/babs_seed/babs_seed_uniform_cmc.dds" }
+}
+

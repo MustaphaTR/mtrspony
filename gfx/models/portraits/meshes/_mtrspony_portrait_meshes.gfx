@@ -234,4 +234,16 @@ objectTypes = {
 
 		scale = 1.0
 	}
+
+	pdxmesh = {
+		name = "portrait_dummy_babs_seed_mesh"
+		file = "gfx/models/portraits/meshes/dummy_babs_seed.mesh"
+
+		animation = {
+			id = "idle"
+			type = "human_01_female_portrait_idle1_animation"
+		}
+
+		scale = 1.0
+	}
 }

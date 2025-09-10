@@ -351,8 +351,8 @@ portraits = {
 	}
 
 	mtrspony_pony_earth_babs_seed = {
-		entity = "portrait_dummy_15p_left_entity"
-		clothes_selector = "mtrspony_no_clothes_selector"
+		entity = "portrait_dummy_babs_seed_entity"
+		clothes_selector = "mtrspony_pony_earth_babs_seed_clothes_selector"
 		attachment_selector = "mtrspony_pony_earth_babs_seed_hair_selector"
 		greeting_sound = "human_female_greetings_01"
 
@@ -377,8 +377,8 @@ portraits = {
 	}
 
 	mtrspony_pony_earth_babs_seed_predefined = {
-		entity = "portrait_dummy_15p_left_entity"
-		clothes_selector = "mtrspony_no_clothes_selector"
+		entity = "portrait_dummy_babs_seed_entity"
+		clothes_selector = "mtrspony_pony_earth_babs_seed_predefined_clothes_selector"
 		attachment_selector = "mtrspony_pony_earth_babs_seed_predefined_hair_selector"
 		greeting_sound = "human_female_greetings_01"
 
@@ -388,7 +388,7 @@ portraits = {
 	}
 
 	mtrspony_pony_earth_cherry_berry_predefined = {
-		entity = "portrait_dummy_10p_left_entity"
+		entity = "portrait_dummy_10p_left_90p_scale_entity"
 		clothes_selector = "mtrspony_no_clothes_selector"
 		attachment_selector = "mtrspony_no_clothes_selector"
 		greeting_sound = "human_female_greetings_01"
