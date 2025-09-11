@@ -51,13 +51,14 @@ on_monthly_pulse_country = { # Above only triggers with manual species modificat
 		cocstart.2
 		tcsstart.2
 		eofstart.2
+		nsstart.2
+		ufhstart.2
 		gestart.2
 		#ftstart.2
 		rfstart.2
 		fcstart.2
 		cspstart.2
 		ndestart.2
-		nsstart.2
 
 		uanstart.2
 		hpestart.2
