@@ -164,9 +164,9 @@
 - Version 0.3.6 (11.09.2025):
 -- Complately reworked the Cutie Marks and Equality Marks traits.
 --- Cutie Marks now gives each leader a random Cutie Mark trait, giving additional small bonuses.
---- Equality Marks trait now removes leaders' starting traits and tanks their Leader Experience Gain, in exchange for increased Efective Leader Skill Level.
+--- Equality Marks trait now removes leaders' starting traits and tanks their Leader Experience Gain, in exchange for increased Effective Leader Skill Level.
 ---- Sole exception to this is the Emotional Support Pet trait, which new leaders can still get.
--- Replaced the Apple Bloom, Button Mash and Scootaloo portrait sets with a new ones based on their adult/future designs.
+-- Replaced the Apple Bloom, Babs Seed, Button Mash and Scootaloo portrait sets with a new ones based on their adult/future designs.
 --- Bloom and Scoots' ones also come with additional racial variants in the same way that i set up Fire Streak's portraits for.
 --- Also added one more color options for them.
 -- Added different levels of mane loss to Igneous Rock Pie portrait set.
