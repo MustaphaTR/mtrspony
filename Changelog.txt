@@ -161,7 +161,7 @@
 -- Added 8 more flag icons.
 -- Fixed the custom planetary features/blockers of Faust, which was broken due to changes from 4.0.22 update.
 
-- Version 0.3.6 (XX.XX.2025):
+- Version 0.3.6 (11.09.2025):
 -- Complately reworked the Cutie Marks and Equality Marks traits.
 --- Cutie Marks now gives each leader a random Cutie Mark trait, giving additional small bonuses.
 --- Equality Marks trait now removes leaders' starting traits and tanks their Leader Experience Gain, in exchange for increased Efective Leader Skill Level.
