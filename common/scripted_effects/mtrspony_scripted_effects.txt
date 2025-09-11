@@ -817,8 +817,13 @@ setup_extra_traits_to_mtrspony_species = {
 		limit = { owner_main_species = { has_trait = trait_hive_mind } }
 
 		add_trait_to_mtrspony_species_effect = { TRAIT = trait_hive_mind }
+		replace_traits_on_mtrspony_species_effect = { REMOVE_TRAIT = trait_conformists ADD_TRAIT = trait_traditional }
+		replace_traits_on_mtrspony_species_effect = { REMOVE_TRAIT = trait_conservational ADD_TRAIT = trait_communal }
+		replace_traits_on_mtrspony_species_effect = { REMOVE_TRAIT = trait_deviants ADD_TRAIT = trait_quarrelsome }
+		replace_traits_on_mtrspony_species_effect = { REMOVE_TRAIT = trait_wasteful ADD_TRAIT = trait_solitary }
+		replace_traits_on_mtrspony_species_effect = { REMOVE_TRAIT = trait_decadent ADD_TRAIT = trait_fleeting }
 	}
-	else = { remove_trait_from_mtrspony_species_effect = { TRAIT = trait_hive_mind } }
+	else = { remove_trait_from_mtrspony_species_effect = { TRAIT = trait_hive_mind } } # TODO: REVERT TRAIT CHANGES
 
 	# Origin
 	if = {
@@ -946,7 +951,14 @@ setup_extra_traits_to_mtrspony_species = {
 			remove_trait_from_mtrspony_species_effect = { SPECIES = event_target:hippogriff_species TRAIT = trait_nomadic }
 			add_trait_to_mtrspony_species_effect = { SPECIES = event_target:hippogriff_species TRAIT = trait_slow_breeders }
 			add_trait_to_mtrspony_species_effect = { SPECIES = event_target:hippogriff_species TRAIT = trait_unruly }
-			add_trait_to_mtrspony_species_effect = { SPECIES = event_target:hippogriff_species TRAIT = trait_wasteful }
+			if = {
+				limit = { owner_main_species = { has_trait = trait_hive_mind } }
+
+				add_trait_to_mtrspony_species_effect = { SPECIES = event_target:hippogriff_species TRAIT = trait_solitary }
+			}
+			else = {
+				add_trait_to_mtrspony_species_effect = { SPECIES = event_target:hippogriff_species TRAIT = trait_wasteful }
+			}
 		}
 		if = {
 			limit = { NOT = { owner_main_species = { is_same_species = event_target:kirin_species } } }
@@ -954,7 +966,14 @@ setup_extra_traits_to_mtrspony_species = {
 			remove_trait_from_mtrspony_species_effect = { SPECIES = event_target:kirin_species TRAIT = trait_natural_engineers }
 			add_trait_to_mtrspony_species_effect = { SPECIES = event_target:kirin_species TRAIT = trait_slow_breeders }
 			add_trait_to_mtrspony_species_effect = { SPECIES = event_target:kirin_species TRAIT = trait_unruly }
-			add_trait_to_mtrspony_species_effect = { SPECIES = event_target:kirin_species TRAIT = trait_deviants }
+			if = {
+				limit = { owner_main_species = { has_trait = trait_hive_mind } }
+
+				add_trait_to_mtrspony_species_effect = { SPECIES = event_target:kirin_species TRAIT = trait_quarrelsome }
+			}
+			else = {
+				add_trait_to_mtrspony_species_effect = { SPECIES = event_target:kirin_species TRAIT = trait_deviants }
+			}
 		}
 		if = {
 			limit = { NOT = { owner_main_species = { is_same_species = event_target:yak_species } } }

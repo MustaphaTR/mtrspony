@@ -172,5 +172,6 @@
 -- Added different levels of mane loss to Igneous Rock Pie portrait set.
 -- Added Sandbar as the starting Official for Empire of Friendship.
 -- Reworked the starting traits of the CMC in The Crusader State with custom traits so they no logner start with veteran or destiny traits.
+-- Multi-species starting setup now adjusts other species' traits that are incompatible with being hive-minded.
 -- Fixed named leaders in the prescripted countries starting with free trait slots despite having starting traits.
 -- Fixed hidden monthly event handling broken named leader portraits from genetic modification not working for United Faustian Hives.
