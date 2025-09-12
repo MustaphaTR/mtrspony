@@ -175,3 +175,6 @@
 -- Multi-species starting setup now adjusts other species' traits that are incompatible with being hive-minded.
 -- Fixed named leaders in the prescripted countries starting with free trait slots despite having starting traits.
 -- Fixed hidden monthly event handling broken named leader portraits from genetic modification not working for United Faustian Hives.
+
+- Version 0.3.7 (12.09.2025):
+-- Fixed Faust and Behemoth systems starting with no guaranteed habitables, regardless of what the option is set to.
