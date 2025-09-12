@@ -1,8 +1,8 @@
-version="0.3.6"
+version="0.3.7"
 tags={
 	"Species"
 }
 picture="thumbnail.png"
-name="MustaphaTR's Pony Mod (v0.3.6)"
+name="MustaphaTR's Pony Mod (v0.3.7)"
 supported_version="v4.0.*"
 remote_file_id="3035033736"
