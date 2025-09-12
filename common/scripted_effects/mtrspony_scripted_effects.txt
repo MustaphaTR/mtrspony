@@ -1020,6 +1020,98 @@ setup_extra_traits_to_mtrspony_species = {
 	}
 	else = { remove_trait_from_mtrspony_species_effect = { TRAIT = trait_storm_touched } }
 
+	if = {
+		limit = { owner = { is_natural_design_empire = yes } }
+
+		if = {
+			limit = { NOT = { owner_main_species = { is_same_species = event_target:pony_species } } }
+
+			remove_trait_from_mtrspony_species_effect = { SPECIES = event_target:pony_species TRAIT = trait_sedentary }
+			remove_trait_from_mtrspony_species_effect = { SPECIES = event_target:pony_species TRAIT = trait_solitary }
+			add_trait_to_mtrspony_species_effect = { SPECIES = event_target:pony_species TRAIT = trait_quick_learners }
+		}
+		if = {
+			limit = { NOT = { owner_main_species = { is_same_species = event_target:griffon_species } } }
+
+			if = {
+				limit = { has_biogenesis_dlc = yes }
+
+				add_trait_to_mtrspony_species_effect = { SPECIES = event_target:griffon_species TRAIT = trait_flight }
+			}
+			else = {
+				add_trait_to_mtrspony_species_effect = { SPECIES = event_target:griffon_species TRAIT = trait_ingenious }
+			}
+		}
+		if = {
+			limit = { NOT = { owner_main_species = { is_same_species = event_target:zebra_species } } }
+
+			add_trait_to_mtrspony_species_effect = { SPECIES = event_target:zebra_species TRAIT = trait_traditional }
+			if = {
+				limit = { owner_main_species = { has_trait = trait_wilderness } }
+
+				add_trait_to_mtrspony_species_effect = { SPECIES = event_target:zebra_species TRAIT = trait_enduring }
+			}
+			else = {
+				add_trait_to_mtrspony_species_effect = { SPECIES = event_target:zebra_species TRAIT = trait_nomadic }
+			}
+		}
+		if = {
+			limit = { NOT = { owner_main_species = { is_same_species = event_target:deer_species } } }
+
+			remove_trait_from_mtrspony_species_effect = { SPECIES = event_target:deer_species TRAIT = trait_fleeting }
+			add_trait_to_mtrspony_species_effect = { SPECIES = event_target:deer_species TRAIT = trait_resilient }
+		}
+		if = {
+			limit = { NOT = { owner_main_species = { is_same_species = event_target:changeling_species } } }
+
+			if = {
+				limit = { has_toxoids = yes }
+
+				add_trait_to_mtrspony_species_effect = { SPECIES = event_target:changeling_species TRAIT = trait_incubator }
+			}
+			else_if = {
+				limit = { has_biogenesis_dlc = yes }
+
+				add_trait_to_mtrspony_species_effect = { SPECIES = event_target:changeling_species TRAIT = trait_flight }
+			}
+			else = {
+				remove_trait_from_mtrspony_species_effect = { SPECIES = event_target:changeling_species TRAIT = trait_wasteful }
+				remove_trait_from_mtrspony_species_effect = { SPECIES = event_target:changeling_species TRAIT = trait_solitary }
+				add_trait_to_mtrspony_species_effect = { SPECIES = event_target:changeling_species TRAIT = trait_enduring }
+			}
+		}
+		if = {
+			limit = { NOT = { owner_main_species = { is_same_species = event_target:hippogriff_species } } }
+
+			if = {
+				limit = { has_biogenesis_dlc = yes }
+
+				add_trait_to_mtrspony_species_effect = { SPECIES = event_target:hippogriff_species TRAIT = trait_flight }
+			}
+			else = {
+				add_trait_to_mtrspony_species_effect = { SPECIES = event_target:hippogriff_species TRAIT = trait_charismatic }
+			}
+		}
+		if = {
+			limit = { NOT = { owner_main_species = { is_same_species = event_target:kirin_species } } }
+
+			add_trait_to_mtrspony_species_effect = { SPECIES = event_target:kirin_species TRAIT = trait_resilient }
+			add_trait_to_mtrspony_species_effect = { SPECIES = event_target:kirin_species TRAIT = trait_strong }
+		}
+		if = {
+			limit = { NOT = { owner_main_species = { is_same_species = event_target:yak_species } } }
+
+			add_trait_to_mtrspony_species_effect = { SPECIES = event_target:yak_species TRAIT = trait_resilient }
+			add_trait_to_mtrspony_species_effect = { SPECIES = event_target:yak_species TRAIT = trait_enduring }
+		}
+		if = {
+			limit = { NOT = { owner_main_species = { is_same_species = event_target:dragon_species } } }
+
+			replace_traits_on_mtrspony_species_effect = { SPECIES = event_target:dragon_species REMOVE_TRAIT = trait_strong ADD_TRAIT = trait_very_strong }
+		}
+	}
+	else = { } # TODO: REVERT TRAIT CHANGES
+
 	# Other
 	if = {
 		limit = { owner_main_species = { has_trait = trait_aquatic } }
