@@ -177,4 +177,5 @@
 -- Fixed hidden monthly event handling broken named leader portraits from genetic modification not working for United Faustian Hives.
 
 - Version 0.3.7 (12.09.2025):
+-- Cutie/Equality Marks traits are now incompatible with Nerve Stapled trait as latter disables leader creation.
 -- Fixed Faust and Behemoth systems starting with no guaranteed habitables, regardless of what the option is set to.

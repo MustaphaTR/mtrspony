@@ -10,7 +10,7 @@ trait_cutie_marks = {
 	species_possible_merge_remove = {
 		always = yes
 	}
-	opposites = { "trait_equality_marks" }
+	opposites = { "trait_equality_marks" "trait_nerve_stapled" }
 	allowed_archetypes = { BIOLOGICAL LITHOID }
 	tags = { organic positive pop_output happiness }
 	custom_tooltip_with_modifiers = trait_cutie_marks_tt
@@ -32,7 +32,7 @@ trait_equality_marks = {
 	species_potential_add = {
 		can_do_advanced_gene_modding = yes
 	}
-	opposites = { "trait_cutie_marks" "trait_quick_learners" "trait_slow_learners" }
+	opposites = { "trait_cutie_marks" "trait_quick_learners" "trait_slow_learners" "trait_nerve_stapled" }
 	allowed_archetypes = { BIOLOGICAL LITHOID }
 	tags = { organic negative pop_output happiness }
 	custom_tooltip_with_modifiers = trait_equality_marks_tt
