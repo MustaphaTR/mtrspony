@@ -17,9 +17,10 @@ on_game_start_country = {
 		ufhstart.1
 		gestart.1
 		ftstart.1
+		jfstart.1
+		cspstart.1
 		rfstart.1
 		fcstart.1
-		cspstart.1
 		ndestart.1
 	}
 }
@@ -34,9 +35,10 @@ on_modification_complete = {
 		ufhstart.2
 		gestart.2
 		#ftstart.2
+		#jfstart.2
+		cspstart.2
 		rfstart.2
 		fcstart.2
-		cspstart.2
 		ndestart.2
 
 		uanstart.2
@@ -55,9 +57,10 @@ on_monthly_pulse_country = { # Above only triggers with manual species modificat
 		ufhstart.2
 		gestart.2
 		#ftstart.2
+		#jfstart.2
+		cspstart.2
 		rfstart.2
 		fcstart.2
-		cspstart.2
 		ndestart.2
 
 		uanstart.2

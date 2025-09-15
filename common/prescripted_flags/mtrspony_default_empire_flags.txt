@@ -22,6 +22,14 @@ empire_griffonian_empire = {
 	flags = { griffonian_empire }
 }
 
+empire_jarldom_of_faust = {
+	flags = { jarldom_of_faust }
+}
+
+empire_changeling_space_program = {
+	flags = { changeling_space_program }
+}
+
 empire_faustian_technate = {
 	flags = { faustian_technate }
 }
@@ -32,10 +40,6 @@ empire_revolutionary_faust = {
 
 empire_faustian_conglomerate = {
 	flags = { faustian_conglomerate }
-}
-
-empire_changeling_space_program = {
-	flags = { changeling_space_program }
 }
 
 empire_new_draconian_empire = {

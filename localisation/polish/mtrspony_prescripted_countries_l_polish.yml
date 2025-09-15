@@ -207,6 +207,49 @@
  PRESCRIPTED_ruler_name_zuan_gerzalid_desc:0 "<insert_desc_here>"
  PRESCRIPTED_ruler_name_zuan_gerzalid_catch_phrase:0 "§L""§!"
 
+ # Jarldom of Faust
+ EMPIRE_DESIGN_jarldom_of_faust:0 "Jarlstwo Faust"
+ # EMPIRE_DESIGN_jarldom_of_faust_desc:0 ""
+ PRESCRIPTED_adjective_jarldom_of_faust:0 "Faustian"
+ PRESCRIPTED_ruler_title_jarl:0 "Jarl"
+ PRESCRIPTED_ruler_title_jarl_female:0 "Jarl"
+ PRESCRIPTED_ship_prefix_jarldom_of_faust:0 "FSS"
+
+ PRESCRIPTED_ruler_name_hjoertur_aagesson:0 "Hjörtur Aagesson"
+ PRESCRIPTED_ruler_name_hjoertur_aagesson_desc:0 "<insert_desc_here>"
+ PRESCRIPTED_ruler_name_hjoertur_aagesson_catch_phrase:0 "§L""§!"
+
+ # Changeling Space Program
+ EMPIRE_DESIGN_changeling_space_program:0 "CSP Remnants"
+ EMPIRE_DESIGN_changeling_space_program_desc:0 "Two decades ago, when the Changeling Space Program finally reached the moon, Queen Chrysalis finally showed her true plan for the program. Using the power of the moon, she defeated the Equestrian Princesses, Celestia and Luna, in order to secure her own rule.\n\nBut in the end the move doomed the habitabilty of the planet by killing the pony responsible for its rotation. Stuck in tidal lock, Equus slowly lost its population while the remaning population under Chrysalis' iron hoof tried to find a solution to this problem.\n\nThere hasn't been a concrete solution to the problem as of yet, but with the rapid improvements in space travel, perhaps a new world can be found to live in."
+ EMPIRE_DESIGN_changeling_space_program_federations_desc:0 "Two decades ago, when the Changeling Space Program finally reached the moon, Queen Chrysalis finally showed her true plan for the program. Using the power of the moon, she defeated the Equestrian Princesses, Celestia and Luna, in order to secure her own rule.\n\nBut in the end the move doomed the habitabilty of the planet by killing the pony responsible for its rotation. Stuck in tidal lock, Equus slowly lost its population while the remaning population under Chrysalis' iron hoof tried to find a solution to this problem.\n\nThe solution came in the shape of orbital habitats. In the decades following Changeling Space Program managed to build several habitats in the orbits of different planets in the Solar System. Equus maybe lost forever, but the many races of the planet continue to survive in these habitats under Queen Chrysalis' rule."
+ EMPIRE_DESIGN_changeling_space_program_biogenesis_desc:0 "$EMPIRE_DESIGN_changeling_space_program_desc$"
+ EMPIRE_DESIGN_changeling_space_program_federations_biogenesis_desc:0 "$EMPIRE_DESIGN_changeling_space_program_federations_desc$"
+ PRESCRIPTED_adjective_changeling_space_program:0 "Changeling"
+ PRESCRIPTED_ruler_title_king:0 "Król"
+ PRESCRIPTED_ruler_title_queen:0 "Królowa"
+ PRESCRIPTED_ship_prefix_changeling_space_program:0 "CSS"
+
+ PRESCRIPTED_ruler_name_chrysalis:0 "Chrysalis"
+ PRESCRIPTED_ruler_name_chrysalis_desc:0 "<insert_desc_here>"
+ PRESCRIPTED_ruler_name_chrysalis_catch_phrase:0 "§L""§!"
+
+ PRESCRIPTED_ruler_name_pharynx:0 "Pharynx"
+ PRESCRIPTED_ruler_name_pharynx_desc:0 "<insert_desc_here>"
+ PRESCRIPTED_ruler_name_pharynx_catch_phrase:0 "§L""§!"
+
+ PRESCRIPTED_ruler_name_elytron:0 "Elytron"
+ PRESCRIPTED_ruler_name_elytron_desc:0 "<insert_desc_here>"
+ PRESCRIPTED_ruler_name_elytron_catch_phrase:0 "§L""§!"
+
+ PRESCRIPTED_ruler_name_occupant:0 "Occupant"
+ PRESCRIPTED_ruler_name_occupant_desc:0 "<insert_desc_here>"
+ PRESCRIPTED_ruler_name_occupant_catch_phrase:0 "§L""§!"
+
+ PRESCRIPTED_ruler_name_cherry_berry:0 "Cherry Berry"
+ PRESCRIPTED_ruler_name_cherry_berry_desc:0 "<insert_desc_here>"
+ PRESCRIPTED_ruler_name_cherry_berry_catch_phrase:0 "§L""§!"
+
  # Revolutionary Faust
  EMPIRE_DESIGN_revolutionary_faust:0 "Rewolucyjny Faust"
  # EMPIRE_DESIGN_revolutionary_faust_desc:0 ""
@@ -249,37 +292,6 @@
  PRESCRIPTED_ruler_name_fickle_current:0 "Fickle Voltage"
  PRESCRIPTED_ruler_name_fickle_current_desc:0 "<insert_desc_here>"
  PRESCRIPTED_ruler_name_fickle_current_catch_phrase:0 "§L""§!"
-
- # Changeling Space Program
- EMPIRE_DESIGN_changeling_space_program:0 "CSP Remnants"
- EMPIRE_DESIGN_changeling_space_program_desc:0 "Two decades ago, when the Changeling Space Program finally reached the moon, Queen Chrysalis finally showed her true plan for the program. Using the power of the moon, she defeated the Equestrian Princesses, Celestia and Luna, in order to secure her own rule.\n\nBut in the end the move doomed the habitabilty of the planet by killing the pony responsible for its rotation. Stuck in tidal lock, Equus slowly lost its population while the remaning population under Chrysalis' iron hoof tried to find a solution to this problem.\n\nThere hasn't been a concrete solution to the problem as of yet, but with the rapid improvements in space travel, perhaps a new world can be found to live in."
- EMPIRE_DESIGN_changeling_space_program_federations_desc:0 "Two decades ago, when the Changeling Space Program finally reached the moon, Queen Chrysalis finally showed her true plan for the program. Using the power of the moon, she defeated the Equestrian Princesses, Celestia and Luna, in order to secure her own rule.\n\nBut in the end the move doomed the habitabilty of the planet by killing the pony responsible for its rotation. Stuck in tidal lock, Equus slowly lost its population while the remaning population under Chrysalis' iron hoof tried to find a solution to this problem.\n\nThe solution came in the shape of orbital habitats. In the decades following Changeling Space Program managed to build several habitats in the orbits of different planets in the Solar System. Equus maybe lost forever, but the many races of the planet continue to survive in these habitats under Queen Chrysalis' rule."
- EMPIRE_DESIGN_changeling_space_program_biogenesis_desc:0 "$EMPIRE_DESIGN_changeling_space_program_desc$"
- EMPIRE_DESIGN_changeling_space_program_federations_biogenesis_desc:0 "$EMPIRE_DESIGN_changeling_space_program_federations_desc$"
- PRESCRIPTED_adjective_changeling_space_program:0 "Changeling"
- PRESCRIPTED_ruler_title_king:0 "Król"
- PRESCRIPTED_ruler_title_queen:0 "Królowa"
- PRESCRIPTED_ship_prefix_changeling_space_program:0 "CSS"
-
- PRESCRIPTED_ruler_name_chrysalis:0 "Chrysalis"
- PRESCRIPTED_ruler_name_chrysalis_desc:0 "<insert_desc_here>"
- PRESCRIPTED_ruler_name_chrysalis_catch_phrase:0 "§L""§!"
-
- PRESCRIPTED_ruler_name_pharynx:0 "Pharynx"
- PRESCRIPTED_ruler_name_pharynx_desc:0 "<insert_desc_here>"
- PRESCRIPTED_ruler_name_pharynx_catch_phrase:0 "§L""§!"
-
- PRESCRIPTED_ruler_name_elytron:0 "Elytron"
- PRESCRIPTED_ruler_name_elytron_desc:0 "<insert_desc_here>"
- PRESCRIPTED_ruler_name_elytron_catch_phrase:0 "§L""§!"
-
- PRESCRIPTED_ruler_name_occupant:0 "Occupant"
- PRESCRIPTED_ruler_name_occupant_desc:0 "<insert_desc_here>"
- PRESCRIPTED_ruler_name_occupant_catch_phrase:0 "§L""§!"
-
- PRESCRIPTED_ruler_name_cherry_berry:0 "Cherry Berry"
- PRESCRIPTED_ruler_name_cherry_berry_desc:0 "<insert_desc_here>"
- PRESCRIPTED_ruler_name_cherry_berry_catch_phrase:0 "§L""§!"
 
  # Empire of Frost
  EMPIRE_DESIGN_new_draconian_empire:0 "Imperium Mrozu"

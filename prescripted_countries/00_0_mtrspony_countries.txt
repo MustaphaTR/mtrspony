@@ -199,11 +199,11 @@ the_crusader_state = {
 		}
 		background= {
 			category = "backgrounds"
-			file = "stripe_thick.dds"
+			file = "stripe_thick_cmc.dds"
 		}
 		colors={
 			"red_orange"
-			"pink"
+			"intense_pink"
 			"null"
 			"null"
 		}
@@ -274,11 +274,11 @@ the_crusader_state_necroids = {
 		}
 		background= {
 			category = "backgrounds"
-			file = "stripe_thick.dds"
+			file = "stripe_thick_cmc.dds"
 		}
 		colors={
 			"red_orange"
-			"pink"
+			"intense_pink"
 			"null"
 			"null"
 		}
@@ -326,8 +326,8 @@ empire_of_friendship = {
 	civics = { "civic_nationalistic_zeal" "civic_philosopher_king" }
 	government = gov_elective_monarchy
 
-	ethic = "ethic_xenophile"
 	ethic = "ethic_fanatic_militarist"
+	ethic = "ethic_xenophile"
 
 	origin = "origin_default"
 
@@ -401,8 +401,8 @@ empire_of_friendship_paragons = {
 	civics = { "civic_crusader_spirit" "civic_philosopher_king" }
 	government = gov_elective_monarchy
 
-	ethic = "ethic_xenophile"
 	ethic = "ethic_fanatic_militarist"
+	ethic = "ethic_xenophile"
 
 	origin = "origin_legendary_leader"
 
@@ -1183,6 +1183,604 @@ faustian_technate = {
 	}
 }
 
+jarldom_of_faust = {
+	name = "EMPIRE_DESIGN_jarldom_of_faust"
+	adjective = "PRESCRIPTED_adjective_jarldom_of_faust"
+	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
+
+	playable = has_not_paragon_and_grand_archive # Treasure Hunters origin is from Grand Archive DLC. Heroic Past civic is from Galactic Paragons DLC.
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_jarldom_of_faust"
+
+	species = {
+		class = "MAM"
+		portrait = "mtrspony_deer"
+		name = "PRESCRIPTED_species_deer"
+		plural = "PRESCRIPTED_species_plural_deer"
+		adjective = "PRESCRIPTED_species_adjective_deer"
+		name_list = "mtrspony_namelists_deer"
+		trait = "trait_adaptive"
+		trait = "trait_natural_sociologists"
+		trait = "trait_fleeting"
+	}
+
+	room = "personality_fanatic_purifier_room"
+
+	authority = "auth_dictatorial"
+	civics = { "civic_distinguished_admiralty" "civic_warrior_culture" }
+	government = gov_martial_dictatorship
+
+	ethic = "ethic_fanatic_militarist"
+	ethic = "ethic_spiritualist"
+
+	origin = "origin_default"
+
+	flag = empire_jarldom_of_faust
+
+	planet_name = "NAME_Faust"
+	planet_class = "pc_continental"
+	initializer = "eaw_vanilla_initializer"
+	system_name = "NAME_Behemoth"
+
+	graphical_culture = mammalian_01
+	city_graphical_culture = mammalian_01
+
+	empire_flag = {
+		icon= {
+			category = "eqsatwarequus"
+			file = "DER_SUP.dds"
+		}
+		background= {
+			category = "backgrounds"
+			file = "circle_with_4_stripes_jf.dds"
+		}
+		colors={
+			"blue"
+			"light_grey"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_hjoertur_aagesson"
+		ruler_title = "PRESCRIPTED_ruler_title_jarl"
+		ruler_title_female = "PRESCRIPTED_ruler_title_jarl_female"
+		gender = male
+		portrait = "mtrspony_deer_alice"
+		texture = 13
+		attachment = 4
+		clothes = 30
+		trait = "trait_ruler_logistic_understanding"
+		leader_class = official
+	}
+}
+
+jarldom_of_faust_paragons = {
+	name = "EMPIRE_DESIGN_jarldom_of_faust"
+	adjective = "PRESCRIPTED_adjective_jarldom_of_faust"
+	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
+
+	playable = has_paragon_but_not_grand_archive # Treasure Hunters origin is from Grand Archive DLC. Heroic Past civic is from Galactic Paragons DLC.
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_jarldom_of_faust"
+
+	species = {
+		class = "MAM"
+		portrait = "mtrspony_deer"
+		name = "PRESCRIPTED_species_deer"
+		plural = "PRESCRIPTED_species_plural_deer"
+		adjective = "PRESCRIPTED_species_adjective_deer"
+		name_list = "mtrspony_namelists_deer"
+		trait = "trait_adaptive"
+		trait = "trait_natural_sociologists"
+		trait = "trait_fleeting"
+	}
+
+	room = "personality_fanatic_purifier_room"
+
+	authority = "auth_dictatorial"
+	civics = { "civic_heroic_tales" "civic_warrior_culture" }
+	government = gov_martial_dictatorship
+
+	ethic = "ethic_fanatic_militarist"
+	ethic = "ethic_spiritualist"
+
+	origin = "origin_default"
+
+	flag = empire_jarldom_of_faust
+
+	planet_name = "NAME_Faust"
+	planet_class = "pc_continental"
+	initializer = "eaw_vanilla_initializer"
+	system_name = "NAME_Behemoth"
+
+	graphical_culture = mammalian_01
+	city_graphical_culture = mammalian_01
+
+	empire_flag = {
+		icon= {
+			category = "eqsatwarequus"
+			file = "DER_SUP.dds"
+		}
+		background= {
+			category = "backgrounds"
+			file = "circle_with_4_stripes_jf.dds"
+		}
+		colors={
+			"blue"
+			"light_grey"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_hjoertur_aagesson"
+		ruler_title = "PRESCRIPTED_ruler_title_jarl"
+		ruler_title_female = "PRESCRIPTED_ruler_title_jarl_female"
+		gender = male
+		portrait = "mtrspony_deer_alice"
+		texture = 13
+		attachment = 4
+		clothes = 30
+		trait = "trait_ruler_logistic_understanding"
+		leader_class = official
+	}
+}
+
+jarldom_of_faust_grand_archive = {
+	name = "EMPIRE_DESIGN_jarldom_of_faust"
+	adjective = "PRESCRIPTED_adjective_jarldom_of_faust"
+	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
+
+	playable = has_grand_archive_but_not_paragon # Treasure Hunters origin is from Grand Archive DLC. Heroic Past civic is from Galactic Paragons DLC.
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_jarldom_of_faust"
+
+	species = {
+		class = "MAM"
+		portrait = "mtrspony_deer"
+		name = "PRESCRIPTED_species_deer"
+		plural = "PRESCRIPTED_species_plural_deer"
+		adjective = "PRESCRIPTED_species_adjective_deer"
+		name_list = "mtrspony_namelists_deer"
+		trait = "trait_adaptive"
+		trait = "trait_natural_sociologists"
+		trait = "trait_fleeting"
+	}
+
+	room = "personality_fanatic_purifier_room"
+
+	authority = "auth_dictatorial"
+	civics = { "civic_distinguished_admiralty" "civic_warrior_culture" }
+	government = gov_martial_dictatorship
+
+	ethic = "ethic_fanatic_militarist"
+	ethic = "ethic_spiritualist"
+
+	origin = "origin_treasure_hunters"
+
+	flag = empire_jarldom_of_faust
+
+	planet_name = "NAME_Faust"
+	planet_class = "pc_continental"
+	initializer = "eaw_vanilla_initializer"
+	system_name = "NAME_Behemoth"
+
+	graphical_culture = mammalian_01
+	city_graphical_culture = mammalian_01
+
+	empire_flag = {
+		icon= {
+			category = "eqsatwarequus"
+			file = "DER_SUP.dds"
+		}
+		background= {
+			category = "backgrounds"
+			file = "circle_with_4_stripes_jf.dds"
+		}
+		colors={
+			"blue"
+			"light_grey"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_hjoertur_aagesson"
+		ruler_title = "PRESCRIPTED_ruler_title_jarl"
+		ruler_title_female = "PRESCRIPTED_ruler_title_jarl_female"
+		gender = male
+		portrait = "mtrspony_deer_alice"
+		texture = 13
+		attachment = 4
+		clothes = 30
+		trait = "leader_trait_trailblazer"
+		leader_class = official
+	}
+}
+
+jarldom_of_faust_paragons_grand_archive = {
+	name = "EMPIRE_DESIGN_jarldom_of_faust"
+	adjective = "PRESCRIPTED_adjective_jarldom_of_faust"
+	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
+
+	playable = has_paragon_and_grand_archive # Treasure Hunters origin is from Grand Archive DLC. Heroic Past civic is from Galactic Paragons DLC.
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_jarldom_of_faust"
+
+	species = {
+		class = "MAM"
+		portrait = "mtrspony_deer"
+		name = "PRESCRIPTED_species_deer"
+		plural = "PRESCRIPTED_species_plural_deer"
+		adjective = "PRESCRIPTED_species_adjective_deer"
+		name_list = "mtrspony_namelists_deer"
+		trait = "trait_adaptive"
+		trait = "trait_natural_sociologists"
+		trait = "trait_fleeting"
+	}
+
+	room = "personality_fanatic_purifier_room"
+
+	authority = "auth_dictatorial"
+	civics = { "civic_heroic_tales" "civic_warrior_culture" }
+	government = gov_martial_dictatorship
+
+	ethic = "ethic_fanatic_militarist"
+	ethic = "ethic_spiritualist"
+
+	origin = "origin_treasure_hunters"
+
+	flag = empire_jarldom_of_faust
+
+	planet_name = "NAME_Faust"
+	planet_class = "pc_continental"
+	initializer = "eaw_vanilla_initializer"
+	system_name = "NAME_Behemoth"
+
+	graphical_culture = mammalian_01
+	city_graphical_culture = mammalian_01
+
+	empire_flag = {
+		icon= {
+			category = "eqsatwarequus"
+			file = "DER_SUP.dds"
+		}
+		background= {
+			category = "backgrounds"
+			file = "circle_with_4_stripes_jf.dds"
+		}
+		colors={
+			"blue"
+			"light_grey"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_hjoertur_aagesson"
+		ruler_title = "PRESCRIPTED_ruler_title_jarl"
+		ruler_title_female = "PRESCRIPTED_ruler_title_jarl_female"
+		gender = male
+		portrait = "mtrspony_deer_alice"
+		texture = 13
+		attachment = 4
+		clothes = 30
+		trait = "leader_trait_trailblazer"
+		leader_class = official
+	}
+}
+
+changeling_space_program = {
+	name = "EMPIRE_DESIGN_changeling_space_program"
+	adjective = "PRESCRIPTED_adjective_changeling_space_program"
+	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
+
+	playable = has_not_federations_dlc # Void Dweller origin is from Federations DLC. Camouflage species trait is from BioGenesis DLC.
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_changeling_space_program"
+
+	species = {
+		class = "ART"
+		portrait = "mtrspony_changeling"
+		name = "PRESCRIPTED_species_changeling"
+		plural = "PRESCRIPTED_species_plural_changeling"
+		adjective = "PRESCRIPTED_species_adjective_changeling"
+		name_list = "mtrspony_namelists_changeling"
+		trait = "trait_adaptive"
+		trait = "trait_communal"
+		trait = "trait_wasteful"
+	}
+
+	room = "personality_ruthless_capitalists_room"
+
+	authority = "auth_imperial"
+	civics = { "civic_police_state" "civic_functional_architecture" }
+	government = gov_star_empire
+
+	ethic = "ethic_authoritarian"
+	ethic = "ethic_xenophobe"
+	ethic = "ethic_militarist"
+
+	origin = "origin_default"
+
+	flag = empire_changeling_space_program
+
+	planet_name = "NAME_Equus"
+	planet_class = "pc_continental"
+	initializer = "csp_system_initializer"
+	system_name = "NAME_Sol"
+
+	graphical_culture = arthropoid_01
+	city_graphical_culture = arthropoid_01
+
+	empire_flag = {
+		icon= {
+			category = "eqsatwarequus"
+			file = "CHN_SUP_OLD_2.dds"
+		}
+		background= {
+			category = "backgrounds"
+			file = "gradient.dds"
+		}
+		colors={
+			"moss_green"
+			"black"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_chrysalis"
+		ruler_title = "PRESCRIPTED_ruler_title_king"
+		ruler_title_female = "PRESCRIPTED_ruler_title_queen"
+		gender = female
+		portrait = "mtrspony_changeling_chrysalis"
+		texture = 0
+		attachment = 0
+		clothes = 0
+		trait = "leader_trait_spycraft"
+		leader_class = official
+	}
+}
+
+changeling_space_program_federations = {
+	name = "EMPIRE_DESIGN_changeling_space_program"
+	adjective = "PRESCRIPTED_adjective_changeling_space_program"
+	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
+
+	playable = has_federations_but_not_biogenesis # Void Dweller origin is from Federations DLC. Camouflage species trait is from BioGenesis DLC.
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_changeling_space_program"
+
+	species = {
+		class = "ART"
+		portrait = "mtrspony_changeling"
+		name = "PRESCRIPTED_species_changeling"
+		plural = "PRESCRIPTED_species_plural_changeling"
+		adjective = "PRESCRIPTED_species_adjective_changeling"
+		name_list = "mtrspony_namelists_changeling"
+		trait = "trait_void_dweller_1"
+		trait = "trait_adaptive"
+		trait = "trait_communal"
+		trait = "trait_wasteful"
+	}
+
+	room = "personality_ruthless_capitalists_room"
+
+	authority = "auth_imperial"
+	civics = { "civic_police_state" "civic_functional_architecture" }
+	government = gov_star_empire
+
+	ethic = "ethic_authoritarian"
+	ethic = "ethic_xenophobe"
+	ethic = "ethic_militarist"
+
+	origin = "origin_void_dwellers"
+
+	flag = empire_changeling_space_program
+
+	planet_name = "NAME_Equus_Habitat"
+	planet_class = "pc_continental"
+	initializer = "csp_system_void_dweller_system"
+	system_name = "NAME_Sol"
+
+	graphical_culture = arthropoid_01
+	city_graphical_culture = arthropoid_01
+
+	empire_flag = {
+		icon= {
+			category = "eqsatwarequus"
+			file = "CHN_SUP_OLD_2.dds"
+		}
+		background= {
+			category = "backgrounds"
+			file = "gradient.dds"
+		}
+		colors={
+			"moss_green"
+			"black"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_chrysalis"
+		ruler_title = "PRESCRIPTED_ruler_title_king"
+		ruler_title_female = "PRESCRIPTED_ruler_title_queen"
+		gender = female
+		portrait = "mtrspony_changeling_chrysalis"
+		texture = 0
+		attachment = 0
+		clothes = 0
+		trait = "leader_trait_spycraft"
+		leader_class = official
+	}
+}
+
+changeling_space_program_biogenesis = {
+	name = "EMPIRE_DESIGN_changeling_space_program"
+	adjective = "PRESCRIPTED_adjective_changeling_space_program"
+	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
+
+	playable = has_not_federations_dlc # Void Dweller origin is from Federations DLC. Camouflage species trait is from BioGenesis DLC.
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_changeling_space_program"
+
+	species = {
+		class = "ART"
+		portrait = "mtrspony_changeling"
+		name = "PRESCRIPTED_species_changeling"
+		plural = "PRESCRIPTED_species_plural_changeling"
+		adjective = "PRESCRIPTED_species_adjective_changeling"
+		name_list = "mtrspony_namelists_changeling"
+		trait = "trait_adaptive"
+		trait = "trait_camouflage"
+		trait = "trait_wasteful"
+	}
+
+	room = "personality_ruthless_capitalists_room"
+
+	authority = "auth_imperial"
+	civics = { "civic_police_state" "civic_functional_architecture" }
+	government = gov_star_empire
+
+	ethic = "ethic_authoritarian"
+	ethic = "ethic_xenophobe"
+	ethic = "ethic_militarist"
+
+	origin = "origin_default"
+
+	flag = empire_changeling_space_program
+
+	planet_name = "NAME_Equus"
+	planet_class = "pc_continental"
+	initializer = "csp_system_initializer"
+	system_name = "NAME_Sol"
+
+	graphical_culture = arthropoid_01
+	city_graphical_culture = arthropoid_01
+
+	empire_flag = {
+		icon= {
+			category = "eqsatwarequus"
+			file = "CHN_SUP_OLD_2.dds"
+		}
+		background= {
+			category = "backgrounds"
+			file = "gradient.dds"
+		}
+		colors={
+			"moss_green"
+			"black"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_chrysalis"
+		ruler_title = "PRESCRIPTED_ruler_title_king"
+		ruler_title_female = "PRESCRIPTED_ruler_title_queen"
+		gender = female
+		portrait = "mtrspony_changeling_chrysalis"
+		texture = 0
+		attachment = 0
+		clothes = 0
+		trait = "leader_trait_spycraft"
+		leader_class = official
+	}
+}
+
+changeling_space_program_federations_biogenesis = {
+	name = "EMPIRE_DESIGN_changeling_space_program"
+	adjective = "PRESCRIPTED_adjective_changeling_space_program"
+	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
+
+	playable = has_federations_and_biogenesis # Void Dweller origin is from Federations DLC. Camouflage species trait is from BioGenesis DLC.
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_changeling_space_program"
+
+	species = {
+		class = "ART"
+		portrait = "mtrspony_changeling"
+		name = "PRESCRIPTED_species_changeling"
+		plural = "PRESCRIPTED_species_plural_changeling"
+		adjective = "PRESCRIPTED_species_adjective_changeling"
+		name_list = "mtrspony_namelists_changeling"
+		trait = "trait_void_dweller_1"
+		trait = "trait_adaptive"
+		trait = "trait_camouflage"
+		trait = "trait_wasteful"
+	}
+
+	room = "personality_ruthless_capitalists_room"
+
+	authority = "auth_imperial"
+	civics = { "civic_police_state" "civic_functional_architecture" }
+	government = gov_star_empire
+
+	ethic = "ethic_authoritarian"
+	ethic = "ethic_xenophobe"
+	ethic = "ethic_militarist"
+
+	origin = "origin_void_dwellers"
+
+	flag = empire_changeling_space_program
+
+	planet_name = "NAME_Equus_Habitat"
+	planet_class = "pc_continental"
+	initializer = "csp_system_void_dweller_system"
+	system_name = "NAME_Sol"
+
+	graphical_culture = arthropoid_01
+	city_graphical_culture = arthropoid_01
+
+	empire_flag = {
+		icon= {
+			category = "eqsatwarequus"
+			file = "CHN_SUP_OLD_2.dds"
+		}
+		background= {
+			category = "backgrounds"
+			file = "gradient.dds"
+		}
+		colors={
+			"moss_green"
+			"black"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_chrysalis"
+		ruler_title = "PRESCRIPTED_ruler_title_king"
+		ruler_title_female = "PRESCRIPTED_ruler_title_queen"
+		gender = female
+		portrait = "mtrspony_changeling_chrysalis"
+		texture = 0
+		attachment = 0
+		clothes = 0
+		trait = "leader_trait_spycraft"
+		leader_class = official
+	}
+}
+
 revolutionary_faust = {
 	name = "EMPIRE_DESIGN_revolutionary_faust"
 	adjective = "PRESCRIPTED_adjective_revolutionary_faust"
@@ -1775,308 +2373,6 @@ faustian_conglomerate_megacorps_toxoids = {
 		attachment = 14
 		clothes = 0
 		trait = "leader_trait_principled"
-		leader_class = official
-	}
-}
-
-changeling_space_program = {
-	name = "EMPIRE_DESIGN_changeling_space_program"
-	adjective = "PRESCRIPTED_adjective_changeling_space_program"
-	spawn_enabled = no # yes / no / always
-	ignore_portrait_duplication = yes
-
-	playable = has_not_federations_dlc # Void Dweller origin is from Federations DLC. Camouflage species trait is from BioGenesis DLC.
-
-	ship_prefix = "PRESCRIPTED_ship_prefix_changeling_space_program"
-
-	species = {
-		class = "ART"
-		portrait = "mtrspony_changeling"
-		name = "PRESCRIPTED_species_changeling"
-		plural = "PRESCRIPTED_species_plural_changeling"
-		adjective = "PRESCRIPTED_species_adjective_changeling"
-		name_list = "mtrspony_namelists_changeling"
-		trait = "trait_adaptive"
-		trait = "trait_communal"
-		trait = "trait_wasteful"
-	}
-
-	room = "personality_ruthless_capitalists_room"
-
-	authority = "auth_imperial"
-	civics = { "civic_police_state" "civic_functional_architecture" }
-	government = gov_star_empire
-
-	ethic = "ethic_authoritarian"
-	ethic = "ethic_xenophobe"
-	ethic = "ethic_militarist"
-
-	origin = "origin_default"
-
-	flag = empire_changeling_space_program
-
-	planet_name = "NAME_Equus"
-	planet_class = "pc_continental"
-	initializer = "csp_system_initializer"
-	system_name = "NAME_Sol"
-
-	graphical_culture = arthropoid_01
-	city_graphical_culture = arthropoid_01
-
-	empire_flag = {
-		icon= {
-			category = "eqsatwarequus"
-			file = "CHN_SUP_OLD_2.dds"
-		}
-		background= {
-			category = "backgrounds"
-			file = "gradient.dds"
-		}
-		colors={
-			"moss_green"
-			"black"
-			"null"
-			"null"
-		}
-	}
-
-	ruler = {
-		name = "PRESCRIPTED_ruler_name_chrysalis"
-		ruler_title = "PRESCRIPTED_ruler_title_king"
-		ruler_title_female = "PRESCRIPTED_ruler_title_queen"
-		gender = female
-		portrait = "mtrspony_changeling_chrysalis"
-		texture = 0
-		attachment = 0
-		clothes = 0
-		trait = "leader_trait_spycraft"
-		leader_class = official
-	}
-}
-
-changeling_space_program_federations = {
-	name = "EMPIRE_DESIGN_changeling_space_program"
-	adjective = "PRESCRIPTED_adjective_changeling_space_program"
-	spawn_enabled = no # yes / no / always
-	ignore_portrait_duplication = yes
-
-	playable = has_federations_but_not_biogenesis # Void Dweller origin is from Federations DLC. Camouflage species trait is from BioGenesis DLC.
-
-	ship_prefix = "PRESCRIPTED_ship_prefix_changeling_space_program"
-
-	species = {
-		class = "ART"
-		portrait = "mtrspony_changeling"
-		name = "PRESCRIPTED_species_changeling"
-		plural = "PRESCRIPTED_species_plural_changeling"
-		adjective = "PRESCRIPTED_species_adjective_changeling"
-		name_list = "mtrspony_namelists_changeling"
-		trait = "trait_void_dweller_1"
-		trait = "trait_adaptive"
-		trait = "trait_communal"
-		trait = "trait_wasteful"
-	}
-
-	room = "personality_ruthless_capitalists_room"
-
-	authority = "auth_imperial"
-	civics = { "civic_police_state" "civic_functional_architecture" }
-	government = gov_star_empire
-
-	ethic = "ethic_authoritarian"
-	ethic = "ethic_xenophobe"
-	ethic = "ethic_militarist"
-
-	origin = "origin_void_dwellers"
-
-	flag = empire_changeling_space_program
-
-	planet_name = "NAME_Equus_Habitat"
-	planet_class = "pc_continental"
-	initializer = "csp_system_void_dweller_system"
-	system_name = "NAME_Sol"
-
-	graphical_culture = arthropoid_01
-	city_graphical_culture = arthropoid_01
-
-	empire_flag = {
-		icon= {
-			category = "eqsatwarequus"
-			file = "CHN_SUP_OLD_2.dds"
-		}
-		background= {
-			category = "backgrounds"
-			file = "gradient.dds"
-		}
-		colors={
-			"moss_green"
-			"black"
-			"null"
-			"null"
-		}
-	}
-
-	ruler = {
-		name = "PRESCRIPTED_ruler_name_chrysalis"
-		ruler_title = "PRESCRIPTED_ruler_title_king"
-		ruler_title_female = "PRESCRIPTED_ruler_title_queen"
-		gender = female
-		portrait = "mtrspony_changeling_chrysalis"
-		texture = 0
-		attachment = 0
-		clothes = 0
-		trait = "leader_trait_spycraft"
-		leader_class = official
-	}
-}
-
-changeling_space_program_biogenesis = {
-	name = "EMPIRE_DESIGN_changeling_space_program"
-	adjective = "PRESCRIPTED_adjective_changeling_space_program"
-	spawn_enabled = no # yes / no / always
-	ignore_portrait_duplication = yes
-
-	playable = has_not_federations_dlc # Void Dweller origin is from Federations DLC. Camouflage species trait is from BioGenesis DLC.
-
-	ship_prefix = "PRESCRIPTED_ship_prefix_changeling_space_program"
-
-	species = {
-		class = "ART"
-		portrait = "mtrspony_changeling"
-		name = "PRESCRIPTED_species_changeling"
-		plural = "PRESCRIPTED_species_plural_changeling"
-		adjective = "PRESCRIPTED_species_adjective_changeling"
-		name_list = "mtrspony_namelists_changeling"
-		trait = "trait_adaptive"
-		trait = "trait_camouflage"
-		trait = "trait_wasteful"
-	}
-
-	room = "personality_ruthless_capitalists_room"
-
-	authority = "auth_imperial"
-	civics = { "civic_police_state" "civic_functional_architecture" }
-	government = gov_star_empire
-
-	ethic = "ethic_authoritarian"
-	ethic = "ethic_xenophobe"
-	ethic = "ethic_militarist"
-
-	origin = "origin_default"
-
-	flag = empire_changeling_space_program
-
-	planet_name = "NAME_Equus"
-	planet_class = "pc_continental"
-	initializer = "csp_system_initializer"
-	system_name = "NAME_Sol"
-
-	graphical_culture = arthropoid_01
-	city_graphical_culture = arthropoid_01
-
-	empire_flag = {
-		icon= {
-			category = "eqsatwarequus"
-			file = "CHN_SUP_OLD_2.dds"
-		}
-		background= {
-			category = "backgrounds"
-			file = "gradient.dds"
-		}
-		colors={
-			"moss_green"
-			"black"
-			"null"
-			"null"
-		}
-	}
-
-	ruler = {
-		name = "PRESCRIPTED_ruler_name_chrysalis"
-		ruler_title = "PRESCRIPTED_ruler_title_king"
-		ruler_title_female = "PRESCRIPTED_ruler_title_queen"
-		gender = female
-		portrait = "mtrspony_changeling_chrysalis"
-		texture = 0
-		attachment = 0
-		clothes = 0
-		trait = "leader_trait_spycraft"
-		leader_class = official
-	}
-}
-
-changeling_space_program_federations_biogenesis = {
-	name = "EMPIRE_DESIGN_changeling_space_program"
-	adjective = "PRESCRIPTED_adjective_changeling_space_program"
-	spawn_enabled = no # yes / no / always
-	ignore_portrait_duplication = yes
-
-	playable = has_federations_and_biogenesis # Void Dweller origin is from Federations DLC. Camouflage species trait is from BioGenesis DLC.
-
-	ship_prefix = "PRESCRIPTED_ship_prefix_changeling_space_program"
-
-	species = {
-		class = "ART"
-		portrait = "mtrspony_changeling"
-		name = "PRESCRIPTED_species_changeling"
-		plural = "PRESCRIPTED_species_plural_changeling"
-		adjective = "PRESCRIPTED_species_adjective_changeling"
-		name_list = "mtrspony_namelists_changeling"
-		trait = "trait_void_dweller_1"
-		trait = "trait_adaptive"
-		trait = "trait_camouflage"
-		trait = "trait_wasteful"
-	}
-
-	room = "personality_ruthless_capitalists_room"
-
-	authority = "auth_imperial"
-	civics = { "civic_police_state" "civic_functional_architecture" }
-	government = gov_star_empire
-
-	ethic = "ethic_authoritarian"
-	ethic = "ethic_xenophobe"
-	ethic = "ethic_militarist"
-
-	origin = "origin_void_dwellers"
-
-	flag = empire_changeling_space_program
-
-	planet_name = "NAME_Equus_Habitat"
-	planet_class = "pc_continental"
-	initializer = "csp_system_void_dweller_system"
-	system_name = "NAME_Sol"
-
-	graphical_culture = arthropoid_01
-	city_graphical_culture = arthropoid_01
-
-	empire_flag = {
-		icon= {
-			category = "eqsatwarequus"
-			file = "CHN_SUP_OLD_2.dds"
-		}
-		background= {
-			category = "backgrounds"
-			file = "gradient.dds"
-		}
-		colors={
-			"moss_green"
-			"black"
-			"null"
-			"null"
-		}
-	}
-
-	ruler = {
-		name = "PRESCRIPTED_ruler_name_chrysalis"
-		ruler_title = "PRESCRIPTED_ruler_title_king"
-		ruler_title_female = "PRESCRIPTED_ruler_title_queen"
-		gender = female
-		portrait = "mtrspony_changeling_chrysalis"
-		texture = 0
-		attachment = 0
-		clothes = 0
-		trait = "leader_trait_spycraft"
 		leader_class = official
 	}
 }

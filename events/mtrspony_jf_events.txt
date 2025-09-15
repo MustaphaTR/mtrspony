@@ -1,0 +1,69 @@
+namespace = jfstart
+
+#Setup Jarldom of Faust
+country_event = {
+	id = jfstart.1
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		has_country_flag = jarldom_of_faust
+	}
+	immediate = {
+		#create_leader = {
+		#	name = "PRESCRIPTED_ruler_name_hjoertur_aagesson"
+		#	custom_description = "PRESCRIPTED_ruler_name_hjoertur_aagesson_desc"
+		#	species = ROOT.species
+		#	gender = male
+		#	class = official
+		#	skill = 1
+		#	set_age = 42
+		#	background_job = "noble"
+		#	background_ethic = "ethic_milistarist"
+		#	skip_background_generation = yes
+		#	randomize_traits = no
+		#	traits = {
+		#		1 = leader_trait_trailblazer
+		#	}
+		#
+		#	effect = {
+		#		save_global_event_target_as = leader_hjoertur_aagesson
+		#		set_leader_flag = is_created_leader
+		#		change_leader_portrait = "mtrspony_deer_hjoertur_aagesson_predefined"
+		#		ROOT = {
+		#			leader = {
+		#				kill_leader = {
+		#					show_notification = no
+		#					fire = yes
+		#				}
+		#			}
+		#			assign_leader = event_target:leader_hjoertur_aagesson
+		#		}
+		#	}
+		#}
+
+		save_current_mtrspony_species = yes
+		create_other_mtrspony_species = yes
+
+		capital_scope = {
+			calculate_mtrspony_pop_count_keep_majority = yes
+			spawn_other_mtrspony_species = yes
+		}
+	}
+}
+
+## Reapply named character potraits, they seem to reset after loading a save or when species got modified.
+#country_event = {
+#	id = jfstart.2
+#	hide_window = yes
+#	is_triggered_only = yes
+#
+#	trigger = {
+#		has_country_flag = jarldom_of_faust
+#	}
+#	immediate = {
+#		event_target:leader_hjoertur_aagesson = {
+#			change_leader_portrait = "mtrspony_deer_hjoertur_aagesson_predefined"
+#		}
+#	}
+#}

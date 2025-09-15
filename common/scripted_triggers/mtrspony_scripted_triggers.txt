@@ -157,6 +157,32 @@ has_not_hive_minds_and_necroids = {
 	}
 }
 
+has_paragon_and_grand_archive = {
+	optimize_memory
+	host_has_dlc = "Galactic Paragons"
+	host_has_dlc = "Grand Archive"
+}
+
+has_paragon_but_not_grand_archive = {
+	optimize_memory
+	host_has_dlc = "Galactic Paragons"
+	NOT = { host_has_dlc = "Grand Archive" }
+}
+
+has_grand_archive_but_not_paragon = {
+	optimize_memory
+	NOT = { host_has_dlc = "Galactic Paragons" }
+	host_has_dlc = "Grand Archive"
+}
+
+has_not_paragon_and_grand_archive = {
+	optimize_memory
+	NOT = {
+		host_has_dlc = "Galactic Paragons"
+		host_has_dlc = "Grand Archive"
+	}
+}
+
 # Portrait Checks
 pop_has_miltary_job = {
 	always = no # It is not possible to check for this properly anymore.
@@ -237,12 +263,13 @@ is_mtrspony_prescripted_country = {
 		has_country_flag = novyy_stalliongrad
 		has_country_flag = united_allied_nations
 		has_country_flag = holy_pony_empire
+		has_country_flag = jarldom_of_faust
+		has_country_flag = changeling_space_program
 		has_country_flag = united_faustian_hives
 		has_country_flag = griffonian_empire
 		has_country_flag = faustian_technate
 		has_country_flag = faustian_conglomerate
 		has_country_flag = revolutionary_faust
-		has_country_flag = changeling_space_program
 		has_country_flag = new_draconian_empire
 	}
 }
