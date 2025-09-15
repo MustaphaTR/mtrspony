@@ -180,3 +180,6 @@
 -- Multi species starting setup now adds additional traits to other species, if the empire has Natural/Innate Design civic.
 -- Cutie/Equality Marks traits are now incompatible with Nerve Stapled trait as latter disables leader creation.
 -- Fixed Faust and Behemoth systems starting with no guaranteed habitables, regardless of what the option is set to.
+
+- Version 0.3.8 (XX.09.2025):
+-- Fixed Twilight's Disconnected trait in United Faustian Hives not scaling its upkeep reversal effects by leader skill level.
