@@ -211,9 +211,21 @@ leader_trait_cutie_mark_mi_amore_cadenza = {
 		logistic_growth_mult = 0.04
 	}
 	triggered_planet_modifier = {
+		potential = {
+			OR = {
+				is_councilor = yes
+				trait_is_gestalt_check = no
+			}
+		}
 		logistic_growth_mult = 0.08
 	}
 	triggered_sector_modifier = {
+		potential = {
+			OR = {
+				is_councilor = yes
+				trait_is_gestalt_check = no
+			}
+		}
 		logistic_growth_mult = 0.04
 	}
 	triggered_planet_modifier = {
@@ -221,14 +233,14 @@ leader_trait_cutie_mark_mi_amore_cadenza = {
 			is_councilor = no
 			trait_is_gestalt_check = yes
 		}
-		logistic_growth_mult = 0.08
+		logistic_growth_mult = 0.14
 	}
 	triggered_sector_modifier = {
 		potential = {
 			is_councilor = no
 			trait_is_gestalt_check = yes
 		}
-		logistic_growth_mult = 0.04
+		logistic_growth_mult = 0.07
 	}
 	leader_class = { official }
 	selectable_weight = 0
@@ -681,10 +693,22 @@ leader_trait_cutie_mark_love = {
 		}
 		logistic_growth_mult = 0.04
 	}
-	planet_modifier = {
+	triggered_planet_modifier = {
+		potential = {
+			OR = {
+				is_councilor = yes
+				trait_is_gestalt_check = no
+			}
+		}
 		logistic_growth_mult = 0.08
 	}
-	sector_modifier = {
+	triggered_sector_modifier = {
+		potential = {
+			OR = {
+				is_councilor = yes
+				trait_is_gestalt_check = no
+			}
+		}
 		logistic_growth_mult = 0.04
 	}
 	triggered_planet_modifier = {
@@ -692,14 +716,14 @@ leader_trait_cutie_mark_love = {
 			is_councilor = no
 			trait_is_gestalt_check = yes
 		}
-		logistic_growth_mult = 0.04
+		logistic_growth_mult = 0.14
 	}
 	triggered_sector_modifier = {
 		potential = {
 			is_councilor = no
 			trait_is_gestalt_check = yes
 		}
-		logistic_growth_mult = 0.04
+		logistic_growth_mult = 0.7
 	}
 	leader_class = { commander scientist official }
 	selectable_weight = 0
