@@ -5,3 +5,4 @@
  mod_pop_spawning_drone_bonus_workforce_mult:0 "[spawning_drone.GetNamePlural] $BONUS_WORKFORCE_FOR$"
  mod_ships_minor_artifacts_upkeep_mult:0 "Ships £minor_artifacts£ Minor Artifacts Upkeep"
  mod_planet_structures_minerals_cost_mult:0 "District and Building Minerals Cost"
+ mod_starbase_buildings_food_produces_mult:0 "항성 기지 건물로 인한 $r_food$"

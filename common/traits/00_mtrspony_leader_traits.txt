@@ -641,7 +641,7 @@ leader_trait_cutie_mark_farming = {
 				trait_is_gestalt_check = no
 			}
 		}
-		logistic_growth_mult = 0.04
+		starbase_buildings_food_produces_mult = 0.1
 	}
 	triggered_planet_modifier = {
 		potential = { trait_is_gestalt_check = no }
@@ -659,73 +659,7 @@ leader_trait_cutie_mark_farming = {
 		potential = { trait_is_gestalt_check = yes }
 		pop_agri_drone_bonus_workforce_mult = 0.025
 	}
-	triggered_planet_modifier = {
-		potential = {
-			is_councilor = no
-			trait_is_gestalt_check = yes
-		}
-		logistic_growth_mult = 0.08
-	}
-	triggered_sector_modifier = {
-		potential = {
-			is_councilor = no
-			trait_is_gestalt_check = yes
-		}
-		logistic_growth_mult = 0.04
-	}
 	leader_class = { official }
-	selectable_weight = 0
-	randomized = no
-}
-leader_trait_cutie_mark_love = {
-	inline_script = {
-		script = trait/icon_cutie_mark
-		ICON = "GFX_leader_trait_cutie_mark_cadance"
-		COUNCIL = triggered
-		TIER = none
-	}
-	triggered_councilor_modifier = {
-		potential = {
-			OR = {
-				is_councilor = yes
-				trait_is_gestalt_check = no
-			}
-		}
-		logistic_growth_mult = 0.04
-	}
-	triggered_planet_modifier = {
-		potential = {
-			OR = {
-				is_councilor = yes
-				trait_is_gestalt_check = no
-			}
-		}
-		logistic_growth_mult = 0.08
-	}
-	triggered_sector_modifier = {
-		potential = {
-			OR = {
-				is_councilor = yes
-				trait_is_gestalt_check = no
-			}
-		}
-		logistic_growth_mult = 0.04
-	}
-	triggered_planet_modifier = {
-		potential = {
-			is_councilor = no
-			trait_is_gestalt_check = yes
-		}
-		logistic_growth_mult = 0.14
-	}
-	triggered_sector_modifier = {
-		potential = {
-			is_councilor = no
-			trait_is_gestalt_check = yes
-		}
-		logistic_growth_mult = 0.7
-	}
-	leader_class = { commander scientist official }
 	selectable_weight = 0
 	randomized = no
 }
@@ -1281,7 +1215,7 @@ leader_trait_cutie_mark_propulsion = {
 		category_propulsion_research_speed_mult = 0.075
 		category_propulsion_draw_chance_mult = 0.125
 	}
-	fleet_modifier = {
+	modifier = {
 		ship_speed_mult = 0.2
 	}
 	leader_class = { scientist }
@@ -1385,6 +1319,59 @@ leader_trait_cutie_mark_trade = {
 		pop_logistics_drone_bonus_workforce_mult = 0.025
 	}
 	leader_class = { official }
+	selectable_weight = 0
+	randomized = no
+}
+
+leader_trait_cutie_mark_love = {
+	inline_script = {
+		script = trait/icon_cutie_mark
+		ICON = "GFX_leader_trait_cutie_mark_cadance"
+		COUNCIL = triggered
+		TIER = none
+	}
+	triggered_councilor_modifier = {
+		potential = {
+			OR = {
+				is_councilor = yes
+				trait_is_gestalt_check = no
+			}
+		}
+		logistic_growth_mult = 0.04
+	}
+	triggered_planet_modifier = {
+		potential = {
+			OR = {
+				is_councilor = yes
+				trait_is_gestalt_check = no
+			}
+		}
+		logistic_growth_mult = 0.08
+	}
+	triggered_sector_modifier = {
+		potential = {
+			OR = {
+				is_councilor = yes
+				trait_is_gestalt_check = no
+			}
+		}
+		logistic_growth_mult = 0.04
+	}
+	triggered_planet_modifier = {
+		potential = {
+			is_councilor = no
+			trait_is_gestalt_check = yes
+		}
+		logistic_growth_mult = 0.14
+	}
+	triggered_sector_modifier = {
+		potential = {
+			is_councilor = no
+			trait_is_gestalt_check = yes
+		}
+		logistic_growth_mult = 0.7
+	}
+	leader_class = { commander scientist official }
 	selectable_weight = 0
 	randomized = no
 }

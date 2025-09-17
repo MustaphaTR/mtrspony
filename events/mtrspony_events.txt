@@ -331,17 +331,6 @@ country_event = {
 							show_message = no
 						}
 					}
-					else_if = {
-						limit = {
-							leader_class = official
-							ROOT = { country_uses_food = no }
-						}
-
-						add_trait = {
-							trait = leader_trait_cutie_mark_love
-							show_message = no
-						}
-					}
 				}
 				10 = {
 					modifier = {
@@ -575,6 +564,17 @@ country_event = {
 
 					add_trait = {
 						trait = leader_trait_cutie_mark_trade
+						show_message = no
+					}
+				}
+				10 = {
+					modifier = {
+						factor = 0
+						NOT = { leader_class = official }
+					}
+
+					add_trait = {
+						trait = leader_trait_cutie_mark_love
 						show_message = no
 					}
 				}

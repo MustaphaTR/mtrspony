@@ -5,3 +5,4 @@
  mod_pop_spawning_drone_bonus_workforce_mult:0 "$BONUS_WORKFORCE_FOR$ [spawning_drone.GetNamePlural]"
  mod_ships_minor_artifacts_upkeep_mult:0 "Unterhalt an £minor_artifacts£ Kleinere Artefakte (Schiffe)"
  mod_planet_structures_minerals_cost_mult:0 "Mineralbaukosten (Distrikte und Gebäude)"
+ mod_starbase_buildings_food_produces_mult:0 "$r_food$ durch Sternenbasen-Gebäude"

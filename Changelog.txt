@@ -185,4 +185,6 @@
 -- Added Jarldom of Faust prescripted country.
 --- This includes two new flag backgrounds as well.
 -- The Crusader State now gets an actual tricolor flag background.
+-- Changed the council effect of Agriculture Cutie Mark to increase output of Hydroponics Bay starbase building.
+-- Slightly adjusted the effect values of Love Cutie Mark, and it is now available for Food using empires as well.
 -- Fixed Twilight's Disconnected trait in United Faustian Hives not scaling its upkeep reversal effects by leader skill level.
