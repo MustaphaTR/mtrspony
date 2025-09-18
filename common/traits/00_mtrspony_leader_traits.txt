@@ -641,7 +641,7 @@ leader_trait_cutie_mark_farming = {
 				trait_is_gestalt_check = no
 			}
 		}
-		starbase_buildings_food_produces_mult = 0.1
+		starbase_constructions_food_produces_mult = 0.1
 	}
 	triggered_planet_modifier = {
 		potential = { trait_is_gestalt_check = no }
