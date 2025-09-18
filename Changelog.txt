@@ -181,7 +181,7 @@
 -- Cutie/Equality Marks traits are now incompatible with Nerve Stapled trait as latter disables leader creation.
 -- Fixed Faust and Behemoth systems starting with no guaranteed habitables, regardless of what the option is set to.
 
-- Version 0.3.8 (XX.09.2025):
+- Version 0.3.8 (18.09.2025):
 -- Added Jarldom of Faust prescripted country.
 --- This includes two new flag backgrounds as well.
 -- The Crusader State now gets an actual tricolor flag background.
