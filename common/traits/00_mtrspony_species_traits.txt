@@ -12,7 +12,7 @@ trait_cutie_marks = {
 	}
 	opposites = { "trait_equality_marks" "trait_nerve_stapled" }
 	allowed_archetypes = { BIOLOGICAL LITHOID }
-	tags = { organic positive pop_output happiness }
+	tags = { organic positive leader }
 	custom_tooltip_with_modifiers = trait_cutie_marks_tt
 	triggered_species_modifier = {
 		potential = { has_paragon_dlc = yes }
@@ -34,7 +34,7 @@ trait_equality_marks = {
 	}
 	opposites = { "trait_cutie_marks" "trait_quick_learners" "trait_slow_learners" "trait_nerve_stapled" }
 	allowed_archetypes = { BIOLOGICAL LITHOID }
-	tags = { organic negative pop_output happiness }
+	tags = { organic negative leader }
 	custom_tooltip_with_modifiers = trait_equality_marks_tt
 	triggered_species_modifier = {
 		potential = { has_paragon_dlc = yes }

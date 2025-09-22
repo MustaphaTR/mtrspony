@@ -190,4 +190,5 @@
 -- Fixed Twilight's Disconnected trait in United Faustian Hives not scaling its upkeep reversal effects by leader skill level.
 
 - Version 0.3.9 (22.09.2025):
+-- Updated the mod to work with 4.1 Lyra update.
 -- Adjusted some color options for Twilight Velvet portrait, added a few more color options and added Earth Pony variant for her.

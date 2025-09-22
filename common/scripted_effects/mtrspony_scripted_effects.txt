@@ -1540,6 +1540,7 @@ create_zebra_species = {
 		namelist = mtrspony_namelists_zebra
 		homeworld = ROOT.species.home_planet
 		traits = {
+			trait = trait_organic
 			trait = trait_conservational
 			trait = trait_natural_physicists
 		}
@@ -1635,6 +1636,7 @@ create_hippogriff_species = {
 		namelist = mtrspony_namelists_hippogriff
 		homeworld = ROOT.species.home_planet
 		traits = {
+			trait = trait_organic
 			trait = trait_nomadic
 			trait = trait_adaptive
 			trait = trait_deviants
