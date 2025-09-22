@@ -113,7 +113,7 @@ portraits = {
 	}
 
 	mtrspony_pony_unicorn_twilight_velvet = {
-		entity = "portrait_dummy_20p_left_entity"
+		entity = "portrait_dummy_twilight_velvet_unicorn_entity"
 		clothes_selector = "mtrspony_no_clothes_selector"
 		attachment_selector = "mtrspony_pony_unicorn_twilight_velvet_hair_selector"
 		greeting_sound = "human_female_greetings_01"
@@ -133,13 +133,14 @@ portraits = {
 			"gfx/models/portraits/pony_unicorn/twilight_velvet/twilight_velvet_alt11.dds"
 			"gfx/models/portraits/pony_unicorn/twilight_velvet/twilight_velvet_alt12.dds"
 			"gfx/models/portraits/pony_unicorn/twilight_velvet/twilight_velvet_alt13.dds"
+			"gfx/models/portraits/pony_unicorn/twilight_velvet/twilight_velvet_alt14.dds"
 		}
 
 		custom_attachment_label = "HAIR_COLOR"
 	}
 
 	mtrspony_pony_unicorn_rosa_maledicta_predefined = {
-		entity = "portrait_dummy_20p_left_entity"
+		entity = "portrait_dummy_twilight_velvet_unicorn_entity"
 		clothes_selector = "mtrspony_no_clothes_selector"
 		attachment_selector = "mtrspony_pony_unicorn_rosa_maledicta_predefined_hair_selector"
 		greeting_sound = "human_female_greetings_01"

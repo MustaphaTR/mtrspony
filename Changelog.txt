@@ -188,3 +188,6 @@
 -- Changed the council effect of Agriculture Cutie Mark to increase output of Hydroponics Bay starbase building.
 -- Slightly adjusted the effect values of Love Cutie Mark, and it is now available for Food using empires as well.
 -- Fixed Twilight's Disconnected trait in United Faustian Hives not scaling its upkeep reversal effects by leader skill level.
+
+- Version 0.3.9 (22.09.2025):
+-- Adjusted some color options for Twilight Velvet portrait, added a few more color options and added Earth Pony variant for her.
