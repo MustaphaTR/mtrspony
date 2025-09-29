@@ -733,6 +733,301 @@ mtrspony_pony_alicorn_luna_predefined_clothes_selector = {
 	ruler = { default = "gfx/models/portraits/pony_alicorn/luna/luna_regalia.dds" }
 }
 
+mtrspony_pony_alicorn_luna_s1_hair_selector = {
+	default = "gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_hair.dds"
+
+	game_setup = {
+		default = "gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_hair.dds"
+	}
+
+	species = {
+		default = "gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_hair.dds"
+	}
+
+	pop = {
+		default = "gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_hair.dds"
+
+		random = {
+			list = {
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_hair.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_hair_alt1.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_hair_alt2.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_hair_alt3.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_hair_alt4.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_hair_alt5.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_hair_alt6.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_hair_alt7.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_hair_alt8.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_hair_alt9.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_hair_alt10.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_hair_alt11.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_hair_alt12.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_hair_alt13.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_hair_alt14.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_hair_alt15.dds"
+			}
+		}
+	}
+
+	leader = {
+		random = {
+			list = {
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_hair.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_hair_alt1.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_hair_alt2.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_hair_alt3.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_hair_alt4.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_hair_alt5.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_hair_alt6.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_hair_alt7.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_hair_alt8.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_hair_alt9.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_hair_alt10.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_hair_alt11.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_hair_alt12.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_hair_alt13.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_hair_alt14.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_hair_alt15.dds"
+			}
+		}
+	}
+
+	ruler = {
+		random = {
+			list = {
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_hair.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_hair_alt1.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_hair_alt2.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_hair_alt3.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_hair_alt4.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_hair_alt5.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_hair_alt6.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_hair_alt7.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_hair_alt8.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_hair_alt9.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_hair_alt10.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_hair_alt11.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_hair_alt12.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_hair_alt13.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_hair_alt14.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_hair_alt15.dds"
+			}
+		}	
+	}
+}
+
+mtrspony_pony_alicorn_luna_s1_clothes_selector = {
+	default = "gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_mark.dds"
+
+	game_setup = {
+		default = "gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_mark.dds"
+	}
+
+	species = {
+		default = "gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_mark.dds"
+	}
+
+	pop = {
+		default = "gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_mark.dds"
+
+		random = {
+			trigger = { species = { has_trait = trait_cutie_marks } }
+			list = {
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_mark.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_mark_alt1.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_mark_alt2.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_mark_alt3.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_mark_alt4.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_mark_alt5.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_mark_alt6.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_mark_alt7.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_mark_alt8.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_mark_alt9.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_mark_alt10.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_mark_alt11.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_mark_alt12.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_mark_alt13.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_mark_alt14.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_mark_alt15.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_mark_alt16.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_mark.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_mark_alt1.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_mark_alt2.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_mark_alt3.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_mark_alt4.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_mark_alt5.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_mark_alt6.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_mark_alt7.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_mark_alt8.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_mark_alt9.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_mark_alt10.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_mark_alt11.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_mark_alt12.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_mark_alt13.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_mark_alt14.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_mark_alt15.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_mark_alt16.dds"
+			}
+		}
+
+		random = {
+			trigger = { species = { NOT = { has_trait = trait_cutie_marks } } }
+			list = {
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_alt1.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_alt2.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_alt3.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_alt4.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_alt5.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_alt6.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_alt7.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_alt8.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_alt9.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_alt10.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_alt11.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_alt12.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_alt13.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_alt14.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_alt15.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_alt16.dds"
+				"gfx/models/portraits/no_attachment.dds"
+			}
+		}
+	}
+
+	leader = {
+		random = {
+			trigger = { species = { has_trait = trait_cutie_marks } }
+			list = {
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_mark.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_mark_alt1.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_mark_alt2.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_mark_alt3.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_mark_alt4.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_mark_alt5.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_mark_alt6.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_mark_alt7.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_mark_alt8.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_mark_alt9.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_mark_alt10.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_mark_alt11.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_mark_alt12.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_mark_alt13.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_mark_alt14.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_mark_alt15.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_mark_alt16.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_mark.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_mark_alt1.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_mark_alt2.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_mark_alt3.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_mark_alt4.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_mark_alt5.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_mark_alt6.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_mark_alt7.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_mark_alt8.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_mark_alt9.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_mark_alt10.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_mark_alt11.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_mark_alt12.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_mark_alt13.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_mark_alt14.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_mark_alt15.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_mark_alt16.dds"
+			}
+		}
+
+		random = {
+			trigger = { species = { NOT = { has_trait = trait_cutie_marks } } }
+			list = {
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_alt1.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_alt2.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_alt3.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_alt4.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_alt5.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_alt6.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_alt7.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_alt8.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_alt9.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_alt10.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_alt11.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_alt12.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_alt13.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_alt14.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_alt15.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_alt16.dds"
+				"gfx/models/portraits/no_attachment.dds"
+			}
+		}
+	}
+
+	ruler = {
+		random = {
+			trigger = { species = { has_trait = trait_cutie_marks } }
+			list = {
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_mark.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_mark_alt1.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_mark_alt2.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_mark_alt3.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_mark_alt4.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_mark_alt5.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_mark_alt6.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_mark_alt7.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_mark_alt8.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_mark_alt9.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_mark_alt10.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_mark_alt11.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_mark_alt12.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_mark_alt13.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_mark_alt14.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_mark_alt15.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_mark_alt16.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_mark.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_mark_alt1.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_mark_alt2.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_mark_alt3.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_mark_alt4.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_mark_alt5.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_mark_alt6.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_mark_alt7.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_mark_alt8.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_mark_alt9.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_mark_alt10.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_mark_alt11.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_mark_alt12.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_mark_alt13.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_mark_alt14.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_mark_alt15.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_mark_alt16.dds"
+			}
+		}
+
+		random = {
+			trigger = { species = { NOT = { has_trait = trait_cutie_marks } } }
+			list = {
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_alt1.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_alt2.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_alt3.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_alt4.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_alt5.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_alt6.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_alt7.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_alt8.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_alt9.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_alt10.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_alt11.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_alt12.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_alt13.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_alt14.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_alt15.dds"
+				"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_regalia_alt16.dds"
+				"gfx/models/portraits/no_attachment.dds"
+			}
+		}
+	}
+}
+
 mtrspony_pony_alicorn_nightmare_moon_hair_selector = {
 	default = "gfx/models/portraits/pony_alicorn/nightmare_moon/nightmare_moon_hair.dds"
 

@@ -192,3 +192,6 @@
 - Version 0.3.9 (22.09.2025):
 -- Updated the mod to work with 4.1 Lyra update.
 -- Adjusted some color options for Twilight Velvet portrait, added a few more color options and added Earth Pony variant for her.
+
+- Version 0.4.0 (XX.10.2025):
+-- Added pony portrait sets based on Season 1 appearance of Princess Luna.

@@ -150,6 +150,33 @@ portraits = {
 		}
 	}
 
+	mtrspony_pony_alicorn_luna_s1 = {
+		entity = "portrait_dummy_luna_s1_alicorn_entity"
+		clothes_selector = "mtrspony_pony_alicorn_luna_s1_clothes_selector"
+		attachment_selector = "mtrspony_pony_alicorn_luna_s1_hair_selector"
+		greeting_sound = "human_female_greetings_01"
+
+		character_textures = {
+			"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1.dds"
+			"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_alt1.dds"
+			"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_alt2.dds"
+			"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_alt3.dds"
+			"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_alt4.dds"
+			"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_alt5.dds"
+			"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_alt6.dds"
+			"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_alt7.dds"
+			"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_alt8.dds"
+			"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_alt9.dds"
+			"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_alt10.dds"
+			"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_alt11.dds"
+			"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_alt12.dds"
+			"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_alt13.dds"
+			"gfx/models/portraits/pony_alicorn/luna_s1/luna_s1_alt14.dds"
+		}
+
+		custom_attachment_label = "HAIR_COLOR"
+	}
+
 	mtrspony_pony_alicorn_nightmare_moon = {
 		entity = "portrait_dummy_huge_5p_left_entity"
 		clothes_selector = "mtrspony_pony_alicorn_nightmare_moon_clothes_selector"
@@ -305,6 +332,7 @@ portrait_groups = {
 					mtrspony_pony_alicorn_celestia
 					mtrspony_pony_alicorn_daybreaker
 					mtrspony_pony_alicorn_luna
+					mtrspony_pony_alicorn_luna_s1
 					mtrspony_pony_alicorn_nightmare_moon
 					mtrspony_pony_alicorn_twilight_sparkle
 					mtrspony_pony_alicorn_apple_bloom
@@ -322,6 +350,7 @@ portrait_groups = {
 					mtrspony_pony_alicorn_celestia
 					mtrspony_pony_alicorn_daybreaker
 					mtrspony_pony_alicorn_luna
+					mtrspony_pony_alicorn_luna_s1
 					mtrspony_pony_alicorn_nightmare_moon
 					mtrspony_pony_alicorn_twilight_sparkle
 					mtrspony_pony_alicorn_apple_bloom
@@ -348,6 +377,7 @@ portrait_groups = {
 					mtrspony_pony_alicorn_celestia
 					mtrspony_pony_alicorn_daybreaker
 					mtrspony_pony_alicorn_luna
+					mtrspony_pony_alicorn_luna_s1
 					mtrspony_pony_alicorn_nightmare_moon
 					mtrspony_pony_alicorn_twilight_sparkle
 					mtrspony_pony_alicorn_apple_bloom
@@ -389,6 +419,7 @@ portrait_groups = {
 					mtrspony_pony_alicorn_celestia
 					mtrspony_pony_alicorn_daybreaker
 					mtrspony_pony_alicorn_luna
+					mtrspony_pony_alicorn_luna_s1
 					mtrspony_pony_alicorn_nightmare_moon
 					mtrspony_pony_alicorn_twilight_sparkle
 					mtrspony_pony_alicorn_apple_bloom

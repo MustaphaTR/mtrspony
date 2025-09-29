@@ -47,6 +47,9 @@ Portrait Bases:
  > flash-draw:
 	- Cherry Berry
 
+ > foxtail8000:
+	- Season 1 Luna
+
  > freak0uo:
 	- Unicorn Twilight Sparkle
 

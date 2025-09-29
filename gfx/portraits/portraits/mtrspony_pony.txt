@@ -47,6 +47,7 @@ portrait_groups = {
 					mtrspony_pony_earth_maud_pie
 					mtrspony_pony_earth_cheerilee
 					mtrspony_pony_earth_twilight_velvet
+					mtrspony_pony_earth_luna_s1
 					mtrspony_pony_earth_babs_seed
 					mtrspony_pony_earth_apple_bloom
 					mtrspony_pony_earth_scootaloo
@@ -56,12 +57,14 @@ portrait_groups = {
 					mtrspony_pony_unicorn_sugar_belle
 					mtrspony_pony_unicorn_starlight_glimmer_equalist
 					mtrspony_pony_unicorn_trixie
+					mtrspony_pony_unicorn_luna_s1
 					mtrspony_pony_unicorn_sweetie_belle_older
 					mtrspony_pony_unicorn_apple_bloom
 					mtrspony_pony_pegasus_spitfire
 					mtrspony_pony_pegasus_mrs_shy
 					mtrspony_pony_pegasus_fluttershy
 					mtrspony_pony_pegasus_rainbow_dash
+					mtrspony_pony_pegasus_luna_s1
 					mtrspony_pony_pegasus_cozy_glow_older
 					mtrspony_pony_pegasus_scootaloo
 					mtrspony_pony_pegasus_apple_bloom
@@ -69,6 +72,7 @@ portrait_groups = {
 					mtrspony_pony_alicorn_celestia
 					mtrspony_pony_alicorn_daybreaker
 					mtrspony_pony_alicorn_luna
+					mtrspony_pony_alicorn_luna_s1
 					mtrspony_pony_alicorn_nightmare_moon
 					mtrspony_pony_alicorn_twilight_sparkle
 					mtrspony_pony_alicorn_apple_bloom
@@ -88,6 +92,7 @@ portrait_groups = {
 					mtrspony_pony_earth_maud_pie
 					mtrspony_pony_earth_cheerilee
 					mtrspony_pony_earth_twilight_velvet
+					mtrspony_pony_earth_luna_s1
 					mtrspony_pony_earth_babs_seed
 					mtrspony_pony_earth_apple_bloom
 					mtrspony_pony_earth_scootaloo
@@ -97,12 +102,14 @@ portrait_groups = {
 					mtrspony_pony_unicorn_sugar_belle
 					mtrspony_pony_unicorn_starlight_glimmer_equalist
 					mtrspony_pony_unicorn_trixie
+					mtrspony_pony_unicorn_luna_s1
 					mtrspony_pony_unicorn_sweetie_belle_older
 					mtrspony_pony_unicorn_apple_bloom
 					mtrspony_pony_pegasus_spitfire
 					mtrspony_pony_pegasus_mrs_shy
 					mtrspony_pony_pegasus_fluttershy
 					mtrspony_pony_pegasus_rainbow_dash
+					mtrspony_pony_pegasus_luna_s1
 					mtrspony_pony_pegasus_cozy_glow_older
 					mtrspony_pony_pegasus_scootaloo
 					mtrspony_pony_pegasus_apple_bloom
@@ -110,6 +117,7 @@ portrait_groups = {
 					mtrspony_pony_alicorn_celestia
 					mtrspony_pony_alicorn_daybreaker
 					mtrspony_pony_alicorn_luna
+					mtrspony_pony_alicorn_luna_s1
 					mtrspony_pony_alicorn_nightmare_moon
 					mtrspony_pony_alicorn_twilight_sparkle
 					mtrspony_pony_alicorn_apple_bloom
@@ -150,6 +158,7 @@ portrait_groups = {
 					mtrspony_pony_earth_maud_pie
 					mtrspony_pony_earth_cheerilee
 					mtrspony_pony_earth_twilight_velvet
+					mtrspony_pony_earth_luna_s1
 					mtrspony_pony_earth_babs_seed
 					mtrspony_pony_earth_apple_bloom
 					mtrspony_pony_earth_scootaloo
@@ -159,12 +168,14 @@ portrait_groups = {
 					mtrspony_pony_unicorn_sugar_belle
 					mtrspony_pony_unicorn_starlight_glimmer_equalist
 					mtrspony_pony_unicorn_trixie
+					mtrspony_pony_unicorn_luna_s1
 					mtrspony_pony_unicorn_sweetie_belle_older
 					mtrspony_pony_unicorn_apple_bloom
 					mtrspony_pony_pegasus_spitfire
 					mtrspony_pony_pegasus_mrs_shy
 					mtrspony_pony_pegasus_fluttershy
 					mtrspony_pony_pegasus_rainbow_dash
+					mtrspony_pony_pegasus_luna_s1
 					mtrspony_pony_pegasus_cozy_glow_older
 					mtrspony_pony_pegasus_scootaloo
 					mtrspony_pony_pegasus_apple_bloom
@@ -172,6 +183,7 @@ portrait_groups = {
 					mtrspony_pony_alicorn_celestia
 					mtrspony_pony_alicorn_daybreaker
 					mtrspony_pony_alicorn_luna
+					mtrspony_pony_alicorn_luna_s1
 					mtrspony_pony_alicorn_nightmare_moon
 					mtrspony_pony_alicorn_twilight_sparkle
 					mtrspony_pony_alicorn_apple_bloom
@@ -239,6 +251,7 @@ portrait_groups = {
 					mtrspony_pony_earth_maud_pie
 					mtrspony_pony_earth_cheerilee
 					mtrspony_pony_earth_twilight_velvet
+					mtrspony_pony_earth_luna_s1
 					mtrspony_pony_earth_babs_seed
 					mtrspony_pony_earth_apple_bloom
 					mtrspony_pony_earth_scootaloo
@@ -248,12 +261,14 @@ portrait_groups = {
 					mtrspony_pony_unicorn_sugar_belle
 					mtrspony_pony_unicorn_starlight_glimmer_equalist
 					mtrspony_pony_unicorn_trixie
+					mtrspony_pony_unicorn_luna_s1
 					mtrspony_pony_unicorn_sweetie_belle_older
 					mtrspony_pony_unicorn_apple_bloom
 					mtrspony_pony_pegasus_spitfire
 					mtrspony_pony_pegasus_mrs_shy
 					mtrspony_pony_pegasus_fluttershy
 					mtrspony_pony_pegasus_rainbow_dash
+					mtrspony_pony_pegasus_luna_s1
 					mtrspony_pony_pegasus_cozy_glow_older
 					mtrspony_pony_pegasus_scootaloo
 					mtrspony_pony_pegasus_apple_bloom
@@ -261,6 +276,7 @@ portrait_groups = {
 					mtrspony_pony_alicorn_celestia
 					mtrspony_pony_alicorn_daybreaker
 					mtrspony_pony_alicorn_luna
+					mtrspony_pony_alicorn_luna_s1
 					mtrspony_pony_alicorn_nightmare_moon
 					mtrspony_pony_alicorn_twilight_sparkle
 					mtrspony_pony_alicorn_apple_bloom
