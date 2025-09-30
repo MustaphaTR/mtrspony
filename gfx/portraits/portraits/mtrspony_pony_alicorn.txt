@@ -134,6 +134,7 @@ portraits = {
 			"gfx/models/portraits/pony_alicorn/luna/luna_alt11.dds"
 			"gfx/models/portraits/pony_alicorn/luna/luna_alt12.dds"
 			"gfx/models/portraits/pony_alicorn/luna/luna_alt13.dds"
+			"gfx/models/portraits/pony_alicorn/luna/luna_alt14.dds"
 		}
 
 		custom_attachment_label = "HAIR_COLOR"

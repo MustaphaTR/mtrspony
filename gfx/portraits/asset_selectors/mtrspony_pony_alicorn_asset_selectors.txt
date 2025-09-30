@@ -581,6 +581,7 @@ mtrspony_pony_alicorn_luna_hair_selector = {
 				"gfx/models/portraits/pony_alicorn/luna/luna_hair_alt12.dds"
 				"gfx/models/portraits/pony_alicorn/luna/luna_hair_alt13.dds"
 				"gfx/models/portraits/pony_alicorn/luna/luna_hair_alt14.dds"
+				"gfx/models/portraits/pony_alicorn/luna/luna_hair_alt15.dds"
 			}
 		}
 	}
@@ -603,6 +604,7 @@ mtrspony_pony_alicorn_luna_hair_selector = {
 				"gfx/models/portraits/pony_alicorn/luna/luna_hair_alt12.dds"
 				"gfx/models/portraits/pony_alicorn/luna/luna_hair_alt13.dds"
 				"gfx/models/portraits/pony_alicorn/luna/luna_hair_alt14.dds"
+				"gfx/models/portraits/pony_alicorn/luna/luna_hair_alt15.dds"
 			}
 		}
 	}
@@ -625,6 +627,7 @@ mtrspony_pony_alicorn_luna_hair_selector = {
 				"gfx/models/portraits/pony_alicorn/luna/luna_hair_alt12.dds"
 				"gfx/models/portraits/pony_alicorn/luna/luna_hair_alt13.dds"
 				"gfx/models/portraits/pony_alicorn/luna/luna_hair_alt14.dds"
+				"gfx/models/portraits/pony_alicorn/luna/luna_hair_alt15.dds"
 			}
 		}	
 	}
@@ -662,6 +665,7 @@ mtrspony_pony_alicorn_luna_clothes_selector = {
 				"gfx/models/portraits/pony_alicorn/luna/luna_regalia_alt13.dds"
 				"gfx/models/portraits/pony_alicorn/luna/luna_regalia_alt14.dds"
 				"gfx/models/portraits/pony_alicorn/luna/luna_regalia_alt15.dds"
+				"gfx/models/portraits/pony_alicorn/luna/luna_regalia_alt16.dds"
 			}
 		}
 	}
@@ -685,6 +689,7 @@ mtrspony_pony_alicorn_luna_clothes_selector = {
 				"gfx/models/portraits/pony_alicorn/luna/luna_regalia_alt13.dds"
 				"gfx/models/portraits/pony_alicorn/luna/luna_regalia_alt14.dds"
 				"gfx/models/portraits/pony_alicorn/luna/luna_regalia_alt15.dds"
+				"gfx/models/portraits/pony_alicorn/luna/luna_regalia_alt16.dds"
 			}
 		}
 	}
@@ -708,6 +713,7 @@ mtrspony_pony_alicorn_luna_clothes_selector = {
 				"gfx/models/portraits/pony_alicorn/luna/luna_regalia_alt13.dds"
 				"gfx/models/portraits/pony_alicorn/luna/luna_regalia_alt14.dds"
 				"gfx/models/portraits/pony_alicorn/luna/luna_regalia_alt15.dds"
+				"gfx/models/portraits/pony_alicorn/luna/luna_regalia_alt16.dds"
 			}
 		}
 	}
