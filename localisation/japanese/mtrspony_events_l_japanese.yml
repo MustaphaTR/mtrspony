@@ -6,6 +6,7 @@
  mtrspony_setup.1.b:0 "Spawn £pops£ §Y100§! each of other species."
  mtrspony_setup.1.c:0 "Adjust pop amount according to §YEquestria at War§! populations."
  mtrspony_setup.1.d:0 "Adjust pop amount, but keep §Y[Root.GetSpeciesNamePlural]§! as the most populous."
+ mtrspony_setup.1.e:0 "Make each species start with equal pop amount."
  mtrspony_setup.3.name:0 "MustaphaTR's Pony Mod - Multi-Species Setup - AI"
  mtrspony_setup.3.desc:0 "Hello there. MustaphaTR here.\n\nIt seems like there are AI players in your game using the portraits from my pony mod called §Y[From.GetRealName]§!. Would you like them to have variety of MLP species that the mod has portraits for on their planet?"
  mtrspony_setup.3.a:0 "No, keep using §Y[From.GetSpeciesNamePlural]§! only."

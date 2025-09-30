@@ -46,6 +46,17 @@ country_event = {
 		}
 	}
 	option = {
+		name = mtrspony_setup.1.e
+		hidden_effect = {
+			capital_scope = {
+				calculate_mtrspony_pop_count_equal = yes
+				spawn_other_mtrspony_species = yes
+			}
+
+			set_country_flag = using_mtrspony_multi_species_setup
+		}
+	}
+	option = {
 		name = mtrspony_setup.1.c
 		hidden_effect = {
 			capital_scope = {
@@ -131,6 +142,17 @@ country_event = {
 
 				set_country_flag = using_mtrspony_multi_species_setup
 			}
+		}
+	}
+	option = {
+		name = mtrspony_setup.1.e
+		hidden_effect = {
+			capital_scope = {
+				calculate_mtrspony_pop_count_equal = yes
+				spawn_other_mtrspony_species = yes
+			}
+
+			set_country_flag = using_mtrspony_multi_species_setup
 		}
 	}
 	option = {

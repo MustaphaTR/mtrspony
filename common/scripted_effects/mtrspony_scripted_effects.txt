@@ -151,6 +151,30 @@ save_current_mtrspony_species = {
 	}
 }
 
+calculate_mtrspony_pop_count_equal = {
+	export_trigger_value_to_variable = {
+		trigger = count_owned_pop_amount
+		parameters = {
+			limit = { is_same_species = owner_main_species }
+		}
+		variable = equal_pops
+	}
+	divide_variable = { which = equal_pops value = 9 }
+	round_variable_to_closest = { which = equal_pops value = 5 }
+
+	set_variable = { which = pony_pops value = equal_pops }
+	set_variable = { which = griffon_pops value = equal_pops }
+	set_variable = { which = zebra_pops value = equal_pops }
+	set_variable = { which = deer_pops value = equal_pops }
+	set_variable = { which = changeling_pops value = equal_pops }
+	set_variable = { which = hippogriff_pops value = equal_pops }
+	set_variable = { which = kirin_pops value = equal_pops }
+	set_variable = { which = yak_pops value = equal_pops }
+	set_variable = { which = dragon_pops value = equal_pops }
+
+	calculate_pops_to_remove = yes
+}
+
 calculate_mtrspony_pop_count_default = {
 	if = {
 		limit = {
@@ -635,7 +659,13 @@ calculate_mtrspony_pop_count_dragon = {
 }
 
 calculate_pops_to_remove = {
-	set_variable = { which = pops_to_remove value = trigger:pop_amount }
+	export_trigger_value_to_variable = {
+		trigger = count_owned_pop_amount
+		parameters = {
+			limit = { is_same_species = owner_main_species }
+		}
+		variable = pops_to_remove
+	}
 	if = {
 		limit = { owner = { has_mtrspony_pony_portrait = yes } }
 
