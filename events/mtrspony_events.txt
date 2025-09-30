@@ -403,9 +403,11 @@ country_event = {
 						OR = {
 							AND = {
 								leader_class = commander
-								OR = {
-									ROOT = { NOT = { has_technology = tech_robotic_workers } }
-									has_policy_flag = robots_outlawed
+								ROOT = {
+									OR = {
+										NOT = { has_technology = tech_robotic_workers }
+										has_policy_flag = robots_outlawed
+									}
 								}
 							}
 							AND = {
