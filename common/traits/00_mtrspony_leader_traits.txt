@@ -1254,11 +1254,22 @@ leader_trait_cutie_mark_voidcraft = {
 		category_voidcraft_research_speed_mult = 0.075
 		category_voidcraft_draw_chance_mult = 0.125
 	}
+	triggered_councilor_modifier = {
+		potential = {
+			leader_class = official
+			OR = {
+				is_councilor = yes
+				trait_is_gestalt_check = no
+			}
+		}
+		shipclass_mining_station_build_speed_mult = 0.05
+		shipclass_research_station_build_speed_mult = 0.05
+	}
 	triggered_fleet_modifier = {
 		potential = { leader_class = commander }
 		ship_hull_mult = 0.1
 	}
-	leader_class = { commander scientist }
+	leader_class = { commander scientist official }
 	selectable_weight = 0
 	randomized = no
 }

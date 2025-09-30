@@ -196,3 +196,4 @@
 - Version 0.4.0 (XX.10.2025):
 -- Added pony portrait sets based on Season 1 appearance of Princess Luna.
 -- Adjusted some colors options for Luna portrait and added one more color option.
+-- Added Official version of Voidcraft Cutie Mark trait.

@@ -6,3 +6,4 @@
  mod_ships_minor_artifacts_upkeep_mult:0 "Unterhalt an £minor_artifacts£ Kleinere Artefakte (Schiffe)"
  mod_planet_structures_minerals_cost_mult:0 "Mineralbaukosten (Distrikte und Gebäude)"
  mod_starbase_buildings_food_produces_mult:0 "$r_food$ durch Sternenbasen-Gebäude"
+ mod_shipclass_research_station_build_speed_mult:0 "Baugeschwindigkeit (Forschungsstation)"

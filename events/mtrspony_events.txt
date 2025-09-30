@@ -508,12 +508,9 @@ country_event = {
 				10 = {
 					modifier = {
 						factor = 0
-						OR = {
-							leader_class = official
-							AND = {
-								leader_class = scientist
-								can_leader_get_council_trait_trigger = no
-							}
+						AND = {
+							NOT = { leader_class = commander }
+							can_leader_get_council_trait_trigger = no
 						}
 					}
 
