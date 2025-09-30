@@ -1,4 +1,5 @@
 ﻿l_korean:
+ ### Multi-Species Setup Events
  mtrspony_setup.1.name:0 "MustaphaTR's Pony Mod - Multi-Species Setup"
  mtrspony_setup.1.desc:0 "Hello there. MustaphaTR here.\n\nIt seems like you are using the portraits from my pony mod. Would you like to have variety of MLP species that the mod has portraits for on your planet?"
  mtrspony_setup.1.a:0 "No, keep using §Y[Root.GetSpeciesNamePlural]§! only."
@@ -10,7 +11,14 @@
  mtrspony_setup.3.a:0 "No, keep using §Y[From.GetSpeciesNamePlural]§! only."
  mtrspony_setup.3.d:0 "Adjust pop amount, but keep §Y[From.GetSpeciesNamePlural]§! as the most populous."
 
+ ### Gigastructural Engineering Compability Events
  gigacompat.2.name:0 "Faust Civilisations - Portraits"
  gigacompat.2.desc:0 "Hello there. MustaphaTR here.\n\nIt seems like you have both my pony portraits mod and Gigastructural Engineering enabled, and latter's Faustian Civilisations pre-FTL country seems to have appeared on this galaxy. Would you like them to use my mod's portraits, rather than the basegame ones that Gigastructural Engineering normally use?"
  gigacompat.2.a:0 "Yes, use the portraits from MustaphaTR's Pony Mod."
  gigacompat.2.b:0 "No, use the basegame portraits."
+
+ ### Prescripted Country Special Events
+ # Scootaloo's Cybernetics
+ tcsstart.4.name:0 "The Path Already Chosen"
+ tcsstart.4.desc:0 "While paving the path of our future with §MPsionics§!, we discovered they were incompatible with the §ECybernetic§! implants §Y[Root.GetName]§! and few others have been using for a long time. Removing the implants at this point is impossible for the most, as they owe their longevity to those implants. As such, a group of engineers led by §YLeopold Schmeller§!, who had initially developed the implants, had started working on improvements to the §ECybernetics§!. Their work has finally brought fruit, ensuring that the §ECyborg§! minority doesn't stay behind, but progress through the different path they had chosen."
+ tcsstart.4.a:0 "Good work, everycreature."

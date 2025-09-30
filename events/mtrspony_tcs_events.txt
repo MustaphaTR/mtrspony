@@ -265,3 +265,66 @@ country_event = {
 		}
 	}
 }
+
+# Scootaloo starts with Limited Cyborg trait, which means he can't get Psionics. Let her progress with the Cybernetics, even if we are going to another path.
+country_event = {
+	id = tcsstart.3
+	hide_window = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	trigger = {
+		has_country_flag = the_crusader_state
+		OR = {
+			has_tradition = tr_psionics_adopt
+			has_tradition = tr_psionics_shroud_adopt
+		}
+	}
+	immediate = {
+		event_target:leader_scootaloo = {
+			leader_event = {
+				id = tcsstart.4
+				days = 1440
+				random = 720
+			}
+		}
+	}
+}
+leader_event = {
+	id = tcsstart.4
+	title = "tcsstart.4.name"
+	desc = "tcsstart.4.desc"
+	picture = GFX_evt_cybernetics
+	show_sound = event_default
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	event_window_type = leader_story
+	event_picture_background = "GFX_leader_recruitment_bg_renowned"
+
+	picture_event_data = {
+		portrait = root
+	}
+
+	trigger = {
+		has_trait = leader_trait_limited_cyborg
+		owner = {
+			has_country_flag = the_crusader_state
+			OR = {
+				has_tradition = tr_psionics_adopt
+				has_tradition = tr_psionics_shroud_adopt
+			}
+		}
+	}
+
+	option = {
+		name = tcsstart.4.a
+
+		hidden_effect = { remove_trait = leader_trait_limited_cyborg }
+		add_trait = {
+			trait = leader_trait_cyborg
+			show_message = no
+		}
+		add_resource = { engineering_research = 5000 }
+	}
+}

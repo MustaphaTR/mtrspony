@@ -71,11 +71,14 @@ on_monthly_pulse_country = { # Above only triggers with manual species modificat
 	}
 }
 
-on_tradition_picked = { # Workaround to apply tradition effects to all starting species.
+on_tradition_picked = {
 	events = {
+		# Workaround to apply tradition effects to all starting species.
 		mtrspony.1
 		mtrspony.2
 		mtrspony.4
+
+		tcsstart.3
 	}
 }
 
