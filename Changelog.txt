@@ -200,3 +200,6 @@
 -- Added another option to the Multi-Species setup event to start with equal amount of pops of each species.
 -- Added a custom event for The Crusader State prescripted country, giving Scootaloo proper Cyborg trait, if the player went Psionics ascention path.
 -- Fixed Multi-Species setup removing more of your primary species' pops than needed when there's a secondary one, like with Mechanist origin.
+
+- Version 0.4.1 (XX.10.2025):
+-- Adjusted one color option for Cozy Glow portraits, added one more color option, and added Earth Pony, Unicorn and Alicorn variants for her.
