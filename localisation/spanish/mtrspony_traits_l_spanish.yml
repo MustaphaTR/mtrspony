@@ -99,13 +99,19 @@
 
  leader_trait_mtrspony_disconnected:0 "Desconectada"
  leader_trait_mtrspony_disconnected_desc:0 "This leader is not a part of the hive-mind."
+ leader_trait_redeemed_villain:0 "Villana Redimida"
+ leader_trait_redeemed_villain_desc:0 "This leader has a past of villainy, but they have sworn off of it and has since switched to the side of the good."
 
  leader_trait_mtrspony_immortal:0 "Inmortal"
  leader_trait_mtrspony_immortal_desc:0 "This leader has managed to defeat death, despite their species not otherwise being immortals."
  leader_trait_lich:0 "Lich"
  leader_trait_lich_desc:0 "This leader has mastered necromancy and used it to find life after death."
+ leader_trait_alicorn_generic:0 "Alicornio"
+ leader_trait_alicorn_generic_desc:0 "Whether born as one or became one following an incredible feat of magic, this pony is an Alicorn, who has the powers of all three pony races and are immortal."
+ leader_trait_alicorn_of_magic:0 "Alicornio de la Magia"
+ leader_trait_alicorn_of_magic_desc:0 "This pony became an Alicorn following an incredible feat of magic, granting them the powers of all three pony races, and became a symbol of the Magic within the nation."
  leader_trait_alicorn_of_industry:0 "Alicornio de la Industria"
- leader_trait_alicorn_of_industry_desc:0 "This pony became an alicorn following an incredible feat of magic, granting them the powers of all three pony races and became a symbol of the Industrial Development within the nation."
+ leader_trait_alicorn_of_industry_desc:0 "This pony became an Alicorn following an incredible feat of magic, granting them the powers of all three pony races, and became a symbol of the Industrial Development within the nation."
  leader_trait_maar_chosen:0 "Elegidos de Maar"
  leader_trait_maar_chosen_desc:0 "This leader has been chosen to wield the powers of the God of Death of their species. Their close relationship with the eldritch being, ironically means they are immune from the death itself."
 

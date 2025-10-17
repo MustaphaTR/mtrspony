@@ -19,8 +19,8 @@ country_event = {
 			skill = 1
 			set_age = 281
 			immortal = yes
-			background_job = "head_researcher"
-			background_ethic = "ethic_xenophile"
+			background_job = head_researcher
+			background_ethic = ethic_xenophile
 			skip_background_generation = yes
 			randomize_traits = no
 			traits = {
@@ -48,8 +48,8 @@ country_event = {
 			skill = 1
 			set_age = 281
 			immortal = yes
-			background_job = "farmer"
-			background_ethic = "ethic_egalitarian"
+			background_job = farmer
+			background_ethic = ethic_egalitarian
 			skip_background_generation = yes
 			randomize_traits = no
 			traits = {
@@ -81,8 +81,8 @@ country_event = {
 			skill = 1
 			set_age = 281
 			immortal = yes
-			background_job = "commanding_officer"
-			background_ethic = "ethic_militarist"
+			background_job = commanding_officer
+			background_ethic = ethic_militarist
 			skip_background_generation = yes
 			randomize_traits = no
 			traits = {
@@ -115,8 +115,8 @@ country_event = {
 			skill = 1
 			set_age = 281
 			immortal = yes
-			background_job = "hairdresser"
-			background_ethic = "ethic_egalitarian"
+			background_job = hairdresser
+			background_ethic = ethic_egalitarian
 			skip_background_generation = yes
 			randomize_traits = no
 			traits = {
@@ -263,6 +263,9 @@ country_event = {
 		event_target:leader_gabby = {
 			change_leader_portrait = "mtrspony_griffon_gabby_predefined"
 		}
+		event_target:leader_cozy_glow = {
+			change_leader_portrait = "mtrspony_pony_alicorn_cozy_glow_older_predefined"
+		}
 	}
 }
 
@@ -326,5 +329,177 @@ leader_event = {
 			show_message = no
 		}
 		add_resource = { engineering_research = 5000 }
+	}
+}
+
+# Cozy Glow offers to run our Penal Colony.
+country_event = {
+	id = tcsstart.5
+	hide_window = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	trigger = {
+		has_country_flag = the_crusader_state
+		last_increased_tech = tech_penal_colonies
+	}
+	immediate = {
+		set_variable = { which = cozy_recruitment_days value = 360 }
+		set_variable = { which = cozy_recruitment_random value = 360 }
+		if = {
+			limit = { count_starbase_buildings = { type = recruitment_office count > 1 } }
+
+			multiply_variable = { which = cozy_recruitment_days value = 0.8 }
+			multiply_variable = { which = cozy_recruitment_random value = 0.8 }
+		}
+		leader_event = {
+			id = tcsstart.6
+			days = var:cozy_recruitment_days
+			random = var:cozy_recruitment_random
+		}
+	}
+}
+country_event = { # She only offers becoming leader if we have assigned a penal colony, if not continue to check every month until we do.
+	id = tcsstart.6
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		has_country_flag = the_crusader_state
+		has_technology = tech_penal_colonies
+	}
+	immediate = {
+		if = {
+			limit = { any_owned_planet = { has_modifier = penal_colony } }
+
+			leader_event = { id = tcsstart.7 }
+		}
+		else = {
+			leader_event = { id = tcsstart.6 days = 30 }
+		}
+	}
+}
+country_event = {
+	id = tcsstart.7
+	title = "tcsstart.7.name"
+	desc = "tcsstart.7.desc"
+	show_sound = human_female_greetings_01
+	is_triggered_only = yes
+
+	picture = GFX_leader_recruitment_bg_renowned
+	auto_opens = no
+	event_window_type = leader_recruit
+	notification_event_icon = "GFX_message_leader_recruitment_cozy_glow"
+
+	immediate = {
+		mtrspony_ethic_leader_creator = {
+			SPECIES = event_target:pony_species@ROOT
+			LEADER_PORTRAIT = mtrspony_pony_alicorn_cozy_glow_older_predefined
+			CLASS = official
+			TIER = leader_tier_renowned
+			NAME = PRESCRIPTED_ruler_name_cozy_glow
+			LEVEL = 4
+			GENDER = female
+			IMMORTAL = no
+			ETHIC = authoritarian
+			DESC = PRESCRIPTED_ruler_name_cozy_glow_desc
+			CATCH_PHRASE = PRESCRIPTED_ruler_name_cozy_glow_catch_phrase
+		}
+		last_created_leader = {
+			remove_all_traits = yes # Removes the generic Cutie Mark trait added by mtrspony.6.
+			if = {
+				limit = { species = { has_trait = trait_cutie_marks } } # Just in case trait was removed, even tho it makes no sense to do it as TSC.
+
+				add_trait = { trait = leader_trait_cutie_mark_cozy_glow }
+			}
+			if = { # These would've been automatically added normally, but i called remove_all_traits above, it is either this, or check for all the cutie mark traits.
+				limit = { species = { has_trait = trait_limited_cybernetic } }
+
+				add_trait = { trait = leader_trait_limited_cyborg }
+			}
+			else_if = {
+				limit = { species = { has_trait = trait_cybernetic } }
+
+				add_trait = { trait = leader_trait_cyborg }
+			}
+			else_if = {
+				limit = { species = { has_trait = trait_psionic } }
+
+				add_trait = { trait = leader_trait_psionic }
+			}
+			if = {
+				limit = { species = { has_trait = trait_erudite } }
+
+				add_trait = { trait = leader_trait_erudite }
+			}
+			add_trait = {
+				trait = leader_trait_redeemed_villain
+				consume_selection = yes
+			}
+			add_trait = {
+				trait = subclass_official_governor
+				consume_selection = yes
+			}
+			add_trait = {
+				trait = leader_trait_mtrspony_alicorn_generic
+				consume_selection = yes
+			}
+			add_trait = {
+				trait = trait_ruler_charismatic
+				consume_selection = yes
+			}
+			add_trait = {
+				trait = leader_trait_pop_focused
+				consume_selection = yes
+			}
+			add_trait = { trait = leader_trait_stubborn }
+			export_trigger_value_to_variable = { trigger = years_passed variable = cozy_starting_age }
+			change_variable = { which = cozy_starting_age value = 279 }
+			set_age = cozy_starting_age
+		}
+	}
+
+	picture_event_data = {
+		portrait = event_target:ethic_leader
+		room = ethic_spaceship_room
+	}
+
+	option = {
+		name = DISMISS
+		tag = dismiss_leader
+		hidden_effect = {
+			ethic_leader_kill_effect = yes
+			set_country_flag = dismissed_cozy_glow
+		}
+	}
+	option = {
+		name = tcsstart.7.a
+		response_text = tcsstart.7.a.response
+		is_dialog_only = yes
+	}
+	option = {
+		name = tcsstart.7.b
+		response_text = tcsstart.7.b.response
+		is_dialog_only = yes
+	}
+	option = {
+		name = tcsstart.7.c
+		response_text = tcsstart.7.c.response
+		is_dialog_only = yes
+	}
+	option = {
+		name = HIRE
+		tag = hire_leader
+		custom_tooltip = tcsstart.7.hire_custom_tooltip
+		hidden_effect = {
+			ethic_leader_hire_effect = {
+				GLOBAL_EVENT_TARGET = leader_cozy_glow
+			}
+			random_owned_planet = {
+				limit = { has_modifier = penal_colony }
+
+				assign_leader = event_target:leader_cozy_glow
+			}
+		}
 	}
 }

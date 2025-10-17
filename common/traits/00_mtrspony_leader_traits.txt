@@ -1576,8 +1576,42 @@ leader_trait_lich = {
 		TIER = none
 	}
 	councilor_modifier = {
-		category_field_manipulation_research_speed_mult = 0.1
-		category_field_manipulation_draw_chance_mult = 0.15
+		category_field_manipulation_research_speed_mult = 0.075
+		category_field_manipulation_draw_chance_mult = 0.125
+	}
+	immortal_leaders = yes
+	leader_class = { commander scientist official }
+	selectable_weight = 0
+	randomized = no
+}
+
+leader_trait_mtrspony_alicorn_generic = {
+	inline_script = {
+		script = trait/icon
+		CLASS = leader
+		ICON = "GFX_leader_trait_alicorn"
+		RARITY = common
+		COUNCIL = no
+		TIER = none
+	}
+	immortal_leaders = yes
+	leader_class = { commander scientist official }
+	selectable_weight = 0
+	randomized = no
+}
+
+leader_trait_mtrspony_alicorn_of_magic = {
+	inline_script = {
+		script = trait/icon_physics
+		CLASS = leader
+		ICON = "GFX_leader_trait_alicorn"
+		RARITY = common
+		COUNCIL = no
+		TIER = none
+	}
+	councilor_modifier = {
+		category_field_manipulation_research_speed_mult = 0.075
+		category_field_manipulation_draw_chance_mult = 0.125
 	}
 	immortal_leaders = yes
 	leader_class = { commander scientist official }
@@ -1595,8 +1629,8 @@ leader_trait_alicorn_of_industry = {
 		TIER = none
 	}
 	councilor_modifier = {
-		category_industry_research_speed_mult = 0.1
-		category_industry_draw_chance_mult = 0.15
+		category_industry_research_speed_mult = 0.075
+		category_industry_draw_chance_mult = 0.125
 	}
 	immortal_leaders = yes
 	leader_class = { commander scientist official }
@@ -1616,44 +1650,42 @@ leader_trait_maar_chosen = {
 	}
 	# Any Class - Ruler
 	triggered_councilor_modifier = {
-		potential = {
-			is_ruler = yes
-		}
+		potential = { is_ruler = yes }
 		ships_upkeep_mult = -0.05
 		starbase_shipyard_build_cost_mult = -0.05
 		starbase_shipyard_build_speed_mult = 0.10
+		mult = value:transcended_psionic_multiplier
 	}
 	# Official - GalCom Modifier
 	triggered_galcom_modifier = {
-		potential = {
-			is_ruler = no
-			leader_class = official
-		}
+		potential = { is_ruler = no }
 		resolutions_cost_mult = -0.05
 		resolution_category_mutualdefense_vote_strength_mult = 0.125
+		mult = value:transcended_psionic_multiplier
 	}
 	# Official - Federation Modifier
 	triggered_federation_modifier = {
-		potential = {
-			is_ruler = no
-			leader_class = official
-		}
+		potential = { is_ruler = no }
 		federation_experience_add = 0.5
 		cohesion_ethics_penalty_mult = -0.125
+		mult = value:transcended_psionic_multiplier
 	}
 	# Any Class - Planet Modifier
 	triggered_planet_modifier = {
-		potential = {
-			is_ruler = no
-		}
+		potential = { is_ruler = no }
 		job_soldier_per_pop = 0.05
+		mult = value:transcended_psionic_multiplier
 	}
 	# Any Class - Sector Modifier
 	triggered_sector_modifier = {
-		potential = {
-			is_ruler = no
-		}
+		potential = { is_ruler = no }
 		job_soldier_per_pop = 0.025
+		mult = value:transcended_psionic_multiplier
+	}
+	triggered_councilor_modifier = {
+		potential = { is_ruler = yes }
+		country_ruler_influence_produces_add = 0.25
+		mult = value:transcended_psionic_multiplier
 	}
 	leader_class = { official }
 	opposites = {
@@ -1667,6 +1699,59 @@ leader_trait_maar_chosen = {
 }
 
 #### Other Special Traits
+leader_trait_redeemed_villain = {
+	leader_trait_type = destiny
+	inline_script = {
+		script = trait/icon
+		CLASS = leader
+		ICON = "GFX_leader_trait_sadistic"
+		RARITY = paragon
+		COUNCIL = no
+		TIER = none
+	}
+	on_gained_effect = {
+		owner = {
+			country_event = { id = timeline.50 } # Timeline First Leader with Destiny Trait
+		}
+	}
+
+	sector_modifier = {
+		planet_crime_add = -15
+		planet_stability_add = 5
+	}
+	triggered_sector_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_gestalt = no }
+		}
+		pop_happiness = -0.05
+	}
+
+	planet_modifier = {
+		planet_crime_add = -30
+		planet_stability_add = 10
+	}
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_gestalt = no }
+		}
+		pop_happiness = -0.10
+	}
+
+	opposites = {
+		leader_trait_corrupt
+		leader_trait_corrupt_2
+		leader_trait_lawless
+		leader_trait_lawless_2
+	}
+	leader_class = { official }
+	selectable_weight = 0
+	initial = no
+	randomized = no
+	background_icon = "GFX_leader_background_destiny_1"
+}
+
 leader_trait_mtrspony_disconnected = {
 	leader_trait_type = negative
 	inline_script = {

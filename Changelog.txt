@@ -202,4 +202,5 @@
 -- Fixed Multi-Species setup removing more of your primary species' pops than needed when there's a secondary one, like with Mechanist origin.
 
 - Version 0.4.1 (XX.10.2025):
+-- Added Alicorn of Magic and Alicorn leader traits for some named characters in prescripted countries.
 -- Adjusted one color option for Cozy Glow portraits, added one more color option, and added Earth Pony, Unicorn and Alicorn variants for her.

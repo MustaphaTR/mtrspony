@@ -512,6 +512,21 @@ entity = {
 	scale = 0.9
 }
 entity = {
+	name = "portrait_dummy_cozy_glow_alicorn_small_entity" # The Crusader State version.
+	pdxmesh = "portrait_dummy_cozy_glow_alicorn_mesh"
+
+	default_state = "idle"
+	state = {
+		name = "idle"
+		animation = "idle"
+		animation_blend_time = 0
+		chance = 4.0
+		looping = no
+		next_state = idle
+	}
+	scale = 0.8
+}
+entity = {
 	name = "portrait_dummy_cozy_glow_unicorn_entity"
 	pdxmesh = "portrait_dummy_cozy_glow_unicorn_mesh"
 

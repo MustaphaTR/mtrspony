@@ -305,6 +305,17 @@ portraits = {
 		custom_attachment_label = "HAIR_COLOR"
 	}
 
+	mtrspony_pony_alicorn_cozy_glow_older_predefined = {
+		entity = "portrait_dummy_cozy_glow_alicorn_small_entity"
+		clothes_selector = "mtrspony_pony_pegasus_cozy_glow_older_predefined_clothes_selector"
+		attachment_selector = "mtrspony_pony_pegasus_cozy_glow_older_predefined_hair_selector"
+		greeting_sound = "human_female_greetings_01"
+
+		character_textures = {
+			"gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older.dds"
+		}
+	}
+
 	mtrspony_pony_alicorn_cadance_predefined = {
 		entity = "portrait_dummy_15p_left_entity"
 		clothes_selector = "mtrspony_no_clothes_selector"

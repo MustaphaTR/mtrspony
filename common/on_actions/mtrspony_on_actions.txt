@@ -71,6 +71,14 @@ on_monthly_pulse_country = { # Above only triggers with manual species modificat
 	}
 }
 
+# A country has increased the level of a tech, use last_increased_tech trigger to check tech and level.
+# This = Country
+on_tech_increased = {
+	events = {
+		tcsstart.5
+	}
+}
+
 on_tradition_picked = {
 	events = {
 		# Workaround to apply tradition effects to all starting species.

@@ -56,7 +56,7 @@ country_event = {
 				}
 				else = {
 					add_trait = {
-						trait = leader_trait_mtrspony_immortal
+						trait = leader_trait_mtrspony_alicorn_generic
 						show_message = no
 					}
 					change_background_ethic = ethic_spiritualist
@@ -88,7 +88,7 @@ country_event = {
 			skip_background_generation = yes
 			randomize_traits = no
 			traits = {
-				trait = leader_trait_mtrspony_immortal
+				trait = leader_trait_mtrspony_alicorn_of_magic
 
 				trait = leader_trait_cutie_mark_twilight_sparkle
 
@@ -151,7 +151,7 @@ country_event = {
 			skip_background_generation = yes
 			randomize_traits = no
 			traits = {
-				trait = leader_trait_mtrspony_immortal
+				trait = leader_trait_mtrspony_alicorn_generic
 
 				trait = leader_trait_cutie_mark_mi_amore_cadenza
 
@@ -196,7 +196,7 @@ country_event = {
 			skip_background_generation = yes
 			randomize_traits = no
 			traits = {
-				trait = leader_trait_mtrspony_immortal
+				trait = leader_trait_mtrspony_alicorn_generic
 
 				trait = leader_trait_cutie_mark_flurry_heart
 

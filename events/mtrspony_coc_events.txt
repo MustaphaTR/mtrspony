@@ -24,7 +24,7 @@ country_event = {
 			skip_background_generation = yes
 			randomize_traits = no
 			traits = {
-				trait = leader_trait_mtrspony_immortal
+				trait = leader_trait_mtrspony_alicorn_of_magic
 
 				trait = leader_trait_cutie_mark_dusk_shine
 
@@ -36,7 +36,15 @@ country_event = {
 				save_global_event_target_as = leader_dusk_shine
 				set_leader_flag = is_created_leader
 				change_leader_portrait = "mtrspony_pony_alicorn_dusk_shine_predefined"
-				ROOT = { assign_leader = event_target:leader_dusk_shine }
+				ROOT = {
+					leader = {
+						kill_leader = {
+							show_notification = no
+							fire = yes
+						}
+					}
+					assign_leader = event_target:leader_dusk_shine
+				}
 			}
 		}
 
@@ -46,19 +54,6 @@ country_event = {
 		capital_scope = {
 			calculate_mtrspony_pop_count_keep_majority = yes
 			spawn_other_mtrspony_species = yes
-		}
-
-		# Remove the auto-generated Dusk Shine.
-		random_owned_leader = {
-			limit = {
-				NOT = { has_leader_flag = is_created_leader }
-				has_trait = leader_trait_spark_of_genius
-			}
-
-			kill_leader = {
-				show_notification = no
-				fire = yes
-			}
 		}
 	}
 }
