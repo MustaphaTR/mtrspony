@@ -328,7 +328,7 @@ leader_event = {
 			trait = leader_trait_cyborg
 			show_message = no
 		}
-		add_resource = { engineering_research = 5000 }
+		owner = { add_resource = { engineering_research = 5000 } }
 	}
 }
 
@@ -352,7 +352,7 @@ country_event = {
 			multiply_variable = { which = cozy_recruitment_days value = 0.8 }
 			multiply_variable = { which = cozy_recruitment_random value = 0.8 }
 		}
-		leader_event = {
+		country_event = {
 			id = tcsstart.6
 			days = var:cozy_recruitment_days
 			random = var:cozy_recruitment_random
@@ -372,10 +372,10 @@ country_event = { # She only offers becoming leader if we have assigned a penal 
 		if = {
 			limit = { any_owned_planet = { has_modifier = penal_colony } }
 
-			leader_event = { id = tcsstart.7 }
+			country_event = { id = tcsstart.7 }
 		}
 		else = {
-			leader_event = { id = tcsstart.6 days = 30 }
+			country_event = { id = tcsstart.6 days = 30 }
 		}
 	}
 }
