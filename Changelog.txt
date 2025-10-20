@@ -203,5 +203,6 @@
 
 - Version 0.4.1 (XX.10.2025):
 -- Added Alicorn of Magic and Alicorn leader traits for some named characters in prescripted countries.
--- Adjusted one color option for Cozy Glow portraits, added one more color option, and added Earth Pony, Unicorn and Alicorn variants for her.
 -- Adjusted one color option for Applejack portraits and added one more color option.
+-- Adjusted some color options for Soarin' portraits, added two more color options, and added Earth Pony variants for him.
+-- Adjusted one color option for Cozy Glow portraits, added one more color option, and added Earth Pony, Unicorn and Alicorn variants for her.

@@ -170,6 +170,33 @@ portraits = {
 		custom_attachment_label = "HAIR_COLOR"
 	}
 
+	mtrspony_pony_earth_soarin = {
+		entity = "portrait_dummy_soarin_earth_entity"
+		clothes_selector = "mtrspony_pony_pegasus_soarin_clothes_selector"
+		attachment_selector = "mtrspony_pony_pegasus_soarin_hair_selector"
+		greeting_sound = "human_male_greetings_01"
+
+		character_textures = {
+			"gfx/models/portraits/pony_pegasus/soarin/soarin.tga"
+			"gfx/models/portraits/pony_pegasus/soarin/soarin_alt1.tga"
+			"gfx/models/portraits/pony_pegasus/soarin/soarin_alt2.tga"
+			"gfx/models/portraits/pony_pegasus/soarin/soarin_alt3.tga"
+			"gfx/models/portraits/pony_pegasus/soarin/soarin_alt4.tga"
+			"gfx/models/portraits/pony_pegasus/soarin/soarin_alt5.tga"
+			"gfx/models/portraits/pony_pegasus/soarin/soarin_alt6.tga"
+			"gfx/models/portraits/pony_pegasus/soarin/soarin_alt7.tga"
+			"gfx/models/portraits/pony_pegasus/soarin/soarin_alt8.tga"
+			"gfx/models/portraits/pony_pegasus/soarin/soarin_alt9.tga"
+			"gfx/models/portraits/pony_pegasus/soarin/soarin_alt10.tga"
+			"gfx/models/portraits/pony_pegasus/soarin/soarin_alt11.tga"
+			"gfx/models/portraits/pony_pegasus/soarin/soarin_alt12.tga"
+			"gfx/models/portraits/pony_pegasus/soarin/soarin_alt13.tga"
+			"gfx/models/portraits/pony_pegasus/soarin/soarin_alt14.tga"
+		}
+
+		custom_attachment_label = "HAIR_COLOR"
+	}
+
 	mtrspony_pony_earth_sandbar = {
 		entity = "portrait_dummy_10p_left_entity"
 		clothes_selector = "mtrspony_no_clothes_selector"
@@ -555,6 +582,7 @@ portrait_groups = {
 					mtrspony_pony_earth_mudbriar
 					mtrspony_pony_earth_igneous_rock_pie
 					mtrspony_pony_earth_fire_streak
+					mtrspony_pony_earth_soarin
 					mtrspony_pony_earth_sandbar
 					mtrspony_pony_earth_button_mash
 				}
@@ -612,6 +640,7 @@ portrait_groups = {
 					mtrspony_pony_earth_mudbriar
 					mtrspony_pony_earth_igneous_rock_pie
 					mtrspony_pony_earth_fire_streak
+					mtrspony_pony_earth_soarin
 					mtrspony_pony_earth_sandbar
 					mtrspony_pony_earth_button_mash
 				}
@@ -645,6 +674,7 @@ portrait_groups = {
 					mtrspony_pony_earth_mudbriar
 					mtrspony_pony_earth_igneous_rock_pie
 					mtrspony_pony_earth_fire_streak
+					mtrspony_pony_earth_soarin
 					mtrspony_pony_earth_sandbar
 					mtrspony_pony_earth_button_mash
 				}
@@ -664,6 +694,7 @@ portrait_groups = {
 					mtrspony_pony_earth_mudbriar
 					mtrspony_pony_earth_igneous_rock_pie
 					mtrspony_pony_earth_fire_streak
+					mtrspony_pony_earth_soarin
 					mtrspony_pony_earth_sandbar
 					mtrspony_pony_earth_button_mash
 				}
