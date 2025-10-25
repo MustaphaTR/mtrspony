@@ -710,36 +710,37 @@ mtrspony_pony_unicorn_rosa_maledicta_predefined_hair_selector = {
 }
 
 mtrspony_pony_unicorn_rarity_hair_selector = {
-	default = "gfx/models/portraits/pony_unicorn/rarity/rarity_hair.dds"
+	default = "gfx/models/portraits/pony_unicorn/rarity/rarity_hair.tga"
 
 	game_setup = {
-		default = "gfx/models/portraits/pony_unicorn/rarity/rarity_hair.dds"
+		default = "gfx/models/portraits/pony_unicorn/rarity/rarity_hair.tga"
 	}
 
 	species = {
-		default = "gfx/models/portraits/pony_unicorn/rarity/rarity_hair.dds"
+		default = "gfx/models/portraits/pony_unicorn/rarity/rarity_hair.tga"
 	}
 
 	pop = {
-		default = "gfx/models/portraits/pony_unicorn/rarity/rarity_hair.dds"
+		default = "gfx/models/portraits/pony_unicorn/rarity/rarity_hair.tga"
 
 		random = {
 			list = {
-				"gfx/models/portraits/pony_unicorn/rarity/rarity_hair.dds"
-				"gfx/models/portraits/pony_unicorn/rarity/rarity_hair_alt1.dds"
-				"gfx/models/portraits/pony_unicorn/rarity/rarity_hair_alt2.dds"
-				"gfx/models/portraits/pony_unicorn/rarity/rarity_hair_alt3.dds"
-				"gfx/models/portraits/pony_unicorn/rarity/rarity_hair_alt4.dds"
-				"gfx/models/portraits/pony_unicorn/rarity/rarity_hair_alt5.dds"
-				"gfx/models/portraits/pony_unicorn/rarity/rarity_hair_alt6.dds"
-				"gfx/models/portraits/pony_unicorn/rarity/rarity_hair_alt7.dds"
-				"gfx/models/portraits/pony_unicorn/rarity/rarity_hair_alt8.dds"
-				"gfx/models/portraits/pony_unicorn/rarity/rarity_hair_alt9.dds"
-				"gfx/models/portraits/pony_unicorn/rarity/rarity_hair_alt10.dds"
-				"gfx/models/portraits/pony_unicorn/rarity/rarity_hair_alt11.dds"
-				"gfx/models/portraits/pony_unicorn/rarity/rarity_hair_alt12.dds"
-				"gfx/models/portraits/pony_unicorn/rarity/rarity_hair_alt13.dds"
-				"gfx/models/portraits/pony_unicorn/rarity/rarity_hair_alt14.dds"
+				"gfx/models/portraits/pony_unicorn/rarity/rarity_hair.tga"
+				"gfx/models/portraits/pony_unicorn/rarity/rarity_hair_alt1.tga"
+				"gfx/models/portraits/pony_unicorn/rarity/rarity_hair_alt2.tga"
+				"gfx/models/portraits/pony_unicorn/rarity/rarity_hair_alt3.tga"
+				"gfx/models/portraits/pony_unicorn/rarity/rarity_hair_alt4.tga"
+				"gfx/models/portraits/pony_unicorn/rarity/rarity_hair_alt5.tga"
+				"gfx/models/portraits/pony_unicorn/rarity/rarity_hair_alt6.tga"
+				"gfx/models/portraits/pony_unicorn/rarity/rarity_hair_alt7.tga"
+				"gfx/models/portraits/pony_unicorn/rarity/rarity_hair_alt8.tga"
+				"gfx/models/portraits/pony_unicorn/rarity/rarity_hair_alt9.tga"
+				"gfx/models/portraits/pony_unicorn/rarity/rarity_hair_alt10.tga"
+				"gfx/models/portraits/pony_unicorn/rarity/rarity_hair_alt11.tga"
+				"gfx/models/portraits/pony_unicorn/rarity/rarity_hair_alt12.tga"
+				"gfx/models/portraits/pony_unicorn/rarity/rarity_hair_alt13.tga"
+				"gfx/models/portraits/pony_unicorn/rarity/rarity_hair_alt14.tga"
+				"gfx/models/portraits/pony_unicorn/rarity/rarity_hair_alt15.tga"
 			}
 		}
 	}
@@ -747,21 +748,22 @@ mtrspony_pony_unicorn_rarity_hair_selector = {
 	leader = {
 		random = {
 			list = {
-				"gfx/models/portraits/pony_unicorn/rarity/rarity_hair.dds"
-				"gfx/models/portraits/pony_unicorn/rarity/rarity_hair_alt1.dds"
-				"gfx/models/portraits/pony_unicorn/rarity/rarity_hair_alt2.dds"
-				"gfx/models/portraits/pony_unicorn/rarity/rarity_hair_alt3.dds"
-				"gfx/models/portraits/pony_unicorn/rarity/rarity_hair_alt4.dds"
-				"gfx/models/portraits/pony_unicorn/rarity/rarity_hair_alt5.dds"
-				"gfx/models/portraits/pony_unicorn/rarity/rarity_hair_alt6.dds"
-				"gfx/models/portraits/pony_unicorn/rarity/rarity_hair_alt7.dds"
-				"gfx/models/portraits/pony_unicorn/rarity/rarity_hair_alt8.dds"
-				"gfx/models/portraits/pony_unicorn/rarity/rarity_hair_alt9.dds"
-				"gfx/models/portraits/pony_unicorn/rarity/rarity_hair_alt10.dds"
-				"gfx/models/portraits/pony_unicorn/rarity/rarity_hair_alt11.dds"
-				"gfx/models/portraits/pony_unicorn/rarity/rarity_hair_alt12.dds"
-				"gfx/models/portraits/pony_unicorn/rarity/rarity_hair_alt13.dds"
-				"gfx/models/portraits/pony_unicorn/rarity/rarity_hair_alt14.dds"
+				"gfx/models/portraits/pony_unicorn/rarity/rarity_hair.tga"
+				"gfx/models/portraits/pony_unicorn/rarity/rarity_hair_alt1.tga"
+				"gfx/models/portraits/pony_unicorn/rarity/rarity_hair_alt2.tga"
+				"gfx/models/portraits/pony_unicorn/rarity/rarity_hair_alt3.tga"
+				"gfx/models/portraits/pony_unicorn/rarity/rarity_hair_alt4.tga"
+				"gfx/models/portraits/pony_unicorn/rarity/rarity_hair_alt5.tga"
+				"gfx/models/portraits/pony_unicorn/rarity/rarity_hair_alt6.tga"
+				"gfx/models/portraits/pony_unicorn/rarity/rarity_hair_alt7.tga"
+				"gfx/models/portraits/pony_unicorn/rarity/rarity_hair_alt8.tga"
+				"gfx/models/portraits/pony_unicorn/rarity/rarity_hair_alt9.tga"
+				"gfx/models/portraits/pony_unicorn/rarity/rarity_hair_alt10.tga"
+				"gfx/models/portraits/pony_unicorn/rarity/rarity_hair_alt11.tga"
+				"gfx/models/portraits/pony_unicorn/rarity/rarity_hair_alt12.tga"
+				"gfx/models/portraits/pony_unicorn/rarity/rarity_hair_alt13.tga"
+				"gfx/models/portraits/pony_unicorn/rarity/rarity_hair_alt14.tga"
+				"gfx/models/portraits/pony_unicorn/rarity/rarity_hair_alt15.tga"
 			}
 		}
 	}
@@ -769,21 +771,22 @@ mtrspony_pony_unicorn_rarity_hair_selector = {
 	ruler = {
 		random = {
 			list = {
-				"gfx/models/portraits/pony_unicorn/rarity/rarity_hair.dds"
-				"gfx/models/portraits/pony_unicorn/rarity/rarity_hair_alt1.dds"
-				"gfx/models/portraits/pony_unicorn/rarity/rarity_hair_alt2.dds"
-				"gfx/models/portraits/pony_unicorn/rarity/rarity_hair_alt3.dds"
-				"gfx/models/portraits/pony_unicorn/rarity/rarity_hair_alt4.dds"
-				"gfx/models/portraits/pony_unicorn/rarity/rarity_hair_alt5.dds"
-				"gfx/models/portraits/pony_unicorn/rarity/rarity_hair_alt6.dds"
-				"gfx/models/portraits/pony_unicorn/rarity/rarity_hair_alt7.dds"
-				"gfx/models/portraits/pony_unicorn/rarity/rarity_hair_alt8.dds"
-				"gfx/models/portraits/pony_unicorn/rarity/rarity_hair_alt9.dds"
-				"gfx/models/portraits/pony_unicorn/rarity/rarity_hair_alt10.dds"
-				"gfx/models/portraits/pony_unicorn/rarity/rarity_hair_alt11.dds"
-				"gfx/models/portraits/pony_unicorn/rarity/rarity_hair_alt12.dds"
-				"gfx/models/portraits/pony_unicorn/rarity/rarity_hair_alt13.dds"
-				"gfx/models/portraits/pony_unicorn/rarity/rarity_hair_alt14.dds"
+				"gfx/models/portraits/pony_unicorn/rarity/rarity_hair.tga"
+				"gfx/models/portraits/pony_unicorn/rarity/rarity_hair_alt1.tga"
+				"gfx/models/portraits/pony_unicorn/rarity/rarity_hair_alt2.tga"
+				"gfx/models/portraits/pony_unicorn/rarity/rarity_hair_alt3.tga"
+				"gfx/models/portraits/pony_unicorn/rarity/rarity_hair_alt4.tga"
+				"gfx/models/portraits/pony_unicorn/rarity/rarity_hair_alt5.tga"
+				"gfx/models/portraits/pony_unicorn/rarity/rarity_hair_alt6.tga"
+				"gfx/models/portraits/pony_unicorn/rarity/rarity_hair_alt7.tga"
+				"gfx/models/portraits/pony_unicorn/rarity/rarity_hair_alt8.tga"
+				"gfx/models/portraits/pony_unicorn/rarity/rarity_hair_alt9.tga"
+				"gfx/models/portraits/pony_unicorn/rarity/rarity_hair_alt10.tga"
+				"gfx/models/portraits/pony_unicorn/rarity/rarity_hair_alt11.tga"
+				"gfx/models/portraits/pony_unicorn/rarity/rarity_hair_alt12.tga"
+				"gfx/models/portraits/pony_unicorn/rarity/rarity_hair_alt13.tga"
+				"gfx/models/portraits/pony_unicorn/rarity/rarity_hair_alt14.tga"
+				"gfx/models/portraits/pony_unicorn/rarity/rarity_hair_alt15.tga"
 			}
 		}
 	}
