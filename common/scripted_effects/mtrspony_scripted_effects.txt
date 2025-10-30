@@ -762,7 +762,8 @@ create_other_mtrspony_species = {
 }
 spawn_other_mtrspony_species = {
 	remove_x_ROOT_species_pops = yes
-	setup_extra_traits_to_mtrspony_species = { IGNORE_PC = $IGNORE_PC$ }
+	[[IGNORE_PC] setup_extra_traits_to_mtrspony_species = { IGNORE_PC = yes } ]
+	[[!IGNORE_PC] setup_extra_traits_to_mtrspony_species = yes ]
 
 	if = {
 		limit = { owner = { has_mtrspony_pony_portrait = no } }
