@@ -1585,7 +1585,7 @@ leader_trait_lich = {
 	randomized = no
 }
 
-leader_trait_mtrspony_alicorn_generic = {
+leader_trait_alicorn_generic = {
 	inline_script = {
 		script = trait/icon
 		CLASS = leader
@@ -1600,7 +1600,7 @@ leader_trait_mtrspony_alicorn_generic = {
 	randomized = no
 }
 
-leader_trait_mtrspony_alicorn_of_magic = {
+leader_trait_alicorn_of_magic = {
 	inline_script = {
 		script = trait/icon_physics
 		CLASS = leader

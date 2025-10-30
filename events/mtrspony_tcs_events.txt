@@ -441,7 +441,7 @@ country_event = {
 				consume_selection = yes
 			}
 			add_trait = {
-				trait = leader_trait_mtrspony_alicorn_generic
+				trait = leader_trait_alicorn_generic
 				consume_selection = yes
 			}
 			add_trait = {

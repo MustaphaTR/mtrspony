@@ -24,7 +24,7 @@ country_event = {
 			skip_background_generation = yes
 			randomize_traits = no
 			traits = {
-				trait = leader_trait_mtrspony_alicorn_of_magic
+				trait = leader_trait_alicorn_of_magic
 
 				trait = leader_trait_cutie_mark_dusk_shine
 
