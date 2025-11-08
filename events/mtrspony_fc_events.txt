@@ -31,7 +31,15 @@ country_event = {
 				save_global_event_target_as = leader_fickle_current
 				set_leader_flag = is_created_leader
 				change_leader_portrait = "mtrspony_kirin_fickle_current_predefined"
-				ROOT = { assign_leader = event_target:leader_fickle_current }
+				ROOT = {
+					leader = {
+						kill_leader = {
+							show_notification = no
+							fire = yes
+						}
+					}
+					assign_leader = event_target:leader_fickle_current
+				}
 			}
 		}
 
@@ -49,19 +57,6 @@ country_event = {
 				is_ship_size = corvette
 			}
 			set_name = "PRESCRIPTED_ship_name_fcs_current"
-		}
-
-		# Remove the auto-generated Fickle Voltage.
-		random_owned_leader = {
-			limit = {
-				NOT = { has_leader_flag = is_created_leader }
-				has_trait = leader_trait_principled
-			}
-
-			kill_leader = {
-				show_notification = no
-				fire = yes
-			}
 		}
 	}
 }

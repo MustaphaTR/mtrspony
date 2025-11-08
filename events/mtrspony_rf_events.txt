@@ -60,6 +60,12 @@ country_event = {
 					random_owned_fleet = {
 						limit = { is_ship_class = shipclass_science_ship }
 
+						leader = {
+							kill_leader = {
+								show_notification = no
+								fire = yes
+							}
+						}
 						assign_leader = PREVPREV
 						set_fleet_flag = leader_assigned
 					}
@@ -99,6 +105,12 @@ country_event = {
 								is_ship_class = shipclass_science_ship
 							}
 
+							leader = {
+								kill_leader = {
+									show_notification = no
+									fire = yes
+								}
+							}
 							assign_leader = PREVPREV
 						}
 					}
@@ -134,6 +146,12 @@ country_event = {
 						random_owned_fleet = {
 							limit = { is_ship_class = shipclass_military }
 
+							leader = {
+								kill_leader = {
+									show_notification = no
+									fire = yes
+								}
+							}
 							assign_leader = PREVPREV
 						}
 					}
@@ -163,7 +181,17 @@ country_event = {
 				save_global_event_target_as = leader_silverstream
 				set_leader_flag = is_created_leader
 				change_leader_portrait = "mtrspony_hippogriff_silverstream_predefined"
-				ROOT = { capital_scope = { assign_leader = event_target:leader_silverstream } }
+				ROOT = {
+					capital_scope = {
+						leader = {
+							kill_leader = {
+								show_notification = no
+								fire = yes
+							}
+						}
+						assign_leader = event_target:leader_silverstream
+					}
+				}
 				set_council_position = councilor_state
 			}
 		}

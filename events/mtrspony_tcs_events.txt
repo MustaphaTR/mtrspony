@@ -35,7 +35,15 @@ country_event = {
 				save_global_event_target_as = leader_sweetie_belle
 				set_leader_flag = is_created_leader
 				change_leader_portrait = "mtrspony_pony_unicorn_sweetie_belle_older_predefined"
-				ROOT = { assign_leader = event_target:leader_sweetie_belle }
+				ROOT = {
+					leader = {
+						kill_leader = {
+							show_notification = no
+							fire = yes
+						}
+					}
+					assign_leader = event_target:leader_sweetie_belle
+				}
 			}
 		}
 
@@ -66,6 +74,12 @@ country_event = {
 					random_owned_fleet = {
 						limit = { is_ship_class = shipclass_science_ship }
 
+						leader = {
+							kill_leader = {
+								show_notification = no
+								fire = yes
+							}
+						}
 						assign_leader = PREVPREV
 					}
 				}
@@ -100,6 +114,12 @@ country_event = {
 					random_owned_fleet = {
 						limit = { is_ship_class = shipclass_military }
 
+						leader = {
+							kill_leader = {
+								show_notification = no
+								fire = yes
+							}
+						}
 						assign_leader = PREVPREV
 					}
 				}
@@ -176,7 +196,17 @@ country_event = {
 				save_global_event_target_as = leader_gabby
 				set_leader_flag = is_created_leader
 				change_leader_portrait = "mtrspony_griffon_gabby_predefined"
-				ROOT = { capital_scope = { assign_leader = event_target:leader_gabby } }
+				ROOT = {
+					capital_scope = {
+						leader = {
+							kill_leader = {
+								show_notification = no
+								fire = yes
+							}
+						}
+						assign_leader = event_target:leader_gabby
+					}
+				}
 			}
 		}
 
@@ -223,18 +253,6 @@ country_event = {
 		#	option = enlightenment_allowed
 		#	cooldown = no
 		# }
-
-		# Remove the genericos.
-		every_owned_leader = {
-			limit = {
-				NOT = { has_leader_flag = is_created_leader }
-			}
-
-			kill_leader = {
-				show_notification = no
-				fire = yes
-			}
-		}
 	}
 }
 

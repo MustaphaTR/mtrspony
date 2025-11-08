@@ -34,7 +34,15 @@ country_event = {
 				save_global_event_target_as = leader_tall_cherry
 				set_leader_flag = is_created_leader
 				change_leader_portrait = "mtrspony_pony_earth_tall_cherry_predefined"
-				ROOT = { assign_leader = event_target:leader_tall_cherry }
+				ROOT = {
+					leader = {
+						kill_leader = {
+							show_notification = no
+							fire = yes
+						}
+					}
+					assign_leader = event_target:leader_tall_cherry
+				}
 			}
 		}
 
@@ -125,7 +133,17 @@ country_event = {
 				save_global_event_target_as = leader_dashing_gift
 				set_leader_flag = is_created_leader
 				change_leader_portrait = "mtrspony_pony_pegasus_dashing_gift_predefined"
-				ROOT = { capital_scope = { assign_leader = event_target:leader_dashing_gift } }
+				ROOT = {
+					capital_scope = {
+						leader = {
+							kill_leader = {
+								show_notification = no
+								fire = yes
+							}
+						}
+						assign_leader = event_target:leader_dashing_gift
+					}
+				}
 				set_council_position = councilor_state
 			}
 		}
@@ -175,18 +193,6 @@ country_event = {
 			}
 
 			set_name = "NAME_Yacks_Planet"
-		}
-
-		# Remove the genericos.
-		every_owned_leader = {
-			limit = {
-				NOT = { has_leader_flag = is_created_leader }
-			}
-
-			kill_leader = {
-				show_notification = no
-				fire = yes
-			}
 		}
 	}
 }

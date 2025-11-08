@@ -30,7 +30,15 @@ country_event = {
 				save_global_event_target_as = leader_grover_xi
 				set_leader_flag = is_created_leader
 				change_leader_portrait = "mtrspony_griffon_grover_xi_predefined"
-				ROOT = { assign_leader = event_target:leader_grover_xi }
+				ROOT = {
+					leader = {
+						kill_leader = {
+							show_notification = no
+							fire = yes
+						}
+					}
+					assign_leader = event_target:leader_grover_xi
+				}
 			}
 		}
 
@@ -42,19 +50,6 @@ country_event = {
 		capital_scope = {
 			calculate_mtrspony_pop_count_keep_majority = yes
 			spawn_other_mtrspony_species = yes
-		}
-
-		# Remove the auto-generated Grover XI.
-		random_owned_leader = {
-			limit = {
-				NOT = { has_leader_flag = is_created_leader }
-				has_trait = trait_ruler_charismatic
-			}
-
-			kill_leader = {
-				show_notification = no
-				fire = yes
-			}
 		}
 
 		event_target:leader_grover_xi = {

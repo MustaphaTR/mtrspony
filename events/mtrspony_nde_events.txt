@@ -32,7 +32,15 @@ country_event = {
 				save_global_event_target_as = leader_arcin_the_defiler
 				set_leader_flag = is_created_leader
 				change_leader_portrait = "mtrspony_dragon_arcin_the_defiler_predefined"
-				ROOT = { assign_leader = event_target:leader_arcin_the_defiler }
+				ROOT = {
+					leader = {
+						kill_leader = {
+							show_notification = no
+							fire = yes
+						}
+					}
+					assign_leader = event_target:leader_arcin_the_defiler
+				}
 			}
 		}
 
@@ -59,6 +67,12 @@ country_event = {
 					random_owned_fleet = {
 						limit = { is_ship_class = shipclass_military }
 
+						leader = {
+							kill_leader = {
+								show_notification = no
+								fire = yes
+							}
+						}
 						assign_leader = PREVPREV
 					}
 				}
@@ -85,7 +99,17 @@ country_event = {
 				save_global_event_target_as = leader_winter
 				set_leader_flag = is_created_leader
 				change_leader_portrait = "mtrspony_dragon_winter_predefined"
-				ROOT = { capital_scope = { assign_leader = event_target:leader_winter } }
+				ROOT = {
+					capital_scope = {
+						leader = {
+							kill_leader = {
+								show_notification = no
+								fire = yes
+							}
+						}
+						assign_leader = event_target:leader_winter
+					}
+				}
 				set_council_position = councilor_state
 			}
 		}
@@ -194,22 +218,16 @@ country_event = {
 					random_owned_fleet = {
 						limit = { is_ship_class = shipclass_science_ship }
 
+						leader = {
+							kill_leader = {
+								show_notification = no
+								fire = yes
+							}
+						}
 						assign_leader = PREVPREV
 					}
 				}
 				set_council_position = councilor_research
-			}
-		}
-
-		# Remove the genericos.
-		every_owned_leader = {
-			limit = {
-				NOT = { has_leader_flag = is_created_leader }
-			}
-
-			kill_leader = {
-				show_notification = no
-				fire = yes
 			}
 		}
 	}

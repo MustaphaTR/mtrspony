@@ -33,7 +33,15 @@ country_event = {
 				save_global_event_target_as = leader_chrysalis
 				set_leader_flag = is_created_leader
 				change_leader_portrait = "mtrspony_changeling_chrysalis_predefined"
-				ROOT = { assign_leader = event_target:leader_chrysalis }
+				ROOT = {
+					leader = {
+						kill_leader = {
+							show_notification = no
+							fire = yes
+						}
+					}
+					assign_leader = event_target:leader_chrysalis
+				}
 			}
 		}
 
@@ -60,7 +68,17 @@ country_event = {
 				save_global_event_target_as = leader_pharynx
 				set_leader_flag = is_created_leader
 				change_leader_portrait = "mtrspony_changeling_pharynx_predefined"
-				ROOT = { capital_scope = { assign_leader = event_target:leader_pharynx } }
+				ROOT = {
+					capital_scope = {
+						leader = {
+							kill_leader = {
+								show_notification = no
+								fire = yes
+							}
+						}
+						assign_leader = event_target:leader_pharynx
+					}
+				}
 				set_council_position = councilor_defense
 			}
 		}
@@ -91,6 +109,12 @@ country_event = {
 					random_owned_fleet = {
 						limit = { is_ship_class = shipclass_military }
 
+						leader = {
+							kill_leader = {
+								show_notification = no
+								fire = yes
+							}
+						}
 						assign_leader = PREVPREV
 					}
 				}
@@ -163,6 +187,12 @@ country_event = {
 					random_owned_fleet = {
 						limit = { is_ship_class = shipclass_science_ship }
 
+						leader = {
+							kill_leader = {
+								show_notification = no
+								fire = yes
+							}
+						}
 						assign_leader = PREVPREV
 					}
 				}
@@ -259,18 +289,6 @@ country_event = {
 						change_pc = pc_nuked
 					}
 				}
-			}
-		}
-
-		# Remove the genericos.
-		every_owned_leader = {
-			limit = {
-				NOT = { has_leader_flag = is_created_leader }
-			}
-
-			kill_leader = {
-				show_notification = no
-				fire = yes
 			}
 		}
 	}

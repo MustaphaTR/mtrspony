@@ -31,7 +31,15 @@ country_event = {
 		#		save_global_event_target_as = leader_zuan_gerzalid
 		#		set_leader_flag = is_created_leader
 		#		change_leader_portrait = "mtrspony_zebra_zuan_gerzalid_predefined"
-		#		ROOT = { assign_leader = event_target:leader_zuan_gerzalid }
+		#		ROOT = {
+		#			leader = {
+		#				kill_leader = {
+		#					show_notification = no
+		#					fire = yes
+		#				}
+		#			}
+		#			assign_leader = event_target:leader_zuan_gerzalid
+		#		}
 		#	}
 		#}
 
@@ -42,19 +50,6 @@ country_event = {
 			calculate_mtrspony_pop_count_keep_majority = yes
 			spawn_other_mtrspony_species = yes
 		}
-
-		## Remove the auto-generated Zuan Gerzalid.
-		#random_owned_leader = {
-		#	limit = {
-		#		NOT = { has_leader_flag = is_created_leader }
-		#		has_trait = leader_trait_spark_of_genius
-		#	}
-		#
-		#	kill_leader = {
-		#		show_notification = no
-		#		fire = yes
-		#	}
-		#}
 	}
 }
 
