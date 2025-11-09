@@ -461,6 +461,51 @@ objectTypes = {
 	}
 
 	pdxmesh = {
+		name = "portrait_dummy_mrs_shy_pegasus_mesh"
+		file = "gfx/models/portraits/meshes/dummy_mrs_shy_pegasus.mesh"
+
+		animation = {
+			id = "idle"
+			type = "human_01_female_portrait_idle1_animation"
+		}
+
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "portrait_dummy_mrs_shy_earth_mesh"
+		file = "gfx/models/portraits/meshes/dummy_mrs_shy_earth.mesh"
+
+		animation = {
+			id = "idle"
+			type = "human_01_female_portrait_idle1_animation"
+		}
+
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "portrait_dummy_mrs_shy_crystal_pegasus_mesh"
+		file = "gfx/models/portraits/meshes/dummy_mrs_shy_crystal_pegasus.mesh"
+
+		animation = {
+			id = "idle"
+			type = "human_01_female_portrait_idle1_animation"
+		}
+
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "portrait_dummy_mrs_shy_crystal_earth_mesh"
+		file = "gfx/models/portraits/meshes/dummy_mrs_shy_crystal_earth.mesh"
+
+		animation = {
+			id = "idle"
+			type = "human_01_female_portrait_idle1_animation"
+		}
+
+		scale = 1.0
+	}
+
+	pdxmesh = {
 		name = "portrait_dummy_rarity_unicorn_mesh"
 		file = "gfx/models/portraits/meshes/dummy_rarity_unicorn.mesh"
 
