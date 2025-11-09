@@ -210,5 +210,6 @@
 -- Adjusted one color option for Cozy Glow portraits, added one more color option, and added Earth Pony, Unicorn and Alicorn variants for her.
 -- Adjusted some colors options for Rarity portraits, added two more color options, and added Earth Pony and Crystal Pony variants for her.
 -- Added one more color options for Sunburst portraits, and added Earth Pony and Crystal Pony variants for him.
+-- Added council effect for Energy Cutie Mark to increase output of Solar Panel Network starbase building.
 -- Replaced the Mrs. Shy portrait set with a similar one with accessiories. Adjusted some color options, added one more color option added Earth Pony variants for her in the process.
 -- Fixed broken adjustment of the climate traits of species added by multi-species option, in cases where it doesn't match starting planet's class, like Post-Apocalyptic origin.

@@ -473,8 +473,17 @@ leader_trait_cutie_mark_energy = {
 	inline_script = {
 		script = trait/icon_cutie_mark
 		ICON = "GFX_leader_trait_cutie_mark_celestia"
-		COUNCIL = no
+		COUNCIL = triggered
 		TIER = none
+	}
+	triggered_councilor_modifier = {
+		potential = {
+			OR = {
+				is_councilor = yes
+				trait_is_gestalt_check = no
+			}
+		}
+		starbase_constructions_energy_produces_mult = 0.1
 	}
 	triggered_planet_modifier = {
 		potential = { trait_is_gestalt_check = no }
@@ -1310,7 +1319,13 @@ leader_trait_cutie_mark_trade = {
 		COUNCIL = triggered
 		TIER = none
 	}
-	councilor_modifier = {
+	triggered_councilor_modifier = {
+		potential = {
+			OR = {
+				is_councilor = yes
+				trait_is_gestalt_check = no
+			}
+		}
 		commercial_pact_mult = 0.025
 	}
 	triggered_planet_modifier = {

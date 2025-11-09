@@ -348,6 +348,7 @@ has_cutie_mark_trait = {
 		has_trait = leader_trait_cutie_mark_bureaucracy
 		has_trait = leader_trait_cutie_mark_archaeology
 
+		# Engineering Cutie Marks
 		has_trait = leader_trait_cutie_mark_robotics
 		has_trait = leader_trait_cutie_mark_industry
 		has_trait = leader_trait_cutie_mark_mining

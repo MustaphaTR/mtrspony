@@ -1,4 +1,4 @@
-# It drops error when you hover over the options without this, even tho the tooptip is hidden.
+# It drops errors when you hover over the options without this, even tho the tooptip is hidden.
 set_mtrspony_setup_variables = {
 	set_variable = { which = pony_pops value = 0 }
 	set_variable = { which = griffon_pops value = 0 }
@@ -18,6 +18,7 @@ set_mtrspony_setup_variables = {
 	set_variable = { which = dragon_pops value = 0 }
 	set_variable = { which = dragon_pops_prev value = 0 }
 	set_variable = { which = pops_to_remove value = 0 }
+	set_variable = { which = equal_pops value = 0 }
 }
 
 save_current_mtrspony_species = {
