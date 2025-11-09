@@ -202,6 +202,7 @@
 -- Fixed Multi-Species setup removing more of your primary species' pops than needed when there's a secondary one, like with Mechanist origin.
 
 - Version 0.4.1 (XX.10.2025):
+-- Added setup event to choose Cutie Mark trait for the starting leader.
 -- Added Crystal Pony portrait sets. At the moment only a few ponies have Crystal variants, one for each subspecies of each gender.
 --- They can be used as both Organic and Lithoid species, which trait they get depend on through which portrait category they are chosen.
 -- Added Alicorn of Magic and Alicorn leader traits for some named characters in prescripted countries.

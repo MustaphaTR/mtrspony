@@ -2030,6 +2030,514 @@ generate_faust_deposits_and_blockers = {
 	}
 }
 
+give_random_cutie_mark_trait  = {
+	random_list = {
+		10 = {
+			modifier = {
+				factor = 0
+				leader_class = official
+				can_leader_get_council_trait_trigger = no
+			}
+
+			add_trait = {
+				trait = leader_trait_cutie_mark_computing
+				show_message = no
+			}
+		}
+		10 = {
+			if = {
+				limit = { leader_class = commander }
+
+				add_trait = {
+					trait = leader_trait_cutie_mark_shields
+					show_message = no
+				}
+			}
+			else_if = {
+				limit = { leader_class = scientist }
+
+				add_trait = {
+					trait = leader_trait_cutie_mark_field_manupilation
+					show_message = no
+				}
+			}
+			else_if = {
+				limit = { leader_class = official }
+
+				add_trait = {
+					trait = leader_trait_cutie_mark_energy
+					show_message = no
+				}
+			}
+		}
+		10 = {
+			modifier = {
+				factor = 0
+				OR = {
+					leader_class = official
+					AND = {
+						leader_class = scientist
+						can_leader_get_council_trait_trigger = no
+					}
+				}
+			}
+
+			add_trait = {
+				trait = leader_trait_cutie_mark_particles
+				show_message = no
+			}
+		}
+
+		10 = {
+			modifier = {
+				factor = 1.5
+				leader_class = official
+				ROOT = { has_valid_civic = civic_agrarian_idyll }
+			}
+			modifier = {
+				factor = 0
+				leader_class = official
+				ROOT = { country_uses_food = no }
+			}
+
+			if = {
+				limit = { NOT = { leader_class = official } }
+
+				add_trait = {
+					trait = leader_trait_cutie_mark_biology
+					show_message = no
+				}
+			}
+			else_if = {
+				limit = { leader_class = official }
+
+				add_trait = {
+					trait = leader_trait_cutie_mark_farming
+					show_message = no
+				}
+			}
+		}
+		10 = {
+			modifier = {
+				factor = 1.5
+				leader_class = official
+				ROOT = { has_valid_civic = civic_police_state }
+			}
+			modifier = {
+				factor = 0
+				leader_class = scientist
+				can_leader_get_council_trait_trigger = no
+			}
+
+			add_trait = {
+				trait = leader_trait_cutie_mark_military_theory
+				show_message = no
+			}
+		}
+		10 = {
+			add_trait = {
+				trait = leader_trait_cutie_mark_new_worlds
+				show_message = no
+			}
+		}
+		10 = {
+			modifier = {
+				factor = 1.5
+				leader_class = official
+				ROOT = { has_valid_civic = civic_byzantine_bureaucracy }
+			}
+			modifier = {
+				factor = 0
+				NOT = { leader_class = official }
+				can_leader_get_council_trait_trigger = no
+			}
+
+			if = {
+				limit = { NOT = { leader_class = official } }
+
+				add_trait = {
+					trait = leader_trait_cutie_mark_statecraft
+					show_message = no
+				}
+			}
+			else_if = {
+				limit = { leader_class = official }
+
+				add_trait = {
+					trait = leader_trait_cutie_mark_bureaucracy
+					show_message = no
+				}
+			}
+		}
+		5 = {
+			modifier = {
+				factor = 0
+				OR = {
+					leader_class = official
+					has_ancrel = no
+				}
+			}
+
+			add_trait = {
+				trait = leader_trait_cutie_mark_archaeology
+				show_message = no
+			}
+		}
+
+		10 = {
+			modifier = {
+				factor = 1.5
+				leader_class = official
+				ROOT = { has_valid_civic = civic_mining_guilds }
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					AND = {
+						leader_class = commander
+						ROOT = {
+							OR = {
+								NOT = { has_technology = tech_robotic_workers }
+								has_policy_flag = robots_outlawed
+							}
+						}
+					}
+					AND = {
+						leader_class = scientist
+						can_leader_get_council_trait_trigger = no
+					}
+				}
+			}
+
+			if = {
+				limit = { leader_class = commander }
+
+				add_trait = {
+					trait = leader_trait_cutie_mark_robotics
+					show_message = no
+				}
+			}
+			else_if = {
+				limit = { leader_class = scientist }
+
+				add_trait = {
+					trait = leader_trait_cutie_mark_industry
+					show_message = no
+				}
+			}
+			else_if = {
+				limit = { leader_class = official }
+
+				add_trait = {
+					trait = leader_trait_cutie_mark_mining
+					show_message = no
+				}
+			}
+		}
+		10 = {
+			modifier = {
+				factor = 1.5
+				leader_class = official
+				ROOT = {
+					OR = {
+						has_valid_civic = civic_crafters
+						has_valid_civic = civic_corporate_crafters
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					AND = {
+						leader_class = scientist
+						can_leader_get_council_trait_trigger = no
+					}
+					AND = {
+						leader_class = official
+						ROOT = { country_uses_consumer_goods = no }
+					}
+				}
+			}
+
+			if = {
+				limit = { NOT = { leader_class = official } }
+
+				add_trait = {
+					trait = leader_trait_cutie_mark_materials
+					show_message = no
+				}
+			}
+			else_if = {
+				limit = { leader_class = official }
+
+				add_trait = {
+					trait = leader_trait_cutie_mark_crafts
+					show_message = no
+				}
+			}
+		}
+		10 = {
+			modifier = {
+				factor = 0
+				leader_class = official
+			}
+
+			if = {
+				limit = { leader_class = commander }
+
+				add_trait = {
+					trait = leader_trait_cutie_mark_speed
+					show_message = no
+				}
+			}
+			else_if = {
+				limit = { leader_class = scientist }
+
+				add_trait = {
+					trait = leader_trait_cutie_mark_propulsion
+					show_message = no
+				}
+			}
+		}
+		10 = {
+			modifier = {
+				factor = 0
+				AND = {
+					NOT = { leader_class = commander }
+					can_leader_get_council_trait_trigger = no
+				}
+			}
+
+			add_trait = {
+				trait = leader_trait_cutie_mark_voidcraft
+				show_message = no
+			}
+		}
+
+		10 = {
+			modifier = {
+				factor = 0
+				OR = {
+					leader_class = scientist
+					AND = {
+						leader_class = commander
+						ROOT = { NOT = { has_valid_civic = civic_warrior_culture } }
+					}
+				}
+			}
+
+			add_trait = {
+				trait = leader_trait_cutie_mark_art
+				show_message = no
+			}
+		}
+		10 = {
+			modifier = {
+				factor = 1.5
+				ROOT = {
+					OR = {
+						has_authority = auth_corporate
+						has_valid_civic = civic_corporate_dominion
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				NOT = { leader_class = official }
+			}
+
+			add_trait = {
+				trait = leader_trait_cutie_mark_trade
+				show_message = no
+			}
+		}
+		10 = {
+			modifier = {
+				factor = 0
+				NOT = { leader_class = official }
+			}
+
+			add_trait = {
+				trait = leader_trait_cutie_mark_love
+				show_message = no
+			}
+		}
+	}
+}
+
+remove_cutie_mark_traits = {
+	# Named Leader Cutie Marks
+	if = {
+		limit = { has_trait = leader_trait_cutie_mark_dusk_shine }
+		remove_trait = leader_trait_cutie_mark_dusk_shine
+	}
+	else_if = {
+		limit = { has_trait = leader_trait_cutie_mark_apple_bloom }
+		remove_trait = leader_trait_cutie_mark_apple_bloom
+	}
+	else_if = {
+		limit = { has_trait = leader_trait_cutie_mark_scootaloo }
+		remove_trait = leader_trait_cutie_mark_scootaloo
+	}
+	else_if = {
+		limit = { has_trait = leader_trait_cutie_mark_sweetie_belle }
+		remove_trait = leader_trait_cutie_mark_sweetie_belle
+	}
+	else_if = {
+		limit = { has_trait = leader_trait_cutie_mark_babs_seed }
+		remove_trait = leader_trait_cutie_mark_babs_seed
+	}
+	else_if = {
+		limit = { has_trait = leader_trait_cutie_mark_cozy_glow }
+		remove_trait = leader_trait_cutie_mark_cozy_glow
+	}
+	else_if = {
+		limit = { has_trait = leader_trait_cutie_mark_sandbar }
+		remove_trait = leader_trait_cutie_mark_sandbar
+	}
+	else_if = {
+		limit = { has_trait = leader_trait_cutie_mark_luna }
+		remove_trait = leader_trait_cutie_mark_luna
+	}
+	else_if = {
+		limit = { has_trait = leader_trait_cutie_mark_twilight_sparkle }
+		remove_trait = leader_trait_cutie_mark_twilight_sparkle
+	}
+	else_if = {
+		limit = { has_trait = leader_trait_cutie_mark_mi_amore_cadenza }
+		remove_trait = leader_trait_cutie_mark_mi_amore_cadenza
+	}
+	else_if = {
+		limit = { has_trait = leader_trait_cutie_mark_flurry_heart }
+		remove_trait = leader_trait_cutie_mark_flurry_heart
+	}
+	else_if = {
+		limit = { has_trait = leader_trait_cutie_mark_cherry_berry }
+		remove_trait = leader_trait_cutie_mark_cherry_berry
+	}
+	# Physcics Cutie Marks
+	else_if = {
+		limit = { has_trait = leader_trait_cutie_mark_computing }
+		remove_trait = leader_trait_cutie_mark_computing
+	}
+	else_if = {
+		limit = { has_trait = leader_trait_cutie_mark_shields }
+		remove_trait = leader_trait_cutie_mark_shields
+	}
+	else_if = {
+		limit = { has_trait = leader_trait_cutie_mark_field_manupilation }
+		remove_trait = leader_trait_cutie_mark_field_manupilation
+	}
+	else_if = {
+		limit = { has_trait = leader_trait_cutie_mark_energy }
+		remove_trait = leader_trait_cutie_mark_energy
+	}
+	else_if = {
+		limit = { has_trait = leader_trait_cutie_mark_particles }
+		remove_trait = leader_trait_cutie_mark_particles
+	}
+	# Society Cutie Marks
+	else_if = {
+		limit = { has_trait = leader_trait_cutie_mark_biology }
+		remove_trait = leader_trait_cutie_mark_biology
+	}
+	else_if = {
+		limit = { has_trait = leader_trait_cutie_mark_farming }
+		remove_trait = leader_trait_cutie_mark_farming
+	}
+	else_if = {
+		limit = { has_trait = leader_trait_cutie_mark_love }
+		remove_trait = leader_trait_cutie_mark_love
+	}
+	else_if = {
+		limit = { has_trait = leader_trait_cutie_mark_military_theory }
+		remove_trait = leader_trait_cutie_mark_military_theory
+	}
+	else_if = {
+		limit = { has_trait = leader_trait_cutie_mark_new_worlds }
+		remove_trait = leader_trait_cutie_mark_new_worlds
+	}
+	else_if = {
+		limit = { has_trait = leader_trait_cutie_mark_statecraft }
+		remove_trait = leader_trait_cutie_mark_statecraft
+	}
+	else_if = {
+		limit = { has_trait = leader_trait_cutie_mark_bureaucracy }
+		remove_trait = leader_trait_cutie_mark_bureaucracy
+	}
+	else_if = {
+		limit = { has_trait = leader_trait_cutie_mark_archaeology }
+		remove_trait = leader_trait_cutie_mark_archaeology
+	}
+	# Engineering Cutie Marks
+	else_if = {
+		limit = { has_trait = leader_trait_cutie_mark_robotics }
+		remove_trait = leader_trait_cutie_mark_robotics
+	}
+	else_if = {
+		limit = { has_trait = leader_trait_cutie_mark_industry }
+		remove_trait = leader_trait_cutie_mark_industry
+	}
+	else_if = {
+		limit = { has_trait = leader_trait_cutie_mark_mining }
+		remove_trait = leader_trait_cutie_mark_mining
+	}
+	else_if = {
+		limit = { has_trait = leader_trait_cutie_mark_materials }
+		remove_trait = leader_trait_cutie_mark_materials
+	}
+	else_if = {
+		limit = { has_trait = leader_trait_cutie_mark_crafts }
+		remove_trait = leader_trait_cutie_mark_crafts
+	}
+	else_if = {
+		limit = { has_trait = leader_trait_cutie_mark_speed }
+		remove_trait = leader_trait_cutie_mark_speed
+	}
+	else_if = {
+		limit = { has_trait = leader_trait_cutie_mark_propulsion }
+		remove_trait = leader_trait_cutie_mark_propulsion
+	}
+	else_if = {
+		limit = { has_trait = leader_trait_cutie_mark_voidcraft }
+		remove_trait = leader_trait_cutie_mark_voidcraft
+	}
+	# Other Cutie Marks
+	else_if = {
+		limit = { has_trait = leader_trait_cutie_mark_art }
+		remove_trait = leader_trait_cutie_mark_art
+	}
+	else_if = {
+		limit = { has_trait = leader_trait_cutie_mark_trade }
+		remove_trait = leader_trait_cutie_mark_trade
+	}
+	# Unused Cutie Marks
+	else_if = {
+		limit = { has_trait = leader_trait_cutie_mark_medicine }
+		remove_trait = leader_trait_cutie_mark_medicine
+	}
+	else_if = {
+		limit = { has_trait = leader_trait_cutie_mark_security }
+		remove_trait = leader_trait_cutie_mark_security
+	}
+	else_if = {
+		limit = { has_trait = leader_trait_cutie_mark_metallurgy }
+		remove_trait = leader_trait_cutie_mark_metallurgy
+	}
+	else_if = {
+		limit = { has_trait = leader_trait_cutie_mark_endurance }
+		remove_trait = leader_trait_cutie_mark_endurance
+	}
+	else_if = {
+		limit = { has_trait = leader_trait_cutie_mark_learning }
+		remove_trait = leader_trait_cutie_mark_learning
+	}
+	else_if = {
+		limit = { has_trait = leader_trait_cutie_mark_talent }
+		remove_trait = leader_trait_cutie_mark_talent
+	}
+}
+
 # Duplicate of "ethic_leader_creator" where species is a variable, rather than being crated during the event.
 mtrspony_ethic_leader_creator = {
 	create_country = {

@@ -409,6 +409,11 @@ country_event = {
 	event_window_type = leader_recruit
 	notification_event_icon = "GFX_message_leader_recruitment_cozy_glow"
 
+	picture_event_data = {
+		portrait = event_target:ethic_leader
+		room = ethic_spaceship_room
+	}
+
 	immediate = {
 		mtrspony_ethic_leader_creator = {
 			SPECIES = event_target:pony_species@ROOT
@@ -424,31 +429,11 @@ country_event = {
 			CATCH_PHRASE = PRESCRIPTED_ruler_name_cozy_glow_catch_phrase
 		}
 		last_created_leader = {
-			remove_all_traits = yes # Removes the generic Cutie Mark trait added by mtrspony.6.
 			if = {
 				limit = { species = { has_trait = trait_cutie_marks } } # Just in case trait was removed, even tho it makes no sense to do it as TSC.
 
+				remove_cutie_mark_traits = yes
 				add_trait = { trait = leader_trait_cutie_mark_cozy_glow }
-			}
-			if = { # These would've been automatically added normally, but i called remove_all_traits above, it is either this, or check for all the cutie mark traits.
-				limit = { species = { has_trait = trait_limited_cybernetic } }
-
-				add_trait = { trait = leader_trait_limited_cyborg }
-			}
-			else_if = {
-				limit = { species = { has_trait = trait_cybernetic } }
-
-				add_trait = { trait = leader_trait_cyborg }
-			}
-			else_if = {
-				limit = { species = { has_trait = trait_psionic } }
-
-				add_trait = { trait = leader_trait_psionic }
-			}
-			if = {
-				limit = { species = { has_trait = trait_erudite } }
-
-				add_trait = { trait = leader_trait_erudite }
 			}
 			add_trait = {
 				trait = leader_trait_redeemed_villain
@@ -475,11 +460,6 @@ country_event = {
 			change_variable = { which = cozy_starting_age value = 279 }
 			set_age = cozy_starting_age
 		}
-	}
-
-	picture_event_data = {
-		portrait = event_target:ethic_leader
-		room = ethic_spaceship_room
 	}
 
 	option = {

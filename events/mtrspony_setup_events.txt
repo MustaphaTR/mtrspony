@@ -182,3 +182,271 @@ country_event = {
 		}
 	}
 }
+
+country_event = {
+	id = mtrspony_setup.4
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		is_ai = no
+		is_mtrspony_prescripted_country = no
+		species = { has_trait = trait_cutie_marks }
+	}
+
+	immediate = {
+		leader = {
+			leader_event = { id = mtrspony_setup.5 }
+		}
+	}
+}
+leader_event = {
+	id = mtrspony_setup.5
+	title = "mtrspony_setup.5.name"
+	desc = "mtrspony_setup.5.desc"
+	is_triggered_only = yes
+
+	picture = GFX_leader_recruitment_bg_renowned
+	diplomatic = yes
+
+	picture_event_data = {
+		portrait = root
+		room = owner
+	}
+
+	immediate = {
+		remove_cutie_mark_traits = yes
+	}
+
+	option = {
+		name = mtrspony_setup.5.a
+
+		give_random_cutie_mark_trait = yes
+	}
+	option = {
+		name = cutie_mark_computing
+
+		add_trait = {
+			trait = leader_trait_cutie_mark_computing
+			show_message = no
+		}
+	}
+	option = {
+		name = cutie_mark_shields
+		trigger = { leader_class = commander }
+
+		add_trait = {
+			trait = leader_trait_cutie_mark_shields
+			show_message = no
+		}
+	}
+	option = {
+		name = cutie_mark_field_manupilation
+		trigger = { leader_class = scientist }
+
+		add_trait = {
+			trait = leader_trait_cutie_mark_field_manupilation
+			show_message = no
+		}
+	}
+	option = {
+		name = cutie_mark_energy
+		trigger = { leader_class = official }
+
+		add_trait = {
+			trait = leader_trait_cutie_mark_energy
+			show_message = no
+		}
+	}
+	option = {
+		name = cutie_mark_particles
+		trigger = { NOT = { leader_class = official } }
+
+		add_trait = {
+			trait = leader_trait_cutie_mark_particles
+			show_message = no
+		}
+	}
+	option = {
+		name = cutie_mark_biology
+		trigger = { NOT = { leader_class = official } }
+
+		add_trait = {
+			trait = leader_trait_cutie_mark_biology
+			show_message = no
+		}
+	}
+	option = {
+		name = cutie_mark_farming
+		trigger = {
+			leader_class = official
+			owner = { country_uses_food = yes }
+		}
+
+		add_trait = {
+			trait = leader_trait_cutie_mark_farming
+			show_message = no
+		}
+	}
+	option = {
+		name = cutie_mark_military_theory
+
+		add_trait = {
+			trait = leader_trait_cutie_mark_military_theory
+			show_message = no
+		}
+	}
+	option = {
+		name = cutie_mark_new_worlds
+
+		add_trait = {
+			trait = leader_trait_cutie_mark_new_worlds
+			show_message = no
+		}
+	}
+	option = {
+		name = cutie_mark_statecraft
+		trigger = { NOT = { leader_class = official } }
+
+		add_trait = {
+			trait = leader_trait_cutie_mark_statecraft
+			show_message = no
+		}
+	}
+	option = {
+		name = cutie_mark_bureaucracy
+		trigger = { leader_class = official }
+
+		add_trait = {
+			trait = leader_trait_cutie_mark_bureaucracy
+			show_message = no
+		}
+	}
+	option = {
+		name = cutie_mark_archaeology
+		trigger = {
+			NOT = { leader_class = official }
+			has_ancrel = yes
+		}
+
+		add_trait = {
+			trait = leader_trait_cutie_mark_archaeology
+			show_message = no
+		}
+	}
+	option = {
+		name = cutie_mark_robotics
+		trigger = {
+			leader_class = commander
+			owner = {
+				has_technology = tech_robotic_workers
+				NOT = { has_policy_flag = robots_outlawed }
+			}
+		}
+
+		add_trait = {
+			trait = leader_trait_cutie_mark_robotics
+			show_message = no
+		}
+	}
+	option = {
+		name = cutie_mark_industry
+		trigger = { leader_class = scientist }
+
+		add_trait = {
+			trait = leader_trait_cutie_mark_industry
+			show_message = no
+		}
+	}
+	option = {
+		name = cutie_mark_mining
+		trigger = { leader_class = official }
+
+		add_trait = {
+			trait = leader_trait_cutie_mark_mining
+			show_message = no
+		}
+	}
+	option = {
+		name = cutie_mark_materials
+		trigger = { NOT = { leader_class = official } }
+
+		add_trait = {
+			trait = leader_trait_cutie_mark_materials
+			show_message = no
+		}
+	}
+	option = {
+		name = cutie_mark_crafts
+		trigger = {
+			leader_class = official
+			owner = { country_uses_consumer_goods = yes }
+		}
+
+		add_trait = {
+			trait = leader_trait_cutie_mark_crafts
+			show_message = no
+		}
+	}
+	option = {
+		name = cutie_mark_speed
+		trigger = { leader_class = commander }
+
+		add_trait = {
+			trait = leader_trait_cutie_mark_speed
+			show_message = no
+		}
+	}
+	option = {
+		name = cutie_mark_propulsion
+		trigger = { leader_class = scientist }
+
+		add_trait = {
+			trait = leader_trait_cutie_mark_propulsion
+			show_message = no
+		}
+	}
+	option = {
+		name = cutie_mark_voidcraft
+
+		add_trait = {
+			trait = leader_trait_cutie_mark_voidcraft
+			show_message = no
+		}
+	}
+	option = {
+		name = cutie_mark_art
+		trigger = {
+			OR = {
+				leader_class = official
+				AND = {
+					leader_class = commander
+					owner = { has_valid_civic = civic_warrior_culture }
+				}
+			}
+		}
+
+		add_trait = {
+			trait = leader_trait_cutie_mark_art
+			show_message = no
+		}
+	}
+	option = {
+		name = cutie_mark_trade
+		trigger = { leader_class = official }
+
+		add_trait = {
+			trait = leader_trait_cutie_mark_trade
+			show_message = no
+		}
+	}
+	option = {
+		name = cutie_mark_love
+		trigger = { leader_class = official }
+
+		add_trait = {
+			trait = leader_trait_cutie_mark_love
+			show_message = no
+		}
+	}
+}

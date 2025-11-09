@@ -12,6 +12,11 @@
  mtrspony_setup.3.a:0 "No, keep using §Y[From.GetSpeciesNamePlural]§! only."
  mtrspony_setup.3.d:0 "Adjust pop amount, but keep §Y[From.GetSpeciesNamePlural]§! as the most populous."
 
+ ### Starting Leader Cutie Mark Setup Events
+ mtrspony_setup.5.name:0 "MustaphaTR's Pony Mod - Starting Leader Cutie Mark"
+ mtrspony_setup.5.desc:0 "Hello there. MustaphaTR here.\n\nIt seems like you are using the §UCutie Marks§! trait for your species. I wanted to make the trait this gives for the starting leader selectable by the player, but lack of checks for species traits prevents me from handing this in the empire creation screen. So instead, here's a setup event for it for you to select a trait from."
+ mtrspony_setup.5.a:0 "Randomise"
+
  ### Gigastructural Engineering Compability Events
  gigacompat.2.name:0 "Faust Civilisations - Portraits"
  gigacompat.2.desc:0 "Hello there. MustaphaTR here.\n\nIt seems like you have both my pony portraits mod and Gigastructural Engineering enabled, and latter's Faustian Civilisations pre-FTL country seems to have appeared on this galaxy. Would you like them to use my mod's portraits, rather than the basegame ones that Gigastructural Engineering normally use?"
