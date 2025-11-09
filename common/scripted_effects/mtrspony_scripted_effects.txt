@@ -3,21 +3,30 @@ set_mtrspony_setup_variables = {
 	set_variable = { which = pony_pops value = 0 }
 	set_variable = { which = griffon_pops value = 0 }
 	set_variable = { which = griffon_pops_prev value = 0 }
+	set_variable = { which = griffon_pops_div_5 value = 0 }
 	set_variable = { which = zebra_pops value = 0 }
 	set_variable = { which = zebra_pops_prev value = 0 }
+	set_variable = { which = zebra_pops_div_5 value = 0 }
 	set_variable = { which = deer_pops value = 0 }
 	set_variable = { which = deer_pops_prev value = 0 }
+	set_variable = { which = deer_pops_div_5 value = 0 }
 	set_variable = { which = changeling_pops value = 0 }
 	set_variable = { which = changeling_pops_prev value = 0 }
+	set_variable = { which = changeling_pops_div_5 value = 0 }
 	set_variable = { which = hippogriff_pops value = 0 }
 	set_variable = { which = hippogriff_pops_prev value = 0 }
+	set_variable = { which = hippogriff_pops_div_5 value = 0 }
 	set_variable = { which = kirin_pops value = 0 }
 	set_variable = { which = kirin_pops_prev value = 0 }
+	set_variable = { which = kirin_pops_div_5 value = 0 }
 	set_variable = { which = yak_pops value = 0 }
 	set_variable = { which = yak_pops_prev value = 0 }
+	set_variable = { which = yak_pops_div_5 value = 0 }
 	set_variable = { which = dragon_pops value = 0 }
 	set_variable = { which = dragon_pops_prev value = 0 }
+	set_variable = { which = dragon_pops_div_5 value = 0 }
 	set_variable = { which = pops_to_remove value = 0 }
+	set_variable = { which = pops_to_remove_div_5 value = 0 }
 	set_variable = { which = equal_pops value = 0 }
 }
 
@@ -2092,12 +2101,12 @@ give_random_cutie_mark_trait  = {
 			modifier = {
 				factor = 1.5
 				leader_class = official
-				ROOT = { has_valid_civic = civic_agrarian_idyll }
+				owner = { has_valid_civic = civic_agrarian_idyll }
 			}
 			modifier = {
 				factor = 0
 				leader_class = official
-				ROOT = { country_uses_food = no }
+				owner = { country_uses_food = no }
 			}
 
 			if = {
@@ -2121,7 +2130,7 @@ give_random_cutie_mark_trait  = {
 			modifier = {
 				factor = 1.5
 				leader_class = official
-				ROOT = { has_valid_civic = civic_police_state }
+				owner = { has_valid_civic = civic_police_state }
 			}
 			modifier = {
 				factor = 0
@@ -2144,7 +2153,7 @@ give_random_cutie_mark_trait  = {
 			modifier = {
 				factor = 1.5
 				leader_class = official
-				ROOT = { has_valid_civic = civic_byzantine_bureaucracy }
+				owner = { has_valid_civic = civic_byzantine_bureaucracy }
 			}
 			modifier = {
 				factor = 0
@@ -2188,14 +2197,14 @@ give_random_cutie_mark_trait  = {
 			modifier = {
 				factor = 1.5
 				leader_class = official
-				ROOT = { has_valid_civic = civic_mining_guilds }
+				owner = { has_valid_civic = civic_mining_guilds }
 			}
 			modifier = {
 				factor = 0
 				OR = {
 					AND = {
 						leader_class = commander
-						ROOT = {
+						owner = {
 							OR = {
 								NOT = { has_technology = tech_robotic_workers }
 								has_policy_flag = robots_outlawed
@@ -2238,7 +2247,7 @@ give_random_cutie_mark_trait  = {
 			modifier = {
 				factor = 1.5
 				leader_class = official
-				ROOT = {
+				owner = {
 					OR = {
 						has_valid_civic = civic_crafters
 						has_valid_civic = civic_corporate_crafters
@@ -2254,7 +2263,7 @@ give_random_cutie_mark_trait  = {
 					}
 					AND = {
 						leader_class = official
-						ROOT = { country_uses_consumer_goods = no }
+						owner = { country_uses_consumer_goods = no }
 					}
 				}
 			}
@@ -2321,7 +2330,7 @@ give_random_cutie_mark_trait  = {
 					leader_class = scientist
 					AND = {
 						leader_class = commander
-						ROOT = { NOT = { has_valid_civic = civic_warrior_culture } }
+						owner = { NOT = { has_valid_civic = civic_warrior_culture } }
 					}
 				}
 			}
@@ -2334,7 +2343,7 @@ give_random_cutie_mark_trait  = {
 		10 = {
 			modifier = {
 				factor = 1.5
-				ROOT = {
+				owner = {
 					OR = {
 						has_authority = auth_corporate
 						has_valid_civic = civic_corporate_dominion
