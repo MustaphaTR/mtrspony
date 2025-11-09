@@ -8,6 +8,10 @@ MTRSPONY_mammalians = {
 		"mtrspony_pony_pegasus"
 		"mtrspony_pony_thestral"
 		"mtrspony_pony_alicorn"
+		"mtrspony_pony_crystal"
+		"mtrspony_pony_crystal_earth"
+		"mtrspony_pony_crystal_unicorn"
+		"mtrspony_pony_crystal_pegasus"
 		"mtrspony_deer"
 		"mtrspony_kirin"
 		"mtrspony_yak"
@@ -23,6 +27,10 @@ MTRSPONY_mammalians = {
 		"mtrspony_pony_pegasus"
 		"mtrspony_pony_thestral"
 		"mtrspony_pony_alicorn"
+		"mtrspony_pony_crystal"
+		"mtrspony_pony_crystal_earth"
+		"mtrspony_pony_crystal_unicorn"
+		"mtrspony_pony_crystal_pegasus"
 		"mtrspony_deer"
 		"mtrspony_kirin"
 		"mtrspony_yak"
@@ -68,5 +76,24 @@ MTRSPONY_arthropoids = {
 	# These should not be used for randomly generated species
 	non_randomized_portraits = {
 		"mtrspony_changeling"
+	}
+}
+
+MTRSPONY_lithoids = {
+	species_class = LITHOID
+
+	portraits = {
+		"mtrspony_pony_crystal"
+		"mtrspony_pony_crystal_earth"
+		"mtrspony_pony_crystal_unicorn"
+		"mtrspony_pony_crystal_pegasus"
+	}
+
+	# These should not be used for randomly generated species
+	non_randomized_portraits = {
+		"mtrspony_pony_crystal"
+		"mtrspony_pony_crystal_earth"
+		"mtrspony_pony_crystal_unicorn"
+		"mtrspony_pony_crystal_pegasus"
 	}
 }

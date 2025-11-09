@@ -1,0 +1,131 @@
+portraits = {
+	# Portraits themselves are defined under files for individual crystal pony races.
+}
+
+portrait_groups = {
+	mtrspony_pony_crystal = {
+		default = mtrspony_pony_crystal_earth_sunburst
+		game_setup = {
+			add = {
+				trigger = {
+					ruler = {
+						OR = {
+							gender = male
+							gender = indeterminable
+						}
+					}
+				}
+				portraits = {
+					mtrspony_pony_crystal_earth_sunburst
+					mtrspony_pony_crystal_earth_soarin
+					mtrspony_pony_crystal_unicorn_sunburst
+					mtrspony_pony_crystal_pegasus_soarin
+				}
+			}
+			add = {
+				trigger = {
+					ruler = {
+						OR = {
+							gender = female
+							gender = indeterminable
+						}
+					}
+				}
+				portraits = {
+					mtrspony_pony_crystal_earth_applejack
+					mtrspony_pony_crystal_earth_rarity
+					mtrspony_pony_crystal_earth_mrs_shy
+					mtrspony_pony_crystal_unicorn_rarity
+					mtrspony_pony_crystal_pegasus_mrs_shy
+				}
+			}
+		}
+
+		species = {
+			add = {
+				trigger = {
+					exists = species
+					NOT = { species = { species_gender = male } }
+				}
+				portraits = {
+					mtrspony_pony_crystal_earth_applejack
+					mtrspony_pony_crystal_earth_rarity
+					mtrspony_pony_crystal_earth_mrs_shy
+					mtrspony_pony_crystal_unicorn_rarity
+					mtrspony_pony_crystal_pegasus_mrs_shy
+				}
+			}
+			add = {
+				trigger = {
+					exists = species
+					NOT = { species = { species_gender = female } }
+				}
+				portraits = {
+					mtrspony_pony_crystal_earth_sunburst
+					mtrspony_pony_crystal_earth_soarin
+					mtrspony_pony_crystal_unicorn_sunburst
+					mtrspony_pony_crystal_pegasus_soarin
+				}
+			}
+		}
+
+		pop = {
+			add = {
+				trigger = {
+					NOT = { species = { species_gender = male } }
+				}
+				portraits = {
+					mtrspony_pony_crystal_earth_applejack
+					mtrspony_pony_crystal_earth_rarity
+					mtrspony_pony_crystal_earth_mrs_shy
+					mtrspony_pony_crystal_unicorn_rarity
+					mtrspony_pony_crystal_pegasus_mrs_shy
+				}
+			}
+			add = {
+				trigger = {
+					NOT = { species = { species_gender = female } }
+				}
+				portraits = {
+					mtrspony_pony_crystal_earth_sunburst
+					mtrspony_pony_crystal_earth_soarin
+					mtrspony_pony_crystal_unicorn_sunburst
+					mtrspony_pony_crystal_pegasus_soarin
+				}
+			}
+		}
+
+		leader = {
+			add = {
+				trigger = {
+					OR = {
+						gender = male
+						gender = indeterminable
+					}
+				}
+				portraits = {
+					mtrspony_pony_crystal_earth_sunburst
+					mtrspony_pony_crystal_earth_soarin
+					mtrspony_pony_crystal_unicorn_sunburst
+					mtrspony_pony_crystal_pegasus_soarin
+				}
+			}
+
+			add = {
+				trigger = {
+					OR = {
+						gender = female
+						gender = indeterminable
+					}
+				}
+				portraits = {
+					mtrspony_pony_crystal_earth_applejack
+					mtrspony_pony_crystal_earth_rarity
+					mtrspony_pony_crystal_earth_mrs_shy
+					mtrspony_pony_crystal_unicorn_rarity
+					mtrspony_pony_crystal_pegasus_mrs_shy
+				}
+			}
+		}
+	}
+}

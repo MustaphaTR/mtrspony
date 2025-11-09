@@ -32,3 +32,11 @@ arthropoids = {
 		MTRSPONY_arthropoids
 	}
 }
+
+lithoids = {
+	name = LITHOID
+
+	sets = {
+		MTRSPONY_lithoids
+	}
+}

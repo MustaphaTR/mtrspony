@@ -633,8 +633,8 @@ entity = {
 	scale = 1.0
 }
 entity = {
-	name = "portrait_dummy_applejack_crystal_entity"
-	pdxmesh = "portrait_dummy_applejack_crystal_mesh"
+	name = "portrait_dummy_applejack_crystal_earth_entity"
+	pdxmesh = "portrait_dummy_applejack_crystal_earth_mesh"
 
 	default_state = "idle"
 	state = {

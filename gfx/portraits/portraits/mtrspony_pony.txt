@@ -19,9 +19,9 @@ portrait_groups = {
 					mtrspony_pony_earth_big_mcintosh
 					mtrspony_pony_earth_mudbriar
 					mtrspony_pony_earth_igneous_rock_pie
+					mtrspony_pony_earth_sunburst
 					mtrspony_pony_earth_fire_streak
 					mtrspony_pony_earth_soarin
-					mtrspony_pony_earth_sunburst
 					mtrspony_pony_earth_sandbar
 					mtrspony_pony_earth_button_mash
 					mtrspony_pony_unicorn_shining_armor
@@ -49,9 +49,9 @@ portrait_groups = {
 					mtrspony_pony_earth_maud_pie
 					mtrspony_pony_earth_cheerilee
 					mtrspony_pony_earth_twilight_velvet
+					mtrspony_pony_earth_rarity
 					mtrspony_pony_earth_mrs_shy
 					mtrspony_pony_earth_luna_s1
-					mtrspony_pony_earth_rarity
 					mtrspony_pony_earth_babs_seed
 					mtrspony_pony_earth_apple_bloom
 					mtrspony_pony_earth_scootaloo
@@ -99,9 +99,9 @@ portrait_groups = {
 					mtrspony_pony_earth_maud_pie
 					mtrspony_pony_earth_cheerilee
 					mtrspony_pony_earth_twilight_velvet
+					mtrspony_pony_earth_rarity
 					mtrspony_pony_earth_mrs_shy
 					mtrspony_pony_earth_luna_s1
-					mtrspony_pony_earth_rarity
 					mtrspony_pony_earth_babs_seed
 					mtrspony_pony_earth_apple_bloom
 					mtrspony_pony_earth_scootaloo
@@ -144,9 +144,9 @@ portrait_groups = {
 					mtrspony_pony_earth_big_mcintosh
 					mtrspony_pony_earth_mudbriar
 					mtrspony_pony_earth_igneous_rock_pie
+					mtrspony_pony_earth_sunburst
 					mtrspony_pony_earth_fire_streak
 					mtrspony_pony_earth_soarin
-					mtrspony_pony_earth_sunburst
 					mtrspony_pony_earth_sandbar
 					mtrspony_pony_earth_button_mash
 					mtrspony_pony_unicorn_shining_armor
@@ -172,9 +172,9 @@ portrait_groups = {
 					mtrspony_pony_earth_maud_pie
 					mtrspony_pony_earth_cheerilee
 					mtrspony_pony_earth_twilight_velvet
+					mtrspony_pony_earth_rarity
 					mtrspony_pony_earth_mrs_shy
 					mtrspony_pony_earth_luna_s1
-					mtrspony_pony_earth_rarity
 					mtrspony_pony_earth_babs_seed
 					mtrspony_pony_earth_apple_bloom
 					mtrspony_pony_earth_scootaloo
@@ -216,9 +216,9 @@ portrait_groups = {
 					mtrspony_pony_earth_big_mcintosh
 					mtrspony_pony_earth_mudbriar
 					mtrspony_pony_earth_igneous_rock_pie
+					mtrspony_pony_earth_sunburst
 					mtrspony_pony_earth_fire_streak
 					mtrspony_pony_earth_soarin
-					mtrspony_pony_earth_sunburst
 					mtrspony_pony_earth_sandbar
 					mtrspony_pony_earth_button_mash
 					mtrspony_pony_unicorn_shining_armor
@@ -245,9 +245,9 @@ portrait_groups = {
 					mtrspony_pony_earth_big_mcintosh
 					mtrspony_pony_earth_mudbriar
 					mtrspony_pony_earth_igneous_rock_pie
+					mtrspony_pony_earth_sunburst
 					mtrspony_pony_earth_fire_streak
 					mtrspony_pony_earth_soarin
-					mtrspony_pony_earth_sunburst
 					mtrspony_pony_earth_sandbar
 					mtrspony_pony_earth_button_mash
 					mtrspony_pony_unicorn_shining_armor
@@ -274,9 +274,9 @@ portrait_groups = {
 					mtrspony_pony_earth_maud_pie
 					mtrspony_pony_earth_cheerilee
 					mtrspony_pony_earth_twilight_velvet
+					mtrspony_pony_earth_rarity
 					mtrspony_pony_earth_mrs_shy
 					mtrspony_pony_earth_luna_s1
-					mtrspony_pony_earth_rarity
 					mtrspony_pony_earth_babs_seed
 					mtrspony_pony_earth_apple_bloom
 					mtrspony_pony_earth_scootaloo

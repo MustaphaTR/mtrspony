@@ -202,11 +202,13 @@
 -- Fixed Multi-Species setup removing more of your primary species' pops than needed when there's a secondary one, like with Mechanist origin.
 
 - Version 0.4.1 (XX.10.2025):
+-- Added Crystal Pony portrait sets. At the moment only a few ponies have Crystal variants, one for each subspecies of each gender.
+--- They can be used as both Organic and Lithoid species, which trait they get depend on through which portrait category they are chosen.
 -- Added Alicorn of Magic and Alicorn leader traits for some named characters in prescripted countries.
--- Adjusted one color option for Applejack portraits and added one more color option.
--- Adjusted some color options for Soarin' portraits, added two more color options, and added clothes and Earth Pony variants for him.
+-- Adjusted one color option for Applejack portraits, added one more color option and added Crystal Pony variant for her.
+-- Adjusted some color options for Soarin' portraits, added two more color options, added clothes, and added Earth Pony and Crystal Pony variants for him.
 -- Adjusted one color option for Cozy Glow portraits, added one more color option, and added Earth Pony, Unicorn and Alicorn variants for her.
--- Adjusted some colors options for Rarity portraits, added two more color options, and added Earth Pony variants for her.
--- Added one more color options for Sunburst portraits, and added Earth Pony variants for him.
+-- Adjusted some colors options for Rarity portraits, added two more color options, and added Earth Pony and Crystal Pony variants for her.
+-- Added one more color options for Sunburst portraits, and added Earth Pony and Crystal Pony variants for him.
 -- Replaced the Mrs. Shy portrait set with a similar one with accessiories. Adjusted some color options, added one more color option added Earth Pony variants for her in the process.
 -- Fixed broken adjustment of the climate traits of species added by multi-species option, in cases where it doesn't match starting planet's class, like Post-Apocalyptic origin.
