@@ -211,6 +211,8 @@
 -- Adjusted one color option for Cozy Glow portraits, added one more color option, and added Earth Pony, Unicorn and Alicorn variants for her.
 -- Adjusted some colors options for Rarity portraits, added two more color options, and added Earth Pony and Crystal Pony variants for her.
 -- Added one more color options for Sunburst portraits, and added Earth Pony and Crystal Pony variants for him.
+-- Added council effect for Entertainment and Crafts Cutie Marks to give Amenities.
+-- Added council effect for Speed Cutie Mark to increase Ship Evasion.
 -- Added council effect for Energy Cutie Mark to increase output of Solar Panel Network starbase building.
 -- Added Official version of Archaeology Cutie Mark, increasing Minor Artifacts from jobs on the planets and reducing building Minor Artefacts cost.
 -- Changed council effect for Commanders' Archaeology Cutie Mark to reduce ship Minor Artifact cost instead of the upkeep they didn't have.

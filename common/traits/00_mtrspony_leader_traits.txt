@@ -1192,8 +1192,17 @@ leader_trait_cutie_mark_crafts = {
 	inline_script = {
 		script = trait/icon_cutie_mark
 		ICON = "GFX_leader_trait_cutie_mark_silver_spoon"
-		COUNCIL = no
+		COUNCIL = triggered
 		TIER = none
+	}
+	triggered_councilor_modifier = {
+		potential = {
+			OR = {
+				is_councilor = yes
+				trait_is_gestalt_check = no
+			}
+		}
+		planet_amenities_add = 100
 	}
 	triggered_planet_modifier = {
 		potential = { trait_is_gestalt_check = no }
@@ -1211,6 +1220,20 @@ leader_trait_cutie_mark_crafts = {
 		potential = { trait_is_gestalt_check = yes }
 		pop_artisan_drone_bonus_workforce_mult = 0.025
 	}
+	triggered_planet_modifier = {
+		potential = {
+			is_councilor = no
+			trait_is_gestalt_check = yes
+		}
+		planet_amenities_add = 200
+	}
+	triggered_sector_modifier = {
+		potential = {
+			is_councilor = no
+			trait_is_gestalt_check = yes
+		}
+		planet_amenities_add = 100
+	}
 	leader_class = { official }
 	selectable_weight = 0
 	randomized = no
@@ -1220,11 +1243,27 @@ leader_trait_cutie_mark_speed = {
 	inline_script = {
 		script = trait/icon_cutie_mark
 		ICON = "GFX_leader_trait_cutie_mark_rainbow_dash"
-		COUNCIL = no
+		COUNCIL = triggered
 		TIER = none
+	}
+	triggered_councilor_modifier = {
+		potential = {
+			OR = {
+				is_councilor = yes
+				trait_is_gestalt_check = no
+			}
+		}
+		ship_evasion_mult = 0.05
 	}
 	fleet_modifier = {
 		ship_speed_mult = 0.1
+	}
+	triggered_fleet_modifier = {
+		potential = {
+			is_councilor = no
+			trait_is_gestalt_check = yes
+		}
+		ship_evasion_mult = 0.05
 	}
 	leader_class = { commander }
 	selectable_weight = 0
@@ -1314,8 +1353,17 @@ leader_trait_cutie_mark_art = {
 	inline_script = {
 		script = trait/icon_cutie_mark
 		ICON = "GFX_leader_trait_cutie_mark_octavia"
-		COUNCIL = no
+		COUNCIL = triggered
 		TIER = none
+	}
+	triggered_councilor_modifier = {
+		potential = {
+			OR = {
+				is_councilor = yes
+				trait_is_gestalt_check = no
+			}
+		}
+		planet_amenities_add = 100
 	}
 	triggered_planet_modifier = {
 		potential = { trait_is_gestalt_check = no }
@@ -1332,6 +1380,20 @@ leader_trait_cutie_mark_art = {
 	triggered_sector_modifier = {
 		potential = { trait_is_gestalt_check = yes }
 		pop_evaluator_bonus_workforce_mult = 0.025
+	}
+	triggered_planet_modifier = {
+		potential = {
+			is_councilor = no
+			trait_is_gestalt_check = yes
+		}
+		planet_amenities_add = 200
+	}
+	triggered_sector_modifier = {
+		potential = {
+			is_councilor = no
+			trait_is_gestalt_check = yes
+		}
+		planet_amenities_add = 100
 	}
 	leader_class = { commander official }
 	selectable_weight = 0
