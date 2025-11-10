@@ -1,4 +1,31 @@
 portraits = {
+	mtrspony_pony_crystal_earth_big_mcintosh = {
+		entity = "portrait_dummy_applejack_crystal_earth_entity"
+		clothes_selector = "mtrspony_no_clothes_selector"
+		attachment_selector = "mtrspony_pony_earth_big_mcintosh_hair_selector"
+		greeting_sound = "human_male_greetings_01"
+
+		character_textures = {
+			"gfx/models/portraits/pony_earth/big_mcintosh/big_mcintosh.tga"
+			"gfx/models/portraits/pony_earth/big_mcintosh/big_mcintosh_alt1.tga"
+			"gfx/models/portraits/pony_earth/big_mcintosh/big_mcintosh_alt2.tga"
+			"gfx/models/portraits/pony_earth/big_mcintosh/big_mcintosh_alt3.tga"
+			"gfx/models/portraits/pony_earth/big_mcintosh/big_mcintosh_alt4.tga"
+			"gfx/models/portraits/pony_earth/big_mcintosh/big_mcintosh_alt5.tga"
+			"gfx/models/portraits/pony_earth/big_mcintosh/big_mcintosh_alt6.tga"
+			"gfx/models/portraits/pony_earth/big_mcintosh/big_mcintosh_alt7.tga"
+			"gfx/models/portraits/pony_earth/big_mcintosh/big_mcintosh_alt8.tga"
+			"gfx/models/portraits/pony_earth/big_mcintosh/big_mcintosh_alt9.tga"
+			"gfx/models/portraits/pony_earth/big_mcintosh/big_mcintosh_alt10.tga"
+			"gfx/models/portraits/pony_earth/big_mcintosh/big_mcintosh_alt11.tga"
+			"gfx/models/portraits/pony_earth/big_mcintosh/big_mcintosh_alt12.tga"
+			"gfx/models/portraits/pony_earth/big_mcintosh/big_mcintosh_alt13.tga"
+			"gfx/models/portraits/pony_earth/big_mcintosh/big_mcintosh_alt14.tga"
+		}
+
+		custom_attachment_label = "HAIR_COLOR"
+	}
+
 	mtrspony_pony_crystal_earth_sunburst = {
 		entity = "portrait_dummy_sunburst_crystal_earth_entity"
 		clothes_selector = "mtrspony_pony_unicorn_sunburst_clothes_selector"
@@ -148,6 +175,7 @@ portrait_groups = {
 					}
 				}
 				portraits = {
+					mtrspony_pony_crystal_earth_big_mcintosh
 					mtrspony_pony_crystal_earth_sunburst
 					mtrspony_pony_crystal_earth_soarin
 				}
@@ -187,6 +215,7 @@ portrait_groups = {
 					NOT = { species = { species_gender = female } }
 				}
 				portraits = {
+					mtrspony_pony_crystal_earth_big_mcintosh
 					mtrspony_pony_crystal_earth_sunburst
 					mtrspony_pony_crystal_earth_soarin
 				}
@@ -209,6 +238,7 @@ portrait_groups = {
 					NOT = { species = { species_gender = female } }
 				}
 				portraits = {
+					mtrspony_pony_crystal_earth_big_mcintosh
 					mtrspony_pony_crystal_earth_sunburst
 					mtrspony_pony_crystal_earth_soarin
 				}
@@ -224,6 +254,7 @@ portrait_groups = {
 					}
 				}
 				portraits = {
+					mtrspony_pony_crystal_earth_big_mcintosh
 					mtrspony_pony_crystal_earth_sunburst
 					mtrspony_pony_crystal_earth_soarin
 				}

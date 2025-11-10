@@ -207,6 +207,7 @@
 --- They can be used as both Organic and Lithoid species, which trait they get depend on through which portrait category they are chosen.
 -- Added Alicorn of Magic and Alicorn leader traits for some named characters in prescripted countries.
 -- Adjusted one color option for Applejack portraits, added one more color option and added Crystal Pony variant for her.
+-- Adjusted some color options for Big Macintosh portraits, added one more color option and added Crystal Pony variant for him.
 -- Adjusted some color options for Soarin' portraits, added two more color options, added clothes, and added Earth Pony and Crystal Pony variants for him.
 -- Adjusted one color option for Cozy Glow portraits, added one more color option, and added Earth Pony, Unicorn and Alicorn variants for her.
 -- Adjusted some colors options for Rarity portraits, added two more color options, and added Earth Pony and Crystal Pony variants for her.

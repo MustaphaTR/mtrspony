@@ -16,6 +16,7 @@ portrait_groups = {
 					}
 				}
 				portraits = {
+					mtrspony_pony_crystal_earth_big_mcintosh
 					mtrspony_pony_crystal_earth_sunburst
 					mtrspony_pony_crystal_earth_soarin
 					mtrspony_pony_crystal_unicorn_sunburst
@@ -61,6 +62,7 @@ portrait_groups = {
 					NOT = { species = { species_gender = female } }
 				}
 				portraits = {
+					mtrspony_pony_crystal_earth_big_mcintosh
 					mtrspony_pony_crystal_earth_sunburst
 					mtrspony_pony_crystal_earth_soarin
 					mtrspony_pony_crystal_unicorn_sunburst
@@ -87,6 +89,7 @@ portrait_groups = {
 					NOT = { species = { species_gender = female } }
 				}
 				portraits = {
+					mtrspony_pony_crystal_earth_big_mcintosh
 					mtrspony_pony_crystal_earth_sunburst
 					mtrspony_pony_crystal_earth_soarin
 					mtrspony_pony_crystal_unicorn_sunburst
@@ -104,6 +107,7 @@ portrait_groups = {
 					}
 				}
 				portraits = {
+					mtrspony_pony_crystal_earth_big_mcintosh
 					mtrspony_pony_crystal_earth_sunburst
 					mtrspony_pony_crystal_earth_soarin
 					mtrspony_pony_crystal_unicorn_sunburst
