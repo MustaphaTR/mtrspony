@@ -5,5 +5,6 @@
  mod_pop_spawning_drone_bonus_workforce_mult:0 "[spawning_drone.GetNamePlural]$BONUS_WORKFORCE_FOR$"
  mod_ships_minor_artifacts_upkeep_mult:0 "Ships £minor_artifacts£ Minor Artifacts Upkeep"
  mod_planet_structures_minerals_cost_mult:0 "District and Building Minerals Cost"
+ mod_planet_structures_minor_artifacts_cost_mult:0 "District and Building Minor Artifacts Cost"
  mod_starbase_buildings_food_produces_mult:0 "星系基地建造による$r_food$"
  mod_shipclass_research_station_build_speed_mult:0 "研究ステーション建設速度"

@@ -5,5 +5,6 @@
  mod_pop_spawning_drone_bonus_workforce_mult:0 "$BONUS_WORKFORCE_FOR$ [spawning_drone.GetNamePlural]"
  mod_ships_minor_artifacts_upkeep_mult:0 "Manutenção de £minor_artifacts£ Artefatos Menores de Naves"
  mod_planet_structures_minerals_cost_mult:0 "Custo de Minerais de Distritos e Construções"
+ mod_planet_structures_minor_artifacts_cost_mult:0 "Custo de Artefatos Menores de Distritos e Construções"
  mod_starbase_buildings_food_produces_mult:0 "$r_food$ de Construções de Base Estelar"
  mod_shipclass_research_station_build_speed_mult:0 "Velocidade de Construção de Estação de Pesquisa"

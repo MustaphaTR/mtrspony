@@ -954,7 +954,7 @@ leader_trait_cutie_mark_archaeology = {
 				trait_is_gestalt_check = no
 			}
 		}
-		ships_minor_artifacts_upkeep_mult = -0.1
+		starbase_shipyard_build_minor_artifacts_cost_mult = -0.05
 	}
 	triggered_councilor_modifier = {
 		potential = {
@@ -967,6 +967,16 @@ leader_trait_cutie_mark_archaeology = {
 		category_archaeostudies_research_speed_mult = 0.075
 		category_archaeostudies_draw_chance_mult = 0.125
 	}
+	triggered_councilor_modifier = {
+		potential = {
+			leader_class = official
+			OR = {
+				is_councilor = yes
+				trait_is_gestalt_check = no
+			}
+		}
+		planet_structures_minor_artifacts_cost_mult = -0.1
+	}
 	triggered_modifier = {
 		potential = { leader_class = scientist }
 		ship_archaeological_site_excavation_speed_mult = 0.1
@@ -975,15 +985,31 @@ leader_trait_cutie_mark_archaeology = {
 		potential = { leader_class = commander }
 		weapon_archaeotech_weapon_damage_mult = 0.15
 	}
-	triggered_fleet_modifier = {
+	triggered_planet_modifier = {
+		potential = { leader_class = official }
+		planet_jobs_minor_artifacts_produces_mult = 0.05
+	}
+	triggered_sector_modifier = {
+		potential = { leader_class = official }
+		planet_jobs_minor_artifacts_produces_mult = 0.025
+	}
+	triggered_planet_modifier = {
 		potential = {
-			leader_class = commander
+			leader_class = official
 			is_councilor = no
 			trait_is_gestalt_check = yes
 		}
-		ships_minor_artifacts_upkeep_mult = -0.1
+		planet_structures_minor_artifacts_cost_mult = -0.2
 	}
-	leader_class = { commander scientist }
+	triggered_sector_modifier = {
+		potential = {
+			leader_class = official
+			is_councilor = no
+			trait_is_gestalt_check = yes
+		}
+		planet_structures_minor_artifacts_cost_mult = -0.1
+	}
+	leader_class = { commander scientist official }
 	selectable_weight = 0
 	randomized = no
 }

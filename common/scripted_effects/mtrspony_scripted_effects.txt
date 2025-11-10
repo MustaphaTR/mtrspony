@@ -2181,10 +2181,7 @@ give_random_cutie_mark_trait  = {
 		5 = {
 			modifier = {
 				factor = 0
-				OR = {
-					leader_class = official
-					has_ancrel = no
-				}
+				has_ancrel = no
 			}
 
 			add_trait = {

@@ -324,10 +324,7 @@ leader_event = {
 	}
 	option = {
 		name = cutie_mark_archaeology
-		trigger = {
-			NOT = { leader_class = official }
-			has_ancrel = yes
-		}
+		trigger = { has_ancrel = yes }
 
 		add_trait = {
 			trait = leader_trait_cutie_mark_archaeology

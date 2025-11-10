@@ -5,5 +5,6 @@
  mod_pop_spawning_drone_bonus_workforce_mult:0 "$BONUS_WORKFORCE_FOR$ drones de reproduction "
  mod_ships_minor_artifacts_upkeep_mult:0 "Maintenance en £minor_artifacts£ des vaisseaux "
  mod_planet_structures_minerals_cost_mult:0 "Coût des £minerals£ des £district£districts et £building£bâtiments "
+ mod_planet_structures_minor_artifacts_cost_mult:0 "Coût des £minor_artifacts£ des £district£districts et £building£bâtiments "
  mod_starbase_buildings_food_produces_mult:0 "Prod. de $r_food$ des constructions de base stellaire "
  mod_shipclass_research_station_build_speed_mult:0 "Vit. de construction des stations de recherche "
