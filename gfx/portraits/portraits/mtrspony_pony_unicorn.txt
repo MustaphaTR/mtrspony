@@ -301,7 +301,7 @@ portraits = {
 		greeting_sound = "human_female_greetings_01"
 
 		character_textures = {
-			"gfx/models/portraits/pony_unicorn/sweetie_belle/sweetie_belle_dark_magic_alt1.dds"
+			"gfx/models/portraits/pony_unicorn/sweetie_belle/sweetie_belle_dark_magic_alt1.tga"
 		}
 	}
 
