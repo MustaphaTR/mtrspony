@@ -217,10 +217,10 @@ the_crusader_state = {
 		ruler_title = "PRESCRIPTED_ruler_title_head_crusader"
 		ruler_title_female = "PRESCRIPTED_ruler_title_head_crusader_female"
 		gender = female
-		portrait = "mtrspony_pony_unicorn_sweetie_belle_older"
-		texture = 1
+		portrait = "mtrspony_pony_unicorn_sweetie_belle_predefined"
+		texture = 0
 		attachment = 0
-		clothes = 19
+		clothes = 0
 		trait = "trait_ruler_eye_for_talent"
 		leader_class = scientist
 	}
@@ -293,10 +293,10 @@ the_crusader_state_necroids = {
 		ruler_title = "PRESCRIPTED_ruler_title_head_crusader"
 		ruler_title_female = "PRESCRIPTED_ruler_title_head_crusader_female"
 		gender = female
-		portrait = "mtrspony_pony_unicorn_sweetie_belle_older"
-		texture = 1
+		portrait = "mtrspony_pony_unicorn_sweetie_belle_predefined"
+		texture = 0
 		attachment = 0
-		clothes = 19
+		clothes = 0
 		trait = "trait_ruler_eye_for_talent"
 		leader_class = scientist
 	}

@@ -283,6 +283,28 @@ portraits = {
 		custom_attachment_label = "HAIR_COLOR"
 	}
 
+	mtrspony_pony_unicorn_sweetie_belle_predefined = {
+		entity = "portrait_dummy_sweetie_belle_unicorn_entity"
+		clothes_selector = "mtrspony_pony_unicorn_sweetie_belle_predefined_clothes_selector"
+		attachment_selector = "mtrspony_pony_unicorn_sweetie_belle_predefined_hair_selector"
+		greeting_sound = "human_female_greetings_01"
+
+		character_textures = {
+			"gfx/models/portraits/pony_unicorn/sweetie_belle/sweetie_belle_alt1.tga"
+		}
+	}
+
+	mtrspony_pony_unicorn_sweetie_belle_dark_magic_predefined = {
+		entity = "portrait_dummy_sweetie_belle_unicorn_entity"
+		clothes_selector = "mtrspony_pony_unicorn_sweetie_belle_predefined_clothes_selector"
+		attachment_selector = "mtrspony_pony_unicorn_sweetie_belle_predefined_hair_selector"
+		greeting_sound = "human_female_greetings_01"
+
+		character_textures = {
+			"gfx/models/portraits/pony_unicorn/sweetie_belle/sweetie_belle_dark_magic_alt1.dds"
+		}
+	}
+
 	mtrspony_pony_unicorn_sweetie_belle_older = {
 		entity = "portrait_dummy_20p_left_entity"
 		clothes_selector = "mtrspony_pony_unicorn_sweetie_belle_older_clothes_selector"
@@ -310,17 +332,6 @@ portraits = {
 		}
 
 		custom_attachment_label = "HAIR_COLOR"
-	}
-
-	mtrspony_pony_unicorn_sweetie_belle_older_predefined = {
-		entity = "portrait_dummy_20p_left_entity"
-		clothes_selector = "mtrspony_no_clothes_selector"
-		attachment_selector = "mtrspony_pony_unicorn_sweetie_belle_older_predefined_hair_selector"
-		greeting_sound = "human_female_greetings_01"
-
-		character_textures = {
-			"gfx/models/portraits/pony_unicorn/sweetie_belle_older/sweetie_belle_older_alt1.dds"
-		}
 	}
 
 	mtrspony_pony_unicorn_river_swirl_predefined = {

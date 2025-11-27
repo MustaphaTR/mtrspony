@@ -1210,6 +1210,26 @@ mtrspony_pony_unicorn_trixie_clothes_selector = {
 	}
 }
 
+mtrspony_pony_unicorn_sweetie_belle_predefined_hair_selector = {
+	default = "gfx/models/portraits/pony_unicorn/sweetie_belle/sweetie_belle_hair.tga"
+
+	game_setup = { default = "gfx/models/portraits/pony_unicorn/sweetie_belle/sweetie_belle_hair.tga" }
+	species = { default = "gfx/models/portraits/pony_unicorn/sweetie_belle/sweetie_belle_hair.tga" }
+	pop = { default = "gfx/models/portraits/pony_unicorn/sweetie_belle/sweetie_belle_hair.tga" }
+	leader = { default = "gfx/models/portraits/pony_unicorn/sweetie_belle/sweetie_belle_hair.tga" }
+	ruler = { default = "gfx/models/portraits/pony_unicorn/sweetie_belle/sweetie_belle_hair.tga" }
+}
+
+mtrspony_pony_unicorn_sweetie_belle_predefined_clothes_selector = {
+	default = "gfx/models/portraits/pony_unicorn/sweetie_belle/scootaloo_uniform_military_cmc.tga"
+
+	game_setup = { default = "gfx/models/portraits/pony_unicorn/sweetie_belle/scootaloo_uniform_military_cmc.tga" }
+	species = { default = "gfx/models/portraits/pony_unicorn/sweetie_belle/scootaloo_uniform_military_cmc.tga" }
+	pop = { default = "gfx/models/portraits/pony_unicorn/sweetie_belle/scootaloo_uniform_military_cmc.tga" }
+	leader = { default = "gfx/models/portraits/pony_unicorn/sweetie_belle/scootaloo_uniform_military_cmc.tga" }
+	ruler = { default = "gfx/models/portraits/pony_unicorn/sweetie_belle/scootaloo_uniform_military_cmc.tga" }
+}
+
 mtrspony_pony_unicorn_sweetie_belle_older_hair_selector = {
 	default = "gfx/models/portraits/pony_unicorn/sweetie_belle_older/sweetie_belle_older_hair.dds"
 
@@ -1392,16 +1412,6 @@ mtrspony_pony_unicorn_sweetie_belle_older_clothes_selector = {
 			}
 		}
 	}
-}
-
-mtrspony_pony_unicorn_sweetie_belle_older_predefined_hair_selector = {
-	default = "gfx/models/portraits/pony_unicorn/sweetie_belle_older/sweetie_belle_older_hair.dds"
-
-	game_setup = { default = "gfx/models/portraits/pony_unicorn/sweetie_belle_older/sweetie_belle_older_hair.dds" }
-	species = { default = "gfx/models/portraits/pony_unicorn/sweetie_belle_older/sweetie_belle_older_hair.dds" }
-	pop = { default = "gfx/models/portraits/pony_unicorn/sweetie_belle_older/sweetie_belle_older_hair.dds" }
-	leader = { default = "gfx/models/portraits/pony_unicorn/sweetie_belle_older/sweetie_belle_older_hair.dds" }
-	ruler = { default = "gfx/models/portraits/pony_unicorn/sweetie_belle_older/sweetie_belle_older_hair.dds" }
 }
 
 mtrspony_pony_unicorn_river_swirl_predefined_hair_selector = {
