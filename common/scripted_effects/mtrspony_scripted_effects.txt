@@ -1,6 +1,7 @@
 # It drops errors when you hover over the options without this, even tho the tooptip is hidden.
 set_mtrspony_setup_variables = {
 	set_variable = { which = pony_pops value = 0 }
+	set_variable = { which = pony_pops_div_5 value = 0 }
 	set_variable = { which = griffon_pops value = 0 }
 	set_variable = { which = griffon_pops_prev value = 0 }
 	set_variable = { which = griffon_pops_div_5 value = 0 }
@@ -1288,6 +1289,11 @@ add_original_species_pc_trait = {
 		limit = { owner_main_species = { has_trait = trait_pc_alpine_preference } }
 
 		add_original_species_pc_trait_effect = { TRAIT = trait_pc_alpine_preference }
+	}
+	else_if = {
+		limit = { owner_main_species = { has_trait = trait_pc_volcanic_preference } }
+
+		add_original_species_pc_trait_effect = { TRAIT = trait_pc_volcanic_preference }
 	}
 	else_if = {
 		limit = { owner_main_species = { has_trait = trait_pc_nuked_preference } }
