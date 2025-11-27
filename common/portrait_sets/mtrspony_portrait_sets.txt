@@ -97,3 +97,24 @@ MTRSPONY_lithoids = {
 		"mtrspony_pony_crystal_pegasus"
 	}
 }
+
+MTRSPONY_infernals = {
+	species_class = INF
+
+	conditional_portraits = {
+		randomizable = {
+			has_infernals = yes
+		}
+		playable = {
+			has_infernals = yes
+		}
+		portraits = {
+			"mtrspony_dragon"
+		}
+	}
+
+	# These should not be used for randomly generated species
+	non_randomized_portraits = {
+		"mtrspony_dragon"
+	}
+}

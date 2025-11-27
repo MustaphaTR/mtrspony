@@ -40,3 +40,11 @@ lithoids = {
 		MTRSPONY_lithoids
 	}
 }
+
+infernals = {
+	name = INF
+
+	sets = {
+		MTRSPONY_infernals
+	}
+}
