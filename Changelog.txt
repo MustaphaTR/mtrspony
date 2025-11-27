@@ -202,9 +202,13 @@
 -- Fixed Multi-Species setup removing more of your primary species' pops than needed when there's a secondary one, like with Mechanist origin.
 
 - Version 0.4.1 (XX.10.2025):
+-- Updated the mod to work with 4.2 Lyra update.
 -- Added setup event to choose Cutie Mark trait for the starting leader.
 -- Added Crystal Pony portrait sets. At the moment only a few ponies have Crystal variants, one for each subspecies of each gender.
+--- The default pony portrait set now includes them as well. Added a seperate version that doesn't.
 --- They can be used as both Organic and Lithoid species, which trait they get depend on through which portrait category they are chosen.
+--- Although they are not properly accounted for in the Multi-Species setup yet, like the limited pony subspecies portraits already had. Using them will just replace the normal ponies with them.
+-- Dragon portraits can now be used for Infernals as well.
 -- Added Alicorn of Magic and Alicorn leader traits for some named characters in prescripted countries.
 -- Adjusted one color option for Applejack portraits, added one more color option and added Crystal Pony variant for her.
 -- Adjusted some color options for Big Macintosh portraits, added one more color option and added Crystal Pony variant for him.

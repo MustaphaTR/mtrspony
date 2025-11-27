@@ -3,6 +3,7 @@ MTRSPONY_mammalians = {
 
 	portraits = {
 		"mtrspony_pony"
+		"mtrspony_pony_normal"
 		"mtrspony_pony_earth"
 		"mtrspony_pony_unicorn"
 		"mtrspony_pony_pegasus"
@@ -22,6 +23,7 @@ MTRSPONY_mammalians = {
 	# These should not be used for randomly generated species
 	non_randomized_portraits = {
 		"mtrspony_pony"
+		"mtrspony_pony_normal"
 		"mtrspony_pony_earth"
 		"mtrspony_pony_unicorn"
 		"mtrspony_pony_pegasus"

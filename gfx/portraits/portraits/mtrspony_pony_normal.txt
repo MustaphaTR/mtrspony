@@ -3,8 +3,8 @@ portraits = {
 }
 
 portrait_groups = {
-	mtrspony_pony = {
-		default = mtrspony_pony_unicorn_sunburst
+	mtrspony_pony_normal = {
+		default = mtrspony_pony_earth_mudbriar
 		game_setup = {
 			add = {
 				trigger = {
@@ -24,17 +24,12 @@ portrait_groups = {
 					mtrspony_pony_earth_soarin
 					mtrspony_pony_earth_sandbar
 					mtrspony_pony_earth_button_mash
-					mtrspony_pony_crystal_earth_big_mcintosh
-					mtrspony_pony_crystal_earth_sunburst
-					mtrspony_pony_crystal_earth_soarin
 					mtrspony_pony_unicorn_shining_armor
 					mtrspony_pony_unicorn_sunburst
 					mtrspony_pony_unicorn_gourmand_ramsay
-					mtrspony_pony_crystal_unicorn_sunburst
 					mtrspony_pony_pegasus_soarin
 					mtrspony_pony_pegasus_fire_streak
 					mtrspony_pony_pegasus_mr_shy
-					mtrspony_pony_crystal_pegasus_soarin
 					mtrspony_pony_alicorn_dusk_shine
 					mtrspony_pony_alicorn_shining_armor
 				}
@@ -61,9 +56,6 @@ portrait_groups = {
 					mtrspony_pony_earth_apple_bloom
 					mtrspony_pony_earth_scootaloo
 					mtrspony_pony_earth_cozy_glow_older
-					mtrspony_pony_crystal_earth_applejack
-					mtrspony_pony_crystal_earth_rarity
-					mtrspony_pony_crystal_earth_mrs_shy
 					mtrspony_pony_unicorn_twilight_sparkle
 					mtrspony_pony_unicorn_twilight_velvet
 					mtrspony_pony_unicorn_rarity
@@ -74,7 +66,6 @@ portrait_groups = {
 					mtrspony_pony_unicorn_sweetie_belle_older
 					mtrspony_pony_unicorn_apple_bloom
 					mtrspony_pony_unicorn_cozy_glow_older
-					mtrspony_pony_crystal_unicorn_rarity
 					mtrspony_pony_pegasus_spitfire
 					mtrspony_pony_pegasus_mrs_shy
 					mtrspony_pony_pegasus_fluttershy
@@ -83,7 +74,6 @@ portrait_groups = {
 					mtrspony_pony_pegasus_cozy_glow_older
 					mtrspony_pony_pegasus_scootaloo
 					mtrspony_pony_pegasus_apple_bloom
-					mtrspony_pony_crystal_pegasus_mrs_shy
 					mtrspony_pony_thestral_echo
 					mtrspony_pony_alicorn_celestia
 					mtrspony_pony_alicorn_daybreaker
@@ -116,9 +106,6 @@ portrait_groups = {
 					mtrspony_pony_earth_apple_bloom
 					mtrspony_pony_earth_scootaloo
 					mtrspony_pony_earth_cozy_glow_older
-					mtrspony_pony_crystal_earth_applejack
-					mtrspony_pony_crystal_earth_rarity
-					mtrspony_pony_crystal_earth_mrs_shy
 					mtrspony_pony_unicorn_twilight_sparkle
 					mtrspony_pony_unicorn_twilight_velvet
 					mtrspony_pony_unicorn_rarity
@@ -129,7 +116,6 @@ portrait_groups = {
 					mtrspony_pony_unicorn_sweetie_belle_older
 					mtrspony_pony_unicorn_apple_bloom
 					mtrspony_pony_unicorn_cozy_glow_older
-					mtrspony_pony_crystal_unicorn_rarity
 					mtrspony_pony_pegasus_spitfire
 					mtrspony_pony_pegasus_mrs_shy
 					mtrspony_pony_pegasus_fluttershy
@@ -138,7 +124,6 @@ portrait_groups = {
 					mtrspony_pony_pegasus_cozy_glow_older
 					mtrspony_pony_pegasus_scootaloo
 					mtrspony_pony_pegasus_apple_bloom
-					mtrspony_pony_crystal_pegasus_mrs_shy
 					mtrspony_pony_thestral_echo
 					mtrspony_pony_alicorn_celestia
 					mtrspony_pony_alicorn_daybreaker
@@ -164,17 +149,12 @@ portrait_groups = {
 					mtrspony_pony_earth_soarin
 					mtrspony_pony_earth_sandbar
 					mtrspony_pony_earth_button_mash
-					mtrspony_pony_crystal_earth_big_mcintosh
-					mtrspony_pony_crystal_earth_sunburst
-					mtrspony_pony_crystal_earth_soarin
 					mtrspony_pony_unicorn_shining_armor
 					mtrspony_pony_unicorn_sunburst
 					mtrspony_pony_unicorn_gourmand_ramsay
-					mtrspony_pony_crystal_unicorn_sunburst
 					mtrspony_pony_pegasus_soarin
 					mtrspony_pony_pegasus_fire_streak
 					mtrspony_pony_pegasus_mr_shy
-					mtrspony_pony_crystal_pegasus_soarin
 					mtrspony_pony_alicorn_dusk_shine
 					mtrspony_pony_alicorn_shining_armor
 				}
@@ -199,9 +179,6 @@ portrait_groups = {
 					mtrspony_pony_earth_apple_bloom
 					mtrspony_pony_earth_scootaloo
 					mtrspony_pony_earth_cozy_glow_older
-					mtrspony_pony_crystal_earth_applejack
-					mtrspony_pony_crystal_earth_rarity
-					mtrspony_pony_crystal_earth_mrs_shy
 					mtrspony_pony_unicorn_twilight_sparkle
 					mtrspony_pony_unicorn_twilight_velvet
 					mtrspony_pony_unicorn_rarity
@@ -212,7 +189,6 @@ portrait_groups = {
 					mtrspony_pony_unicorn_sweetie_belle_older
 					mtrspony_pony_unicorn_apple_bloom
 					mtrspony_pony_unicorn_cozy_glow_older
-					mtrspony_pony_crystal_unicorn_rarity
 					mtrspony_pony_pegasus_spitfire
 					mtrspony_pony_pegasus_mrs_shy
 					mtrspony_pony_pegasus_fluttershy
@@ -221,7 +197,6 @@ portrait_groups = {
 					mtrspony_pony_pegasus_cozy_glow_older
 					mtrspony_pony_pegasus_scootaloo
 					mtrspony_pony_pegasus_apple_bloom
-					mtrspony_pony_crystal_pegasus_mrs_shy
 					mtrspony_pony_thestral_echo
 					mtrspony_pony_alicorn_celestia
 					mtrspony_pony_alicorn_daybreaker
@@ -246,17 +221,12 @@ portrait_groups = {
 					mtrspony_pony_earth_soarin
 					mtrspony_pony_earth_sandbar
 					mtrspony_pony_earth_button_mash
-					mtrspony_pony_crystal_earth_big_mcintosh
-					mtrspony_pony_crystal_earth_sunburst
-					mtrspony_pony_crystal_earth_soarin
 					mtrspony_pony_unicorn_shining_armor
 					mtrspony_pony_unicorn_sunburst
 					mtrspony_pony_unicorn_gourmand_ramsay
-					mtrspony_pony_crystal_unicorn_sunburst
 					mtrspony_pony_pegasus_soarin
 					mtrspony_pony_pegasus_fire_streak
 					mtrspony_pony_pegasus_mr_shy
-					mtrspony_pony_crystal_pegasus_soarin
 					mtrspony_pony_alicorn_dusk_shine
 					mtrspony_pony_alicorn_shining_armor
 				}
@@ -280,17 +250,12 @@ portrait_groups = {
 					mtrspony_pony_earth_soarin
 					mtrspony_pony_earth_sandbar
 					mtrspony_pony_earth_button_mash
-					mtrspony_pony_crystal_earth_big_mcintosh
-					mtrspony_pony_crystal_earth_sunburst
-					mtrspony_pony_crystal_earth_soarin
 					mtrspony_pony_unicorn_shining_armor
 					mtrspony_pony_unicorn_sunburst
 					mtrspony_pony_unicorn_gourmand_ramsay
-					mtrspony_pony_crystal_unicorn_sunburst
 					mtrspony_pony_pegasus_soarin
 					mtrspony_pony_pegasus_fire_streak
 					mtrspony_pony_pegasus_mr_shy
-					mtrspony_pony_crystal_pegasus_soarin
 					mtrspony_pony_alicorn_dusk_shine
 					mtrspony_pony_alicorn_shining_armor
 				}
@@ -316,9 +281,6 @@ portrait_groups = {
 					mtrspony_pony_earth_apple_bloom
 					mtrspony_pony_earth_scootaloo
 					mtrspony_pony_earth_cozy_glow_older
-					mtrspony_pony_crystal_earth_applejack
-					mtrspony_pony_crystal_earth_rarity
-					mtrspony_pony_crystal_earth_mrs_shy
 					mtrspony_pony_unicorn_twilight_sparkle
 					mtrspony_pony_unicorn_twilight_velvet
 					mtrspony_pony_unicorn_rarity
@@ -329,7 +291,6 @@ portrait_groups = {
 					mtrspony_pony_unicorn_sweetie_belle_older
 					mtrspony_pony_unicorn_apple_bloom
 					mtrspony_pony_unicorn_cozy_glow_older
-					mtrspony_pony_crystal_unicorn_rarity
 					mtrspony_pony_pegasus_spitfire
 					mtrspony_pony_pegasus_mrs_shy
 					mtrspony_pony_pegasus_fluttershy
@@ -338,7 +299,6 @@ portrait_groups = {
 					mtrspony_pony_pegasus_cozy_glow_older
 					mtrspony_pony_pegasus_scootaloo
 					mtrspony_pony_pegasus_apple_bloom
-					mtrspony_pony_crystal_pegasus_mrs_shy
 					mtrspony_pony_thestral_echo
 					mtrspony_pony_alicorn_celestia
 					mtrspony_pony_alicorn_daybreaker

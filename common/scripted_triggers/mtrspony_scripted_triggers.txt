@@ -228,11 +228,16 @@ has_under_one_rule_origin = {
 has_mtrspony_portrait = {
 	OR = {
 		species_portrait = mtrspony_pony
+		species_portrait = mtrspony_pony_normal
 		species_portrait = mtrspony_pony_earth
 		species_portrait = mtrspony_pony_unicorn
 		species_portrait = mtrspony_pony_pegasus
 		species_portrait = mtrspony_pony_thestral
 		species_portrait = mtrspony_pony_alicorn
+		species_portrait = mtrspony_pony_crystal
+		species_portrait = mtrspony_pony_crystal_earth
+		species_portrait = mtrspony_pony_crystal_unicorn
+		species_portrait = mtrspony_pony_crystal_pegasus
 		species_portrait = mtrspony_deer
 		species_portrait = mtrspony_kirin
 		species_portrait = mtrspony_yak
@@ -247,11 +252,16 @@ has_mtrspony_portrait = {
 has_mtrspony_pony_portrait = {
 	OR = {
 		species_portrait = mtrspony_pony
+		species_portrait = mtrspony_pony_normal
 		species_portrait = mtrspony_pony_earth
 		species_portrait = mtrspony_pony_unicorn
 		species_portrait = mtrspony_pony_thestral
 		species_portrait = mtrspony_pony_pegasus
 		species_portrait = mtrspony_pony_alicorn
+		species_portrait = mtrspony_pony_crystal
+		species_portrait = mtrspony_pony_crystal_earth
+		species_portrait = mtrspony_pony_crystal_unicorn
+		species_portrait = mtrspony_pony_crystal_pegasus
 	}
 }
 
