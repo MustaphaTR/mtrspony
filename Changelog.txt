@@ -201,7 +201,7 @@
 -- Added a custom event for The Crusader State prescripted country, giving Scootaloo proper Cyborg trait, if the player went Psionics ascention path.
 -- Fixed Multi-Species setup removing more of your primary species' pops than needed when there's a secondary one, like with Mechanist origin.
 
-- Version 0.4.1 (XX.10.2025):
+- Version 0.4.1 (27.11.2025):
 -- Updated the mod to work with 4.2 Lyra update.
 -- Added setup event to choose Cutie Mark trait for the starting leader.
 -- Added Crystal Pony portrait sets. At the moment only a few ponies have Crystal variants, one for each subspecies of each gender.
