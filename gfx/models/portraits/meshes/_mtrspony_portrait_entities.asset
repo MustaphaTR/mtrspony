@@ -847,6 +847,21 @@ entity = {
 	scale = 1.0
 }
 entity = {
+	name = "portrait_dummy_sweetie_belle_unicorn_dark_entity"
+	pdxmesh = "portrait_dummy_sweetie_belle_unicorn_dark_mesh"
+
+	default_state = "idle"
+	state = {
+		name = "idle"
+		animation = "idle"
+		animation_blend_time = 0
+		chance = 4.0
+		looping = no
+		next_state = idle
+	}
+	scale = 1.0
+}
+entity = {
 	name = "portrait_dummy_sweetie_belle_earth_entity"
 	pdxmesh = "portrait_dummy_sweetie_belle_earth_mesh"
 

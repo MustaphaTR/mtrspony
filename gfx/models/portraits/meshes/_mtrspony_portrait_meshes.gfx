@@ -562,6 +562,17 @@ objectTypes = {
 		scale = 1.0
 	}
 	pdxmesh = {
+		name = "portrait_dummy_sweetie_belle_unicorn_dark_mesh"
+		file = "gfx/models/portraits/meshes/dummy_sweetie_belle_unicorn_dark.mesh"
+
+		animation = {
+			id = "idle"
+			type = "human_01_female_portrait_idle1_animation"
+		}
+
+		scale = 1.0
+	}
+	pdxmesh = {
 		name = "portrait_dummy_sweetie_belle_earth_mesh"
 		file = "gfx/models/portraits/meshes/dummy_sweetie_belle_earth.mesh"
 

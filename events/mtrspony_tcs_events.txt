@@ -267,14 +267,14 @@ country_event = {
 	}
 	immediate = {
 		event_target:leader_sweetie_belle = {
-			#random_list = {
-			#	19 = {
+			random_list = {
+				19 = {
 					change_leader_portrait = "mtrspony_pony_unicorn_sweetie_belle_predefined"
-			#	}
-			#	1 = {
-			#		change_leader_portrait = "mtrspony_pony_unicorn_sweetie_belle_dark_magic_predefined"
-			#	}
-			#}
+				}
+				1 = {
+					change_leader_portrait = "mtrspony_pony_unicorn_sweetie_belle_dark_magic_predefined"
+				}
+			}
 		}
 		event_target:leader_apple_bloom = {
 			change_leader_portrait = "mtrspony_pony_alicorn_apple_bloom_predefined"
