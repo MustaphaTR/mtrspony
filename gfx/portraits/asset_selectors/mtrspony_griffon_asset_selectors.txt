@@ -208,3 +208,154 @@ mtrspony_griffon_alessandra_discret_predefined_hair_selector = {
 	leader = { default = "gfx/models/portraits/griffon/gilda/gilda_hair_alt4.dds" }
 	ruler = { default = "gfx/models/portraits/griffon/gilda/gilda_hair_alt4.dds" }
 }
+
+mtrspony_griffon_gimme_moore_hair_selector = {
+	default = "gfx/models/portraits/griffon/gimme_moore/gimme_moore_hair.tga"
+
+	game_setup = {
+		default = "gfx/models/portraits/griffon/gimme_moore/gimme_moore_hair.tga"
+	}
+
+	species = {
+		default = "gfx/models/portraits/griffon/gimme_moore/gimme_moore_hair.tga"
+	}
+
+	pop = {
+		default = "gfx/models/portraits/griffon/gimme_moore/gimme_moore_hair.tga"
+
+		random = {
+			list = {
+				"gfx/models/portraits/griffon/gimme_moore/gimme_moore_hair.tga"
+				"gfx/models/portraits/griffon/gimme_moore/gimme_moore_hair_alt1.tga"
+				"gfx/models/portraits/griffon/gimme_moore/gimme_moore_hair_alt2.tga"
+				"gfx/models/portraits/griffon/gimme_moore/gimme_moore_hair_alt3.tga"
+				"gfx/models/portraits/griffon/gimme_moore/gimme_moore_hair_alt4.tga"
+				"gfx/models/portraits/griffon/gimme_moore/gimme_moore_hair_alt5.tga"
+				"gfx/models/portraits/griffon/gimme_moore/gimme_moore_hair_alt6.tga"
+				"gfx/models/portraits/griffon/gimme_moore/gimme_moore_hair_alt7.tga"
+				"gfx/models/portraits/griffon/gimme_moore/gimme_moore_hair_alt8.tga"
+				"gfx/models/portraits/griffon/gimme_moore/gimme_moore_hair_alt9.tga"
+				"gfx/models/portraits/griffon/gimme_moore/gimme_moore_hair_alt10.tga"
+				"gfx/models/portraits/griffon/gimme_moore/gimme_moore_hair_alt11.tga"
+				"gfx/models/portraits/griffon/gimme_moore/gimme_moore_hair_alt12.tga"
+			}
+		}
+	}
+
+	leader = {
+		random = {
+			list = {
+				"gfx/models/portraits/griffon/gimme_moore/gimme_moore_hair.tga"
+				"gfx/models/portraits/griffon/gimme_moore/gimme_moore_hair_alt1.tga"
+				"gfx/models/portraits/griffon/gimme_moore/gimme_moore_hair_alt2.tga"
+				"gfx/models/portraits/griffon/gimme_moore/gimme_moore_hair_alt3.tga"
+				"gfx/models/portraits/griffon/gimme_moore/gimme_moore_hair_alt4.tga"
+				"gfx/models/portraits/griffon/gimme_moore/gimme_moore_hair_alt5.tga"
+				"gfx/models/portraits/griffon/gimme_moore/gimme_moore_hair_alt6.tga"
+				"gfx/models/portraits/griffon/gimme_moore/gimme_moore_hair_alt7.tga"
+				"gfx/models/portraits/griffon/gimme_moore/gimme_moore_hair_alt8.tga"
+				"gfx/models/portraits/griffon/gimme_moore/gimme_moore_hair_alt9.tga"
+				"gfx/models/portraits/griffon/gimme_moore/gimme_moore_hair_alt10.tga"
+				"gfx/models/portraits/griffon/gimme_moore/gimme_moore_hair_alt11.tga"
+				"gfx/models/portraits/griffon/gimme_moore/gimme_moore_hair_alt12.tga"
+			}
+		}
+	}
+
+	ruler = {
+		random = {
+			list = {
+				"gfx/models/portraits/griffon/gimme_moore/gimme_moore_hair.tga"
+				"gfx/models/portraits/griffon/gimme_moore/gimme_moore_hair_alt1.tga"
+				"gfx/models/portraits/griffon/gimme_moore/gimme_moore_hair_alt2.tga"
+				"gfx/models/portraits/griffon/gimme_moore/gimme_moore_hair_alt3.tga"
+				"gfx/models/portraits/griffon/gimme_moore/gimme_moore_hair_alt4.tga"
+				"gfx/models/portraits/griffon/gimme_moore/gimme_moore_hair_alt5.tga"
+				"gfx/models/portraits/griffon/gimme_moore/gimme_moore_hair_alt6.tga"
+				"gfx/models/portraits/griffon/gimme_moore/gimme_moore_hair_alt7.tga"
+				"gfx/models/portraits/griffon/gimme_moore/gimme_moore_hair_alt8.tga"
+				"gfx/models/portraits/griffon/gimme_moore/gimme_moore_hair_alt9.tga"
+				"gfx/models/portraits/griffon/gimme_moore/gimme_moore_hair_alt10.tga"
+				"gfx/models/portraits/griffon/gimme_moore/gimme_moore_hair_alt11.tga"
+				"gfx/models/portraits/griffon/gimme_moore/gimme_moore_hair_alt12.tga"
+			}
+		}
+	}
+}
+
+mtrspony_griffon_gimme_moore_clothes_selector = {
+	default = "gfx/models/portraits/griffon/gimme_moore/gimme_moore_hat.tga"
+
+	game_setup = {
+		default = "gfx/models/portraits/griffon/gimme_moore/gimme_moore_hat.tga"
+	}
+
+	species = {
+		default = "gfx/models/portraits/griffon/gimme_moore/gimme_moore_hat.tga"
+	}
+
+	pop = {
+		default = "gfx/models/portraits/griffon/gimme_moore/gimme_moore_hat.tga"
+
+		random = {
+			list = {
+				"gfx/models/portraits/griffon/gimme_moore/gimme_moore_hat.tga"
+				"gfx/models/portraits/griffon/gimme_moore/gimme_moore_hat_alt1.tga"
+				"gfx/models/portraits/griffon/gimme_moore/gimme_moore_hat_alt2.tga"
+				"gfx/models/portraits/griffon/gimme_moore/gimme_moore_hat_alt3.tga"
+				"gfx/models/portraits/griffon/gimme_moore/gimme_moore_hat_alt4.tga"
+				"gfx/models/portraits/griffon/gimme_moore/gimme_moore_hat_alt5.tga"
+				"gfx/models/portraits/griffon/gimme_moore/gimme_moore_hat_alt6.tga"
+				"gfx/models/portraits/griffon/gimme_moore/gimme_moore_hat_alt7.tga"
+				"gfx/models/portraits/griffon/gimme_moore/gimme_moore_hat_alt8.tga"
+				"gfx/models/portraits/griffon/gimme_moore/gimme_moore_hat_alt9.tga"
+				"gfx/models/portraits/griffon/gimme_moore/gimme_moore_hat_alt10.tga"
+				"gfx/models/portraits/griffon/gimme_moore/gimme_moore_hat_alt11.tga"
+				"gfx/models/portraits/griffon/gimme_moore/gimme_moore_hat_alt12.tga"
+				"gfx/models/portraits/no_attachment.dds"
+			}
+		}
+	}
+
+	leader = {
+		random = {
+			list = {
+				"gfx/models/portraits/griffon/gimme_moore/gimme_moore_hat.tga"
+				"gfx/models/portraits/griffon/gimme_moore/gimme_moore_hat_alt1.tga"
+				"gfx/models/portraits/griffon/gimme_moore/gimme_moore_hat_alt2.tga"
+				"gfx/models/portraits/griffon/gimme_moore/gimme_moore_hat_alt3.tga"
+				"gfx/models/portraits/griffon/gimme_moore/gimme_moore_hat_alt4.tga"
+				"gfx/models/portraits/griffon/gimme_moore/gimme_moore_hat_alt5.tga"
+				"gfx/models/portraits/griffon/gimme_moore/gimme_moore_hat_alt6.tga"
+				"gfx/models/portraits/griffon/gimme_moore/gimme_moore_hat_alt7.tga"
+				"gfx/models/portraits/griffon/gimme_moore/gimme_moore_hat_alt8.tga"
+				"gfx/models/portraits/griffon/gimme_moore/gimme_moore_hat_alt9.tga"
+				"gfx/models/portraits/griffon/gimme_moore/gimme_moore_hat_alt10.tga"
+				"gfx/models/portraits/griffon/gimme_moore/gimme_moore_hat_alt11.tga"
+				"gfx/models/portraits/griffon/gimme_moore/gimme_moore_hat_alt12.tga"
+				"gfx/models/portraits/no_attachment.dds"
+			}
+		}
+	}
+
+	ruler = {
+		random = {
+			list = {
+				"gfx/models/portraits/griffon/gimme_moore/gimme_moore_hat.tga"
+				"gfx/models/portraits/griffon/gimme_moore/gimme_moore_hat_alt1.tga"
+				"gfx/models/portraits/griffon/gimme_moore/gimme_moore_hat_alt2.tga"
+				"gfx/models/portraits/griffon/gimme_moore/gimme_moore_hat_alt3.tga"
+				"gfx/models/portraits/griffon/gimme_moore/gimme_moore_hat_alt4.tga"
+				"gfx/models/portraits/griffon/gimme_moore/gimme_moore_hat_alt5.tga"
+				"gfx/models/portraits/griffon/gimme_moore/gimme_moore_hat_alt6.tga"
+				"gfx/models/portraits/griffon/gimme_moore/gimme_moore_hat_alt7.tga"
+				"gfx/models/portraits/griffon/gimme_moore/gimme_moore_hat_alt8.tga"
+				"gfx/models/portraits/griffon/gimme_moore/gimme_moore_hat_alt9.tga"
+				"gfx/models/portraits/griffon/gimme_moore/gimme_moore_hat_alt10.tga"
+				"gfx/models/portraits/griffon/gimme_moore/gimme_moore_hat_alt11.tga"
+				"gfx/models/portraits/griffon/gimme_moore/gimme_moore_hat_alt12.tga"
+				"gfx/models/portraits/no_attachment.dds"
+			}
+		}
+	}
+}

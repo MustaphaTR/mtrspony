@@ -114,6 +114,30 @@ portraits = {
 		}
 	}
 
+	mtrspony_griffon_gimme_moore = {
+		entity = "portrait_dummy_20p_left_entity"
+		clothes_selector = "mtrspony_griffon_gimme_moore_clothes_selector"
+		attachment_selector = "mtrspony_griffon_gimme_moore_hair_selector"
+		greeting_sound = "human_female_greetings_01"
+
+		character_textures = {
+			"gfx/models/portraits/griffon/gimme_moore/gimme_moore.tga"
+			"gfx/models/portraits/griffon/gimme_moore/gimme_moore_alt1.tga"
+			"gfx/models/portraits/griffon/gimme_moore/gimme_moore_alt2.tga"
+			"gfx/models/portraits/griffon/gimme_moore/gimme_moore_alt3.tga"
+			"gfx/models/portraits/griffon/gimme_moore/gimme_moore_alt4.tga"
+			"gfx/models/portraits/griffon/gimme_moore/gimme_moore_alt5.tga"
+			"gfx/models/portraits/griffon/gimme_moore/gimme_moore_alt6.tga"
+			"gfx/models/portraits/griffon/gimme_moore/gimme_moore_alt7.tga"
+			"gfx/models/portraits/griffon/gimme_moore/gimme_moore_alt8.tga"
+			"gfx/models/portraits/griffon/gimme_moore/gimme_moore_alt9.tga"
+			"gfx/models/portraits/griffon/gimme_moore/gimme_moore_alt10.tga"
+			"gfx/models/portraits/griffon/gimme_moore/gimme_moore_alt11.tga"
+		}
+
+		custom_attachment_label = "HAIR_COLOR"
+	}
+
 	mtrspony_griffon_gabby_predefined = {
 		entity = "portrait_dummy_20p_left_entity"
 		clothes_selector = "mtrspony_no_clothes_selector"
@@ -154,6 +178,7 @@ portrait_groups = {
 				}
 				portraits = {
 					mtrspony_griffon_gilda
+					mtrspony_griffon_gimme_moore
 				}
 			}
 		}
@@ -165,7 +190,8 @@ portrait_groups = {
 					NOT = { species = { species_gender = male } }
 				}
 				portraits = {
-					mtrspony_griffon_gallus
+					mtrspony_griffon_gilda
+					mtrspony_griffon_gimme_moore
 				}
 			}
 			add = {
@@ -174,7 +200,7 @@ portrait_groups = {
 					NOT = { species = { species_gender = female } }
 				}
 				portraits = {
-					mtrspony_griffon_gilda
+					mtrspony_griffon_gallus
 				}
 			}
 		}
@@ -185,7 +211,8 @@ portrait_groups = {
 					NOT = { species = { species_gender = male } }
 				}
 				portraits = {
-					mtrspony_griffon_gallus
+					mtrspony_griffon_gilda
+					mtrspony_griffon_gimme_moore
 				}
 			}
 			add = {
@@ -193,7 +220,7 @@ portrait_groups = {
 					NOT = { species = { species_gender = female } }
 				}
 				portraits = {
-					mtrspony_griffon_gilda
+					mtrspony_griffon_gallus
 				}
 			}
 		}
@@ -220,6 +247,7 @@ portrait_groups = {
 				}
 				portraits = {
 					mtrspony_griffon_gilda
+					mtrspony_griffon_gimme_moore
 				}
 			}
 		}
