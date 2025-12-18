@@ -227,3 +227,4 @@
 
 - Version 0.4.2 (XX.12.2025):
 -- Added one more female griffon portrait set, based on Gimme Moore.
+-- Updated some namelists to add new Victory Point names from Equestria at War as ship names.
