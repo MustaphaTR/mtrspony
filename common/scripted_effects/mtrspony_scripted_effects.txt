@@ -2377,6 +2377,93 @@ give_random_cutie_mark_trait  = {
 	}
 }
 
+add_named_leader_cutie_mark_traits = {
+	if = {
+		limit = { has_leader_flag = leader_dusk_shine }
+		add_trait = leader_trait_cutie_mark_dusk_shine
+	}
+	else_if = {
+		limit = { has_leader_flag = leader_apple_bloom }
+		add_trait = leader_trait_cutie_mark_apple_bloom
+	}
+	else_if = {
+		limit = { has_leader_flag = leader_scootaloo }
+		add_trait = leader_trait_cutie_mark_scootaloo
+	}
+	else_if = {
+		limit = { has_leader_flag = leader_sweetie_belle }
+		add_trait = leader_trait_cutie_mark_sweetie_belle
+	}
+	else_if = {
+		limit = { has_leader_flag = leader_babs_seed }
+		add_trait = leader_trait_cutie_mark_babs_seed
+	}
+	else_if = {
+		limit = { has_leader_flag = leader_gabby }
+		add_trait = leader_trait_cutie_mark_gabby
+	}
+	else_if = {
+		limit = { has_leader_flag = leader_trait_cozy_glow }
+		add_trait = leader_trait_cutie_mark_cozy_glow
+	}
+	else_if = {
+		limit = { has_leader_flag = leader_trait_sandbar }
+		add_trait = leader_trait_cutie_mark_sandbar
+	}
+	else_if = {
+		limit = { has_leader_flag = leader_trait_luna }
+		add_trait = leader_trait_cutie_mark_luna
+	}
+	else_if = {
+		limit = { has_leader_flag = leader_trait_twilight_sparkle }
+		add_trait = leader_trait_cutie_mark_twilight_sparkle
+	}
+	else_if = {
+		limit = { has_leader_flag = leader_trait_mi_amore_cadenza }
+		add_trait = leader_trait_cutie_mark_mi_amore_cadenza
+	}
+	else_if = {
+		limit = { has_leader_flag = leader_trait_flurry_heart }
+		add_trait = leader_trait_cutie_mark_flurry_heart
+	}
+	else_if = {
+		limit = { has_leader_flag = leader_trait_cherry_berry }
+		add_trait = leader_trait_cutie_mark_cherry_berry
+	}
+	else_if = {
+		limit = { has_leader_flag = leader_tall_cherry }
+		add_trait = leader_trait_cutie_mark_statecraft
+	}
+	else_if = {
+		limit = { has_leader_flag = leader_drew_nikolayev }
+		add_trait = leader_trait_cutie_mark_particles
+	}
+	else_if = {
+		limit = { has_leader_flag = leader_petra_stormmare }
+		add_trait = leader_trait_cutie_mark_field_manupilation
+	}
+	else_if = {
+		limit = { has_leader_flag = leader_dashing_gift }
+		add_trait = leader_trait_cutie_mark_computing
+	}
+	else_if = {
+		limit = { has_leader_flag = leader_archer_mane }
+		add_trait = leader_trait_cutie_mark_bureaucracy
+	}
+	else_if = {
+		limit = { has_leader_flag = leader_duty_price }
+		add_trait = leader_trait_cutie_mark_shields
+	}
+	else_if = {
+		limit = { has_leader_flag = leader_deep_geode }
+		add_trait = leader_trait_cutie_mark_mining
+	}
+	else_if = {
+		limit = { has_leader_flag = leader_rock_trot }
+		add_trait = leader_trait_cutie_mark_materials
+	}
+}
+
 remove_cutie_mark_traits = {
 	# Named Leader Cutie Marks
 	if = {
@@ -2398,6 +2485,10 @@ remove_cutie_mark_traits = {
 	else_if = {
 		limit = { has_trait = leader_trait_cutie_mark_babs_seed }
 		remove_trait = leader_trait_cutie_mark_babs_seed
+	}
+	else_if = {
+		limit = { has_trait = leader_trait_cutie_mark_gabby }
+		remove_trait = leader_trait_cutie_mark_gabby
 	}
 	else_if = {
 		limit = { has_trait = leader_trait_cutie_mark_cozy_glow }

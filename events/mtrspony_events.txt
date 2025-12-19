@@ -848,3 +848,64 @@ country_event = {
 		}
 	}
 }
+
+# Handle cutie mark traits of existing leaders when species are modified.
+# This = Country
+# From = Species ( Post Modification )
+# FromFrom = Species ( Original )
+# Prev = Planet
+country_event = {
+	id = mtrspony.8
+	is_triggered_only = yes
+	hide_window = yes
+
+	immediate = {
+		from = {
+			save_event_target_as = new_species
+		}
+		every_owned_leader = {
+			limit = {
+				is_exact_same_species = event_target:new_species
+			}
+			if = {
+				limit = {
+					species = { has_trait = trait_cutie_marks }
+					has_cutie_mark_trait = no
+					is_event_leader = no # To disable nodes from getting cutie marks, hopefully doesn't disable anything else.
+				}
+				add_named_leader_cutie_mark_traits = yes
+				if = {
+					limit = { has_cutie_mark_trait = no }
+					give_random_cutie_mark_trait = yes
+				}
+			}
+			else_if = {
+				limit = {
+					species = { NOT = { has_trait = trait_cutie_marks } }
+					has_cutie_mark_trait = yes
+				}
+				remove_cutie_mark_traits = yes
+			}
+		}
+
+		every_pool_leader = {
+			limit = {
+				is_exact_same_species = event_target:new_species
+			}
+			if = {
+				limit = {
+					species = { has_trait = trait_cutie_marks }
+					has_cutie_mark_trait = no
+				}
+				give_random_cutie_mark_trait = yes
+			}
+			else_if = {
+				limit = {
+					species = { NOT = { has_trait = trait_cutie_marks } }
+					has_cutie_mark_trait = yes
+				}
+				remove_cutie_mark_traits = yes
+			}
+		}
+	}
+}

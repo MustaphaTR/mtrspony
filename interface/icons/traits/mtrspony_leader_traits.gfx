@@ -36,6 +36,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/icons/traits/leader_trait_icons/cutie_mark_cozy_glow.dds"
 	}
 	spriteType = {
+		name = "GFX_leader_trait_cutie_mark_gabby"
+		texturefile = "gfx/interface/icons/traits/leader_trait_icons/cutie_mark_gabby.dds"
+	}
+	spriteType = {
 		name = "GFX_leader_trait_cutie_mark_filthy_rich"
 		texturefile = "gfx/interface/icons/traits/leader_trait_icons/cutie_mark_filthy_rich.dds"
 	}

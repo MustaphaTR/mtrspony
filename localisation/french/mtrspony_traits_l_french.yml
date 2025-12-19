@@ -22,6 +22,8 @@
  leader_trait_cutie_mark_sweetie_belle_desc:0 "With a special talent towards singing, this [Root.GetClass] follows and on thier free time gets involved in the entertainment business. They are also talented towards finding other creatures' talents."
  leader_trait_cutie_mark_babs_seed:0 "$cutie_mark$ ($PRESCRIPTED_ruler_name_babs_seed$)"
  leader_trait_cutie_mark_babs_seed_desc:0 "With a special talent towards undestanding of physical care, this [Root.GetClass] ensures that their entourage are always looking good on their jobs."
+ leader_trait_cutie_mark_gabby:0 "$cutie_mark$ ($PRESCRIPTED_ruler_name_gabby$)"
+ leader_trait_cutie_mark_gabby_desc:0 "With a special talent towards polymathy, this [Root.GetClass] is capable enough in different subjects to help anyone they work with. They are also talented towards finding other creatures' talents."
  leader_trait_cutie_mark_cozy_glow:0 "$cutie_mark$ ($PRESCRIPTED_ruler_name_cozy_glow$)"
  leader_trait_cutie_mark_cozy_glow_desc:0 "With a special talent on strategy, this [Root.GetClass] can gain favorful conditions when negotiating diplomatic agreements."
  leader_trait_cutie_mark_sandbar:0 "$cutie_mark$ ($PRESCRIPTED_ruler_name_sandbar$)"

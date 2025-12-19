@@ -333,6 +333,7 @@ has_cutie_mark_trait = {
 		has_trait = leader_trait_cutie_mark_scootaloo
 		has_trait = leader_trait_cutie_mark_sweetie_belle
 		has_trait = leader_trait_cutie_mark_babs_seed
+		has_trait = leader_trait_cutie_mark_gabby
 		has_trait = leader_trait_cutie_mark_cozy_glow
 		has_trait = leader_trait_cutie_mark_sandbar
 		has_trait = leader_trait_cutie_mark_luna

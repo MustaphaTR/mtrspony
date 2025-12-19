@@ -31,6 +31,7 @@ country_event = {
 
 			effect = {
 				save_global_event_target_as = leader_cozy_glow
+				set_leader_flag = leader_cozy_glow
 				set_leader_flag = is_created_leader
 				change_leader_portrait = "mtrspony_pony_pegasus_cozy_glow_older_predefined"
 				ROOT = {
@@ -99,6 +100,7 @@ country_event = {
 
 			effect = {
 				save_global_event_target_as = leader_sandbar
+				set_leader_flag = leader_sandbar
 				set_leader_flag = is_created_leader
 				change_leader_portrait = "mtrspony_pony_earth_sandbar_predefined"
 				ROOT = {

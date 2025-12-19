@@ -28,6 +28,7 @@ country_event = {
 		#
 		#	effect = {
 		#		save_global_event_target_as = leader_hjoertur_aagesson
+		#		set_leader_flag = leader_hjoertur_aagesson
 		#		set_leader_flag = is_created_leader
 		#		change_leader_portrait = "mtrspony_deer_hjoertur_aagesson_predefined"
 		#		ROOT = {

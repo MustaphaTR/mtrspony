@@ -28,6 +28,7 @@ country_event = {
 
 			effect = {
 				save_global_event_target_as = leader_grover_xi
+				set_leader_flag = leader_grover_xi
 				set_leader_flag = is_created_leader
 				change_leader_portrait = "mtrspony_griffon_grover_xi_predefined"
 				ROOT = {

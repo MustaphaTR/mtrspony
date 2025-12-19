@@ -29,6 +29,7 @@ country_event = {
 
 			effect = {
 				save_global_event_target_as = leader_fickle_current
+				set_leader_flag = leader_fickle_current
 				set_leader_flag = is_created_leader
 				change_leader_portrait = "mtrspony_kirin_fickle_current_predefined"
 				ROOT = {

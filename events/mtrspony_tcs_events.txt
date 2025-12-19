@@ -33,6 +33,7 @@ country_event = {
 
 			effect = {
 				save_global_event_target_as = leader_sweetie_belle
+				set_leader_flag = leader_sweetie_belle
 				set_leader_flag = is_created_leader
 				change_leader_portrait = "mtrspony_pony_unicorn_sweetie_belle_predefined"
 				ROOT = {
@@ -68,6 +69,7 @@ country_event = {
 
 			effect = {
 				save_global_event_target_as = leader_apple_bloom
+				set_leader_flag = leader_apple_bloom
 				set_leader_flag = is_created_leader
 				change_leader_portrait = "mtrspony_pony_alicorn_apple_bloom_predefined"
 				ROOT = {
@@ -108,6 +110,7 @@ country_event = {
 
 			effect = {
 				save_global_event_target_as = leader_scootaloo
+				set_leader_flag = leader_scootaloo
 				set_leader_flag = is_created_leader
 				change_leader_portrait = "mtrspony_pony_pegasus_scootaloo_predefined"
 				ROOT = {
@@ -149,6 +152,7 @@ country_event = {
 
 			effect = {
 				save_global_event_target_as = leader_babs_seed
+				set_leader_flag = leader_babs_seed
 				set_leader_flag = is_created_leader
 				change_leader_portrait = "mtrspony_pony_earth_babs_seed_predefined"
 				set_council_position = councilor_state
@@ -194,6 +198,7 @@ country_event = {
 
 			effect = {
 				save_global_event_target_as = leader_gabby
+				set_leader_flag = leader_gabby
 				set_leader_flag = is_created_leader
 				change_leader_portrait = "mtrspony_griffon_gabby_predefined"
 				ROOT = {
@@ -466,6 +471,8 @@ country_event = {
 			export_trigger_value_to_variable = { trigger = years_passed variable = cozy_starting_age }
 			change_variable = { which = cozy_starting_age value = 279 }
 			set_age = cozy_starting_age
+
+			set_leader_flag = leader_cozy_glow
 		}
 	}
 

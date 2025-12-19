@@ -227,4 +227,6 @@
 
 - Version 0.4.2 (XX.12.2025):
 -- Added one more female griffon portrait set, based on Gimme Moore.
+-- Adding/removing Cutie Marks species trait now adds/removes Cutie Marks leader traits to/from existing leaders.
+--- Gabby in species The Crusader State gets a special leader trait for this. Other named leaders will gain their custom trait back, should you remove and add back the species trait.
 -- Updated some namelists to add new Victory Point names from Equestria at War as ship names.

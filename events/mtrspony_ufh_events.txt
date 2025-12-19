@@ -30,6 +30,7 @@ country_event = {
 
 			effect = {
 				save_global_event_target_as = leader_luna
+				set_leader_flag = leader_luna
 				set_leader_flag = is_created_leader
 				change_leader_portrait = "mtrspony_pony_alicorn_luna_predefined"
 				ROOT = {
@@ -97,6 +98,7 @@ country_event = {
 
 			effect = {
 				save_global_event_target_as = leader_twilight_sparkle
+				set_leader_flag = leader_twilight_sparkle
 				set_leader_flag = is_created_leader
 				change_leader_portrait = "mtrspony_pony_alicorn_twilight_sparkle_predefined"
 				ROOT = {
@@ -160,6 +162,7 @@ country_event = {
 
 			effect = {
 				save_global_event_target_as = leader_cadance
+				set_leader_flag = leader_cadance
 				set_leader_flag = is_created_leader
 				change_leader_portrait = "mtrspony_pony_alicorn_cadance_predefined"
 				ROOT = {
@@ -205,6 +208,7 @@ country_event = {
 
 			effect = {
 				save_global_event_target_as = leader_flurry_heart
+				set_leader_flag = leader_flurry_heart
 				set_leader_flag = is_created_leader
 				change_leader_portrait = "mtrspony_pony_alicorn_flurry_heart_predefined"
 				ROOT = {

@@ -32,6 +32,7 @@ country_event = {
 
 			effect = {
 				save_global_event_target_as = leader_tall_cherry
+				set_leader_flag = leader_tall_cherry
 				set_leader_flag = is_created_leader
 				change_leader_portrait = "mtrspony_pony_earth_tall_cherry_predefined"
 				ROOT = {
@@ -67,6 +68,7 @@ country_event = {
 
 			effect = {
 				save_global_event_target_as = leader_drew_nikolayev
+				set_leader_flag = leader_drew_nikolayev
 				set_leader_flag = is_created_leader
 				change_leader_portrait = "mtrspony_pony_pegasus_drew_nikolayev_predefined"
 				ROOT = {
@@ -99,6 +101,7 @@ country_event = {
 
 			effect = {
 				save_global_event_target_as = leader_petra_stormmare
+				set_leader_flag = leader_petra_stormmare
 				set_leader_flag = is_created_leader
 				change_leader_portrait = "mtrspony_pony_pegasus_petra_stormmare_predefined"
 				ROOT = {
@@ -131,6 +134,7 @@ country_event = {
 
 			effect = {
 				save_global_event_target_as = leader_dashing_gift
+				set_leader_flag = leader_dashing_gift
 				set_leader_flag = is_created_leader
 				change_leader_portrait = "mtrspony_pony_pegasus_dashing_gift_predefined"
 				ROOT = {
@@ -255,6 +259,7 @@ country_event = {
 
 			effect = {
 				save_global_event_target_as = leader_archer_mane
+				set_leader_flag = leader_archer_mane
 				set_leader_flag = is_created_leader
 				change_leader_portrait = "mtrspony_pony_earth_archer_mane_predefined"
 				ROOT = {
@@ -287,6 +292,7 @@ country_event = {
 
 			effect = {
 				save_global_event_target_as = leader_hazel_hoof
+				set_leader_flag = leader_hazel_hoof
 				set_leader_flag = is_created_leader
 				change_leader_portrait = "mtrspony_pony_earth_hazel_hoof_predefined"
 				ROOT = {
@@ -323,6 +329,7 @@ country_event = {
 
 			effect = {
 				save_global_event_target_as = leader_duty_price
+				set_leader_flag = leader_duty_price
 				set_leader_flag = is_created_leader
 				change_leader_portrait = "mtrspony_pony_pegasus_duty_price_predefined"
 				ROOT = {
@@ -402,6 +409,7 @@ country_event = {
 
 			effect = {
 				save_global_event_target_as = leader_deep_geode
+				set_leader_flag = leader_deep_geode
 				set_leader_flag = is_created_leader
 				change_leader_portrait = "mtrspony_pony_earth_deep_geode_predefined"
 				ROOT = {
@@ -438,6 +446,7 @@ country_event = {
 
 			effect = {
 				save_global_event_target_as = leader_rock_trot
+				set_leader_flag = leader_rock_trot
 				set_leader_flag = is_created_leader
 				change_leader_portrait = "mtrspony_pony_earth_rock_trot_predefined"
 				ROOT = {

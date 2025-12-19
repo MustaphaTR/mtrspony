@@ -114,6 +114,27 @@ leader_trait_cutie_mark_babs_seed = {
 	randomized = no
 }
 
+leader_trait_cutie_mark_gabby = {
+	inline_script = {
+		script = trait/icon_cutie_mark
+		ICON = "GFX_leader_trait_cutie_mark_gabby"
+		COUNCIL = yes
+		TIER = none
+	}
+	councilor_modifier = {
+		species_leader_exp_gain = 0.025
+	}
+	triggered_planet_modifier = {
+		pop_bonus_workforce_mult = 0.01
+	}
+	triggered_sector_modifier = {
+		pop_bonus_workforce_mult = 0.005
+	}
+	leader_class = { official }
+	selectable_weight = 0
+	randomized = no
+}
+
 # Empire of Friendship
 leader_trait_cutie_mark_cozy_glow = {
 	inline_script = {

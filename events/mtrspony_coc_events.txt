@@ -34,6 +34,7 @@ country_event = {
 
 			effect = {
 				save_global_event_target_as = leader_dusk_shine
+				set_leader_flag = leader_dusk_shine
 				set_leader_flag = is_created_leader
 				change_leader_portrait = "mtrspony_pony_alicorn_dusk_shine_predefined"
 				ROOT = {

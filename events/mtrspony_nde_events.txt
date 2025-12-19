@@ -30,6 +30,7 @@ country_event = {
 
 			effect = {
 				save_global_event_target_as = leader_arcin_the_defiler
+				set_leader_flag = leader_arcin_the_defiler
 				set_leader_flag = is_created_leader
 				change_leader_portrait = "mtrspony_dragon_arcin_the_defiler_predefined"
 				ROOT = {
@@ -61,6 +62,7 @@ country_event = {
 
 			effect = {
 				save_global_event_target_as = leader_charcoal
+				set_leader_flag = leader_charcoal
 				set_leader_flag = is_created_leader
 				change_leader_portrait = "mtrspony_dragon_charcoal_predefined"
 				ROOT = {
@@ -97,6 +99,7 @@ country_event = {
 
 			effect = {
 				save_global_event_target_as = leader_winter
+				set_leader_flag = leader_winter
 				set_leader_flag = is_created_leader
 				change_leader_portrait = "mtrspony_dragon_winter_predefined"
 				ROOT = {
@@ -212,6 +215,7 @@ country_event = {
 
 			effect = {
 				save_global_event_target_as = leader_soeren_of_svartpels
+				set_leader_flag = leader_soeren_of_svartpels
 				set_leader_flag = is_created_leader
 				# change_leader_portrait = "mtrspony_polar_bear_soeren_of_svartpels_predefined"
 				ROOT = {

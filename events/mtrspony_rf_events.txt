@@ -29,6 +29,7 @@ country_event = {
 
 			effect = {
 				save_global_event_target_as = leader_starry_eyes
+				set_leader_flag = leader_starry_eyes
 				set_leader_flag = is_created_leader
 				change_leader_portrait = "mtrspony_hippogriff_starry_eyes_predefined"
 				ROOT = { assign_leader = event_target:leader_starry_eyes }
@@ -54,6 +55,7 @@ country_event = {
 
 			effect = {
 				save_global_event_target_as = leader_terrafin
+				set_leader_flag = leader_terrafin
 				set_leader_flag = is_created_leader
 				change_leader_portrait = "mtrspony_hippogriff_terrafin_predefined"
 				ROOT = {
@@ -93,6 +95,7 @@ country_event = {
 
 			effect = {
 				save_global_event_target_as = leader_sugar_coral
+				set_leader_flag = leader_sugar_coral
 				set_leader_flag = is_created_leader
 				change_leader_portrait = "mtrspony_hippogriff_sugar_coral_predefined"
 				ROOT = {
@@ -137,6 +140,7 @@ country_event = {
 
 			effect = {
 				save_global_event_target_as = leader_skystar
+				set_leader_flag = leader_skystar
 				set_leader_flag = is_created_leader
 				change_leader_portrait = "mtrspony_hippogriff_skystar_predefined"
 				ROOT = {
@@ -179,6 +183,7 @@ country_event = {
 
 			effect = {
 				save_global_event_target_as = leader_silverstream
+				set_leader_flag = leader_silverstream
 				set_leader_flag = is_created_leader
 				change_leader_portrait = "mtrspony_hippogriff_silverstream_predefined"
 				ROOT = {

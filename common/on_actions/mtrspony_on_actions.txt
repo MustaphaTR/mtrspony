@@ -47,6 +47,8 @@ on_modification_complete = {
 
 		gigacompat.3
 		gigacompat.4
+
+		mtrspony.8 # Handle cutie mark traits of existing leaders when species are modified.
 	}
 }
 on_monthly_pulse_country = { # Above only triggers with manual species modification, while bug can happen with any kind of modification. So just to be sure.
