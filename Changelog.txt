@@ -225,7 +225,7 @@
 -- Replaced the Mrs. Shy portrait set with a similar one with accessiories. Adjusted some color options, added one more color option added Earth Pony variants for her in the process.
 -- Fixed broken adjustment of the climate traits of species added by multi-species option, in cases where it doesn't match starting planet's class, like Post-Apocalyptic origin.
 
-- Version 0.4.2 (XX.12.2025):
+- Version 0.4.2 (20.12.2025):
 -- Added one more female griffon portrait set, based on Gimme Moore.
 -- Adding/removing Cutie Marks species trait now adds/removes Cutie Marks leader traits to/from existing leaders.
 --- Gabby in species The Crusader State gets a special leader trait for this. Other named leaders will gain their custom trait back, should you remove and add back the species trait.
