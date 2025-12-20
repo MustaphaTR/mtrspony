@@ -353,7 +353,10 @@ leader_event = {
 	option = {
 		name = tcsstart.4.a
 
-		hidden_effect = { remove_trait = leader_trait_limited_cyborg }
+		hidden_effect = {
+			remove_trait = leader_trait_limited_cyborg
+			set_character_flag = leader_scootaloo_cyborg
+		}
 		add_trait = {
 			trait = leader_trait_cyborg
 			show_message = no
@@ -511,6 +514,39 @@ country_event = {
 				limit = { has_modifier = penal_colony }
 
 				assign_leader = event_target:leader_cozy_glow
+			}
+		}
+	}
+}
+
+# Species modification removes Scootaloo's cybernetic leader traits, if Ponies are psionic. Ensure that she keeps them, instead of getting Psionic trait.
+# This = Country
+# From = Species ( Post Modification )
+# FromFrom = Species ( Original )
+# Prev = Planet
+country_event = {
+	id = tcsstart.8
+	is_triggered_only = yes
+	hide_window = yes
+
+	trigger = {
+		has_country_flag = the_crusader_state
+	}
+
+	immediate = {
+		event_target:leader_scootaloo = {
+			if = {
+				limit = { has_trait = leader_trait_psionic }
+
+				remove_trait = leader_trait_psionic
+				if = {
+					limit = { has_character_flag = leader_scootaloo_cyborg }
+
+					add_trait = leader_trait_cyborg
+				}
+				else = {
+					add_trait = leader_trait_limited_cyborg
+				}
 			}
 		}
 	}

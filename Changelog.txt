@@ -230,3 +230,4 @@
 -- Adding/removing Cutie Marks species trait now adds/removes Cutie Marks leader traits to/from existing leaders.
 --- Gabby in species The Crusader State gets a special leader trait for this. Other named leaders will gain their custom trait back, should you remove and add back the species trait.
 -- Updated some namelists to add new Victory Point names from Equestria at War as ship names.
+-- Fixed Scootaloo's Cyborg traits getting replaced with Psionic when pony species are modified after going Psionic Ascension as The Crusader State.
