@@ -355,7 +355,7 @@ leader_event = {
 
 		hidden_effect = {
 			remove_trait = leader_trait_limited_cyborg
-			set_character_flag = leader_scootaloo_cyborg
+			set_leader_flag = leader_scootaloo_cyborg
 		}
 		add_trait = {
 			trait = leader_trait_cyborg
@@ -540,7 +540,7 @@ country_event = {
 
 				remove_trait = leader_trait_psionic
 				if = {
-					limit = { has_character_flag = leader_scootaloo_cyborg }
+					limit = { has_leader_flag = leader_scootaloo_cyborg }
 
 					add_trait = leader_trait_cyborg
 				}
