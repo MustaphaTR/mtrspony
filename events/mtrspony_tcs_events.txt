@@ -470,7 +470,7 @@ country_event = {
 				trait = leader_trait_pop_focused
 				consume_selection = yes
 			}
-			add_trait = { trait = leader_trait_stubborn }
+			add_trait = { trait = leader_trait_mtrspony_dwarf }
 			export_trigger_value_to_variable = { trigger = years_passed variable = cozy_starting_age }
 			change_variable = { which = cozy_starting_age value = 279 }
 			set_age = cozy_starting_age

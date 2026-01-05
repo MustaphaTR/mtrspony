@@ -8,3 +8,4 @@
  mod_planet_structures_minor_artifacts_cost_mult:0 "Custo de Artefatos Menores de Distritos e Construções"
  mod_starbase_buildings_food_produces_mult:0 "$r_food$ de Construções de Base Estelar"
  mod_shipclass_research_station_build_speed_mult:0 "Velocidade de Construção de Estação de Pesquisa"
+ mod_leader_officials_unity_upkeep_add:0 "$mod_leader_scientists_unity_upkeep_add$"

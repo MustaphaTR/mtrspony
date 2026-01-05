@@ -174,4 +174,8 @@ spriteTypes = {
 		name = "GFX_leader_trait_disconnected"
 		texturefile = "gfx/interface/icons/traits/leader_trait_icons/disconnected.dds"
 	}
+	spriteType = {
+		name = "GFX_leader_trait_dwarf"
+		texturefile = "gfx/interface/icons/traits/leader_trait_icons/dwarf.dds"
+	}
 }

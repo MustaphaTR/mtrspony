@@ -130,10 +130,12 @@
  cutie_mark_talent:0 "Begabt"
  leader_trait_cutie_mark_talent:0 "$cutie_mark$ ($cutie_mark_talent$)"
 
- leader_trait_mtrspony_disconnected:0 "Getrennt"
- leader_trait_mtrspony_disconnected_desc:0 "This leader is not a part of the hive-mind."
  leader_trait_redeemed_villain:0 "Erlöster Bösewicht"
  leader_trait_redeemed_villain_desc:0 "This leader has a past of villainy, but they have sworn off of it and has since switched to the side of the good."
+ leader_trait_mtrspony_dwarf:0 "Kleinwüchsig"
+ leader_trait_mtrspony_dwarf_desc:0 "Whether for genetic or environmental reasons, this leader did not grow as much as their species typically do, leading to them being underestimated by those who don't know them well."
+ leader_trait_mtrspony_disconnected:0 "Getrennt"
+ leader_trait_mtrspony_disconnected_desc:0 "This leader is not a part of the hive-mind."
 
  leader_trait_mtrspony_immortal:0 "Unsterblich"
  leader_trait_mtrspony_immortal_desc:0 "This leader has managed to defeat death, despite their species not otherwise being immortals."

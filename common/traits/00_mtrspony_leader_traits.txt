@@ -1875,6 +1875,43 @@ leader_trait_redeemed_villain = {
 	randomized = no
 	background_icon = "GFX_leader_background_destiny_1"
 }
+leader_trait_mtrspony_dwarf = {
+	leader_trait_type = negative
+	inline_script = {
+		script = trait/icon_negative
+		CLASS = leader
+		ICON = "GFX_leader_trait_dwarf"
+		COUNCIL = no
+		TIER = none
+	}
+	self_modifier = {
+		leader_skill_add = -1
+	}
+	triggered_self_modifier = {
+		potential = {
+			leader_class = commander
+		}
+		leader_commanders_unity_upkeep_add = 0.25
+		mult = trigger:has_base_skill
+	}
+	triggered_self_modifier = {
+		potential = {
+			leader_class = scientist
+		}
+		leader_scientists_unity_upkeep_add = 0.25
+		mult = trigger:has_base_skill
+	}
+	triggered_self_modifier = {
+		potential = {
+			leader_class = official
+		}
+		leader_officials_unity_upkeep_add = 0.25
+		mult = trigger:has_base_skill
+	}
+	leader_class = { commander scientist official }
+	selectable_weight = 0
+	randomized = no
+}
 
 leader_trait_mtrspony_disconnected = {
 	leader_trait_type = negative
@@ -1902,8 +1939,8 @@ leader_trait_mtrspony_disconnected = {
 			}
 			leader_class = commander
 		}
-		leader_commander_unity_upkeep_add = 1
-		leader_commander_food_upkeep_add = -2
+		leader_commanders_unity_upkeep_add = 1
+		leader_commanders_food_upkeep_add = -2
 		mult = trigger:has_base_skill
 	}
 	triggered_self_modifier = {
@@ -1926,8 +1963,8 @@ leader_trait_mtrspony_disconnected = {
 			}
 			leader_class = official
 		}
-		leader_official_unity_upkeep_add = 1
-		leader_official_food_upkeep_add = -2
+		leader_officials_unity_upkeep_add = 1
+		leader_officials_food_upkeep_add = -2
 		mult = trigger:has_base_skill
 	}
 	self_modifier = {
