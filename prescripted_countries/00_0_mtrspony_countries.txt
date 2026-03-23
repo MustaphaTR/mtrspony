@@ -1170,7 +1170,7 @@ faustian_technate = {
 
 	empire_flag = {
 		icon= {
-			category = "eqsatwarzebra"
+			category = "eqsatwarzebra2"
 			file = "CTH_TEC.dds"
 		}
 		background= {
