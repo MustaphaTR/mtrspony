@@ -145,6 +145,9 @@ Portrait Bases:
  > zee66:
 	- Echo
 
+ > Hasbro:
+	- Smolder
+
  > Anonymous/Unknown:
 	- Alicorn Shining Armor
 	- Button Mash

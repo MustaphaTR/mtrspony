@@ -255,3 +255,90 @@ mtrspony_dragon_arcin_the_defiler_predefined_hair_selector = {
 	leader = { default = "gfx/models/portraits/dragon/ember/ember_hair_alt13.dds" }
 	ruler = { default = "gfx/models/portraits/dragon/ember/ember_hair_alt13.dds" }
 }
+
+mtrspony_dragon_smolder_hair_selector = {
+	default = "gfx/models/portraits/dragon/smolder/smolder_hair.tga"
+
+	game_setup = {
+		default = "gfx/models/portraits/dragon/smolder/smolder_hair.tga"
+	}
+
+	species = {
+		default = "gfx/models/portraits/dragon/smolder/smolder_hair.tga"
+	}
+
+	pop = {
+		default = "gfx/models/portraits/dragon/smolder/smolder_hair.tga"
+
+		random = {
+			list = {
+				"gfx/models/portraits/dragon/smolder/smolder_hair.tga"
+				"gfx/models/portraits/dragon/smolder/smolder_hair_alt1.tga"
+				"gfx/models/portraits/dragon/smolder/smolder_hair_alt2.tga"
+				"gfx/models/portraits/dragon/smolder/smolder_hair_alt3.tga"
+				"gfx/models/portraits/dragon/smolder/smolder_hair_alt4.tga"
+				"gfx/models/portraits/dragon/smolder/smolder_hair_alt5.tga"
+				"gfx/models/portraits/dragon/smolder/smolder_hair_alt6.tga"
+				"gfx/models/portraits/dragon/smolder/smolder_hair_alt7.tga"
+				"gfx/models/portraits/dragon/smolder/smolder_hair_alt8.tga"
+				"gfx/models/portraits/dragon/smolder/smolder_hair_alt9.tga"
+				"gfx/models/portraits/dragon/smolder/smolder_hair_alt10.tga"
+				"gfx/models/portraits/dragon/smolder/smolder_hair_alt11.tga"
+				"gfx/models/portraits/dragon/smolder/smolder_hair_alt12.tga"
+				"gfx/models/portraits/dragon/smolder/smolder_hair_alt13.tga"
+			}
+		}
+	}
+
+	leader = {
+		random = {
+			list = {
+				"gfx/models/portraits/dragon/smolder/smolder_hair.tga"
+				"gfx/models/portraits/dragon/smolder/smolder_hair_alt1.tga"
+				"gfx/models/portraits/dragon/smolder/smolder_hair_alt2.tga"
+				"gfx/models/portraits/dragon/smolder/smolder_hair_alt3.tga"
+				"gfx/models/portraits/dragon/smolder/smolder_hair_alt4.tga"
+				"gfx/models/portraits/dragon/smolder/smolder_hair_alt5.tga"
+				"gfx/models/portraits/dragon/smolder/smolder_hair_alt6.tga"
+				"gfx/models/portraits/dragon/smolder/smolder_hair_alt7.tga"
+				"gfx/models/portraits/dragon/smolder/smolder_hair_alt8.tga"
+				"gfx/models/portraits/dragon/smolder/smolder_hair_alt9.tga"
+				"gfx/models/portraits/dragon/smolder/smolder_hair_alt10.tga"
+				"gfx/models/portraits/dragon/smolder/smolder_hair_alt11.tga"
+				"gfx/models/portraits/dragon/smolder/smolder_hair_alt12.tga"
+				"gfx/models/portraits/dragon/smolder/smolder_hair_alt13.tga"
+			}
+		}
+	}
+
+	ruler = {
+		random = {
+			list = {
+				"gfx/models/portraits/dragon/smolder/smolder_hair.tga"
+				"gfx/models/portraits/dragon/smolder/smolder_hair_alt1.tga"
+				"gfx/models/portraits/dragon/smolder/smolder_hair_alt2.tga"
+				"gfx/models/portraits/dragon/smolder/smolder_hair_alt3.tga"
+				"gfx/models/portraits/dragon/smolder/smolder_hair_alt4.tga"
+				"gfx/models/portraits/dragon/smolder/smolder_hair_alt5.tga"
+				"gfx/models/portraits/dragon/smolder/smolder_hair_alt6.tga"
+				"gfx/models/portraits/dragon/smolder/smolder_hair_alt7.tga"
+				"gfx/models/portraits/dragon/smolder/smolder_hair_alt8.tga"
+				"gfx/models/portraits/dragon/smolder/smolder_hair_alt9.tga"
+				"gfx/models/portraits/dragon/smolder/smolder_hair_alt10.tga"
+				"gfx/models/portraits/dragon/smolder/smolder_hair_alt11.tga"
+				"gfx/models/portraits/dragon/smolder/smolder_hair_alt12.tga"
+				"gfx/models/portraits/dragon/smolder/smolder_hair_alt13.tga"
+			}
+		}
+	}
+}
+
+mtrspony_dragon_smolder_predefined_hair_selector = {
+	default = "gfx/models/portraits/dragon/smolder/smolder_hair.tga"
+
+	game_setup = { default = "gfx/models/portraits/dragon/smolder/smolder_hair.tga" }
+	species = { default = "gfx/models/portraits/dragon/smolder/smolder_hair.tga" }
+	pop = { default = "gfx/models/portraits/dragon/smolder/smolder_hair.tga" }
+	leader = { default = "gfx/models/portraits/dragon/smolder/smolder_hair.tga" }
+	ruler = { default = "gfx/models/portraits/dragon/smolder/smolder_hair.tga" }
+}

@@ -105,6 +105,42 @@ portraits = {
 			"gfx/models/portraits/dragon/ember/ember_alt13.dds"
 		}
 	}
+
+	mtrspony_dragon_smolder = {
+		entity = "portrait_dummy_centered_90p_scale_entity"
+		clothes_selector = "mtrspony_no_clothes_selector"
+		attachment_selector = "mtrspony_dragon_smolder_hair_selector"
+		greeting_sound = "human_female_greetings_01"
+
+		character_textures = {
+			"gfx/models/portraits/dragon/smolder/smolder.tga"
+			"gfx/models/portraits/dragon/smolder/smolder_alt1.tga"
+			"gfx/models/portraits/dragon/smolder/smolder_alt2.tga"
+			"gfx/models/portraits/dragon/smolder/smolder_alt3.tga"
+			"gfx/models/portraits/dragon/smolder/smolder_alt4.tga"
+			"gfx/models/portraits/dragon/smolder/smolder_alt5.tga"
+			"gfx/models/portraits/dragon/smolder/smolder_alt6.tga"
+			"gfx/models/portraits/dragon/smolder/smolder_alt7.tga"
+			"gfx/models/portraits/dragon/smolder/smolder_alt8.tga"
+			"gfx/models/portraits/dragon/smolder/smolder_alt9.tga"
+			"gfx/models/portraits/dragon/smolder/smolder_alt10.tga"
+			"gfx/models/portraits/dragon/smolder/smolder_alt11.tga"
+			"gfx/models/portraits/dragon/smolder/smolder_alt12.tga"
+		}
+
+		custom_attachment_label = "HAIR_COLOR"
+	}
+
+	mtrspony_dragon_smolder_predefined = {
+		entity = "portrait_dummy_centered_90p_scale_entity"
+		clothes_selector = "mtrspony_no_clothes_selector"
+		attachment_selector = "mtrspony_dragon_smolder_predefined_hair_selector"
+		greeting_sound = "human_female_greetings_01"
+
+		character_textures = {
+			"gfx/models/portraits/dragon/smolder/smolder.tga"
+		}
+	}
 }
 
 portrait_groups = {
@@ -136,6 +172,7 @@ portrait_groups = {
 				}
 				portraits = {
 					mtrspony_dragon_ember
+					mtrspony_dragon_smolder
 				}
 			}
 		}
@@ -148,6 +185,7 @@ portrait_groups = {
 				}
 				portraits = {
 					mtrspony_dragon_ember
+					mtrspony_dragon_smolder
 				}
 			}
 			add = {
@@ -169,6 +207,7 @@ portrait_groups = {
 				}
 				portraits = {
 					mtrspony_dragon_ember
+					mtrspony_dragon_smolder
 				}
 			}
 			add = {
@@ -205,6 +244,7 @@ portrait_groups = {
 				}
 				portraits = {
 					mtrspony_dragon_ember
+					mtrspony_dragon_smolder
 				}
 			}
 		}
