@@ -186,8 +186,8 @@ country_event = {
 			skill = 1
 			set_age = 285
 			immortal = yes
-			background_job = "mailgriffon"
-			background_ethic = "ethic_spiritualist"
+			background_job = mailgriffon
+			background_ethic = ethic_spiritualist
 			skip_background_generation = yes
 			randomize_traits = no
 			traits = {
@@ -258,6 +258,38 @@ country_event = {
 		#	option = enlightenment_allowed
 		#	cooldown = no
 		# }
+
+		country_event = { id = tcsstart.1001 days = 1 }
+	}
+}
+
+# Properly set the background job and ethics.
+country_event = {
+	id = tcsstart.1001
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		event_target:leader_sweetie_belle = {
+			change_background_job = head_researcher
+			change_background_ethic = ethic_xenophile
+		}
+		event_target:leader_apple_bloom = {
+			change_background_job = farmer
+			change_background_ethic = ethic_egalitarian
+		}
+		event_target:leader_scootaloo = {
+			change_background_job = commanding_officer
+			change_background_ethic = ethic_militarist
+		}
+		event_target:leader_babs_seed = {
+			change_background_job = hairdresser
+			change_background_ethic = ethic_egalitarian
+		}
+		event_target:leader_gabby = {
+			change_background_job = mailgriffon
+			change_background_ethic = ethic_spiritualist
+		}
 	}
 }
 

@@ -19,7 +19,7 @@ country_event = {
 			skill = 1
 			set_age = 92
 			immortal = yes
-			background_ethic = "ethic_authoritarian"
+			background_ethic = ethic_authoritarian
 			skip_background_generation = yes
 			randomize_traits = no
 			traits = {
@@ -55,8 +55,8 @@ country_event = {
 			skill = 1
 			set_age = 62
 			immortal = yes
-			background_job = "chief_security_officer"
-			background_ethic = "ethic_xenophobe"
+			background_job = chief_security_officer
+			background_ethic = ethic_xenophobe
 			skip_background_generation = yes
 			randomize_traits = no
 			traits = {
@@ -93,8 +93,8 @@ country_event = {
 			skill = 1
 			set_age = 59
 			immortal = yes
-			background_job = "commanding_officer"
-			background_ethic = "ethic_militarist"
+			background_job = commanding_officer
+			background_ethic = ethic_militarist
 			skip_background_generation = yes
 			randomize_traits = no
 			traits = {
@@ -132,8 +132,8 @@ country_event = {
 			skill = 1
 			set_age = 57
 			immortal = yes
-			background_job = "bureaucrat"
-			background_ethic = "ethic_xenophile"
+			background_job = bureaucrat
+			background_ethic = ethic_xenophile
 			skip_background_generation = yes
 			randomize_traits = no
 			traits = {
@@ -171,8 +171,8 @@ country_event = {
 			skill = 1
 			set_age = 60
 			immortal = yes
-			background_job = "astronaut"
-			background_ethic = "ethic_xenophile"
+			background_job = astronaut
+			background_ethic = ethic_xenophile
 			skip_background_generation = yes
 			randomize_traits = no
 			traits = {
@@ -295,6 +295,37 @@ country_event = {
 					}
 				}
 			}
+		}
+
+		country_event = { id = cspstart.1001 days = 1 }
+	}
+}
+
+# Properly set the background job and ethics.
+country_event = {
+	id = cspstart.1001
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		event_target:leader_chrysalis = {
+			change_background_ethic = ethic_authoritarian
+		}
+		event_target:leader_pharynx = {
+			change_background_job = chief_security_officer
+			change_background_ethic = ethic_xenophobe
+		}
+		event_target:leader_elytron = {
+			change_background_job = commanding_officer
+			change_background_ethic = ethic_militarist
+		}
+		event_target:leader_occupant = {
+			change_background_job = bureaucrat
+			change_background_ethic = ethic_xenophile
+		}
+		event_target:leader_cherry_berry = {
+			change_background_job = astronaut
+			change_background_ethic = ethic_xenophile
 		}
 	}
 }

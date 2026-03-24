@@ -19,8 +19,8 @@ country_event = {
 			skill = 1
 			set_age = 1377
 			hide_age = no
-			background_job = "noble"
-			background_ethic = "ethic_gestalt_consciousness"
+			background_job = noble
+			background_ethic = ethic_gestalt_consciousness
 			skip_background_generation = yes
 			immortal = yes
 			randomize_traits = no
@@ -84,8 +84,8 @@ country_event = {
 			skill = 1
 			set_age = 291
 			immortal = yes
-			background_job = "head_researcher"
-			background_ethic = "ethic_xenophile"
+			background_job = head_researcher
+			background_ethic = ethic_xenophile
 			skip_background_generation = yes
 			randomize_traits = no
 			traits = {
@@ -148,8 +148,8 @@ country_event = {
 			skill = 1
 			set_age = 315
 			immortal = yes
-			background_job = "noble"
-			background_ethic = "ethic_gestalt_consciousness"
+			background_job = noble
+			background_ethic = ethic_gestalt_consciousness
 			skip_background_generation = yes
 			randomize_traits = no
 			traits = {
@@ -194,8 +194,8 @@ country_event = {
 			skill = 1
 			set_age = 267
 			immortal = yes
-			background_job = "noble"
-			background_ethic = "ethic_gestalt_consciousness"
+			background_job = noble
+			background_ethic = ethic_gestalt_consciousness
 			skip_background_generation = yes
 			randomize_traits = no
 			traits = {
@@ -244,6 +244,46 @@ country_event = {
 		capital_scope = {
 			calculate_mtrspony_pop_count_keep_majority = yes
 			spawn_other_mtrspony_species = yes
+		}
+
+		country_event = { id = ufhstart.1001 days = 1 }
+	}
+}
+
+# Properly set the background job and ethics.
+country_event = {
+	id = ufhstart.1001
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		event_target:leader_luna = {
+			change_background_job = noble
+			if = {
+				limit = { ROOT = { NOT = { has_ethic = ethic_gestalt_consciousness } } }
+
+				change_background_ethic = ethic_spiritualist
+			}
+		}
+		event_target:leader_twilight_sparkle = {
+			change_background_job = head_researcher
+			change_background_ethic = ethic_xenophile
+		}
+		event_target:leader_cadance = {
+			change_background_job = noble
+			if = {
+				limit = { ROOT = { NOT = { has_ethic = ethic_gestalt_consciousness } } }
+
+				change_background_ethic = ethic_xenophile
+			}
+		}
+		event_target:leader_flurry_heart = {
+			change_background_job = noble
+			if = {
+				limit = { ROOT = { NOT = { has_ethic = ethic_gestalt_consciousness } } }
+
+				change_background_ethic = ethic_spiritualist
+			}
 		}
 	}
 }

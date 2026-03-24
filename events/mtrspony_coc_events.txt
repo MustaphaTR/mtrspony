@@ -19,8 +19,8 @@ country_event = {
 			skill = 1
 			set_age = 291
 			immortal = yes
-			background_job = "head_researcher"
-			background_ethic = "ethic_xenophile"
+			background_job = head_researcher
+			background_ethic = ethic_xenophile
 			skip_background_generation = yes
 			randomize_traits = no
 			traits = {
@@ -55,6 +55,22 @@ country_event = {
 		capital_scope = {
 			calculate_mtrspony_pop_count_keep_majority = yes
 			spawn_other_mtrspony_species = yes
+		}
+
+		country_event = { id = cocstart.1001 days = 1 }
+	}
+}
+
+# Properly set the background job and ethics.
+country_event = {
+	id = cocstart.1001
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		event_target:leader_dusk_shine = {
+			change_background_job = head_researcher
+			change_background_ethic = ethic_xenophile
 		}
 	}
 }

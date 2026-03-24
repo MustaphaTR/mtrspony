@@ -18,7 +18,7 @@ country_event = {
 			class = official
 			skill = 1
 			set_age = 19
-			background_ethic = "ethic_authoritarian"
+			background_ethic = ethic_authoritarian
 			skip_background_generation = yes
 			randomize_traits = no
 			traits = {
@@ -55,6 +55,21 @@ country_event = {
 
 		event_target:leader_grover_xi = {
 			set_name = "PRESCRIPTED_ruler_name_grover_xi"
+		}
+
+		country_event = { id = gestart.1001 days = 1 }
+	}
+}
+
+# Properly set the background job and ethics.
+country_event = {
+	id = gestart.1001
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		event_target:leader_grover_xi = {
+			change_background_ethic = ethic_authoritarian
 		}
 	}
 }

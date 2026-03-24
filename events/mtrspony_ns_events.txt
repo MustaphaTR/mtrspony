@@ -20,8 +20,8 @@ country_event = {
 			class = commander
 			skill = 1
 			set_age = 62
-			background_job = "commanding_officer"
-			background_ethic = "ethic_militarist"
+			background_job = commanding_officer
+			background_ethic = ethic_militarist
 			skip_background_generation = yes
 			randomize_traits = no
 			traits = {
@@ -55,8 +55,8 @@ country_event = {
 			class = commander
 			skill = 1
 			set_age = 52
-			background_job = "commanding_officer"
-			background_ethic = "ethic_militarist"
+			background_job = commanding_officer
+			background_ethic = ethic_militarist
 			skip_background_generation = yes
 			randomize_traits = no
 			traits = {
@@ -75,6 +75,12 @@ country_event = {
 					random_owned_fleet = {
 						limit = { is_ship_class = shipclass_military }
 
+						leader = {
+							kill_leader = {
+								show_notification = no
+								fire = yes
+							}
+						}
 						assign_leader = PREVPREV
 					}
 				}
@@ -89,8 +95,8 @@ country_event = {
 			class = scientist
 			skill = 1
 			set_age = 54
-			background_job = "head_researcher"
-			background_ethic = "ethic_materialist"
+			background_job = head_researcher
+			background_ethic = ethic_materialist
 			skip_background_generation = yes
 			randomize_traits = no
 			traits = {
@@ -108,6 +114,12 @@ country_event = {
 					random_owned_fleet = {
 						limit = { is_ship_class = shipclass_science_ship }
 
+						leader = {
+							kill_leader = {
+								show_notification = no
+								fire = yes
+							}
+						}
 						assign_leader = PREVPREV
 					}
 				}
@@ -122,8 +134,8 @@ country_event = {
 			class = official
 			skill = 1
 			set_age = 34
-			background_job = "intelligence_officer"
-			background_ethic = "ethic_egalitarian"
+			background_job = intelligence_officer
+			background_ethic = ethic_egalitarian
 			skip_background_generation = yes
 			randomize_traits = no
 			traits = {
@@ -198,6 +210,34 @@ country_event = {
 
 			set_name = "NAME_Yacks_Planet"
 		}
+
+		country_event = { id = nsstart.1001 days = 1 }
+	}
+}
+
+# Properly set the background job and ethics.
+country_event = {
+	id = nsstart.1001
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		event_target:leader_tall_cherry = {
+			change_background_job = commanding_officer
+			change_background_ethic = ethic_militarist
+		}
+		event_target:leader_drew_nikolayev = {
+			change_background_job = commanding_officer
+			change_background_ethic = ethic_militarist
+		}
+		event_target:leader_petra_stormmare = {
+			change_background_job = head_researcher
+			change_background_ethic = ethic_materialist
+		}
+		event_target:leader_dashing_gift = {
+			change_background_job = intelligence_officer
+			change_background_ethic = ethic_egalitarian
+		}
 	}
 }
 
@@ -247,8 +287,8 @@ country_event = {
 			class = official
 			skill = 1
 			set_age = 53
-			background_job = "politician"
-			background_ethic = "ethic_militarist"
+			background_job = politician
+			background_ethic = ethic_militarist
 			skip_background_generation = yes
 			randomize_traits = no
 			traits = {
@@ -282,8 +322,8 @@ country_event = {
 			class = official
 			skill = 1
 			set_age = 55
-			background_job = "politician"
-			background_ethic = "ethic_egalitarian"
+			background_job = intelligence_officer
+			background_ethic = ethic_egalitarian
 			skip_background_generation = yes
 			randomize_traits = no
 			traits = {
@@ -317,8 +357,8 @@ country_event = {
 			class = commander
 			skill = 1
 			set_age = 60
-			background_job = "politician"
-			background_ethic = "ethic_egalitarian"
+			background_job = commanding_officer
+			background_ethic = ethic_egalitarian
 			skip_background_generation = yes
 			randomize_traits = no
 			traits = {
@@ -347,6 +387,30 @@ country_event = {
 				}
 				set_council_position = councilor_defense
 			}
+		}
+
+		country_event = { id = uanstart.1001 days = 1 }
+	}
+}
+
+# Properly set the background job and ethics.
+country_event = {
+	id = uanstart.1001
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		event_target:leader_archer_mane = {
+			change_background_job = politician
+			change_background_ethic = ethic_militarist
+		}
+		event_target:leader_hazel_hoof = {
+			change_background_job = intelligence_officer
+			change_background_ethic = ethic_egalitarian
+		}
+		event_target:leader_duty_price = {
+			change_background_job = commanding_officer
+			change_background_ethic = ethic_egalitarian
 		}
 	}
 }
@@ -396,8 +460,8 @@ country_event = {
 			class = official
 			skill = 1
 			set_age = 71
-			background_job = "noble"
-			background_ethic = "ethic_militarist"
+			background_job = noble
+			background_ethic = ethic_militarist
 			skip_background_generation = yes
 			randomize_traits = no
 			traits = {
@@ -432,8 +496,8 @@ country_event = {
 			class = commander
 			skill = 1
 			set_age = 35
-			background_job = "noble"
-			background_ethic = "ethic_militarist"
+			background_job = noble
+			background_ethic = ethic_militarist
 			skip_background_generation = yes
 			randomize_traits = no
 			traits = {
@@ -466,6 +530,26 @@ country_event = {
 			}
 		}
 		set_heir = event_target:leader_rock_trot
+
+		country_event = { id = hpestart.1001 days = 1 }
+	}
+}
+
+# Properly set the background job and ethics.
+country_event = {
+	id = hpestart.1001
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		event_target:leader_deep_geode = {
+			change_background_job = noble
+			change_background_ethic = ethic_militarist
+		}
+		event_target:leader_rock_trot = {
+			change_background_job = noble
+			change_background_ethic = ethic_militarist
+		}
 	}
 }
 

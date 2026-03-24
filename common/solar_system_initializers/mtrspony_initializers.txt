@@ -354,7 +354,7 @@ ns_eaw_vanilla_initializer = {
 						}
 						flag = {
 							icon = {
-								category = "eqsatwargriffon3"
+								category = "eqsatwargriffon4"
 								file = "LCT_SUP.dds"
 							}
 							background = {

@@ -19,7 +19,7 @@ country_event = {
 			skill = 1
 			set_age = 364
 			immortal = yes
-			background_ethic = "ethic_authoritarian"
+			background_ethic = ethic_authoritarian
 			skip_background_generation = yes
 			randomize_traits = no
 			traits = {
@@ -53,7 +53,7 @@ country_event = {
 			class = commander
 			skill = 1
 			set_age = 120
-			background_ethic = "ethic_militarist"
+			background_ethic = ethic_militarist
 			skip_background_generation = yes
 			randomize_traits = no
 			traits = {
@@ -90,7 +90,7 @@ country_event = {
 			class = official
 			skill = 1
 			set_age = 111
-			background_ethic = "ethic_xenophobe"
+			background_ethic = ethic_xenophobe
 			skip_background_generation = yes
 			randomize_traits = no
 			traits = {
@@ -206,7 +206,7 @@ country_event = {
 			class = scientist
 			skill = 1
 			set_age = 41
-			background_ethic = "ethic_materialist"
+			background_ethic = ethic_materialist
 			skip_background_generation = yes
 			randomize_traits = no
 			traits = {
@@ -233,6 +233,30 @@ country_event = {
 				}
 				set_council_position = councilor_research
 			}
+		}
+
+		country_event = { id = ndestart.1001 days = 1 }
+	}
+}
+
+# Properly set the background job and ethics.
+country_event = {
+	id = ndestart.1001
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		event_target:leader_arcin_the_defiler = {
+			change_background_ethic = ethic_authoritarian
+		}
+		event_target:leader_charcoal = {
+			change_background_ethic = ethic_militarist
+		}
+		event_target:leader_winter = {
+			change_background_ethic = ethic_xenophobe
+		}
+		event_target:leader_soeren_of_svartpels = {
+			change_background_ethic = ethic_materialist
 		}
 	}
 }

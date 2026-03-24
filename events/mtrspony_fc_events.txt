@@ -18,8 +18,8 @@ country_event = {
 			class = official
 			skill = 2
 			set_age = 56
-			background_job = "politician"
-			background_ethic = "ethic_materialist"
+			background_job = politician
+			background_ethic = ethic_materialist
 			skip_background_generation = yes
 			randomize_traits = no
 			traits = {
@@ -58,6 +58,22 @@ country_event = {
 				is_ship_size = corvette
 			}
 			set_name = "PRESCRIPTED_ship_name_fcs_current"
+		}
+
+		country_event = { id = fcstart.1001 days = 1 }
+	}
+}
+
+# Properly set the background job and ethics.
+country_event = {
+	id = fcstart.1001
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		event_target:leader_fickle_current = {
+			change_background_job = politician
+			change_background_ethic = ethic_materialist
 		}
 	}
 }

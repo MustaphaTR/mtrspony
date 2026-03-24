@@ -235,3 +235,7 @@
 - Version 0.4.3 (XX.03.2026):
 -- Added one more female dragon portrait set, based on Smolder.
 -- Added 16 more flag icons.
+-- Correct background job and ethic data for named leaders in prescripted empires are now applied after the first day.
+--- It still doesn't work at the start, but this is a workaround that does the job for now.
+-- Fixed Novyy Stalliongrad starting with an extra generic Commander and Scientist.
+-- Fixed Revolutionary Faust leaders starting with free trait points.

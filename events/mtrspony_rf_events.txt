@@ -18,13 +18,13 @@ country_event = {
 			class = official
 			skill = 2
 			set_age = 48
-			background_job = "politician"
-			background_ethic = "ethic_egalitarian"
+			background_job = politician
+			background_ethic = ethic_egalitarian
 			skip_background_generation = yes
 			randomize_traits = no
 			traits = {
 				1 = leader_trait_principled
-				trait = leader_trait_utopian_idealist
+				2 = leader_trait_utopian_idealist
 			}
 
 			effect = {
@@ -32,7 +32,15 @@ country_event = {
 				set_leader_flag = leader_starry_eyes
 				set_leader_flag = is_created_leader
 				change_leader_portrait = "mtrspony_hippogriff_starry_eyes_predefined"
-				ROOT = { assign_leader = event_target:leader_starry_eyes }
+				ROOT = {
+					leader = {
+						kill_leader = {
+							show_notification = no
+							fire = yes
+						}
+					}
+					assign_leader = event_target:leader_starry_eyes
+				}
 			}
 		}
 
@@ -44,13 +52,13 @@ country_event = {
 			class = scientist
 			skill = 2
 			set_age = 56
-			background_job = "researcher"
-			background_ethic = "ethic_materialist"
+			background_job = researcher
+			background_ethic = ethic_materialist
 			skip_background_generation = yes
 			randomize_traits = no
 			traits = {
 				1 = leader_trait_expertise_particles
-				trait = leader_trait_expertise_voidcraft
+				2 = leader_trait_expertise_voidcraft
 			}
 
 			effect = {
@@ -84,13 +92,13 @@ country_event = {
 			class = scientist
 			skill = 2
 			set_age = 50
-			background_job = "commanding_officer"
-			background_ethic = "ethic_militarist"
+			background_job = commanding_officer
+			background_ethic = ethic_militarist
 			skip_background_generation = yes
 			randomize_traits = no
 			traits = {
-				trait = leader_trait_expertise_military_theory
-				1 = leader_trait_army_veteran
+				1 = leader_trait_expertise_military_theory
+				2 = leader_trait_army_veteran
 			}
 
 			effect = {
@@ -129,13 +137,13 @@ country_event = {
 			class = commander
 			skill = 2
 			set_age = 39
-			background_job = "noble"
-			background_ethic = "ethic_xenophile"
+			background_job = noble
+			background_ethic = ethic_xenophile
 			skip_background_generation = yes
 			randomize_traits = no
 			traits = {
 				1 = leader_trait_unyielding
-				trait = leader_trait_resilient
+				2 = leader_trait_resilient
 			}
 
 			effect = {
@@ -172,13 +180,13 @@ country_event = {
 			class = official
 			skill = 2
 			set_age = 39
-			background_job = "friendship_student"
-			background_ethic = "ethic_xenophile"
+			background_job = friendship_student
+			background_ethic = ethic_xenophile
 			skip_background_generation = yes
 			randomize_traits = no
 			traits = {
 				1 = leader_trait_architectural_interest
-				trait = leader_trait_eager
+				2 = leader_trait_eager
 			}
 
 			effect = {
@@ -218,15 +226,46 @@ country_event = {
 		}
 
 		# Remove the genericos.
+		# Revolutionary Faust still need this because they otherwise get a generic commander.
 		every_owned_leader = {
-			limit = {
-				NOT = { has_leader_flag = is_created_leader }
-			}
+			limit = { NOT = { has_leader_flag = is_created_leader } }
 
 			kill_leader = {
 				show_notification = no
 				fire = yes
 			}
+		}
+
+		country_event = { id = rfstart.1001 days = 1 }
+	}
+}
+
+# Properly set the background job and ethics.
+country_event = {
+	id = rfstart.1001
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		event_target:leader_starry_eyes = {
+			change_background_job = politician
+			change_background_ethic = ethic_egalitarian
+		}
+		event_target:leader_terrafin = {
+			change_background_job = researcher
+			change_background_ethic = ethic_materialist
+		}
+		event_target:leader_sugar_coral = {
+			change_background_job = commanding_officer
+			change_background_ethic = ethic_militarist
+		}
+		event_target:leader_skystar = {
+			change_background_job = noble
+			change_background_ethic = ethic_xenophile
+		}
+		event_target:leader_silverstream = {
+			change_background_job = friendship_student
+			change_background_ethic = ethic_xenophile
 		}
 	}
 }

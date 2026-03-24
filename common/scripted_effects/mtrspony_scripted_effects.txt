@@ -2403,31 +2403,35 @@ add_named_leader_cutie_mark_traits = {
 		add_trait = leader_trait_cutie_mark_gabby
 	}
 	else_if = {
-		limit = { has_leader_flag = leader_trait_cozy_glow }
+		limit = { has_leader_flag = leader_cozy_glow }
 		add_trait = leader_trait_cutie_mark_cozy_glow
 	}
 	else_if = {
-		limit = { has_leader_flag = leader_trait_sandbar }
+		limit = { has_leader_flag = leader_sandbar }
 		add_trait = leader_trait_cutie_mark_sandbar
 	}
 	else_if = {
-		limit = { has_leader_flag = leader_trait_luna }
+		limit = { has_leader_flag = leader_luna }
 		add_trait = leader_trait_cutie_mark_luna
 	}
 	else_if = {
-		limit = { has_leader_flag = leader_trait_twilight_sparkle }
+		limit = { has_leader_flag = leader_twilight_sparkle }
 		add_trait = leader_trait_cutie_mark_twilight_sparkle
 	}
 	else_if = {
-		limit = { has_leader_flag = leader_trait_mi_amore_cadenza }
+		limit = { has_leader_flag = leader_mi_amore_cadenza }
 		add_trait = leader_trait_cutie_mark_mi_amore_cadenza
 	}
 	else_if = {
-		limit = { has_leader_flag = leader_trait_flurry_heart }
+		limit = { has_leader_flag = leader_flurry_heart }
 		add_trait = leader_trait_cutie_mark_flurry_heart
 	}
 	else_if = {
-		limit = { has_leader_flag = leader_trait_cherry_berry }
+		limit = { has_leader_flag = leader_occupant }
+		add_trait = leader_trait_cutie_mark_bureaucracy
+	}
+	else_if = {
+		limit = { has_leader_flag = leader_cherry_berry }
 		add_trait = leader_trait_cutie_mark_cherry_berry
 	}
 	else_if = {

@@ -18,8 +18,8 @@ country_event = {
 			class = official
 			skill = 4
 			set_age = 48
-			background_job = "friendship_student"
-			background_ethic = "ethic_authoritarian"
+			background_job = friendship_student
+			background_ethic = ethic_authoritarian
 			skip_background_generation = yes
 			randomize_traits = no
 			traits = {
@@ -88,8 +88,8 @@ country_event = {
 			class = official
 			skill = 1
 			set_age = 58
-			background_job = "friendship_student"
-			background_ethic = "ethic_xenophile"
+			background_job = friendship_student
+			background_ethic = ethic_xenophile
 			skip_background_generation = yes
 			randomize_traits = no
 			traits = {
@@ -130,6 +130,26 @@ country_event = {
 			limit = { is_same_species_with_faustian_races  = yes }
 
 			species = { set_living_standard_good = { COUNTRY = PREVPREV } }
+		}
+
+		country_event = { id = eofstart.1001 days = 1 }
+	}
+}
+
+# Properly set the background job and ethics.
+country_event = {
+	id = eofstart.1001
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		event_target:leader_cozy_glow = {
+			change_background_job = friendship_student
+			change_background_ethic = ethic_authoritarian
+		}
+		event_target:leader_sandbar = {
+			change_background_job = friendship_student
+			change_background_ethic = ethic_xenophile
 		}
 	}
 }
