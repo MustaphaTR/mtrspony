@@ -69,6 +69,9 @@ Portrait Bases:
  > geometrymathalgebra:
 	- Rainbow Dash
 
+ > giulio:
+	- Ocellus
+
  > hendro107:
 	- Autumn Blaze
 	- Sludge

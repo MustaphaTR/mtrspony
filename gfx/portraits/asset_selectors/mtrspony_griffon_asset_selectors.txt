@@ -81,7 +81,7 @@ mtrspony_griffon_gallus_hair_selector = {
 	}
 }
 
-mtrspony_griffon_grover_xi_predefined_hair_selector = {
+mtrspony_griffon_gallus_predefined_hair_selector = {
 	default = "gfx/models/portraits/griffon/gallus/gallus_hair.dds"
 
 	game_setup = { default = "gfx/models/portraits/griffon/gallus/gallus_hair.dds" }

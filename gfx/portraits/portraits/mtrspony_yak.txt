@@ -38,6 +38,19 @@ portraits = {
 
 		custom_attachment_label = "HAIR_COLOR"
 	}
+
+	mtrspony_yak_yona_predefined = {
+		entity = "portrait_dummy_15p_left_entity"
+		clothes_selector = "mtrspony_yak_yona_predefined_clothes_selector"
+		attachment_selector = "mtrspony_yak_yona_predefined_hair_selector"
+		greeting_sound = "human_female_greetings_04"
+
+		character_textures = {
+			"gfx/models/portraits/yak/yona/yona.dds"
+		}
+
+		custom_attachment_label = "HAIR_COLOR"
+	}
 }
 
 portrait_groups = {

@@ -251,3 +251,23 @@ mtrspony_yak_yona_clothes_selector = {
 		}
 	}
 }
+
+mtrspony_yak_yona_predefined_hair_selector = {
+	default = "gfx/models/portraits/yak/yona/yona_hair.dds"
+
+	game_setup = { default = "gfx/models/portraits/yak/yona/yona_hair.dds" }
+	species = { default = "gfx/models/portraits/yak/yona/yona_hair.dds" }
+	pop = { default = "gfx/models/portraits/yak/yona/yona_hair.dds" }
+	leader = { default = "gfx/models/portraits/yak/yona/yona_hair.dds" }
+	ruler = { default = "gfx/models/portraits/yak/yona/yona_hair.dds" }
+}
+
+mtrspony_yak_yona_predefined_clothes_selector = {
+	default = "gfx/models/portraits/yak/yona/yona_clothes.dds"
+
+	game_setup = { default = "gfx/models/portraits/yak/yona/yona_clothes.dds" }
+	species = { default = "gfx/models/portraits/yak/yona/yona_clothes.dds" }
+	pop = { default = "gfx/models/portraits/yak/yona/yona_clothes.dds" }
+	leader = { default = "gfx/models/portraits/yak/yona/yona_clothes.dds" }
+	ruler = { default = "gfx/models/portraits/yak/yona/yona_clothes.dds" }
+}

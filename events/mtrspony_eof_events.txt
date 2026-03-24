@@ -103,6 +103,159 @@ country_event = {
 				set_leader_flag = leader_sandbar
 				set_leader_flag = is_created_leader
 				change_leader_portrait = "mtrspony_pony_earth_sandbar_predefined"
+				set_council_position = councilor_state
+			}
+		}
+
+		save_current_mtrspony_species = yes
+		create_other_mtrspony_species = yes
+
+		create_leader = {
+			name = "PRESCRIPTED_ruler_name_gallus"
+			custom_description = "PRESCRIPTED_ruler_name_gallus_desc"
+			species = event_target:griffon_species@ROOT
+			gender = male
+			class = commander
+			skill = 1
+			set_age = 58
+			background_job = friendship_student
+			background_ethic = ethic_xenophile
+			skip_background_generation = yes
+			randomize_traits = no
+			traits = {
+				1 = leader_trait_skirmisher
+			}
+
+			effect = {
+				save_global_event_target_as = leader_gallus
+				set_leader_flag = leader_gallus
+				set_leader_flag = is_created_leader
+				change_leader_portrait = "mtrspony_griffon_gallus_predefined"
+				set_council_position = councilor_defense
+			}
+		}
+		create_leader = {
+			name = "PRESCRIPTED_ruler_name_smolder"
+			custom_description = "PRESCRIPTED_ruler_name_smolder_desc"
+			species = event_target:yak_species@ROOT
+			gender = female
+			class = commander
+			skill = 1
+			set_age = 58
+			background_job = friendship_student
+			background_ethic = ethic_militarist
+			skip_background_generation = yes
+			randomize_traits = no
+			traits = {
+				1 = leader_trait_unyielding
+			}
+
+			effect = {
+				save_global_event_target_as = leader_smolder
+				set_leader_flag = leader_smolder
+				set_leader_flag = is_created_leader
+				change_leader_portrait = "mtrspony_dragon_smolder_predefined"
+				ROOT = {
+					random_owned_fleet = {
+						limit = { is_ship_class = shipclass_military }
+
+						leader = {
+							kill_leader = {
+								show_notification = no
+								fire = yes
+							}
+						}
+						assign_leader = PREVPREV
+					}
+				}
+			}
+		}
+		create_leader = {
+			name = "PRESCRIPTED_ruler_name_yona"
+			custom_description = "PRESCRIPTED_ruler_name_yona_desc"
+			species = event_target:yak_species@ROOT
+			gender = female
+			class = commander
+			skill = 1
+			set_age = 58
+			background_job = friendship_student
+			background_ethic = ethic_xenophile
+			skip_background_generation = yes
+			randomize_traits = no
+			traits = {
+				1 = leader_trait_resilient
+			}
+
+			effect = {
+				save_global_event_target_as = leader_yona
+				set_leader_flag = leader_yona
+				set_leader_flag = is_created_leader
+				change_leader_portrait = "mtrspony_yak_yona_predefined"
+				ROOT = {
+					random_owned_army = { # At this point, we should only have Capital planet defense armies.
+						assign_leader = PREVPREV
+					}
+				}
+			}
+		}
+		create_leader = {
+			name = "PRESCRIPTED_ruler_name_ocellus"
+			custom_description = "PRESCRIPTED_ruler_name_ocellus_desc"
+			species = event_target:changeling_species@ROOT
+			gender = female
+			class = scientist
+			skill = 1
+			set_age = 58
+			background_job = friendship_student
+			background_ethic = ethic_xenophile
+			skip_background_generation = yes
+			randomize_traits = no
+			traits = {
+				1 = leader_trait_adaptable
+			}
+
+			effect = {
+				save_global_event_target_as = leader_ocellus
+				set_leader_flag = leader_ocellus
+				set_leader_flag = is_created_leader
+				change_leader_portrait = "mtrspony_changeling_ocellus_predefined"
+				ROOT = {
+					random_owned_fleet = {
+						limit = { is_ship_class = shipclass_science_ship }
+
+						leader = {
+							kill_leader = {
+								show_notification = no
+								fire = yes
+							}
+						}
+						assign_leader = PREVPREV
+					}
+				}
+				set_council_position = councilor_research
+			}
+		}
+		create_leader = {
+			name = "PRESCRIPTED_ruler_name_silverstream"
+			custom_description = "PRESCRIPTED_ruler_name_silverstream_desc"
+			species = event_target:hippogriff_species@ROOT
+			gender = female
+			class = official
+			skill = 1
+			set_age = 58
+			background_job = friendship_student
+			background_ethic = ethic_xenophile
+			skip_background_generation = yes
+			randomize_traits = no
+			traits = {
+				1 = leader_trait_architectural_interest
+			}
+
+			effect = {
+				save_global_event_target_as = leader_silverstream
+				set_leader_flag = leader_silverstream
+				set_leader_flag = is_created_leader
+				change_leader_portrait = "mtrspony_hippogriff_silverstream_predefined"
 				ROOT = {
 					capital_scope = {
 						leader = {
@@ -111,15 +264,11 @@ country_event = {
 								fire = yes
 							}
 						}
-						assign_leader = event_target:leader_sandbar
+						assign_leader = event_target:leader_silverstream
 					}
 				}
-				set_council_position = councilor_state
 			}
 		}
-
-		save_current_mtrspony_species = yes
-		create_other_mtrspony_species = yes
 
 		capital_scope = {
 			calculate_mtrspony_pop_count_keep_majority = yes
@@ -151,6 +300,26 @@ country_event = {
 			change_background_job = friendship_student
 			change_background_ethic = ethic_xenophile
 		}
+		event_target:leader_gallus = {
+			change_background_job = friendship_student
+			change_background_ethic = ethic_xenophile
+		}
+		event_target:leader_smolder = {
+			change_background_job = friendship_student
+			change_background_ethic = ethic_militarist
+		}
+		event_target:leader_yona = {
+			change_background_job = friendship_student
+			change_background_ethic = ethic_xenophile
+		}
+		event_target:leader_ocellus = {
+			change_background_job = friendship_student
+			change_background_ethic = ethic_xenophile
+		}
+		event_target:leader_silverstream = {
+			change_background_job = friendship_student
+			change_background_ethic = ethic_xenophile
+		}
 	}
 }
 
@@ -169,6 +338,21 @@ country_event = {
 		}
 		event_target:leader_sandbar = {
 			change_leader_portrait = "mtrspony_pony_earth_sandbar_predefined"
+		}
+		event_target:leader_gallus = {
+			change_leader_portrait = "mtrspony_griffon_gallus_predefined"
+		}
+		event_target:leader_smolder = {
+			change_leader_portrait = "mtrspony_dragon_smolder_predefined"
+		}
+		event_target:leader_yona = {
+			change_leader_portrait = "mtrspony_yak_yona_predefined"
+		}
+		event_target:leader_ocellus = {
+			change_leader_portrait = "mtrspony_changeling_ocellus_predefined"
+		}
+		event_target:leader_silverstream = {
+			change_leader_portrait = "mtrspony_hippogriff_silverstream_predefined"
 		}
 	}
 }
