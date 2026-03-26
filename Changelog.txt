@@ -232,7 +232,7 @@
 -- Updated some namelists to add new Victory Point names from Equestria at War as ship names.
 -- Fixed Scootaloo's Cyborg traits getting replaced with Psionic when pony species are modified after going Psionic Ascension as The Crusader State.
 
-- Version 0.4.3 (XX.03.2026):
+- Version 0.4.3 (26.03.2026):
 -- Added one more female dragon portrait set, based on Smolder.
 -- Added 16 more flag icons.
 -- Added rest of the Student 6 as starting leaders for Empire of Friendship.
