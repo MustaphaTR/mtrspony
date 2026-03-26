@@ -27,6 +27,7 @@ country_event = {
 
 				1 = leader_trait_politician
 				2 = trait_ruler_champion_of_the_people
+				3 = subclass_official_diplomacy_councilor
 			}
 
 			effect = {
@@ -132,6 +133,14 @@ country_event = {
 				set_leader_flag = is_created_leader
 				change_leader_portrait = "mtrspony_griffon_gallus_predefined"
 				set_council_position = councilor_defense
+
+				if = {
+					limit = { ROOT = { has_valid_civic = civic_crusader_spirit } }
+
+					give_trait_no_notify_ignore_autocracy_restriction = {
+						TRAIT = leader_trait_crusader
+					}
+				}
 			}
 		}
 		create_leader = {
@@ -168,6 +177,14 @@ country_event = {
 						assign_leader = PREVPREV
 					}
 				}
+
+				if = {
+					limit = { ROOT = { has_valid_civic = civic_crusader_spirit } }
+
+					give_trait_no_notify_ignore_autocracy_restriction = {
+						TRAIT = leader_trait_crusader
+					}
+				}
 			}
 		}
 		create_leader = {
@@ -183,7 +200,9 @@ country_event = {
 			skip_background_generation = yes
 			randomize_traits = no
 			traits = {
-				1 = leader_trait_resilient
+				1 = leader_trait_heavy_hitter
+
+				trait = leader_trait_disorganized
 			}
 
 			effect = {
@@ -194,6 +213,14 @@ country_event = {
 				ROOT = {
 					random_owned_army = { # At this point, we should only have Capital planet defense armies.
 						assign_leader = PREVPREV
+					}
+				}
+
+				if = {
+					limit = { ROOT = { has_valid_civic = civic_crusader_spirit } }
+
+					give_trait_no_notify_ignore_autocracy_restriction = {
+						TRAIT = leader_trait_crusader
 					}
 				}
 			}
@@ -237,7 +264,7 @@ country_event = {
 		}
 		create_leader = {
 			name = "PRESCRIPTED_ruler_name_silverstream"
-			custom_description = "PRESCRIPTED_ruler_name_silverstream_desc"
+			custom_description = "PRESCRIPTED_ruler_name_silverstream_eof_desc"
 			species = event_target:hippogriff_species@ROOT
 			gender = female
 			class = official
@@ -249,6 +276,9 @@ country_event = {
 			randomize_traits = no
 			traits = {
 				1 = leader_trait_architectural_interest
+				trait = leader_trait_federal_greeter
+
+				trait = leader_trait_gullible
 			}
 
 			effect = {

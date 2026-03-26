@@ -91,28 +91,30 @@
  PRESCRIPTED_ship_prefix_empire_of_friendship:0 "ISS"
 
  PRESCRIPTED_ruler_name_cozy_glow:0 "Cozy Glow"
- PRESCRIPTED_ruler_name_cozy_glow_desc:0 "<insert_desc_here>"
+ PRESCRIPTED_ruler_name_cozy_glow_desc:0 "The valedictorian of the School of Friendship's first year, [Root.GetHeShe] took a stand against Daybreaker and Nightmare Moon by joining the Fillydelphia Republic. After rising to the office of President, [Root.GetFirstName] then united our homeworld through a mix of conquest and cunning diplomacy, finally being crowned Empress of Friendship. Subsequently, [Root.GetFirstName] contacted [Root.GetHisHer] old classmates to help run the world, and now the galaxy."
  PRESCRIPTED_ruler_name_cozy_glow_catch_phrase:0 "§L""§!"
 
  PRESCRIPTED_ruler_name_sandbar:0 "Sandbar"
- PRESCRIPTED_ruler_name_sandbar_desc:0 "<insert_desc_here>"
+ PRESCRIPTED_ruler_name_sandbar_desc:0 "An inoffensive but committed pony, [Root.GetFirstName] was been appointed to govern the Riverlands and has discovered a remarkable talent for oceanic habitation."
  PRESCRIPTED_ruler_name_sandbar_catch_phrase:0 "§L""§!"
 
  PRESCRIPTED_ruler_name_gallus:0 "Gallus"
- PRESCRIPTED_ruler_name_gallus_desc:0 "<insert_desc_here>"
+ PRESCRIPTED_ruler_name_gallus_desc:0 "A young orphan from Griffonstone, [Root.GetFirstName] was given control over the restored Griffonian Empire by Imperial decree."
  PRESCRIPTED_ruler_name_gallus_catch_phrase:0 "§L""§!"
 
  PRESCRIPTED_ruler_name_smolder:0 "Smolder"
- PRESCRIPTED_ruler_name_smolder_desc:0 "<insert_desc_here>"
+ PRESCRIPTED_ruler_name_smolder_desc:0 "A dragon from the Dragon Isles, [Root.GetFirstName] is a talented commander and brave hero who never backs down from a fight."
  PRESCRIPTED_ruler_name_smolder_catch_phrase:0 "§L""§!"
 
  PRESCRIPTED_ruler_name_yona:0 "Yona"
- PRESCRIPTED_ruler_name_yona_desc:0 "<insert_desc_here>"
+ PRESCRIPTED_ruler_name_yona_desc:0 "[Root.GetFirstName] is a yak from northern Equus, a legendarily skilled warrior. However, [Root.GetHeShe] is a bit disorganized when it comes to supplying the army."
  PRESCRIPTED_ruler_name_yona_catch_phrase:0 "§L""§!"
 
  PRESCRIPTED_ruler_name_ocellus:0 "Ocellus"
- PRESCRIPTED_ruler_name_ocellus_desc:0 "<insert_desc_here>"
+ PRESCRIPTED_ruler_name_ocellus_desc:0 "As a changeling, [Root.GetFirstName] had to attend the School of Friendship in disguise, but quickly displayed great skill at the hard sciences. After revealing [Root.GetHisHer] true nature, [Root.GetHeShe] continued to be accepted by [Root.GetHisHer] friends, and was eventually awarded governorship of the Changelings and Deer."
  PRESCRIPTED_ruler_name_ocellus_catch_phrase:0 "§L""§!"
+
+ PRESCRIPTED_ruler_name_silverstream_eof_desc:0 "An eccentric princess of Aris, [Root.GetFirstName] is renowned for [Root.GetHisHer] unique perspective. It is that very unique perspective that has led to [Root.GetHisHer] ruling all of Zebrica."
 
  # Novyy Stalliongrad
  EMPIRE_DESIGN_novyy_stalliongrad:0 "Novyy Stalliongrad"
