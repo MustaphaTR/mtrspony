@@ -653,6 +653,13 @@ leader_trait_cutie_mark_biology = {
 		}
 		space_fauna_ship_upkeep_mult = -0.1
 	}
+	triggered_modifier = {
+		potential = {
+			leader_class = scientist
+			has_grand_archive_dlc = yes
+		}
+		ship_capture_chance_add = 0.1
+	}
 	leader_class = { commander scientist }
 	selectable_weight = 0
 	randomized = no
