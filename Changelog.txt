@@ -236,6 +236,8 @@
 -- Added one more female dragon portrait set, based on Smolder.
 -- Added 16 more flag icons.
 -- Added rest of the Student 6 as starting leaders for Empire of Friendship.
+--- This includes custom Cutie Mark traits and descriptions as well.
+-- Added a paragon event for The Crusader State to recruit Cozy Glow as an Official that triggers 1-2 years after forming a Prison Colony.
 -- Added ship effect for Scientist Biology Cutie Mark to increase Fauna Capture Chance.
 -- Correct background job and ethic data for named leaders in prescripted empires are now applied after the first day.
 --- It still doesn't work at the start, but this is a workaround that does the job for now.

@@ -79,7 +79,7 @@ on_monthly_pulse_country = { # Above only triggers with manual species modificat
 # This = Country
 on_tech_increased = {
 	events = {
-		#tcsstart.5
+		tcsstart.5
 	}
 }
 
