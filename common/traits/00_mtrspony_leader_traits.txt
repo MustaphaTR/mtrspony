@@ -166,6 +166,71 @@ leader_trait_cutie_mark_sandbar = {
 	randomized = no
 }
 
+leader_trait_cutie_mark_gallus = {
+	inline_script = {
+		script = trait/icon_cutie_mark
+		ICON = "GFX_leader_trait_cutie_mark_bittersweet"
+		COUNCIL = yes
+		TIER = none
+	}
+	councilor_modifier = {
+		country_trust_growth = 0.05
+	}
+	leader_class = { commander }
+	selectable_weight = 0
+	randomized = no
+}
+
+leader_trait_cutie_mark_smolder = {
+	inline_script = {
+		script = trait/icon_cutie_mark
+		ICON = "GFX_leader_trait_cutie_mark_spitfire"
+		COUNCIL = no
+		TIER = none
+	}
+	fleet_modifier = {
+		ship_orbital_bombardment_mult = 1.0
+	}
+	leader_class = { commander }
+	selectable_weight = 0
+	randomized = no
+}
+
+leader_trait_cutie_mark_yona = {
+	inline_script = {
+		script = trait/icon_cutie_mark
+		ICON = "GFX_leader_trait_cutie_mark_yona"
+		COUNCIL = no
+		TIER = none
+	}
+	army_modifier = {
+		army_damage_mult = 0.1
+	}
+	leader_class = { commander }
+	selectable_weight = 0
+	randomized = no
+}
+
+leader_trait_cutie_mark_silverstream = {
+	inline_script = {
+		script = trait/icon_cutie_mark
+		ICON = "GFX_leader_trait_cutie_mark_silverstream"
+		COUNCIL = no
+		TIER = none
+	}
+	planet_modifier = {
+		planet_structures_cost_mult = -0.8
+		planet_building_build_speed_mult = 0.12
+	}
+	sector_modifier = {
+		planet_structures_cost_mult = -0.4
+		planet_building_build_speed_mult = 0.06
+	}
+	leader_class = { official }
+	selectable_weight = 0
+	randomized = no
+}
+
 # United Faustian Hives
 leader_trait_cutie_mark_luna = {
 	inline_script = {

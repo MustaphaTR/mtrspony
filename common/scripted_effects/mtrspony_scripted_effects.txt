@@ -2411,6 +2411,26 @@ add_named_leader_cutie_mark_traits = {
 		add_trait = leader_trait_cutie_mark_sandbar
 	}
 	else_if = {
+		limit = { has_leader_flag = leader_gallus }
+		add_trait = leader_trait_cutie_mark_gallus
+	}
+	else_if = {
+		limit = { has_leader_flag = leader_smolder }
+		add_trait = leader_trait_cutie_mark_smolder
+	}
+	else_if = {
+		limit = { has_leader_flag = leader_yona }
+		add_trait = leader_trait_cutie_mark_yona
+	}
+	else_if = {
+		limit = { has_leader_flag = leader_ocellus }
+		add_trait = leader_trait_cutie_mark_voidcraft
+	}
+	else_if = {
+		limit = { has_leader_flag = leader_silverstream }
+		add_trait = leader_trait_cutie_mark_silverstream
+	}
+	else_if = {
 		limit = { has_leader_flag = leader_luna }
 		add_trait = leader_trait_cutie_mark_luna
 	}
@@ -2501,6 +2521,22 @@ remove_cutie_mark_traits = {
 	else_if = {
 		limit = { has_trait = leader_trait_cutie_mark_sandbar }
 		remove_trait = leader_trait_cutie_mark_sandbar
+	}
+	else_if = {
+		limit = { has_trait = leader_trait_cutie_mark_gallus }
+		remove_trait = leader_trait_cutie_mark_gallus
+	}
+	else_if = {
+		limit = { has_trait = leader_trait_cutie_mark_smolder }
+		remove_trait = leader_trait_cutie_mark_smolder
+	}
+	else_if = {
+		limit = { has_trait = leader_trait_cutie_mark_yona }
+		remove_trait = leader_trait_cutie_mark_yona
+	}
+	else_if = {
+		limit = { has_trait = leader_trait_cutie_mark_silverstream }
+		remove_trait = leader_trait_cutie_mark_silverstream
 	}
 	else_if = {
 		limit = { has_trait = leader_trait_cutie_mark_luna }

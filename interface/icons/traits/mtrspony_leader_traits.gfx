@@ -12,6 +12,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/icons/traits/leader_trait_icons/cutie_mark_babs_seed.dds"
 	}
 	spriteType = {
+		name = "GFX_leader_trait_cutie_mark_bittersweet"
+		texturefile = "gfx/interface/icons/traits/leader_trait_icons/cutie_mark_bittersweet.dds"
+	}
+	spriteType = {
 		name = "GFX_leader_trait_cutie_mark_button_mash"
 		texturefile = "gfx/interface/icons/traits/leader_trait_icons/cutie_mark_button_mash.dds"
 	}
@@ -116,6 +120,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/icons/traits/leader_trait_icons/cutie_mark_silver_star.dds"
 	}
 	spriteType = {
+		name = "GFX_leader_trait_cutie_mark_silverstream"
+		texturefile = "gfx/interface/icons/traits/leader_trait_icons/cutie_mark_silverstream.dds"
+	}
+	spriteType = {
 		name = "GFX_leader_trait_cutie_mark_shining_armor"
 		texturefile = "gfx/interface/icons/traits/leader_trait_icons/cutie_mark_shining_armor.dds"
 	}
@@ -150,6 +158,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_leader_trait_cutie_mark_vapor_trail"
 		texturefile = "gfx/interface/icons/traits/leader_trait_icons/cutie_mark_vapor_trail.dds"
+	}
+	spriteType = {
+		name = "GFX_leader_trait_cutie_mark_yona"
+		texturefile = "gfx/interface/icons/traits/leader_trait_icons/cutie_mark_yona.dds"
 	}
 
 	spriteType = {

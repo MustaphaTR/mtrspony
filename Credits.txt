@@ -113,6 +113,10 @@ Portrait Bases:
  > n0kkun:
 	- Flurry Heart
 
+ > no_purple_800:
+	- Silverstream Cutie Mark
+	- Yona Cutie Mark
+
  > nukarulesthehouse1:
 	- Storm King
 
