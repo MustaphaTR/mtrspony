@@ -472,7 +472,7 @@ country_event = {
 			GENDER = female
 			IMMORTAL = no
 			ETHIC = authoritarian
-			DESC = PRESCRIPTED_ruler_name_cozy_glow_desc
+			DESC = PRESCRIPTED_ruler_name_cozy_glow_tcs_desc
 			CATCH_PHRASE = PRESCRIPTED_ruler_name_cozy_glow_catch_phrase
 		}
 		last_created_leader = {

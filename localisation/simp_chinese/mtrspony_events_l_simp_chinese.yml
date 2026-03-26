@@ -28,3 +28,14 @@
  tcsstart.4.name:0 "The Path Already Chosen"
  tcsstart.4.desc:0 "While paving the path of our future with §MPsionics§!, we discovered they were incompatible with the §ECybernetic§! implants §Y[Root.GetName]§! and few others have been using for a long time. Removing the implants at this point is impossible for the most, as they owe their longevity to those implants. As such, a group of engineers led by §YLeopold Schmeller§!, who had initially developed the implants, had started working on improvements to the §ECybernetics§!. Their work has finally brought fruit, ensuring that the §ECyborg§! minority doesn't stay behind, but progress through the different path they had chosen."
  tcsstart.4.a:0 "Good work, everycreature."
+
+ # Cozy Glow running the Penal Colony
+ tcsstart.7.name:0 "$PRESCRIPTED_ruler_name_cozy_glow$"
+ tcsstart.7.desc:1 "§HA familiar, yet not much wanted, face from our leader's foalhood, bearing a horn that she didn't have back in the day.§!\n\nHey, girls. Long time no see.\n\nI heard that you are setting up a planet as a Penal Colony, thought i could make myself useful there."
+ tcsstart.7.a:0 "What are you up to now, Cozy?"
+ tcsstart.7.a.response:0 "Come on! I've been on the clear for centuries. I've worked at several prisons since my ascension, this is only the logical continuation."
+ tcsstart.7.b:0 "What have you been doing, anyway?"
+ tcsstart.7.b.response:0 "What Flurry once did for me, helping ponies to the good side. Where else is better do that than a whole planet of bad guys?"
+ tcsstart.7.c:0 "Why the Prison Colony?"
+ tcsstart.7.c.response:0 "It is a good place to find people that need my help, but it is not just that. The prison system needs a reform to focus on rehabitation. I think i can achieve that there."
+ tcsstart.7.hire_custom_tooltip:0 "§Y$PRESCRIPTED_ruler_name_cozy_glow$§!作为一名§H领袖§!加入了我们的帝国。"
