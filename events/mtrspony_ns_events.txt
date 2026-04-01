@@ -181,10 +181,12 @@ country_event = {
 							calculate_mtrspony_pop_count_default = yes
 							spawn_other_mtrspony_species = yes
 						}
+						refresh_leader_pool = yes
 					}
 				}
 			}
 		}
+		refresh_leader_pool = yes
 
 		random_planet_within_border = {
 			limit = {

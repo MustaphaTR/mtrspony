@@ -52,6 +52,7 @@ country_event = {
 			calculate_mtrspony_pop_count_keep_majority = yes
 			spawn_other_mtrspony_species = yes
 		}
+		refresh_leader_pool = yes
 
 		event_target:leader_grover_xi = {
 			set_name = "PRESCRIPTED_ruler_name_grover_xi"

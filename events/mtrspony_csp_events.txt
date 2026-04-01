@@ -296,6 +296,7 @@ country_event = {
 				}
 			}
 		}
+		refresh_leader_pool = yes
 
 		country_event = { id = cspstart.1001 days = 1 }
 	}

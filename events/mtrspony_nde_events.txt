@@ -197,6 +197,7 @@ country_event = {
 			spawn_other_mtrspony_species = { IGNORE_PC = yes }
 			spawn_mtrspony_pops = { COUNTRY = owner SPECIES = polar_bear }
 		}
+		refresh_leader_pool = yes
 
 		create_leader = {
 			name = "PRESCRIPTED_ruler_name_soeren_of_svartpels"

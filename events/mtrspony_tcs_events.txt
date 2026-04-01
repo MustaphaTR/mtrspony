@@ -176,6 +176,7 @@ country_event = {
 				}
 			}
 		}
+		refresh_leader_pool = yes
 
 		create_leader = {
 			name = "PRESCRIPTED_ruler_name_gabby"

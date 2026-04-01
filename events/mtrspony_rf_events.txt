@@ -216,6 +216,7 @@ country_event = {
 			calculate_mtrspony_pop_count_keep_majority = yes
 			spawn_other_mtrspony_species = yes
 		}
+		refresh_leader_pool = yes
 
 		# Name one of the starting ships Posada, if we have one that is.
 		random_owned_ship = {
