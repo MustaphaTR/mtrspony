@@ -244,6 +244,7 @@
 -- Fixed Novyy Stalliongrad starting with an extra generic Commander and Scientist.
 -- Fixed Revolutionary Faust leaders starting with free trait points.
 
-- Version 0.4.4 (XX.XX.2026):
+- Version 0.4.4 (26.05.2026):
+-- Applied a workaround for the bug preventing Custom Empires using mod's portraits as AI Empires.
 -- Multi-species setup event now refreshes the leader pool after the other species are created so you can, if rights allow, start with them in the pool.
 --- Prescripted Empires can similarly start with other species in the leader pool if their rights allow.
