@@ -284,7 +284,7 @@ country_event = {
 			# Doesn't work on the initialiser for some reason, add the modifier here.
 			solar_system = {
 				random_system_planet = {
-					limit = { has_planet_flag = planet_equus }
+					limit = { has_carrier_flag = planet_equus }
 
 					add_modifier = { modifier = tidal_locked }
 					if = {

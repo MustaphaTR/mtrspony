@@ -94,7 +94,7 @@ on_tradition_picked = {
 	}
 }
 
-empire_init_capital_planet = {
+empire_init_capital_colony = {
 	events = {
 		mtrspony.5
 	}
