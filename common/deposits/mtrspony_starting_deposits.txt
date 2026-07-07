@@ -250,6 +250,7 @@ d_south_eastern_jungles = {
 d_crystal_mountains = {
 	is_for_colonizable = yes
 	icon = d_crystalline_caverns
+	category = deposit_cat_rare_resource
 
 	triggered_planet_modifier = {
 		potential = {
