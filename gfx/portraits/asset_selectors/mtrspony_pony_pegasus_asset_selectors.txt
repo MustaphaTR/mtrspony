@@ -1660,3 +1660,13 @@ mtrspony_pony_pegasus_scootaloo_predefined_clothes_selector = {
 	leader = { default = "gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_uniform_military_cmc.dds" }
 	ruler = { default = "gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_uniform_military_cmc.dds" }
 }
+
+mtrspony_pony_pegasus_scootaloo_n1064_predefined_clothes_selector = {
+	default = "gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_uniform_civilian_alt1.dds"
+
+	game_setup = { default = "gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_uniform_civilian_alt1.dds" }
+	species = { default = "gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_uniform_civilian_alt1.dds" }
+	pop = { default = "gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_uniform_civilian_alt1.dds" }
+	leader = { default = "gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_uniform_civilian_alt1.dds" }
+	ruler = { default = "gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_uniform_civilian_alt1.dds" }
+}

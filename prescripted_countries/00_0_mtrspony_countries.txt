@@ -44,15 +44,15 @@ convocation_of_creatures = {
 	city_graphical_culture = mammalian_01
 
 	empire_flag = {
-		icon= {
+		icon = {
 			category = "human"
 			file = "flag_human_8.dds"
 		}
-		background= {
+		background = {
 			category = "backgrounds"
 			file = "00_solid.dds"
 		}
-		colors={
+		colors = {
 			"light_pink"
 			"light_pink"
 			"null"
@@ -120,15 +120,15 @@ convocation_of_creatures_federations = {
 	city_graphical_culture = mammalian_01
 
 	empire_flag = {
-		icon= {
+		icon = {
 			category = "human"
 			file = "flag_human_8.dds"
 		}
-		background= {
+		background = {
 			category = "backgrounds"
 			file = "00_solid.dds"
 		}
-		colors={
+		colors = {
 			"light_pink"
 			"light_pink"
 			"null"
@@ -196,15 +196,15 @@ the_crusader_state = {
 	city_graphical_culture = mammalian_01
 
 	empire_flag = {
-		icon= {
+		icon = {
 			category = "esieaw"
 			file = "CMC.dds"
 		}
-		background= {
+		background = {
 			category = "backgrounds"
 			file = "stripe_thick_cmc.dds"
 		}
-		colors={
+		colors = {
 			"red_orange"
 			"intense_pink"
 			"null"
@@ -272,15 +272,15 @@ the_crusader_state_necroids = {
 	city_graphical_culture = mammalian_01
 
 	empire_flag = {
-		icon= {
+		icon = {
 			category = "esieaw"
 			file = "CMC.dds"
 		}
-		background= {
+		background = {
 			category = "backgrounds"
 			file = "stripe_thick_cmc.dds"
 		}
-		colors={
+		colors = {
 			"red_orange"
 			"intense_pink"
 			"null"
@@ -347,15 +347,15 @@ empire_of_friendship = {
 	city_graphical_culture = mammalian_01
 
 	empire_flag = {
-		icon= {
+		icon = {
 			category = "mtrspony"
 			file = "SOF.dds"
 		}
-		background= {
+		background = {
 			category = "backgrounds"
 			file = "flag_BG_2.dds"
 		}
-		colors={
+		colors = {
 			"light_pink"
 			"light_indigo"
 			"null"
@@ -423,15 +423,15 @@ empire_of_friendship_paragons = {
 	city_graphical_culture = mammalian_01
 
 	empire_flag = {
-		icon= {
+		icon = {
 			category = "mtrspony"
 			file = "SOF.dds"
 		}
-		background= {
+		background = {
 			category = "backgrounds"
 			file = "flag_BG_2.dds"
 		}
-		colors={
+		colors = {
 			"light_pink"
 			"light_indigo"
 			"null"
@@ -498,15 +498,15 @@ novyy_stalliongrad = {
 	city_graphical_culture = mammalian_01
 
 	empire_flag = {
-		icon= {
+		icon = {
 			category = "eqsatwarequus3"
 			file = "STG.dds"
 		}
-		background= {
+		background = {
 			category = "backgrounds"
 			file = "flag_BG_51.dds"
 		}
-		colors={
+		colors = {
 			"intense_red"
 			"bright_yellow"
 			"null"
@@ -573,15 +573,15 @@ novyy_stalliongrad_megacorps = {
 	city_graphical_culture = mammalian_01
 
 	empire_flag = {
-		icon= {
+		icon = {
 			category = "eqsatwarequus3"
 			file = "STG.dds"
 		}
-		background= {
+		background = {
 			category = "backgrounds"
 			file = "flag_BG_51.dds"
 		}
-		colors={
+		colors = {
 			"intense_red"
 			"bright_yellow"
 			"null"
@@ -648,15 +648,15 @@ novyy_stalliongrad_megacorps = {
 #	city_graphical_culture = mammalian_01
 #
 #	empire_flag = {
-#		icon= {
+#		icon = {
 #			category = "esieaw2"
 #			file = "SCH_DEM.dds"
 #		}
-#		background= {
+#		background = {
 #			category = "backgrounds"
 #			file = "triangle_split.dds"
 #		}
-#		colors={
+#		colors = {
 #			"red"
 #			"dark_purple"
 #			"null"
@@ -723,15 +723,15 @@ novyy_stalliongrad_megacorps = {
 #	city_graphical_culture = mammalian_01
 #
 #	empire_flag = {
-#		icon= {
+#		icon = {
 #			category = "esieaw2"
 #			file = "SCH_DEM.dds"
 #		}
-#		background= {
+#		background = {
 #			category = "backgrounds"
 #			file = "triangle_split.dds"
 #		}
-#		colors={
+#		colors = {
 #			"red"
 #			"dark_purple"
 #			"null"
@@ -798,15 +798,15 @@ united_faustian_hives_hive = {
 	city_graphical_culture = mammalian_01
 
 	empire_flag = {
-		icon= {
+		icon = {
 			category = "esieaw2"
 			file = "SCH_DEM.dds"
 		}
-		background= {
+		background = {
 			category = "backgrounds"
 			file = "triangle_split.dds"
 		}
-		colors={
+		colors = {
 			"red"
 			"dark_purple"
 			"null"
@@ -873,15 +873,15 @@ united_faustian_hives_hive_necroids = {
 	city_graphical_culture = mammalian_01
 
 	empire_flag = {
-		icon= {
+		icon = {
 			category = "esieaw2"
 			file = "SCH_DEM.dds"
 		}
-		background= {
+		background = {
 			category = "backgrounds"
 			file = "triangle_split.dds"
 		}
-		colors={
+		colors = {
 			"red"
 			"dark_purple"
 			"null"
@@ -948,15 +948,15 @@ united_faustian_hives_hive_paragons = {
 	city_graphical_culture = mammalian_01
 
 	empire_flag = {
-		icon= {
+		icon = {
 			category = "esieaw2"
 			file = "SCH_DEM.dds"
 		}
-		background= {
+		background = {
 			category = "backgrounds"
 			file = "triangle_split.dds"
 		}
-		colors={
+		colors = {
 			"red"
 			"dark_purple"
 			"null"
@@ -1023,15 +1023,15 @@ united_faustian_hives_hive_necroids_paragons = {
 	city_graphical_culture = mammalian_01
 
 	empire_flag = {
-		icon= {
+		icon = {
 			category = "esieaw2"
 			file = "SCH_DEM.dds"
 		}
-		background= {
+		background = {
 			category = "backgrounds"
 			file = "triangle_split.dds"
 		}
-		colors={
+		colors = {
 			"red"
 			"dark_purple"
 			"null"
@@ -1050,6 +1050,326 @@ united_faustian_hives_hive_necroids_paragons = {
 		clothes = 0
 		trait = "leader_trait_principled"
 		leader_class = official
+	}
+}
+
+department_of_scootascience = {
+	name = "EMPIRE_DESIGN_department_of_scootascience"
+	adjective = "PRESCRIPTED_adjective_department_of_scootascience"
+	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
+
+	playable = has_not_shadows_of_the_shroud_and_nomads # Experimental Sentencing civic is from Shadows of the Shroud DLC. Flight Schools civic is from Nomads DLC.
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_department_of_scootascience"
+
+	species = {
+		class = "MAM"
+		portrait = "mtrspony_pony_its_all_scootaloo_group"
+		name = "PRESCRIPTED_species_scootaloo"
+		plural = "PRESCRIPTED_species_plural_scootaloo"
+		adjective = "PRESCRIPTED_species_adjective_scootaloo"
+		name_list = "mtrspony_namelists_scootaloo"
+		gender = female
+		trait = "trait_organic"
+		trait = "trait_clone_soldier_infertile"
+		trait = "trait_adaptive"
+		trait = "trait_cutie_marks"
+		trait = "trait_deviants"
+		trait = "trait_humanoid_jinxed"
+	}
+
+	room = "biogenesis_02_room"
+
+	authority = "auth_dictatorial"
+	civics = { "civic_distinguished_admiralty" "civic_technocracy" }
+	government = gov_totalitarian_regime
+	advisor_voice_type = "l_materialist"
+
+	ethic = "ethic_authoritarian"
+	ethic = "ethic_militarist"
+	ethic = "ethic_materialist"
+
+	origin = "origin_clone_army"
+
+	flag = empire_department_of_scootascience
+
+	planet_name = "NAME_Faust"
+	planet_class = "pc_continental"
+	initializer = "eaw_vanilla_initializer"
+	system_name = "NAME_Behemoth"
+
+	graphical_culture = mammalian_01
+	city_graphical_culture = mammalian_01
+
+	empire_flag = {
+		icon = {
+			category = "eaw_marks2"
+			file = "Scootaloo.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "flag_BG_49.dds"
+		}
+		colors = {
+			"orange"
+			"intense_pink"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_scootaloo_n1064"
+		ruler_title = "PRESCRIPTED_ruler_title_director"
+		ruler_title_female = "PRESCRIPTED_ruler_title_directoress"
+		gender = female
+		portrait = "mtrspony_pony_its_all_scootaloo"
+		texture = 0
+		attachment = 0
+		clothes = 1
+		trait = "trait_ruler_eye_for_talent"
+		leader_class = scientist
+	}
+}
+
+department_of_scootascience_shroud = {
+	name = "EMPIRE_DESIGN_department_of_scootascience"
+	adjective = "PRESCRIPTED_adjective_department_of_scootascience"
+	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
+
+	playable = has_shadows_of_the_shroud_but_not_nomads # Experimental Sentencing civic is from Shadows of the Shroud DLC. Flight Schools civic is from Nomads DLC.
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_department_of_scootascience"
+
+	species = {
+		class = "MAM"
+		portrait = "mtrspony_pony_its_all_scootaloo_group"
+		name = "PRESCRIPTED_species_scootaloo"
+		plural = "PRESCRIPTED_species_plural_scootaloo"
+		adjective = "PRESCRIPTED_species_adjective_scootaloo"
+		name_list = "mtrspony_namelists_scootaloo"
+		gender = female
+		trait = "trait_organic"
+		trait = "trait_clone_soldier_infertile"
+		trait = "trait_adaptive"
+		trait = "trait_cutie_marks"
+		trait = "trait_deviants"
+		trait = "trait_humanoid_jinxed"
+	}
+
+	room = "biogenesis_02_room"
+
+	authority = "auth_dictatorial"
+	civics = { "civic_distinguished_admiralty" "civic_twisted_experimenters" }
+	government = gov_totalitarian_regime
+	advisor_voice_type = "l_materialist"
+
+	ethic = "ethic_authoritarian"
+	ethic = "ethic_militarist"
+	ethic = "ethic_materialist"
+
+	origin = "origin_clone_army"
+
+	flag = empire_department_of_scootascience
+
+	planet_name = "NAME_Faust"
+	planet_class = "pc_continental"
+	initializer = "eaw_vanilla_initializer"
+	system_name = "NAME_Behemoth"
+
+	graphical_culture = mammalian_01
+	city_graphical_culture = mammalian_01
+
+	empire_flag = {
+		icon = {
+			category = "eaw_marks2"
+			file = "Scootaloo.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "flag_BG_49.dds"
+		}
+		colors = {
+			"orange"
+			"intense_pink"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_scootaloo_n1064"
+		ruler_title = "PRESCRIPTED_ruler_title_director"
+		ruler_title_female = "PRESCRIPTED_ruler_title_directoress"
+		gender = female
+		portrait = "mtrspony_pony_its_all_scootaloo"
+		texture = 0
+		attachment = 0
+		clothes = 1
+		trait = "trait_ruler_eye_for_talent"
+		leader_class = scientist
+	}
+}
+
+department_of_scootascience_nomads = {
+	name = "EMPIRE_DESIGN_department_of_scootascience"
+	adjective = "PRESCRIPTED_adjective_department_of_scootascience"
+	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
+
+	playable = has_nomads_but_not_shadows_of_the_shroud # Experimental Sentencing civic is from Shadows of the Shroud DLC. Flight Schools civic is from Nomads DLC.
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_department_of_scootascience"
+
+	species = {
+		class = "MAM"
+		portrait = "mtrspony_pony_its_all_scootaloo_group"
+		name = "PRESCRIPTED_species_scootaloo"
+		plural = "PRESCRIPTED_species_plural_scootaloo"
+		adjective = "PRESCRIPTED_species_adjective_scootaloo"
+		name_list = "mtrspony_namelists_scootaloo"
+		gender = female
+		trait = "trait_organic"
+		trait = "trait_clone_soldier_infertile"
+		trait = "trait_adaptive"
+		trait = "trait_cutie_marks"
+		trait = "trait_deviants"
+		trait = "trait_humanoid_jinxed"
+	}
+
+	room = "biogenesis_02_room"
+
+	authority = "auth_dictatorial"
+	civics = { "civic_flight_schools" "civic_technocracy" }
+	government = gov_totalitarian_regime
+	advisor_voice_type = "l_materialist"
+
+	ethic = "ethic_authoritarian"
+	ethic = "ethic_militarist"
+	ethic = "ethic_materialist"
+
+	origin = "origin_clone_army"
+
+	flag = empire_department_of_scootascience
+
+	planet_name = "NAME_Faust"
+	planet_class = "pc_continental"
+	initializer = "eaw_vanilla_initializer"
+	system_name = "NAME_Behemoth"
+
+	graphical_culture = mammalian_01
+	city_graphical_culture = mammalian_01
+
+	empire_flag = {
+		icon = {
+			category = "eaw_marks2"
+			file = "Scootaloo.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "flag_BG_49.dds"
+		}
+		colors = {
+			"orange"
+			"intense_pink"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_scootaloo_n1064"
+		ruler_title = "PRESCRIPTED_ruler_title_director"
+		ruler_title_female = "PRESCRIPTED_ruler_title_directoress"
+		gender = female
+		portrait = "mtrspony_pony_its_all_scootaloo"
+		texture = 0
+		attachment = 0
+		clothes = 1
+		trait = "trait_ruler_eye_for_talent"
+		leader_class = scientist
+	}
+}
+
+department_of_scootascience_shroud_nomads = {
+	name = "EMPIRE_DESIGN_department_of_scootascience"
+	adjective = "PRESCRIPTED_adjective_department_of_scootascience"
+	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
+
+	playable = has_shadows_of_the_shroud_and_nomads # Experimental Sentencing civic is from Shadows of the Shroud DLC. Flight Schools civic is from Nomads DLC.
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_department_of_scootascience"
+
+	species = {
+		class = "MAM"
+		portrait = "mtrspony_pony_its_all_scootaloo_group"
+		name = "PRESCRIPTED_species_scootaloo"
+		plural = "PRESCRIPTED_species_plural_scootaloo"
+		adjective = "PRESCRIPTED_species_adjective_scootaloo"
+		name_list = "mtrspony_namelists_scootaloo"
+		gender = female
+		trait = "trait_organic"
+		trait = "trait_clone_soldier_infertile"
+		trait = "trait_adaptive"
+		trait = "trait_cutie_marks"
+		trait = "trait_deviants"
+		trait = "trait_humanoid_jinxed"
+	}
+
+	room = "biogenesis_02_room"
+
+	authority = "auth_dictatorial"
+	civics = { "civic_flight_schools" "civic_twisted_experimenters" }
+	government = gov_totalitarian_regime
+	advisor_voice_type = "l_materialist"
+
+	ethic = "ethic_authoritarian"
+	ethic = "ethic_militarist"
+	ethic = "ethic_materialist"
+
+	origin = "origin_clone_army"
+
+	flag = empire_department_of_scootascience
+
+	planet_name = "NAME_Faust"
+	planet_class = "pc_continental"
+	initializer = "eaw_vanilla_initializer"
+	system_name = "NAME_Behemoth"
+
+	graphical_culture = mammalian_01
+	city_graphical_culture = mammalian_01
+
+	empire_flag = {
+		icon = {
+			category = "eaw_marks2"
+			file = "Scootaloo.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "flag_BG_49.dds"
+		}
+		colors = {
+			"orange"
+			"intense_pink"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_scootaloo_n1064"
+		ruler_title = "PRESCRIPTED_ruler_title_director"
+		ruler_title_female = "PRESCRIPTED_ruler_title_directoress"
+		gender = female
+		portrait = "mtrspony_pony_its_all_scootaloo"
+		texture = 0
+		attachment = 0
+		clothes = 1
+		trait = "trait_ruler_eye_for_talent"
+		leader_class = scientist
 	}
 }
 
@@ -1097,15 +1417,15 @@ griffonian_empire = {
 	city_graphical_culture = avian_01
 
 	empire_flag = {
-		icon= {
+		icon = {
 			category = "eqsatwargriffon2"
 			file = "GRI.dds"
 		}
-		background= {
+		background = {
 			category = "backgrounds"
 			file = "griffon.dds"
 		}
-		colors={
+		colors = {
 			"orange"
 			"ochre_brown"
 			"null"
@@ -1169,15 +1489,15 @@ faustian_technate = {
 	city_graphical_culture = mammalian_01
 
 	empire_flag = {
-		icon= {
+		icon = {
 			category = "eqsatwarzebra2"
 			file = "CTH_TEC.dds"
 		}
-		background= {
+		background = {
 			category = "backgrounds"
 			file = "colthage.dds"
 		}
-		colors={
+		colors = {
 			"blue"
 			"white"
 			"null"
@@ -1244,15 +1564,15 @@ jarldom_of_faust = {
 	city_graphical_culture = mammalian_01
 
 	empire_flag = {
-		icon= {
+		icon = {
 			category = "eqsatwarequus"
 			file = "DER_SUP.dds"
 		}
-		background= {
+		background = {
 			category = "backgrounds"
 			file = "circle_with_4_stripes_jf.dds"
 		}
-		colors={
+		colors = {
 			"blue"
 			"light_grey"
 			"null"
@@ -1319,15 +1639,15 @@ jarldom_of_faust_paragons = {
 	city_graphical_culture = mammalian_01
 
 	empire_flag = {
-		icon= {
+		icon = {
 			category = "eqsatwarequus"
 			file = "DER_SUP.dds"
 		}
-		background= {
+		background = {
 			category = "backgrounds"
 			file = "circle_with_4_stripes_jf.dds"
 		}
-		colors={
+		colors = {
 			"blue"
 			"light_grey"
 			"null"
@@ -1394,15 +1714,15 @@ jarldom_of_faust_grand_archive = {
 	city_graphical_culture = mammalian_01
 
 	empire_flag = {
-		icon= {
+		icon = {
 			category = "eqsatwarequus"
 			file = "DER_SUP.dds"
 		}
-		background= {
+		background = {
 			category = "backgrounds"
 			file = "circle_with_4_stripes_jf.dds"
 		}
-		colors={
+		colors = {
 			"blue"
 			"light_grey"
 			"null"
@@ -1469,15 +1789,15 @@ jarldom_of_faust_paragons_grand_archive = {
 	city_graphical_culture = mammalian_01
 
 	empire_flag = {
-		icon= {
+		icon = {
 			category = "eqsatwarequus"
 			file = "DER_SUP.dds"
 		}
-		background= {
+		background = {
 			category = "backgrounds"
 			file = "circle_with_4_stripes_jf.dds"
 		}
-		colors={
+		colors = {
 			"blue"
 			"light_grey"
 			"null"
@@ -1545,15 +1865,15 @@ changeling_space_program = {
 	city_graphical_culture = arthropoid_01
 
 	empire_flag = {
-		icon= {
+		icon = {
 			category = "eqsatwarequus"
 			file = "CHN_SUP_OLD_2.dds"
 		}
-		background= {
+		background = {
 			category = "backgrounds"
 			file = "gradient.dds"
 		}
-		colors={
+		colors = {
 			"moss_green"
 			"black"
 			"null"
@@ -1622,15 +1942,15 @@ changeling_space_program_federations = {
 	city_graphical_culture = arthropoid_01
 
 	empire_flag = {
-		icon= {
+		icon = {
 			category = "eqsatwarequus"
 			file = "CHN_SUP_OLD_2.dds"
 		}
-		background= {
+		background = {
 			category = "backgrounds"
 			file = "gradient.dds"
 		}
-		colors={
+		colors = {
 			"moss_green"
 			"black"
 			"null"
@@ -1698,15 +2018,15 @@ changeling_space_program_biogenesis = {
 	city_graphical_culture = arthropoid_01
 
 	empire_flag = {
-		icon= {
+		icon = {
 			category = "eqsatwarequus"
 			file = "CHN_SUP_OLD_2.dds"
 		}
-		background= {
+		background = {
 			category = "backgrounds"
 			file = "gradient.dds"
 		}
-		colors={
+		colors = {
 			"moss_green"
 			"black"
 			"null"
@@ -1775,15 +2095,15 @@ changeling_space_program_federations_biogenesis = {
 	city_graphical_culture = arthropoid_01
 
 	empire_flag = {
-		icon= {
+		icon = {
 			category = "eqsatwarequus"
 			file = "CHN_SUP_OLD_2.dds"
 		}
-		background= {
+		background = {
 			category = "backgrounds"
 			file = "gradient.dds"
 		}
-		colors={
+		colors = {
 			"moss_green"
 			"black"
 			"null"
@@ -1850,15 +2170,15 @@ revolutionary_faust = {
 	city_graphical_culture = avian_01
 
 	empire_flag = {
-		icon= {
+		icon = {
 			category = "eqsatwarzebra3"
 			file = "HIP_POS.dds"
 		}
-		background= {
+		background = {
 			category = "backgrounds"
 			file = "revolutionary_zebrica.dds"
 		}
-		colors={
+		colors = {
 			"indigo"
 			"white"
 			"null"
@@ -1925,15 +2245,15 @@ revolutionary_faust_megacorps = {
 	city_graphical_culture = avian_01
 
 	empire_flag = {
-		icon= {
+		icon = {
 			category = "eqsatwarzebra3"
 			file = "HIP_POS.dds"
 		}
-		background= {
+		background = {
 			category = "backgrounds"
 			file = "revolutionary_zebrica.dds"
 		}
-		colors={
+		colors = {
 			"indigo"
 			"white"
 			"null"
@@ -2000,15 +2320,15 @@ revolutionary_faust_first_contact = {
 	city_graphical_culture = avian_01
 
 	empire_flag = {
-		icon= {
+		icon = {
 			category = "eqsatwarzebra3"
 			file = "HIP_POS.dds"
 		}
-		background= {
+		background = {
 			category = "backgrounds"
 			file = "revolutionary_zebrica.dds"
 		}
-		colors={
+		colors = {
 			"indigo"
 			"white"
 			"null"
@@ -2075,15 +2395,15 @@ revolutionary_faust_megacorps_first_contact = {
 	city_graphical_culture = avian_01
 
 	empire_flag = {
-		icon= {
+		icon = {
 			category = "eqsatwarzebra3"
 			file = "HIP_POS.dds"
 		}
-		background= {
+		background = {
 			category = "backgrounds"
 			file = "revolutionary_zebrica.dds"
 		}
-		colors={
+		colors = {
 			"indigo"
 			"white"
 			"null"
@@ -2151,15 +2471,15 @@ faustian_conglomerate = {
 	city_graphical_culture = mammalian_01
 
 	empire_flag = {
-		icon= {
+		icon = {
 			category = "eqsatwarzebra4"
 			file = "KIR2.dds"
 		}
-		background= {
+		background = {
 			category = "backgrounds"
 			file = "kiria.dds"
 		}
-		colors={
+		colors = {
 			"red_orange"
 			"intense_blue"
 			"null"
@@ -2227,15 +2547,15 @@ faustian_conglomerate_megacorps = {
 	city_graphical_culture = mammalian_01
 
 	empire_flag = {
-		icon= {
+		icon = {
 			category = "eqsatwarzebra4"
 			file = "KIR2.dds"
 		}
-		background= {
+		background = {
 			category = "backgrounds"
 			file = "kiria.dds"
 		}
-		colors={
+		colors = {
 			"red_orange"
 			"intense_blue"
 			"null"
@@ -2303,15 +2623,15 @@ faustian_conglomerate_toxoids = {
 	city_graphical_culture = mammalian_01
 
 	empire_flag = {
-		icon= {
+		icon = {
 			category = "eqsatwarzebra4"
 			file = "KIR2.dds"
 		}
-		background= {
+		background = {
 			category = "backgrounds"
 			file = "kiria.dds"
 		}
-		colors={
+		colors = {
 			"red_orange"
 			"intense_blue"
 			"null"
@@ -2379,15 +2699,15 @@ faustian_conglomerate_megacorps_toxoids = {
 	city_graphical_culture = mammalian_01
 
 	empire_flag = {
-		icon= {
+		icon = {
 			category = "eqsatwarzebra4"
 			file = "KIR2.dds"
 		}
-		background= {
+		background = {
 			category = "backgrounds"
 			file = "kiria.dds"
 		}
-		colors={
+		colors = {
 			"red_orange"
 			"intense_blue"
 			"null"
@@ -2403,6 +2723,326 @@ faustian_conglomerate_megacorps_toxoids = {
 		portrait = "mtrspony_kirin_pumpkin_smoke_male"
 		texture = 13
 		attachment = 14
+		clothes = 0
+		trait = "leader_trait_principled"
+		leader_class = official
+	}
+}
+
+mangchijid_clan = {
+	name = "EMPIRE_DESIGN_mangchijid_clan"
+	adjective = "PRESCRIPTED_adjective_mangchijid_clan"
+	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
+
+	playable = has_not_paragon_and_nomads # Nomadic gameplay is from Nomads DLC. Heroic Past civic is from Galactic Paragons DLC.
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_mangchijid_clan"
+
+	species = {
+		class = "MAM"
+		portrait = "mtrspony_yak"
+		name = "PRESCRIPTED_species_yak"
+		plural = "PRESCRIPTED_species_plural_yak"
+		adjective = "PRESCRIPTED_species_adjective_yak"
+		name_list = "mtrspony_namelists_yak"
+		trait = "trait_organic"
+		trait = "trait_traditional"
+		trait = "trait_strong"
+		trait = "trait_nomadic"
+		trait = "trait_slow_learners"
+	}
+
+	room = "personality_honorbound_warriors_room"
+
+	authority = "auth_imperial"
+	civics = { "civic_distinguished_admiralty" "civic_philosopher_king" }
+	government = gov_enlightened_monarchy
+
+	ethic = "ethic_authoritarian"
+	ethic = "ethic_xenophile"
+	ethic = "ethic_militarist"
+
+	origin = "origin_lost_colony"
+
+	flag = empire_mangchijid_clan_non_nomad
+
+	planet_name = "NAME_New_Yakistown"
+	planet_class = "pc_continental"
+	initializer = "deneb_system"
+	system_name = "NAME_Deneb"
+
+	graphical_culture = mammalian_01
+	city_graphical_culture = mammalian_01
+
+	empire_flag = {
+		icon = {
+			category = "eqsatwareqyakclans"
+			file = "MNG.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "horizontal_stripe_thicker.dds"
+		}
+		colors = {
+			"light_blue"
+			"brown"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_rutherford"
+		ruler_title = "PRESCRIPTED_ruler_title_khan"
+		ruler_title_female = "PRESCRIPTED_ruler_title_khatun"
+		heir_title = "PRESCRIPTED_ruler_title_khanzadeh"
+		heir_title_female = "PRESCRIPTED_ruler_title_khanzadeh"
+		gender = male
+		portrait = "mtrspony_yak_rutherford"
+		texture = 0
+		attachment = 0
+		clothes = 0
+		trait = "leader_trait_principled"
+		leader_class = official
+	}
+}
+
+mangchijid_clan_paragons = {
+	name = "EMPIRE_DESIGN_mangchijid_clan"
+	adjective = "PRESCRIPTED_adjective_mangchijid_clan"
+	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
+
+	playable = has_paragon_but_not_nomads # Nomadic gameplay is from Nomads DLC. Heroic Past civic is from Galactic Paragons DLC.
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_mangchijid_clan"
+
+	species = {
+		class = "MAM"
+		portrait = "mtrspony_yak"
+		name = "PRESCRIPTED_species_yak"
+		plural = "PRESCRIPTED_species_plural_yak"
+		adjective = "PRESCRIPTED_species_adjective_yak"
+		name_list = "mtrspony_namelists_yak"
+		trait = "trait_organic"
+		trait = "trait_traditional"
+		trait = "trait_strong"
+		trait = "trait_nomadic"
+		trait = "trait_slow_learners"
+	}
+
+	room = "personality_honorbound_warriors_room"
+
+	authority = "auth_imperial"
+	civics = { "civic_heroic_tales" "civic_philosopher_king" }
+	government = gov_enlightened_monarchy
+
+	ethic = "ethic_authoritarian"
+	ethic = "ethic_xenophile"
+	ethic = "ethic_militarist"
+
+	origin = "origin_lost_colony"
+
+	flag = empire_mangchijid_clan_non_nomad
+
+	planet_name = "NAME_New_Yakistown"
+	planet_class = "pc_continental"
+	initializer = "deneb_system"
+	system_name = "NAME_Deneb"
+
+	graphical_culture = mammalian_01
+	city_graphical_culture = mammalian_01
+
+	empire_flag = {
+		icon = {
+			category = "eqsatwareqyakclans"
+			file = "MNG.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "horizontal_stripe_thicker.dds"
+		}
+		colors = {
+			"light_blue"
+			"brown"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_rutherford"
+		ruler_title = "PRESCRIPTED_ruler_title_khan"
+		ruler_title_female = "PRESCRIPTED_ruler_title_khatun"
+		heir_title = "PRESCRIPTED_ruler_title_khanzadeh"
+		heir_title_female = "PRESCRIPTED_ruler_title_khanzadeh"
+		gender = male
+		portrait = "mtrspony_yak_rutherford"
+		texture = 0
+		attachment = 0
+		clothes = 0
+		trait = "leader_trait_principled"
+		leader_class = official
+	}
+}
+
+mangchijid_clan_nomads = {
+	name = "EMPIRE_DESIGN_mangchijid_clan"
+	adjective = "PRESCRIPTED_adjective_mangchijid_clan"
+	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
+
+	playable = has_nomads_but_not_paragon # Nomadic gameplay is from Nomads DLC. Heroic Past civic is from Galactic Paragons DLC.
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_mangchijid_clan"
+
+	species = {
+		class = "MAM"
+		portrait = "mtrspony_yak"
+		name = "PRESCRIPTED_species_yak"
+		plural = "PRESCRIPTED_species_plural_yak"
+		adjective = "PRESCRIPTED_species_adjective_yak"
+		name_list = "mtrspony_namelists_yak"
+		trait = "trait_organic"
+		trait = "trait_traditional"
+		trait = "trait_strong"
+		trait = "trait_nomadic"
+		trait = "trait_slow_learners"
+	}
+
+	is_nomadic = yes
+	room = "personality_honorbound_warriors_room"
+
+	authority = "auth_imperial"
+	civics = { "civic_distinguished_admiralty" "civic_philosopher_king" }
+	government = gov_enlightened_monarchy
+
+	ethic = "ethic_authoritarian"
+	ethic = "ethic_xenophile"
+	ethic = "ethic_militarist"
+
+	origin = "origin_heirs_of_the_khan"
+
+	flag = empire_mangchijid_clan
+
+	planet_name = "YAK_SHIP_yakistown"
+	planet_class = "pc_ark"
+	ship_size = "military_arkship_tier_1"
+	initializer = "protoplanetary_nomad_init"
+	system_name = "NAME_Behemoth"
+
+	graphical_culture = mammalian_01
+	city_graphical_culture = mammalian_01
+
+	empire_flag = {
+		icon = {
+			category = "eqsatwareqyakclans"
+			file = "MNG.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "horizontal_stripe_thicker.dds"
+		}
+		colors = {
+			"light_blue"
+			"brown"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_rutherford"
+		ruler_title = "PRESCRIPTED_ruler_title_khan"
+		ruler_title_female = "PRESCRIPTED_ruler_title_khatun"
+		heir_title = "PRESCRIPTED_ruler_title_khanzadeh"
+		heir_title_female = "PRESCRIPTED_ruler_title_khanzadeh"
+		gender = male
+		portrait = "mtrspony_yak_rutherford"
+		texture = 0
+		attachment = 0
+		clothes = 0
+		trait = "leader_trait_principled"
+		leader_class = official
+	}
+}
+
+mangchijid_clan_paragons_nomads = {
+	name = "EMPIRE_DESIGN_mangchijid_clan"
+	adjective = "PRESCRIPTED_adjective_mangchijid_clan"
+	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
+
+	playable = has_paragon_and_nomads # Nomadic gameplay is from Nomads DLC. Heroic Past civic is from Galactic Paragons DLC.
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_mangchijid_clan"
+
+	species = {
+		class = "MAM"
+		portrait = "mtrspony_yak"
+		name = "PRESCRIPTED_species_yak"
+		plural = "PRESCRIPTED_species_plural_yak"
+		adjective = "PRESCRIPTED_species_adjective_yak"
+		name_list = "mtrspony_namelists_yak"
+		trait = "trait_organic"
+		trait = "trait_traditional"
+		trait = "trait_strong"
+		trait = "trait_nomadic"
+		trait = "trait_slow_learners"
+	}
+
+	is_nomadic = yes
+	room = "personality_honorbound_warriors_room"
+
+	authority = "auth_imperial"
+	civics = { "civic_heroic_tales" "civic_philosopher_king" }
+	government = gov_enlightened_monarchy
+
+	ethic = "ethic_authoritarian"
+	ethic = "ethic_xenophile"
+	ethic = "ethic_militarist"
+
+	origin = "origin_heirs_of_the_khan"
+
+	flag = empire_mangchijid_clan
+
+	planet_name = "YAK_SHIP_yakistown"
+	planet_class = "pc_ark"
+	ship_size = "military_arkship_tier_1"
+	initializer = "protoplanetary_nomad_init"
+	system_name = "NAME_Behemoth"
+
+	graphical_culture = mammalian_01
+	city_graphical_culture = mammalian_01
+
+	empire_flag = {
+		icon = {
+			category = "eqsatwareqyakclans"
+			file = "MNG.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "horizontal_stripe_thicker.dds"
+		}
+		colors = {
+			"light_blue"
+			"brown"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_rutherford"
+		ruler_title = "PRESCRIPTED_ruler_title_khan"
+		ruler_title_female = "PRESCRIPTED_ruler_title_khatun"
+		heir_title = "PRESCRIPTED_ruler_title_khanzadeh"
+		heir_title_female = "PRESCRIPTED_ruler_title_khanzadeh"
+		gender = male
+		portrait = "mtrspony_yak_rutherford"
+		texture = 0
+		attachment = 0
 		clothes = 0
 		trait = "leader_trait_principled"
 		leader_class = official
@@ -2456,15 +3096,15 @@ new_draconian_empire = {
 	city_graphical_culture = reptilian_01
 
 	empire_flag = {
-		icon= {
+		icon = {
 			category = "eqsatwarzebra3"
 			file = "IDT.dds"
 		}
-		background= {
+		background = {
 			category = "backgrounds"
 			file = "00_solid.dds"
 		}
-		colors={
+		colors = {
 			"sky_blue"
 			"sky_blue"
 			"null"
@@ -2534,15 +3174,15 @@ new_draconian_empire_apocalypse = {
 	city_graphical_culture = reptilian_01
 
 	empire_flag = {
-		icon= {
+		icon = {
 			category = "eqsatwarzebra3"
 			file = "IDT.dds"
 		}
-		background= {
+		background = {
 			category = "backgrounds"
 			file = "00_solid.dds"
 		}
-		colors={
+		colors = {
 			"sky_blue"
 			"sky_blue"
 			"null"

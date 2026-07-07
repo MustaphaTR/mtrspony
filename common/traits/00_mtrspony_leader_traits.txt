@@ -60,17 +60,18 @@ leader_trait_cutie_mark_scootaloo = {
 	inline_script = {
 		script = trait/icon_cutie_mark
 		ICON = "GFX_leader_trait_cutie_mark_scootaloo"
-		COUNCIL = yes
+		COUNCIL = triggered
 		TIER = none
 	}
 	councilor_modifier = {
 		species_leader_exp_gain = 0.025
 	}
-	modifier = {
+	triggered_modifier = {
+		potential = { NOT = { leader_class = official } }
 		ship_speed_mult = 0.1
 		ship_evasion_mult = 0.1
 	}
-	leader_class = { commander }
+	leader_class = { commander scientist official }
 	selectable_weight = 0
 	randomized = no
 }

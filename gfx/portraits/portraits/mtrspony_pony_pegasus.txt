@@ -352,6 +352,28 @@ portraits = {
 
 		custom_attachment_label = "HAIR_COLOR"
 	}
+
+	mtrspony_pony_its_all_scootaloo = {
+		entity = "portrait_dummy_scootaloo_pegasus_entity"
+		clothes_selector = "mtrspony_pony_pegasus_scootaloo_clothes_selector"
+		attachment_selector = "mtrspony_pony_pegasus_scootaloo_predefined_hair_selector"
+		greeting_sound = "human_female_greetings_01"
+
+		character_textures = {
+			"gfx/models/portraits/pony_pegasus/scootaloo/scootaloo.dds"
+		}
+	}
+
+	mtrspony_pony_its_all_scootaloo_n1064_predefined = {
+		entity = "portrait_dummy_scootaloo_pegasus_entity"
+		clothes_selector = "mtrspony_pony_pegasus_scootaloo_n1064_predefined_clothes_selector"
+		attachment_selector = "mtrspony_pony_pegasus_scootaloo_predefined_hair_selector"
+		greeting_sound = "human_female_greetings_01"
+
+		character_textures = {
+			"gfx/models/portraits/pony_pegasus/scootaloo/scootaloo.dds"
+		}
+	}
 }
 
 portrait_groups = {
@@ -484,6 +506,41 @@ portrait_groups = {
 					mtrspony_pony_pegasus_cozy_glow_older
 					mtrspony_pony_pegasus_scootaloo
 					mtrspony_pony_pegasus_apple_bloom
+				}
+			}
+		}
+	}
+
+	mtrspony_pony_its_all_scootaloo_group = {
+		default = mtrspony_pony_its_all_scootaloo
+		game_setup = {
+			add = {
+				portraits = {
+					mtrspony_pony_its_all_scootaloo
+				}
+			}
+		}
+
+		species = {
+			add = {
+				portraits = {
+					mtrspony_pony_its_all_scootaloo
+				}
+			}
+		}
+
+		pop = {
+			add = {
+				portraits = {
+					mtrspony_pony_its_all_scootaloo
+				}
+			}
+		}
+
+		leader = {
+			add = {
+				portraits = {
+					mtrspony_pony_its_all_scootaloo
 				}
 			}
 		}

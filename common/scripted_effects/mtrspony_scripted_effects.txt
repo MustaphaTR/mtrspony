@@ -2392,7 +2392,12 @@ add_named_leader_cutie_mark_traits = {
 		add_trait = leader_trait_cutie_mark_apple_bloom
 	}
 	else_if = {
-		limit = { has_leader_flag = leader_scootaloo }
+		limit = {
+			OR = {
+				species = { has_species_flag = is_scootaloo_species }
+				has_leader_flag = leader_scootaloo
+			}
+		}
 		add_trait = leader_trait_cutie_mark_scootaloo
 	}
 	else_if = {

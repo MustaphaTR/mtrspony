@@ -36,6 +36,9 @@
  PRESCRIPTED_species_yeti:0 "Yeti"
  PRESCRIPTED_species_plural_yeti:0 "Yeti"
  PRESCRIPTED_species_adjective_yeti:0 "Yeti"
+ PRESCRIPTED_species_scootaloo:0 "Scootaloo"
+ PRESCRIPTED_species_plural_scootaloo:0 "Scootaloos"
+ PRESCRIPTED_species_adjective_scootaloo:0 "Scootaloo"
 
  # Convocation of Creatures
  EMPIRE_DESIGN_convocation_of_creatures:0 "Zwołanie Stworzeń"
@@ -206,6 +209,16 @@
  PRESCRIPTED_ruler_name_flurry_heart_desc:0 "<insert_desc_here>"
  PRESCRIPTED_ruler_name_flurry_heart_catch_phrase:0 "§L""§!"
 
+ # Department of Scootascience
+ EMPIRE_DESIGN_department_of_scootascience:0 "Wydział Scootanauki"
+ # EMPIRE_DESIGN_department_of_scootascience_desc:0 ""
+ PRESCRIPTED_adjective_department_of_scootascience:0 "Scootaloo"
+ PRESCRIPTED_ship_prefix_department_of_scootascience:0 "SS"
+
+ PRESCRIPTED_ruler_name_scootaloo_n1064:0 "$PRESCRIPTED_ruler_name_scootaloo$ #1064"
+ PRESCRIPTED_ruler_name_scootaloo_n1064_desc:0 "<insert_desc_here>"
+ PRESCRIPTED_ruler_name_scootaloo_n1064_catch_phrase:0 "§L""§!"
+
  # Griffonian Empire
  EMPIRE_DESIGN_griffonian_empire:0 "Imperium Gryfonów"
  # EMPIRE_DESIGN_griffonian_empire_desc:0 ""
@@ -315,6 +328,33 @@
  PRESCRIPTED_ruler_name_fickle_current:0 "Fickle Voltage"
  PRESCRIPTED_ruler_name_fickle_current_desc:0 "<insert_desc_here>"
  PRESCRIPTED_ruler_name_fickle_current_catch_phrase:0 "§L""§!"
+
+ # Mangchijid Clan 
+ EMPIRE_DESIGN_mangchijid_clan:0 "Klan Mangchijid"
+ #EMPIRE_DESIGN_mangchijid_clan_desc:0 ""
+ PRESCRIPTED_adjective_mangchijid_clan:0 "Mangchijid"
+ PRESCRIPTED_ruler_title_khan:0 "Chan"
+ PRESCRIPTED_ruler_title_khatun:0 "Chatun"
+ PRESCRIPTED_ruler_title_khanzadeh:0 "Chanzadeh"
+ PRESCRIPTED_ship_prefix_mangchijid_clan:0 "MCS"
+
+ PRESCRIPTED_ruler_name_rutherford:0 "Rutherford"
+ PRESCRIPTED_ruler_name_rutherford_desc:0 "<insert_desc_here>"
+ PRESCRIPTED_ruler_name_rutherford_catch_phrase:0 "§L""§!"
+
+ PRESCRIPTED_ruler_name_yona_mc:0 "$PRESCRIPTED_ruler_name_yona$"
+ PRESCRIPTED_ruler_name_yona_mc_desc:0 "<insert_desc_here>"
+ PRESCRIPTED_ruler_name_yona_mc_catch_phrase:0 "§L""§!"
+ 
+ EMPIRE_DESIGN_jakichikh_clan:0 "Klan Jakichikh"
+ #EMPIRE_DESIGN_jakichikh_clan_desc:0 ""
+ PRESCRIPTED_adjective_jakichikh_clan:0 "Jakichikh"
+ PRESCRIPTED_ship_prefix_jakichikh_clan:0 "JCS"
+ 
+ EMPIRE_DESIGN_ghenikhan_clan:0 "Klan Ghenikhan"
+ #EMPIRE_DESIGN_ghenikhan_clan_desc:0 ""
+ PRESCRIPTED_adjective_ghenikhan_clan:0 "Ghenikhan"
+ PRESCRIPTED_ship_prefix_ghenikhan_clan:0 "GCS"
 
  # Empire of Frost
  EMPIRE_DESIGN_new_draconian_empire:0 "Imperium Mrozu"

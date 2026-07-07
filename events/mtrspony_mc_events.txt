@@ -1,0 +1,192 @@
+namespace = mcstart
+
+#Setup Mangchijid Clan
+country_event = {
+	id = mcstart.1
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		has_country_flag = mangchijid_clan
+	}
+	immediate = {
+		create_leader = {
+			name = "PRESCRIPTED_ruler_name_rutherford"
+			custom_description = "PRESCRIPTED_ruler_name_rutherford_desc"
+			species = ROOT.species
+			gender = male
+			class = official
+			skill = 1
+			set_age = 59
+			background_job = noble
+			background_ethic = ethic_militarist
+			skip_background_generation = yes
+			randomize_traits = no
+			traits = {
+				1 = leader_trait_principled
+			}
+
+			effect = {
+				save_global_event_target_as = leader_rutherford
+				set_leader_flag = leader_rutherford
+				set_leader_flag = is_created_leader
+				change_leader_portrait = "mtrspony_yak_rutherford_predefined"
+				ROOT = {
+					leader = {
+						kill_leader = {
+							show_notification = no
+							fire = yes
+						}
+					}
+					assign_leader = event_target:leader_rutherford
+				}
+			}
+		}
+
+		create_leader = {
+			name = "PRESCRIPTED_ruler_name_yona_mc"
+			custom_description = "PRESCRIPTED_ruler_name_yona_mc_desc"
+			species = ROOT.species
+			gender = female
+			class = commander
+			skill = 1
+			set_age = 26
+			background_job = friendship_student
+			background_ethic = ethic_xenophile
+			skip_background_generation = yes
+			randomize_traits = no
+			traits = {
+				1 = leader_trait_heavy_hitter
+
+				trait = leader_trait_disorganized
+			}
+
+			effect = {
+				save_global_event_target_as = leader_yona
+				set_leader_flag = leader_yona
+				set_leader_flag = is_created_leader
+				change_leader_portrait = "mtrspony_yak_yona_predefined"
+				
+				ROOT = {
+					if = {
+						limit = { is_nomadic = yes }
+
+						PREV = { set_council_position = councilor_defense_nomadic }
+						random_owned_fleet = {
+							limit = { is_ship_class = shipclass_starbase }
+
+							leader = {
+								kill_leader = {
+									show_notification = no
+									fire = yes
+								}
+							}
+							assign_leader = PREVPREV
+						}
+					}
+					else = {
+						PREV = { set_council_position = councilor_defense }
+						random_owned_fleet = {
+							limit = { is_ship_class = shipclass_military }
+
+							leader = {
+								kill_leader = {
+									show_notification = no
+									fire = yes
+								}
+							}
+							assign_leader = PREVPREV
+						}
+					}
+				}
+			}
+		}
+
+		save_current_mtrspony_species = yes
+		if = {
+			limit = { is_nomadic = yes }
+
+			event_target:marauder_heir = {
+				set_empire_name = EMPIRE_DESIGN_jakichikh_clan
+				change_species = event_target:yak_species@ROOT
+				set_country_flag = jakichikh_clan
+				change_country_flag = {
+					icon = {
+						category = "eqsatwareqyakclans"
+						file = "JAK.dds"
+					}
+					background = {
+						category = "backgrounds"
+						file = "diamond.dds"
+					}
+					colors = { "black" "dark_grey" "null" "null" }
+				}
+			}
+		}
+		else = {
+			random_planet_within_border = {
+				limit = {
+					is_planet_class = pc_frozen
+					planet_size = 5
+				}
+
+				set_name = "NAME_New_Selena"
+			}
+			random_planet_within_border = {
+				limit = {
+					is_planet_class = pc_frozen
+					planet_size = 8
+				}
+
+				set_name = "NAME_Eos"
+			}
+			random_planet_within_border = {
+				limit = {
+					is_planet_class = pc_frozen
+					planet_size = 20
+				}
+
+				set_name = "NAME_Yacks_Planet"
+			}
+		}
+
+		country_event = { id = mcstart.1001 days = 1 }
+	}
+}
+
+# Properly set the background job and ethics.
+country_event = {
+	id = mcstart.1001
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		event_target:leader_rutherford = {
+			change_background_job = noble
+			change_background_ethic = ethic_militarist
+		}
+		event_target:leader_yona = {
+			change_background_job = friendship_student
+			change_background_ethic = ethic_xenophile
+		}
+	}
+}
+
+# Reapply named character potraits, they seem to reset after loading a save or when species got modified.
+country_event = {
+	id = mcstart.2
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		has_country_flag = mangchijid_clan
+	}
+	immediate = {
+		event_target:leader_rutherford = {
+			change_leader_portrait = "mtrspony_yak_rutherford_predefined"
+		}
+		event_target:leader_yona = {
+			change_leader_portrait = "mtrspony_yak_yona_predefined"
+		}
+	}
+}

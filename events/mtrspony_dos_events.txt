@@ -1,0 +1,118 @@
+namespace = dosstart
+
+#Setup Department of Scootascience
+country_event = {
+	id = dosstart.1
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		has_country_flag = department_of_scootascience
+	}
+	immediate = {
+		#create_leader = {
+		#	name = "PRESCRIPTED_ruler_name_scootaloo_n1064"
+		#	custom_description = "PRESCRIPTED_ruler_name_scootaloo_n1064_desc"
+		#	species = ROOT.species
+		#	gender = female
+		#	class = commander
+		#	skill = 1
+		#	set_age = 18
+		#	background_job = commanding_officer
+		#	background_ethic = ethic_militarist
+		#	skip_background_generation = yes
+		#	randomize_traits = no
+		#	traits = {
+		#		1 = trait_ruler_eye_for_talent
+		#
+		#		trait = leader_trait_cutie_mark_scootaloo
+		#	}
+		#
+		#	effect = {
+		#		save_global_event_target_as = leader_scootaloo_1064
+		#		set_leader_flag = leader_scootaloo_1064
+		#		set_leader_flag = is_created_leader
+		#		change_leader_portrait = "mtrspony_pony_its_all_scootaloo_n1064_predefined"
+		#		ROOT = {
+		#			leader = {
+		#				kill_leader = {
+		#					show_notification = no
+		#					fire = yes
+		#				}
+		#			}
+		#			assign_leader = event_target:leader_scootaloo_1064
+		#		}
+		#	}
+		#}
+
+		species = {
+			set_species_flag = is_scootaloo_species
+		}
+		every_owned_leader = {
+			remove_cutie_mark_traits = yes
+			add_trait = {
+				trait = leader_trait_cutie_mark_scootaloo
+				show_message = no
+			}
+		}
+		refresh_leader_pool = yes
+
+		#country_event = { id = dosstart.1001 days = 1 }
+	}
+}
+
+# Properly set the background job and ethics.
+country_event = {
+	id = dosstart.1001
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		event_target:leader_scootaloo_1064 = {
+			change_background_job = commanding_officer
+			change_background_ethic = ethic_militarist
+		}
+	}
+}
+
+# Reapply named character potraits, they seem to reset after loading a save or when species got modified.
+country_event = {
+	id = dosstart.2
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		has_country_flag = department_of_scootascience
+	}
+	immediate = {
+		event_target:leader_scootaloo_1064 = {
+			change_leader_portrait = "mtrspony_pony_its_all_scootaloo_n1064_predefined"
+		}
+	}
+}
+
+# Every Scootaloo gets the Scootaloo Cutie Mark.
+country_event = {
+	id = dosstart.3
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		has_country_flag = department_of_scootascience
+		from = {
+			species = {
+				has_species_flag = is_scootaloo_species
+				has_trait = trait_cutie_marks
+			}
+		}
+	}
+	immediate = {
+		from = {
+			remove_cutie_mark_traits = yes
+			add_trait = {
+				trait = leader_trait_cutie_mark_scootaloo
+				show_message = no
+			}
+		}
+	}
+}

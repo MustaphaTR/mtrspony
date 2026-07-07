@@ -149,6 +149,58 @@ has_not_paragon_and_grand_archive = {
 	}
 }
 
+has_paragon_and_nomads = {
+	optimize_memory
+	host_has_dlc = "Galactic Paragons"
+	host_has_dlc = "Nomads"
+}
+
+has_paragon_but_not_nomads = {
+	optimize_memory
+	host_has_dlc = "Galactic Paragons"
+	NOT = { host_has_dlc = "Nomads" }
+}
+
+has_nomads_but_not_paragon = {
+	optimize_memory
+	NOT = { host_has_dlc = "Galactic Paragons" }
+	host_has_dlc = "Nomads"
+}
+
+has_not_paragon_and_nomads = {
+	optimize_memory
+	NOT = {
+		host_has_dlc = "Galactic Paragons"
+		host_has_dlc = "Nomads"
+	}
+}
+
+has_shadows_of_the_shroud_and_nomads = {
+	optimize_memory
+	host_has_dlc = "Shadows of the Shroud"
+	host_has_dlc = "Nomads"
+}
+
+has_shadows_of_the_shroud_but_not_nomads = {
+	optimize_memory
+	host_has_dlc = "Shadows of the Shroud"
+	NOT = { host_has_dlc = "Nomads" }
+}
+
+has_nomads_but_not_shadows_of_the_shroud = {
+	optimize_memory
+	NOT = { host_has_dlc = "Shadows of the Shroud" }
+	host_has_dlc = "Nomads"
+}
+
+has_not_shadows_of_the_shroud_and_nomads = {
+	optimize_memory
+	NOT = {
+		host_has_dlc = "Shadows of the Shroud"
+		host_has_dlc = "Nomads"
+	}
+}
+
 # Portrait Checks
 pop_has_miltary_job = {
 	always = no # It is not possible to check for this properly anymore.
@@ -240,12 +292,16 @@ is_mtrspony_prescripted_country = {
 		has_country_flag = united_allied_nations
 		has_country_flag = holy_pony_empire
 		has_country_flag = united_faustian_hives
+		has_country_flag = department_of_scootascience
 		has_country_flag = griffonian_empire
 		has_country_flag = faustian_technate
 		has_country_flag = jarldom_of_faust
 		has_country_flag = changeling_space_program
 		has_country_flag = revolutionary_faust
 		has_country_flag = faustian_conglomerate
+		has_country_flag = mangchijid_clan
+		has_country_flag = jakichikh_clan
+		has_country_flag = ghenikhan_clan
 		has_country_flag = new_draconian_empire
 	}
 }

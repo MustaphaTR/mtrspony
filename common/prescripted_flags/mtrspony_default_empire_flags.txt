@@ -18,6 +18,10 @@ empire_united_faustian_hives = {
 	flags = { united_faustian_hives }
 }
 
+empire_department_of_scootascience = {
+	flags = { department_of_scootascience }
+}
+
 empire_griffonian_empire = {
 	flags = { griffonian_empire }
 }
@@ -40,6 +44,14 @@ empire_revolutionary_faust = {
 
 empire_faustian_conglomerate = {
 	flags = { faustian_conglomerate }
+}
+
+empire_mangchijid_clan = {
+	flags = { mangchijid_clan }
+}
+
+empire_mangchijid_clan_non_nomad = {
+	flags = { mangchijid_clan mangchijid_clan_non_nomad }
 }
 
 empire_new_draconian_empire = {

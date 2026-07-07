@@ -542,6 +542,381 @@ ns_eaw_vanilla_initializer = {
 	}
 }
 
+#Behemoth, Mangchijid Clan - Non-Nomad version.
+mc_eaw_vanilla_initializer = {
+	name = "NAME_Behemoth"
+	class = "sc_t"
+
+	flags = { eaw_system empire_home_system lost_colony_home_system }
+
+	asteroid_belt = {
+		type = crystal_asteroid_belt
+		radius = 45
+	}
+
+	usage = misc_system_init
+
+	usage_odds = {
+		base = 0
+		modifier = {
+			any_playable_country = {
+				has_origin = origin_lost_colony
+				has_country_flag = mangchijid_clan_non_nomad
+				NOT = { has_country_flag = parent_system_spawned }
+			}
+			NOT = { any_system = { has_star_flag = eaw_system } }
+			is_fe_cluster = no
+			is_marauder_cluster = no
+
+			add = 999999
+		}
+	}
+
+	max_instances = 1
+
+	init_effect = {
+		set_global_flag = giga_eaw_disabled
+
+		every_neighbor_system = {
+			set_star_flag = empire_cluster
+			every_neighbor_system = {
+				set_star_flag = empire_cluster
+			}
+		}
+	}
+
+	planet = {
+		name = "NAME_Behemoth"
+		class = "pc_t_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 35
+		has_ring = no
+	}
+
+	planet = {
+		class = "pc_rare_crystal_asteroid"
+		orbit_distance = 45
+		orbit_angle = 1
+		size = 2
+		has_ring = no
+	}
+
+	planet = {
+		class = "pc_rare_crystal_asteroid"
+		orbit_distance = 0
+		orbit_angle = 98
+		size = 2
+		has_ring = no
+	}
+	
+	planet = {
+		class = "pc_rare_crystal_asteroid"
+		orbit_distance = 0
+		orbit_angle = 115
+		size = 2
+		has_ring = no
+	}
+
+	planet = {
+		class = "pc_continental"
+		orbit_distance = 30
+		orbit_angle = 240
+		size = 18
+		has_ring = no
+		entity = "mtrspony_faust_planet_entity"
+		modifiers = none
+		flags = { lost_colony_homeworld planet_faust }
+
+		init_effect = {
+			prevent_anomaly = yes
+			random_country = {
+				limit = { has_country_flag = mangchijid_clan_non_nomad }
+				set_country_flag = parent_system_spawned
+				save_event_target_as = mangchijid_clan
+				owner_species = {
+					save_event_target_as = yak_species
+					set_species_homeworld = prevprev
+				}
+			}
+
+			random_list = {
+				50 = {
+					create_country = {
+						name = "EMPIRE_DESIGN_ghenikhan_clan"
+						adjective = "PRESCRIPTED_adjective_ghenikhan_clan"
+						authority = auth_democratic
+						civics = {
+							civic = civic_shared_burden
+							civic = civic_distinguished_admiralty
+						}
+						species = event_target:yak_species
+						name_list = "mtrspony_namelists_yak"
+						ship_prefix = "PRESCRIPTED_ship_prefix_ghenikhan_clan"
+						ethos = {
+							ethic = "ethic_fanatic_egalitarian"
+							ethic = "ethic_militarist"
+						}
+						flag = {
+							icon = {
+								category = "eqsatwareqyakclans"
+								file = "GHE.dds"
+							}
+							background = {
+								category = "backgrounds"
+								file = "red_sun_yak_army.dds"
+							}
+							colors = {
+								"red_orange"
+								"yellow"
+								"null"
+								"null"
+							}
+						}
+						type = default
+						origin = "origin_default"
+						effect = {
+							save_event_target_as = ghenikhan_clan
+							save_event_target_as = lost_colony_parent
+							add_resource = {
+								minerals = 2400
+								energy = 2400
+								food = 2400
+								alloys = 800
+								consumer_goods = 1200
+								influence = 600
+							}
+						}
+					}
+
+					create_colony = {
+						owner = event_target:ghenikhan_clan
+					}
+					set_planet_size = 18
+					generate_faust_deposits_and_blockers = yes
+					clear_blockers = yes
+					generate_start_buildings_and_districts = yes
+					generate_start_pops = yes
+					generate_lost_colony_parent_bonus = yes
+					event_target:ghenikhan_clan = {
+						set_country_flag = ghenikhan_clan
+						set_country_flag = lost_colony_parent
+						set_country_flag = special_intro_for@event_target:mangchijid_clan
+						set_country_flag = lost_colony_parent_of@event_target:mangchijid_clan
+
+						country_event = { id = game_start.9 }
+						country_event = { id = game_start.33 days = 1 } # needs delay for system ownership to settle
+
+						# country_event = { id = gcstart.1 }
+					}
+				}
+				50 = {
+					create_country = {
+						name = "EMPIRE_DESIGN_jakichikh_clan"
+						adjective = "PRESCRIPTED_adjective_jakichikh_clan"
+						authority = auth_imperial
+						civics = {
+							civic = civic_agrarian_idyll
+							civic = civic_heroic_tales
+						}
+						species = event_target:yak_species
+						name_list = "mtrspony_namelists_yak"
+						ship_prefix = "PRESCRIPTED_ship_prefix_holy_pony_empire"
+						ethos = {
+							ethic = "ethic_authoritarian"
+							ethic = "ethic_pacifist"
+							ethic = "ethic_spiritualist"
+						}
+						flag = {
+							icon = {
+								category = "eqsatwareqyakclans"
+								file = "JAK.dds"
+							}
+							background = {
+								category = "backgrounds"
+								file = "diamond.dds"
+							}
+							colors = {
+								"black"
+								"dark_grey"
+								"null"
+								"null"
+							}
+						}
+						type = default
+						origin = "origin_default"
+						effect = {
+							save_event_target_as = jakichikh_clan
+							save_event_target_as = lost_colony_parent
+							add_resource = {
+								minerals = 2400
+								energy = 2400
+								food = 2400
+								alloys = 800
+								consumer_goods = 1200
+								influence = 600
+							}
+						}
+					}
+					create_colony = {
+						owner = event_target:jakichikh_clan
+					}
+					set_planet_size = 18
+					generate_faust_deposits_and_blockers = yes
+					clear_blockers = yes
+					generate_start_buildings_and_districts = yes
+					generate_start_pops = yes
+					generate_lost_colony_parent_bonus = yes
+					event_target:jakichikh_clan = {
+						set_country_flag = jakichikh_clan
+						set_country_flag = lost_colony_parent
+						set_country_flag = special_intro_for@event_target:jakichikh_clan
+						set_country_flag = lost_colony_parent_of@event_target:jakichikh_clan
+
+						country_event = { id = game_start.9 }
+						country_event = { id = game_start.33 days = 1 } # needs delay for system ownership to settle
+
+						# country_event = { id = jcestart.1 }
+					}
+				}
+			}
+			set_name = "NAME_Faust"
+		}
+
+		moon = {
+			name = "NAME_Selene"
+			class = "pc_barren_cold"
+			size = 7
+			orbit_distance = 9
+			orbit_angle = 90
+			has_ring = no
+
+			init_effect = {
+				prevent_anomaly = yes
+				clear_deposits = yes
+				add_deposit = d_physics_2
+			}
+		}
+
+		moon = {
+			name = "NAME_Helios"
+			class = "pc_g_star"
+			size = 3
+			orbit_distance = 0
+			orbit_angle = 180
+			has_ring = no
+
+			init_effect = {
+				prevent_anomaly = yes
+				clear_deposits = yes
+				add_deposit = d_physics_3
+			}
+		}
+	}
+
+	planet = {
+		name = "NAME_Tanvewei"
+		class = "pc_barren"
+		orbit_distance = 30
+		orbit_angle = 60
+		size = 34
+		has_ring = yes
+
+		init_effect = {
+			add_modifier = {
+				modifier = "extensive_moon_system"
+				days = -1
+			}
+		}
+
+		moon = {
+			name = "NAME_Hiphyria"
+			class = "pc_barren_cold"
+			size = 12
+			orbit_distance = 15
+			orbit_angle = 80
+			has_ring = no
+		}
+
+		moon = {
+			name = "NAME_Gasarvis"
+			class = "pc_frozen"
+			size = 10
+			orbit_distance = 8
+			orbit_angle = 70
+			has_ring = no
+		}
+	}
+
+	planet = {
+		name = "NAME_Deenope"
+		class = "pc_barren_cold"
+		orbit_distance = 30
+		orbit_angle = 90
+		size = 22
+		has_ring = no
+	}
+
+	planet = {
+		name = "NAME_Rolemia"
+		class = "pc_frozen"
+		orbit_distance = 30
+		orbit_angle = 150
+		size = 24
+		has_ring = yes
+	}
+
+	init_effect = {
+		create_starbase = {
+			size = starbase_starport
+			module = shipyard
+			building = crew_quarters
+			owner = event_target:lost_colony_parent
+			effect = {
+				if = {
+					limit = {
+						event_target:lost_colony_parent = {
+							is_gestalt = yes
+						}
+					}
+					if = {
+						limit = {
+							event_target:lost_colony_parent = {
+								has_valid_civic = civic_machine_astromining_drones
+							}
+						}
+						set_starbase_module = {
+							slot = 1
+							module = astromining_bay
+						}
+					}
+					else = {
+						set_starbase_module = {
+							slot = 1
+							module = solar_panel_network
+						}
+					}
+				}
+				else = {
+					set_starbase_module = {
+						slot = 1
+						module = trading_hub
+					}
+				}
+			}
+		}
+	}
+
+	neighbor_system = {
+		hyperlane_jumps = { min = 1 max = @jumps }
+		initializer = "lost_colony_neighbor_t1"
+	}
+	neighbor_system = {
+		hyperlane_jumps = { min = 1 max = @jumps }
+		initializer = "lost_colony_neighbor_t1_first_colony"
+	}
+}
+
 # Faust
 eawaf_vanilla_initializer = {
 	name = "NAME_Faust"
