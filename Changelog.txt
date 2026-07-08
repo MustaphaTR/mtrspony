@@ -249,7 +249,7 @@
 -- Multi-species setup event now refreshes the leader pool after the other species are created so you can, if rights allow, start with them in the pool.
 --- Prescripted Empires can similarly start with other species in the leader pool if their rights allow.
 
-- Version 0.4.5 (XX.07.2026):
+- Version 0.4.5 (08.07.2026):
 -- Updated the mod to work with 4.4 Pegasus update.
 --- Fixed habitability trait and homeworld of other species on multi-species setup for a Nomad empire.
 --- Fixed Faust not starting with its special blockers.
