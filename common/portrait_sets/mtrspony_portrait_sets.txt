@@ -24,17 +24,6 @@ MTRSPONY_mammalians = {
 			"mtrspony_kirin"
 			"mtrspony_yak"
 			"mtrspony_zebra"
-		}
-	}
-
-	conditional_portraits = {
-		randomizable = {
-			always = no
-		}
-		playable = {
-			always = yes
-		}
-		portraits = {
 			"mtrspony_pony_its_all_scootaloo_group"
 		}
 	}
