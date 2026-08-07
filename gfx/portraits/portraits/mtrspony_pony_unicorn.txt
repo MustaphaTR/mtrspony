@@ -58,6 +58,19 @@ portraits = {
 
 		character_textures = {
 			"gfx/models/portraits/pony_unicorn/firelight/firelight.tga"
+			"gfx/models/portraits/pony_unicorn/firelight/firelight_alt1.tga"
+			"gfx/models/portraits/pony_unicorn/firelight/firelight_alt2.tga"
+			"gfx/models/portraits/pony_unicorn/firelight/firelight_alt3.tga"
+			"gfx/models/portraits/pony_unicorn/firelight/firelight_alt4.tga"
+			"gfx/models/portraits/pony_unicorn/firelight/firelight_alt5.tga"
+			"gfx/models/portraits/pony_unicorn/firelight/firelight_alt6.tga"
+			"gfx/models/portraits/pony_unicorn/firelight/firelight_alt7.tga"
+			"gfx/models/portraits/pony_unicorn/firelight/firelight_alt8.tga"
+			"gfx/models/portraits/pony_unicorn/firelight/firelight_alt9.tga"
+			"gfx/models/portraits/pony_unicorn/firelight/firelight_alt10.tga"
+			"gfx/models/portraits/pony_unicorn/firelight/firelight_alt11.tga"
+			"gfx/models/portraits/pony_unicorn/firelight/firelight_alt12.tga"
+			"gfx/models/portraits/pony_unicorn/firelight/firelight_alt13.tga"
 		}
 
 		custom_attachment_label = "HAIR_COLOR"
