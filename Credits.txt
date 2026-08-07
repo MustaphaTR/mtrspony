@@ -17,6 +17,7 @@ Portrait Bases:
 
  > cheezedoodle96:
 	- Big McIntosh
+	- Firelight
 	- Mudbriar
 	- Mrs. Shy
 	- Terramar

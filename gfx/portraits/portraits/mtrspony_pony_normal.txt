@@ -20,12 +20,14 @@ portrait_groups = {
 					mtrspony_pony_earth_mudbriar
 					mtrspony_pony_earth_igneous_rock_pie
 					mtrspony_pony_earth_sunburst
+					mtrspony_pony_earth_firelight
 					mtrspony_pony_earth_fire_streak
 					mtrspony_pony_earth_soarin
 					mtrspony_pony_earth_sandbar
 					mtrspony_pony_earth_button_mash
 					mtrspony_pony_unicorn_shining_armor
 					mtrspony_pony_unicorn_sunburst
+					mtrspony_pony_unicorn_firelight
 					mtrspony_pony_unicorn_gourmand_ramsay
 					mtrspony_pony_pegasus_soarin
 					mtrspony_pony_pegasus_fire_streak
@@ -145,12 +147,14 @@ portrait_groups = {
 					mtrspony_pony_earth_mudbriar
 					mtrspony_pony_earth_igneous_rock_pie
 					mtrspony_pony_earth_sunburst
+					mtrspony_pony_earth_firelight
 					mtrspony_pony_earth_fire_streak
 					mtrspony_pony_earth_soarin
 					mtrspony_pony_earth_sandbar
 					mtrspony_pony_earth_button_mash
 					mtrspony_pony_unicorn_shining_armor
 					mtrspony_pony_unicorn_sunburst
+					mtrspony_pony_unicorn_firelight
 					mtrspony_pony_unicorn_gourmand_ramsay
 					mtrspony_pony_pegasus_soarin
 					mtrspony_pony_pegasus_fire_streak
@@ -217,12 +221,14 @@ portrait_groups = {
 					mtrspony_pony_earth_mudbriar
 					mtrspony_pony_earth_igneous_rock_pie
 					mtrspony_pony_earth_sunburst
+					mtrspony_pony_earth_firelight
 					mtrspony_pony_earth_fire_streak
 					mtrspony_pony_earth_soarin
 					mtrspony_pony_earth_sandbar
 					mtrspony_pony_earth_button_mash
 					mtrspony_pony_unicorn_shining_armor
 					mtrspony_pony_unicorn_sunburst
+					mtrspony_pony_unicorn_firelight
 					mtrspony_pony_unicorn_gourmand_ramsay
 					mtrspony_pony_pegasus_soarin
 					mtrspony_pony_pegasus_fire_streak
@@ -246,12 +252,14 @@ portrait_groups = {
 					mtrspony_pony_earth_mudbriar
 					mtrspony_pony_earth_igneous_rock_pie
 					mtrspony_pony_earth_sunburst
+					mtrspony_pony_earth_firelight
 					mtrspony_pony_earth_fire_streak
 					mtrspony_pony_earth_soarin
 					mtrspony_pony_earth_sandbar
 					mtrspony_pony_earth_button_mash
 					mtrspony_pony_unicorn_shining_armor
 					mtrspony_pony_unicorn_sunburst
+					mtrspony_pony_unicorn_firelight
 					mtrspony_pony_unicorn_gourmand_ramsay
 					mtrspony_pony_pegasus_soarin
 					mtrspony_pony_pegasus_fire_streak

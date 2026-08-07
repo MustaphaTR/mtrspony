@@ -331,6 +331,82 @@ mtrspony_pony_unicorn_sunburst_clothes_selector = {
 	}
 }
 
+mtrspony_pony_unicorn_firelight_hair_selector = {
+	default = "gfx/models/portraits/pony_unicorn/firelight/firelight_hair.tga"
+
+	game_setup = {
+		default = "gfx/models/portraits/pony_unicorn/firelight/firelight_hair.tga"
+	}
+
+	species = {
+		default = "gfx/models/portraits/pony_unicorn/firelight/firelight_hair.tga"
+	}
+
+	pop = {
+		default = "gfx/models/portraits/pony_unicorn/firelight/firelight_hair.tga"
+
+		random = {
+			list = {
+				"gfx/models/portraits/pony_unicorn/firelight/firelight_hair.tga"
+			}
+		}
+	}
+
+	leader = {
+		random = {
+			list = {
+				"gfx/models/portraits/pony_unicorn/firelight/firelight_hair.tga"
+			}
+		}
+	}
+
+	ruler = {
+		random = {
+			list = {
+				"gfx/models/portraits/pony_unicorn/firelight/firelight_hair.tga"
+			}
+		}
+	}
+}
+
+mtrspony_pony_unicorn_firelight_clothes_selector = {
+	default = "gfx/models/portraits/pony_unicorn/firelight/firelight_clothes.tga"
+
+	game_setup = {
+		default = "gfx/models/portraits/pony_unicorn/firelight/firelight_clothes.tga"
+	}
+
+	species = {
+		default = "gfx/models/portraits/pony_unicorn/firelight/firelight_clothes.tga"
+	}
+
+	pop = {
+		default = "gfx/models/portraits/pony_unicorn/firelight/firelight_clothes.tga"
+
+		random = {
+			list = {
+				"gfx/models/portraits/pony_unicorn/firelight/firelight_clothes.tga"
+			}
+		}
+	}
+
+	leader = {
+		random = {
+			list = {
+				"gfx/models/portraits/pony_unicorn/firelight/firelight_clothes.tga"
+			}
+		}
+	}
+
+	ruler = {
+		random = {
+			list = {
+				"gfx/models/portraits/pony_unicorn/firelight/firelight_clothes.tga"
+			}
+		}
+	}
+}
+
 mtrspony_pony_unicorn_gourmand_ramsay_hair_selector = {
 	default = "gfx/models/portraits/pony_unicorn/gourmand_ramsay/gourmand_ramsay_hair.dds"
 

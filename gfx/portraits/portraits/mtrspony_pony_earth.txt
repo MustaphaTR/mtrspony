@@ -170,6 +170,19 @@ portraits = {
 		custom_attachment_label = "HAIR_COLOR"
 	}
 
+	mtrspony_pony_earth_firelight = {
+		entity = "portrait_dummy_firelight_earth_entity"
+		clothes_selector = "mtrspony_pony_unicorn_firelight_clothes_selector"
+		attachment_selector = "mtrspony_pony_unicorn_firelight_hair_selector"
+		greeting_sound = "human_male_greetings_01"
+
+		character_textures = {
+			"gfx/models/portraits/pony_unicorn/firelight/firelight.tga"
+		}
+
+		custom_attachment_label = "HAIR_COLOR"
+	}
+
 	mtrspony_pony_earth_fire_streak = {
 		entity = "portrait_dummy_fire_streak_earth_entity"
 		clothes_selector = "mtrspony_no_clothes_selector"
@@ -664,6 +677,7 @@ portrait_groups = {
 					mtrspony_pony_earth_mudbriar
 					mtrspony_pony_earth_igneous_rock_pie
 					mtrspony_pony_earth_sunburst
+					mtrspony_pony_earth_firelight
 					mtrspony_pony_earth_fire_streak
 					mtrspony_pony_earth_soarin
 					mtrspony_pony_earth_sandbar
@@ -727,6 +741,7 @@ portrait_groups = {
 					mtrspony_pony_earth_mudbriar
 					mtrspony_pony_earth_igneous_rock_pie
 					mtrspony_pony_earth_sunburst
+					mtrspony_pony_earth_firelight
 					mtrspony_pony_earth_fire_streak
 					mtrspony_pony_earth_soarin
 					mtrspony_pony_earth_sandbar
@@ -764,6 +779,7 @@ portrait_groups = {
 					mtrspony_pony_earth_mudbriar
 					mtrspony_pony_earth_igneous_rock_pie
 					mtrspony_pony_earth_sunburst
+					mtrspony_pony_earth_firelight
 					mtrspony_pony_earth_fire_streak
 					mtrspony_pony_earth_soarin
 					mtrspony_pony_earth_sandbar
@@ -785,6 +801,7 @@ portrait_groups = {
 					mtrspony_pony_earth_mudbriar
 					mtrspony_pony_earth_igneous_rock_pie
 					mtrspony_pony_earth_sunburst
+					mtrspony_pony_earth_firelight
 					mtrspony_pony_earth_fire_streak
 					mtrspony_pony_earth_soarin
 					mtrspony_pony_earth_sandbar

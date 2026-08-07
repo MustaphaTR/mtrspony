@@ -52,6 +52,19 @@ portraits = {
 		custom_attachment_label = "HAIR_COLOR"
 	}
 
+	mtrspony_pony_crystal_earth_firelight = {
+		entity = "portrait_dummy_firelight_crystal_earth_entity"
+		clothes_selector = "mtrspony_pony_unicorn_firelight_clothes_selector"
+		attachment_selector = "mtrspony_pony_unicorn_firelight_hair_selector"
+		greeting_sound = "human_male_greetings_01"
+
+		character_textures = {
+			"gfx/models/portraits/pony_unicorn/firelight/firelight.tga"
+		}
+
+		custom_attachment_label = "HAIR_COLOR"
+	}
+
 	mtrspony_pony_crystal_earth_soarin = {
 		entity = "portrait_dummy_soarin_crystal_earth_entity"
 		clothes_selector = "mtrspony_pony_pegasus_soarin_clothes_selector"

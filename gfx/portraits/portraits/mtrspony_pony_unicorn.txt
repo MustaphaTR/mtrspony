@@ -50,6 +50,19 @@ portraits = {
 		custom_attachment_label = "HAIR_COLOR"
 	}
 
+	mtrspony_pony_unicorn_firelight = {
+		entity = "portrait_dummy_firelight_unicorn_entity"
+		clothes_selector = "mtrspony_pony_unicorn_firelight_clothes_selector"
+		attachment_selector = "mtrspony_pony_unicorn_firelight_hair_selector"
+		greeting_sound = "human_male_greetings_01"
+
+		character_textures = {
+			"gfx/models/portraits/pony_unicorn/firelight/firelight.tga"
+		}
+
+		custom_attachment_label = "HAIR_COLOR"
+	}
+
 	mtrspony_pony_unicorn_gourmand_ramsay = {
 		entity = "portrait_dummy_10p_left_entity"
 		clothes_selector = "mtrspony_pony_unicorn_gourmand_ramsay_clothes_selector"
@@ -416,6 +429,7 @@ portrait_groups = {
 				portraits = {
 					mtrspony_pony_unicorn_shining_armor
 					mtrspony_pony_unicorn_sunburst
+					mtrspony_pony_unicorn_firelight
 					mtrspony_pony_unicorn_gourmand_ramsay
 				}
 			}
@@ -470,6 +484,7 @@ portrait_groups = {
 				portraits = {
 					mtrspony_pony_unicorn_shining_armor
 					mtrspony_pony_unicorn_sunburst
+					mtrspony_pony_unicorn_firelight
 					mtrspony_pony_unicorn_gourmand_ramsay
 				}
 			}
@@ -500,6 +515,7 @@ portrait_groups = {
 				portraits = {
 					mtrspony_pony_unicorn_shining_armor
 					mtrspony_pony_unicorn_sunburst
+					mtrspony_pony_unicorn_firelight
 					mtrspony_pony_unicorn_gourmand_ramsay
 				}
 			}
@@ -516,6 +532,7 @@ portrait_groups = {
 				portraits = {
 					mtrspony_pony_unicorn_shining_armor
 					mtrspony_pony_unicorn_sunburst
+					mtrspony_pony_unicorn_firelight
 					mtrspony_pony_unicorn_gourmand_ramsay
 				}
 			}
