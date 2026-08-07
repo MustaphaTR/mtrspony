@@ -188,7 +188,10 @@ ns_eaw_vanilla_initializer = {
 				has_country_flag = novyy_stalliongrad
 				NOT = { has_country_flag = parent_system_spawned }
 			}
-			NOT = { any_system = { has_star_flag = eaw_system } }
+			NOR = {
+				any_system = { has_star_flag = eaw_system }
+				has_star_flag = empire_cluster
+			}
 			is_fe_cluster = no
 			is_marauder_cluster = no
 
@@ -564,7 +567,10 @@ mc_eaw_vanilla_initializer = {
 				has_country_flag = mangchijid_clan_non_nomad
 				NOT = { has_country_flag = parent_system_spawned }
 			}
-			NOT = { any_system = { has_star_flag = eaw_system } }
+			NOR = {
+				any_system = { has_star_flag = eaw_system }
+				has_star_flag = empire_cluster
+			}
 			is_fe_cluster = no
 			is_marauder_cluster = no
 
