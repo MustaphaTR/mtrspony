@@ -258,3 +258,6 @@
 -- Added Mangchijid Clan prescripted country.
 --- Added missing Ghenikhan and Jakichikh Yak Clan flag icons.
 --- Added a new flag background for Ghenikhan Clan.
+
+- Version 0.4.6 (XX.08.2026):
+-- Added one more color option for Applejack portraits and a few two-toned hair options.

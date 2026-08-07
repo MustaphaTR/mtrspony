@@ -311,6 +311,7 @@ portraits = {
 			"gfx/models/portraits/pony_earth/applejack/applejack_alt12.dds"
 			"gfx/models/portraits/pony_earth/applejack/applejack_alt13.dds"
 			"gfx/models/portraits/pony_earth/applejack/applejack_alt14.dds"
+			"gfx/models/portraits/pony_earth/applejack/applejack_alt15.tga"
 		}
 
 		custom_attachment_label = "HAIR_COLOR"
