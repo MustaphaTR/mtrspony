@@ -288,7 +288,7 @@ portraits = {
 	}
 
 	mtrspony_pony_earth_button_mash = {
-		entity = "portrait_dummy_10p_left_entity"
+		entity = "portrait_dummy_10p_left_entity" # "portrait_dummy_button_mash_earth_entity"
 		clothes_selector = "mtrspony_pony_earth_button_mash_clothes_selector"
 		attachment_selector = "mtrspony_pony_earth_button_mash_hair_selector"
 		greeting_sound = "human_male_greetings_01"
@@ -311,6 +311,107 @@ portraits = {
 			"gfx/models/portraits/pony_earth/button_mash/button_mash_alt14.dds"
 			"gfx/models/portraits/pony_earth/button_mash/button_mash_alt15.dds"
 		}
+
+		#portrait_evolution = {
+		#	variants = { {
+		#		value = { {
+		#			portrait_override = "portrait_dummy_button_mash_earth_cyborg_entity"
+		#		} }
+		#
+		#		trigger = {
+		#			portrait_has_cutie_marks = yes
+		#			has_become_psionic = no
+		#			OR = {
+		#				has_cybernetization_stage_1 = yes
+		#				has_cybernetization_stage_2 = yes
+		#			}
+		#		}
+		#	} }
+		#	variants = { {
+		#		value = { {
+		#			portrait_override = "portrait_dummy_button_mash_earth_psionic_entity"
+		#		} }
+		#
+		#		trigger = {
+		#			portrait_has_cutie_marks = yes
+		#			has_become_psionic = yes
+		#			NOT = {
+		#				has_cybernetization_stage_1 = yes
+		#				has_cybernetization_stage_2 = yes
+		#			}
+		#		}
+		#	} }
+		#	variants = { {
+		#		value = { {
+		#			portrait_override = "portrait_dummy_button_mash_earth_cyborg_psionic_entity"
+		#		} }
+		#
+		#		trigger = {
+		#			portrait_has_cutie_marks = yes
+		#			has_become_psionic = yes
+		#			OR = {
+		#				has_cybernetization_stage_1 = yes
+		#				has_cybernetization_stage_2 = yes
+		#			}
+		#		}
+		#	} }
+		#	variants = { {
+		#		value = { {
+		#			portrait_override = "portrait_dummy_button_mash_earth_blank_entity"
+		#		} }
+		#
+		#		trigger = {
+		#			portrait_has_cutie_marks = no
+		#			has_become_psionic = no
+		#			NOT = {
+		#				has_cybernetization_stage_1 = yes
+		#				has_cybernetization_stage_2 = yes
+		#			}
+		#		}
+		#	} }
+		#	variants = { {
+		#		value = { {
+		#			portrait_override = "portrait_dummy_button_mash_earth_cyborg_blank_entity"
+		#		} }
+		#
+		#		trigger = {
+		#			portrait_has_cutie_marks = no
+		#			has_become_psionic = no
+		#			OR = {
+		#				has_cybernetization_stage_1 = yes
+		#				has_cybernetization_stage_2 = yes
+		#			}
+		#		}
+		#	} }
+		#	variants = { {
+		#		value = { {
+		#			portrait_override = "portrait_dummy_button_mash_earth_psionic_blank_entity"
+		#		} }
+		#
+		#		trigger = {
+		#			portrait_has_cutie_marks = no
+		#			has_become_psionic = yes
+		#			NOT = {
+		#				has_cybernetization_stage_1 = yes
+		#				has_cybernetization_stage_2 = yes
+		#			}
+		#		}
+		#	} }
+		#	variants = { {
+		#		value = { {
+		#			portrait_override = "portrait_dummy_button_mash_earth_cyborg_psionic_blank_entity"
+		#		} }
+		#
+		#		trigger = {
+		#			portrait_has_cutie_marks = no
+		#			has_become_psionic = yes
+		#			OR = {
+		#				has_cybernetization_stage_1 = yes
+		#				has_cybernetization_stage_2 = yes
+		#			}
+		#		}
+		#	} }
+		#}
 
 		custom_attachment_label = "HAIR_COLOR"
 	}

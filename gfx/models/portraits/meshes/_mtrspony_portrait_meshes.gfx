@@ -650,4 +650,181 @@ objectTypes = {
 
 		scale = 1.0
 	}
+
+	pdxmesh = {
+		name = "portrait_dummy_button_mash_earth_mesh"
+		file = "gfx/models/portraits/meshes/dummy_button_mash_earth.mesh"
+
+		animation = {
+			id = "idle"
+			type = "human_01_female_portrait_idle1_animation"
+		}
+
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "portrait_dummy_button_mash_earth_blank_mesh"
+		file = "gfx/models/portraits/meshes/dummy_button_mash_earth_blank.mesh"
+
+		animation = {
+			id = "idle"
+			type = "human_01_female_portrait_idle1_animation"
+		}
+
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "portrait_dummy_button_mash_earth_cyborg_mesh"
+		file = "gfx/models/portraits/meshes/dummy_button_mash_earth_cyborg.mesh"
+
+		animation = {
+			id = "idle"
+			type = "human_01_female_portrait_idle1_animation"
+		}
+
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "portrait_dummy_button_mash_earth_cyborg_blank_mesh"
+		file = "gfx/models/portraits/meshes/dummy_button_mash_earth_cyborg_blank.mesh"
+
+		animation = {
+			id = "idle"
+			type = "human_01_female_portrait_idle1_animation"
+		}
+
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "portrait_dummy_button_mash_earth_psionic_mesh"
+		file = "gfx/models/portraits/meshes/dummy_button_mash_earth_psionic.mesh"
+
+		animation = {
+			id = "idle"
+			type = "human_01_female_portrait_idle1_animation"
+		}
+
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "portrait_dummy_button_mash_earth_psionic_blank_mesh"
+		file = "gfx/models/portraits/meshes/dummy_button_mash_earth_psionic_blank.mesh"
+
+		animation = {
+			id = "idle"
+			type = "human_01_female_portrait_idle1_animation"
+		}
+
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "portrait_dummy_button_mash_earth_cyborg_psionic_mesh"
+		file = "gfx/models/portraits/meshes/dummy_button_mash_earth_cyborg_psionic.mesh"
+
+		animation = {
+			id = "idle"
+			type = "human_01_female_portrait_idle1_animation"
+		}
+
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "portrait_dummy_button_mash_earth_cyborg_psionic_blank_mesh"
+		file = "gfx/models/portraits/meshes/dummy_button_mash_earth_cyborg_psionic_blank.mesh"
+
+		animation = {
+			id = "idle"
+			type = "human_01_female_portrait_idle1_animation"
+		}
+
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "portrait_dummy_button_mash_crystal_earth_mesh"
+		file = "gfx/models/portraits/meshes/dummy_button_mash_crystal_earth.mesh"
+
+		animation = {
+			id = "idle"
+			type = "human_01_female_portrait_idle1_animation"
+		}
+
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "portrait_dummy_button_mash_crystal_earth_blank_mesh"
+		file = "gfx/models/portraits/meshes/dummy_button_mash_crystal_earth_blank.mesh"
+
+		animation = {
+			id = "idle"
+			type = "human_01_female_portrait_idle1_animation"
+		}
+
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "portrait_dummy_button_mash_crystal_earth_cyborg_mesh"
+		file = "gfx/models/portraits/meshes/dummy_button_mash_crystal_earth_cyborg.mesh"
+
+		animation = {
+			id = "idle"
+			type = "human_01_female_portrait_idle1_animation"
+		}
+
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "portrait_dummy_button_mash_crystal_earth_cyborg_blank_mesh"
+		file = "gfx/models/portraits/meshes/dummy_button_mash_crystal_earth_cyborg_blank.mesh"
+
+		animation = {
+			id = "idle"
+			type = "human_01_female_portrait_idle1_animation"
+		}
+
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "portrait_dummy_button_mash_crystal_earth_psionic_mesh"
+		file = "gfx/models/portraits/meshes/dummy_button_mash_crystal_earth_psionic.mesh"
+
+		animation = {
+			id = "idle"
+			type = "human_01_female_portrait_idle1_animation"
+		}
+
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "portrait_dummy_button_mash_crystal_earth_psionic_blank_mesh"
+		file = "gfx/models/portraits/meshes/dummy_button_mash_crystal_earth_psionic_blank.mesh"
+
+		animation = {
+			id = "idle"
+			type = "human_01_female_portrait_idle1_animation"
+		}
+
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "portrait_dummy_button_mash_crystal_earth_cyborg_psionic_mesh"
+		file = "gfx/models/portraits/meshes/dummy_button_mash_crystal_earth_cyborg_psionic.mesh"
+
+		animation = {
+			id = "idle"
+			type = "human_01_female_portrait_idle1_animation"
+		}
+
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "portrait_dummy_button_mash_crystal_earth_cyborg_psionic_blank_mesh"
+		file = "gfx/models/portraits/meshes/dummy_button_mash_crystal_earth_cyborg_psionic_blank.mesh"
+
+		animation = {
+			id = "idle"
+			type = "human_01_female_portrait_idle1_animation"
+		}
+
+		scale = 1.0
+	}
 }

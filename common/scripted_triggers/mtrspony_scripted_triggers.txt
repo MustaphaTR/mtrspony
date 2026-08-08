@@ -234,6 +234,18 @@ is_commander_class = {
 	leader_class = commander
 }
 
+#leader, pop or species scope (when called with species scope, from subscope can contain a country species related to)
+portrait_has_cutie_marks = {
+	if = {
+		limit = { is_scope_type = species }
+
+		has_trait = trait_cutie_marks
+	}
+	else = {
+		species = { has_trait = trait_cutie_marks }
+	}
+}
+
 # Others
 has_under_one_rule_origin = {
 	OR = {
