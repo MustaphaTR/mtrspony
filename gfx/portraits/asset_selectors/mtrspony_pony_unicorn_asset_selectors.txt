@@ -1387,13 +1387,13 @@ mtrspony_pony_unicorn_sweetie_belle_predefined_hair_selector = {
 }
 
 mtrspony_pony_unicorn_sweetie_belle_predefined_clothes_selector = {
-	default = "gfx/models/portraits/pony_unicorn/sweetie_belle/scootaloo_uniform_military_cmc.tga"
+	default = "gfx/models/portraits/pony_unicorn/sweetie_belle/sweetie_belle_uniform_military_cmc.tga"
 
-	game_setup = { default = "gfx/models/portraits/pony_unicorn/sweetie_belle/scootaloo_uniform_military_cmc.tga" }
-	species = { default = "gfx/models/portraits/pony_unicorn/sweetie_belle/scootaloo_uniform_military_cmc.tga" }
-	pop = { default = "gfx/models/portraits/pony_unicorn/sweetie_belle/scootaloo_uniform_military_cmc.tga" }
-	leader = { default = "gfx/models/portraits/pony_unicorn/sweetie_belle/scootaloo_uniform_military_cmc.tga" }
-	ruler = { default = "gfx/models/portraits/pony_unicorn/sweetie_belle/scootaloo_uniform_military_cmc.tga" }
+	game_setup = { default = "gfx/models/portraits/pony_unicorn/sweetie_belle/sweetie_belle_uniform_military_cmc.tga" }
+	species = { default = "gfx/models/portraits/pony_unicorn/sweetie_belle/sweetie_belle_uniform_military_cmc.tga" }
+	pop = { default = "gfx/models/portraits/pony_unicorn/sweetie_belle/sweetie_belle_uniform_military_cmc.tga" }
+	leader = { default = "gfx/models/portraits/pony_unicorn/sweetie_belle/sweetie_belle_uniform_military_cmc.tga" }
+	ruler = { default = "gfx/models/portraits/pony_unicorn/sweetie_belle/sweetie_belle_uniform_military_cmc.tga" }
 }
 
 mtrspony_pony_unicorn_sweetie_belle_older_hair_selector = {
