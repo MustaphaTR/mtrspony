@@ -260,6 +260,8 @@
 --- Added a new flag background for Ghenikhan Clan.
 
 - Version 0.4.6 (XX.08.2026):
+-- Added compability with Ethics and Civics Classic mod, adding adjusted versions of the Prescripted Empires with the mod enabled.
+--- Currently there's no way to properly check existance of the mod for Prescripted Empire availablity, so base variants of half the Empires still show up with the mod enabled. Rest of the base Empires with EaCC enabled, and EaCC versions with the mod disabled don't appear thanks to errors preventing them from doing so. I decided that this arrangement was good enough, so went with this instead of doing a submod.
 -- Added one more male unicorn portrait set, based on Firelight.
 -- Added one more color option for Applejack portraits and a few two-toned hair options.
 -- Added 40 more flag icons.

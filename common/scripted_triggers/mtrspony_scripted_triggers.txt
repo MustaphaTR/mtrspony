@@ -4,6 +4,32 @@ has_not_apocalypse_dlc = {
 	NOT = { host_has_dlc = "Apocalypse" }
 }
 
+has_apocalypse_and_grand_archive = {
+	optimize_memory
+	host_has_dlc = "Apocalypse"
+	host_has_dlc = "Grand Archive"
+}
+
+has_apocalypse_but_not_grand_archive = {
+	optimize_memory
+	host_has_dlc = "Apocalypse"
+	NOT = { host_has_dlc = "Grand Archive" }
+}
+
+has_grand_archive_but_not_apocalypse = {
+	optimize_memory
+	NOT = { host_has_dlc = "Apocalypse" }
+	host_has_dlc = "Grand Archive"
+}
+
+has_not_apocalypse_and_grand_archive = {
+	optimize_memory
+	NOT = {
+		host_has_dlc = "Apocalypse"
+		host_has_dlc = "Grand Archive"
+	}
+}
+
 has_not_necroids = {
 	optimize_memory
 	NOT = { host_has_dlc = "Necroids Species Pack" }

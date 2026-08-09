@@ -392,6 +392,7 @@ country_event = {
 		}
 
 		country_event = { id = uanstart.1001 days = 1 }
+		country_event = { id = uanstart.1002 days = 1 }
 	}
 }
 
@@ -413,6 +414,35 @@ country_event = {
 		event_target:leader_duty_price = {
 			change_background_job = commanding_officer
 			change_background_ethic = ethic_egalitarian
+		}
+	}
+}
+
+# Compability with Ethics and Civics Classic, adding extra ethics and civics.
+country_event = {
+	id = uanstart.1002
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		if = {
+			limit = { has_global_flag = ethic_civic_classic_active }
+
+			country_add_ethic = ethic_fanatic_capitalism
+			change_government = {
+				authority = auth_democratic
+				cooldown = no
+				remove_invalid_civics = yes
+				civics = { civic = civic_meritocratic_capitalism civic = civic_globalism civic = civic_xeno_militarist }
+			}
+		}
+		else = {
+			change_government = {
+				authority = auth_democratic
+				cooldown = no
+				remove_invalid_civics = yes
+				civics = { civic = civic_beacon_of_liberty civic = civic_free_haven }
+			}
 		}
 	}
 }
@@ -534,6 +564,7 @@ country_event = {
 		set_heir = event_target:leader_rock_trot
 
 		country_event = { id = hpestart.1001 days = 1 }
+		country_event = { id = hpestart.1002 days = 1 }
 	}
 }
 
@@ -551,6 +582,27 @@ country_event = {
 		event_target:leader_rock_trot = {
 			change_background_job = noble
 			change_background_ethic = ethic_militarist
+		}
+	}
+}
+
+# Compability with Ethics and Civics Classic, adding extra ethics and civics.
+country_event = {
+	id = hpestart.1002
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		has_global_flag = ethic_civic_classic_active
+	}
+	immediate = {
+		country_add_ethic = ethic_fanatic_militarist
+		country_add_ethic = ethic_fanatic_spiritualist
+		change_government = {
+			authority = auth_imperial
+			cooldown = no
+			remove_invalid_civics = yes
+			civics = { civic = civic_aristocratic_elite civic = civic_heroic_tales civic = civic_defenders_faith }
 		}
 	}
 }

@@ -274,7 +274,6 @@ ns_eaw_vanilla_initializer = {
 						adjective = "PRESCRIPTED_adjective_united_allied_nations"
 						authority = auth_democratic
 						civics = {
-							civic = civic_beacon_of_liberty
 							civic = civic_free_haven
 						}
 						species = event_target:pony_species
@@ -653,7 +652,6 @@ mc_eaw_vanilla_initializer = {
 						adjective = "PRESCRIPTED_adjective_ghenikhan_clan"
 						authority = auth_democratic
 						civics = {
-							civic = civic_shared_burden
 							civic = civic_distinguished_admiralty
 						}
 						species = event_target:yak_species
@@ -714,6 +712,7 @@ mc_eaw_vanilla_initializer = {
 						country_event = { id = game_start.33 days = 1 } # needs delay for system ownership to settle
 
 						# country_event = { id = gcstart.1 }
+						country_event = { id = gcstart.1002 days = 1 }
 					}
 				}
 				50 = {
@@ -782,7 +781,8 @@ mc_eaw_vanilla_initializer = {
 						country_event = { id = game_start.9 }
 						country_event = { id = game_start.33 days = 1 } # needs delay for system ownership to settle
 
-						# country_event = { id = jcestart.1 }
+						# country_event = { id = jcstart.1 }
+						country_event = { id = jcstart.1002 days = 1 }
 					}
 				}
 			}

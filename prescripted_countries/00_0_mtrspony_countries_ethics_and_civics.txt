@@ -1,0 +1,3412 @@
+eac_convocation_of_creatures = {
+	name = "EMPIRE_DESIGN_convocation_of_creatures"
+	adjective = "PRESCRIPTED_adjective_convocation_of_creatures"
+	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
+
+	playable = has_not_federations_dlc # Diplomatic Corps civic is from Federations DLC.
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_convocation_of_creatures"
+
+	species = {
+		class = "MAM"
+		portrait = "mtrspony_pony"
+		name = "PRESCRIPTED_species_pony"
+		plural = "PRESCRIPTED_species_plural_pony"
+		adjective = "PRESCRIPTED_species_adjective_pony"
+		name_list = "mtrspony_namelists_pony"
+		trait = "trait_organic"
+		trait = "trait_talented"
+		trait = "trait_cutie_marks"
+		trait = "trait_sedentary"
+	}
+
+	room = "personality_migrating_flock_room"
+
+	authority = "auth_democratic"
+	civics = { "civic_free_haven" "civic_idealistic_foundation" "civic_byzantine_bureaucracy" }
+	government = gov_moral_democracy
+
+	ethic = "ethic_fanatic_xenophile"
+	ethic = "ethic_egalitarian"
+	ethic = "ethic_pacifist"
+	ethic = "ethic_green"
+
+	origin = "origin_default"
+
+	flag = empire_convocation_of_creatures
+
+	planet_name = "NAME_Faust"
+	planet_class = "pc_continental"
+	initializer = "eaw_vanilla_initializer"
+	system_name = "NAME_Behemoth"
+
+	graphical_culture = mammalian_01
+	city_graphical_culture = mammalian_01
+
+	empire_flag = {
+		icon = {
+			category = "human"
+			file = "flag_human_8.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors = {
+			"light_pink"
+			"light_pink"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_dusk_shine"
+		ruler_title = "PRESCRIPTED_ruler_title_president"
+		ruler_title_female = "PRESCRIPTED_ruler_title_president_female"
+		gender = male
+		portrait = "mtrspony_pony_alicorn_dusk_shine"
+		texture = 0
+		attachment = 0
+		clothes = 0
+		trait = "leader_trait_spark_of_genius"
+		leader_class = scientist
+	}
+}
+
+eac_convocation_of_creatures_federations = {
+	name = "EMPIRE_DESIGN_convocation_of_creatures"
+	adjective = "PRESCRIPTED_adjective_convocation_of_creatures"
+	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
+
+	playable = has_federations_dlc # Diplomatic Corps civic is from Federations DLC.
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_convocation_of_creatures"
+
+	species = {
+		class = "MAM"
+		portrait = "mtrspony_pony"
+		name = "PRESCRIPTED_species_pony"
+		plural = "PRESCRIPTED_species_plural_pony"
+		adjective = "PRESCRIPTED_species_adjective_pony"
+		name_list = "mtrspony_namelists_pony"
+		trait = "trait_organic"
+		trait = "trait_talented"
+		trait = "trait_cutie_marks"
+		trait = "trait_sedentary"
+	}
+
+	room = "personality_migrating_flock_room"
+
+	authority = "auth_democratic"
+	civics = { "civic_diplomatic_corps" "civic_idealistic_foundation" "civic_byzantine_bureaucracy" }
+	government = gov_moral_democracy
+
+	ethic = "ethic_fanatic_xenophile"
+	ethic = "ethic_egalitarian"
+	ethic = "ethic_pacifist"
+	ethic = "ethic_green"
+
+	origin = "origin_default"
+
+	flag = empire_convocation_of_creatures
+
+	planet_name = "NAME_Faust"
+	planet_class = "pc_continental"
+	initializer = "eaw_vanilla_initializer"
+	system_name = "NAME_Behemoth"
+
+	graphical_culture = mammalian_01
+	city_graphical_culture = mammalian_01
+
+	empire_flag = {
+		icon = {
+			category = "human"
+			file = "flag_human_8.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors = {
+			"light_pink"
+			"light_pink"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_dusk_shine"
+		ruler_title = "PRESCRIPTED_ruler_title_president"
+		ruler_title_female = "PRESCRIPTED_ruler_title_president_female"
+		gender = male
+		portrait = "mtrspony_pony_alicorn_dusk_shine"
+		texture = 0
+		attachment = 0
+		clothes = 0
+		trait = "leader_trait_spark_of_genius"
+		leader_class = scientist
+	}
+}
+
+eac_the_crusader_state = {
+	name = "EMPIRE_DESIGN_the_crusader_state"
+	adjective = "PRESCRIPTED_adjective_the_crusader_state"
+	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
+
+	playable = has_not_necroids # Reanimators civic is from Necroids DLC.
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_the_crusader_state"
+
+	species = {
+		class = "MAM"
+		portrait = "mtrspony_pony"
+		name = "PRESCRIPTED_species_pony"
+		plural = "PRESCRIPTED_species_plural_pony"
+		adjective = "PRESCRIPTED_species_adjective_pony"
+		name_list = "mtrspony_namelists_pony"
+		trait = "trait_organic"
+		trait = "trait_talented"
+		trait = "trait_cutie_marks"
+		trait = "trait_sedentary"
+	}
+
+	room = "personality_hegemonic_imperialists_room"
+
+	authority = "auth_oligarchic"
+	civics = { "civic_distinguished_admiralty" "civic_meritocracy" "civic_xeno_militarist" }
+	government = gov_genuine_aristocracy
+
+	ethic = "ethic_fanatic_xenophile"
+	ethic = "ethic_egalitarian"
+	ethic = "ethic_militarist"
+	ethic = "ethic_socialism"
+
+	origin = "origin_default"
+
+	flag = empire_the_crusader_state
+
+	planet_name = "NAME_Faust"
+	planet_class = "pc_continental"
+	initializer = "eaw_vanilla_initializer"
+	system_name = "NAME_Behemoth"
+
+	graphical_culture = mammalian_01
+	city_graphical_culture = mammalian_01
+
+	empire_flag = {
+		icon = {
+			category = "esieaw"
+			file = "CMC.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "stripe_thick_cmc.dds"
+		}
+		colors = {
+			"red_orange"
+			"intense_pink"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_sweetie_belle"
+		ruler_title = "PRESCRIPTED_ruler_title_head_crusader"
+		ruler_title_female = "PRESCRIPTED_ruler_title_head_crusader_female"
+		gender = female
+		portrait = "mtrspony_pony_unicorn_sweetie_belle_predefined"
+		texture = 0
+		attachment = 0
+		clothes = 0
+		trait = "trait_ruler_eye_for_talent"
+		leader_class = scientist
+	}
+}
+
+eac_the_crusader_state_necroids = {
+	name = "EMPIRE_DESIGN_the_crusader_state"
+	adjective = "PRESCRIPTED_adjective_the_crusader_state"
+	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
+
+	playable = has_necroids # Reanimators civic is from Necroids DLC.
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_the_crusader_state"
+
+	species = {
+		class = "MAM"
+		portrait = "mtrspony_pony"
+		name = "PRESCRIPTED_species_pony"
+		plural = "PRESCRIPTED_species_plural_pony"
+		adjective = "PRESCRIPTED_species_adjective_pony"
+		name_list = "mtrspony_namelists_pony"
+		trait = "trait_organic"
+		trait = "trait_talented"
+		trait = "trait_cutie_marks"
+		trait = "trait_sedentary"
+	}
+
+	room = "personality_hegemonic_imperialists_room"
+
+	authority = "auth_oligarchic"
+	civics = { "civic_reanimated_armies" "civic_meritocracy" "civic_xeno_militarist" }
+	government = gov_genuine_aristocracy
+
+	ethic = "ethic_fanatic_xenophile"
+	ethic = "ethic_egalitarian"
+	ethic = "ethic_militarist"
+	ethic = "ethic_socialism"
+
+	origin = "origin_default"
+
+	flag = empire_the_crusader_state
+
+	planet_name = "NAME_Faust"
+	planet_class = "pc_continental"
+	initializer = "eaw_vanilla_initializer"
+	system_name = "NAME_Behemoth"
+
+	graphical_culture = mammalian_01
+	city_graphical_culture = mammalian_01
+
+	empire_flag = {
+		icon = {
+			category = "esieaw"
+			file = "CMC.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "stripe_thick_cmc.dds"
+		}
+		colors = {
+			"red_orange"
+			"intense_pink"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_sweetie_belle"
+		ruler_title = "PRESCRIPTED_ruler_title_head_crusader"
+		ruler_title_female = "PRESCRIPTED_ruler_title_head_crusader_female"
+		gender = female
+		portrait = "mtrspony_pony_unicorn_sweetie_belle_predefined"
+		texture = 0
+		attachment = 0
+		clothes = 0
+		trait = "trait_ruler_eye_for_talent"
+		leader_class = scientist
+	}
+}
+
+eac_empire_of_friendship = {
+	name = "EMPIRE_DESIGN_empire_of_friendship"
+	adjective = "PRESCRIPTED_adjective_empire_of_friendship"
+	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
+
+	playable = has_not_paragon_dlc # Crusader Spirit civic and Under One Rule origin are from Galactic Paragons DLC.
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_empire_of_friendship"
+
+	species = {
+		class = "MAM"
+		portrait = "mtrspony_pony"
+		name = "PRESCRIPTED_species_pony"
+		plural = "PRESCRIPTED_species_plural_pony"
+		adjective = "PRESCRIPTED_species_adjective_pony"
+		name_list = "mtrspony_namelists_pony"
+		trait = "trait_organic"
+		trait = "trait_talented"
+		trait = "trait_cutie_marks"
+		trait = "trait_sedentary"
+	}
+
+	room = "personality_democratic_crusaders_room"
+
+	authority = "auth_dictatorial"
+	civics = { "civic_nationalistic_zeal" "civic_welfare_state" "civic_free_haven" }
+	government = gov_military_dictatorship
+
+	ethic = "ethic_fanatic_militarist"
+	ethic = "ethic_fanatic_xenophile"
+	ethic = "ethic_authoritarian"
+
+	origin = "origin_default"
+
+	flag = empire_empire_of_friendship
+
+	planet_name = "NAME_Faust"
+	planet_class = "pc_continental"
+	initializer = "eaw_vanilla_initializer"
+	system_name = "NAME_Behemoth"
+
+	graphical_culture = mammalian_01
+	city_graphical_culture = mammalian_01
+
+	empire_flag = {
+		icon = {
+			category = "mtrspony"
+			file = "SOF.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "flag_BG_2.dds"
+		}
+		colors = {
+			"light_pink"
+			"light_indigo"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_cozy_glow"
+		ruler_title = "PRESCRIPTED_ruler_title_emperor"
+		ruler_title_female = "PRESCRIPTED_ruler_title_empress"
+		gender = female
+		portrait = "mtrspony_pony_pegasus_cozy_glow_older"
+		texture = 0
+		attachment = 0
+		clothes = 0
+		trait = "trait_ruler_charismatic"
+		leader_class = official
+	}
+}
+
+eac_empire_of_friendship_paragons = {
+	name = "EMPIRE_DESIGN_empire_of_friendship"
+	adjective = "PRESCRIPTED_adjective_empire_of_friendship"
+	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
+
+	playable = has_paragon_dlc # Crusader Spirit civic and Under One Rule origin are from Galactic Paragons DLC.
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_empire_of_friendship"
+
+	species = {
+		class = "MAM"
+		portrait = "mtrspony_pony"
+		name = "PRESCRIPTED_species_pony"
+		plural = "PRESCRIPTED_species_plural_pony"
+		adjective = "PRESCRIPTED_species_adjective_pony"
+		name_list = "mtrspony_namelists_pony"
+		trait = "trait_organic"
+		trait = "trait_perfected_genes"
+		trait = "trait_talented"
+		trait = "trait_cutie_marks"
+		trait = "trait_sedentary"
+	}
+
+	room = "personality_democratic_crusaders_room"
+
+	authority = "auth_dictatorial"
+	civics = { "civic_crusader_spirit" "civic_welfare_state" "civic_diplomatic_corps" }
+	government = gov_military_dictatorship
+
+	ethic = "ethic_fanatic_militarist"
+	ethic = "ethic_fanatic_xenophile"
+	ethic = "ethic_authoritarian"
+
+	origin = "origin_legendary_leader"
+
+	flag = empire_empire_of_friendship
+
+	planet_name = "NAME_Faust"
+	planet_class = "pc_continental"
+	initializer = "eaw_vanilla_initializer"
+	system_name = "NAME_Behemoth"
+
+	graphical_culture = mammalian_01
+	city_graphical_culture = mammalian_01
+
+	empire_flag = {
+		icon = {
+			category = "mtrspony"
+			file = "SOF.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "flag_BG_2.dds"
+		}
+		colors = {
+			"light_pink"
+			"light_indigo"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_cozy_glow"
+		ruler_title = "PRESCRIPTED_ruler_title_emperor"
+		ruler_title_female = "PRESCRIPTED_ruler_title_empress"
+		gender = female
+		portrait = "mtrspony_pony_pegasus_cozy_glow_older"
+		texture = 0
+		attachment = 0
+		clothes = 0
+		trait = "leader_trait_legendary_gunboat_diplomacy"
+		leader_class = official
+	}
+}
+
+eac_novyy_stalliongrad = {
+	name = "EMPIRE_DESIGN_novyy_stalliongrad"
+	adjective = "PRESCRIPTED_adjective_novyy_stalliongrad"
+	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
+
+	playable = has_not_megacorp # Shared Burdens civic is from Megacorps DLC.
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_novyy_stalliongrad"
+
+	species = {
+		class = "MAM"
+		portrait = "mtrspony_pony"
+		name = "PRESCRIPTED_species_pony"
+		plural = "PRESCRIPTED_species_plural_pony"
+		adjective = "PRESCRIPTED_species_adjective_pony"
+		name_list = "mtrspony_namelists_pony"
+		trait = "trait_organic"
+		trait = "trait_talented"
+		trait = "trait_cutie_marks"
+		trait = "trait_sedentary"
+	}
+
+	room = "personality_erudite_explorers_room"
+
+	authority = "auth_democratic"
+	civics = { "civic_labour_unions" "civic_functional_architecture" "civic_idealistic_foundation" }
+	government = gov_soviet_republic
+
+	ethic = "ethic_fanatic_socialism"
+	ethic = "ethic_egalitarian"
+	ethic = "ethic_militarist"
+	ethic = "ethic_materialist"
+
+	origin = "origin_lost_colony"
+
+	flag = empire_novyy_stalliongrad
+
+	planet_name = "NAME_Equality"
+	planet_class = "pc_continental"
+	initializer = "deneb_system"
+	system_name = "NAME_Deneb"
+
+	graphical_culture = mammalian_01
+	city_graphical_culture = mammalian_01
+
+	empire_flag = {
+		icon = {
+			category = "eqsatwarequus3"
+			file = "STG.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "flag_BG_51.dds"
+		}
+		colors = {
+			"intense_red"
+			"bright_yellow"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_tall_cherry"
+		ruler_title = "PRESCRIPTED_ruler_title_premier"
+		ruler_title_female = "PRESCRIPTED_ruler_title_premier_female"
+		gender = male
+		portrait = "mtrspony_pony_earth_tall_cherry_predefined"
+		texture = 0
+		attachment = 0
+		clothes = 0
+		trait = "trait_ruler_charismatic"
+		leader_class = commander
+	}
+}
+
+eac_novyy_stalliongrad_megacorps = {
+	name = "EMPIRE_DESIGN_novyy_stalliongrad"
+	adjective = "PRESCRIPTED_adjective_novyy_stalliongrad"
+	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
+
+	playable = has_megacorp # Shared Burdens civic is from Megacorps DLC.
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_novyy_stalliongrad"
+
+	species = {
+		class = "MAM"
+		portrait = "mtrspony_pony"
+		name = "PRESCRIPTED_species_pony"
+		plural = "PRESCRIPTED_species_plural_pony"
+		adjective = "PRESCRIPTED_species_adjective_pony"
+		name_list = "mtrspony_namelists_pony"
+		trait = "trait_organic"
+		trait = "trait_talented"
+		trait = "trait_cutie_marks"
+		trait = "trait_sedentary"
+	}
+
+	room = "personality_erudite_explorers_room"
+
+	authority = "auth_democratic"
+	civics = { "civic_shared_burden" "civic_idealistic_foundation" "civic_functional_architecture" }
+	government = gov_soviet_republic
+
+	ethic = "ethic_fanatic_socialism"
+	ethic = "ethic_egalitarian"
+	ethic = "ethic_militarist"
+	ethic = "ethic_materialist"
+
+	origin = "origin_lost_colony"
+
+	flag = empire_novyy_stalliongrad
+
+	planet_name = "NAME_Equality"
+	planet_class = "pc_continental"
+	initializer = "deneb_system"
+	system_name = "NAME_Deneb"
+
+	graphical_culture = mammalian_01
+	city_graphical_culture = mammalian_01
+
+	empire_flag = {
+		icon = {
+			category = "eqsatwarequus3"
+			file = "STG.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "flag_BG_51.dds"
+		}
+		colors = {
+			"intense_red"
+			"bright_yellow"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_tall_cherry"
+		ruler_title = "PRESCRIPTED_ruler_title_premier"
+		ruler_title_female = "PRESCRIPTED_ruler_title_premier_female"
+		gender = male
+		portrait = "mtrspony_pony_earth_tall_cherry_predefined"
+		texture = 0
+		attachment = 0
+		clothes = 0
+		trait = "trait_ruler_charismatic"
+		leader_class = commander
+	}
+}
+
+#eac_united_faustian_hives = {
+#	name = "EMPIRE_DESIGN_united_faustian_hives"
+#	adjective = "PRESCRIPTED_adjective_united_faustian_hives"
+#	spawn_enabled = no # yes / no / always
+#	ignore_portrait_duplication = yes
+#
+#	playable = has_not_necroids # Memorialists civic is from Necroids DLC.
+#
+#	ship_prefix = "PRESCRIPTED_ship_prefix_united_faustian_hives"
+#
+#	species = {
+#		class = "MAM"
+#		portrait = "mtrspony_pony"
+#		name = "PRESCRIPTED_species_pony"
+#		plural = "PRESCRIPTED_species_plural_pony"
+#		adjective = "PRESCRIPTED_species_adjective_pony"
+#		name_list = "mtrspony_namelists_pony"
+#		trait = "trait_organic"
+#		trait = "trait_talented"
+#		trait = "trait_cutie_marks"
+#		trait = "trait_sedentary"
+#	}
+#
+#	room = "personality_spiritual_seekers_room"
+#
+#	authority = "auth_democratic"
+#	civics = { "civic_efficient_bureaucracy" "civic_parliamentary_system" }
+#	government = gov_theocratic_republic
+#
+#	ethic = "ethic_fanatic_spiritualist"
+#	ethic = "ethic_xenophile"
+#	ethic = "ethic_egalitarian"
+#
+#	origin = "origin_default"
+#
+#	flag = empire_united_faustian_hives
+#
+#	planet_name = "NAME_Faust"
+#	planet_class = "pc_continental"
+#	initializer = "eaw_vanilla_initializer"
+#	system_name = "NAME_Behemoth"
+#
+#	graphical_culture = mammalian_01
+#	city_graphical_culture = mammalian_01
+#
+#	empire_flag = {
+#		icon = {
+#			category = "esieaw2"
+#			file = "SCH_DEM.dds"
+#		}
+#		background = {
+#			category = "backgrounds"
+#			file = "triangle_split.dds"
+#		}
+#		colors = {
+#			"red"
+#			"dark_purple"
+#			"null"
+#			"null"
+#		}
+#	}
+#
+#	ruler = {
+#		name = "PRESCRIPTED_ruler_name_luna"
+#		ruler_title = "PRESCRIPTED_ruler_title_hive_king"
+#		ruler_title_female = "PRESCRIPTED_ruler_title_hive_queen"
+#		gender = female
+#		portrait = "mtrspony_pony_alicorn_luna"
+#		texture = 0
+#		attachment = 0
+#		clothes = 0
+#		trait = "leader_trait_principled"
+#		leader_class = official
+#	}
+#}
+#
+#eac_united_faustian_hives_necroids = {
+#	name = "EMPIRE_DESIGN_united_faustian_hives"
+#	adjective = "PRESCRIPTED_adjective_united_faustian_hives"
+#	spawn_enabled = no # yes / no / always
+#	ignore_portrait_duplication = yes
+#
+#	playable = has_necroids # Memorialists civic is from Necroids DLC.
+#
+#	ship_prefix = "PRESCRIPTED_ship_prefix_united_faustian_hives"
+#
+#	species = {
+#		class = "MAM"
+#		portrait = "mtrspony_pony"
+#		name = "PRESCRIPTED_species_pony"
+#		plural = "PRESCRIPTED_species_plural_pony"
+#		adjective = "PRESCRIPTED_species_adjective_pony"
+#		name_list = "mtrspony_namelists_pony"
+#		trait = "trait_organic"
+#		trait = "trait_talented"
+#		trait = "trait_cutie_marks"
+#		trait = "trait_sedentary"
+#	}
+#
+#	room = "personality_spiritual_seekers_room"
+#
+#	authority = "auth_democratic"
+#	civics = { "civic_efficient_bureaucracy" "civic_memorialist" }
+#	government = gov_theocratic_republic
+#
+#	ethic = "ethic_fanatic_spiritualist"
+#	ethic = "ethic_xenophile"
+#	ethic = "ethic_egalitarian"
+#
+#	origin = "origin_default"
+#
+#	flag = empire_united_faustian_hives
+#
+#	planet_name = "NAME_Faust"
+#	planet_class = "pc_continental"
+#	initializer = "eaw_vanilla_initializer"
+#	system_name = "NAME_Behemoth"
+#
+#	graphical_culture = mammalian_01
+#	city_graphical_culture = mammalian_01
+#
+#	empire_flag = {
+#		icon = {
+#			category = "esieaw2"
+#			file = "SCH_DEM.dds"
+#		}
+#		background = {
+#			category = "backgrounds"
+#			file = "triangle_split.dds"
+#		}
+#		colors = {
+#			"red"
+#			"dark_purple"
+#			"null"
+#			"null"
+#		}
+#	}
+#
+#	ruler = {
+#		name = "PRESCRIPTED_ruler_name_luna"
+#		ruler_title = "PRESCRIPTED_ruler_title_hive_king"
+#		ruler_title_female = "PRESCRIPTED_ruler_title_hive_queen"
+#		gender = female
+#		portrait = "mtrspony_pony_alicorn_luna"
+#		texture = 0
+#		attachment = 0
+#		clothes = 0
+#		trait = "leader_trait_principled"
+#		leader_class = official
+#	}
+#}
+
+eac_united_faustian_hives_hive = {
+	name = "EMPIRE_DESIGN_united_faustian_hives"
+	adjective = "PRESCRIPTED_adjective_united_faustian_hives"
+	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
+
+	playable = has_not_necroids_and_paragons # Memorialist civic is from Necroids DLC. Autonomous Drones civic is from Galactic Paragons DLC.
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_united_faustian_hives"
+
+	species = {
+		class = "MAM"
+		portrait = "mtrspony_pony"
+		name = "PRESCRIPTED_species_pony"
+		plural = "PRESCRIPTED_species_plural_pony"
+		adjective = "PRESCRIPTED_species_adjective_pony"
+		name_list = "mtrspony_namelists_pony"
+		trait = "trait_organic"
+		trait = "trait_hive_mind"
+		trait = "trait_talented"
+		trait = "trait_cutie_marks"
+		trait = "trait_sedentary"
+	}
+
+	room = "personality_spiritual_seekers_room"
+
+	authority = "auth_hive_mind"
+	civics = { "civic_hive_divided_attention" "civic_hive_pooled_knowledge" "civic_hive_ascensionists" }
+	government = gov_hive_mind
+
+	ethic = "ethic_gestalt_consciousness"
+	ethic = "ethic_egalitarian"
+
+	origin = "origin_default"
+
+	flag = empire_united_faustian_hives
+
+	planet_name = "NAME_Faust"
+	planet_class = "pc_continental"
+	initializer = "eaw_vanilla_initializer"
+	system_name = "NAME_Behemoth"
+
+	graphical_culture = mammalian_01
+	city_graphical_culture = mammalian_01
+
+	empire_flag = {
+		icon = {
+			category = "esieaw2"
+			file = "SCH_DEM.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "triangle_split.dds"
+		}
+		colors = {
+			"red"
+			"dark_purple"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_luna"
+		ruler_title = "PRESCRIPTED_ruler_title_hive_king"
+		ruler_title_female = "PRESCRIPTED_ruler_title_hive_queen"
+		gender = female
+		portrait = "mtrspony_pony_alicorn_luna"
+		texture = 0
+		attachment = 0
+		clothes = 0
+		trait = "leader_trait_principled"
+		leader_class = official
+	}
+}
+
+eac_united_faustian_hives_hive_necroids = {
+	name = "EMPIRE_DESIGN_united_faustian_hives"
+	adjective = "PRESCRIPTED_adjective_united_faustian_hives"
+	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
+
+	playable = has_necroids_but_not_paragons # Memorialist civic is from Necroids DLC. Autonomous Drones civic is from Galactic Paragons DLC.
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_united_faustian_hives"
+
+	species = {
+		class = "MAM"
+		portrait = "mtrspony_pony"
+		name = "PRESCRIPTED_species_pony"
+		plural = "PRESCRIPTED_species_plural_pony"
+		adjective = "PRESCRIPTED_species_adjective_pony"
+		name_list = "mtrspony_namelists_pony"
+		trait = "trait_organic"
+		trait = "trait_hive_mind"
+		trait = "trait_talented"
+		trait = "trait_cutie_marks"
+		trait = "trait_sedentary"
+	}
+
+	room = "personality_spiritual_seekers_room"
+
+	authority = "auth_hive_mind"
+	civics = { "civic_hive_divided_attention" "civic_hive_memorialist" "civic_hive_pooled_knowledge" }
+	government = gov_hive_mind
+
+	ethic = "ethic_gestalt_consciousness"
+	ethic = "ethic_egalitarian"
+
+	origin = "origin_default"
+
+	flag = empire_united_faustian_hives
+
+	planet_name = "NAME_Faust"
+	planet_class = "pc_continental"
+	initializer = "eaw_vanilla_initializer"
+	system_name = "NAME_Behemoth"
+
+	graphical_culture = mammalian_01
+	city_graphical_culture = mammalian_01
+
+	empire_flag = {
+		icon = {
+			category = "esieaw2"
+			file = "SCH_DEM.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "triangle_split.dds"
+		}
+		colors = {
+			"red"
+			"dark_purple"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_luna"
+		ruler_title = "PRESCRIPTED_ruler_title_hive_king"
+		ruler_title_female = "PRESCRIPTED_ruler_title_hive_queen"
+		gender = female
+		portrait = "mtrspony_pony_alicorn_luna"
+		texture = 0
+		attachment = 0
+		clothes = 0
+		trait = "leader_trait_principled"
+		leader_class = official
+	}
+}
+
+eac_united_faustian_hives_hive_paragons = {
+	name = "EMPIRE_DESIGN_united_faustian_hives"
+	adjective = "PRESCRIPTED_adjective_united_faustian_hives"
+	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
+
+	playable = has_paragons_but_not_necroids # Memorialist civic is from Necroids DLC. Autonomous Drones civic is from Galactic Paragons DLC.
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_united_faustian_hives"
+
+	species = {
+		class = "MAM"
+		portrait = "mtrspony_pony"
+		name = "PRESCRIPTED_species_pony"
+		plural = "PRESCRIPTED_species_plural_pony"
+		adjective = "PRESCRIPTED_species_adjective_pony"
+		name_list = "mtrspony_namelists_pony"
+		trait = "trait_organic"
+		trait = "trait_hive_mind"
+		trait = "trait_talented"
+		trait = "trait_cutie_marks"
+		trait = "trait_sedentary"
+	}
+
+	room = "personality_spiritual_seekers_room"
+
+	authority = "auth_hive_mind"
+	civics = { "civic_hive_upkeep_twister" "civic_hive_pooled_knowledge" "civic_hive_divided_attention" }
+	government = gov_hive_mind
+
+	ethic = "ethic_gestalt_consciousness"
+	ethic = "ethic_egalitarian"
+
+	origin = "origin_default"
+
+	flag = empire_united_faustian_hives
+
+	planet_name = "NAME_Faust"
+	planet_class = "pc_continental"
+	initializer = "eaw_vanilla_initializer"
+	system_name = "NAME_Behemoth"
+
+	graphical_culture = mammalian_01
+	city_graphical_culture = mammalian_01
+
+	empire_flag = {
+		icon = {
+			category = "esieaw2"
+			file = "SCH_DEM.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "triangle_split.dds"
+		}
+		colors = {
+			"red"
+			"dark_purple"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_luna"
+		ruler_title = "PRESCRIPTED_ruler_title_hive_king"
+		ruler_title_female = "PRESCRIPTED_ruler_title_hive_queen"
+		gender = female
+		portrait = "mtrspony_pony_alicorn_luna"
+		texture = 0
+		attachment = 0
+		clothes = 0
+		trait = "leader_trait_principled"
+		leader_class = official
+	}
+}
+
+eac_united_faustian_hives_hive_necroids_paragons = {
+	name = "EMPIRE_DESIGN_united_faustian_hives"
+	adjective = "PRESCRIPTED_adjective_united_faustian_hives"
+	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
+
+	playable = has_necroids_and_paragons # Memorialist civic is from Necroids DLC. Autonomous Drones civic is from Galactic Paragons DLC.
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_united_faustian_hives"
+
+	species = {
+		class = "MAM"
+		portrait = "mtrspony_pony"
+		name = "PRESCRIPTED_species_pony"
+		plural = "PRESCRIPTED_species_plural_pony"
+		adjective = "PRESCRIPTED_species_adjective_pony"
+		name_list = "mtrspony_namelists_pony"
+		trait = "trait_organic"
+		trait = "trait_hive_mind"
+		trait = "trait_talented"
+		trait = "trait_cutie_marks"
+		trait = "trait_sedentary"
+	}
+
+	room = "personality_spiritual_seekers_room"
+
+	authority = "auth_hive_mind"
+	civics = { "civic_hive_upkeep_twister" "civic_hive_memorialist" "civic_hive_divided_attention" }
+	government = gov_hive_mind
+
+	ethic = "ethic_gestalt_consciousness"
+	ethic = "ethic_egalitarian"
+
+	origin = "origin_default"
+
+	flag = empire_united_faustian_hives
+
+	planet_name = "NAME_Faust"
+	planet_class = "pc_continental"
+	initializer = "eaw_vanilla_initializer"
+	system_name = "NAME_Behemoth"
+
+	graphical_culture = mammalian_01
+	city_graphical_culture = mammalian_01
+
+	empire_flag = {
+		icon = {
+			category = "esieaw2"
+			file = "SCH_DEM.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "triangle_split.dds"
+		}
+		colors = {
+			"red"
+			"dark_purple"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_luna"
+		ruler_title = "PRESCRIPTED_ruler_title_hive_king"
+		ruler_title_female = "PRESCRIPTED_ruler_title_hive_queen"
+		gender = female
+		portrait = "mtrspony_pony_alicorn_luna"
+		texture = 0
+		attachment = 0
+		clothes = 0
+		trait = "leader_trait_principled"
+		leader_class = official
+	}
+}
+
+eac_department_of_scootascience = {
+	name = "EMPIRE_DESIGN_department_of_scootascience"
+	adjective = "PRESCRIPTED_adjective_department_of_scootascience"
+	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
+
+	playable = has_not_shadows_of_the_shroud_and_nomads # Experimental Sentencing civic is from Shadows of the Shroud DLC. Flight Schools civic is from Nomads DLC.
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_department_of_scootascience"
+
+	species = {
+		class = "MAM"
+		portrait = "mtrspony_pony_its_all_scootaloo_group"
+		name = "PRESCRIPTED_species_scootaloo"
+		plural = "PRESCRIPTED_species_plural_scootaloo"
+		adjective = "PRESCRIPTED_species_adjective_scootaloo"
+		name_list = "mtrspony_namelists_scootaloo"
+		gender = female
+		trait = "trait_organic"
+		trait = "trait_clone_soldier_infertile"
+		trait = "trait_adaptive"
+		trait = "trait_cutie_marks"
+		trait = "trait_deviants"
+		trait = "trait_humanoid_jinxed"
+	}
+
+	room = "biogenesis_02_room"
+
+	authority = "auth_dictatorial"
+	civics = { "civic_distinguished_admiralty" "civic_technocracy" "civic_military_industry" }
+	government = gov_technocratic_dictatorship
+	advisor_voice_type = "l_materialist"
+
+	ethic = "ethic_fanatic_materialist"
+	ethic = "ethic_authoritarian"
+	ethic = "ethic_militarist"
+	ethic = "ethic_xenophile"
+
+	origin = "origin_clone_army"
+
+	flag = empire_department_of_scootascience
+
+	planet_name = "NAME_Faust"
+	planet_class = "pc_continental"
+	initializer = "eaw_vanilla_initializer"
+	system_name = "NAME_Behemoth"
+
+	graphical_culture = mammalian_01
+	city_graphical_culture = mammalian_01
+
+	empire_flag = {
+		icon = {
+			category = "eaw_marks2"
+			file = "Scootaloo.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "flag_BG_49.dds"
+		}
+		colors = {
+			"orange"
+			"intense_pink"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_scootaloo_n1064"
+		ruler_title = "PRESCRIPTED_ruler_title_director"
+		ruler_title_female = "PRESCRIPTED_ruler_title_directoress"
+		gender = female
+		portrait = "mtrspony_pony_its_all_scootaloo"
+		texture = 0
+		attachment = 0
+		clothes = 1
+		trait = "trait_ruler_eye_for_talent"
+		leader_class = scientist
+	}
+}
+
+eac_department_of_scootascience_shroud = {
+	name = "EMPIRE_DESIGN_department_of_scootascience"
+	adjective = "PRESCRIPTED_adjective_department_of_scootascience"
+	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
+
+	playable = has_shadows_of_the_shroud_but_not_nomads # Experimental Sentencing civic is from Shadows of the Shroud DLC. Flight Schools civic is from Nomads DLC.
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_department_of_scootascience"
+
+	species = {
+		class = "MAM"
+		portrait = "mtrspony_pony_its_all_scootaloo_group"
+		name = "PRESCRIPTED_species_scootaloo"
+		plural = "PRESCRIPTED_species_plural_scootaloo"
+		adjective = "PRESCRIPTED_species_adjective_scootaloo"
+		name_list = "mtrspony_namelists_scootaloo"
+		gender = female
+		trait = "trait_organic"
+		trait = "trait_clone_soldier_infertile"
+		trait = "trait_adaptive"
+		trait = "trait_cutie_marks"
+		trait = "trait_deviants"
+		trait = "trait_humanoid_jinxed"
+	}
+
+	room = "biogenesis_02_room"
+
+	authority = "auth_dictatorial"
+	civics = { "civic_distinguished_admiralty" "civic_twisted_experimenters" "civic_military_industry" }
+	government = gov_technocratic_dictatorship
+	advisor_voice_type = "l_materialist"
+
+	ethic = "ethic_fanatic_materialist"
+	ethic = "ethic_authoritarian"
+	ethic = "ethic_militarist"
+	ethic = "ethic_xenophile"
+
+	origin = "origin_clone_army"
+
+	flag = empire_department_of_scootascience
+
+	planet_name = "NAME_Faust"
+	planet_class = "pc_continental"
+	initializer = "eaw_vanilla_initializer"
+	system_name = "NAME_Behemoth"
+
+	graphical_culture = mammalian_01
+	city_graphical_culture = mammalian_01
+
+	empire_flag = {
+		icon = {
+			category = "eaw_marks2"
+			file = "Scootaloo.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "flag_BG_49.dds"
+		}
+		colors = {
+			"orange"
+			"intense_pink"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_scootaloo_n1064"
+		ruler_title = "PRESCRIPTED_ruler_title_director"
+		ruler_title_female = "PRESCRIPTED_ruler_title_directoress"
+		gender = female
+		portrait = "mtrspony_pony_its_all_scootaloo"
+		texture = 0
+		attachment = 0
+		clothes = 1
+		trait = "trait_ruler_eye_for_talent"
+		leader_class = scientist
+	}
+}
+
+eac_department_of_scootascience_nomads = {
+	name = "EMPIRE_DESIGN_department_of_scootascience"
+	adjective = "PRESCRIPTED_adjective_department_of_scootascience"
+	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
+
+	playable = has_nomads_but_not_shadows_of_the_shroud # Experimental Sentencing civic is from Shadows of the Shroud DLC. Flight Schools civic is from Nomads DLC.
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_department_of_scootascience"
+
+	species = {
+		class = "MAM"
+		portrait = "mtrspony_pony_its_all_scootaloo_group"
+		name = "PRESCRIPTED_species_scootaloo"
+		plural = "PRESCRIPTED_species_plural_scootaloo"
+		adjective = "PRESCRIPTED_species_adjective_scootaloo"
+		name_list = "mtrspony_namelists_scootaloo"
+		gender = female
+		trait = "trait_organic"
+		trait = "trait_clone_soldier_infertile"
+		trait = "trait_adaptive"
+		trait = "trait_cutie_marks"
+		trait = "trait_deviants"
+		trait = "trait_humanoid_jinxed"
+	}
+
+	room = "biogenesis_02_room"
+
+	authority = "auth_dictatorial"
+	civics = { "civic_flight_schools" "civic_technocracy" "civic_military_industry" }
+	government = gov_technocratic_dictatorship
+	advisor_voice_type = "l_materialist"
+
+	ethic = "ethic_fanatic_materialist"
+	ethic = "ethic_authoritarian"
+	ethic = "ethic_militarist"
+	ethic = "ethic_xenophile"
+
+	origin = "origin_clone_army"
+
+	flag = empire_department_of_scootascience
+
+	planet_name = "NAME_Faust"
+	planet_class = "pc_continental"
+	initializer = "eaw_vanilla_initializer"
+	system_name = "NAME_Behemoth"
+
+	graphical_culture = mammalian_01
+	city_graphical_culture = mammalian_01
+
+	empire_flag = {
+		icon = {
+			category = "eaw_marks2"
+			file = "Scootaloo.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "flag_BG_49.dds"
+		}
+		colors = {
+			"orange"
+			"intense_pink"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_scootaloo_n1064"
+		ruler_title = "PRESCRIPTED_ruler_title_director"
+		ruler_title_female = "PRESCRIPTED_ruler_title_directoress"
+		gender = female
+		portrait = "mtrspony_pony_its_all_scootaloo"
+		texture = 0
+		attachment = 0
+		clothes = 1
+		trait = "trait_ruler_eye_for_talent"
+		leader_class = scientist
+	}
+}
+
+eac_department_of_scootascience_shroud_nomads = {
+	name = "EMPIRE_DESIGN_department_of_scootascience"
+	adjective = "PRESCRIPTED_adjective_department_of_scootascience"
+	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
+
+	playable = has_shadows_of_the_shroud_and_nomads # Experimental Sentencing civic is from Shadows of the Shroud DLC. Flight Schools civic is from Nomads DLC.
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_department_of_scootascience"
+
+	species = {
+		class = "MAM"
+		portrait = "mtrspony_pony_its_all_scootaloo_group"
+		name = "PRESCRIPTED_species_scootaloo"
+		plural = "PRESCRIPTED_species_plural_scootaloo"
+		adjective = "PRESCRIPTED_species_adjective_scootaloo"
+		name_list = "mtrspony_namelists_scootaloo"
+		gender = female
+		trait = "trait_organic"
+		trait = "trait_clone_soldier_infertile"
+		trait = "trait_adaptive"
+		trait = "trait_cutie_marks"
+		trait = "trait_deviants"
+		trait = "trait_humanoid_jinxed"
+	}
+
+	room = "biogenesis_02_room"
+
+	authority = "auth_dictatorial"
+	civics = { "civic_flight_schools" "civic_twisted_experimenters" "civic_military_industry" }
+	government = gov_technocratic_dictatorship
+	advisor_voice_type = "l_materialist"
+
+	ethic = "ethic_fanatic_materialist"
+	ethic = "ethic_authoritarian"
+	ethic = "ethic_militarist"
+	ethic = "ethic_xenophile"
+
+	origin = "origin_clone_army"
+
+	flag = empire_department_of_scootascience
+
+	planet_name = "NAME_Faust"
+	planet_class = "pc_continental"
+	initializer = "eaw_vanilla_initializer"
+	system_name = "NAME_Behemoth"
+
+	graphical_culture = mammalian_01
+	city_graphical_culture = mammalian_01
+
+	empire_flag = {
+		icon = {
+			category = "eaw_marks2"
+			file = "Scootaloo.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "flag_BG_49.dds"
+		}
+		colors = {
+			"orange"
+			"intense_pink"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_scootaloo_n1064"
+		ruler_title = "PRESCRIPTED_ruler_title_director"
+		ruler_title_female = "PRESCRIPTED_ruler_title_directoress"
+		gender = female
+		portrait = "mtrspony_pony_its_all_scootaloo"
+		texture = 0
+		attachment = 0
+		clothes = 1
+		trait = "trait_ruler_eye_for_talent"
+		leader_class = scientist
+	}
+}
+
+eac_griffonian_empire = {
+	name = "EMPIRE_DESIGN_griffonian_empire"
+	adjective = "PRESCRIPTED_adjective_griffonian_empire"
+	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_griffonian_empire"
+
+	species = {
+		class = "AVI"
+		portrait = "mtrspony_griffon"
+		name = "PRESCRIPTED_species_griffon"
+		plural = "PRESCRIPTED_species_plural_griffon"
+		adjective = "PRESCRIPTED_species_adjective_griffon"
+		name_list = "mtrspony_namelists_griffon"
+		trait = "trait_organic"
+		trait = "trait_thrifty"
+		trait = "trait_resilient"
+		trait = "trait_quarrelsome"
+	}
+
+	room = "personality_democratic_crusaders_room"
+
+	authority = "auth_imperial"
+	civics = { "civic_aristocratic_elite" "civic_nationalistic_zeal" "civic_distinguished_admiralty" }
+	government = gov_aristocratic_monarchy
+
+	ethic = "ethic_fanatic_authoritarian"
+	ethic = "ethic_spiritualist"
+	ethic = "ethic_militarist"
+	ethic = "ethic_capitalism"
+
+	origin = "origin_default"
+
+	flag = empire_griffonian_empire
+
+	planet_name = "NAME_Faust"
+	planet_class = "pc_continental"
+	initializer = "eaw_vanilla_initializer"
+	system_name = "NAME_Behemoth"
+
+	graphical_culture = avian_01
+	city_graphical_culture = avian_01
+
+	empire_flag = {
+		icon = {
+			category = "eqsatwargriffon3"
+			file = "GRI.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "griffon.dds"
+		}
+		colors = {
+			"orange"
+			"ochre_brown"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_grover_xi"
+		ruler_title = "PRESCRIPTED_ruler_title_kaiser"
+		ruler_title_female = "PRESCRIPTED_ruler_title_kaiserin"
+		gender = male
+		portrait = "mtrspony_griffon_gallus"
+		texture = 11
+		attachment = 0
+		clothes = 0
+		trait = "trait_ruler_charismatic"
+		leader_class = governor
+	}
+}
+
+eac_faustian_technate = {
+	name = "EMPIRE_DESIGN_faustian_technate"
+	adjective = "PRESCRIPTED_adjective_faustian_technate"
+	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_faustian_technate"
+
+	species = {
+		class = "MAM"
+		portrait = "mtrspony_zebra"
+		name = "PRESCRIPTED_species_zebra"
+		plural = "PRESCRIPTED_species_plural_zebra"
+		adjective = "PRESCRIPTED_species_adjective_zebra"
+		name_list = "mtrspony_namelists_zebra"
+		trait = "trait_organic"
+		trait = "trait_conservational"
+		trait = "trait_natural_physicists"
+	}
+
+	room = "personality_migrating_flock_room"
+
+	authority = "auth_oligarchic"
+	civics = { "civic_technocracy" "civic_cutthroat_politics" "civic_innovative_economy" }
+	government = gov_oligarchic_republic
+
+	ethic = "ethic_fanatic_materialist"
+	ethic = "ethic_egalitarian"
+	ethic = "ethic_pacifist"
+	ethic = "ethic_capitalism"
+
+	origin = "origin_default"
+
+	flag = empire_faustian_technate
+
+	planet_name = "NAME_Faust"
+	planet_class = "pc_continental"
+	initializer = "eaw_vanilla_initializer"
+	system_name = "NAME_Behemoth"
+
+	graphical_culture = mammalian_01
+	city_graphical_culture = mammalian_01
+
+	empire_flag = {
+		icon = {
+			category = "eqsatwarzebra2"
+			file = "CTH_TEC.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "colthage.dds"
+		}
+		colors = {
+			"blue"
+			"white"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_zuan_gerzalid"
+		ruler_title = "PRESCRIPTED_ruler_title_director"
+		ruler_title_female = "PRESCRIPTED_ruler_title_directoress"
+		gender = male
+		portrait = "mtrspony_zebra_zecora"
+		texture = 3
+		attachment = 4
+		clothes = 0
+		trait = "leader_trait_spark_of_genius"
+		leader_class = scientist
+	}
+}
+
+eac_jarldom_of_faust = {
+	name = "EMPIRE_DESIGN_jarldom_of_faust"
+	adjective = "PRESCRIPTED_adjective_jarldom_of_faust"
+	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
+
+	playable = has_not_paragon_and_grand_archive # Treasure Hunters origin is from Grand Archive DLC. Heroic Past civic is from Galactic Paragons DLC.
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_jarldom_of_faust"
+
+	species = {
+		class = "MAM"
+		portrait = "mtrspony_deer"
+		name = "PRESCRIPTED_species_deer"
+		plural = "PRESCRIPTED_species_plural_deer"
+		adjective = "PRESCRIPTED_species_adjective_deer"
+		name_list = "mtrspony_namelists_deer"
+		trait = "trait_organic"
+		trait = "trait_adaptive"
+		trait = "trait_natural_sociologists"
+		trait = "trait_fleeting"
+	}
+
+	room = "personality_fanatic_purifier_room"
+
+	authority = "auth_dictatorial"
+	civics = { "civic_distinguished_admiralty" "civic_warrior_culture" "civic_naval_traditions" }
+	government = gov_martial_dictatorship
+
+	ethic = "ethic_fanatic_militarist"
+	ethic = "ethic_spiritualist"
+	ethic = "ethic_authoritarian"
+	ethic = "ethic_green"
+
+	origin = "origin_default"
+
+	flag = empire_jarldom_of_faust
+
+	planet_name = "NAME_Faust"
+	planet_class = "pc_continental"
+	initializer = "eaw_vanilla_initializer"
+	system_name = "NAME_Behemoth"
+
+	graphical_culture = mammalian_01
+	city_graphical_culture = mammalian_01
+
+	empire_flag = {
+		icon = {
+			category = "eqsatwarequus"
+			file = "DER_SUP.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "circle_with_4_stripes_jf.dds"
+		}
+		colors = {
+			"blue"
+			"light_grey"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_hjoertur_aagesson"
+		ruler_title = "PRESCRIPTED_ruler_title_jarl"
+		ruler_title_female = "PRESCRIPTED_ruler_title_jarl_female"
+		gender = male
+		portrait = "mtrspony_deer_alice"
+		texture = 13
+		attachment = 4
+		clothes = 30
+		trait = "trait_ruler_logistic_understanding"
+		leader_class = official
+	}
+}
+
+eac_jarldom_of_faust_paragons = {
+	name = "EMPIRE_DESIGN_jarldom_of_faust"
+	adjective = "PRESCRIPTED_adjective_jarldom_of_faust"
+	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
+
+	playable = has_paragon_but_not_grand_archive # Treasure Hunters origin is from Grand Archive DLC. Heroic Past civic is from Galactic Paragons DLC.
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_jarldom_of_faust"
+
+	species = {
+		class = "MAM"
+		portrait = "mtrspony_deer"
+		name = "PRESCRIPTED_species_deer"
+		plural = "PRESCRIPTED_species_plural_deer"
+		adjective = "PRESCRIPTED_species_adjective_deer"
+		name_list = "mtrspony_namelists_deer"
+		trait = "trait_organic"
+		trait = "trait_adaptive"
+		trait = "trait_natural_sociologists"
+		trait = "trait_fleeting"
+	}
+
+	room = "personality_fanatic_purifier_room"
+
+	authority = "auth_dictatorial"
+	civics = { "civic_heroic_tales" "civic_warrior_culture" "civic_naval_traditions" }
+	government = gov_martial_dictatorship
+
+	ethic = "ethic_fanatic_militarist"
+	ethic = "ethic_spiritualist"
+	ethic = "ethic_authoritarian"
+	ethic = "ethic_green"
+
+	origin = "origin_default"
+
+	flag = empire_jarldom_of_faust
+
+	planet_name = "NAME_Faust"
+	planet_class = "pc_continental"
+	initializer = "eaw_vanilla_initializer"
+	system_name = "NAME_Behemoth"
+
+	graphical_culture = mammalian_01
+	city_graphical_culture = mammalian_01
+
+	empire_flag = {
+		icon = {
+			category = "eqsatwarequus"
+			file = "DER_SUP.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "circle_with_4_stripes_jf.dds"
+		}
+		colors = {
+			"blue"
+			"light_grey"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_hjoertur_aagesson"
+		ruler_title = "PRESCRIPTED_ruler_title_jarl"
+		ruler_title_female = "PRESCRIPTED_ruler_title_jarl_female"
+		gender = male
+		portrait = "mtrspony_deer_alice"
+		texture = 13
+		attachment = 4
+		clothes = 30
+		trait = "trait_ruler_logistic_understanding"
+		leader_class = official
+	}
+}
+
+eac_jarldom_of_faust_grand_archive = {
+	name = "EMPIRE_DESIGN_jarldom_of_faust"
+	adjective = "PRESCRIPTED_adjective_jarldom_of_faust"
+	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
+
+	playable = has_grand_archive_but_not_paragon # Treasure Hunters origin is from Grand Archive DLC. Heroic Past civic is from Galactic Paragons DLC.
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_jarldom_of_faust"
+
+	species = {
+		class = "MAM"
+		portrait = "mtrspony_deer"
+		name = "PRESCRIPTED_species_deer"
+		plural = "PRESCRIPTED_species_plural_deer"
+		adjective = "PRESCRIPTED_species_adjective_deer"
+		name_list = "mtrspony_namelists_deer"
+		trait = "trait_organic"
+		trait = "trait_adaptive"
+		trait = "trait_natural_sociologists"
+		trait = "trait_fleeting"
+	}
+
+	room = "personality_fanatic_purifier_room"
+
+	authority = "auth_dictatorial"
+	civics = { "civic_distinguished_admiralty" "civic_warrior_culture" "civic_naval_traditions" }
+	government = gov_martial_dictatorship
+
+	ethic = "ethic_fanatic_militarist"
+	ethic = "ethic_spiritualist"
+	ethic = "ethic_authoritarian"
+	ethic = "ethic_green"
+
+	origin = "origin_treasure_hunters"
+
+	flag = empire_jarldom_of_faust
+
+	planet_name = "NAME_Faust"
+	planet_class = "pc_continental"
+	initializer = "eaw_vanilla_initializer"
+	system_name = "NAME_Behemoth"
+
+	graphical_culture = mammalian_01
+	city_graphical_culture = mammalian_01
+
+	empire_flag = {
+		icon = {
+			category = "eqsatwarequus"
+			file = "DER_SUP.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "circle_with_4_stripes_jf.dds"
+		}
+		colors = {
+			"blue"
+			"light_grey"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_hjoertur_aagesson"
+		ruler_title = "PRESCRIPTED_ruler_title_jarl"
+		ruler_title_female = "PRESCRIPTED_ruler_title_jarl_female"
+		gender = male
+		portrait = "mtrspony_deer_alice"
+		texture = 13
+		attachment = 4
+		clothes = 30
+		trait = "leader_trait_trailblazer"
+		leader_class = official
+	}
+}
+
+eac_jarldom_of_faust_paragons_grand_archive = {
+	name = "EMPIRE_DESIGN_jarldom_of_faust"
+	adjective = "PRESCRIPTED_adjective_jarldom_of_faust"
+	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
+
+	playable = has_paragon_and_grand_archive # Treasure Hunters origin is from Grand Archive DLC. Heroic Past civic is from Galactic Paragons DLC.
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_jarldom_of_faust"
+
+	species = {
+		class = "MAM"
+		portrait = "mtrspony_deer"
+		name = "PRESCRIPTED_species_deer"
+		plural = "PRESCRIPTED_species_plural_deer"
+		adjective = "PRESCRIPTED_species_adjective_deer"
+		name_list = "mtrspony_namelists_deer"
+		trait = "trait_organic"
+		trait = "trait_adaptive"
+		trait = "trait_natural_sociologists"
+		trait = "trait_fleeting"
+	}
+
+	room = "personality_fanatic_purifier_room"
+
+	authority = "auth_dictatorial"
+	civics = { "civic_heroic_tales" "civic_warrior_culture" "civic_naval_traditions" }
+	government = gov_martial_dictatorship
+
+	ethic = "ethic_fanatic_militarist"
+	ethic = "ethic_spiritualist"
+	ethic = "ethic_authoritarian"
+	ethic = "ethic_green"
+
+	origin = "origin_treasure_hunters"
+
+	flag = empire_jarldom_of_faust
+
+	planet_name = "NAME_Faust"
+	planet_class = "pc_continental"
+	initializer = "eaw_vanilla_initializer"
+	system_name = "NAME_Behemoth"
+
+	graphical_culture = mammalian_01
+	city_graphical_culture = mammalian_01
+
+	empire_flag = {
+		icon = {
+			category = "eqsatwarequus"
+			file = "DER_SUP.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "circle_with_4_stripes_jf.dds"
+		}
+		colors = {
+			"blue"
+			"light_grey"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_hjoertur_aagesson"
+		ruler_title = "PRESCRIPTED_ruler_title_jarl"
+		ruler_title_female = "PRESCRIPTED_ruler_title_jarl_female"
+		gender = male
+		portrait = "mtrspony_deer_alice"
+		texture = 13
+		attachment = 4
+		clothes = 30
+		trait = "leader_trait_trailblazer"
+		leader_class = official
+	}
+}
+
+eac_changeling_space_program = {
+	name = "EMPIRE_DESIGN_changeling_space_program"
+	adjective = "PRESCRIPTED_adjective_changeling_space_program"
+	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
+
+	playable = has_not_federations_dlc # Void Dweller origin is from Federations DLC. Camouflage species trait is from BioGenesis DLC.
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_changeling_space_program"
+
+	species = {
+		class = "ART"
+		portrait = "mtrspony_changeling"
+		name = "PRESCRIPTED_species_changeling"
+		plural = "PRESCRIPTED_species_plural_changeling"
+		adjective = "PRESCRIPTED_species_adjective_changeling"
+		name_list = "mtrspony_namelists_changeling"
+		trait = "trait_organic"
+		trait = "trait_adaptive"
+		trait = "trait_communal"
+		trait = "trait_wasteful"
+	}
+
+	room = "personality_ruthless_capitalists_room"
+
+	authority = "auth_imperial"
+	civics = { "civic_police_state" "civic_functional_architecture" "civic_cutthroat_politics" }
+	government = gov_absolute_monarchy
+
+	ethic = "ethic_fanatic_authoritarian"
+	ethic = "ethic_fanatic_militarist"
+	ethic = "ethic_militarist"
+
+	origin = "origin_default"
+
+	flag = empire_changeling_space_program
+
+	planet_name = "NAME_Equus"
+	planet_class = "pc_continental"
+	initializer = "csp_system_initializer"
+	system_name = "NAME_Sol"
+
+	graphical_culture = arthropoid_01
+	city_graphical_culture = arthropoid_01
+
+	empire_flag = {
+		icon = {
+			category = "eqsatwarequus"
+			file = "CHN_SUP_OLD_2.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "gradient.dds"
+		}
+		colors = {
+			"moss_green"
+			"black"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_chrysalis"
+		ruler_title = "PRESCRIPTED_ruler_title_king"
+		ruler_title_female = "PRESCRIPTED_ruler_title_queen"
+		gender = female
+		portrait = "mtrspony_changeling_chrysalis"
+		texture = 0
+		attachment = 0
+		clothes = 0
+		trait = "leader_trait_spycraft"
+		leader_class = official
+	}
+}
+
+eac_changeling_space_program_federations = {
+	name = "EMPIRE_DESIGN_changeling_space_program"
+	adjective = "PRESCRIPTED_adjective_changeling_space_program"
+	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
+
+	playable = has_federations_but_not_biogenesis # Void Dweller origin is from Federations DLC. Camouflage species trait is from BioGenesis DLC.
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_changeling_space_program"
+
+	species = {
+		class = "ART"
+		portrait = "mtrspony_changeling"
+		name = "PRESCRIPTED_species_changeling"
+		plural = "PRESCRIPTED_species_plural_changeling"
+		adjective = "PRESCRIPTED_species_adjective_changeling"
+		name_list = "mtrspony_namelists_changeling"
+		trait = "trait_organic"
+		trait = "trait_void_dweller_1"
+		trait = "trait_adaptive"
+		trait = "trait_communal"
+		trait = "trait_wasteful"
+	}
+
+	room = "personality_ruthless_capitalists_room"
+
+	authority = "auth_imperial"
+	civics = { "civic_police_state" "civic_functional_architecture" "civic_cutthroat_politics" }
+	government = gov_absolute_monarchy
+
+	ethic = "ethic_fanatic_authoritarian"
+	ethic = "ethic_fanatic_militarist"
+	ethic = "ethic_militarist"
+
+	origin = "origin_void_dwellers"
+
+	flag = empire_changeling_space_program
+
+	planet_name = "NAME_Equus_Habitat"
+	planet_class = "pc_continental"
+	initializer = "csp_system_void_dweller_system"
+	system_name = "NAME_Sol"
+
+	graphical_culture = arthropoid_01
+	city_graphical_culture = arthropoid_01
+
+	empire_flag = {
+		icon = {
+			category = "eqsatwarequus"
+			file = "CHN_SUP_OLD_2.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "gradient.dds"
+		}
+		colors = {
+			"moss_green"
+			"black"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_chrysalis"
+		ruler_title = "PRESCRIPTED_ruler_title_king"
+		ruler_title_female = "PRESCRIPTED_ruler_title_queen"
+		gender = female
+		portrait = "mtrspony_changeling_chrysalis"
+		texture = 0
+		attachment = 0
+		clothes = 0
+		trait = "leader_trait_spycraft"
+		leader_class = official
+	}
+}
+
+eac_changeling_space_program_biogenesis = {
+	name = "EMPIRE_DESIGN_changeling_space_program"
+	adjective = "PRESCRIPTED_adjective_changeling_space_program"
+	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
+
+	playable = has_not_federations_dlc # Void Dweller origin is from Federations DLC. Camouflage species trait is from BioGenesis DLC.
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_changeling_space_program"
+
+	species = {
+		class = "ART"
+		portrait = "mtrspony_changeling"
+		name = "PRESCRIPTED_species_changeling"
+		plural = "PRESCRIPTED_species_plural_changeling"
+		adjective = "PRESCRIPTED_species_adjective_changeling"
+		name_list = "mtrspony_namelists_changeling"
+		trait = "trait_organic"
+		trait = "trait_adaptive"
+		trait = "trait_camouflage"
+		trait = "trait_wasteful"
+	}
+
+	room = "personality_ruthless_capitalists_room"
+
+	authority = "auth_imperial"
+	civics = { "civic_police_state" "civic_functional_architecture" "civic_cutthroat_politics" }
+	government = gov_absolute_monarchy
+
+	ethic = "ethic_fanatic_authoritarian"
+	ethic = "ethic_fanatic_militarist"
+	ethic = "ethic_militarist"
+
+	origin = "origin_default"
+
+	flag = empire_changeling_space_program
+
+	planet_name = "NAME_Equus"
+	planet_class = "pc_continental"
+	initializer = "csp_system_initializer"
+	system_name = "NAME_Sol"
+
+	graphical_culture = arthropoid_01
+	city_graphical_culture = arthropoid_01
+
+	empire_flag = {
+		icon = {
+			category = "eqsatwarequus"
+			file = "CHN_SUP_OLD_2.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "gradient.dds"
+		}
+		colors = {
+			"moss_green"
+			"black"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_chrysalis"
+		ruler_title = "PRESCRIPTED_ruler_title_king"
+		ruler_title_female = "PRESCRIPTED_ruler_title_queen"
+		gender = female
+		portrait = "mtrspony_changeling_chrysalis"
+		texture = 0
+		attachment = 0
+		clothes = 0
+		trait = "leader_trait_spycraft"
+		leader_class = official
+	}
+}
+
+eac_changeling_space_program_federations_biogenesis = {
+	name = "EMPIRE_DESIGN_changeling_space_program"
+	adjective = "PRESCRIPTED_adjective_changeling_space_program"
+	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
+
+	playable = has_federations_and_biogenesis # Void Dweller origin is from Federations DLC. Camouflage species trait is from BioGenesis DLC.
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_changeling_space_program"
+
+	species = {
+		class = "ART"
+		portrait = "mtrspony_changeling"
+		name = "PRESCRIPTED_species_changeling"
+		plural = "PRESCRIPTED_species_plural_changeling"
+		adjective = "PRESCRIPTED_species_adjective_changeling"
+		name_list = "mtrspony_namelists_changeling"
+		trait = "trait_organic"
+		trait = "trait_void_dweller_1"
+		trait = "trait_adaptive"
+		trait = "trait_camouflage"
+		trait = "trait_wasteful"
+	}
+
+	room = "personality_ruthless_capitalists_room"
+
+	authority = "auth_imperial"
+	civics = { "civic_police_state" "civic_functional_architecture" "civic_cutthroat_politics" }
+	government = gov_absolute_monarchy
+
+	ethic = "ethic_fanatic_authoritarian"
+	ethic = "ethic_fanatic_militarist"
+	ethic = "ethic_militarist"
+
+	origin = "origin_void_dwellers"
+
+	flag = empire_changeling_space_program
+
+	planet_name = "NAME_Equus_Habitat"
+	planet_class = "pc_continental"
+	initializer = "csp_system_void_dweller_system"
+	system_name = "NAME_Sol"
+
+	graphical_culture = arthropoid_01
+	city_graphical_culture = arthropoid_01
+
+	empire_flag = {
+		icon = {
+			category = "eqsatwarequus"
+			file = "CHN_SUP_OLD_2.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "gradient.dds"
+		}
+		colors = {
+			"moss_green"
+			"black"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_chrysalis"
+		ruler_title = "PRESCRIPTED_ruler_title_king"
+		ruler_title_female = "PRESCRIPTED_ruler_title_queen"
+		gender = female
+		portrait = "mtrspony_changeling_chrysalis"
+		texture = 0
+		attachment = 0
+		clothes = 0
+		trait = "leader_trait_spycraft"
+		leader_class = official
+	}
+}
+
+eac_revolutionary_faust = {
+	name = "EMPIRE_DESIGN_revolutionary_faust"
+	adjective = "PRESCRIPTED_adjective_revolutionary_faust"
+	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
+
+	playable = has_not_megacorps_and_first_contact # Shared Burdens civic is from Megacorps DLC, Eager Exploeres civic is from First Contact DLC.
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_revolutionary_faust"
+
+	species = {
+		class = "AVI"
+		portrait = "mtrspony_hippogriff"
+		name = "PRESCRIPTED_species_hippogriff"
+		plural = "PRESCRIPTED_species_plural_hippogriff"
+		adjective = "PRESCRIPTED_species_adjective_hippogriff"
+		name_list = "mtrspony_namelists_hippogriff"
+		trait = "trait_organic"
+		trait = "trait_nomadic"
+		trait = "trait_adaptive"
+		trait = "trait_deviants"
+	}
+
+	room = "personality_migrating_flock_room"
+
+	authority = "auth_democratic"
+	civics = { "civic_meritocracy" "civic_beacon_of_liberty" "civic_idealistic_foundation" }
+	government = gov_soviet_republic
+
+	ethic = "ethic_fanatic_egalitarian"
+	ethic = "ethic_materialist"
+	ethic = "ethic_fanatic_socialism"
+
+	origin = "origin_default"
+
+	flag = empire_revolutionary_faust
+
+	planet_name = "NAME_Faust"
+	planet_class = "pc_continental"
+	initializer = "eaw_vanilla_initializer"
+	system_name = "NAME_Behemoth"
+
+	graphical_culture = avian_01
+	city_graphical_culture = avian_01
+
+	empire_flag = {
+		icon = {
+			category = "eqsatwarzebra3"
+			file = "HIP_POS.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "revolutionary_zebrica.dds"
+		}
+		colors = {
+			"indigo"
+			"white"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_starry_eyes"
+		ruler_title = "PRESCRIPTED_ruler_title_general_secretary"
+		ruler_title_female = "PRESCRIPTED_ruler_title_general_secretary_female"
+		gender = female
+		portrait = "mtrspony_hippogriff_silverstream"
+		texture = 12
+		attachment = 1
+		clothes = 1
+		trait = "leader_trait_principled"
+		leader_class = official
+	}
+}
+
+eac_revolutionary_faust_megacorps = {
+	name = "EMPIRE_DESIGN_revolutionary_faust"
+	adjective = "PRESCRIPTED_adjective_revolutionary_faust"
+	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
+
+	playable = has_megacorps_but_not_first_contact # Shared Burdens civic is from Megacorps DLC, Eager Exploeres civic is from First Contact DLC.
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_revolutionary_faust"
+
+	species = {
+		class = "AVI"
+		portrait = "mtrspony_hippogriff"
+		name = "PRESCRIPTED_species_hippogriff"
+		plural = "PRESCRIPTED_species_plural_hippogriff"
+		adjective = "PRESCRIPTED_species_adjective_hippogriff"
+		name_list = "mtrspony_namelists_hippogriff"
+		trait = "trait_organic"
+		trait = "trait_nomadic"
+		trait = "trait_adaptive"
+		trait = "trait_deviants"
+	}
+
+	room = "personality_migrating_flock_room"
+
+	authority = "auth_democratic"
+	civics = { "civic_meritocracy" "civic_shared_burden" "civic_idealistic_foundation" }
+	government = gov_soviet_republic
+
+	ethic = "ethic_fanatic_egalitarian"
+	ethic = "ethic_materialist"
+	ethic = "ethic_fanatic_socialism"
+
+	origin = "origin_default"
+
+	flag = empire_revolutionary_faust
+
+	planet_name = "NAME_Faust"
+	planet_class = "pc_continental"
+	initializer = "eaw_vanilla_initializer"
+	system_name = "NAME_Behemoth"
+
+	graphical_culture = avian_01
+	city_graphical_culture = avian_01
+
+	empire_flag = {
+		icon = {
+			category = "eqsatwarzebra3"
+			file = "HIP_POS.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "revolutionary_zebrica.dds"
+		}
+		colors = {
+			"indigo"
+			"white"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_starry_eyes"
+		ruler_title = "PRESCRIPTED_ruler_title_general_secretary"
+		ruler_title_female = "PRESCRIPTED_ruler_title_general_secretary_female"
+		gender = female
+		portrait = "mtrspony_hippogriff_silverstream"
+		texture = 12
+		attachment = 1
+		clothes = 1
+		trait = "leader_trait_principled"
+		leader_class = official
+	}
+}
+
+eac_revolutionary_faust_first_contact = {
+	name = "EMPIRE_DESIGN_revolutionary_faust"
+	adjective = "PRESCRIPTED_adjective_revolutionary_faust"
+	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
+
+	playable = has_first_contact_but_not_megacorps # Shared Burdens civic is from Megacorps DLC, Eager Exploeres civic is from First Contact DLC.
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_revolutionary_faust"
+
+	species = {
+		class = "AVI"
+		portrait = "mtrspony_hippogriff"
+		name = "PRESCRIPTED_species_hippogriff"
+		plural = "PRESCRIPTED_species_plural_hippogriff"
+		adjective = "PRESCRIPTED_species_adjective_hippogriff"
+		name_list = "mtrspony_namelists_hippogriff"
+		trait = "trait_organic"
+		trait = "trait_nomadic"
+		trait = "trait_adaptive"
+		trait = "trait_deviants"
+	}
+
+	room = "personality_migrating_flock_room"
+
+	authority = "auth_democratic"
+	civics = { "civic_eager_explorers" "civic_beacon_of_liberty" "civic_idealistic_foundation" }
+	government = gov_soviet_republic
+
+	ethic = "ethic_fanatic_egalitarian"
+	ethic = "ethic_materialist"
+	ethic = "ethic_fanatic_socialism"
+
+	origin = "origin_default"
+
+	flag = empire_revolutionary_faust
+
+	planet_name = "NAME_Faust"
+	planet_class = "pc_continental"
+	initializer = "eaw_vanilla_initializer"
+	system_name = "NAME_Behemoth"
+
+	graphical_culture = avian_01
+	city_graphical_culture = avian_01
+
+	empire_flag = {
+		icon = {
+			category = "eqsatwarzebra3"
+			file = "HIP_POS.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "revolutionary_zebrica.dds"
+		}
+		colors = {
+			"indigo"
+			"white"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_starry_eyes"
+		ruler_title = "PRESCRIPTED_ruler_title_general_secretary"
+		ruler_title_female = "PRESCRIPTED_ruler_title_general_secretary_female"
+		gender = female
+		portrait = "mtrspony_hippogriff_silverstream"
+		texture = 12
+		attachment = 1
+		clothes = 1
+		trait = "leader_trait_principled"
+		leader_class = official
+	}
+}
+
+eac_revolutionary_faust_megacorps_first_contact = {
+	name = "EMPIRE_DESIGN_revolutionary_faust"
+	adjective = "PRESCRIPTED_adjective_revolutionary_faust"
+	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
+
+	playable = has_megacorps_and_first_contact # Shared Burdens civic is from Megacorps DLC, Eager Exploeres civic is from First Contact DLC.
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_revolutionary_faust"
+
+	species = {
+		class = "AVI"
+		portrait = "mtrspony_hippogriff"
+		name = "PRESCRIPTED_species_hippogriff"
+		plural = "PRESCRIPTED_species_plural_hippogriff"
+		adjective = "PRESCRIPTED_species_adjective_hippogriff"
+		name_list = "mtrspony_namelists_hippogriff"
+		trait = "trait_organic"
+		trait = "trait_nomadic"
+		trait = "trait_adaptive"
+		trait = "trait_deviants"
+	}
+
+	room = "personality_migrating_flock_room"
+
+	authority = "auth_democratic"
+	civics = { "civic_eager_explorers" "civic_shared_burden" "civic_idealistic_foundation" }
+	government = gov_soviet_republic
+
+	ethic = "ethic_fanatic_egalitarian"
+	ethic = "ethic_materialist"
+	ethic = "ethic_fanatic_socialism"
+
+	origin = "origin_default"
+
+	flag = empire_revolutionary_faust
+
+	planet_name = "NAME_Faust"
+	planet_class = "pc_continental"
+	initializer = "eaw_vanilla_initializer"
+	system_name = "NAME_Behemoth"
+
+	graphical_culture = avian_01
+	city_graphical_culture = avian_01
+
+	empire_flag = {
+		icon = {
+			category = "eqsatwarzebra3"
+			file = "HIP_POS.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "revolutionary_zebrica.dds"
+		}
+		colors = {
+			"indigo"
+			"white"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_starry_eyes"
+		ruler_title = "PRESCRIPTED_ruler_title_general_secretary"
+		ruler_title_female = "PRESCRIPTED_ruler_title_general_secretary_female"
+		gender = female
+		portrait = "mtrspony_hippogriff_silverstream"
+		texture = 12
+		attachment = 1
+		clothes = 1
+		trait = "leader_trait_principled"
+		leader_class = official
+	}
+}
+
+eac_faustian_conglomerate = {
+	name = "EMPIRE_DESIGN_faustian_conglomerate"
+	adjective = "PRESCRIPTED_adjective_faustian_conglomerate"
+	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
+
+	playable = has_not_megacorps_and_toxoids # Corporate authority is from Megacorps DLC, Relentless Industrialists is from Toxoids DLC.
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_faustian_conglomerate"
+
+	species = {
+		class = "MAM"
+		portrait = "mtrspony_kirin"
+		name = "PRESCRIPTED_species_kirin"
+		plural = "PRESCRIPTED_species_plural_kirin"
+		adjective = "PRESCRIPTED_species_adjective_kirin"
+		name_list = "mtrspony_namelists_kirin"
+		trait = "trait_organic"
+		trait = "trait_agrarian"
+		trait = "trait_natural_engineers"
+		trait = "trait_wasteful"
+	}
+
+	room = "default_room"
+
+	authority = "auth_oligarchic"
+	civics = { "civic_corporate_dominion" "civic_corvee_system" "civic_efficient_bureaucracy" }
+	government = gov_trade_league
+
+	ethic = "ethic_fanatic_capitalism"
+	ethic = "ethic_authoritarian"
+	ethic = "ethic_materialist"
+	ethic = "ethic_industrial"
+
+	origin = "origin_default"
+
+	flag = empire_faustian_conglomerate
+
+	planet_name = "NAME_Faust"
+	planet_class = "pc_continental"
+	initializer = "eaw_vanilla_initializer"
+	system_name = "NAME_Behemoth"
+
+	graphical_culture = mammalian_01
+	city_graphical_culture = mammalian_01
+
+	empire_flag = {
+		icon = {
+			category = "eqsatwarzebra4"
+			file = "KIR2.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "kiria.dds"
+		}
+		colors = {
+			"red_orange"
+			"intense_blue"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_fickle_current"
+		ruler_title = "PRESCRIPTED_ruler_title_chief_executive_officer"
+		ruler_title_female = "PRESCRIPTED_ruler_title_chief_executive_officer"
+		gender = male
+		portrait = "mtrspony_kirin_pumpkin_smoke_male"
+		texture = 13
+		attachment = 14
+		clothes = 0
+		trait = "leader_trait_principled"
+		leader_class = official
+	}
+}
+
+eac_faustian_conglomerate_megacorps = {
+	name = "EMPIRE_DESIGN_faustian_conglomerate"
+	adjective = "PRESCRIPTED_adjective_faustian_conglomerate"
+	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
+
+	playable = has_megacorps_but_not_toxoids # Corporate authority is from Megacorps DLC, Relentless Industrialists is from Toxoids DLC.
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_faustian_conglomerate"
+
+	species = {
+		class = "MAM"
+		portrait = "mtrspony_kirin"
+		name = "PRESCRIPTED_species_kirin"
+		plural = "PRESCRIPTED_species_plural_kirin"
+		adjective = "PRESCRIPTED_species_adjective_kirin"
+		name_list = "mtrspony_namelists_kirin"
+		trait = "trait_organic"
+		trait = "trait_agrarian"
+		trait = "trait_natural_engineers"
+		trait = "trait_wasteful"
+	}
+
+	room = "default_room"
+
+	authority = "auth_corporate"
+	civics = { "civic_ruthless_competition" "civic_free_traders" "civic_trading_posts" }
+	government = gov_trade_league
+
+	ethic = "ethic_fanatic_capitalism"
+	ethic = "ethic_authoritarian"
+	ethic = "ethic_materialist"
+	ethic = "ethic_industrial"
+
+	origin = "origin_default"
+
+	flag = empire_faustian_conglomerate
+
+	planet_name = "NAME_Faust"
+	planet_class = "pc_continental"
+	initializer = "eaw_vanilla_initializer"
+	system_name = "NAME_Behemoth"
+
+	graphical_culture = mammalian_01
+	city_graphical_culture = mammalian_01
+
+	empire_flag = {
+		icon = {
+			category = "eqsatwarzebra4"
+			file = "KIR2.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "kiria.dds"
+		}
+		colors = {
+			"red_orange"
+			"intense_blue"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_fickle_current"
+		ruler_title = "PRESCRIPTED_ruler_title_chief_executive_officer"
+		ruler_title_female = "PRESCRIPTED_ruler_title_chief_executive_officer"
+		gender = male
+		portrait = "mtrspony_kirin_pumpkin_smoke_male"
+		texture = 13
+		attachment = 14
+		clothes = 0
+		trait = "leader_trait_principled"
+		leader_class = official
+	}
+}
+
+eac_faustian_conglomerate_toxoids = {
+	name = "EMPIRE_DESIGN_faustian_conglomerate"
+	adjective = "PRESCRIPTED_adjective_faustian_conglomerate"
+	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
+
+	playable = has_toxoids_but_not_megacorps # Corporate authority is from Megacorps DLC, Relentless Industrialists is from Toxoids DLC.
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_faustian_conglomerate"
+
+	species = {
+		class = "MAM"
+		portrait = "mtrspony_kirin"
+		name = "PRESCRIPTED_species_kirin"
+		plural = "PRESCRIPTED_species_plural_kirin"
+		adjective = "PRESCRIPTED_species_adjective_kirin"
+		name_list = "mtrspony_namelists_kirin"
+		trait = "trait_organic"
+		trait = "trait_agrarian"
+		trait = "trait_natural_engineers"
+		trait = "trait_wasteful"
+	}
+
+	room = "default_room"
+
+	authority = "auth_oligarchic"
+	civics = { "civic_corporate_dominion" "civic_relentless_industrialists" "civic_trading_posts" }
+	government = gov_trade_league
+
+	ethic = "ethic_fanatic_capitalism"
+	ethic = "ethic_authoritarian"
+	ethic = "ethic_materialist"
+	ethic = "ethic_industrial"
+
+	origin = "origin_default"
+
+	flag = empire_faustian_conglomerate
+
+	planet_name = "NAME_Faust"
+	planet_class = "pc_continental"
+	initializer = "eaw_vanilla_initializer"
+	system_name = "NAME_Behemoth"
+
+	graphical_culture = mammalian_01
+	city_graphical_culture = mammalian_01
+
+	empire_flag = {
+		icon = {
+			category = "eqsatwarzebra4"
+			file = "KIR2.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "kiria.dds"
+		}
+		colors = {
+			"red_orange"
+			"intense_blue"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_fickle_current"
+		ruler_title = "PRESCRIPTED_ruler_title_chief_executive_officer"
+		ruler_title_female = "PRESCRIPTED_ruler_title_chief_executive_officer"
+		gender = male
+		portrait = "mtrspony_kirin_pumpkin_smoke_male"
+		texture = 13
+		attachment = 14
+		clothes = 0
+		trait = "leader_trait_principled"
+		leader_class = official
+	}
+}
+
+eac_faustian_conglomerate_megacorps_toxoids = {
+	name = "EMPIRE_DESIGN_faustian_conglomerate"
+	adjective = "PRESCRIPTED_adjective_faustian_conglomerate"
+	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
+
+	playable = has_megacorps_and_toxoids # Corporate authority is from Megacorps DLC, Relentless Industrialists is from Toxoids DLC.
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_faustian_conglomerate"
+
+	species = {
+		class = "MAM"
+		portrait = "mtrspony_kirin"
+		name = "PRESCRIPTED_species_kirin"
+		plural = "PRESCRIPTED_species_plural_kirin"
+		adjective = "PRESCRIPTED_species_adjective_kirin"
+		name_list = "mtrspony_namelists_kirin"
+		trait = "trait_organic"
+		trait = "trait_agrarian"
+		trait = "trait_natural_engineers"
+		trait = "trait_wasteful"
+	}
+
+	room = "default_room"
+
+	authority = "auth_corporate"
+	civics = { "civic_ruthless_competition" "civic_corporate_relentless_industrialists" "civic_trading_posts" }
+	government = gov_trade_league
+
+	ethic = "ethic_fanatic_capitalism"
+	ethic = "ethic_authoritarian"
+	ethic = "ethic_materialist"
+	ethic = "ethic_industrial"
+
+	origin = "origin_default"
+
+	flag = empire_faustian_conglomerate
+
+	planet_name = "NAME_Faust"
+	planet_class = "pc_continental"
+	initializer = "eaw_vanilla_initializer"
+	system_name = "NAME_Behemoth"
+
+	graphical_culture = mammalian_01
+	city_graphical_culture = mammalian_01
+
+	empire_flag = {
+		icon = {
+			category = "eqsatwarzebra4"
+			file = "KIR2.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "kiria.dds"
+		}
+		colors = {
+			"red_orange"
+			"intense_blue"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_fickle_current"
+		ruler_title = "PRESCRIPTED_ruler_title_chief_executive_officer"
+		ruler_title_female = "PRESCRIPTED_ruler_title_chief_executive_officer"
+		gender = male
+		portrait = "mtrspony_kirin_pumpkin_smoke_male"
+		texture = 13
+		attachment = 14
+		clothes = 0
+		trait = "leader_trait_principled"
+		leader_class = official
+	}
+}
+
+eac_mangchijid_clan = {
+	name = "EMPIRE_DESIGN_mangchijid_clan"
+	adjective = "PRESCRIPTED_adjective_mangchijid_clan"
+	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
+
+	playable = has_not_paragon_and_nomads # Nomadic gameplay is from Nomads DLC. Heroic Past civic is from Galactic Paragons DLC.
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_mangchijid_clan"
+
+	species = {
+		class = "MAM"
+		portrait = "mtrspony_yak"
+		name = "PRESCRIPTED_species_yak"
+		plural = "PRESCRIPTED_species_plural_yak"
+		adjective = "PRESCRIPTED_species_adjective_yak"
+		name_list = "mtrspony_namelists_yak"
+		trait = "trait_organic"
+		trait = "trait_traditional"
+		trait = "trait_strong"
+		trait = "trait_nomadic"
+		trait = "trait_slow_learners"
+	}
+
+	room = "personality_honorbound_warriors_room"
+
+	authority = "auth_imperial"
+	civics = { "civic_cutthroat_politics" "civic_distinguished_admiralty" "civic_feudal_realm" }
+	government = gov_feudal_empire
+
+	ethic = "ethic_authoritarian"
+	ethic = "ethic_xenophile"
+	ethic = "ethic_militarist"
+	ethic = "ethic_spiritualist"
+	ethic = "ethic_capitalism"
+
+	origin = "origin_lost_colony"
+
+	flag = empire_mangchijid_clan_non_nomad
+
+	planet_name = "NAME_New_Yakistown"
+	planet_class = "pc_continental"
+	initializer = "deneb_system"
+	system_name = "NAME_Deneb"
+
+	graphical_culture = mammalian_01
+	city_graphical_culture = mammalian_01
+
+	empire_flag = {
+		icon = {
+			category = "eqsatwareqyakclans"
+			file = "MNG.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "horizontal_stripe_thicker.dds"
+		}
+		colors = {
+			"light_blue"
+			"brown"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_rutherford"
+		ruler_title = "PRESCRIPTED_ruler_title_khan"
+		ruler_title_female = "PRESCRIPTED_ruler_title_khatun"
+		heir_title = "PRESCRIPTED_ruler_title_khanzadeh"
+		heir_title_female = "PRESCRIPTED_ruler_title_khanzadeh"
+		gender = male
+		portrait = "mtrspony_yak_rutherford"
+		texture = 0
+		attachment = 0
+		clothes = 0
+		trait = "leader_trait_principled"
+		leader_class = official
+	}
+}
+
+eac_mangchijid_clan_paragons = {
+	name = "EMPIRE_DESIGN_mangchijid_clan"
+	adjective = "PRESCRIPTED_adjective_mangchijid_clan"
+	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
+
+	playable = has_paragon_but_not_nomads # Nomadic gameplay is from Nomads DLC. Heroic Past civic is from Galactic Paragons DLC.
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_mangchijid_clan"
+
+	species = {
+		class = "MAM"
+		portrait = "mtrspony_yak"
+		name = "PRESCRIPTED_species_yak"
+		plural = "PRESCRIPTED_species_plural_yak"
+		adjective = "PRESCRIPTED_species_adjective_yak"
+		name_list = "mtrspony_namelists_yak"
+		trait = "trait_organic"
+		trait = "trait_traditional"
+		trait = "trait_strong"
+		trait = "trait_nomadic"
+		trait = "trait_slow_learners"
+	}
+
+	room = "personality_honorbound_warriors_room"
+
+	authority = "auth_imperial"
+	civics = { "civic_heroic_tales" "civic_distinguished_admiralty" "civic_feudal_realm" }
+	government = gov_feudal_empire
+
+	ethic = "ethic_authoritarian"
+	ethic = "ethic_xenophile"
+	ethic = "ethic_militarist"
+	ethic = "ethic_spiritualist"
+	ethic = "ethic_capitalism"
+
+	origin = "origin_lost_colony"
+
+	flag = empire_mangchijid_clan_non_nomad
+
+	planet_name = "NAME_New_Yakistown"
+	planet_class = "pc_continental"
+	initializer = "deneb_system"
+	system_name = "NAME_Deneb"
+
+	graphical_culture = mammalian_01
+	city_graphical_culture = mammalian_01
+
+	empire_flag = {
+		icon = {
+			category = "eqsatwareqyakclans"
+			file = "MNG.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "horizontal_stripe_thicker.dds"
+		}
+		colors = {
+			"light_blue"
+			"brown"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_rutherford"
+		ruler_title = "PRESCRIPTED_ruler_title_khan"
+		ruler_title_female = "PRESCRIPTED_ruler_title_khatun"
+		heir_title = "PRESCRIPTED_ruler_title_khanzadeh"
+		heir_title_female = "PRESCRIPTED_ruler_title_khanzadeh"
+		gender = male
+		portrait = "mtrspony_yak_rutherford"
+		texture = 0
+		attachment = 0
+		clothes = 0
+		trait = "leader_trait_principled"
+		leader_class = official
+	}
+}
+
+eac_mangchijid_clan_nomads = {
+	name = "EMPIRE_DESIGN_mangchijid_clan"
+	adjective = "PRESCRIPTED_adjective_mangchijid_clan"
+	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
+
+	playable = has_nomads_but_not_paragon # Nomadic gameplay is from Nomads DLC. Heroic Past civic is from Galactic Paragons DLC.
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_mangchijid_clan"
+
+	species = {
+		class = "MAM"
+		portrait = "mtrspony_yak"
+		name = "PRESCRIPTED_species_yak"
+		plural = "PRESCRIPTED_species_plural_yak"
+		adjective = "PRESCRIPTED_species_adjective_yak"
+		name_list = "mtrspony_namelists_yak"
+		trait = "trait_organic"
+		trait = "trait_traditional"
+		trait = "trait_strong"
+		trait = "trait_nomadic"
+		trait = "trait_slow_learners"
+	}
+
+	is_nomadic = yes
+	room = "personality_honorbound_warriors_room"
+
+	authority = "auth_imperial"
+	civics = { "civic_cutthroat_politics" "civic_distinguished_admiralty" "civic_feudal_realm" }
+	government = gov_feudal_empire
+
+	ethic = "ethic_authoritarian"
+	ethic = "ethic_xenophile"
+	ethic = "ethic_militarist"
+	ethic = "ethic_spiritualist"
+	ethic = "ethic_capitalism"
+
+	origin = "origin_heirs_of_the_khan"
+
+	flag = empire_mangchijid_clan
+
+	planet_name = "YAK_SHIP_yakistown"
+	planet_class = "pc_ark"
+	ship_size = "military_arkship_tier_1"
+	initializer = "protoplanetary_nomad_init"
+	system_name = "NAME_Behemoth"
+
+	graphical_culture = mammalian_01
+	city_graphical_culture = mammalian_01
+
+	empire_flag = {
+		icon = {
+			category = "eqsatwareqyakclans"
+			file = "MNG.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "horizontal_stripe_thicker.dds"
+		}
+		colors = {
+			"light_blue"
+			"brown"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_rutherford"
+		ruler_title = "PRESCRIPTED_ruler_title_khan"
+		ruler_title_female = "PRESCRIPTED_ruler_title_khatun"
+		heir_title = "PRESCRIPTED_ruler_title_khanzadeh"
+		heir_title_female = "PRESCRIPTED_ruler_title_khanzadeh"
+		gender = male
+		portrait = "mtrspony_yak_rutherford"
+		texture = 0
+		attachment = 0
+		clothes = 0
+		trait = "leader_trait_principled"
+		leader_class = official
+	}
+}
+
+eac_mangchijid_clan_paragons_nomads = {
+	name = "EMPIRE_DESIGN_mangchijid_clan"
+	adjective = "PRESCRIPTED_adjective_mangchijid_clan"
+	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
+
+	playable = has_paragon_and_nomads # Nomadic gameplay is from Nomads DLC. Heroic Past civic is from Galactic Paragons DLC.
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_mangchijid_clan"
+
+	species = {
+		class = "MAM"
+		portrait = "mtrspony_yak"
+		name = "PRESCRIPTED_species_yak"
+		plural = "PRESCRIPTED_species_plural_yak"
+		adjective = "PRESCRIPTED_species_adjective_yak"
+		name_list = "mtrspony_namelists_yak"
+		trait = "trait_organic"
+		trait = "trait_traditional"
+		trait = "trait_strong"
+		trait = "trait_nomadic"
+		trait = "trait_slow_learners"
+	}
+
+	is_nomadic = yes
+	room = "personality_honorbound_warriors_room"
+
+	authority = "auth_imperial"
+	civics = { "civic_heroic_tales" "civic_distinguished_admiralty" "civic_feudal_realm" }
+	government = gov_feudal_empire
+
+	ethic = "ethic_authoritarian"
+	ethic = "ethic_xenophile"
+	ethic = "ethic_militarist"
+	ethic = "ethic_spiritualist"
+	ethic = "ethic_capitalism"
+
+	origin = "origin_heirs_of_the_khan"
+
+	flag = empire_mangchijid_clan
+
+	planet_name = "YAK_SHIP_yakistown"
+	planet_class = "pc_ark"
+	ship_size = "military_arkship_tier_1"
+	initializer = "protoplanetary_nomad_init"
+	system_name = "NAME_Behemoth"
+
+	graphical_culture = mammalian_01
+	city_graphical_culture = mammalian_01
+
+	empire_flag = {
+		icon = {
+			category = "eqsatwareqyakclans"
+			file = "MNG.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "horizontal_stripe_thicker.dds"
+		}
+		colors = {
+			"light_blue"
+			"brown"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_rutherford"
+		ruler_title = "PRESCRIPTED_ruler_title_khan"
+		ruler_title_female = "PRESCRIPTED_ruler_title_khatun"
+		heir_title = "PRESCRIPTED_ruler_title_khanzadeh"
+		heir_title_female = "PRESCRIPTED_ruler_title_khanzadeh"
+		gender = male
+		portrait = "mtrspony_yak_rutherford"
+		texture = 0
+		attachment = 0
+		clothes = 0
+		trait = "leader_trait_principled"
+		leader_class = official
+	}
+}
+
+eac_new_draconian_empire = {
+	name = "EMPIRE_DESIGN_new_draconian_empire"
+	adjective = "PRESCRIPTED_adjective_new_draconian_empire"
+	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
+
+	playable = has_not_apocalypse_and_grand_archive # Post-Apocalyptic origin is from Apocalypse DLC. Beastmasters civic is from Grand Archive DLC.
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_new_draconian_empire"
+
+	species = {
+		class = "REP"
+		portrait = "mtrspony_dragon"
+		name = "PRESCRIPTED_species_dragon"
+		plural = "PRESCRIPTED_species_plural_dragon"
+		adjective = "PRESCRIPTED_species_adjective_dragon"
+		name_list = "mtrspony_namelists_dragon"
+		trait = "trait_organic"
+		trait = "trait_strong"
+		trait = "trait_venerable"
+		trait = "trait_slow_breeders"
+		trait = "trait_solitary"
+	}
+
+	room = "lithoid_room"
+
+	authority = "auth_dictatorial"
+	civics = { "civic_functional_architecture" "civic_warrior_culture" "civic_nationalistic_zeal" }
+	government = gov_jingoism
+
+	ethic = "ethic_fanatic_militarist"
+	ethic = "ethic_authoritarian"
+	ethic = "ethic_xenophobe"
+	ethic = "ethic_capitalism"
+
+	origin = "origin_default"
+
+	flag = empire_new_draconian_empire
+
+	planet_name = "NAME_Faust"
+	planet_class = "pc_arctic"
+	initializer = "eaw_vanilla_initializer"
+	system_name = "NAME_Behemoth"
+
+	graphical_culture = reptilian_01
+	city_graphical_culture = reptilian_01
+
+	empire_flag = {
+		icon = {
+			category = "eqsatwarzebra3"
+			file = "IDT.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors = {
+			"sky_blue"
+			"sky_blue"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_arcin_the_defiler"
+		ruler_title = "PRESCRIPTED_ruler_title_dragon_lord"
+		ruler_title_female = "PRESCRIPTED_ruler_title_dragon_lord"
+		gender = female
+		portrait = "mtrspony_dragon_ember"
+		texture = 13
+		attachment = 13
+		clothes = 0
+		trait = "trait_ruler_warlike"
+		leader_class = commander
+	}
+}
+
+eac_new_draconian_empire_apocalypse = {
+	name = "EMPIRE_DESIGN_new_draconian_empire"
+	adjective = "PRESCRIPTED_adjective_new_draconian_empire"
+	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
+
+	playable = has_apocalypse_but_not_grand_archive # Post-Apocalyptic origin is from Apocalypse DLC. Beastmasters civic is from Grand Archive DLC.
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_new_draconian_empire"
+
+	species = {
+		class = "REP"
+		portrait = "mtrspony_dragon"
+		name = "PRESCRIPTED_species_dragon"
+		plural = "PRESCRIPTED_species_plural_dragon"
+		adjective = "PRESCRIPTED_species_adjective_dragon"
+		name_list = "mtrspony_namelists_dragon"
+		trait = "trait_organic"
+		trait = "trait_survivor"
+		trait = "trait_strong"
+		trait = "trait_venerable"
+		trait = "trait_slow_breeders"
+		trait = "trait_solitary"
+	}
+
+	room = "lithoid_room"
+
+	authority = "auth_dictatorial"
+	civics = { "civic_functional_architecture" "civic_warrior_culture" "civic_nationalistic_zeal" }
+	government = gov_jingoism
+
+	ethic = "ethic_fanatic_militarist"
+	ethic = "ethic_authoritarian"
+	ethic = "ethic_xenophobe"
+	ethic = "ethic_capitalism"
+
+	origin = "origin_post_apocalyptic"
+
+	flag = empire_new_draconian_empire
+
+	planet_name = "NAME_Faust"
+	planet_class = "pc_arctic"
+	initializer = "eaw_vanilla_initializer"
+	system_name = "NAME_Behemoth"
+
+	graphical_culture = reptilian_01
+	city_graphical_culture = reptilian_01
+
+	empire_flag = {
+		icon = {
+			category = "eqsatwarzebra3"
+			file = "IDT.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors = {
+			"sky_blue"
+			"sky_blue"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_arcin_the_defiler"
+		ruler_title = "PRESCRIPTED_ruler_title_dragon_lord"
+		ruler_title_female = "PRESCRIPTED_ruler_title_dragon_lord"
+		gender = female
+		portrait = "mtrspony_dragon_ember"
+		texture = 13
+		attachment = 13
+		clothes = 0
+		trait = "trait_ruler_warlike"
+		leader_class = commander
+	}
+}
+
+eac_new_draconian_empire_grand_archive = {
+	name = "EMPIRE_DESIGN_new_draconian_empire"
+	adjective = "PRESCRIPTED_adjective_new_draconian_empire"
+	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
+
+	playable = has_grand_archive_but_not_apocalypse # Post-Apocalyptic origin is from Apocalypse DLC. Beastmasters civic is from Grand Archive DLC.
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_new_draconian_empire"
+
+	species = {
+		class = "REP"
+		portrait = "mtrspony_dragon"
+		name = "PRESCRIPTED_species_dragon"
+		plural = "PRESCRIPTED_species_plural_dragon"
+		adjective = "PRESCRIPTED_species_adjective_dragon"
+		name_list = "mtrspony_namelists_dragon"
+		trait = "trait_organic"
+		trait = "trait_survivor"
+		trait = "trait_strong"
+		trait = "trait_venerable"
+		trait = "trait_slow_breeders"
+		trait = "trait_solitary"
+	}
+
+	room = "lithoid_room"
+
+	authority = "auth_dictatorial"
+	civics = { "civic_functional_architecture" "civic_warrior_culture" "civic_beastmasters" }
+	government = gov_jingoism
+
+	ethic = "ethic_fanatic_militarist"
+	ethic = "ethic_authoritarian"
+	ethic = "ethic_xenophobe"
+	ethic = "ethic_capitalism"
+
+	origin = "origin_default"
+
+	flag = empire_new_draconian_empire
+
+	planet_name = "NAME_Faust"
+	planet_class = "pc_arctic"
+	initializer = "eaw_vanilla_initializer"
+	system_name = "NAME_Behemoth"
+
+	graphical_culture = reptilian_01
+	city_graphical_culture = reptilian_01
+
+	empire_flag = {
+		icon = {
+			category = "eqsatwarzebra3"
+			file = "IDT.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors = {
+			"sky_blue"
+			"sky_blue"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_arcin_the_defiler"
+		ruler_title = "PRESCRIPTED_ruler_title_dragon_lord"
+		ruler_title_female = "PRESCRIPTED_ruler_title_dragon_lord"
+		gender = female
+		portrait = "mtrspony_dragon_ember"
+		texture = 13
+		attachment = 13
+		clothes = 0
+		trait = "trait_ruler_warlike"
+		leader_class = commander
+	}
+}
+
+eac_new_draconian_empire_apocalypse_grand_archive = {
+	name = "EMPIRE_DESIGN_new_draconian_empire"
+	adjective = "PRESCRIPTED_adjective_new_draconian_empire"
+	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
+
+	playable = has_apocalypse_and_grand_archive # Post-Apocalyptic origin is from Apocalypse DLC. Beastmasters civic is from Grand Archive DLC.
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_new_draconian_empire"
+
+	species = {
+		class = "REP"
+		portrait = "mtrspony_dragon"
+		name = "PRESCRIPTED_species_dragon"
+		plural = "PRESCRIPTED_species_plural_dragon"
+		adjective = "PRESCRIPTED_species_adjective_dragon"
+		name_list = "mtrspony_namelists_dragon"
+		trait = "trait_organic"
+		trait = "trait_survivor"
+		trait = "trait_strong"
+		trait = "trait_venerable"
+		trait = "trait_slow_breeders"
+		trait = "trait_solitary"
+	}
+
+	room = "lithoid_room"
+
+	authority = "auth_dictatorial"
+	civics = { "civic_functional_architecture" "civic_warrior_culture" "civic_beastmasters" }
+	government = gov_jingoism
+
+	ethic = "ethic_fanatic_militarist"
+	ethic = "ethic_authoritarian"
+	ethic = "ethic_xenophobe"
+	ethic = "ethic_capitalism"
+
+	origin = "origin_post_apocalyptic"
+
+	flag = empire_new_draconian_empire
+
+	planet_name = "NAME_Faust"
+	planet_class = "pc_arctic"
+	initializer = "eaw_vanilla_initializer"
+	system_name = "NAME_Behemoth"
+
+	graphical_culture = reptilian_01
+	city_graphical_culture = reptilian_01
+
+	empire_flag = {
+		icon = {
+			category = "eqsatwarzebra3"
+			file = "IDT.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors = {
+			"sky_blue"
+			"sky_blue"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_arcin_the_defiler"
+		ruler_title = "PRESCRIPTED_ruler_title_dragon_lord"
+		ruler_title_female = "PRESCRIPTED_ruler_title_dragon_lord"
+		gender = female
+		portrait = "mtrspony_dragon_ember"
+		texture = 13
+		attachment = 13
+		clothes = 0
+		trait = "trait_ruler_warlike"
+		leader_class = commander
+	}
+}

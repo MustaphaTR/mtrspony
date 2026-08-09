@@ -1,4 +1,6 @@
 namespace = mcstart
+namespace = gcstart
+namespace = jcstart
 
 #Setup Mangchijid Clan
 country_event = {
@@ -187,6 +189,56 @@ country_event = {
 		}
 		event_target:leader_yona = {
 			change_leader_portrait = "mtrspony_yak_yona_predefined"
+		}
+	}
+}
+
+# Compability with Ethics and Civics Classic, adding extra ethics and civics.
+country_event = {
+	id = gcstart.1002
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		if = {
+			limit = { has_global_flag = ethic_civic_classic_active }
+
+			country_add_ethic = ethic_fanatic_socialism
+			change_government = {
+				authority = auth_democratic
+				cooldown = no
+				remove_invalid_civics = yes
+				civics = { civic = civic_shared_burden civic = civic_distinguished_admiralty civic = civic_idealistic_foundation }
+			}
+		}
+		else = {
+			change_government = {
+				authority = auth_democratic
+				cooldown = no
+				remove_invalid_civics = yes
+				civics = { civic = civic_shared_burden civic = civic_distinguished_admiralty }
+			}
+		}
+	}
+}
+
+# Compability with Ethics and Civics Classic, adding extra ethics and civics.
+country_event = {
+	id = jcstart.1002
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		has_global_flag = ethic_civic_classic_active
+	}
+	immediate = {
+		country_add_ethic = ethic_green
+		country_add_ethic = ethic_fanatic_authoritarian
+		change_government = {
+			authority = auth_imperial
+			cooldown = no
+			remove_invalid_civics = yes
+			civics = { civic = civic_agrarian_idyll civic = civic_heroic_tales civic = civic_feudal_realm }
 		}
 	}
 }
