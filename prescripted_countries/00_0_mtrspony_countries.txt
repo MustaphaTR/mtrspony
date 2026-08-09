@@ -1418,7 +1418,7 @@ griffonian_empire = {
 
 	empire_flag = {
 		icon = {
-			category = "eqsatwargriffon2"
+			category = "eqsatwargriffon3"
 			file = "GRI.dds"
 		}
 		background = {
