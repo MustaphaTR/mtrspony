@@ -88,6 +88,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/icons/traits/leader_trait_icons/cutie_mark_petunia_paleo.dds"
 	}
 	spriteType = {
+		name = "GFX_leader_trait_cutie_mark_phyllis_cloverleaf"
+		texturefile = "gfx/interface/icons/traits/leader_trait_icons/cutie_mark_phyllis_cloverleaf.dds"
+	}
+	spriteType = {
 		name = "GFX_leader_trait_cutie_mark_quiet_gestures"
 		texturefile = "gfx/interface/icons/traits/leader_trait_icons/cutie_mark_quiet_gestures.dds"
 	}
@@ -158,6 +162,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_leader_trait_cutie_mark_vapor_trail"
 		texturefile = "gfx/interface/icons/traits/leader_trait_icons/cutie_mark_vapor_trail.dds"
+	}
+	spriteType = {
+		name = "GFX_leader_trait_cutie_mark_wild_fire"
+		texturefile = "gfx/interface/icons/traits/leader_trait_icons/cutie_mark_wild_fire.dds"
 	}
 	spriteType = {
 		name = "GFX_leader_trait_cutie_mark_yona"

@@ -399,7 +399,7 @@ leader_trait_cutie_mark_cherry_berry = {
 leader_trait_cutie_mark_computing = {
 	#starting_ruler_trait = yes
 	cost = 0
-	opposites = { "leader_trait_cutie_mark_field_manupilation" "leader_trait_cutie_mark_particles" "leader_trait_cutie_mark_biology" "leader_trait_cutie_mark_new_worlds" "leader_trait_cutie_mark_military_theory" "leader_trait_cutie_mark_statecraft" "leader_trait_cutie_mark_archaeology" "leader_trait_cutie_mark_industry" "leader_trait_cutie_mark_materials" "leader_trait_cutie_mark_propulsion" "leader_trait_cutie_mark_voidcraft" }
+	opposites = { "leader_trait_cutie_mark_field_manupilation" "leader_trait_cutie_mark_particles" "leader_trait_cutie_mark_biology" "leader_trait_cutie_mark_new_worlds" "leader_trait_cutie_mark_military_theory" "leader_trait_cutie_mark_statecraft" "leader_trait_cutie_mark_archaeology" "leader_trait_cutie_mark_economics" "leader_trait_cutie_mark_industry" "leader_trait_cutie_mark_materials" "leader_trait_cutie_mark_propulsion" "leader_trait_cutie_mark_voidcraft" }
 	inline_script = {
 		script = trait/icon_cutie_mark
 		ICON = "GFX_leader_trait_cutie_mark_button_mash"
@@ -523,7 +523,7 @@ leader_trait_cutie_mark_shields = {
 leader_trait_cutie_mark_field_manupilation = {
 	#starting_ruler_trait = yes
 	cost = 0
-	opposites = { "leader_trait_cutie_mark_computing" "leader_trait_cutie_mark_particles" "leader_trait_cutie_mark_biology" "leader_trait_cutie_mark_new_worlds" "leader_trait_cutie_mark_military_theory" "leader_trait_cutie_mark_statecraft" "leader_trait_cutie_mark_archaeology" "leader_trait_cutie_mark_industry" "leader_trait_cutie_mark_materials" "leader_trait_cutie_mark_propulsion" "leader_trait_cutie_mark_voidcraft" }
+	opposites = { "leader_trait_cutie_mark_computing" "leader_trait_cutie_mark_particles" "leader_trait_cutie_mark_biology" "leader_trait_cutie_mark_new_worlds" "leader_trait_cutie_mark_military_theory" "leader_trait_cutie_mark_statecraft" "leader_trait_cutie_mark_archaeology" "leader_trait_cutie_mark_economics" "leader_trait_cutie_mark_industry" "leader_trait_cutie_mark_materials" "leader_trait_cutie_mark_propulsion" "leader_trait_cutie_mark_voidcraft" }
 	inline_script = {
 		script = trait/icon_cutie_mark
 		ICON = "GFX_leader_trait_cutie_mark_twilight_sparkle"
@@ -607,7 +607,7 @@ leader_trait_cutie_mark_energy = {
 leader_trait_cutie_mark_particles = {
 	#starting_ruler_trait = yes
 	cost = 0
-	opposites = { "leader_trait_cutie_mark_computing" "leader_trait_cutie_mark_field_manupilation" "leader_trait_cutie_mark_biology" "leader_trait_cutie_mark_new_worlds" "leader_trait_cutie_mark_military_theory" "leader_trait_cutie_mark_statecraft" "leader_trait_cutie_mark_archaeology" "leader_trait_cutie_mark_industry" "leader_trait_cutie_mark_materials" "leader_trait_cutie_mark_propulsion" "leader_trait_cutie_mark_voidcraft" }
+	opposites = { "leader_trait_cutie_mark_computing" "leader_trait_cutie_mark_field_manupilation" "leader_trait_cutie_mark_biology" "leader_trait_cutie_mark_new_worlds" "leader_trait_cutie_mark_military_theory" "leader_trait_cutie_mark_statecraft" "leader_trait_cutie_mark_archaeology" "leader_trait_cutie_mark_economics" "leader_trait_cutie_mark_industry" "leader_trait_cutie_mark_materials" "leader_trait_cutie_mark_propulsion" "leader_trait_cutie_mark_voidcraft" }
 	inline_script = {
 		script = trait/icon_cutie_mark
 		ICON = "GFX_leader_trait_cutie_mark_sunburst"
@@ -657,7 +657,7 @@ leader_trait_cutie_mark_particles = {
 leader_trait_cutie_mark_biology = {
 	#starting_ruler_trait = yes
 	cost = 0
-	opposites = { "leader_trait_cutie_mark_computing" "leader_trait_cutie_mark_field_manupilation" "leader_trait_cutie_mark_particles" "leader_trait_cutie_mark_new_worlds" "leader_trait_cutie_mark_military_theory" "leader_trait_cutie_mark_statecraft" "leader_trait_cutie_mark_archaeology" "leader_trait_cutie_mark_industry" "leader_trait_cutie_mark_materials" "leader_trait_cutie_mark_propulsion" "leader_trait_cutie_mark_voidcraft" }
+	opposites = { "leader_trait_cutie_mark_computing" "leader_trait_cutie_mark_field_manupilation" "leader_trait_cutie_mark_particles" "leader_trait_cutie_mark_new_worlds" "leader_trait_cutie_mark_military_theory" "leader_trait_cutie_mark_statecraft" "leader_trait_cutie_mark_archaeology" "leader_trait_cutie_mark_economics" "leader_trait_cutie_mark_industry" "leader_trait_cutie_mark_materials" "leader_trait_cutie_mark_propulsion" "leader_trait_cutie_mark_voidcraft" }
 	inline_script = {
 		script = trait/icon_cutie_mark
 		ICON = "GFX_leader_trait_cutie_mark_fluttershy"
@@ -781,7 +781,7 @@ leader_trait_cutie_mark_farming = {
 leader_trait_cutie_mark_military_theory = {
 	#starting_ruler_trait = yes
 	cost = 0
-	opposites = { "leader_trait_cutie_mark_computing" "leader_trait_cutie_mark_field_manupilation" "leader_trait_cutie_mark_particles" "leader_trait_cutie_mark_biology" "leader_trait_cutie_mark_new_worlds" "leader_trait_cutie_mark_statecraft" "leader_trait_cutie_mark_archaeology" "leader_trait_cutie_mark_industry" "leader_trait_cutie_mark_materials" "leader_trait_cutie_mark_propulsion" "leader_trait_cutie_mark_voidcraft" }
+	opposites = { "leader_trait_cutie_mark_computing" "leader_trait_cutie_mark_field_manupilation" "leader_trait_cutie_mark_particles" "leader_trait_cutie_mark_biology" "leader_trait_cutie_mark_new_worlds" "leader_trait_cutie_mark_statecraft" "leader_trait_cutie_mark_archaeology" "leader_trait_cutie_mark_economics" "leader_trait_cutie_mark_industry" "leader_trait_cutie_mark_materials" "leader_trait_cutie_mark_propulsion" "leader_trait_cutie_mark_voidcraft" }
 	inline_script = {
 		script = trait/icon_cutie_mark
 		ICON = "GFX_leader_trait_cutie_mark_silver_star"
@@ -887,7 +887,7 @@ leader_trait_cutie_mark_military_theory = {
 leader_trait_cutie_mark_new_worlds = {
 	#starting_ruler_trait = yes
 	cost = 0
-	opposites = { "leader_trait_cutie_mark_computing" "leader_trait_cutie_mark_field_manupilation" "leader_trait_cutie_mark_particles" "leader_trait_cutie_mark_biology" "leader_trait_cutie_mark_military_theory" "leader_trait_cutie_mark_statecraft" "leader_trait_cutie_mark_archaeology" "leader_trait_cutie_mark_industry" "leader_trait_cutie_mark_materials" "leader_trait_cutie_mark_propulsion" "leader_trait_cutie_mark_voidcraft" }
+	opposites = { "leader_trait_cutie_mark_computing" "leader_trait_cutie_mark_field_manupilation" "leader_trait_cutie_mark_particles" "leader_trait_cutie_mark_biology" "leader_trait_cutie_mark_military_theory" "leader_trait_cutie_mark_statecraft" "leader_trait_cutie_mark_archaeology" "leader_trait_cutie_mark_economics" "leader_trait_cutie_mark_industry" "leader_trait_cutie_mark_materials" "leader_trait_cutie_mark_propulsion" "leader_trait_cutie_mark_voidcraft" }
 	inline_script = {
 		script = trait/icon_cutie_mark
 		ICON = "GFX_leader_trait_cutie_mark_sprout_greenhoof"
@@ -970,7 +970,7 @@ leader_trait_cutie_mark_new_worlds = {
 leader_trait_cutie_mark_statecraft = {
 	#starting_ruler_trait = yes
 	cost = 0
-	opposites = { "leader_trait_cutie_mark_computing" "leader_trait_cutie_mark_field_manupilation" "leader_trait_cutie_mark_particles" "leader_trait_cutie_mark_biology" "leader_trait_cutie_mark_new_worlds" "leader_trait_cutie_mark_military_theory" "leader_trait_cutie_mark_archaeology" "leader_trait_cutie_mark_industry" "leader_trait_cutie_mark_materials" "leader_trait_cutie_mark_propulsion" "leader_trait_cutie_mark_voidcraft" }
+	opposites = { "leader_trait_cutie_mark_computing" "leader_trait_cutie_mark_field_manupilation" "leader_trait_cutie_mark_particles" "leader_trait_cutie_mark_biology" "leader_trait_cutie_mark_new_worlds" "leader_trait_cutie_mark_military_theory" "leader_trait_cutie_mark_archaeology" "leader_trait_cutie_mark_economics" "leader_trait_cutie_mark_industry" "leader_trait_cutie_mark_materials" "leader_trait_cutie_mark_propulsion" "leader_trait_cutie_mark_voidcraft" }
 	inline_script = {
 		script = trait/icon_cutie_mark
 		ICON = "GFX_leader_trait_cutie_mark_mayor_mare"
@@ -1043,7 +1043,7 @@ leader_trait_cutie_mark_bureaucracy = {
 leader_trait_cutie_mark_archaeology = {
 	#starting_ruler_trait = yes
 	cost = 0
-	opposites = { "leader_trait_cutie_mark_computing" "leader_trait_cutie_mark_field_manupilation" "leader_trait_cutie_mark_particles" "leader_trait_cutie_mark_biology" "leader_trait_cutie_mark_new_worlds" "leader_trait_cutie_mark_military_theory" "leader_trait_cutie_mark_statecraft" "leader_trait_cutie_mark_industry" "leader_trait_cutie_mark_materials" "leader_trait_cutie_mark_propulsion" "leader_trait_cutie_mark_voidcraft" }
+	opposites = { "leader_trait_cutie_mark_computing" "leader_trait_cutie_mark_field_manupilation" "leader_trait_cutie_mark_particles" "leader_trait_cutie_mark_biology" "leader_trait_cutie_mark_new_worlds" "leader_trait_cutie_mark_military_theory" "leader_trait_cutie_mark_statecraft" "leader_trait_cutie_mark_economics" "leader_trait_cutie_mark_industry" "leader_trait_cutie_mark_materials" "leader_trait_cutie_mark_propulsion" "leader_trait_cutie_mark_voidcraft" }
 	inline_script = {
 		script = trait/icon_cutie_mark
 		ICON = "GFX_leader_trait_cutie_mark_petunia_paleo"
@@ -1118,6 +1118,150 @@ leader_trait_cutie_mark_archaeology = {
 	randomized = no
 }
 
+# Economics; from Ethics and Civics Classic mod.
+leader_trait_cutie_mark_logistics = {
+	inline_script = {
+		script = trait/icon_cutie_mark
+		ICON = "GFX_leader_trait_cutie_mark_wild_fire"
+		COUNCIL = triggered
+		TIER = none
+	}
+	triggered_councilor_modifier = {
+		potential = {
+			leader_class = commander
+			OR = {
+				is_councilor = yes
+				trait_is_gestalt_check = no
+			}
+		}
+		armies_upkeep_mult = -0.1
+	}
+	triggered_fleet_modifier = {
+		potential = {
+			leader_class = commander
+			trait_is_nomad_check = no
+		}
+		ship_orbit_upkeep_mult = -0.10
+	}
+	triggered_fleet_modifier = {
+		potential = {
+			leader_class = commander
+			trait_is_nomad_check = yes
+		}
+		ships_upkeep_mult = -0.05
+	}
+	triggered_army_modifier = {
+		potential = {
+			leader_class = commander
+			is_councilor = no
+			trait_is_gestalt_check = yes
+		}
+		armies_upkeep_mult = -0.1
+	}
+	# Official Part is copied from Trade mark; should only be used for Gestalts for name's sake.
+	triggered_councilor_modifier = {
+		potential = {
+			leader_class = official
+			OR = {
+				is_councilor = yes
+				trait_is_gestalt_check = no
+			}
+		}
+		commercial_pact_mult = 0.025
+	}
+	triggered_planet_modifier = {
+		potential = {
+			leader_class = official
+			trait_is_gestalt_check = no
+		}
+		pop_trader_bonus_workforce_mult = 0.05
+	}
+	triggered_sector_modifier = {
+		potential = {
+			leader_class = official
+			trait_is_gestalt_check = no
+		}
+		pop_trader_bonus_workforce_mult = 0.025
+	}
+	triggered_planet_modifier = {
+		potential = {
+			leader_class = official
+			trait_is_gestalt_check = yes
+		}
+		pop_logistics_drone_bonus_workforce_mult = 0.05
+	}
+	triggered_sector_modifier = {
+		potential = {
+			leader_class = official
+			trait_is_gestalt_check = yes
+		}
+		pop_logistics_drone_bonus_workforce_mult = 0.025
+	}
+	leader_class = { commander official }
+	selectable_weight = 0
+	randomized = no
+}
+leader_trait_cutie_mark_economics = {
+	#starting_ruler_trait = yes
+	cost = 0
+	opposites = { "leader_trait_cutie_mark_computing" "leader_trait_cutie_mark_field_manupilation" "leader_trait_cutie_mark_particles" "leader_trait_cutie_mark_biology" "leader_trait_cutie_mark_new_worlds" "leader_trait_cutie_mark_military_theory" "leader_trait_cutie_mark_statecraft" "leader_trait_cutie_mark_archaeology" "leader_trait_cutie_mark_industry" "leader_trait_cutie_mark_materials" "leader_trait_cutie_mark_propulsion" "leader_trait_cutie_mark_voidcraft" }
+	inline_script = {
+		script = trait/icon_cutie_mark
+		ICON = "GFX_leader_trait_cutie_mark_phyllis_cloverleaf"
+		COUNCIL = yes
+		TIER = none
+	}
+	triggered_councilor_modifier = {
+		potential = {
+			OR = {
+				is_councilor = yes
+				trait_is_gestalt_check = no
+			}
+		}
+		category_good_trading_research_speed_mult = 0.075
+		category_good_trading_draw_chance_mult = 0.125
+	}
+	leader_class = { scientist }
+	selectable_weight = 0
+	randomized = no
+}
+leader_trait_cutie_mark_trade = {
+	inline_script = {
+		script = trait/icon_cutie_mark
+		ICON = "GFX_leader_trait_cutie_mark_filthy_rich"
+		COUNCIL = triggered
+		TIER = none
+	}
+	triggered_councilor_modifier = {
+		potential = {
+			OR = {
+				is_councilor = yes
+				trait_is_gestalt_check = no
+			}
+		}
+		commercial_pact_mult = 0.025
+	}
+	triggered_planet_modifier = {
+		potential = { trait_is_gestalt_check = no }
+		pop_trader_bonus_workforce_mult = 0.05
+	}
+	triggered_sector_modifier = {
+		potential = { trait_is_gestalt_check = no }
+		pop_trader_bonus_workforce_mult = 0.025
+	}
+	triggered_planet_modifier = {
+		potential = { trait_is_gestalt_check = yes }
+		pop_logistics_drone_bonus_workforce_mult = 0.05
+	}
+	triggered_sector_modifier = {
+		potential = { trait_is_gestalt_check = yes }
+		pop_logistics_drone_bonus_workforce_mult = 0.025
+	}
+	leader_class = { official }
+	selectable_weight = 0
+	randomized = no
+}
+
 ### Engineering Marks
 # Industry
 leader_trait_cutie_mark_robotics = {
@@ -1143,7 +1287,7 @@ leader_trait_cutie_mark_robotics = {
 leader_trait_cutie_mark_industry = {
 	#starting_ruler_trait = yes
 	cost = 0
-	opposites = { "leader_trait_cutie_mark_computing" "leader_trait_cutie_mark_field_manupilation" "leader_trait_cutie_mark_particles" "leader_trait_cutie_mark_biology" "leader_trait_cutie_mark_new_worlds" "leader_trait_cutie_mark_military_theory" "leader_trait_cutie_mark_statecraft" "leader_trait_cutie_mark_archaeology" "leader_trait_cutie_mark_materials" "leader_trait_cutie_mark_propulsion" "leader_trait_cutie_mark_voidcraft" }
+	opposites = { "leader_trait_cutie_mark_computing" "leader_trait_cutie_mark_field_manupilation" "leader_trait_cutie_mark_particles" "leader_trait_cutie_mark_biology" "leader_trait_cutie_mark_new_worlds" "leader_trait_cutie_mark_military_theory" "leader_trait_cutie_mark_statecraft" "leader_trait_cutie_mark_archaeology" "leader_trait_cutie_mark_economics" "leader_trait_cutie_mark_materials" "leader_trait_cutie_mark_propulsion" "leader_trait_cutie_mark_voidcraft" }
 	inline_script = {
 		script = trait/icon_cutie_mark
 		ICON = "GFX_leader_trait_cutie_mark_tune_up"
@@ -1226,7 +1370,7 @@ leader_trait_cutie_mark_mining = {
 leader_trait_cutie_mark_materials = {
 	#starting_ruler_trait = yes
 	cost = 0
-	opposites = { "leader_trait_cutie_mark_computing" "leader_trait_cutie_mark_field_manupilation" "leader_trait_cutie_mark_particles" "leader_trait_cutie_mark_biology" "leader_trait_cutie_mark_new_worlds" "leader_trait_cutie_mark_military_theory" "leader_trait_cutie_mark_statecraft" "leader_trait_cutie_mark_archaeology" "leader_trait_cutie_mark_industry" "leader_trait_cutie_mark_propulsion" "leader_trait_cutie_mark_voidcraft" }
+	opposites = { "leader_trait_cutie_mark_computing" "leader_trait_cutie_mark_field_manupilation" "leader_trait_cutie_mark_particles" "leader_trait_cutie_mark_biology" "leader_trait_cutie_mark_new_worlds" "leader_trait_cutie_mark_military_theory" "leader_trait_cutie_mark_statecraft" "leader_trait_cutie_mark_archaeology" "leader_trait_cutie_mark_economics" "leader_trait_cutie_mark_industry" "leader_trait_cutie_mark_propulsion" "leader_trait_cutie_mark_voidcraft" }
 	inline_script = {
 		script = trait/icon_cutie_mark
 		ICON = "GFX_leader_trait_cutie_mark_quiet_gestures"
@@ -1376,7 +1520,7 @@ leader_trait_cutie_mark_speed = {
 leader_trait_cutie_mark_propulsion = {
 	#starting_ruler_trait = yes
 	cost = 0
-	opposites = { "leader_trait_cutie_mark_computing" "leader_trait_cutie_mark_field_manupilation" "leader_trait_cutie_mark_particles" "leader_trait_cutie_mark_biology" "leader_trait_cutie_mark_new_worlds" "leader_trait_cutie_mark_military_theory" "leader_trait_cutie_mark_statecraft" "leader_trait_cutie_mark_archaeology" "leader_trait_cutie_mark_industry" "leader_trait_cutie_mark_materials" "leader_trait_cutie_mark_voidcraft" }
+	opposites = { "leader_trait_cutie_mark_computing" "leader_trait_cutie_mark_field_manupilation" "leader_trait_cutie_mark_particles" "leader_trait_cutie_mark_biology" "leader_trait_cutie_mark_new_worlds" "leader_trait_cutie_mark_military_theory" "leader_trait_cutie_mark_statecraft" "leader_trait_cutie_mark_archaeology" "leader_trait_cutie_mark_economics" "leader_trait_cutie_mark_industry" "leader_trait_cutie_mark_materials" "leader_trait_cutie_mark_voidcraft" }
 	inline_script = {
 		script = trait/icon_cutie_mark
 		ICON = "GFX_leader_trait_cutie_mark_vapor_trail"
@@ -1404,7 +1548,7 @@ leader_trait_cutie_mark_propulsion = {
 leader_trait_cutie_mark_voidcraft = {
 	#starting_ruler_trait = yes
 	cost = 0
-	opposites = { "leader_trait_cutie_mark_computing" "leader_trait_cutie_mark_field_manupilation" "leader_trait_cutie_mark_particles" "leader_trait_cutie_mark_biology" "leader_trait_cutie_mark_new_worlds" "leader_trait_cutie_mark_military_theory" "leader_trait_cutie_mark_statecraft" "leader_trait_cutie_mark_archaeology" "leader_trait_cutie_mark_industry" "leader_trait_cutie_mark_materials" "leader_trait_cutie_mark_propulsion" }
+	opposites = { "leader_trait_cutie_mark_computing" "leader_trait_cutie_mark_field_manupilation" "leader_trait_cutie_mark_particles" "leader_trait_cutie_mark_biology" "leader_trait_cutie_mark_new_worlds" "leader_trait_cutie_mark_military_theory" "leader_trait_cutie_mark_statecraft" "leader_trait_cutie_mark_archaeology" "leader_trait_cutie_mark_economics" "leader_trait_cutie_mark_industry" "leader_trait_cutie_mark_materials" "leader_trait_cutie_mark_propulsion" }
 	inline_script = {
 		script = trait/icon_cutie_mark
 		ICON = "GFX_leader_trait_cutie_mark_jet_set"
@@ -1500,43 +1644,6 @@ leader_trait_cutie_mark_art = {
 		planet_amenities_add = 100
 	}
 	leader_class = { commander official }
-	selectable_weight = 0
-	randomized = no
-}
-
-leader_trait_cutie_mark_trade = {
-	inline_script = {
-		script = trait/icon_cutie_mark
-		ICON = "GFX_leader_trait_cutie_mark_filthy_rich"
-		COUNCIL = triggered
-		TIER = none
-	}
-	triggered_councilor_modifier = {
-		potential = {
-			OR = {
-				is_councilor = yes
-				trait_is_gestalt_check = no
-			}
-		}
-		commercial_pact_mult = 0.025
-	}
-	triggered_planet_modifier = {
-		potential = { trait_is_gestalt_check = no }
-		pop_trader_bonus_workforce_mult = 0.05
-	}
-	triggered_sector_modifier = {
-		potential = { trait_is_gestalt_check = no }
-		pop_trader_bonus_workforce_mult = 0.025
-	}
-	triggered_planet_modifier = {
-		potential = { trait_is_gestalt_check = yes }
-		pop_logistics_drone_bonus_workforce_mult = 0.05
-	}
-	triggered_sector_modifier = {
-		potential = { trait_is_gestalt_check = yes }
-		pop_logistics_drone_bonus_workforce_mult = 0.025
-	}
-	leader_class = { official }
 	selectable_weight = 0
 	randomized = no
 }

@@ -1,2 +1,3 @@
 ﻿l_english:
  mod_pop_healthcare_bonus_workforce_mult:0 "$BONUS_WORKFORCE_FOR$ [healthcare.GetNamePlural]"
+ mod_category_good_trading_draw_chance_mult:0 "Chance for §YEconomics§! Research Options"

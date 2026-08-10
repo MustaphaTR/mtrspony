@@ -1,3 +1,5 @@
 ﻿l_spanish:
  mod_pop_healthcare_bonus_workforce_mult:0 "$BONUS_WORKFORCE_FOR$ [healthcare.GetNamePlural]"
  mod_shipclass_mining_station_build_speed_mult:0 "Veloc. constr. estación minera"
+
+ mod_category_good_trading_draw_chance_mult:0 "Probabilidad de opciones de investigación de §Yeconomía§!"

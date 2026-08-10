@@ -422,6 +422,9 @@ has_cutie_mark_trait = {
 		has_trait = leader_trait_cutie_mark_statecraft
 		has_trait = leader_trait_cutie_mark_bureaucracy
 		has_trait = leader_trait_cutie_mark_archaeology
+		has_trait = leader_trait_cutie_mark_logistics
+		has_trait = leader_trait_cutie_mark_economics
+		has_trait = leader_trait_cutie_mark_trade
 
 		# Engineering Cutie Marks
 		has_trait = leader_trait_cutie_mark_robotics
@@ -435,7 +438,6 @@ has_cutie_mark_trait = {
 
 		# Other Cutie Marks
 		has_trait = leader_trait_cutie_mark_art
-		has_trait = leader_trait_cutie_mark_trade
 
 		# Unused Cutie Marks
 		has_trait = leader_trait_cutie_mark_medicine

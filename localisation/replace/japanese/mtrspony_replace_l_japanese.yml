@@ -1,2 +1,4 @@
 ﻿l_japanese:
  mod_pop_healthcare_bonus_workforce_mult:0 "[healthcare.GetNamePlural]$BONUS_WORKFORCE_FOR$"
+
+ mod_category_good_trading_draw_chance_mult:0 "§Y経済学§!の研究選択肢を獲得する可能性あり"

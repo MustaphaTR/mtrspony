@@ -1,2 +1,4 @@
 ﻿l_russian:
  mod_pop_healthcare_bonus_workforce_mult:0 "$BONUS_WORKFORCE_FOR$ [healthcare.GetNamePlural]"
+
+ mod_category_good_trading_draw_chance_mult:0 "Шанс получить варианты для исследования в области §Yэкономии§!"

@@ -1,2 +1,4 @@
 ﻿l_simp_chinese:
  mod_pop_healthcare_bonus_workforce_mult:0 "[healthcare.GetNamePlural]$BONUS_WORKFORCE_FOR$"
+
+ mod_category_good_trading_draw_chance_mult:0 "§Y经济学§!研究选项的概率"

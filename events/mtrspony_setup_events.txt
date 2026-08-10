@@ -342,6 +342,47 @@ leader_event = {
 		}
 	}
 	option = {
+		name = cutie_mark_logistics
+		trigger = {
+			OR = {
+				leader_class = commander
+				AND = {
+					leader_class = official
+					trait_is_gestalt_check = yes
+				}
+			}
+		}
+
+		add_trait = {
+			trait = leader_trait_cutie_mark_logistics
+			show_message = no
+		}
+	}
+	option = {
+		name = cutie_mark_economics
+		trigger = {
+			leader_class = scientist
+			has_global_flag = ethic_civic_classic_active
+		}
+
+		add_trait = {
+			trait = leader_trait_cutie_mark_economics
+			show_message = no
+		}
+	}
+	option = {
+		name = cutie_mark_trade
+		trigger = {
+			leader_class = official
+			trait_is_gestalt_check = no
+		}
+
+		add_trait = {
+			trait = leader_trait_cutie_mark_trade
+			show_message = no
+		}
+	}
+	option = {
 		name = cutie_mark_robotics
 		trigger = {
 			leader_class = commander
@@ -435,15 +476,6 @@ leader_event = {
 
 		add_trait = {
 			trait = leader_trait_cutie_mark_art
-			show_message = no
-		}
-	}
-	option = {
-		name = cutie_mark_trade
-		trigger = { leader_class = official }
-
-		add_trait = {
-			trait = leader_trait_cutie_mark_trade
 			show_message = no
 		}
 	}

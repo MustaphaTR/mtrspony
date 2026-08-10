@@ -2200,6 +2200,58 @@ give_random_cutie_mark_trait  = {
 				show_message = no
 			}
 		}
+		10 = {
+			modifier = {
+				factor = 1.5
+				owner = {
+					OR = {
+						has_authority = auth_corporate
+						has_valid_civic = civic_corporate_dominion
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				leader_class = scientist
+				NOT = { has_global_flag = ethic_civic_classic_active }
+			}
+
+			if = {
+				limit = {
+					OR = {
+						leader_class = commander
+						AND = {
+							leader_class = official
+							trait_is_gestalt_check = yes
+						}
+					}
+				}
+
+				add_trait = {
+					trait = leader_trait_cutie_mark_logistics
+					show_message = no
+				}
+			}
+			else_if = {
+				limit = { leader_class = scientist }
+
+				add_trait = {
+					trait = leader_trait_cutie_mark_economics
+					show_message = no
+				}
+			}
+			else_if = {
+				limit = {
+					leader_class = official
+					trait_is_gestalt_check = no
+				}
+
+				add_trait = {
+					trait = leader_trait_cutie_mark_trade
+					show_message = no
+				}
+			}
+		}
 
 		10 = {
 			modifier = {
@@ -2345,26 +2397,6 @@ give_random_cutie_mark_trait  = {
 
 			add_trait = {
 				trait = leader_trait_cutie_mark_art
-				show_message = no
-			}
-		}
-		10 = {
-			modifier = {
-				factor = 1.5
-				owner = {
-					OR = {
-						has_authority = auth_corporate
-						has_valid_civic = civic_corporate_dominion
-					}
-				}
-			}
-			modifier = {
-				factor = 0
-				NOT = { leader_class = official }
-			}
-
-			add_trait = {
-				trait = leader_trait_cutie_mark_trade
 				show_message = no
 			}
 		}

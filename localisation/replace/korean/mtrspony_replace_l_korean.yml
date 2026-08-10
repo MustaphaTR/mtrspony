@@ -1,2 +1,4 @@
 ﻿l_korean:
  mod_pop_healthcare_bonus_workforce_mult:0 "[healthcare.GetNamePlural] $BONUS_WORKFORCE_FOR$"
+
+ mod_category_good_trading_draw_chance_mult:0 "§Y경제학§! 연구 선택지 출현 확률"
