@@ -67,19 +67,19 @@
  PRESCRIPTED_ship_name_tcsss_warhammer:0 "TCSSS Warhammer"
  PRESCRIPTED_ship_name_tcsss_unique_horn:0 "TCSSS Unique Horn"
 
- PRESCRIPTED_ruler_name_sweetie_belle:0 "Sweetie Belle"
+ PRESCRIPTED_ruler_name_sweetie_belle:0 "甜心宝宝"
  PRESCRIPTED_ruler_name_sweetie_belle_desc:0 "<insert_desc_here>"
  PRESCRIPTED_ruler_name_sweetie_belle_catch_phrase:0 "§L""§!"
 
- PRESCRIPTED_ruler_name_apple_bloom:0 "Apple Bloom"
+ PRESCRIPTED_ruler_name_apple_bloom:0 "苹果丽丽"
  PRESCRIPTED_ruler_name_apple_bloom_desc:0 "<insert_desc_here>"
  PRESCRIPTED_ruler_name_apple_bloom_catch_phrase:0 "§L""§!"
 
- PRESCRIPTED_ruler_name_scootaloo:0 "Scootaloo"
+ PRESCRIPTED_ruler_name_scootaloo:0 "醒目露露"
  PRESCRIPTED_ruler_name_scootaloo_desc:0 "<insert_desc_here>"
  PRESCRIPTED_ruler_name_scootaloo_catch_phrase:0 "§L""§!"
 
- PRESCRIPTED_ruler_name_babs_seed:0 "Babs Seed"
+ PRESCRIPTED_ruler_name_babs_seed:0 "巴布西西"
  PRESCRIPTED_ruler_name_babs_seed_desc:0 "<insert_desc_here>"
  PRESCRIPTED_ruler_name_babs_seed_catch_phrase:0 "§L""§!"
 
@@ -97,27 +97,27 @@
  PRESCRIPTED_ruler_title_empress:0 "Empress"
  PRESCRIPTED_ship_prefix_empire_of_friendship:0 "ISS"
 
- PRESCRIPTED_ruler_name_cozy_glow:0 "Cozy Glow"
+ PRESCRIPTED_ruler_name_cozy_glow:0 "和煦光流"
  PRESCRIPTED_ruler_name_cozy_glow_desc:0 "The valedictorian of the School of Friendship's first year, [Root.GetHeShe] took a stand against Daybreaker and Nightmare Moon by joining the Fillydelphia Republic. After rising to the office of President, [Root.GetFirstName] then united our homeworld through a mix of conquest and cunning diplomacy, finally being crowned Empress of Friendship. Subsequently, [Root.GetFirstName] contacted [Root.GetHisHer] old classmates to help run the world, and now the galaxy."
  PRESCRIPTED_ruler_name_cozy_glow_catch_phrase:0 "§L""§!"
 
- PRESCRIPTED_ruler_name_sandbar:0 "Sandbar"
+ PRESCRIPTED_ruler_name_sandbar:0 "沙巴"
  PRESCRIPTED_ruler_name_sandbar_desc:0 "An inoffensive but committed pony, [Root.GetFirstName] was been appointed to govern the Riverlands and has discovered a remarkable talent for oceanic habitation."
  PRESCRIPTED_ruler_name_sandbar_catch_phrase:0 "§L""§!"
 
- PRESCRIPTED_ruler_name_gallus:0 "Gallus"
+ PRESCRIPTED_ruler_name_gallus:0 "嘉乐斯"
  PRESCRIPTED_ruler_name_gallus_desc:0 "A young orphan from Griffonstone, [Root.GetFirstName] was given control over the restored Griffonian Empire by Imperial decree."
  PRESCRIPTED_ruler_name_gallus_catch_phrase:0 "§L""§!"
 
- PRESCRIPTED_ruler_name_smolder:0 "Smolder"
+ PRESCRIPTED_ruler_name_smolder:0 "莫德"
  PRESCRIPTED_ruler_name_smolder_desc:0 "A dragon from the Dragon Isles, [Root.GetFirstName] is a talented commander and brave hero who never backs down from a fight."
  PRESCRIPTED_ruler_name_smolder_catch_phrase:0 "§L""§!"
 
- PRESCRIPTED_ruler_name_yona:0 "Yona"
+ PRESCRIPTED_ruler_name_yona:0 "尤娜"
  PRESCRIPTED_ruler_name_yona_desc:0 "[Root.GetFirstName] is a yak from northern Equus, a legendarily skilled warrior. However, [Root.GetHeShe] is a bit disorganized when it comes to supplying the army."
  PRESCRIPTED_ruler_name_yona_catch_phrase:0 "§L""§!"
 
- PRESCRIPTED_ruler_name_ocellus:0 "Ocellus"
+ PRESCRIPTED_ruler_name_ocellus:0 "欧珊"
  PRESCRIPTED_ruler_name_ocellus_desc:0 "As a changeling, [Root.GetFirstName] had to attend the School of Friendship in disguise, but quickly displayed great skill at the hard sciences. After revealing [Root.GetHisHer] true nature, [Root.GetHeShe] continued to be accepted by [Root.GetHisHer] friends, and was eventually awarded governorship of the Changelings and Deer."
  PRESCRIPTED_ruler_name_ocellus_catch_phrase:0 "§L""§!"
 
@@ -204,19 +204,19 @@
  PRESCRIPTED_ruler_title_hive_queen:0 "Hive Queen"
  PRESCRIPTED_ship_prefix_united_faustian_hives:0 "FSS"
 
- PRESCRIPTED_ruler_name_luna:0 "Luna"
+ PRESCRIPTED_ruler_name_luna:0 "月亮"
  PRESCRIPTED_ruler_name_luna_desc:0 "<insert_desc_here>"
  PRESCRIPTED_ruler_name_luna_catch_phrase:0 "§L""§!"
 
- PRESCRIPTED_ruler_name_twilight_sparkle:0 "Twilight Sparkle"
+ PRESCRIPTED_ruler_name_twilight_sparkle:0 "紫悦"
  PRESCRIPTED_ruler_name_twilight_sparkle_desc:0 "<insert_desc_here>"
  PRESCRIPTED_ruler_name_twilight_sparkle_catch_phrase:0 "§L""§!"
 
- PRESCRIPTED_ruler_name_mi_amore_cadenza:0 "Mi Amore Cadenza"
+ PRESCRIPTED_ruler_name_mi_amore_cadenza:0 "米阿默卡丹纱"
  PRESCRIPTED_ruler_name_mi_amore_cadenza_desc:0 "<insert_desc_here>"
  PRESCRIPTED_ruler_name_mi_amore_cadenza_catch_phrase:0 "§L""§!"
 
- PRESCRIPTED_ruler_name_flurry_heart:0 "Flurry Heart"
+ PRESCRIPTED_ruler_name_flurry_heart:0 "雪心"
  PRESCRIPTED_ruler_name_flurry_heart_desc:0 "<insert_desc_here>"
  PRESCRIPTED_ruler_name_flurry_heart_catch_phrase:0 "§L""§!"
 
@@ -273,11 +273,11 @@
  EMPIRE_DESIGN_changeling_space_program_biogenesis_desc:0 "$EMPIRE_DESIGN_changeling_space_program_desc$"
  EMPIRE_DESIGN_changeling_space_program_federations_biogenesis_desc:0 "$EMPIRE_DESIGN_changeling_space_program_federations_desc$"
  PRESCRIPTED_adjective_changeling_space_program:0 "Changeling"
- PRESCRIPTED_ruler_title_king:0 "King"
- PRESCRIPTED_ruler_title_queen:0 "Queen"
+ PRESCRIPTED_ruler_title_king:0 "国王"
+ PRESCRIPTED_ruler_title_queen:0 "女王"
  PRESCRIPTED_ship_prefix_changeling_space_program:0 "CSS"
 
- PRESCRIPTED_ruler_name_chrysalis:0 "Chrysalis"
+ PRESCRIPTED_ruler_name_chrysalis:0 "虫茧"
  PRESCRIPTED_ruler_name_chrysalis_desc:0 "<insert_desc_here>"
  PRESCRIPTED_ruler_name_chrysalis_catch_phrase:0 "§L""§!"
 
@@ -323,7 +323,7 @@
  PRESCRIPTED_ruler_name_skystar_desc:0 "Former Princess of Hippogriffa who became a an admiral following the revolution."
  PRESCRIPTED_ruler_name_skystar_catch_phrase:0 "§L""§!"
 
- PRESCRIPTED_ruler_name_silverstream:0 "Silverstream"
+ PRESCRIPTED_ruler_name_silverstream:0 "丝葳"
  PRESCRIPTED_ruler_name_silverstream_desc:0 "<insert_desc_here>"
  PRESCRIPTED_ruler_name_silverstream_catch_phrase:0 "§L""§!"
 
