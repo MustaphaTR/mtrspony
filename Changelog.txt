@@ -259,7 +259,7 @@
 --- Added missing Ghenikhan and Jakichikh Yak Clan flag icons.
 --- Added a new flag background for Ghenikhan Clan.
 
-- Version 0.4.6 (XX.08.2026):
+- Version 0.4.6 (12.08.2026):
 -- Added compatiblity with Ethics and Civics Classic mod.
 --- Added adjusted versions of the Prescripted Empires, including homeworld empires of Lost Colony origin ones, to account for changes from EaCC and extra Ethics and Civics slots it adds.
 ---- Currently base versions of half the empires still appear with EaCC enabled as there is no proper way to check for mod being enabled at empire selection. The others, and EaCC versions with mod disabled, don't thanks to errors. I decided this way was better than doing it with a submod.
@@ -267,4 +267,4 @@
 ---- Scientist version requires EaCC, Commander one doesn't.
 -- Added one more male unicorn portrait set, based on Firelight.
 -- Added one more color option for Applejack portraits and a few two-toned hair options.
--- Added 40 more flag icons.
+-- Added 47 more flag icons.
