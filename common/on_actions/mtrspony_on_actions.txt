@@ -36,7 +36,7 @@ on_modification_complete = {
 		eofstart.2
 		nsstart.2
 		ufhstart.2
-		#dosstart.2
+		dosstart.2
 		gestart.2
 		#ftstart.2
 		#jfstart.2
@@ -63,7 +63,7 @@ on_monthly_pulse_country = { # Above only triggers with manual species modificat
 		eofstart.2
 		nsstart.2
 		ufhstart.2
-		#dosstart.2
+		dosstart.2
 		gestart.2
 		#ftstart.2
 		#jfstart.2

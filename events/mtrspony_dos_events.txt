@@ -10,6 +10,12 @@ country_event = {
 		has_country_flag = department_of_scootascience
 	}
 	immediate = {
+		leader = {
+			save_global_event_target_as = leader_scootaloo_1064
+			set_leader_flag = leader_scootaloo_1064
+			set_leader_flag = is_created_leader
+			change_leader_portrait = "mtrspony_pony_its_all_scootaloo_n1064_predefined"
+		}
 		#create_leader = {
 		#	name = "PRESCRIPTED_ruler_name_scootaloo_n1064"
 		#	custom_description = "PRESCRIPTED_ruler_name_scootaloo_n1064_desc"
@@ -57,7 +63,7 @@ country_event = {
 		}
 		refresh_leader_pool = yes
 
-		#country_event = { id = dosstart.1001 days = 1 }
+		country_event = { id = dosstart.1001 days = 1 }
 	}
 }
 
