@@ -2654,6 +2654,18 @@ remove_cutie_mark_traits = {
 		limit = { has_trait = leader_trait_cutie_mark_archaeology }
 		remove_trait = leader_trait_cutie_mark_archaeology
 	}
+	else_if = {
+		limit = { has_trait = leader_trait_cutie_mark_logistics }
+		remove_trait = leader_trait_cutie_mark_logistics
+	}
+	else_if = {
+		limit = { has_trait = leader_trait_cutie_mark_economics }
+		remove_trait = leader_trait_cutie_mark_economics
+	}
+	else_if = {
+		limit = { has_trait = leader_trait_cutie_mark_trade }
+		remove_trait = leader_trait_cutie_mark_trade
+	}
 	# Engineering Cutie Marks
 	else_if = {
 		limit = { has_trait = leader_trait_cutie_mark_robotics }
@@ -2691,10 +2703,6 @@ remove_cutie_mark_traits = {
 	else_if = {
 		limit = { has_trait = leader_trait_cutie_mark_art }
 		remove_trait = leader_trait_cutie_mark_art
-	}
-	else_if = {
-		limit = { has_trait = leader_trait_cutie_mark_trade }
-		remove_trait = leader_trait_cutie_mark_trade
 	}
 	# Unused Cutie Marks
 	else_if = {

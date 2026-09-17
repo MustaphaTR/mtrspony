@@ -268,3 +268,6 @@
 -- Added one more male unicorn portrait set, based on Firelight.
 -- Added one more color option for Applejack portraits and a few two-toned hair options.
 -- Added 47 more flag icons.
+
+- Version 0.4.7 (XX.09.2026):
+-- Fixed Logistics and Economics cutie mark traits not getting removed when Cutie Marks species traits is removed.
