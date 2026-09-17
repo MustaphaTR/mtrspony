@@ -270,5 +270,6 @@
 -- Added 47 more flag icons.
 
 - Version 0.4.7 (XX.09.2026):
+-- Added more color options to a few portraits (Sweetie Belle, Scootaloo).
 -- Fixed Logistics and Economics cutie mark traits not getting removed when Cutie Marks species traits is removed.
 -- Scootaloo #1064 in Department of Scootascience should no longer change clothes after going Clone Army Descendant path.

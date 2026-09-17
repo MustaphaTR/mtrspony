@@ -741,6 +741,8 @@ portraits = {
 			"gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_alt12.dds"
 			"gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_alt13.dds"
 			"gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_alt14.dds"
+			"gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_alt15.dds"
+			"gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_alt16.dds"
 		}
 
 		custom_attachment_label = "HAIR_COLOR"

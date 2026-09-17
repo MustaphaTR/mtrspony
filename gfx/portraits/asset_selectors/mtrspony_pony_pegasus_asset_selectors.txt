@@ -1429,6 +1429,8 @@ mtrspony_pony_pegasus_scootaloo_hair_selector = {
 				"gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_hair_alt13.dds"
 				"gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_hair_alt14.dds"
 				"gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_hair_alt15.dds"
+				"gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_hair_alt16.dds"
+				"gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_hair_alt17.dds"
 			}
 		}
 	}
@@ -1452,6 +1454,8 @@ mtrspony_pony_pegasus_scootaloo_hair_selector = {
 				"gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_hair_alt13.dds"
 				"gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_hair_alt14.dds"
 				"gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_hair_alt15.dds"
+				"gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_hair_alt16.dds"
+				"gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_hair_alt17.dds"
 			}
 		}
 	}
@@ -1475,6 +1479,8 @@ mtrspony_pony_pegasus_scootaloo_hair_selector = {
 				"gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_hair_alt13.dds"
 				"gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_hair_alt14.dds"
 				"gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_hair_alt15.dds"
+				"gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_hair_alt16.dds"
+				"gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_hair_alt17.dds"
 			}
 		}
 	}
@@ -1514,6 +1520,8 @@ mtrspony_pony_pegasus_scootaloo_clothes_selector = {
 				"gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_uniform_civilian_alt14.dds"
 				"gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_uniform_civilian_alt15.dds"
 				"gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_uniform_civilian_alt16.dds"
+				"gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_uniform_civilian_alt17.dds"
+				"gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_uniform_civilian_alt18.dds"
 				"gfx/models/portraits/no_attachment.dds"
 			}
 		}
@@ -1538,6 +1546,8 @@ mtrspony_pony_pegasus_scootaloo_clothes_selector = {
 				"gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_uniform_military_alt14.dds"
 				"gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_uniform_military_alt15.dds"
 				"gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_uniform_military_alt16.dds"
+				"gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_uniform_military_alt17.dds"
+				"gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_uniform_military_alt18.dds"
 			}
 		}
 	}
@@ -1563,6 +1573,8 @@ mtrspony_pony_pegasus_scootaloo_clothes_selector = {
 				"gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_uniform_civilian_alt14.dds"
 				"gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_uniform_civilian_alt15.dds"
 				"gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_uniform_civilian_alt16.dds"
+				"gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_uniform_civilian_alt17.dds"
+				"gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_uniform_civilian_alt18.dds"
 				"gfx/models/portraits/no_attachment.dds"
 			}
 		}
@@ -1587,6 +1599,8 @@ mtrspony_pony_pegasus_scootaloo_clothes_selector = {
 				"gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_uniform_military_alt14.dds"
 				"gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_uniform_military_alt15.dds"
 				"gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_uniform_military_alt16.dds"
+				"gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_uniform_military_alt17.dds"
+				"gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_uniform_military_alt18.dds"
 			}
 		}
 	}
@@ -1612,6 +1626,8 @@ mtrspony_pony_pegasus_scootaloo_clothes_selector = {
 				"gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_uniform_civilian_alt14.dds"
 				"gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_uniform_civilian_alt15.dds"
 				"gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_uniform_civilian_alt16.dds"
+				"gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_uniform_civilian_alt17.dds"
+				"gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_uniform_civilian_alt18.dds"
 				"gfx/models/portraits/no_attachment.dds"
 			}
 		}
@@ -1636,6 +1652,8 @@ mtrspony_pony_pegasus_scootaloo_clothes_selector = {
 				"gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_uniform_military_alt14.dds"
 				"gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_uniform_military_alt15.dds"
 				"gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_uniform_military_alt16.dds"
+				"gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_uniform_military_alt17.dds"
+				"gfx/models/portraits/pony_pegasus/scootaloo/scootaloo_uniform_military_alt18.dds"
 			}
 		}
 	}
