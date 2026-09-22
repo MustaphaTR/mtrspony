@@ -29,6 +29,7 @@ portrait_groups = {
 					mtrspony_pony_crystal_earth_sunburst
 					mtrspony_pony_crystal_earth_firelight
 					mtrspony_pony_crystal_earth_soarin
+					mtrspony_pony_crystal_earth_button_mash
 					mtrspony_pony_unicorn_shining_armor
 					mtrspony_pony_unicorn_sunburst
 					mtrspony_pony_unicorn_firelight
@@ -173,6 +174,7 @@ portrait_groups = {
 					mtrspony_pony_crystal_earth_sunburst
 					mtrspony_pony_crystal_earth_firelight
 					mtrspony_pony_crystal_earth_soarin
+					mtrspony_pony_crystal_earth_button_mash
 					mtrspony_pony_unicorn_shining_armor
 					mtrspony_pony_unicorn_sunburst
 					mtrspony_pony_unicorn_firelight
@@ -259,6 +261,7 @@ portrait_groups = {
 					mtrspony_pony_crystal_earth_sunburst
 					mtrspony_pony_crystal_earth_firelight
 					mtrspony_pony_crystal_earth_soarin
+					mtrspony_pony_crystal_earth_button_mash
 					mtrspony_pony_unicorn_shining_armor
 					mtrspony_pony_unicorn_sunburst
 					mtrspony_pony_unicorn_firelight
@@ -297,6 +300,7 @@ portrait_groups = {
 					mtrspony_pony_crystal_earth_sunburst
 					mtrspony_pony_crystal_earth_firelight
 					mtrspony_pony_crystal_earth_soarin
+					mtrspony_pony_crystal_earth_button_mash
 					mtrspony_pony_unicorn_shining_armor
 					mtrspony_pony_unicorn_sunburst
 					mtrspony_pony_unicorn_firelight

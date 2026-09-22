@@ -275,3 +275,8 @@
 -- Fixed Logistics and Economics cutie mark traits not getting removed when Cutie Marks species traits is removed.
 -- Scootaloo #1064 in Department of Scootascience should no longer change clothes after going Clone Army Descendant path.
 -- Cropped a few portrait sets' clothes files to save space. This mod really doesn't need to be almost 4 GBs.
+
+- Version 0.4.8 (22.09.2026):
+-- Updated the mod for 4.5 Cygnus update.
+-- Added Crystal Pony variant for Button Mash portrait set.
+-- Cropped a few more portrait sets' clothes files to save a some more space.
