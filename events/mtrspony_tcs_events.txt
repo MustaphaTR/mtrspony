@@ -169,7 +169,7 @@ country_event = {
 			every_owned_pop_group = {
 				limit = { is_same_species = event_target:griffon_species }
 
-				pop_group_transfer_ethic = {
+				pop_group_add_ethic_effect = {
 					POP_GROUP = this
 					ETHOS = ethic_spiritualist
 					PERCENTAGE = 0.2
