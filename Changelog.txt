@@ -280,3 +280,6 @@
 -- Updated the mod for 4.5 Cygnus update.
 -- Added Crystal Pony variant for Button Mash portrait set.
 -- Cropped a few more portrait sets' clothes files to save a some more space.
+
+- Version 0.4.9 (XX.10.2026):
+-- Added one more color option for Alice portraits and an empty clothes layer.

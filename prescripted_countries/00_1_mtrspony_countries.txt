@@ -1588,7 +1588,7 @@ jarldom_of_faust = {
 		portrait = "mtrspony_deer_alice"
 		texture = 13
 		attachment = 4
-		clothes = 30
+		clothes = 32
 		trait = "trait_ruler_logistic_understanding"
 		leader_class = official
 	}
@@ -1663,7 +1663,7 @@ jarldom_of_faust_paragons = {
 		portrait = "mtrspony_deer_alice"
 		texture = 13
 		attachment = 4
-		clothes = 30
+		clothes = 32
 		trait = "trait_ruler_logistic_understanding"
 		leader_class = official
 	}
@@ -1738,7 +1738,7 @@ jarldom_of_faust_grand_archive = {
 		portrait = "mtrspony_deer_alice"
 		texture = 13
 		attachment = 4
-		clothes = 30
+		clothes = 32
 		trait = "leader_trait_trailblazer"
 		leader_class = official
 	}
@@ -1813,7 +1813,7 @@ jarldom_of_faust_paragons_grand_archive = {
 		portrait = "mtrspony_deer_alice"
 		texture = 13
 		attachment = 4
-		clothes = 30
+		clothes = 32
 		trait = "leader_trait_trailblazer"
 		leader_class = official
 	}
