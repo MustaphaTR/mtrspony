@@ -283,3 +283,4 @@
 
 - Version 0.4.9 (XX.10.2026):
 -- Added one more color option for Alice portraits and an empty clothes layer.
+-- Fixed Silverstream's Cutie Mark trait giving 10 times the intended Infrastructure Cost reduction bonus.
