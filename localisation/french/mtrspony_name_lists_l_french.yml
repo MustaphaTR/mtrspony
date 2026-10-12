@@ -7719,8 +7719,8 @@
 
  # Sequential name formats
  PONY_space_fleet:0 "$ORD$ Space Fleet"
- PONY_defense_force:0 "$C$ Defense Force"
- PONY_attack_force:0 "$CARD$ Attack Force"
+ PONY_defense_force:0 "$ORD$ Defense Force"
+ PONY_attack_force:0 "$ORD$ Attack Force"
  PONY_slave_force:0 "$ORD$ Slave Force"
  PONY_mirror_force:0 "$ORD$ Mirror Force"
  PONY_dread_force:0 "$ORD$ Dread Force"
