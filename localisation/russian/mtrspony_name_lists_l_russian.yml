@@ -7718,7 +7718,7 @@
  ZEBRA_CHR_voninkazo:0 "Voninkazo"
 
  # Sequential name formats
- PONY_space_fleet:0 "$ORD$ Космический Флот"
+ PONY_space_fleet:0 "$ORD$-й Космический Флот"
  PONY_defense_force:0 "$ORD$ Defense Force"
  PONY_attack_force:0 "$ORD$ Attack Force"
  PONY_slave_force:0 "$ORD$ Slave Force"
