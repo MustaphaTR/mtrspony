@@ -202,7 +202,7 @@ the_crusader_state = {
 		}
 		background = {
 			category = "backgrounds"
-			file = "stripe_thick_cmc.dds"
+			file = "stripe_thick_tricolor.dds"
 		}
 		colors = {
 			"red_orange"
@@ -278,7 +278,7 @@ the_crusader_state_necroids = {
 		}
 		background = {
 			category = "backgrounds"
-			file = "stripe_thick_cmc.dds"
+			file = "stripe_thick_tricolor.dds"
 		}
 		colors = {
 			"red_orange"
@@ -2477,7 +2477,7 @@ faustian_conglomerate = {
 		}
 		background = {
 			category = "backgrounds"
-			file = "kiria.dds"
+			file = "kiria_tricolor.dds"
 		}
 		colors = {
 			"red_orange"
@@ -2553,7 +2553,7 @@ faustian_conglomerate_megacorps = {
 		}
 		background = {
 			category = "backgrounds"
-			file = "kiria.dds"
+			file = "kiria_tricolor.dds"
 		}
 		colors = {
 			"red_orange"
@@ -2629,7 +2629,7 @@ faustian_conglomerate_toxoids = {
 		}
 		background = {
 			category = "backgrounds"
-			file = "kiria.dds"
+			file = "kiria_tricolor.dds"
 		}
 		colors = {
 			"red_orange"
@@ -2705,7 +2705,7 @@ faustian_conglomerate_megacorps_toxoids = {
 		}
 		background = {
 			category = "backgrounds"
-			file = "kiria.dds"
+			file = "kiria_tricolor.dds"
 		}
 		colors = {
 			"red_orange"

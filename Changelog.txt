@@ -283,4 +283,8 @@
 
 - Version 0.4.9 (XX.10.2026):
 -- Added one more color option for Alice portraits and an empty clothes layer.
+-- Added 5 more flag icons.
+-- Added 20 more flag backgrounds.
+--- Faustian Conglomerate now has a three colored flag.
+-- Fixed Wittenland flag icon being offcenter.
 -- Fixed Silverstream's Cutie Mark trait giving 10 times the intended Infrastructure Cost reduction bonus.
