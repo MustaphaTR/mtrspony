@@ -1,0 +1,278 @@
+﻿mtrspony_namelists_diamond_dog = {
+	randomized = no
+
+	alias = "EaW Diamond Dog Namelist"
+
+	ship_names = {
+		generic = {
+			PONY_SHIP_amberjack PONY_SHIP_dolphin PONY_SHIP_saury PONY_SHIP_sea_panther PONY_SHIP_pilotfish PONY_SHIP_espada PONY_SHIP_sea_fox PONY_SHIP_croaker PONY_SHIP_bullhead PONY_SHIP_goldring PONY_SHIP_pargo PONY_SHIP_sea_poacher PONY_SHIP_cuttlefish PONY_SHIP_atule PONY_SHIP_guitarro PONY_SHIP_grunion PONY_SHIP_swordfish PONY_SHIP_sargo PONY_SHIP_odax PONY_SHIP_sturgeon PONY_SHIP_bream PONY_SHIP_ronquil PONY_SHIP_grayling PONY_SHIP_sculpin PONY_SHIP_tiru PONY_SHIP_razorback PONY_SHIP_pompano PONY_SHIP_threadfin PONY_SHIP_piranha PONY_SHIP_roncador PONY_SHIP_bugara PONY_SHIP_hammerhead PONY_SHIP_scamp PONY_SHIP_sealion PONY_SHIP_sea_cat PONY_SHIP_tiburon PONY_SHIP_sea_devil PONY_SHIP_corporal PONY_SHIP_kingfish PONY_SHIP_lancetfish PONY_SHIP_thresher PONY_SHIP_skate PONY_SHIP_bass PONY_SHIP_lizardfish PONY_SHIP_trumpetfish PONY_SHIP_carp PONY_SHIP_quillback PONY_SHIP_piper PONY_SHIP_scorpion PONY_SHIP_sabalo PONY_SHIP_salmon PONY_SHIP_stingray PONY_SHIP_snook PONY_SHIP_clamagore PONY_SHIP_springer PONY_SHIP_springeren PONY_SHIP_angler PONY_SHIP_pomfret PONY_SHIP_sea_leopard PONY_SHIP_sablefish PONY_SHIP_redfish PONY_SHIP_billfish PONY_SHIP_jawfish PONY_SHIP_marlin PONY_SHIP_halfbeak PONY_SHIP_tusk PONY_SHIP_garlopa PONY_SHIP_lamprey PONY_SHIP_silversides PONY_SHIP_chub PONY_SHIP_comber PONY_SHIP_hackleback PONY_SHIP_redfin PONY_SHIP_sand_lance PONY_SHIP_needlefish PONY_SHIP_plaice PONY_SHIP_baya PONY_SHIP_blackfish PONY_SHIP_tang PONY_SHIP_toro PONY_SHIP_herring PONY_SHIP_haddo PONY_SHIP_seahorse PONY_SHIP_finback PONY_SHIP_brill PONY_SHIP_wahoo PONY_SHIP_batfish PONY_SHIP_jallao PONY_SHIP_menhaden PONY_SHIP_eel PONY_SHIP_steelhead PONY_SHIP_mero PONY_SHIP_barbel PONY_SHIP_cachalot PONY_SHIP_walrus PONY_SHIP_lapon PONY_SHIP_besugo PONY_SHIP_spinax PONY_SHIP_turbot PONY_SHIP_sennet PONY_SHIP_seawolf PONY_SHIP_thornback PONY_SHIP_pickerel PONY_SHIP_tunny PONY_SHIP_gato PONY_SHIP_sunfish PONY_SHIP_seal PONY_SHIP_snapper PONY_SHIP_runner PONY_SHIP_burrfish PONY_SHIP_dogfish PONY_SHIP_tambor PONY_SHIP_shark PONY_SHIP_tautog PONY_SHIP_barb PONY_SHIP_cisco PONY_SHIP_scabbardfish PONY_SHIP_haddock PONY_SHIP_apogon PONY_SHIP_cabrilla PONY_SHIP_tarpon PONY_SHIP_bluegill PONY_SHIP_tullibee PONY_SHIP_moray PONY_SHIP_dentuda PONY_SHIP_bowfin PONY_SHIP_cochino PONY_SHIP_ulua PONY_SHIP_seadragon PONY_SHIP_sarda PONY_SHIP_robalo PONY_SHIP_pomodon PONY_SHIP_kraken PONY_SHIP_hawkbill PONY_SHIP_flounder PONY_SHIP_bang PONY_SHIP_catfish PONY_SHIP_mackerel PONY_SHIP_shad PONY_SHIP_pintado PONY_SHIP_halibut PONY_SHIP_tuna PONY_SHIP_vendace PONY_SHIP_sterlet PONY_SHIP_lionfish PONY_SHIP_rock PONY_SHIP_sea PONY_SHIP_owl PONY_SHIP_dugong PONY_SHIP_trout PONY_SHIP_guavina PONY_SHIP_crevalle PONY_SHIP_trutta PONY_SHIP_tench PONY_SHIP_escolar PONY_SHIP_parche PONY_SHIP_caiman PONY_SHIP_flying PONY_SHIP_fish PONY_SHIP_stickleback PONY_SHIP_torsk PONY_SHIP_requin PONY_SHIP_drum PONY_SHIP_picuda PONY_SHIP_cod PONY_SHIP_whale PONY_SHIP_sea_dog PONY_SHIP_pike PONY_SHIP_remora PONY_SHIP_irex PONY_SHIP_spikefish PONY_SHIP_bluefish PONY_SHIP_harder PONY_SHIP_entemedor PONY_SHIP_pipefish PONY_SHIP_rasher PONY_SHIP_tilefish PONY_SHIP_sailfish PONY_SHIP_narwhal PONY_SHIP_searaven PONY_SHIP_greenling PONY_SHIP_bashaw PONY_SHIP_chivo PONY_SHIP_gar PONY_SHIP_sawfish PONY_SHIP_cusk PONY_SHIP_wolffish PONY_SHIP_balao PONY_SHIP_corvina PONY_SHIP_boarfish PONY_SHIP_garrupa PONY_SHIP_flasher PONY_SHIP_spearfish PONY_SHIP_ray PONY_SHIP_devilfish PONY_SHIP_archerfish PONY_SHIP_hoe PONY_SHIP_pampanito PONY_SHIP_whitefish PONY_SHIP_tirante PONY_SHIP_ono PONY_SHIP_gurnard PONY_SHIP_gabilan PONY_SHIP_grampus PONY_SHIP_perch PONY_SHIP_growler PONY_SHIP_blenny PONY_SHIP_ling PONY_SHIP_tinosa PONY_SHIP_cobia PONY_SHIP_skipjack PONY_SHIP_sea_robin PONY_SHIP_nerka PONY_SHIP_kete PONY_SHIP_peto PONY_SHIP_trepang PONY_SHIP_bergall PONY_SHIP_chopper PONY_SHIP_cabezon PONY_SHIP_diodon PONY_SHIP_mingo PONY_SHIP_conger PONY_SHIP_raton PONY_SHIP_paddle PONY_SHIP_loggerhead PONY_SHIP_grayback PONY_SHIP_barracuda PONY_SHIP_hardhead PONY_SHIP_medregal PONY_SHIP_bonefish PONY_SHIP_charr PONY_SHIP_cero PONY_SHIP_guardfish PONY_SHIP_tigrone PONY_SHIP_capelin PONY_SHIP_capitaine PONY_SHIP_jack PONY_SHIP_macabi PONY_SHIP_icefish PONY_SHIP_dragonet PONY_SHIP_muskallunge PONY_SHIP_porpoise PONY_SHIP_nautilus PONY_SHIP_segundo PONY_SHIP_lagarto PONY_SHIP_golet PONY_SHIP_puffer PONY_SHIP_mapiro PONY_SHIP_manta PONY_SHIP_becuna PONY_SHIP_cobbler PONY_SHIP_barbero PONY_SHIP_bumper PONY_SHIP_albacore PONY_SHIP_pogy PONY_SHIP_spadefish PONY_SHIP_sirago PONY_SHIP_greenfish PONY_SHIP_grouper PONY_SHIP_spot PONY_SHIP_hake PONY_SHIP_darter PONY_SHIP_flier PONY_SHIP_pompon PONY_SHIP_blueback PONY_SHIP_carbonero PONY_SHIP_blackfin PONY_SHIP_whiting PONY_SHIP_queenfish PONY_SHIP_blower PONY_SHIP_cavalla PONY_SHIP_gunnel PONY_SHIP_bonita PONY_SHIP_aspro PONY_SHIP_cubera
+
+			DOG_SHIP_bronze DOG_SHIP_silber DOG_SHIP_gold DOG_SHIP_kupfer DOG_SHIP_eisen DOG_SHIP_guzukh DOG_SHIP_guzuz DOG_SHIP_eziluk DOG_SHIP_limul DOG_SHIP_feguz
+
+			DOG_SHIP_warhound DOG_SHIP_gem_seeker DOG_SHIP_the_pug DOG_SHIP_tail_chaser DOG_SHIP_retriever DOG_SHIP_beagle
+
+			DOG_SHIP_hammer DOG_SHIP_spitzhacke DOG_SHIP_meissel DOG_SHIP_laterne DOG_SHIP_sarkhuh DOG_SHIP_gamut DOG_SHIP_ferg DOG_SHIP_khayam
+
+			DOG_SHIP_bone_crusher DOG_SHIP_pincher DOG_SHIP_tug DOG_SHIP_howler
+
+			DOG_SHIP_griffonhound DOG_SHIP_bull_and_dog
+
+			DOG_SHIP_the_good_boy
+
+			DOG_SHIP_diamond_mountain DOG_SHIP_bronzekreuz DOG_SHIP_qalbi_weyn
+
+			DOG_SHIP_loyalitaet DOG_SHIP_treue DOG_SHIP_gefolgschaft DOG_SHIP_ergebenheit DOG_SHIP_gehorsam DOG_SHIP_folgsamkeit DOG_SHIP_einheit DOG_SHIP_verlaesslichkeit
+
+			DOG_SHIP_kaynta_dooxada DOG_SHIP_adishu DOG_SHIP_deked_cas DOG_SHIP_gajar DOG_SHIP_xidid_cawska DOG_SHIP_dhir_cad DOG_SHIP_xadka_dabka DOG_SHIP_oohinwaadi DOG_SHIP_ciidacirood DOG_SHIP_dejinta DOG_SHIP_konkaymaha DOG_SHIP_dhul_gariir
+
+			DOG_SHIP_kaza_ar_bark DOG_SHIP_var_woolth DOG_SHIP_dit_kazar DOG_SHIP_kaza_gull DOG_SHIP_var_silfur DOG_SHIP_kaza_frelsi DOG_SHIP_bellen DOG_SHIP_schwanzhausen DOG_SHIP_barkgenz DOG_SHIP_ravensburg DOG_SHIP_crowstanz DOG_SHIP_hundsfeld DOG_SHIP_pfotenhausen DOG_SHIP_barkara_var DOG_SHIP_bar_underdog DOG_SHIP_azar_fetch DOG_SHIP_azar_gutboi DOG_SHIP_kara_hound DOG_SHIP_khew_gazar DOG_SHIP_high_paw DOG_SHIP_broken_bone
+		}
+
+		corvette = {
+			PONY_SHIP_amberjack PONY_SHIP_dolphin PONY_SHIP_saury PONY_SHIP_sea_panther PONY_SHIP_pilotfish PONY_SHIP_espada PONY_SHIP_sea_fox PONY_SHIP_croaker PONY_SHIP_bullhead PONY_SHIP_goldring PONY_SHIP_pargo PONY_SHIP_sea_poacher PONY_SHIP_cuttlefish PONY_SHIP_atule PONY_SHIP_guitarro PONY_SHIP_grunion PONY_SHIP_swordfish PONY_SHIP_sargo PONY_SHIP_odax PONY_SHIP_sturgeon PONY_SHIP_bream PONY_SHIP_ronquil PONY_SHIP_grayling PONY_SHIP_sculpin PONY_SHIP_tiru PONY_SHIP_razorback PONY_SHIP_pompano PONY_SHIP_threadfin PONY_SHIP_piranha PONY_SHIP_roncador PONY_SHIP_bugara PONY_SHIP_hammerhead PONY_SHIP_scamp PONY_SHIP_sealion PONY_SHIP_sea_cat PONY_SHIP_tiburon PONY_SHIP_sea_devil PONY_SHIP_corporal PONY_SHIP_kingfish PONY_SHIP_lancetfish PONY_SHIP_thresher PONY_SHIP_skate PONY_SHIP_bass PONY_SHIP_lizardfish PONY_SHIP_trumpetfish PONY_SHIP_carp PONY_SHIP_quillback PONY_SHIP_piper PONY_SHIP_scorpion PONY_SHIP_sabalo PONY_SHIP_salmon PONY_SHIP_stingray PONY_SHIP_snook PONY_SHIP_clamagore PONY_SHIP_springer PONY_SHIP_springeren PONY_SHIP_angler PONY_SHIP_pomfret PONY_SHIP_sea_leopard PONY_SHIP_sablefish PONY_SHIP_redfish PONY_SHIP_billfish PONY_SHIP_jawfish PONY_SHIP_marlin PONY_SHIP_halfbeak PONY_SHIP_tusk PONY_SHIP_garlopa PONY_SHIP_lamprey PONY_SHIP_silversides PONY_SHIP_chub PONY_SHIP_comber PONY_SHIP_hackleback PONY_SHIP_redfin PONY_SHIP_sand_lance PONY_SHIP_needlefish PONY_SHIP_plaice PONY_SHIP_baya PONY_SHIP_blackfish PONY_SHIP_tang PONY_SHIP_toro PONY_SHIP_herring PONY_SHIP_haddo PONY_SHIP_seahorse PONY_SHIP_finback PONY_SHIP_brill PONY_SHIP_wahoo PONY_SHIP_batfish PONY_SHIP_jallao PONY_SHIP_menhaden PONY_SHIP_eel PONY_SHIP_steelhead PONY_SHIP_mero PONY_SHIP_barbel PONY_SHIP_cachalot PONY_SHIP_walrus PONY_SHIP_lapon PONY_SHIP_besugo PONY_SHIP_spinax PONY_SHIP_turbot PONY_SHIP_sennet PONY_SHIP_seawolf PONY_SHIP_thornback PONY_SHIP_pickerel PONY_SHIP_tunny PONY_SHIP_gato PONY_SHIP_sunfish PONY_SHIP_seal PONY_SHIP_snapper PONY_SHIP_runner PONY_SHIP_burrfish PONY_SHIP_dogfish PONY_SHIP_tambor PONY_SHIP_shark PONY_SHIP_tautog PONY_SHIP_barb PONY_SHIP_cisco PONY_SHIP_scabbardfish PONY_SHIP_haddock PONY_SHIP_apogon PONY_SHIP_cabrilla PONY_SHIP_tarpon PONY_SHIP_bluegill PONY_SHIP_tullibee PONY_SHIP_moray PONY_SHIP_dentuda PONY_SHIP_bowfin PONY_SHIP_cochino PONY_SHIP_ulua PONY_SHIP_seadragon PONY_SHIP_sarda PONY_SHIP_robalo PONY_SHIP_pomodon PONY_SHIP_kraken PONY_SHIP_hawkbill PONY_SHIP_flounder PONY_SHIP_bang PONY_SHIP_catfish PONY_SHIP_mackerel PONY_SHIP_shad PONY_SHIP_pintado PONY_SHIP_halibut PONY_SHIP_tuna PONY_SHIP_vendace PONY_SHIP_sterlet PONY_SHIP_lionfish PONY_SHIP_rock PONY_SHIP_sea PONY_SHIP_owl PONY_SHIP_dugong PONY_SHIP_trout PONY_SHIP_guavina PONY_SHIP_crevalle PONY_SHIP_trutta PONY_SHIP_tench PONY_SHIP_escolar PONY_SHIP_parche PONY_SHIP_caiman PONY_SHIP_flying PONY_SHIP_fish PONY_SHIP_stickleback PONY_SHIP_torsk PONY_SHIP_requin PONY_SHIP_drum PONY_SHIP_picuda PONY_SHIP_cod PONY_SHIP_whale PONY_SHIP_sea_dog PONY_SHIP_pike PONY_SHIP_remora PONY_SHIP_irex PONY_SHIP_spikefish PONY_SHIP_bluefish PONY_SHIP_harder PONY_SHIP_entemedor PONY_SHIP_pipefish PONY_SHIP_rasher PONY_SHIP_tilefish PONY_SHIP_sailfish PONY_SHIP_narwhal PONY_SHIP_searaven PONY_SHIP_greenling PONY_SHIP_bashaw PONY_SHIP_chivo PONY_SHIP_gar PONY_SHIP_sawfish PONY_SHIP_cusk PONY_SHIP_wolffish PONY_SHIP_balao PONY_SHIP_corvina PONY_SHIP_boarfish PONY_SHIP_garrupa PONY_SHIP_flasher PONY_SHIP_spearfish PONY_SHIP_ray PONY_SHIP_devilfish PONY_SHIP_archerfish PONY_SHIP_hoe PONY_SHIP_pampanito PONY_SHIP_whitefish PONY_SHIP_tirante PONY_SHIP_ono PONY_SHIP_gurnard PONY_SHIP_gabilan PONY_SHIP_grampus PONY_SHIP_perch PONY_SHIP_growler PONY_SHIP_blenny PONY_SHIP_ling PONY_SHIP_tinosa PONY_SHIP_cobia PONY_SHIP_skipjack PONY_SHIP_sea_robin PONY_SHIP_nerka PONY_SHIP_kete PONY_SHIP_peto PONY_SHIP_trepang PONY_SHIP_bergall PONY_SHIP_chopper PONY_SHIP_cabezon PONY_SHIP_diodon PONY_SHIP_mingo PONY_SHIP_conger PONY_SHIP_raton PONY_SHIP_paddle PONY_SHIP_loggerhead PONY_SHIP_grayback PONY_SHIP_barracuda PONY_SHIP_hardhead PONY_SHIP_medregal PONY_SHIP_bonefish PONY_SHIP_charr PONY_SHIP_cero PONY_SHIP_guardfish PONY_SHIP_tigrone PONY_SHIP_capelin PONY_SHIP_capitaine PONY_SHIP_jack PONY_SHIP_macabi PONY_SHIP_icefish PONY_SHIP_dragonet PONY_SHIP_muskallunge PONY_SHIP_porpoise PONY_SHIP_nautilus PONY_SHIP_segundo PONY_SHIP_lagarto PONY_SHIP_golet PONY_SHIP_puffer PONY_SHIP_mapiro PONY_SHIP_manta PONY_SHIP_becuna PONY_SHIP_cobbler PONY_SHIP_barbero PONY_SHIP_bumper PONY_SHIP_albacore PONY_SHIP_pogy PONY_SHIP_spadefish PONY_SHIP_sirago PONY_SHIP_greenfish PONY_SHIP_grouper PONY_SHIP_spot PONY_SHIP_hake PONY_SHIP_darter PONY_SHIP_flier PONY_SHIP_pompon PONY_SHIP_blueback PONY_SHIP_carbonero PONY_SHIP_blackfin PONY_SHIP_whiting PONY_SHIP_queenfish PONY_SHIP_blower PONY_SHIP_cavalla PONY_SHIP_gunnel PONY_SHIP_bonita PONY_SHIP_aspro PONY_SHIP_cubera
+		}
+
+		destroyer = {
+			DOG_SHIP_bronze DOG_SHIP_silber DOG_SHIP_gold DOG_SHIP_kupfer DOG_SHIP_eisen DOG_SHIP_guzukh DOG_SHIP_guzuz DOG_SHIP_eziluk DOG_SHIP_limul DOG_SHIP_feguz
+
+			DOG_SHIP_warhound DOG_SHIP_gem_seeker DOG_SHIP_the_pug DOG_SHIP_tail_chaser DOG_SHIP_retriever DOG_SHIP_beagle
+		}
+
+		cruiser = {
+			DOG_SHIP_hammer DOG_SHIP_spitzhacke DOG_SHIP_meissel DOG_SHIP_laterne DOG_SHIP_sarkhuh DOG_SHIP_gamut DOG_SHIP_ferg DOG_SHIP_khayam
+
+			DOG_SHIP_bone_crusher DOG_SHIP_pincher DOG_SHIP_tug DOG_SHIP_howler
+		}
+
+		battleship = {
+			DOG_SHIP_griffonhound DOG_SHIP_bull_and_dog
+		}
+
+		titan = {
+			DOG_SHIP_the_good_boy
+		}
+
+		colossus = {
+			DOG_SHIP_diamond_mountain DOG_SHIP_bronzekreuz DOG_SHIP_qalbi_weyn
+		}
+
+		science = {
+			DOG_SHIP_loyalitaet DOG_SHIP_treue DOG_SHIP_gefolgschaft DOG_SHIP_ergebenheit DOG_SHIP_gehorsam DOG_SHIP_folgsamkeit DOG_SHIP_einheit DOG_SHIP_verlaesslichkeit
+		}
+
+		colonizer = {
+			DOG_SHIP_kaynta_dooxada DOG_SHIP_adishu DOG_SHIP_deked_cas DOG_SHIP_gajar DOG_SHIP_xidid_cawska DOG_SHIP_dhir_cad DOG_SHIP_xadka_dabka DOG_SHIP_oohinwaadi DOG_SHIP_ciidacirood DOG_SHIP_dejinta DOG_SHIP_konkaymaha DOG_SHIP_dhul_gariir
+		}
+
+		constructor = {
+			DOG_SHIP_kaza_ar_bark DOG_SHIP_var_woolth DOG_SHIP_dit_kazar DOG_SHIP_kaza_gull DOG_SHIP_var_silfur DOG_SHIP_kaza_frelsi DOG_SHIP_bellen DOG_SHIP_schwanzhausen DOG_SHIP_barkgenz DOG_SHIP_ravensburg DOG_SHIP_crowstanz DOG_SHIP_hundsfeld DOG_SHIP_pfotenhausen DOG_SHIP_barkara_var DOG_SHIP_bar_underdog DOG_SHIP_azar_fetch DOG_SHIP_azar_gutboi DOG_SHIP_kara_hound DOG_SHIP_khew_gazar DOG_SHIP_high_paw DOG_SHIP_broken_bone
+		}
+
+		transport = {
+			
+		}
+
+		military_station_small = {
+			
+		}
+
+		ion_cannon = {
+			HUMAN1_SHIP_Bombard HUMAN1_SHIP_Ballista HUMAN1_SHIP_Catapult HUMAN1_SHIP_Harpoon HUMAN1_SHIP_Polybolos HUMAN1_SHIP_Culverin
+		}
+	}
+
+	fleet_names = {
+		sequential_name = PONY_space_fleet
+	}
+
+	army_names = {
+		machine_defense = {
+			sequential_name = PONY_defense_force
+		}
+
+		machine_assault_1 = {
+			sequential_name = PONY_attack_force
+		}
+
+		machine_assault_2 = {
+			sequential_name = PONY_attack_force
+		}
+
+		machine_assault_3 = {
+			sequential_name = PONY_attack_force
+		}
+
+		defense_army = {
+			sequential_name = PONY_defense_force
+		}
+
+		assault_army = {
+			sequential_name = PONY_attack_force
+		}
+
+		slave_army = {
+			sequential_name = PONY_slave_force
+		}
+
+		clone_army = {
+			sequential_name = PONY_mirror_force
+		}
+
+		undead_army = {
+			sequential_name = PONY_dread_force
+		}
+
+		robotic_army = {
+			sequential_name = PONY_drone_attack_force
+		}
+
+		robotic_defense_army = {
+			sequential_name = PONY_drone_defense_force
+		}
+
+		psionic_army = {
+			sequential_name = PONY_psi_corps_division
+		}
+
+		xenomorph_army = {
+			sequential_name = PONY_monster_unit
+		}
+
+		gene_warrior_army = {
+			sequential_name = PONY_supersoldiers
+		}
+
+		occupation_army = {
+			sequential_name = PONY_garrison_force
+		}
+
+		robotic_occupation_army = {
+			sequential_name = PONY_drone_garrison_force
+		}
+	}
+
+	planet_names = {
+		generic = {
+			names = {
+				DOG_PLANET_dit_kazar DOG_PLANET_var_woolth DOG_PLANET_kaza_ar_bark DOG_PLANET_raven DOG_PLANET_bronzekreuz DOG_PLANET_guri_dhurwaa DOG_PLANET_adishu DOG_PLANET_gajar DOG_PLANET_dhir_cad
+			}
+		}
+
+		pc_desert = {
+			names = {
+				DOG_PLANET_qurxinta
+			}
+		}
+
+		pc_tropical = {
+			names = {
+				DOG_PLANET_pinesshade DOG_PLANET_kaynta_dooxada
+			}
+		}
+
+		pc_arid = {
+			names = {
+				DOG_PLANET_naarta DOG_PLANET_xadka_dabka
+			}
+		}
+
+		pc_continental = {
+			names = {
+				DOG_PLANET_pinesshade DOG_PLANET_kaynta_dooxada
+			}
+		}
+
+		pc_ocean = {
+			names = {
+				
+			}
+		}
+
+		pc_tundra = {
+			names = {
+				
+			}
+		}
+
+		pc_arctic = {
+			names = {
+				
+			}
+		}
+
+		pc_savannah = {
+			names = {
+				DOG_PLANET_konkaymaha DOG_PLANET_dhul_gariir
+			}
+		}
+
+		pc_alpine = {
+			names = {
+				DOG_PLANET_highhill DOG_PLANET_crownspike
+			}
+		}
+
+		pc_gaia = {
+			names = {
+				DOG_PLANET_diamondia
+			}
+		}
+	}
+
+	### CHARACTERS
+	character_names = {
+		name1 = { # Diamond Mountain
+			weight = 8
+			first_names_male = {
+				DOG_CHR_rover DOG_CHR_fido DOG_CHR_spot DOG_CHR_barnaby DOG_CHR_bernard DOG_CHR_nipper DOG_CHR_paddington DOG_CHR_banjo DOG_CHR_ace DOG_CHR_beasley DOG_CHR_ben DOG_CHR_bingo DOG_CHR_blair DOG_CHR_buddy DOG_CHR_buck DOG_CHR_cosmo DOG_CHR_lady DOG_CHR_max DOG_CHR_clifford DOG_CHR_pal DOG_CHR_pete DOG_CHR_moonie DOG_CHR_skippy DOG_CHR_terry DOG_CHR_zip DOG_CHR_beauregard DOG_CHR_beejay DOG_CHR_blaze DOG_CHR_happy DOG_CHR_bullet DOG_CHR_leo DOG_CHR_shep DOG_CHR_tiger DOG_CHR_theo DOG_CHR_bobbie DOG_CHR_digger DOG_CHR_smoky DOG_CHR_spike
+			}
+			first_names_female = {
+				DOG_CHR_molly DOG_CHR_rosey DOG_CHR_bella DOG_CHR_lassie DOG_CHR_laika DOG_CHR_blondi DOG_CHR_anna DOG_CHR_bo
+			}
+			second_names = {
+				DOG_CHR_goodboy DOG_CHR_the_old DOG_CHR_the_brown DOG_CHR_the_boneless DOG_CHR_swift DOG_CHR_of_diamond_mountain DOG_CHR_of_kaza_ar_bark DOG_CHR_of_var_woolth DOG_CHR_of_barkara_var DOG_CHR_of_bar_underdog DOG_CHR_of_azar_fetch DOG_CHR_of_azar_gutboi DOG_CHR_of_kara_hound DOG_CHR_of_khew_gazar DOG_CHR_of_high_paw DOG_CHR_of_broken_bone DOG_CHR_the_rich DOG_CHR_the_fat DOG_CHR_the_harsh DOG_CHR_biter DOG_CHR_the_scared DOG_CHR_the_wild DOG_CHR_the_bloody DOG_CHR_gemhoarder
+			}
+			regnal_first_names_male = {
+				DOG_CHR_rover DOG_CHR_fido DOG_CHR_spot DOG_CHR_barnaby DOG_CHR_bernard DOG_CHR_nipper DOG_CHR_paddington DOG_CHR_banjo DOG_CHR_ace DOG_CHR_beasley DOG_CHR_ben DOG_CHR_bingo DOG_CHR_blair DOG_CHR_buddy DOG_CHR_buck DOG_CHR_cosmo DOG_CHR_lady DOG_CHR_max DOG_CHR_clifford DOG_CHR_pal DOG_CHR_pete DOG_CHR_moonie DOG_CHR_skippy DOG_CHR_terry DOG_CHR_zip DOG_CHR_beauregard DOG_CHR_beejay DOG_CHR_blaze DOG_CHR_happy DOG_CHR_bullet DOG_CHR_leo DOG_CHR_shep DOG_CHR_tiger DOG_CHR_theo DOG_CHR_bobbie DOG_CHR_digger DOG_CHR_smoky DOG_CHR_spike
+			}
+			regnal_first_names_female = {
+				DOG_CHR_molly DOG_CHR_rosey DOG_CHR_bella DOG_CHR_lassie DOG_CHR_laika DOG_CHR_blondi DOG_CHR_anna DOG_CHR_bo
+			}
+			regnal_second_names = {
+				DOG_CHR_goodboy DOG_CHR_the_old DOG_CHR_the_brown DOG_CHR_the_boneless DOG_CHR_swift DOG_CHR_of_diamond_mountain DOG_CHR_of_kaza_ar_bark DOG_CHR_of_var_woolth DOG_CHR_of_barkara_var DOG_CHR_of_bar_underdog DOG_CHR_of_azar_fetch DOG_CHR_of_azar_gutboi DOG_CHR_of_kara_hound DOG_CHR_of_khew_gazar DOG_CHR_of_high_paw DOG_CHR_of_broken_bone DOG_CHR_the_rich DOG_CHR_the_fat DOG_CHR_the_harsh DOG_CHR_biter DOG_CHR_the_scared DOG_CHR_the_wild DOG_CHR_the_bloody DOG_CHR_gemhoarder
+			}
+		}
+
+		name2 = { # Bronzehill
+			weight = 7
+			first_names_male = {
+				DOG_CHR_fido DOG_CHR_spot DOG_CHR_barnaby DOG_CHR_bernard DOG_CHR_nipper DOG_CHR_walter DOG_CHR_ace DOG_CHR_beasley DOG_CHR_ben DOG_CHR_bingo DOG_CHR_blair DOG_CHR_buddy DOG_CHR_buck DOG_CHR_cosmo DOG_CHR_max DOG_CHR_clifford DOG_CHR_pete DOG_CHR_moonie DOG_CHR_skippy DOG_CHR_terry DOG_CHR_zip DOG_CHR_beauregard DOG_CHR_beejay DOG_CHR_buck DOG_CHR_leo DOG_CHR_shep DOG_CHR_tiger DOG_CHR_theo DOG_CHR_tilo DOG_CHR_bobbie DOG_CHR_smoky DOG_CHR_spike DOG_CHR_arthur DOG_CHR_wuffles DOG_CHR_willie
+			}
+			first_names_female = {
+				DOG_CHR_molly DOG_CHR_rosey DOG_CHR_bella DOG_CHR_lassie DOG_CHR_laika DOG_CHR_blondi DOG_CHR_anna DOG_CHR_leia DOG_CHR_elsie DOG_CHR_barkah DOG_CHR_rosalin DOG_CHR_lucca DOG_CHR_johanna DOG_CHR_eva
+			}
+			second_names = {
+				DOG_CHR_stray DOG_CHR_the_old DOG_CHR_the_brown DOG_CHR_the_boneless DOG_CHR_swift DOG_CHR_von_ravensburg DOG_CHR_von_crowstanz DOG_CHR_von_hundsfeld DOG_CHR_von_pfotenhausen DOG_CHR_von_barkgenz DOG_CHR_von_bronzekreuz DOG_CHR_von_schwanzhausen DOG_CHR_von_bellen DOG_CHR_von_kaza_gull DOG_CHR_von_var_silfur DOG_CHR_von_kaza_frelsi DOG_CHR_strongpaw DOG_CHR_steelpaw DOG_CHR_softpaw DOG_CHR_dancer DOG_CHR_tailwagger DOG_CHR_the_wild DOG_CHR_the_lovely DOG_CHR_gemgiver DOG_CHR_blondefur DOG_CHR_redfur DOG_CHR_brownfur DOG_CHR_whitetail DOG_CHR_goodnose DOG_CHR_digger
+			}
+			regnal_first_names_male = {
+				DOG_CHR_fido DOG_CHR_spot DOG_CHR_barnaby DOG_CHR_bernard DOG_CHR_nipper DOG_CHR_walter DOG_CHR_ace DOG_CHR_beasley DOG_CHR_ben DOG_CHR_bingo DOG_CHR_blair DOG_CHR_buddy DOG_CHR_buck DOG_CHR_cosmo DOG_CHR_max DOG_CHR_clifford DOG_CHR_pete DOG_CHR_moonie DOG_CHR_skippy DOG_CHR_terry DOG_CHR_zip DOG_CHR_beauregard DOG_CHR_beejay DOG_CHR_buck DOG_CHR_leo DOG_CHR_shep DOG_CHR_tiger DOG_CHR_theo DOG_CHR_tilo DOG_CHR_bobbie DOG_CHR_smoky DOG_CHR_spike DOG_CHR_arthur DOG_CHR_wuffles DOG_CHR_willie
+			}
+			regnal_first_names_female = {
+				DOG_CHR_molly DOG_CHR_rosey DOG_CHR_bella DOG_CHR_lassie DOG_CHR_laika DOG_CHR_blondi DOG_CHR_anna DOG_CHR_leia DOG_CHR_elsie DOG_CHR_barkah DOG_CHR_rosalin DOG_CHR_lucca DOG_CHR_johanna DOG_CHR_eva
+			}
+			regnal_second_names = {
+				DOG_CHR_stray DOG_CHR_the_old DOG_CHR_the_brown DOG_CHR_the_boneless DOG_CHR_swift DOG_CHR_von_ravensburg DOG_CHR_von_crowstanz DOG_CHR_von_hundsfeld DOG_CHR_von_pfotenhausen DOG_CHR_von_barkgenz DOG_CHR_von_bronzekreuz DOG_CHR_von_schwanzhausen DOG_CHR_von_bellen DOG_CHR_von_kaza_gull DOG_CHR_von_var_silfur DOG_CHR_von_kaza_frelsi DOG_CHR_strongpaw DOG_CHR_steelpaw DOG_CHR_softpaw DOG_CHR_dancer DOG_CHR_tailwagger DOG_CHR_the_wild DOG_CHR_the_lovely DOG_CHR_gemgiver DOG_CHR_blondefur DOG_CHR_redfur DOG_CHR_brownfur DOG_CHR_whitetail DOG_CHR_goodnose DOG_CHR_digger
+			}
+		}
+
+		name3 = { # Hyenia
+			weight = 6
+			full_names_male = {
+				DOG_CHR_degdeg DOG_CHR_duufaan DOG_CHR_labaad DOG_CHR_qabweyn DOG_CHR_maskaxleh DOG_CHR_adag DOG_CHR_geesiah DOG_CHR_baraf DOG_CHR_faraxan DOG_CHR_kulul DOG_CHR_balaad DOG_CHR_dhagax DOG_CHR_farxad DOG_CHR_dahab DOG_CHR_oncod DOG_CHR_madani DOG_CHR_faarax DOG_CHR_jaylaani DOG_CHR_mukhtaar DOG_CHR_cismaan DOG_CHR_cabdullaahi DOG_CHR_aadan DOG_CHR_askari DOG_CHR_quruurux DOG_CHR_qurux_badan DOG_CHR_waardiyaha
+			}
+			full_names_female = {
+				DOG_CHR_dabal DOG_CHR_kugoyn DOG_CHR_hadiyad DOG_CHR_mukhlisah DOG_CHR_najaax DOG_CHR_xoggaan DOG_CHR_tamar DOG_CHR_qalin DOG_CHR_xukumaya DOG_CHR_jeclaanaya DOG_CHR_fikiraya DOG_CHR_kuxiga DOG_CHR_mugdiah DOG_CHR_qunyar DOG_CHR_xidid DOG_CHR_qodax DOG_CHR_farah DOG_CHR_saynab DOG_CHR_xafsa DOG_CHR_hodan DOG_CHR_ayaan DOG_CHR_farxad DOG_CHR_qarsoodi_ah DOG_CHR_ciddi DOG_CHR_qallafsanaan DOG_CHR_ilaaliye
+			}
+		}
+	}
+}

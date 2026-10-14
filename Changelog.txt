@@ -282,6 +282,7 @@
 -- Cropped a few more portrait sets' clothes files to save a some more space.
 
 - Version 0.4.9 (XX.10.2026):
+-- Added Diamond Dog namelist.
 -- Added one more color option for Alice portraits and an empty clothes layer.
 -- Added 5 more flag icons.
 -- Added 20 more flag backgrounds.
