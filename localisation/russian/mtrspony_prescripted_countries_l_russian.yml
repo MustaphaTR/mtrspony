@@ -373,6 +373,28 @@
  PRESCRIPTED_adjective_ghenikhan_clan:0 "Ghenikhan"
  PRESCRIPTED_ship_prefix_ghenikhan_clan:0 "ККГ"
 
+ # Diamond Empire
+ EMPIRE_DESIGN_diamond_empire:0 "Алмазная Империя"
+ #EMPIRE_DESIGN_diamond_empire_desc:0 ""
+ PRESCRIPTED_adjective_diamond_empire:0 "Алмазн|||masc:Алмазный $1$|||masc,gen:Алмазного $1$|||masc,dat:Алмазному $1$|||masc,acc:Алмазный $1$|||masc,inst:Алмазным $1$|||masc,prep:Алмазном $1$|||fem:Алмазная $1$|||fem,gen:Алмазной $1$|||fem,dat:Алмазной $1$|||fem,acc:Алмазную $1$|||fem,inst:Алмазной $1$|||fem,prep:Алмазной $1$|||neut:Алмазное $1$|||neut,gen:Алмазного $1$|||neut,dat:Алмазному $1$|||neut,acc:Алмазное $1$|||neut,inst:Алмазным $1$|||neut,prep:Алмазном $1$|||pl:Алмазные $1$|||pl,gen:Алмазных $1$|||pl,dat:Алмазным $1$|||pl,acc:Алмазные $1$|||pl,inst:Алмазными $1$|||pl,prep:Алмазных $1$|||corp:Алмаз $1$"
+ PRESCRIPTED_ship_prefix_diamond_empire:0 "ИКК"
+
+ PRESCRIPTED_ruler_name_rover_diamondshield:0 "Ровер Алмазный Щит"
+ PRESCRIPTED_ruler_name_rover_diamondshield_desc:0 "<insert_desc_here>"
+ PRESCRIPTED_ruler_name_rover_diamondshield_catch_phrase:0 "§L""§!"
+
+ PRESCRIPTED_ruler_name_molly_diamondshield:0 "Молли Алмазный Щит"
+ PRESCRIPTED_ruler_name_molly_diamondshield_desc:0 "<insert_desc_here>"
+ PRESCRIPTED_ruler_name_molly_diamondshield_catch_phrase:0 "§L""§!"
+
+ PRESCRIPTED_ruler_name_laika_barker:0 "Лайка Баркер"
+ PRESCRIPTED_ruler_name_laika_barker_desc:0 "<insert_desc_here>"
+ PRESCRIPTED_ruler_name_laika_barker_catch_phrase:0 "§L""§!"
+
+ PRESCRIPTED_ruler_name_theo_biter:0 "Тео Байтер"
+ PRESCRIPTED_ruler_name_theo_biter_desc:0 "<insert_desc_here>"
+ PRESCRIPTED_ruler_name_theo_biter_catch_phrase:0 "§L""§!"
+
  # Empire of Frost
  EMPIRE_DESIGN_new_draconian_empire:0 "Империя Мороза&!fem|||gen:Империи Мороза&!fem|||dat:Империи Мороза&!fem|||acc:Империю Мороза&!fem|||inst:Империей Мороза&!fem|||prep:Империи Мороза&!fem"
  #EMPIRE_DESIGN_new_draconian_empire_desc:0 ""

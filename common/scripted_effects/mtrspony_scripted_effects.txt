@@ -796,6 +796,11 @@ calculate_pops_to_remove = {
 		subtract_variable = { which = pops_to_remove value = yak_pops }
 	}
 	else_if = {
+		limit = { owner = { species_portrait = mtrspony_diamond_dog } }
+
+		subtract_variable = { which = pops_to_remove value = diamond_dog_pops }
+	}
+	else_if = {
 		limit = { owner = { species_portrait = mtrspony_dragon } }
 
 		subtract_variable = { which = pops_to_remove value = dragon_pops }
@@ -2674,6 +2679,18 @@ add_named_leader_cutie_mark_traits = {
 	else_if = {
 		limit = { has_leader_flag = leader_rock_trot }
 		add_trait = leader_trait_cutie_mark_materials
+	}
+	else_if = {
+		limit = { has_leader_flag = leader_rover_diamondshield }
+		add_trait = leader_trait_cutie_mark_mining
+	}
+	else_if = {
+		limit = { has_leader_flag = leader_molly_diamondshield }
+		add_trait = leader_trait_cutie_mark_bureaucracy
+	}
+	else_if = {
+		limit = { has_leader_flag = leader_laika_barker }
+		add_trait = leader_trait_cutie_mark_voidcraft
 	}
 }
 

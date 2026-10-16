@@ -1,0 +1,234 @@
+namespace = destart
+
+#Setup Diamond Empire
+country_event = {
+	id = destart.1
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		has_country_flag = diamond_empire
+	}
+	immediate = {
+		create_leader = {
+			name = "PRESCRIPTED_ruler_name_rover_diamondshield"
+			custom_description = "PRESCRIPTED_ruler_name_rover_diamondshield_desc"
+			species = ROOT.species
+			gender = male
+			class = official
+			skill = 1
+			set_age = 51
+			background_ethic = ethic_authoritarian
+			skip_background_generation = yes
+			randomize_traits = no
+			traits = {
+				trait = trait_imperial_heir
+
+				1 = trait_ruler_industrialist
+				trait = trait_ruler_charismatic
+				trait = leader_trait_tyrannical
+			}
+
+			effect = {
+				save_global_event_target_as = leader_rover_diamondshield
+				set_leader_flag = leader_rover_diamondshield
+				set_leader_flag = is_created_leader
+				change_leader_portrait = "mtrspony_diamond_dog_rover_diamondshield_predefined"
+				ROOT = {
+					leader = {
+						kill_leader = {
+							show_notification = no
+							fire = yes
+						}
+					}
+					assign_leader = event_target:leader_rover_diamondshield
+				}
+			}
+		}
+
+		create_leader = {
+			name = "PRESCRIPTED_ruler_name_molly_diamondshield"
+			custom_description = "PRESCRIPTED_ruler_name_molly_diamondshield_desc"
+			species = ROOT.species
+			gender = female
+			class = official
+			skill = 1
+			set_age = 21
+			background_ethic = ethic_xenophile
+			skip_background_generation = yes
+			randomize_traits = no
+			traits = {
+				trait = trait_imperial_heir
+
+				1 = leader_trait_eager
+			}
+
+			effect = {
+				save_global_event_target_as = leader_molly_diamondshield
+				set_leader_flag = leader_molly_diamondshield
+				set_leader_flag = is_created_leader
+				change_leader_portrait = "mtrspony_diamond_dog_molly_diamondshield_predefined"
+				ROOT = {
+					capital_scope = {
+						leader = {
+							kill_leader = {
+								show_notification = no
+								fire = yes
+							}
+						}
+						assign_leader = event_target:leader_molly_diamondshield
+					}
+				}
+				set_council_position = councilor_state
+			}
+		}
+		set_heir = event_target:leader_molly_diamondshield
+
+		create_leader = {
+			name = "PRESCRIPTED_ruler_name_laika_barker"
+			custom_description = "PRESCRIPTED_ruler_name_laika_barker_desc"
+			species = ROOT.species
+			gender = female
+			class = scientist
+			skill = 1
+			set_age = 32
+			background_ethic = ethic_materialist
+			skip_background_generation = yes
+			randomize_traits = no
+			traits = {
+				1 = leader_trait_carefree
+			}
+
+			effect = {
+				save_global_event_target_as = leader_laika_barker
+				set_leader_flag = leader_laika_barker
+				set_leader_flag = is_created_leader
+				change_leader_portrait = "mtrspony_diamond_dog_laika_barker_predefined"
+				ROOT = {
+					random_owned_fleet = {
+						limit = { is_ship_class = shipclass_science_ship }
+
+						leader = {
+							kill_leader = {
+								show_notification = no
+								fire = yes
+							}
+						}
+						assign_leader = PREVPREV
+					}
+				}
+				set_council_position = councilor_research
+			}
+		}
+
+		create_leader = {
+			name = "PRESCRIPTED_ruler_name_theo_biter"
+			custom_description = "PRESCRIPTED_ruler_name_theo_biter_desc"
+			species = ROOT.species
+			gender = male
+			class = commander
+			skill = 1
+			set_age = 45
+			background_ethic = ethic_militarist
+			skip_background_generation = yes
+			randomize_traits = no
+			traits = {
+				1 = leader_trait_aggressive
+			}
+
+			effect = {
+				save_global_event_target_as = leader_theo_biter
+				set_leader_flag = leader_theo_biter
+				set_leader_flag = is_created_leader
+				change_leader_portrait = "mtrspony_diamond_dog_theo_biter_predefined"
+				ROOT = {
+					random_owned_fleet = {
+						limit = { is_ship_class = shipclass_military }
+
+						leader = {
+							kill_leader = {
+								show_notification = no
+								fire = yes
+							}
+						}
+						assign_leader = PREVPREV
+					}
+				}
+				set_council_position = councilor_defense
+			}
+		}
+
+		save_current_mtrspony_species = yes
+		create_other_mtrspony_species = yes
+
+		capital_scope = {
+			calculate_mtrspony_pop_count_keep_majority = yes
+			spawn_other_mtrspony_species = yes
+		}
+		refresh_leader_pool = yes
+
+		if = {
+			limit = { has_origin = origin_subterranean }
+
+			# Only the dogs are Subterranean. Couldn't get it to work with every_owned_species.
+			event_target:pony_species@ROOT = { change_species_characteristics = { remove_trait = trait_cave_dweller } }
+			event_target:griffon_species@ROOT = { change_species_characteristics = { remove_trait = trait_cave_dweller } }
+			event_target:zebra_species@ROOT = { change_species_characteristics = { remove_trait = trait_cave_dweller } }
+			event_target:deer_species@ROOT = { change_species_characteristics = { remove_trait = trait_cave_dweller } }
+			event_target:changeling_species@ROOT = { change_species_characteristics = { remove_trait = trait_cave_dweller } }
+			event_target:hippogriff_species@ROOT = { change_species_characteristics = { remove_trait = trait_cave_dweller } }
+			event_target:kirin_species@ROOT = { change_species_characteristics = { remove_trait = trait_cave_dweller } }
+			event_target:yak_species@ROOT = { change_species_characteristics = { remove_trait = trait_cave_dweller } }
+			event_target:dragon_species@ROOT = { change_species_characteristics = { remove_trait = trait_cave_dweller } }
+		}
+
+		country_event = { id = destart.1001 days = 1 }
+	}
+}
+
+# Properly set the background job and ethics.
+country_event = {
+	id = destart.1001
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		event_target:leader_rover_diamondshield = {
+			change_background_ethic = ethic_authoritarian
+		}
+		event_target:leader_molly_diamondshield = {
+			change_background_ethic = ethic_xenophile
+		}
+		event_target:leader_laika_barker = {
+			change_background_ethic = ethic_materialist
+		}
+		event_target:leader_theo_biter = {
+			change_background_ethic = ethic_militarist
+		}
+	}
+}
+
+# Reapply named character potraits, they seem to reset after loading a save or when species got modified.
+country_event = {
+	id = destart.2
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		has_country_flag = diamond_empire
+	}
+	immediate = {
+		event_target:leader_rover_diamondshield = {
+			change_leader_portrait = "mtrspony_diamond_dog_rover_diamondshield_predefined"
+		}
+		event_target:leader_molly_diamondshield = {
+			change_leader_portrait = "mtrspony_diamond_dog_molly_diamondshield_predefined"
+		}
+		event_target:leader_laika_barker = {
+			change_leader_portrait = "mtrspony_diamond_dog_laika_barker_predefined"
+		}
+		event_target:leader_theo_biter = {
+			change_leader_portrait = "mtrspony_diamond_dog_theo_biter_predefined"
+		}
+	}
+}

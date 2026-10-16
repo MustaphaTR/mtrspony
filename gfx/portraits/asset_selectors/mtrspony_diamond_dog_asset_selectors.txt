@@ -22,6 +22,7 @@ mtrspony_diamond_dog_rover_eyes_selector = {
 				"gfx/models/portraits/diamond_dog/rover/rover_eyes_alt5.tga"
 				"gfx/models/portraits/diamond_dog/rover/rover_eyes_alt6.tga"
 				"gfx/models/portraits/diamond_dog/rover/rover_eyes_alt7.tga"
+				"gfx/models/portraits/diamond_dog/rover/rover_eyes_alt8.tga"
 			}
 		}
 	}
@@ -37,6 +38,7 @@ mtrspony_diamond_dog_rover_eyes_selector = {
 				"gfx/models/portraits/diamond_dog/rover/rover_eyes_alt5.tga"
 				"gfx/models/portraits/diamond_dog/rover/rover_eyes_alt6.tga"
 				"gfx/models/portraits/diamond_dog/rover/rover_eyes_alt7.tga"
+				"gfx/models/portraits/diamond_dog/rover/rover_eyes_alt8.tga"
 			}
 		}
 	}
@@ -52,6 +54,7 @@ mtrspony_diamond_dog_rover_eyes_selector = {
 				"gfx/models/portraits/diamond_dog/rover/rover_eyes_alt5.tga"
 				"gfx/models/portraits/diamond_dog/rover/rover_eyes_alt6.tga"
 				"gfx/models/portraits/diamond_dog/rover/rover_eyes_alt7.tga"
+				"gfx/models/portraits/diamond_dog/rover/rover_eyes_alt8.tga"
 			}
 		}
 	}
@@ -82,6 +85,7 @@ mtrspony_diamond_dog_rover_clothes_selector = {
 				"gfx/models/portraits/diamond_dog/rover/rover_clothes_alt6.tga"
 				"gfx/models/portraits/diamond_dog/rover/rover_clothes_alt7.tga"
 				"gfx/models/portraits/diamond_dog/rover/rover_clothes_alt8.tga"
+				"gfx/models/portraits/diamond_dog/rover/rover_clothes_alt9.tga"
 			}
 		}
 	}
@@ -98,6 +102,7 @@ mtrspony_diamond_dog_rover_clothes_selector = {
 				"gfx/models/portraits/diamond_dog/rover/rover_clothes_alt6.tga"
 				"gfx/models/portraits/diamond_dog/rover/rover_clothes_alt7.tga"
 				"gfx/models/portraits/diamond_dog/rover/rover_clothes_alt8.tga"
+				"gfx/models/portraits/diamond_dog/rover/rover_clothes_alt9.tga"
 			}
 		}
 	}
@@ -114,19 +119,20 @@ mtrspony_diamond_dog_rover_clothes_selector = {
 				"gfx/models/portraits/diamond_dog/rover/rover_clothes_alt6.tga"
 				"gfx/models/portraits/diamond_dog/rover/rover_clothes_alt7.tga"
 				"gfx/models/portraits/diamond_dog/rover/rover_clothes_alt8.tga"
+				"gfx/models/portraits/diamond_dog/rover/rover_clothes_alt9.tga"
 			}
 		}
 	}
 }
 
 mtrspony_diamond_dog_max_von_hundsfeld_predefined_eyes_selector = {
-	default = "gfx/models/portraits/diamond_dog/rover/rover_eyes_alt6.dds"
+	default = "gfx/models/portraits/diamond_dog/rover/rover_eyes_alt6.tga"
 
-	game_setup = { default = "gfx/models/portraits/diamond_dog/rover/rover_eyes_alt6.dds" }
-	species = { default = "gfx/models/portraits/diamond_dog/rover/rover_eyes_alt6.dds" }
-	pop = { default = "gfx/models/portraits/diamond_dog/rover/rover_eyes_alt6.dds" }
-	leader = { default = "gfx/models/portraits/diamond_dog/rover/rover_eyes_alt6.dds" }
-	ruler = { default = "gfx/models/portraits/diamond_dog/rover/rover_eyes_alt6.dds" }
+	game_setup = { default = "gfx/models/portraits/diamond_dog/rover/rover_eyes_alt6.tga" }
+	species = { default = "gfx/models/portraits/diamond_dog/rover/rover_eyes_alt6.tga" }
+	pop = { default = "gfx/models/portraits/diamond_dog/rover/rover_eyes_alt6.tga" }
+	leader = { default = "gfx/models/portraits/diamond_dog/rover/rover_eyes_alt6.tga" }
+	ruler = { default = "gfx/models/portraits/diamond_dog/rover/rover_eyes_alt6.tga" }
 }
 
 mtrspony_diamond_dog_max_von_hundsfeld_predefined_clothes_selector = {
@@ -139,3 +145,72 @@ mtrspony_diamond_dog_max_von_hundsfeld_predefined_clothes_selector = {
 	ruler = { default = "gfx/models/portraits/diamond_dog/rover/rover_clothes_alt6.tga" }
 }
 
+mtrspony_diamond_dog_rover_diamondshield_predefined_eyes_selector = {
+	default = "gfx/models/portraits/diamond_dog/rover/rover_eyes.tga"
+
+	game_setup = { default = "gfx/models/portraits/diamond_dog/rover/rover_eyes.tga" }
+	species = { default = "gfx/models/portraits/diamond_dog/rover/rover_eyes.tga" }
+	pop = { default = "gfx/models/portraits/diamond_dog/rover/rover_eyes.tga" }
+	leader = { default = "gfx/models/portraits/diamond_dog/rover/rover_eyes.tga" }
+	ruler = { default = "gfx/models/portraits/diamond_dog/rover/rover_eyes.tga" }
+}
+
+mtrspony_diamond_dog_rover_diamondshield_predefined_clothes_selector = {
+	default = "gfx/models/portraits/diamond_dog/rover/rover_clothes.tga"
+
+	game_setup = { default = "gfx/models/portraits/diamond_dog/rover/rover_clothes.tga" }
+	species = { default = "gfx/models/portraits/diamond_dog/rover/rover_clothes.tga" }
+	pop = { default = "gfx/models/portraits/diamond_dog/rover/rover_clothes.tga" }
+	leader = { default = "gfx/models/portraits/diamond_dog/rover/rover_clothes.tga" }
+	ruler = { default = "gfx/models/portraits/diamond_dog/rover/rover_clothes.tga" }
+}
+
+mtrspony_diamond_dog_molly_diamondshield_predefined_eyes_selector = {
+	default = "gfx/models/portraits/diamond_dog/rover/rover_eyes_alt8.tga"
+
+	game_setup = { default = "gfx/models/portraits/diamond_dog/rover/rover_eyes_alt8.tga" }
+	species = { default = "gfx/models/portraits/diamond_dog/rover/rover_eyes_alt8.tga" }
+	pop = { default = "gfx/models/portraits/diamond_dog/rover/rover_eyes_alt8.tga" }
+	leader = { default = "gfx/models/portraits/diamond_dog/rover/rover_eyes_alt8.tga" }
+	ruler = { default = "gfx/models/portraits/diamond_dog/rover/rover_eyes_alt8.tga" }
+}
+
+mtrspony_diamond_dog_molly_diamondshield_predefined_clothes_selector = {
+	default = "gfx/models/portraits/diamond_dog/rover/rover_clothes_alt9.tga"
+
+	game_setup = { default = "gfx/models/portraits/diamond_dog/rover/rover_clothes_alt9.tga" }
+	species = { default = "gfx/models/portraits/diamond_dog/rover/rover_clothes_alt9.tga" }
+	pop = { default = "gfx/models/portraits/diamond_dog/rover/rover_clothes_alt9.tga" }
+	leader = { default = "gfx/models/portraits/diamond_dog/rover/rover_clothes_alt9.tga" }
+	ruler = { default = "gfx/models/portraits/diamond_dog/rover/rover_clothes_alt9.tga" }
+}
+
+mtrspony_diamond_dog_laika_barker_predefined_eyes_selector = {
+	default = "gfx/models/portraits/diamond_dog/rover/rover_eyes_alt4.tga"
+
+	game_setup = { default = "gfx/models/portraits/diamond_dog/rover/rover_eyes_alt4.tga" }
+	species = { default = "gfx/models/portraits/diamond_dog/rover/rover_eyes_alt4.tga" }
+	pop = { default = "gfx/models/portraits/diamond_dog/rover/rover_eyes_alt4.tga" }
+	leader = { default = "gfx/models/portraits/diamond_dog/rover/rover_eyes_alt4.tga" }
+	ruler = { default = "gfx/models/portraits/diamond_dog/rover/rover_eyes_alt4.tga" }
+}
+
+mtrspony_diamond_dog_laika_barker_predefined_clothes_selector = {
+	default = "gfx/models/portraits/diamond_dog/rover/rover_clothes_alt3.tga"
+
+	game_setup = { default = "gfx/models/portraits/diamond_dog/rover/rover_clothes_alt3.tga" }
+	species = { default = "gfx/models/portraits/diamond_dog/rover/rover_clothes_alt3.tga" }
+	pop = { default = "gfx/models/portraits/diamond_dog/rover/rover_clothes_alt3.tga" }
+	leader = { default = "gfx/models/portraits/diamond_dog/rover/rover_clothes_alt3.tga" }
+	ruler = { default = "gfx/models/portraits/diamond_dog/rover/rover_clothes_alt3.tga" }
+}
+
+mtrspony_diamond_dog_theo_biter_predefined_clothes_selector = {
+	default = "gfx/models/portraits/diamond_dog/rover/rover_clothes_alt2.tga"
+
+	game_setup = { default = "gfx/models/portraits/diamond_dog/rover/rover_clothes_alt2.tga" }
+	species = { default = "gfx/models/portraits/diamond_dog/rover/rover_clothes_alt2.tga" }
+	pop = { default = "gfx/models/portraits/diamond_dog/rover/rover_clothes_alt2.tga" }
+	leader = { default = "gfx/models/portraits/diamond_dog/rover/rover_clothes_alt2.tga" }
+	ruler = { default = "gfx/models/portraits/diamond_dog/rover/rover_clothes_alt2.tga" }
+}

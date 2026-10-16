@@ -46,9 +46,9 @@ country_event = {
 		save_current_mtrspony_species = yes
 		create_other_mtrspony_species = yes
 		set_mtrspony_citizenship_limited = yes
-		event_target:changeling_species@ROOT = { set_military_service_full = { country = ROOT } }
-		event_target:diamond_dog_species@ROOT = { set_citizenship_full = { country = ROOT } }
-		event_target:diamond_dog_species@ROOT = { set_military_service_full = { country = ROOT } }
+		event_target:changeling_species@ROOT = { set_military_service_full = { COUNTRY = ROOT } }
+		event_target:diamond_dog_species@ROOT = { set_citizenship_full = { COUNTRY = ROOT } }
+		event_target:diamond_dog_species@ROOT = { set_military_service_full = { COUNTRY = ROOT } }
 
 		capital_scope = {
 			calculate_mtrspony_pop_count_keep_majority = yes

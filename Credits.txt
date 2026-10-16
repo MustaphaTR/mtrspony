@@ -125,6 +125,12 @@ Portrait Bases:
 	- Luna
 	- Prince Rutherford
 
+ > pika-robo:
+	- Rover recolors
+
+ > qsteel:
+	- Rover
+
  > ready2fail:
 	- Spitfire
 

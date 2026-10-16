@@ -3049,6 +3049,161 @@ mangchijid_clan_paragons_nomads = {
 	}
 }
 
+diamond_empire = {
+	name = "EMPIRE_DESIGN_diamond_empire"
+	adjective = "PRESCRIPTED_adjective_diamond_empire"
+	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
+
+	playable = has_not_overlord_dlc # Subterranean origin is from Overlord DLC.
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_diamond_empire"
+
+	species = {
+		class = "MAM"
+		portrait = "mtrspony_diamond_dog"
+		name = "PRESCRIPTED_species_diamond_dog"
+		plural = "PRESCRIPTED_species_plural_diamond_dog"
+		adjective = "PRESCRIPTED_species_adjective_diamond_dog"
+		name_list = "mtrspony_namelists_diamond_dog"
+		trait = "trait_organic"
+		trait = "trait_industrious"
+		trait = "trait_natural_engineers"
+		trait = "trait_decadent"
+	}
+
+	room = "crystalline_room"
+
+	authority = "auth_imperial"
+	civics = { "civic_slaver_guilds" "civic_mining_guilds" }
+	government = gov_despotic_empire
+
+	ethic = "ethic_fanatic_authoritarian"
+	ethic = "ethic_militarist" # "ethic_xenophile" # Xenophiles can't have slaves apparently.
+
+	origin = "origin_default"
+
+	flag = empire_diamond_empire
+
+	planet_name = "NAME_Faust"
+	planet_class = "pc_continental"
+	initializer = "eaw_vanilla_initializer"
+	system_name = "NAME_Behemoth"
+
+	graphical_culture = mammalian_01
+	city_graphical_culture = mammalian_01
+
+	empire_flag = {
+		icon = {
+			category = "eqsatwargriffon"
+			file = "DMT.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "chains.dds"
+		}
+		colors = {
+			"shadow_blue"
+			"white"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_rover_diamondshield"
+		ruler_title = "PRESCRIPTED_ruler_title_emperor"
+		ruler_title_female = "PRESCRIPTED_ruler_title_empress"
+		heir_title = "PRESCRIPTED_ruler_title_prince"
+		heir_title_female = "PRESCRIPTED_ruler_title_princess"
+		gender = male
+		portrait = "mtrspony_diamond_dog_rover"
+		texture = 0
+		attachment = 0
+		clothes = 0
+		trait = "trait_ruler_industrialist"
+		leader_class = official
+	}
+}
+
+diamond_empire_overlord = {
+	name = "EMPIRE_DESIGN_diamond_empire"
+	adjective = "PRESCRIPTED_adjective_diamond_empire"
+	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
+
+	playable = has_overlord_dlc # Subterranean origin is from Overlord DLC.
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_diamond_empire"
+
+	species = {
+		class = "MAM"
+		portrait = "mtrspony_diamond_dog"
+		name = "PRESCRIPTED_species_diamond_dog"
+		plural = "PRESCRIPTED_species_plural_diamond_dog"
+		adjective = "PRESCRIPTED_species_adjective_diamond_dog"
+		name_list = "mtrspony_namelists_diamond_dog"
+		trait = "trait_organic"
+		trait = "trait_cave_dweller"
+		trait = "trait_industrious"
+		trait = "trait_natural_engineers"
+		trait = "trait_decadent"
+	}
+
+	room = "crystalline_room"
+
+	authority = "auth_imperial"
+	civics = { "civic_slaver_guilds" "civic_mining_guilds" }
+	government = gov_despotic_empire
+
+	ethic = "ethic_fanatic_authoritarian"
+	ethic = "ethic_militarist" # "ethic_xenophile" # Xenophiles can't have slaves apparently.
+
+	origin = "origin_subterranean"
+
+	flag = empire_diamond_empire
+
+	planet_name = "NAME_Faust"
+	planet_class = "pc_continental"
+	initializer = "eaw_vanilla_initializer"
+	system_name = "NAME_Behemoth"
+
+	graphical_culture = mammalian_01
+	city_graphical_culture = mammalian_01
+
+	empire_flag = {
+		icon = {
+			category = "eqsatwargriffon"
+			file = "DMT.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "chains.dds"
+		}
+		colors = {
+			"shadow_blue"
+			"white"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_rover_diamondshield"
+		ruler_title = "PRESCRIPTED_ruler_title_emperor"
+		ruler_title_female = "PRESCRIPTED_ruler_title_empress"
+		heir_title = "PRESCRIPTED_ruler_title_prince"
+		heir_title_female = "PRESCRIPTED_ruler_title_princess"
+		gender = male
+		portrait = "mtrspony_diamond_dog_rover"
+		texture = 0
+		attachment = 0
+		clothes = 0
+		trait = "trait_ruler_industrialist"
+		leader_class = official
+	}
+}
+
 new_draconian_empire = {
 	name = "EMPIRE_DESIGN_new_draconian_empire"
 	adjective = "PRESCRIPTED_adjective_new_draconian_empire"

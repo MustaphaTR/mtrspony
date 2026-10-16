@@ -27,6 +27,50 @@ portraits = {
 			"gfx/models/portraits/diamond_dog/rover/rover_alt2.tga"
 		}
 	}
+
+	mtrspony_diamond_dog_rover_diamondshield_predefined = {
+		entity = "portrait_dummy_10p_left_entity"
+		clothes_selector = "mtrspony_diamond_dog_rover_diamondshield_predefined_clothes_selector"
+		attachment_selector = "mtrspony_diamond_dog_rover_diamondshield_predefined_eyes_selector"
+		greeting_sound = "humanoid_portrait_h_male"
+
+		character_textures = {
+			"gfx/models/portraits/diamond_dog/rover/rover.tga"
+		}
+	}
+
+	mtrspony_diamond_dog_molly_diamondshield_predefined = {
+		entity = "portrait_dummy_10p_left_entity"
+		clothes_selector = "mtrspony_diamond_dog_molly_diamondshield_predefined_clothes_selector"
+		attachment_selector = "mtrspony_diamond_dog_molly_diamondshield_predefined_eyes_selector"
+		greeting_sound = "humanoid_portrait_h_female"
+
+		character_textures = {
+			"gfx/models/portraits/diamond_dog/rover/rover_alt2.tga"
+		}
+	}
+
+	mtrspony_diamond_dog_laika_barker_predefined = {
+		entity = "portrait_dummy_10p_left_entity"
+		clothes_selector = "mtrspony_diamond_dog_laika_barker_predefined_clothes_selector"
+		attachment_selector = "mtrspony_diamond_dog_laika_barker_predefined_eyes_selector"
+		greeting_sound = "humanoid_portrait_h_female"
+
+		character_textures = {
+			"gfx/models/portraits/diamond_dog/rover/rover_alt3.tga"
+		}
+	}
+
+	mtrspony_diamond_dog_theo_biter_predefined = {
+		entity = "portrait_dummy_10p_left_entity"
+		clothes_selector = "mtrspony_diamond_dog_theo_biter_predefined_clothes_selector"
+		attachment_selector = "mtrspony_diamond_dog_laika_barker_predefined_eyes_selector"
+		greeting_sound = "humanoid_portrait_h_male"
+
+		character_textures = {
+			"gfx/models/portraits/diamond_dog/rover/rover_alt5.tga"
+		}
+	}
 }
 
 portrait_groups = {

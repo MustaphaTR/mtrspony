@@ -54,6 +54,10 @@ empire_mangchijid_clan_non_nomad = {
 	flags = { mangchijid_clan mangchijid_clan_non_nomad }
 }
 
+empire_diamond_empire = {
+	flags = { diamond_empire }
+}
+
 empire_new_draconian_empire = {
 	flags = { new_draconian_empire }
 }

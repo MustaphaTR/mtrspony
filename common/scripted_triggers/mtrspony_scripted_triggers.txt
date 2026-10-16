@@ -4,6 +4,11 @@ has_not_apocalypse_dlc = {
 	NOT = { host_has_dlc = "Apocalypse" }
 }
 
+has_not_overlord_dlc = {
+	optimize_memory
+	NOT = { host_has_dlc = "Overlord" }
+}
+
 has_apocalypse_and_grand_archive = {
 	optimize_memory
 	host_has_dlc = "Apocalypse"
@@ -341,6 +346,7 @@ is_mtrspony_prescripted_country = {
 		has_country_flag = mangchijid_clan
 		has_country_flag = jakichikh_clan
 		has_country_flag = ghenikhan_clan
+		has_country_flag = diamond_empire
 		has_country_flag = new_draconian_empire
 	}
 }

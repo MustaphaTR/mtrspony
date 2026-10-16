@@ -374,6 +374,28 @@
  PRESCRIPTED_adjective_ghenikhan_clan:0 "Ghenikhan"
  PRESCRIPTED_ship_prefix_ghenikhan_clan:0 "GCS"
 
+ # Diamond Empire
+ EMPIRE_DESIGN_diamond_empire:0 "Diamentowe Imperium"
+ #EMPIRE_DESIGN_diamond_empire_desc:0 ""
+ PRESCRIPTED_adjective_diamond_empire:0 "Diamond"
+ PRESCRIPTED_ship_prefix_diamond_empire:0 "ISS"
+
+ PRESCRIPTED_ruler_name_rover_diamondshield:0 "Rover Diamondshield"
+ PRESCRIPTED_ruler_name_rover_diamondshield_desc:0 "<insert_desc_here>"
+ PRESCRIPTED_ruler_name_rover_diamondshield_catch_phrase:0 "§L""§!"
+
+ PRESCRIPTED_ruler_name_molly_diamondshield:0 "Molly Diamondshield"
+ PRESCRIPTED_ruler_name_molly_diamondshield_desc:0 "<insert_desc_here>"
+ PRESCRIPTED_ruler_name_molly_diamondshield_catch_phrase:0 "§L""§!"
+
+ PRESCRIPTED_ruler_name_laika_barker:0 "Laika Barker"
+ PRESCRIPTED_ruler_name_laika_barker_desc:0 "<insert_desc_here>"
+ PRESCRIPTED_ruler_name_laika_barker_catch_phrase:0 "§L""§!"
+
+ PRESCRIPTED_ruler_name_theo_biter:0 "Theo Biter"
+ PRESCRIPTED_ruler_name_theo_biter_desc:0 "<insert_desc_here>"
+ PRESCRIPTED_ruler_name_theo_biter_catch_phrase:0 "§L""§!"
+
  # Empire of Frost
  EMPIRE_DESIGN_new_draconian_empire:0 "Imperium Mrozu"
  #EMPIRE_DESIGN_new_draconian_empire_desc:0 ""

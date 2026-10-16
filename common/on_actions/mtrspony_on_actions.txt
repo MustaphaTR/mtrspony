@@ -24,6 +24,7 @@ on_game_start_country = {
 		rfstart.1
 		fcstart.1
 		mcstart.1
+		destart.1
 		ndestart.1
 	}
 }
@@ -44,6 +45,7 @@ on_modification_complete = {
 		rfstart.2
 		fcstart.2
 		mcstart.2
+		destart.2
 		ndestart.2
 
 		uanstart.2
@@ -71,6 +73,7 @@ on_monthly_pulse_country = { # Above only triggers with manual species modificat
 		rfstart.2
 		fcstart.2
 		mcstart.2
+		destart.2
 		ndestart.2
 
 		uanstart.2
