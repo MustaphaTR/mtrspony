@@ -295,6 +295,7 @@ has_mtrspony_portrait = {
 		species_portrait = mtrspony_pony_crystal_unicorn
 		species_portrait = mtrspony_pony_crystal_pegasus
 		species_portrait = mtrspony_deer
+		species_portrait = mtrspony_diamond_dog
 		species_portrait = mtrspony_kirin
 		species_portrait = mtrspony_yak
 		species_portrait = mtrspony_zebra
@@ -354,6 +355,7 @@ is_same_species_with_faustian_races = {
 		is_same_species = event_target:hippogriff_species
 		is_same_species = event_target:kirin_species
 		is_same_species = event_target:yak_species
+		is_same_species = event_target:diamond_dog_species
 		is_same_species = event_target:dragon_species
 		is_same_species = event_target:polar_bear_species
 	}
@@ -373,6 +375,7 @@ is_exact_same_species_with_empire_faustian_races = {
 		is_exact_same_species = event_target:hippogriff_species@$COUNTRY$
 		is_exact_same_species = event_target:kirin_species@$COUNTRY$
 		is_exact_same_species = event_target:yak_species@$COUNTRY$
+		is_exact_same_species = event_target:diamond_dog_species@$COUNTRY$
 		is_exact_same_species = event_target:dragon_species@$COUNTRY$
 		is_exact_same_species = event_target:polar_bear_species@$COUNTRY$
 	}

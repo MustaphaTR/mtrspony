@@ -46,13 +46,52 @@ country_event = {
 		save_current_mtrspony_species = yes
 		create_other_mtrspony_species = yes
 		set_mtrspony_citizenship_limited = yes
-		event_target:changeling_species@ROOT = { set_military_service_type = { country = ROOT type = military_service_full } }
+		event_target:changeling_species@ROOT = { set_military_service_full = { country = ROOT } }
+		event_target:diamond_dog_species@ROOT = { set_citizenship_full = { country = ROOT } }
+		event_target:diamond_dog_species@ROOT = { set_military_service_full = { country = ROOT } }
 
 		capital_scope = {
 			calculate_mtrspony_pop_count_keep_majority = yes
 			spawn_other_mtrspony_species = yes
 		}
 		refresh_leader_pool = yes
+
+		create_leader = {
+			name = "PRESCRIPTED_ruler_name_max_von_hundsfeld"
+			custom_description = "PRESCRIPTED_ruler_name_max_von_hundsfeld_desc"
+			species = event_target:diamond_dog_species@ROOT
+			gender = male
+			class = commander
+			skill = 1
+			set_age = 58
+			background_ethic = ethic_militarist
+			skip_background_generation = yes
+			randomize_traits = no
+			traits = {
+				1 = leader_trait_defence_engineer
+			}
+
+			effect = {
+				save_global_event_target_as = leader_max_von_hundsfeld
+				set_leader_flag = leader_max_von_hundsfeld
+				set_leader_flag = is_created_leader
+				change_leader_portrait = "mtrspony_diamond_dog_max_von_hundsfeld_predefined"
+				ROOT = {
+					random_owned_fleet = {
+						limit = { is_ship_class = shipclass_military }
+
+						leader = {
+							kill_leader = {
+								show_notification = no
+								fire = yes
+							}
+						}
+						assign_leader = PREVPREV
+					}
+				}
+				set_council_position = councilor_defense
+			}
+		}
 
 		event_target:leader_grover_xi = {
 			set_name = "PRESCRIPTED_ruler_name_grover_xi"
@@ -72,6 +111,9 @@ country_event = {
 		event_target:leader_grover_xi = {
 			change_background_ethic = ethic_authoritarian
 		}
+		event_target:leader_max_von_hundsfeld = {
+			change_background_ethic = ethic_militarist
+		}
 	}
 }
 
@@ -87,6 +129,9 @@ country_event = {
 	immediate = {
 		event_target:leader_grover_xi = {
 			change_leader_portrait = "mtrspony_griffon_grover_xi_predefined"
+		}
+		event_target:leader_max_von_hundsfeld = {
+			change_leader_portrait = "mtrspony_diamond_dog_max_von_hundsfeld_predefined"
 		}
 	}
 }

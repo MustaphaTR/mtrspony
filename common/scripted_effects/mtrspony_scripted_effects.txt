@@ -23,6 +23,9 @@ set_mtrspony_setup_variables = {
 	set_variable = { which = yak_pops value = 0 }
 	set_variable = { which = yak_pops_prev value = 0 }
 	set_variable = { which = yak_pops_div_5 value = 0 }
+	set_variable = { which = diamond_dog_pops value = 0 }
+	set_variable = { which = diamond_dog_pops_prev value = 0 }
+	set_variable = { which = diamond_dog_pops_div_5 value = 0 }
 	set_variable = { which = dragon_pops value = 0 }
 	set_variable = { which = dragon_pops_prev value = 0 }
 	set_variable = { which = dragon_pops_div_5 value = 0 }
@@ -146,6 +149,20 @@ save_current_mtrspony_species = {
 			}
 		}
 		else_if = {
+			limit = { species_portrait = mtrspony_diamond_dog }
+
+			owner_main_species = {
+				every_country = {
+					limit = { has_mtrspony_portrait = yes }
+
+					PREV = { save_global_event_target_as = diamond_dog_species@PREV }
+				}
+				save_global_event_target_as = diamond_dog_species
+				set_global_flag = diamond_dog_species_created
+				set_species_flag = species_creator@PREV
+			}
+		}
+		else_if = {
 			limit = { species_portrait = mtrspony_dragon }
 
 			owner_main_species = {
@@ -170,7 +187,7 @@ calculate_mtrspony_pop_count_equal = {
 		}
 		variable = equal_pops
 	}
-	divide_variable = { which = equal_pops value = 9 }
+	divide_variable = { which = equal_pops value = 10 }
 	round_variable_to_closest = { which = equal_pops value = 5 }
 
 	set_variable = { which = pony_pops value = equal_pops }
@@ -181,6 +198,7 @@ calculate_mtrspony_pop_count_equal = {
 	set_variable = { which = hippogriff_pops value = equal_pops }
 	set_variable = { which = kirin_pops value = equal_pops }
 	set_variable = { which = yak_pops value = equal_pops }
+	set_variable = { which = diamond_dog value = equal_pops }
 	set_variable = { which = dragon_pops value = equal_pops }
 
 	calculate_pops_to_remove = yes
@@ -195,14 +213,15 @@ calculate_mtrspony_pop_count_default = {
 			}
 		}
 
-		set_variable = { which = pony_pops value = 2440 }
-		set_variable = { which = griffon_pops value = 1605 }
-		set_variable = { which = zebra_pops value = 905 }
-		set_variable = { which = deer_pops value = 570 }
-		set_variable = { which = changeling_pops value = 470 }
-		set_variable = { which = hippogriff_pops value = 350 }
-		set_variable = { which = kirin_pops value = 330 }
-		set_variable = { which = yak_pops value = 320 }
+		set_variable = { which = pony_pops value = 2360 }
+		set_variable = { which = griffon_pops value = 1550 }
+		set_variable = { which = zebra_pops value = 875 }
+		set_variable = { which = deer_pops value = 555 }
+		set_variable = { which = changeling_pops value = 455 }
+		set_variable = { which = hippogriff_pops value = 340 }
+		set_variable = { which = kirin_pops value = 320 }
+		set_variable = { which = yak_pops value = 310 }
+		set_variable = { which = diamond_dog_pops value = 225 }
 		set_variable = { which = dragon_pops value = 10 }
 	}
 	else_if = {
@@ -213,14 +232,15 @@ calculate_mtrspony_pop_count_default = {
 			}
 		}
 
-		set_variable = { which = pony_pops value = 2405 }
-		set_variable = { which = griffon_pops value = 1580 }
-		set_variable = { which = zebra_pops value = 895 }
-		set_variable = { which = deer_pops value = 560 }
-		set_variable = { which = changeling_pops value = 465 }
-		set_variable = { which = hippogriff_pops value = 345 }
-		set_variable = { which = kirin_pops value = 325 }
-		set_variable = { which = yak_pops value = 315 }
+		set_variable = { which = pony_pops value = 2330 }
+		set_variable = { which = griffon_pops value = 1530 }
+		set_variable = { which = zebra_pops value = 865 }
+		set_variable = { which = deer_pops value = 540 }
+		set_variable = { which = changeling_pops value = 450 }
+		set_variable = { which = hippogriff_pops value = 335 }
+		set_variable = { which = kirin_pops value = 315 }
+		set_variable = { which = yak_pops value = 305 }
+		set_variable = { which = diamond_dog_pops value = 220 }
 		set_variable = { which = dragon_pops value = 10 }
 	}
 	else_if = {
@@ -231,14 +251,15 @@ calculate_mtrspony_pop_count_default = {
 			}
 		}
 
-		set_variable = { which = pony_pops value = 1990 }
-		set_variable = { which = griffon_pops value = 1305 }
-		set_variable = { which = zebra_pops value = 735 }
-		set_variable = { which = deer_pops value = 465 }
-		set_variable = { which = changeling_pops value = 385 }
-		set_variable = { which = hippogriff_pops value = 285 }
-		set_variable = { which = kirin_pops value = 270 }
-		set_variable = { which = yak_pops value = 260 }
+		set_variable = { which = pony_pops value = 1925 }
+		set_variable = { which = griffon_pops value = 1260 }
+		set_variable = { which = zebra_pops value = 715 }
+		set_variable = { which = deer_pops value = 450 }
+		set_variable = { which = changeling_pops value = 375 }
+		set_variable = { which = hippogriff_pops value = 275 }
+		set_variable = { which = kirin_pops value = 260 }
+		set_variable = { which = yak_pops value = 255 }
+		set_variable = { which = diamond_dog_pops value = 180 }
 		set_variable = { which = dragon_pops value = 5 }
 	}
 	else_if = {
@@ -249,14 +270,15 @@ calculate_mtrspony_pop_count_default = {
 			}
 		}
 
-		set_variable = { which = pony_pops value = 1885 }
-		set_variable = { which = griffon_pops value = 1230 }
-		set_variable = { which = zebra_pops value = 700 }
-		set_variable = { which = deer_pops value = 440 }
-		set_variable = { which = changeling_pops value = 365 }
-		set_variable = { which = hippogriff_pops value = 270 }
-		set_variable = { which = kirin_pops value = 255 }
-		set_variable = { which = yak_pops value = 250 }
+		set_variable = { which = pony_pops value = 1820 }
+		set_variable = { which = griffon_pops value = 1200 }
+		set_variable = { which = zebra_pops value = 675 }
+		set_variable = { which = deer_pops value = 425 }
+		set_variable = { which = changeling_pops value = 350 }
+		set_variable = { which = hippogriff_pops value = 260 }
+		set_variable = { which = kirin_pops value = 250 }
+		set_variable = { which = yak_pops value = 240 }
+		set_variable = { which = diamond_dog_pops value = 175 }
 		set_variable = { which = dragon_pops value = 5 }
 	}
 	else_if = {
@@ -267,14 +289,15 @@ calculate_mtrspony_pop_count_default = {
 			}
 		}
 
-		set_variable = { which = pony_pops value = 1810 }
-		set_variable = { which = griffon_pops value = 1190 }
-		set_variable = { which = zebra_pops value = 675 }
-		set_variable = { which = deer_pops value = 425 }
-		set_variable = { which = changeling_pops value = 350 }
-		set_variable = { which = hippogriff_pops value = 260 }
-		set_variable = { which = kirin_pops value = 245 }
-		set_variable = { which = yak_pops value = 240 }
+		set_variable = { which = pony_pops value = 1755 }
+		set_variable = { which = griffon_pops value = 1150 }
+		set_variable = { which = zebra_pops value = 650 }
+		set_variable = { which = deer_pops value = 410 }
+		set_variable = { which = changeling_pops value = 340 }
+		set_variable = { which = hippogriff_pops value = 250 }
+		set_variable = { which = kirin_pops value = 240 }
+		set_variable = { which = yak_pops value = 230 }
+		set_variable = { which = diamond_dog_pops value = 170 }
 		set_variable = { which = dragon_pops value = 5 }
 	}
 	else_if = {
@@ -285,14 +308,15 @@ calculate_mtrspony_pop_count_default = {
 			}
 		}
 
-		set_variable = { which = pony_pops value = 1675 }
-		set_variable = { which = griffon_pops value = 1100 }
-		set_variable = { which = zebra_pops value = 620 }
-		set_variable = { which = deer_pops value = 390 }
-		set_variable = { which = changeling_pops value = 325 }
-		set_variable = { which = hippogriff_pops value = 240 }
-		set_variable = { which = kirin_pops value = 225 }
-		set_variable = { which = yak_pops value = 220 }
+		set_variable = { which = pony_pops value = 1620 }
+		set_variable = { which = griffon_pops value = 1065 }
+		set_variable = { which = zebra_pops value = 600 }
+		set_variable = { which = deer_pops value = 375 }
+		set_variable = { which = changeling_pops value = 315 }
+		set_variable = { which = hippogriff_pops value = 230 }
+		set_variable = { which = kirin_pops value = 220 }
+		set_variable = { which = yak_pops value = 215 }
+		set_variable = { which = diamond_dog_pops value = 155 }
 		set_variable = { which = dragon_pops value = 5 }
 	}
 	else_if = {
@@ -303,14 +327,34 @@ calculate_mtrspony_pop_count_default = {
 			}
 		}
 
-		set_variable = { which = pony_pops value = 1640 }
-		set_variable = { which = griffon_pops value = 1075 }
-		set_variable = { which = zebra_pops value = 610 }
-		set_variable = { which = deer_pops value = 380 }
-		set_variable = { which = changeling_pops value = 320 }
-		set_variable = { which = hippogriff_pops value = 235 }
-		set_variable = { which = kirin_pops value = 220 }
-		set_variable = { which = yak_pops value = 215 }
+		set_variable = { which = pony_pops value = 1585 }
+		set_variable = { which = griffon_pops value = 1040 }
+		set_variable = { which = zebra_pops value = 590 }
+		set_variable = { which = deer_pops value = 370 }
+		set_variable = { which = changeling_pops value = 310 }
+		set_variable = { which = hippogriff_pops value = 225 }
+		set_variable = { which = kirin_pops value = 215 }
+		set_variable = { which = yak_pops value = 210 }
+		set_variable = { which = diamond_dog_pops value = 150 }
+		set_variable = { which = dragon_pops value = 5 }
+	}
+	else_if = {
+		limit = {
+			count_owned_pop_amount = {
+				limit = { is_same_species = owner_main_species }
+				count > 4499
+			}
+		}
+
+		set_variable = { which = pony_pops value = 1520 }
+		set_variable = { which = griffon_pops value = 1000 }
+		set_variable = { which = zebra_pops value = 560 }
+		set_variable = { which = deer_pops value = 355 }
+		set_variable = { which = changeling_pops value = 295 }
+		set_variable = { which = hippogriff_pops value = 215 }
+		set_variable = { which = kirin_pops value = 205 }
+		set_variable = { which = yak_pops value = 200 }
+		set_variable = { which = diamond_dog_pops value = 145 }
 		set_variable = { which = dragon_pops value = 5 }
 	}
 	else_if = {
@@ -321,14 +365,15 @@ calculate_mtrspony_pop_count_default = {
 			}
 		}
 
-		set_variable = { which = pony_pops value = 1530 }
-		set_variable = { which = griffon_pops value = 1005 }
-		set_variable = { which = zebra_pops value = 570 }
-		set_variable = { which = deer_pops value = 360 }
-		set_variable = { which = changeling_pops value = 300 }
-		set_variable = { which = hippogriff_pops value = 220 }
-		set_variable = { which = kirin_pops value = 210 }
-		set_variable = { which = yak_pops value = 200 }
+		set_variable = { which = pony_pops value = 1485 }
+		set_variable = { which = griffon_pops value = 975 }
+		set_variable = { which = zebra_pops value = 550 }
+		set_variable = { which = deer_pops value = 345 }
+		set_variable = { which = changeling_pops value = 290 }
+		set_variable = { which = hippogriff_pops value = 215 }
+		set_variable = { which = kirin_pops value = 200 }
+		set_variable = { which = yak_pops value = 195 }
+		set_variable = { which = diamond_dog_pops value = 140 }
 		set_variable = { which = dragon_pops value = 5 }
 	}
 	else_if = {
@@ -339,14 +384,15 @@ calculate_mtrspony_pop_count_default = {
 			}
 		}
 
-		set_variable = { which = pony_pops value = 1465 }
-		set_variable = { which = griffon_pops value = 960 }
-		set_variable = { which = zebra_pops value = 540 }
-		set_variable = { which = deer_pops value = 340 }
-		set_variable = { which = changeling_pops value = 285 }
-		set_variable = { which = hippogriff_pops value = 210 }
-		set_variable = { which = kirin_pops value = 200 }
-		set_variable = { which = yak_pops value = 195 }
+		set_variable = { which = pony_pops value = 1415 }
+		set_variable = { which = griffon_pops value = 930 }
+		set_variable = { which = zebra_pops value = 525 }
+		set_variable = { which = deer_pops value = 330 }
+		set_variable = { which = changeling_pops value = 275 }
+		set_variable = { which = hippogriff_pops value = 200 }
+		set_variable = { which = kirin_pops value = 195 }
+		set_variable = { which = yak_pops value = 190 }
+		set_variable = { which = diamond_dog_pops value = 135 }
 		set_variable = { which = dragon_pops value = 5 }
 	}
 	else_if = {
@@ -357,14 +403,15 @@ calculate_mtrspony_pop_count_default = {
 			}
 		}
 
-		set_variable = { which = pony_pops value = 1395 }
-		set_variable = { which = griffon_pops value = 915 }
-		set_variable = { which = zebra_pops value = 515 }
-		set_variable = { which = deer_pops value = 325 }
-		set_variable = { which = changeling_pops value = 270 }
-		set_variable = { which = hippogriff_pops value = 200 }
-		set_variable = { which = kirin_pops value = 190 }
-		set_variable = { which = yak_pops value = 185 }
+		set_variable = { which = pony_pops value = 1350 }
+		set_variable = { which = griffon_pops value = 885 }
+		set_variable = { which = zebra_pops value = 500 }
+		set_variable = { which = deer_pops value = 315 }
+		set_variable = { which = changeling_pops value = 260 }
+		set_variable = { which = hippogriff_pops value = 195 }
+		set_variable = { which = kirin_pops value = 185 }
+		set_variable = { which = yak_pops value = 180 }
+		set_variable = { which = diamond_dog_pops value = 125 }
 		set_variable = { which = dragon_pops value = 5 }
 	}
 	else_if = {
@@ -375,14 +422,15 @@ calculate_mtrspony_pop_count_default = {
 			}
 		}
 
-		set_variable = { which = pony_pops value = 1325 }
-		set_variable = { which = griffon_pops value = 870 }
-		set_variable = { which = zebra_pops value = 490 }
-		set_variable = { which = deer_pops value = 310 }
-		set_variable = { which = changeling_pops value = 255 }
-		set_variable = { which = hippogriff_pops value = 190 }
-		set_variable = { which = kirin_pops value = 180 }
-		set_variable = { which = yak_pops value = 175 }
+		set_variable = { which = pony_pops value = 1280 }
+		set_variable = { which = griffon_pops value = 840 }
+		set_variable = { which = zebra_pops value = 475 }
+		set_variable = { which = deer_pops value = 300 }
+		set_variable = { which = changeling_pops value = 250 }
+		set_variable = { which = hippogriff_pops value = 185 }
+		set_variable = { which = kirin_pops value = 175 }
+		set_variable = { which = yak_pops value = 170 }
+		set_variable = { which = diamond_dog_pops value = 120 }
 		set_variable = { which = dragon_pops value = 5 }
 	}
 	else_if = {
@@ -393,14 +441,15 @@ calculate_mtrspony_pop_count_default = {
 			}
 		}
 
-		set_variable = { which = pony_pops value = 1290 }
-		set_variable = { which = griffon_pops value = 850 }
-		set_variable = { which = zebra_pops value = 475 }
-		set_variable = { which = deer_pops value = 300 }
-		set_variable = { which = changeling_pops value = 250 }
-		set_variable = { which = hippogriff_pops value = 185 }
-		set_variable = { which = kirin_pops value = 175 }
-		set_variable = { which = yak_pops value = 170 }
+		set_variable = { which = pony_pops value = 1250 }
+		set_variable = { which = griffon_pops value = 820 }
+		set_variable = { which = zebra_pops value = 465 }
+		set_variable = { which = deer_pops value = 290 }
+		set_variable = { which = changeling_pops value = 240 }
+		set_variable = { which = hippogriff_pops value = 180 }
+		set_variable = { which = kirin_pops value = 170 }
+		set_variable = { which = yak_pops value = 165 }
+		set_variable = { which = diamond_dog_pops value = 115 }
 		set_variable = { which = dragon_pops value = 5 }
 	}
 	else_if = {
@@ -411,14 +460,15 @@ calculate_mtrspony_pop_count_default = {
 			}
 		}
 
-		set_variable = { which = pony_pops value = 1255 }
-		set_variable = { which = griffon_pops value = 825 }
-		set_variable = { which = zebra_pops value = 465 }
-		set_variable = { which = deer_pops value = 290 }
-		set_variable = { which = changeling_pops value = 245 }
-		set_variable = { which = hippogriff_pops value = 180 }
-		set_variable = { which = kirin_pops value = 170 }
-		set_variable = { which = yak_pops value = 165 }
+		set_variable = { which = pony_pops value = 1215 }
+		set_variable = { which = griffon_pops value = 800 }
+		set_variable = { which = zebra_pops value = 450 }
+		set_variable = { which = deer_pops value = 280 }
+		set_variable = { which = changeling_pops value = 235 }
+		set_variable = { which = hippogriff_pops value = 175 }
+		set_variable = { which = kirin_pops value = 165 }
+		set_variable = { which = yak_pops value = 160 }
+		set_variable = { which = diamond_dog_pops value = 115 }
 		set_variable = { which = dragon_pops value = 5 }
 	}
 	else_if = {
@@ -429,14 +479,15 @@ calculate_mtrspony_pop_count_default = {
 			}
 		}
 
-		set_variable = { which = pony_pops value = 1045 }
-		set_variable = { which = griffon_pops value = 690 }
-		set_variable = { which = zebra_pops value = 390 }
-		set_variable = { which = deer_pops value = 245 }
-		set_variable = { which = changeling_pops value = 200 }
-		set_variable = { which = hippogriff_pops value = 150 }
+		set_variable = { which = pony_pops value = 1010 }
+		set_variable = { which = griffon_pops value = 665 }
+		set_variable = { which = zebra_pops value = 375 }
+		set_variable = { which = deer_pops value = 235 }
+		set_variable = { which = changeling_pops value = 195 }
+		set_variable = { which = hippogriff_pops value = 145 }
 		set_variable = { which = kirin_pops value = 140 }
 		set_variable = { which = yak_pops value = 135 }
+		set_variable = { which = diamond_dog_pops value = 95 }
 		set_variable = { which = dragon_pops value = 5 }
 	}
 	else_if = {
@@ -447,14 +498,15 @@ calculate_mtrspony_pop_count_default = {
 			}
 		}
 
-		set_variable = { which = pony_pops value = 975 }
-		set_variable = { which = griffon_pops value = 640 }
-		set_variable = { which = zebra_pops value = 360 }
-		set_variable = { which = deer_pops value = 225 }
-		set_variable = { which = changeling_pops value = 190 }
-		set_variable = { which = hippogriff_pops value = 140 }
-		set_variable = { which = kirin_pops value = 135 }
-		set_variable = { which = yak_pops value = 130 }
+		set_variable = { which = pony_pops value = 945 }
+		set_variable = { which = griffon_pops value = 620 }
+		set_variable = { which = zebra_pops value = 350 }
+		set_variable = { which = deer_pops value = 220 }
+		set_variable = { which = changeling_pops value = 180 }
+		set_variable = { which = hippogriff_pops value = 135 }
+		set_variable = { which = kirin_pops value = 130 }
+		set_variable = { which = yak_pops value = 125 }
+		set_variable = { which = diamond_dog_pops value = 90 }
 		set_variable = { which = dragon_pops value = 5 }
 	}
 	else_if = {
@@ -465,14 +517,15 @@ calculate_mtrspony_pop_count_default = {
 			}
 		}
 
-		set_variable = { which = pony_pops value = 905 }
-		set_variable = { which = griffon_pops value = 595 }
-		set_variable = { which = zebra_pops value = 335 }
-		set_variable = { which = deer_pops value = 210 }
-		set_variable = { which = changeling_pops value = 175 }
-		set_variable = { which = hippogriff_pops value = 130 }
-		set_variable = { which = kirin_pops value = 125 }
-		set_variable = { which = yak_pops value = 120 }
+		set_variable = { which = pony_pops value = 875 }
+		set_variable = { which = griffon_pops value = 575 }
+		set_variable = { which = zebra_pops value = 325 }
+		set_variable = { which = deer_pops value = 205 }
+		set_variable = { which = changeling_pops value = 170 }
+		set_variable = { which = hippogriff_pops value = 125 }
+		set_variable = { which = kirin_pops value = 120 }
+		set_variable = { which = yak_pops value = 115 }
+		set_variable = { which = diamond_dog_pops value = 85 }
 		set_variable = { which = dragon_pops value = 5 }
 	}
 	else_if = {
@@ -483,14 +536,15 @@ calculate_mtrspony_pop_count_default = {
 			}
 		}
 
-		set_variable = { which = pony_pops value = 275 }
-		set_variable = { which = griffon_pops value = 190 }
+		set_variable = { which = pony_pops value = 270 }
+		set_variable = { which = griffon_pops value = 175 }
 		set_variable = { which = zebra_pops value = 100 }
 		set_variable = { which = deer_pops value = 65 }
-		set_variable = { which = changeling_pops value = 55 }
+		set_variable = { which = changeling_pops value = 50 }
 		set_variable = { which = hippogriff_pops value = 40 }
 		set_variable = { which = kirin_pops value = 35 }
 		set_variable = { which = yak_pops value = 35 }
+		set_variable = { which = diamond_dog_pops value = 25 }
 		set_variable = { which = dragon_pops value = 5 }
 	}
 	else_if = {
@@ -501,14 +555,15 @@ calculate_mtrspony_pop_count_default = {
 			}
 		}
 
-		set_variable = { which = pony_pops value = 245 }
-		set_variable = { which = griffon_pops value = 160 }
-		set_variable = { which = zebra_pops value = 90 }
+		set_variable = { which = pony_pops value = 235 }
+		set_variable = { which = griffon_pops value = 155 }
+		set_variable = { which = zebra_pops value = 85 }
 		set_variable = { which = deer_pops value = 55 }
 		set_variable = { which = changeling_pops value = 45 }
 		set_variable = { which = hippogriff_pops value = 35 }
 		set_variable = { which = kirin_pops value = 35 }
 		set_variable = { which = yak_pops value = 30 }
+		set_variable = { which = diamond_dog_pops value = 20 }
 		set_variable = { which = dragon_pops value = 5 }
 	}
 	else = {
@@ -520,6 +575,7 @@ calculate_mtrspony_pop_count_default = {
 		set_variable = { which = hippogriff_pops value = 100 }
 		set_variable = { which = kirin_pops value = 100 }
 		set_variable = { which = yak_pops value = 100 }
+		set_variable = { which = diamond_dog_pops value = 100 }
 		set_variable = { which = dragon_pops value = 100 }
 	}
 
@@ -562,6 +618,11 @@ calculate_mtrspony_pop_count_keep_majority = {
 		limit = { owner = { species_portrait = mtrspony_yak } }
 
 		calculate_mtrspony_pop_count_yak = yes
+	}
+	else_if = {
+		limit = { owner = { species_portrait = mtrspony_diamond_dog } }
+
+		calculate_mtrspony_pop_count_diamond_dog = yes
 	}
 	else_if = {
 		limit = { owner = { species_portrait = mtrspony_dragon } }
@@ -653,6 +714,22 @@ calculate_mtrspony_pop_count_yak = {
 	calculate_pops_to_remove = yes
 }
 
+calculate_mtrspony_pop_count_diamond_dog = {
+	set_variable = { which = diamond_dog_pops_prev value = diamond_dog_pops }
+
+	set_variable = { which = diamond_dog_pops value = pony_pops }
+	set_variable = { which = pony_pops value = griffon_pops }
+	set_variable = { which = griffon_pops value = zebra_pops }
+	set_variable = { which = zebra_pops value = deer_pops }
+	set_variable = { which = deer_pops value = changeling_pops }
+	set_variable = { which = changeling_pops value = hippogriff_pops }
+	set_variable = { which = hippogriff_pops value = kirin_pops }
+	set_variable = { which = kirin_pops value = yak_pops }
+	set_variable = { which = yak_pops value = diamond_dog_pops_prev }
+
+	calculate_pops_to_remove = yes
+}
+
 calculate_mtrspony_pop_count_dragon = {
 	set_variable = { which = dragon_pops_prev value = dragon_pops }
 
@@ -664,7 +741,8 @@ calculate_mtrspony_pop_count_dragon = {
 	set_variable = { which = changeling_pops value = hippogriff_pops }
 	set_variable = { which = hippogriff_pops value = kirin_pops }
 	set_variable = { which = kirin_pops value = yak_pops }
-	set_variable = { which = yak_pops value = dragon_pops_prev }
+	set_variable = { which = yak_pops value = diamond_dog_pops }
+	set_variable = { which = diamond_dog_pops value = dragon_pops_prev }
 
 	calculate_pops_to_remove = yes
 }
@@ -766,6 +844,11 @@ create_other_mtrspony_species = {
 		create_yak_species = yes
 	}
 	if = {
+		limit = { NOT = { has_global_flag = diamond_dog_species_created } }
+
+		create_diamond_dog_species = yes
+	}
+	if = {
 		limit = { NOT = { has_global_flag = dragon_species_created } }
 
 		create_dragon_species = yes
@@ -815,6 +898,11 @@ spawn_other_mtrspony_species = {
 		limit = { owner = { NOT = { species_portrait = mtrspony_yak } } }
 
 		spawn_mtrspony_pops = { COUNTRY = owner SPECIES = yak }
+	}
+	if = {
+		limit = { owner = { NOT = { species_portrait = mtrspony_diamond_dog } } }
+
+		spawn_mtrspony_pops = { COUNTRY = owner SPECIES = diamond_dog }
 	}
 	if = {
 		limit = { owner = { NOT = { species_portrait = mtrspony_dragon } } }
@@ -1026,6 +1114,14 @@ setup_extra_traits_to_mtrspony_species = {
 			add_trait_to_mtrspony_species_effect = { SPECIES = event_target:yak_species TRAIT = trait_unruly }
 		}
 		if = {
+			limit = { NOT = { owner_main_species = { is_same_species = event_target:diamond_dog_species } } }
+
+			remove_trait_from_mtrspony_species_effect = { SPECIES = event_target:diamond_dog_species TRAIT = trait_resilient }
+			add_trait_to_mtrspony_species_effect = { SPECIES = event_target:diamond_dog_species TRAIT = trait_slow_breeders }
+			add_trait_to_mtrspony_species_effect = { SPECIES = event_target:diamond_dog_species TRAIT = trait_unruly }
+			add_trait_to_mtrspony_species_effect = { SPECIES = event_target:diamond_dog_species TRAIT = trait_quarrelsome }
+		}
+		if = {
 			limit = { NOT = { owner_main_species = { is_same_species = event_target:dragon_species } } }
 
 			remove_trait_from_mtrspony_species_effect = { SPECIES = event_target:dragon_species TRAIT = trait_strong }
@@ -1145,6 +1241,12 @@ setup_extra_traits_to_mtrspony_species = {
 
 			add_trait_to_mtrspony_species_effect = { SPECIES = event_target:yak_species TRAIT = trait_resilient }
 			add_trait_to_mtrspony_species_effect = { SPECIES = event_target:yak_species TRAIT = trait_enduring }
+		}
+		if = {
+			limit = { NOT = { owner_main_species = { is_same_species = event_target:diamond_dog_species } } }
+
+			add_trait_to_mtrspony_species_effect = { SPECIES = event_target:diamond_dog_species TRAIT = trait_strong }
+			add_trait_to_mtrspony_species_effect = { SPECIES = event_target:diamond_dog_species TRAIT = trait_natural_engineers }
 		}
 		if = {
 			limit = { NOT = { owner_main_species = { is_same_species = event_target:dragon_species } } }
@@ -1446,6 +1548,11 @@ add_original_species_pc_trait_effect = {
 						PREVPREV.owner = { PREV = { save_global_event_target_as = yak_species@PREV } }
 					}
 					else_if = {
+						limit = { PREV = { is_same_species = event_target:diamond_dog_species } }
+
+						PREVPREV.owner = { PREV = { save_global_event_target_as = diamond_dog_species@PREV } }
+					}
+					else_if = {
 						limit = { PREV = { is_same_species = event_target:dragon_species } }
 
 						PREVPREV.owner = { PREV = { save_global_event_target_as = dragon_species@PREV } }
@@ -1496,6 +1603,11 @@ save_event_target_for_modified_species = {
 		limit = { PREV = { is_same_species = event_target:yak_species } }
 
 		PREVPREV.owner = { PREV = { save_global_event_target_as = yak_species@PREV } }
+	}
+	else_if = {
+		limit = { PREV = { is_same_species = event_target:diamond_dog_species } }
+
+		PREVPREV.owner = { PREV = { save_global_event_target_as = diamond_dog_species@PREV } }
 	}
 	else_if = {
 		limit = { PREV = { is_same_species = event_target:dragon_species } }
@@ -1769,6 +1881,36 @@ create_yak_species = {
 	}
 }
 
+create_diamond_dog_species = {
+	create_species = {
+		name = "PRESCRIPTED_species_diamond_dog"
+		plural = "PRESCRIPTED_species_plural_diamond_dog"
+		adjective = "PRESCRIPTED_species_adjective_diamond_dog"
+		class = MAM
+		portrait = mtrspony_diamond_dog
+		namelist = mtrspony_namelists_diamond_dog
+		homeworld = ROOT.species.home_colony
+		traits = {
+			trait = trait_organic
+			trait = trait_industrious
+			trait = trait_resilient
+			trait = trait_decadent
+		}
+
+		effect = {
+			every_country = {
+				limit = { has_mtrspony_portrait = yes }
+
+				PREV = { save_global_event_target_as = diamond_dog_species@PREV }
+			}
+			save_global_event_target_as = diamond_dog_species
+			set_species_flag = created_species
+			set_global_flag = diamond_dog_species_created
+			set_species_flag = species_creator@PREV
+		}
+	}
+}
+
 create_dragon_species = {
 	create_species = {
 		name = "PRESCRIPTED_species_dragon"
@@ -1889,6 +2031,11 @@ set_mtrspony_citizenship_limited = {
 		limit = { NOT = { species_portrait = mtrspony_yak } }
 
 		event_target:yak_species = { set_citizenship_type = { country = PREV type = citizenship_limited } }
+	}
+	if = {
+		limit = { NOT = { species_portrait = mtrspony_diamond_dog } }
+
+		event_target:diamond_dog_species = { set_citizenship_type = { country = PREV type = citizenship_limited } }
 	}
 	if = {
 		limit = { NOT = { species_portrait = mtrspony_dragon } }

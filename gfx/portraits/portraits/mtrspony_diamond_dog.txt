@@ -1,0 +1,130 @@
+portraits = {
+	mtrspony_diamond_dog_rover = {
+		entity = "portrait_dummy_10p_left_entity"
+		clothes_selector = "mtrspony_diamond_dog_rover_clothes_selector"
+		attachment_selector = "mtrspony_diamond_dog_rover_eyes_selector"
+		greeting_sound = "humanoid_portrait_h_male" # Dwarf Voicelines
+
+		character_textures = {
+			"gfx/models/portraits/diamond_dog/rover/rover.tga"
+			"gfx/models/portraits/diamond_dog/rover/rover_alt1.tga"
+			"gfx/models/portraits/diamond_dog/rover/rover_alt2.tga"
+			"gfx/models/portraits/diamond_dog/rover/rover_alt3.tga"
+			"gfx/models/portraits/diamond_dog/rover/rover_alt4.tga"
+			"gfx/models/portraits/diamond_dog/rover/rover_alt5.tga"
+		}
+
+		custom_attachment_label = "EYE_COLOR"
+	}
+
+	mtrspony_diamond_dog_max_von_hundsfeld_predefined = {
+		entity = "portrait_dummy_10p_left_entity"
+		clothes_selector = "mtrspony_diamond_dog_max_von_hundsfeld_predefined_clothes_selector"
+		attachment_selector = "mtrspony_diamond_dog_max_von_hundsfeld_predefined_eyes_selector"
+		greeting_sound = "humanoid_portrait_h_male"
+
+		character_textures = {
+			"gfx/models/portraits/diamond_dog/rover/rover_alt2.tga"
+		}
+	}
+}
+
+portrait_groups = {
+	mtrspony_diamond_dog = {
+		default = mtrspony_diamond_dog_rover
+		game_setup = {
+			add = {
+				trigger = {
+					ruler = {
+						OR = {
+							gender = male
+							gender = indeterminable
+						}
+					}
+				}
+				portraits = {
+					mtrspony_diamond_dog_rover
+				}
+			}
+			add = {
+				trigger = {
+					ruler = {
+						OR = {
+							gender = female
+							gender = indeterminable
+						}
+					}
+				}
+				portraits = {
+					mtrspony_diamond_dog_rover
+				}
+			}
+		}
+
+		species = {
+			add = {
+				trigger = {
+					exists = species
+					NOT = { species = { species_gender = male } }
+				}
+				portraits = {
+					mtrspony_diamond_dog_rover
+				}
+			}
+			add = {
+				trigger = {
+					exists = species
+					NOT = { species = { species_gender = female } }
+				}
+				portraits = {
+					mtrspony_diamond_dog_rover
+				}
+			}
+		}
+
+		pop = {
+			add = {
+				trigger = {
+					NOT = { species = { species_gender = male } }
+				}
+				portraits = {
+					mtrspony_diamond_dog_rover
+				}
+			}
+			add = {
+				trigger = {
+					NOT = { species = { species_gender = female } }
+				}
+				portraits = {
+					mtrspony_diamond_dog_rover
+				}
+			}
+		}
+
+		leader = {
+			add = {
+				trigger = {
+					OR = {
+						gender = male
+						gender = indeterminable
+					}
+				}
+				portraits = {
+					mtrspony_diamond_dog_rover
+				}
+			}
+
+			add = {
+				trigger = {
+					OR = {
+						gender = female
+						gender = indeterminable
+					}
+				}
+				portraits = {
+					mtrspony_diamond_dog_rover
+				}
+			}
+		}
+	}
+}

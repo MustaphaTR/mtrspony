@@ -58,6 +58,51 @@ country_event = {
 		}
 		refresh_leader_pool = yes
 
+		create_leader = {
+			name = random
+			species = event_target:griffon_species@ROOT
+			gender = male
+			class = commander
+
+			effect = {
+				ROOT = {
+					random_owned_fleet = {
+						limit = { is_ship_class = shipclass_military }
+
+						leader = {
+							kill_leader = {
+								show_notification = no
+								fire = yes
+							}
+						}
+						assign_leader = PREVPREV
+					}
+				}
+				set_council_position = councilor_defense
+			}
+		}
+		create_leader = {
+			name = random
+			species = event_target:deer_species@ROOT
+			gender = female
+			class = official
+
+			effect = {
+				ROOT = {
+					capital_scope = {
+						leader = {
+							kill_leader = {
+								show_notification = no
+								fire = yes
+							}
+						}
+						assign_leader = PREVPREV
+					}
+				}
+				set_council_position = councilor_state
+			}
+		}
+
 		country_event = { id = cocstart.1001 days = 1 }
 	}
 }

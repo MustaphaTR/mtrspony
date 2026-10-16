@@ -37,8 +37,9 @@ country_event = {
 				set_variable = { which = hippogriff_pops value = 100 }
 				set_variable = { which = kirin_pops value = 100 }
 				set_variable = { which = yak_pops value = 100 }
+				set_variable = { which = diamond_dog_pops value = 100 }
 				set_variable = { which = dragon_pops value = 100 }
-				set_variable = { which = pops_to_remove value = 800 }
+				set_variable = { which = pops_to_remove value = 900 }
 				spawn_other_mtrspony_species = yes
 			}
 
@@ -140,7 +141,8 @@ country_event = {
 					set_variable = { which = kirin_pops value = 100 }
 					set_variable = { which = yak_pops value = 100 }
 					set_variable = { which = dragon_pops value = 100 }
-					set_variable = { which = pops_to_remove value = 800 }
+					set_variable = { which = diamond_dog_pops value = 100 }
+					set_variable = { which = pops_to_remove value = 900 }
 					spawn_other_mtrspony_species = yes
 				}
 

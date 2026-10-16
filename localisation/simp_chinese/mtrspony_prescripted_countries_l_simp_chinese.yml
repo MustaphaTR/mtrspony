@@ -24,6 +24,9 @@
  PRESCRIPTED_species_yak:0 "Yak"
  PRESCRIPTED_species_plural_yak:0 "Yaks"
  PRESCRIPTED_species_adjective_yak:0 "Yak"
+ PRESCRIPTED_species_diamond_dog:0 "Diamond Dog"
+ PRESCRIPTED_species_plural_diamond_dog:0 "Diamond Dogs"
+ PRESCRIPTED_species_adjective_diamond_dog:0 "Diamond Dog"
  PRESCRIPTED_species_crystal_pony:0 "Crystal Pony"
  PRESCRIPTED_species_plural_crystal_pony:0 "Crystal Ponies"
  PRESCRIPTED_species_adjective_crystal_pony:0 "Crystal Pony"
@@ -132,7 +135,7 @@
  PRESCRIPTED_adjective_novyy_stalliongrad:0 "Stalliongradian"
  PRESCRIPTED_ruler_title_premier:0 "Premier"
  PRESCRIPTED_ruler_title_premier_female:0 "Premier"
- PRESCRIPTED_ship_prefix_novyy_stalliongrad:0 "PMS"
+ PRESCRIPTED_ship_prefix_novyy_stalliongrad:0 "PSS"
 
  PRESCRIPTED_ruler_name_tall_cherry:0 "Tall Cherry"
  PRESCRIPTED_ruler_name_tall_cherry_desc:0 "<insert_desc_here>"
@@ -171,7 +174,7 @@
  # Holy Pony Empire
  EMPIRE_DESIGN_holy_pony_empire:0 "Holy Pony Empire"
  # EMPIRE_DESIGN_holy_pony_empire_desc:0 ""
- PRESCRIPTED_adjective_holy_pony_empire:0 "Pony"
+ PRESCRIPTED_adjective_holy_pony_empire:0 "$PRESCRIPTED_species_adjective_pony$"
  PRESCRIPTED_ruler_title_prince:0 "Prince"
  PRESCRIPTED_ruler_title_princess:0 "Princess"
  PRESCRIPTED_ship_prefix_holy_pony_empire:0 "ISS"
@@ -223,7 +226,7 @@
  # Department of Scootascience
  EMPIRE_DESIGN_department_of_scootascience:0 "Department of Scootascience"
  # EMPIRE_DESIGN_department_of_scootascience_desc:0 ""
- PRESCRIPTED_adjective_department_of_scootascience:0 "Scootaloo"
+ PRESCRIPTED_adjective_department_of_scootascience:0 "$PRESCRIPTED_species_adjective_scootaloo$"
  PRESCRIPTED_ship_prefix_department_of_scootascience:0 "SS"
 
  PRESCRIPTED_ruler_name_scootaloo_n1064:0 "$PRESCRIPTED_ruler_name_scootaloo$ #1064"
@@ -236,16 +239,20 @@
  PRESCRIPTED_adjective_griffonian_empire:0 "Griffonian"
  PRESCRIPTED_ruler_title_kaiser:0 "Kaiser"
  PRESCRIPTED_ruler_title_kaiserin:0 "Kaiserin"
- PRESCRIPTED_ship_prefix_griffonian_empire:0 "KMRS"
+ PRESCRIPTED_ship_prefix_griffonian_empire:0 "KRS"
 
  PRESCRIPTED_ruler_name_grover_xi:0 "Grover XI"
  PRESCRIPTED_ruler_name_grover_xi_desc:0 "<insert_desc_here>"
  PRESCRIPTED_ruler_name_grover_xi_catch_phrase:0 "§L""§!"
 
+ PRESCRIPTED_ruler_name_max_von_hundsfeld:0 "Max von Hundsfeld"
+ PRESCRIPTED_ruler_name_max_von_hundsfeld_desc:0 "<insert_desc_here>"
+ PRESCRIPTED_ruler_name_max_von_hundsfeld_catch_phrase:0 "§L""§!"
+
  # Faustian Technate
  EMPIRE_DESIGN_faustian_technate:0 "Faustian Technate"
  # EMPIRE_DESIGN_faustian_technate_desc:0 ""
- PRESCRIPTED_adjective_faustian_technate:0 "Faustian"
+ PRESCRIPTED_adjective_faustian_technate:0 "$PRESCRIPTED_adjective_united_faustian_hives$"
  PRESCRIPTED_ruler_title_director:0 "Director"
  PRESCRIPTED_ruler_title_directoress:0 "Directoress"
  PRESCRIPTED_ship_prefix_faustian_technate:0 "FSS"
@@ -257,7 +264,7 @@
  # Jarldom of Faust
  EMPIRE_DESIGN_jarldom_of_faust:0 "Jarldom of Faust"
  # EMPIRE_DESIGN_jarldom_of_faust_desc:0 ""
- PRESCRIPTED_adjective_jarldom_of_faust:0 "Faustian"
+ PRESCRIPTED_adjective_jarldom_of_faust:0 "$PRESCRIPTED_adjective_united_faustian_hives$"
  PRESCRIPTED_ruler_title_jarl:0 "Jarl"
  PRESCRIPTED_ruler_title_jarl_female:0 "Jarl"
  PRESCRIPTED_ship_prefix_jarldom_of_faust:0 "FSS"
@@ -272,7 +279,7 @@
  EMPIRE_DESIGN_changeling_space_program_federations_desc:0 "Two decades ago, when the Changeling Space Program finally reached the moon, Queen Chrysalis finally showed her true plan for the program. Using the power of the moon, she defeated the Equestrian Princesses, Celestia and Luna, in order to secure her own rule.\n\nBut in the end the move doomed the habitabilty of the planet by killing the pony responsible for its rotation. Stuck in tidal lock, Equus slowly lost its population while the remaning population under Chrysalis' iron hoof tried to find a solution to this problem.\n\nThe solution came in the shape of orbital habitats. In the decades following Changeling Space Program managed to build several habitats in the orbits of different planets in the Solar System. Equus maybe lost forever, but the many races of the planet continue to survive in these habitats under Queen Chrysalis' rule."
  EMPIRE_DESIGN_changeling_space_program_biogenesis_desc:0 "$EMPIRE_DESIGN_changeling_space_program_desc$"
  EMPIRE_DESIGN_changeling_space_program_federations_biogenesis_desc:0 "$EMPIRE_DESIGN_changeling_space_program_federations_desc$"
- PRESCRIPTED_adjective_changeling_space_program:0 "Changeling"
+ PRESCRIPTED_adjective_changeling_space_program:0 "PRESCRIPTED_species_adjective_changeling"
  PRESCRIPTED_ruler_title_king:0 "国王"
  PRESCRIPTED_ruler_title_queen:0 "女王"
  PRESCRIPTED_ship_prefix_changeling_space_program:0 "CSS"
@@ -300,7 +307,7 @@
  # Revolutionary Faust
  EMPIRE_DESIGN_revolutionary_faust:0 "Revolutionary Faust"
  # EMPIRE_DESIGN_revolutionary_faust_desc:0 ""
- PRESCRIPTED_adjective_revolutionary_faust:0 "Faustian"
+ PRESCRIPTED_adjective_revolutionary_faust:0 "$PRESCRIPTED_adjective_united_faustian_hives$"
  PRESCRIPTED_ruler_title_general_secretary:0 "General Secretary"
  PRESCRIPTED_ruler_title_general_secretary_female:0 "General Secretary"
 
@@ -330,7 +337,7 @@
  # Faustian Conglomerate
  EMPIRE_DESIGN_faustian_conglomerate:0 "Faustian Conglomerate"
  # EMPIRE_DESIGN_faustian_conglomerate_desc:0 ""
- PRESCRIPTED_adjective_faustian_conglomerate:0 "Faustian"
+ PRESCRIPTED_adjective_faustian_conglomerate:0 "$PRESCRIPTED_adjective_united_faustian_hives$"
  PRESCRIPTED_ruler_title_chief_executive_officer:0 "Chief Executive Officer"
 
  PRESCRIPTED_ship_prefix_faustian_conglomerate:0 "FCS"

@@ -160,22 +160,24 @@ country_event = {
 			add_original_species_pc_trait_effect = { SPECIES = event_target:pony_species@ROOT TRAIT = trait_pc_continental_preference }
 			add_original_species_pc_trait_effect = { SPECIES = event_target:griffon_species@ROOT TRAIT = trait_pc_arctic_preference }
 			add_original_species_pc_trait_effect = { SPECIES = event_target:zebra_species@ROOT TRAIT = trait_pc_savannah_preference }
-			add_original_species_pc_trait_effect = { SPECIES = event_target:deer_species@ROOT TRAIT = trait_pc_alpine_preference }
+			add_original_species_pc_trait_effect = { SPECIES = event_target:deer_species@ROOT TRAIT = trait_pc_tundra_preference }
 			add_original_species_pc_trait_effect = { SPECIES = event_target:changeling_species@ROOT TRAIT = trait_pc_arctic_preference }
 			add_original_species_pc_trait_effect = { SPECIES = event_target:hippogriff_species@ROOT TRAIT = trait_pc_continental_preference }
 			add_original_species_pc_trait_effect = { SPECIES = event_target:kirin_species@ROOT TRAIT = trait_pc_tropical_preference }
 			add_original_species_pc_trait_effect = { SPECIES = event_target:yak_species@ROOT TRAIT = trait_pc_alpine_preference }
+			add_original_species_pc_trait_effect = { SPECIES = event_target:diamond_dog_species@ROOT TRAIT = trait_pc_alpine_preference }
 
 			calculate_mtrspony_pop_count_keep_majority = yes
-			set_variable = { which = griffon_pops value = 675 } # Placeholder, most of these should be Penguins.
-			set_variable = { which = changeling_pops value = 475 }
-			set_variable = { which = yak_pops value = 450 }
-			set_variable = { which = polar_bear_pops value = 425 }
-			set_variable = { which = pony_pops value = 300 }
+			set_variable = { which = griffon_pops value = 650 } # Placeholder, most of these should be Penguins.
+			set_variable = { which = changeling_pops value = 450 }
+			set_variable = { which = yak_pops value = 430 }
+			set_variable = { which = polar_bear_pops value = 400 }
+			set_variable = { which = pony_pops value = 275 }
+			set_variable = { which = deer_pops value = 275 }
 			set_variable = { which = zebra_pops value = 250 }
-			set_variable = { which = deer_pops value = 250 }
+			set_variable = { which = diamond_dog_pops value = 200 }
 			set_variable = { which = hippogriff_pops value = 150 }
-			set_variable = { which = kirin_pops value = 150 }
+			set_variable = { which = kirin_pops value = 100 }
 			if = {
 				limit = { 
 					count_owned_pop_amount = {
@@ -184,15 +186,16 @@ country_event = {
 					}
 				}
 
-				set_variable = { which = griffon_pops value = 760 } # Placeholder, most of these should be Penguins.
-				set_variable = { which = changeling_pops value = 535 }
-				set_variable = { which = yak_pops value = 505 }
-				set_variable = { which = polar_bear_pops value = 480 }
-				set_variable = { which = pony_pops value = 335 }
-				set_variable = { which = zebra_pops value = 280 }
-				set_variable = { which = deer_pops value = 280 }
-				set_variable = { which = hippogriff_pops value = 170 }
-				set_variable = { which = kirin_pops value = 170 }
+				set_variable = { which = griffon_pops value = 705 } # Placeholder, most of these should be Penguins.
+				set_variable = { which = changeling_pops value = 490 }
+				set_variable = { which = yak_pops value = 465 }
+				set_variable = { which = polar_bear_pops value = 430 }
+				set_variable = { which = pony_pops value = 300 }
+				set_variable = { which = deer_pops value = 300 }
+				set_variable = { which = zebra_pops value = 270 }
+				set_variable = { which = diamond_dog_pops value = 215 }
+				set_variable = { which = hippogriff_pops value = 160 }
+				set_variable = { which = kirin_pops value = 110 }
 			}
 			spawn_other_mtrspony_species = { IGNORE_PC = yes }
 			spawn_mtrspony_pops = { COUNTRY = owner SPECIES = polar_bear }
