@@ -1,62 +1,62 @@
 defined_text = {
 	name = MTRSPonyGetStartingSpeciesName
 	text = {
-		trigger = { event_target:mtrspony_species_setup_current_planet@FROM = { owner = {has_mtrspony_pony_portrait = yes } } }
+		trigger = { event_target:mtrspony_species_setup_current_planet@FROM = { owner = { has_mtrspony_pony_portrait = yes } } }
 
 		localization_key = event_target_pony_species_name
 	}
 	text = {
-		trigger = { event_target:mtrspony_species_setup_current_planet@FROM = { owner = {species_portrait = mtrspony_griffon } } }
+		trigger = { event_target:mtrspony_species_setup_current_planet@FROM = { owner = { species_portrait = mtrspony_griffon } } }
 
 		localization_key = event_target_griffon_species_name
 	}
 	text = {
-		trigger = { event_target:mtrspony_species_setup_current_planet@FROM = { owner = {species_portrait = mtrspony_zebra } } }
+		trigger = { event_target:mtrspony_species_setup_current_planet@FROM = { owner = { species_portrait = mtrspony_zebra } } }
 
 		localization_key = event_target_zebra_species_name
 	}
 	text = {
-		trigger = { event_target:mtrspony_species_setup_current_planet@FROM = { owner = {species_portrait = mtrspony_deer } } }
+		trigger = { event_target:mtrspony_species_setup_current_planet@FROM = { owner = { species_portrait = mtrspony_deer } } }
 
 		localization_key = event_target_deer_species_name
 	}
 	text = {
-		trigger = { event_target:mtrspony_species_setup_current_planet@FROM = { owner = {species_portrait = mtrspony_changeling } } }
+		trigger = { event_target:mtrspony_species_setup_current_planet@FROM = { owner = { species_portrait = mtrspony_changeling } } }
 
 		localization_key = event_target_changeling_species_name
 	}
 	text = {
-		trigger = { event_target:mtrspony_species_setup_current_planet@FROM = { owner = {species_portrait = mtrspony_hippogriff } } }
+		trigger = { event_target:mtrspony_species_setup_current_planet@FROM = { owner = { species_portrait = mtrspony_hippogriff } } }
 
 		localization_key = event_target_hippogriff_species_name
 	}
 	text = {
-		trigger = { event_target:mtrspony_species_setup_current_planet@FROM = { owner = {species_portrait = mtrspony_kirin } } }
+		trigger = { event_target:mtrspony_species_setup_current_planet@FROM = { owner = { species_portrait = mtrspony_kirin } } }
 
 		localization_key = event_target_kirin_species_name
 	}
 	text = {
-		trigger = { event_target:mtrspony_species_setup_current_planet@FROM = { owner = {species_portrait = mtrspony_yak } } }
+		trigger = { event_target:mtrspony_species_setup_current_planet@FROM = { owner = { species_portrait = mtrspony_yak } } }
 
 		localization_key = event_target_yak_species_name
 	}
 	text = {
-		trigger = { event_target:mtrspony_species_setup_current_planet@FROM = { owner = {species_portrait = mtrspony_diamond_dog } } }
+		trigger = { event_target:mtrspony_species_setup_current_planet@FROM = { owner = { species_portrait = mtrspony_diamond_dog } } }
 
 		localization_key = event_target_diamond_dog_species_name
 	}
 	text = {
-		trigger = { event_target:mtrspony_species_setup_current_planet@FROM = { owner = {species_portrait = mtrspony_dragon } } }
+		trigger = { event_target:mtrspony_species_setup_current_planet@FROM = { owner = { species_portrait = mtrspony_dragon } } }
 
 		localization_key = event_target_dragon_species_name
 	}
 	text = {
-		trigger = { event_target:mtrspony_species_setup_current_planet@FROM = { owner = {species_portrait = mtrspony_polar_bear } } }
+		trigger = { event_target:mtrspony_species_setup_current_planet@FROM = { owner = { species_portrait = mtrspony_polar_bear } } }
 
 		localization_key = event_target_polar_bear_species_name
 	}
 	text = {
-		trigger = { event_target:mtrspony_species_setup_current_planet@FROM = { owner = {species_portrait = mtrspony_yeti } } }
+		trigger = { event_target:mtrspony_species_setup_current_planet@FROM = { owner = { species_portrait = mtrspony_yeti } } }
 
 		localization_key = event_target_yeti_species_name
 	}
@@ -65,62 +65,62 @@ defined_text = {
 defined_text = {
 	name = MTRSPonyGetStartingSpeciesNamePlural
 	text = {
-		trigger = { event_target:mtrspony_species_setup_current_planet@FROM = { owner = {has_mtrspony_pony_portrait = yes } } }
+		trigger = { event_target:mtrspony_species_setup_current_planet@FROM = { owner = { has_mtrspony_pony_portrait = yes } } }
 
 		localization_key = event_target_pony_species_name_plural
 	}
 	text = {
-		trigger = { event_target:mtrspony_species_setup_current_planet@FROM = { owner = {species_portrait = mtrspony_griffon } } }
+		trigger = { event_target:mtrspony_species_setup_current_planet@FROM = { owner = { species_portrait = mtrspony_griffon } } }
 
 		localization_key = event_target_griffon_species_name_plural
 	}
 	text = {
-		trigger = { event_target:mtrspony_species_setup_current_planet@FROM = { owner = {species_portrait = mtrspony_zebra } } }
+		trigger = { event_target:mtrspony_species_setup_current_planet@FROM = { owner = { species_portrait = mtrspony_zebra } } }
 
 		localization_key = event_target_zebra_species_name_plural
 	}
 	text = {
-		trigger = { event_target:mtrspony_species_setup_current_planet@FROM = { owner = {species_portrait = mtrspony_deer } } }
+		trigger = { event_target:mtrspony_species_setup_current_planet@FROM = { owner = { species_portrait = mtrspony_deer } } }
 
 		localization_key = event_target_deer_species_name_plural
 	}
 	text = {
-		trigger = { event_target:mtrspony_species_setup_current_planet@FROM = { owner = {species_portrait = mtrspony_changeling } } }
+		trigger = { event_target:mtrspony_species_setup_current_planet@FROM = { owner = { species_portrait = mtrspony_changeling } } }
 
 		localization_key = event_target_changeling_species_name_plural
 	}
 	text = {
-		trigger = { event_target:mtrspony_species_setup_current_planet@FROM = { owner = {species_portrait = mtrspony_hippogriff } } }
+		trigger = { event_target:mtrspony_species_setup_current_planet@FROM = { owner = { species_portrait = mtrspony_hippogriff } } }
 
 		localization_key = event_target_hippogriff_species_name_plural
 	}
 	text = {
-		trigger = { event_target:mtrspony_species_setup_current_planet@FROM = { owner = {species_portrait = mtrspony_kirin } } }
+		trigger = { event_target:mtrspony_species_setup_current_planet@FROM = { owner = { species_portrait = mtrspony_kirin } } }
 
 		localization_key = event_target_kirin_species_name_plural
 	}
 	text = {
-		trigger = { event_target:mtrspony_species_setup_current_planet@FROM = { owner = {species_portrait = mtrspony_yak } } }
+		trigger = { event_target:mtrspony_species_setup_current_planet@FROM = { owner = { species_portrait = mtrspony_yak } } }
 
 		localization_key = event_target_yak_species_name_plural
 	}
 	text = {
-		trigger = { event_target:mtrspony_species_setup_current_planet@FROM = { owner = {species_portrait = mtrspony_diamond_dog } } }
+		trigger = { event_target:mtrspony_species_setup_current_planet@FROM = { owner = { species_portrait = mtrspony_diamond_dog } } }
 
 		localization_key = event_target_diamond_dog_species_name_plural
 	}
 	text = {
-		trigger = { event_target:mtrspony_species_setup_current_planet@FROM = { owner = {species_portrait = mtrspony_dragon } } }
+		trigger = { event_target:mtrspony_species_setup_current_planet@FROM = { owner = { species_portrait = mtrspony_dragon } } }
 
 		localization_key = event_target_dragon_species_name_plural
 	}
 	text = {
-		trigger = { event_target:mtrspony_species_setup_current_planet@FROM = { owner = {species_portrait = mtrspony_polar_bear } } }
+		trigger = { event_target:mtrspony_species_setup_current_planet@FROM = { owner = { species_portrait = mtrspony_polar_bear } } }
 
 		localization_key = event_target_polar_bear_species_name_plural
 	}
 	text = {
-		trigger = { event_target:mtrspony_species_setup_current_planet@FROM = { owner = {species_portrait = mtrspony_yeti } } }
+		trigger = { event_target:mtrspony_species_setup_current_planet@FROM = { owner = { species_portrait = mtrspony_yeti } } }
 
 		localization_key = event_target_yeti_species_name_plural
 	}

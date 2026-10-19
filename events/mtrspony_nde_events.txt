@@ -213,7 +213,7 @@ country_event = {
 				save_global_event_target_as = leader_soeren_of_svartpels
 				set_leader_flag = leader_soeren_of_svartpels
 				set_leader_flag = is_created_leader
-				# change_leader_portrait = "mtrspony_polar_bear_soeren_of_svartpels_predefined"
+				change_leader_portrait = "mtrspony_polar_bear_soeren_of_svartpels_predefined"
 				ROOT = {
 					random_owned_fleet = {
 						limit = { is_ship_class = shipclass_science_ship }
@@ -276,8 +276,8 @@ country_event = {
 		event_target:leader_winter = {
 			change_leader_portrait = "mtrspony_dragon_winter_predefined"
 		}
-		#event_target:leader_soeren_of_svartpels = {
-		#	change_leader_portrait = "mtrspony_polar_bear_soeren_of_svartpels_predefined"
-		#}
+		event_target:leader_soeren_of_svartpels = {
+			change_leader_portrait = "mtrspony_polar_bear_soeren_of_svartpels_predefined"
+		}
 	}
 }

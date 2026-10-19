@@ -182,6 +182,34 @@ save_current_mtrspony_species = {
 				set_species_flag = species_creator@PREV
 			}
 		}
+		else_if = {
+			limit = { species_portrait = mtrspony_polar_bear }
+
+			owner_main_species = {
+				every_country = {
+					limit = { has_mtrspony_portrait = yes }
+
+					PREV = { save_global_event_target_as = polar_bear_species@PREV }
+				}
+				save_global_event_target_as = polar_bear_species
+				set_global_flag = polar_bear_species_created
+				set_species_flag = species_creator@PREV
+			}
+		}
+		else_if = {
+			limit = { species_portrait = mtrspony_yeti }
+
+			owner_main_species = {
+				every_country = {
+					limit = { has_mtrspony_portrait = yes }
+
+					PREV = { save_global_event_target_as = yeti_species@PREV }
+				}
+				save_global_event_target_as = yeti_species
+				set_global_flag = yeti_species_created
+				set_species_flag = species_creator@PREV
+			}
+		}
 	}
 }
 
@@ -220,9 +248,17 @@ calculate_mtrspony_pop_count_hundred_each = {
 		set_variable = { which = yak_pops value = 100 }
 		set_variable = { which = diamond_dog_pops value = 100 }
 		set_variable = { which = dragon_pops value = 100 }
-		set_variable = { which = polar_bear_pops value = 0 }
 		set_variable = { which = yeti_pops value = 0 }
-		set_variable = { which = pops_to_remove value = 900 }
+		if = {
+			limit = { owner = { species_portrait = mtrspony_polar_bear } }
+
+			set_variable = { which = polar_bear_pops value = 100 }
+			set_variable = { which = pops_to_remove value = 1000 }
+		}
+		else = {
+			set_variable = { which = polar_bear_pops value = 0 }
+			set_variable = { which = pops_to_remove value = 900 }
+		}
 	}
 	else = {
 		calculate_and_set_mtrspony_pop_count_equal = yes
@@ -237,7 +273,14 @@ calculate_mtrspony_pop_count_equal = {
 		}
 		variable = equal_pops
 	}
-	divide_variable = { which = equal_pops value = 10 }
+	if = {
+		limit = { owner = { species_portrait = mtrspony_polar_bear } }
+
+		divide_variable = { which = equal_pops value = 11 }
+	}
+	else = {
+		divide_variable = { which = equal_pops value = 10 }
+	}
 	round_variable_to_closest = { which = equal_pops value = 5 }
 }
 calculate_and_set_mtrspony_pop_count_equal = {
@@ -253,15 +296,20 @@ calculate_and_set_mtrspony_pop_count_equal = {
 	set_variable = { which = yak_pops value = equal_pops }
 	set_variable = { which = diamond_dog_pops value = equal_pops }
 	set_variable = { which = dragon_pops value = equal_pops }
-	set_variable = { which = polar_bear_pops value = 0 }
+	if = {
+		limit = { owner = { species_portrait = mtrspony_polar_bear } }
+
+		set_variable = { which = polar_bear_pops value = equal_pops }
+	}
+	else = {
+		set_variable = { which = polar_bear_pops value = 0 }
+	}
 	set_variable = { which = yeti_pops value = 0 }
 
 	calculate_pops_to_remove = yes
 }
 
 calculate_mtrspony_pop_count_default = {
-	set_variable = { which = polar_bear_pops value = 0 }
-	set_variable = { which = yeti_pops value = 0 }
 	if = {
 		limit = {
 			count_owned_pop_amount = {
@@ -635,6 +683,17 @@ calculate_mtrspony_pop_count_default = {
 		set_variable = { which = diamond_dog_pops value = 100 }
 		set_variable = { which = dragon_pops value = 100 }
 	}
+	if = {
+		limit = { owner = { species_portrait = mtrspony_polar_bear } }
+
+		divide_variable = { which = yak_pops value = 2 }
+		round_variable_to_closest = { which = yak_pops value = 5 }
+		set_variable = { which = polar_bear_pops value = yak_pops }
+	}
+	else = {
+		set_variable = { which = polar_bear_pops value = 0 }
+	}
+	set_variable = { which = yeti_pops value = 0 }
 
 	calculate_pops_to_remove = yes
 }
@@ -685,6 +744,11 @@ calculate_mtrspony_pop_count_keep_majority = {
 		limit = { owner = { species_portrait = mtrspony_dragon } }
 
 		calculate_mtrspony_pop_count_dragon = yes
+	}
+	else_if = {
+		limit = { owner = { species_portrait = mtrspony_polar_bear } }
+
+		calculate_mtrspony_pop_count_polar_bear = yes
 	}
 }
 
@@ -804,6 +868,21 @@ calculate_mtrspony_pop_count_dragon = {
 	calculate_pops_to_remove = yes
 }
 
+calculate_mtrspony_pop_count_polar_bear = {
+	set_variable = { which = polar_bear_pops_prev value = polar_bear_pops }
+
+	set_variable = { which = polar_bear_pops value = pony_pops }
+	set_variable = { which = pony_pops value = griffon_pops }
+	set_variable = { which = griffon_pops value = zebra_pops }
+	set_variable = { which = zebra_pops value = deer_pops }
+	set_variable = { which = deer_pops value = changeling_pops }
+	set_variable = { which = changeling_pops value = hippogriff_pops }
+	set_variable = { which = hippogriff_pops value = kirin_pops }
+	set_variable = { which = kirin_pops value = polar_bear_pops_prev }
+
+	calculate_pops_to_remove = yes
+}
+
 calculate_pops_to_remove = {
 	export_trigger_value_to_variable = {
 		trigger = count_owned_pop_amount
@@ -861,6 +940,11 @@ calculate_pops_to_remove = {
 		limit = { owner = { species_portrait = mtrspony_dragon } }
 
 		subtract_variable = { which = pops_to_remove value = dragon_pops }
+	}
+	else_if = {
+		limit = { owner = { species_portrait = mtrspony_polar_bear } }
+
+		subtract_variable = { which = pops_to_remove value = polar_bear_pops }
 	}
 }
 
@@ -926,6 +1010,16 @@ apply_starting_species_pops_back_on_correct_species = {
 		limit = { owner = { species_portrait = mtrspony_dragon } }
 
 		set_variable = { which = dragon_pops value = starting_species_pops }
+	}
+	else_if = {
+		limit = { owner = { species_portrait = mtrspony_polar_bear } }
+
+		set_variable = { which = polar_bear_pops value = starting_species_pops }
+	}
+	else_if = {
+		limit = { owner = { species_portrait = mtrspony_yeti } }
+
+		set_variable = { which = yeti_pops value = starting_species_pops }
 	}
 }
 
@@ -1415,6 +1509,21 @@ setup_extra_traits_to_mtrspony_species = {
 			add_trait_to_mtrspony_species_effect = { SPECIES = event_target:dragon_species TRAIT = trait_unruly }
 			add_trait_to_mtrspony_species_effect = { SPECIES = event_target:dragon_species TRAIT = trait_nonadaptive }
 		}
+		if = {
+			limit = { NOT = { owner_main_species = { is_same_species = event_target:polar_bear_species } } }
+
+			remove_trait_from_mtrspony_species_effect = { SPECIES = event_target:polar_bear_species TRAIT = trait_ingenious }
+			add_trait_to_mtrspony_species_effect = { SPECIES = event_target:polar_bear_species TRAIT = trait_repugnant }
+			add_trait_to_mtrspony_species_effect = { SPECIES = event_target:polar_bear_species TRAIT = trait_unruly }
+		}
+		if = {
+			limit = { NOT = { owner_main_species = { is_same_species = event_target:yeti_species } } }
+
+			remove_trait_from_mtrspony_species_effect = { SPECIES = event_target:yeti_species TRAIT = trait_natural_physicists }
+			remove_trait_from_mtrspony_species_effect = { SPECIES = event_target:yeti_species TRAIT = trait_enduring }
+			add_trait_to_mtrspony_species_effect = { SPECIES = event_target:yeti_species TRAIT = trait_nonadaptive }
+			add_trait_to_mtrspony_species_effect = { SPECIES = event_target:yeti_species TRAIT = trait_unruly }
+		}
 	}
 	else = { remove_trait_from_mtrspony_species_effect = { TRAIT = trait_malleable_genes } } # TODO: REVERT TRAIT CHANGES
 
@@ -1537,6 +1646,18 @@ setup_extra_traits_to_mtrspony_species = {
 			limit = { NOT = { owner_main_species = { is_same_species = event_target:dragon_species } } }
 
 			replace_traits_on_mtrspony_species_effect = { SPECIES = event_target:dragon_species REMOVE_TRAIT = trait_strong ADD_TRAIT = trait_very_strong }
+		}
+		if = {
+			limit = { NOT = { owner_main_species = { is_same_species = event_target:polar_bear_species } } }
+
+			add_trait_to_mtrspony_species_effect = { SPECIES = event_target:polar_bear_species TRAIT = trait_traditional }
+			add_trait_to_mtrspony_species_effect = { SPECIES = event_target:polar_bear_species TRAIT = trait_enduring }
+		}
+		if = {
+			limit = { NOT = { owner_main_species = { is_same_species = event_target:yeti_species } } }
+
+			add_trait_to_mtrspony_species_effect = { SPECIES = event_target:yeti_species TRAIT = trait_strong }
+			add_trait_to_mtrspony_species_effect = { SPECIES = event_target:yeti_species TRAIT = trait_resilient }
 		}
 	}
 	else = { } # TODO: REVERT TRAIT CHANGES
@@ -1842,6 +1963,16 @@ add_original_species_pc_trait_effect = {
 
 						PREVPREV.owner = { PREV = { save_global_event_target_as = dragon_species@PREV } }
 					}
+					else_if = {
+						limit = { PREV = { is_same_species = event_target:polar_bear_species } }
+
+						PREVPREV.owner = { PREV = { save_global_event_target_as = polar_bear_species@PREV } }
+					}
+					else_if = {
+						limit = { PREV = { is_same_species = event_target:yeti_species } }
+
+						PREVPREV.owner = { PREV = { save_global_event_target_as = yeti_species@PREV } }
+					}
 				}
 			}
 		}
@@ -1898,6 +2029,16 @@ save_event_target_for_modified_species = {
 		limit = { PREV = { is_same_species = event_target:dragon_species } }
 
 		PREVPREV.owner = { PREV = { save_global_event_target_as = dragon_species@PREV } }
+	}
+	else_if = {
+		limit = { PREV = { is_same_species = event_target:polar_bear_species } }
+
+		PREVPREV.owner = { PREV = { save_global_event_target_as = polar_bear_species@PREV } }
+	}
+	else_if = {
+		limit = { PREV = { is_same_species = event_target:yeti_species } }
+
+		PREVPREV.owner = { PREV = { save_global_event_target_as = yeti_species@PREV } }
 	}
 }
 
@@ -2033,6 +2174,16 @@ set_mtrspony_citizenship_limited = {
 		limit = { NOT = { species_portrait = mtrspony_dragon } }
 
 		event_target:dragon_species = { set_citizenship_type = { country = PREV type = citizenship_limited } }
+	}
+	if = {
+		limit = { NOT = { species_portrait = mtrspony_polar_bear } }
+
+		event_target:polar_bear_species = { set_citizenship_type = { country = PREV type = citizenship_limited } }
+	}
+	if = {
+		limit = { NOT = { species_portrait = mtrspony_yeti } }
+
+		event_target:yeti_species = { set_citizenship_type = { country = PREV type = citizenship_limited } }
 	}
 }
 set_living_standard_good = {

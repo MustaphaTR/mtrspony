@@ -288,6 +288,7 @@ has_under_one_rule_origin = {
 
 has_mtrspony_portrait = {
 	OR = {
+		species_portrait = mtrspony_yeti
 		species_portrait = mtrspony_pony
 		species_portrait = mtrspony_pony_normal
 		species_portrait = mtrspony_pony_earth
@@ -302,6 +303,7 @@ has_mtrspony_portrait = {
 		species_portrait = mtrspony_deer
 		species_portrait = mtrspony_diamond_dog
 		species_portrait = mtrspony_kirin
+		species_portrait = mtrspony_polar_bear
 		species_portrait = mtrspony_yak
 		species_portrait = mtrspony_zebra
 		species_portrait = mtrspony_dragon
@@ -364,6 +366,7 @@ is_same_species_with_faustian_races = {
 		is_same_species = event_target:diamond_dog_species
 		is_same_species = event_target:dragon_species
 		is_same_species = event_target:polar_bear_species
+		is_same_species = event_target:yeti_species
 	}
 }
 is_same_species_with_other_faustian_races = {
@@ -384,6 +387,7 @@ is_exact_same_species_with_empire_faustian_races = {
 		is_exact_same_species = event_target:diamond_dog_species@$COUNTRY$
 		is_exact_same_species = event_target:dragon_species@$COUNTRY$
 		is_exact_same_species = event_target:polar_bear_species@$COUNTRY$
+		is_exact_same_species = event_target:yeti_species@$COUNTRY$
 	}
 }
 

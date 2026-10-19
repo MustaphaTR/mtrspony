@@ -290,6 +290,7 @@
 -- Reworked the Multi-Species setup event to allow manually setting how many pops of each species you start.
 --- With the Diamond Dogs now in too, i thought there might be too many species at the start for some players, so i wanted to add more customisation on which ones to spawn and how many.
 --- Polar Bears, which was previously exclusive to Empire of Frost, and Yetis, which only used for Gigastructural Engineering compability, now can be added from the new setup, tho they are still not included in any presets.
+-- Added two more color options for the Polar Bear portraits and it can now be selected for custom empires.
 -- Added one more color option for Alice portraits and an empty clothes layer.
 -- Added 5 more flag icons.
 -- Added 20 more flag backgrounds.
