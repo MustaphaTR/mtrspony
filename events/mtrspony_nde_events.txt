@@ -139,18 +139,9 @@ country_event = {
 			set_military_service_type = { country = ROOT type = military_service_full }
 		}
 		event_target:zebra_species@ROOT = { set_slavery_type = { country = ROOT type = slavery_normal } }
-
-		create_polar_bear_species = yes
 		event_target:polar_bear_species@ROOT = {
 			set_citizenship_type = { country = ROOT type = citizenship_limited }
 			set_military_service_type = { country = ROOT type = military_service_full }
-
-			if = {
-				limit = { PREV = { owner_main_species = { has_trait = trait_survivor } } }
-
-				set_habitability_trait = { trait = trait_pc_arctic_preference }
-				change_species_characteristics = { add_trait = trait_survivor }
-			}
 		}
 
 		capital_scope = {
@@ -166,6 +157,7 @@ country_event = {
 			add_original_species_pc_trait_effect = { SPECIES = event_target:kirin_species@ROOT TRAIT = trait_pc_tropical_preference }
 			add_original_species_pc_trait_effect = { SPECIES = event_target:yak_species@ROOT TRAIT = trait_pc_alpine_preference }
 			add_original_species_pc_trait_effect = { SPECIES = event_target:diamond_dog_species@ROOT TRAIT = trait_pc_alpine_preference }
+			add_original_species_pc_trait_effect = { SPECIES = event_target:polar_bear_species@ROOT TRAIT = trait_pc_arctic_preference }
 
 			calculate_mtrspony_pop_count_keep_majority = yes
 			set_variable = { which = griffon_pops value = 650 } # Placeholder, most of these should be Penguins.

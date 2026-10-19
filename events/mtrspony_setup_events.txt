@@ -1,196 +1,256 @@
 namespace = mtrspony_setup
 
-country_event = {
+event = {
 	id = mtrspony_setup.1
-	title = "mtrspony_setup.1.name"
-	desc = "mtrspony_setup.1.desc"
 
-	picture = GFX_evt_voting
-
-	is_triggered_only = yes
-
-	trigger = {
-		is_ai = no
-		has_mtrspony_portrait = yes
-		is_mtrspony_prescripted_country = no
-	}
-
-	immediate = {
-		save_current_mtrspony_species = yes
-		create_other_mtrspony_species = yes
-		capital_scope = { set_mtrspony_setup_variables = yes }
-	}
-
-	option = {
-		name = mtrspony_setup.1.a
-	}
-	option = {
-		name = mtrspony_setup.1.b
-
-		hidden_effect = {
-			capital_scope = {
-				set_variable = { which = pony_pops value = 100 }
-				set_variable = { which = griffon_pops value = 100 }
-				set_variable = { which = zebra_pops value = 100 }
-				set_variable = { which = deer_pops value = 100 }
-				set_variable = { which = changeling_pops value = 100 }
-				set_variable = { which = hippogriff_pops value = 100 }
-				set_variable = { which = kirin_pops value = 100 }
-				set_variable = { which = yak_pops value = 100 }
-				set_variable = { which = diamond_dog_pops value = 100 }
-				set_variable = { which = dragon_pops value = 100 }
-				set_variable = { which = pops_to_remove value = 900 }
-				spawn_other_mtrspony_species = yes
-			}
-
-			set_country_flag = using_mtrspony_multi_species_setup
-			refresh_leader_pool = yes
-		}
-	}
-	option = {
-		name = mtrspony_setup.1.e
-		hidden_effect = {
-			capital_scope = {
-				calculate_mtrspony_pop_count_equal = yes
-				spawn_other_mtrspony_species = yes
-			}
-
-			set_country_flag = using_mtrspony_multi_species_setup
-			refresh_leader_pool = yes
-		}
-	}
-	option = {
-		name = mtrspony_setup.1.c
-		hidden_effect = {
-			capital_scope = {
-				calculate_mtrspony_pop_count_default = yes
-				spawn_other_mtrspony_species = yes
-			}
-
-			set_country_flag = using_mtrspony_multi_species_setup
-			refresh_leader_pool = yes
-		}
-	}
-	option = {
-		name = mtrspony_setup.1.d
-		hidden_effect = {
-			capital_scope = {
-				calculate_mtrspony_pop_count_keep_majority = yes
-				spawn_other_mtrspony_species = yes
-			}
-
-			set_country_flag = using_mtrspony_multi_species_setup
-			refresh_leader_pool = yes
-		}
-	}
-}
-
-# Send a setup event to a player country about the AI countries as well.
-country_event = {
-	id = mtrspony_setup.2
 	hide_window = yes
 	is_triggered_only = yes
 
-	trigger = {
-		is_ai = yes
-		has_mtrspony_portrait = yes
-		is_mtrspony_prescripted_country = no
-	}
-
 	immediate = {
 		save_current_mtrspony_species = yes
-		create_other_mtrspony_species = yes
-		capital_scope = { set_mtrspony_setup_variables = yes }
 
-		random_country = {
-			limit = { is_ai = no }
+		every_playable_country = {
+			limit = {
+				has_mtrspony_portrait = yes
+				is_mtrspony_prescripted_country = no
+			}
 
-			country_event = { id = mtrspony_setup.3 }
+			create_other_mtrspony_species = yes
+			every_owned_planet = { set_mtrspony_setup_variables = yes }
+
+			if = {
+				limit = { is_ai = no }
+
+				every_owned_planet = { set_planet_flag = mtrspony_planet_to_setup@PREV }
+				set_country_flag = mtrspony_country_to_setup@THIS
+				set_country_flag = should_get_setup_event
+			}
+			else = {
+				random_country = {
+					limit = { is_ai = no }
+
+					PREV = {
+						every_owned_planet = { set_planet_flag = mtrspony_planet_to_setup@PREVPREV }
+						set_country_flag = mtrspony_country_to_setup@PREV
+					}
+					set_country_flag = should_get_setup_event
+				}
+			}
+		}
+		every_playable_country = {
+			limit = { has_country_flag = should_get_setup_event }
+
+			if = {
+				limit = {
+					has_mtrspony_portrait = yes
+					is_mtrspony_prescripted_country = no
+				}
+
+				capital_scope = { save_global_event_target_as = mtrspony_species_setup_current_planet@PREV }
+
+				country_event = { id = mtrspony_setup.10 scopes = { from = capital_scope } }
+			}
+			else = {
+				random_playable_country = {
+					limit = { has_country_flag = mtrspony_country_to_setup@PREV }
+
+					capital_scope = { save_global_event_target_as = mtrspony_species_setup_current_planet@PREVPREV }
+					PREV = { country_event = { id = mtrspony_setup.10 scopes = { from = PREV.capital_scope } } }
+				}
+			}
 		}
 	}
 }
 
 country_event = {
-	id = mtrspony_setup.3
-	title = "mtrspony_setup.3.name"
-	desc = "mtrspony_setup.3.desc"
+	id = mtrspony_setup.10
+	title = "mtrspony_setup.1.name"
+	desc = "mtrspony_setup.10.desc"
 
-	picture = GFX_evt_voting
+	diplomatic = yes
+	picture_event_data = {
+		portrait = from.owner.leader
+		planet_background = from
+		city_level = from
+		room = from.owner
+	}
 
 	is_triggered_only = yes
 
-	trigger = {
-		is_ai = no
+	immediate = {
+		FROM = {
+			calculate_mtrspony_pop_count_primary_only = yes
+			calculate_starting_pops = yes
+			calculate_mtrspony_pop_count_equal = yes
+		}
 	}
 
 	option = {
-		name = mtrspony_setup.3.a
+		custom_gui = "mtrspony_species_setup_option_presets_entry"
+		allow = { hidden_trigger = { always = no } }
 	}
 	option = {
-		name = mtrspony_setup.1.b
-
-		hidden_effect = {
-			FROM = {
-				capital_scope = {
-					set_variable = { which = pony_pops value = 100 }
-					set_variable = { which = griffon_pops value = 100 }
-					set_variable = { which = zebra_pops value = 100 }
-					set_variable = { which = deer_pops value = 100 }
-					set_variable = { which = changeling_pops value = 100 }
-					set_variable = { which = hippogriff_pops value = 100 }
-					set_variable = { which = kirin_pops value = 100 }
-					set_variable = { which = yak_pops value = 100 }
-					set_variable = { which = dragon_pops value = 100 }
-					set_variable = { which = diamond_dog_pops value = 100 }
-					set_variable = { which = pops_to_remove value = 900 }
-					spawn_other_mtrspony_species = yes
-				}
-
-				set_country_flag = using_mtrspony_multi_species_setup
-				refresh_leader_pool = yes
+		custom_gui = "mtrspony_species_setup_option_starting_species_entry"
+		allow = {
+			custom_tooltip = {
+				fail_text = mtrspony_setup.10.a_tt
+				always = no
 			}
 		}
 	}
 	option = {
-		name = mtrspony_setup.1.e
+		custom_gui = "mtrspony_species_setup_option_pony_entry"
+		trigger = { FROM.owner = { has_mtrspony_pony_portrait = no } }
+		allow = { hidden_trigger = { always = no } }
+	}
+	option = {
+		custom_gui = "mtrspony_species_setup_option_griffon_entry"
+		trigger = { FROM.owner = { NOT = { species_portrait = mtrspony_griffon } } }
+		allow = { hidden_trigger = { always = no } }
+	}
+	option = {
+		custom_gui = "mtrspony_species_setup_option_zebra_entry"
+		trigger = { FROM.owner = { NOT = { species_portrait = mtrspony_zebra } } }
+		allow = { hidden_trigger = { always = no } }
+	}
+	option = {
+		custom_gui = "mtrspony_species_setup_option_deer_entry"
+		trigger = { FROM.owner = { NOT = { species_portrait = mtrspony_deer } } }
+		allow = { hidden_trigger = { always = no } }
+	}
+	option = {
+		custom_gui = "mtrspony_species_setup_option_changeling_entry"
+		trigger = { FROM.owner = { NOT = { species_portrait = mtrspony_changeling } } }
+		allow = { hidden_trigger = { always = no } }
+	}
+	option = {
+		custom_gui = "mtrspony_species_setup_option_hippogriff_entry"
+		trigger = { FROM.owner = { NOT = { species_portrait = mtrspony_hippogriff } } }
+		allow = { hidden_trigger = { always = no } }
+	}
+	option = {
+		custom_gui = "mtrspony_species_setup_option_kirin_entry"
+		trigger = { FROM.owner = { NOT = { species_portrait = mtrspony_kirin } } }
+		allow = { hidden_trigger = { always = no } }
+	}
+	option = {
+		custom_gui = "mtrspony_species_setup_option_yak_entry"
+		trigger = { FROM.owner = { NOT = { species_portrait = mtrspony_yak } } }
+		allow = { hidden_trigger = { always = no } }
+	}
+	option = {
+		custom_gui = "mtrspony_species_setup_option_diamond_dog_entry"
+		trigger = { FROM.owner = { NOT = { species_portrait = mtrspony_diamond_dog } } }
+		allow = { hidden_trigger = { always = no } }
+	}
+	option = {
+		custom_gui = "mtrspony_species_setup_option_dragon_entry"
+		trigger = { FROM.owner = { NOT = { species_portrait = mtrspony_dragon } } }
+		allow = { hidden_trigger = { always = no } }
+	}
+	option = {
+		custom_gui = "mtrspony_species_setup_option_polar_bear_entry"
+		trigger = { FROM.owner = { NOT = { species_portrait = mtrspony_polar_bear } } }
+		allow = { hidden_trigger = { always = no } }
+	}
+	option = {
+		custom_gui = "mtrspony_species_setup_option_yeti_entry"
+		trigger = { FROM.owner = { NOT = { species_portrait = mtrspony_yeti } } }
+		allow = { hidden_trigger = { always = no } }
+	}
+	option = {
+		name = mtrspony_setup.10.y
+		trigger = {
+			OR = {
+				FROM.owner = {
+					any_owned_planet = {
+						planet = {
+							NOT = { is_planet = FROM }
+							has_planet_flag = mtrspony_planet_to_setup@ROOT
+						}
+					}
+				}
+				any_country = {
+					NOT = { is_country = FROM.owner }
+					has_country_flag = mtrspony_country_to_setup@ROOT
+				}
+			}
+		}
+
 		hidden_effect = {
 			FROM = {
-				capital_scope = {
-					calculate_mtrspony_pop_count_equal = yes
-					spawn_other_mtrspony_species = yes
-				}
+				apply_starting_species_pops_back_on_correct_species = yes
+				spawn_other_mtrspony_species = yes
+				remove_planet_flag = mtrspony_planet_to_setup@ROOT
 
-				set_country_flag = using_mtrspony_multi_species_setup
-				refresh_leader_pool = yes
+				owner = {
+					set_country_flag = using_mtrspony_multi_species_setup
+					refresh_leader_pool = yes
+				}
+			}
+
+			FROM.owner = {
+				if = {
+					limit = { any_owned_planet = { has_planet_flag = mtrspony_planet_to_setup@ROOT } }
+
+					random_owned_planet = {
+						limit = { has_planet_flag = mtrspony_planet_to_setup@ROOT }
+
+						planet = { save_global_event_target_as = mtrspony_species_setup_current_planet@ROOT }
+
+						ROOT = { country_event = { id = mtrspony_setup.10 scopes = { from = PREV } } }
+					}
+				}
+				else = {
+					remove_country_flag = mtrspony_country_to_setup@ROOT
+
+					if = {
+						limit = { any_country = { has_country_flag = mtrspony_country_to_setup@ROOT } }
+
+						random_country = {
+							limit = { has_country_flag = mtrspony_country_to_setup@ROOT }
+
+							capital_scope = { save_global_event_target_as = mtrspony_species_setup_current_planet@ROOT }
+
+							ROOT = { country_event = { id = mtrspony_setup.10 scopes = { from = PREV.capital_scope } } }
+						}
+					}
+				}
 			}
 		}
 	}
 	option = {
-		name = mtrspony_setup.1.c
-		hidden_effect = {
-			FROM = {
-				every_owned_planet = {
-					calculate_mtrspony_pop_count_default = yes
-					spawn_other_mtrspony_species = yes
+		name = mtrspony_setup.10.z
+		trigger = {
+			NOT = {
+				FROM.owner = {
+					any_owned_planet = {
+						planet = {
+							NOT = { is_planet = FROM }
+							has_planet_flag = mtrspony_planet_to_setup@ROOT
+						}
+					}
 				}
-
-				set_country_flag = using_mtrspony_multi_species_setup
-				refresh_leader_pool = yes
+				any_country = {
+					NOT = { is_country = FROM.owner }
+					has_country_flag = mtrspony_country_to_setup@ROOT
+				}
 			}
 		}
-	}
-	option = {
-		name = mtrspony_setup.3.d
+		default_hide_option = yes
+
 		hidden_effect = {
 			FROM = {
-				every_owned_planet = {
-					calculate_mtrspony_pop_count_keep_majority = yes
-					spawn_other_mtrspony_species = yes
-				}
+				apply_starting_species_pops_back_on_correct_species = yes
+				spawn_other_mtrspony_species = yes
 
-				set_country_flag = using_mtrspony_multi_species_setup
-				refresh_leader_pool = yes
+				owner = {
+					set_country_flag = using_mtrspony_multi_species_setup
+					refresh_leader_pool = yes
+				}
 			}
+
+			clear_global_event_target = mtrspony_species_setup_current_planet@ROOT
 		}
 	}
 }

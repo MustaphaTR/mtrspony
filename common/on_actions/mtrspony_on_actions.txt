@@ -1,14 +1,13 @@
 on_game_start = {
 	events = {
 		gigacompat.1
+		mtrspony_setup.1
 	}
 }
 
 on_game_start_country = {
 	events = {
 		mtrspony.3
-		mtrspony_setup.1
-		mtrspony_setup.2
 		mtrspony_setup.4
 
 		cocstart.1

@@ -1,0 +1,1179 @@
+guiTypes = {
+	### PRESETS EVENT OPTION ###
+	containerWindowType = {
+		name = "mtrspony_species_setup_option_presets_entry"
+		position = { x=0 y=0 }
+		size = { width = 388 height = 30 }
+		moveable = no
+
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_event_button_452"
+			alwaystransparent = yes
+			position = { x=0 y=8 }
+			font = "cg_16b"
+			text = "OPTION_TEXT"
+		}
+
+		effectButtonType = {
+			name = "preset_primary_only"
+			position = { x = 0 y = 0 }
+			spriteType = "GFX_button_95_24"
+			buttonFont = "cg_16b"
+			buttonText = "mtrspony_setup.primary_only"
+			effect = "mtrspony_preset_primary_only_effect"
+		}
+		effectButtonType = {
+			name = "preset_hundred_each"
+			position = { x = 95 y = 0 }
+			spriteType = "GFX_button_75_24"
+			buttonFont = "cg_16b"
+			buttonText = "mtrspony_setup.hundred_each"
+			effect = "mtrspony_preset_hundred_each_effect"
+		}
+		effectButtonType = {
+			name = "preset_equal"
+			position = { x = 170 y = 0 }
+			spriteType = "GFX_button_75_24"
+			buttonFont = "cg_16b"
+			buttonText = "mtrspony_setup.equal"
+			effect = "mtrspony_preset_equal_effect"
+		}
+		effectButtonType = {
+			name = "preset_eaw"
+			position = { x = 245 y = 0 }
+			spriteType = "GFX_button_95_24"
+			buttonFont = "cg_16b"
+			buttonText = "mtrspony_setup.eaw"
+			effect = "mtrspony_preset_eaw_effect"
+		}
+		effectButtonType = {
+			name = "preset_eaw_adjusted"
+			position = { x = 340 y = 7 }
+			spriteType = "GFX_button_112_24"
+			buttonFont = "cg_16b"
+			buttonText = "mtrspony_setup.eaw_adjusted"
+			effect = "mtrspony_preset_eaw_adjusted_effect"
+		}
+
+		OverlappingElementsBoxType = {
+			name = "trigger_icons"
+			position = { x = 0 y = 10 }
+			size = { x=65 y= 28 }
+		}
+
+		OverlappingElementsBoxType = {
+			name = "effect_icons"
+			position = { x = 370 y = 8 }
+			size = { x = 72 y = 28 }
+			format = right
+		}
+	}
+
+	### STARTING SPECIES EVENT OPTION ###
+	containerWindowType = {
+		name = "mtrspony_species_setup_option_starting_species_entry"
+		position = { x=0 y=0 }
+		size = { width = 388 height = 30 }
+		moveable = no
+
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_event_button_452"
+			alwaystransparent = yes
+			position = { x=0 y=8 }
+			font = "cg_16b"
+			text = "OPTION_TEXT"
+		}
+
+		effectButtonType = {
+			name = "text_button"
+			quadTextureSprite = "GFX_event_button_452"
+			position = { x=0 y=8 }
+			font = "cg_16b"
+			text = "mtrspony_setup.10.a"
+			effect = "mtrspony_dummy_starting_species"
+		}
+
+		OverlappingElementsBoxType = {
+			name = "trigger_icons"
+			position = { x = 0 y = 10 }
+			size = { x=65 y= 28 }
+		}
+
+		OverlappingElementsBoxType = {
+			name = "effect_icons"
+			position = { x = 370 y = 8 }
+			size = { x = 72 y = 28 }
+			format = right
+		}
+	}
+
+	### PONY EVENT OPTION ###
+	containerWindowType = {
+		name = "mtrspony_species_setup_option_pony_entry"
+		position = { x=0 y=0 }
+		size = { width = 388 height = 30 }
+		moveable = no
+
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_event_button_452"
+			alwaystransparent = yes
+			position = { x=0 y=8 }
+			font = "cg_16b"
+			text = "OPTION_TEXT"
+		}
+
+		effectButtonType = {
+			name = "text_button"
+			quadTextureSprite = "GFX_event_button_452"
+			position = { x=0 y=8 }
+			font = "cg_16b"
+			text = "mtrspony_setup.10.b"
+			effect = "mtrspony_dummy_disabled"
+		}
+
+		effectButtonType = {
+			name = "minus_100"
+			position = { x = 0 y = 0 }
+			spriteType = "GFX_button_35_24"
+			buttonFont = "cg_16b"
+			buttonText = "mtrspony_setup.minus_100"
+			effect = "mtrspony_pony_minus_100_effect"
+		}
+		effectButtonType = {
+			name = "minus_50"
+			position = { x = 35 y = 0 }
+			spriteType = "GFX_button_35_24"
+			buttonFont = "cg_16b"
+			buttonText = "mtrspony_setup.minus_50"
+			effect = "mtrspony_pony_minus_50_effect"
+		}
+		effectButtonType = {
+			name = "minus_5"
+			position = { x = 70 y = 0 }
+			spriteType = "GFX_button_35_24"
+			buttonFont = "cg_16b"
+			buttonText = "mtrspony_setup.minus_5"
+			effect = "mtrspony_pony_minus_5_effect"
+		}
+
+		effectButtonType = {
+			name = "plus_5"
+			position = { x = 347 y = 0 }
+			spriteType = "GFX_button_35_24"
+			buttonFont = "cg_16b"
+			buttonText = "mtrspony_setup.plus_5"
+			effect = "mtrspony_pony_plus_5_effect"
+		}
+		effectButtonType = {
+			name = "plus_50"
+			position = { x = 382 y = 0 }
+			spriteType = "GFX_button_35_24"
+			buttonFont = "cg_16b"
+			buttonText = "mtrspony_setup.plus_50"
+			effect = "mtrspony_pony_plus_50_effect"
+		}
+		effectButtonType = {
+			name = "plus_100"
+			position = { x = 417 y = 0 }
+			spriteType = "GFX_button_35_24"
+			buttonFont = "cg_16b"
+			buttonText = "mtrspony_setup.plus_100"
+			effect = "mtrspony_pony_plus_100_effect"
+		}
+
+		OverlappingElementsBoxType = {
+			name = "trigger_icons"
+			position = { x = 0 y = 10 }
+			size = { x=65 y= 28 }
+		}
+
+		OverlappingElementsBoxType = {
+			name = "effect_icons"
+			position = { x = 370 y = 8 }
+			size = { x = 72 y = 28 }
+			format = right
+		}
+	}
+
+	### GRIFFON EVENT OPTION ###
+	containerWindowType = {
+		name = "mtrspony_species_setup_option_griffon_entry"
+		position = { x=0 y=0 }
+		size = { width = 388 height = 30 }
+		moveable = no
+
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_event_button_452"
+			alwaystransparent = yes
+			position = { x=0 y=8 }
+			font = "cg_16b"
+			text = "OPTION_TEXT"
+		}
+
+		effectButtonType = {
+			name = "text_button"
+			quadTextureSprite = "GFX_event_button_452"
+			position = { x=0 y=8 }
+			font = "cg_16b"
+			text = "mtrspony_setup.10.c"
+			effect = "mtrspony_dummy_disabled"
+		}
+
+		effectButtonType = {
+			name = "minus_100"
+			position = { x = 0 y = 0 }
+			spriteType = "GFX_button_35_24"
+			buttonFont = "cg_16b"
+			buttonText = "mtrspony_setup.minus_100"
+			effect = "mtrspony_griffon_minus_100_effect"
+		}
+		effectButtonType = {
+			name = "minus_50"
+			position = { x = 35 y = 0 }
+			spriteType = "GFX_button_35_24"
+			buttonFont = "cg_16b"
+			buttonText = "mtrspony_setup.minus_50"
+			effect = "mtrspony_griffon_minus_50_effect"
+		}
+		effectButtonType = {
+			name = "minus_5"
+			position = { x = 70 y = 0 }
+			spriteType = "GFX_button_35_24"
+			buttonFont = "cg_16b"
+			buttonText = "mtrspony_setup.minus_5"
+			effect = "mtrspony_griffon_minus_5_effect"
+		}
+
+		effectButtonType = {
+			name = "plus_5"
+			position = { x = 347 y = 0 }
+			spriteType = "GFX_button_35_24"
+			buttonFont = "cg_16b"
+			buttonText = "mtrspony_setup.plus_5"
+			effect = "mtrspony_griffon_plus_5_effect"
+		}
+		effectButtonType = {
+			name = "plus_50"
+			position = { x = 382 y = 0 }
+			spriteType = "GFX_button_35_24"
+			buttonFont = "cg_16b"
+			buttonText = "mtrspony_setup.plus_50"
+			effect = "mtrspony_griffon_plus_50_effect"
+		}
+		effectButtonType = {
+			name = "plus_100"
+			position = { x = 417 y = 0 }
+			spriteType = "GFX_button_35_24"
+			buttonFont = "cg_16b"
+			buttonText = "mtrspony_setup.plus_100"
+			effect = "mtrspony_griffon_plus_100_effect"
+		}
+
+		OverlappingElementsBoxType = {
+			name = "trigger_icons"
+			position = { x = 0 y = 10 }
+			size = { x=65 y= 28 }
+		}
+
+		OverlappingElementsBoxType = {
+			name = "effect_icons"
+			position = { x = 370 y = 8 }
+			size = { x = 72 y = 28 }
+			format = right
+		}
+	}
+
+	### ZEBRA EVENT OPTION ###
+	containerWindowType = {
+		name = "mtrspony_species_setup_option_zebra_entry"
+		position = { x=0 y=0 }
+		size = { width = 388 height = 30 }
+		moveable = no
+
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_event_button_452"
+			alwaystransparent = yes
+			position = { x=0 y=8 }
+			font = "cg_16b"
+			text = "OPTION_TEXT"
+		}
+
+		effectButtonType = {
+			name = "text_button"
+			quadTextureSprite = "GFX_event_button_452"
+			position = { x=0 y=8 }
+			font = "cg_16b"
+			text = "mtrspony_setup.10.d"
+			effect = "mtrspony_dummy_disabled"
+		}
+
+		effectButtonType = {
+			name = "minus_100"
+			position = { x = 0 y = 0 }
+			spriteType = "GFX_button_35_24"
+			buttonFont = "cg_16b"
+			buttonText = "mtrspony_setup.minus_100"
+			effect = "mtrspony_zebra_minus_100_effect"
+		}
+		effectButtonType = {
+			name = "minus_50"
+			position = { x = 35 y = 0 }
+			spriteType = "GFX_button_35_24"
+			buttonFont = "cg_16b"
+			buttonText = "mtrspony_setup.minus_50"
+			effect = "mtrspony_zebra_minus_50_effect"
+		}
+		effectButtonType = {
+			name = "minus_5"
+			position = { x = 70 y = 0 }
+			spriteType = "GFX_button_35_24"
+			buttonFont = "cg_16b"
+			buttonText = "mtrspony_setup.minus_5"
+			effect = "mtrspony_zebra_minus_5_effect"
+		}
+
+		effectButtonType = {
+			name = "plus_5"
+			position = { x = 347 y = 0 }
+			spriteType = "GFX_button_35_24"
+			buttonFont = "cg_16b"
+			buttonText = "mtrspony_setup.plus_5"
+			effect = "mtrspony_zebra_plus_5_effect"
+		}
+		effectButtonType = {
+			name = "plus_50"
+			position = { x = 382 y = 0 }
+			spriteType = "GFX_button_35_24"
+			buttonFont = "cg_16b"
+			buttonText = "mtrspony_setup.plus_50"
+			effect = "mtrspony_zebra_plus_50_effect"
+		}
+		effectButtonType = {
+			name = "plus_100"
+			position = { x = 417 y = 0 }
+			spriteType = "GFX_button_35_24"
+			buttonFont = "cg_16b"
+			buttonText = "mtrspony_setup.plus_100"
+			effect = "mtrspony_zebra_plus_100_effect"
+		}
+
+		OverlappingElementsBoxType = {
+			name = "trigger_icons"
+			position = { x = 0 y = 10 }
+			size = { x=65 y= 28 }
+		}
+
+		OverlappingElementsBoxType = {
+			name = "effect_icons"
+			position = { x = 370 y = 8 }
+			size = { x = 72 y = 28 }
+			format = right
+		}
+	}
+
+	### DEER EVENT OPTION ###
+	containerWindowType = {
+		name = "mtrspony_species_setup_option_deer_entry"
+		position = { x=0 y=0 }
+		size = { width = 388 height = 30 }
+		moveable = no
+
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_event_button_452"
+			alwaystransparent = yes
+			position = { x=0 y=8 }
+			font = "cg_16b"
+			text = "OPTION_TEXT"
+		}
+
+		effectButtonType = {
+			name = "text_button"
+			quadTextureSprite = "GFX_event_button_452"
+			position = { x=0 y=8 }
+			font = "cg_16b"
+			text = "mtrspony_setup.10.e"
+			effect = "mtrspony_dummy_disabled"
+		}
+
+		effectButtonType = {
+			name = "minus_100"
+			position = { x = 0 y = 0 }
+			spriteType = "GFX_button_35_24"
+			buttonFont = "cg_16b"
+			buttonText = "mtrspony_setup.minus_100"
+			effect = "mtrspony_deer_minus_100_effect"
+		}
+		effectButtonType = {
+			name = "minus_50"
+			position = { x = 35 y = 0 }
+			spriteType = "GFX_button_35_24"
+			buttonFont = "cg_16b"
+			buttonText = "mtrspony_setup.minus_50"
+			effect = "mtrspony_deer_minus_50_effect"
+		}
+		effectButtonType = {
+			name = "minus_5"
+			position = { x = 70 y = 0 }
+			spriteType = "GFX_button_35_24"
+			buttonFont = "cg_16b"
+			buttonText = "mtrspony_setup.minus_5"
+			effect = "mtrspony_deer_minus_5_effect"
+		}
+
+		effectButtonType = {
+			name = "plus_5"
+			position = { x = 347 y = 0 }
+			spriteType = "GFX_button_35_24"
+			buttonFont = "cg_16b"
+			buttonText = "mtrspony_setup.plus_5"
+			effect = "mtrspony_deer_plus_5_effect"
+		}
+		effectButtonType = {
+			name = "plus_50"
+			position = { x = 382 y = 0 }
+			spriteType = "GFX_button_35_24"
+			buttonFont = "cg_16b"
+			buttonText = "mtrspony_setup.plus_50"
+			effect = "mtrspony_deer_plus_50_effect"
+		}
+		effectButtonType = {
+			name = "plus_100"
+			position = { x = 417 y = 0 }
+			spriteType = "GFX_button_35_24"
+			buttonFont = "cg_16b"
+			buttonText = "mtrspony_setup.plus_100"
+			effect = "mtrspony_deer_plus_100_effect"
+		}
+
+		OverlappingElementsBoxType = {
+			name = "trigger_icons"
+			position = { x = 0 y = 10 }
+			size = { x=65 y= 28 }
+		}
+
+		OverlappingElementsBoxType = {
+			name = "effect_icons"
+			position = { x = 370 y = 8 }
+			size = { x = 72 y = 28 }
+			format = right
+		}
+	}
+
+	### CHANGELING EVENT OPTION ###
+	containerWindowType = {
+		name = "mtrspony_species_setup_option_changeling_entry"
+		position = { x=0 y=0 }
+		size = { width = 388 height = 30 }
+		moveable = no
+
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_event_button_452"
+			alwaystransparent = yes
+			position = { x=0 y=8 }
+			font = "cg_16b"
+			text = "OPTION_TEXT"
+		}
+
+		effectButtonType = {
+			name = "text_button"
+			quadTextureSprite = "GFX_event_button_452"
+			position = { x=0 y=8 }
+			font = "cg_16b"
+			text = "mtrspony_setup.10.f"
+			effect = "mtrspony_dummy_disabled"
+		}
+
+		effectButtonType = {
+			name = "minus_100"
+			position = { x = 0 y = 0 }
+			spriteType = "GFX_button_35_24"
+			buttonFont = "cg_16b"
+			buttonText = "mtrspony_setup.minus_100"
+			effect = "mtrspony_changeling_minus_100_effect"
+		}
+		effectButtonType = {
+			name = "minus_50"
+			position = { x = 35 y = 0 }
+			spriteType = "GFX_button_35_24"
+			buttonFont = "cg_16b"
+			buttonText = "mtrspony_setup.minus_50"
+			effect = "mtrspony_changeling_minus_50_effect"
+		}
+		effectButtonType = {
+			name = "minus_5"
+			position = { x = 70 y = 0 }
+			spriteType = "GFX_button_35_24"
+			buttonFont = "cg_16b"
+			buttonText = "mtrspony_setup.minus_5"
+			effect = "mtrspony_changeling_minus_5_effect"
+		}
+
+		effectButtonType = {
+			name = "plus_5"
+			position = { x = 347 y = 0 }
+			spriteType = "GFX_button_35_24"
+			buttonFont = "cg_16b"
+			buttonText = "mtrspony_setup.plus_5"
+			effect = "mtrspony_changeling_plus_5_effect"
+		}
+		effectButtonType = {
+			name = "plus_50"
+			position = { x = 382 y = 0 }
+			spriteType = "GFX_button_35_24"
+			buttonFont = "cg_16b"
+			buttonText = "mtrspony_setup.plus_50"
+			effect = "mtrspony_changeling_plus_50_effect"
+		}
+		effectButtonType = {
+			name = "plus_100"
+			position = { x = 417 y = 0 }
+			spriteType = "GFX_button_35_24"
+			buttonFont = "cg_16b"
+			buttonText = "mtrspony_setup.plus_100"
+			effect = "mtrspony_changeling_plus_100_effect"
+		}
+
+		OverlappingElementsBoxType = {
+			name = "trigger_icons"
+			position = { x = 0 y = 10 }
+			size = { x=65 y= 28 }
+		}
+
+		OverlappingElementsBoxType = {
+			name = "effect_icons"
+			position = { x = 370 y = 8 }
+			size = { x = 72 y = 28 }
+			format = right
+		}
+	}
+
+	### HIPPOGRIFF EVENT OPTION ###
+	containerWindowType = {
+		name = "mtrspony_species_setup_option_hippogriff_entry"
+		position = { x=0 y=0 }
+		size = { width = 388 height = 30 }
+		moveable = no
+
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_event_button_452"
+			alwaystransparent = yes
+			position = { x=0 y=8 }
+			font = "cg_16b"
+			text = "OPTION_TEXT"
+		}
+
+		effectButtonType = {
+			name = "text_button"
+			quadTextureSprite = "GFX_event_button_452"
+			position = { x=0 y=8 }
+			font = "cg_16b"
+			text = "mtrspony_setup.10.g"
+			effect = "mtrspony_dummy_disabled"
+		}
+
+		effectButtonType = {
+			name = "minus_100"
+			position = { x = 0 y = 0 }
+			spriteType = "GFX_button_35_24"
+			buttonFont = "cg_16b"
+			buttonText = "mtrspony_setup.minus_100"
+			effect = "mtrspony_hippogriff_minus_100_effect"
+		}
+		effectButtonType = {
+			name = "minus_50"
+			position = { x = 35 y = 0 }
+			spriteType = "GFX_button_35_24"
+			buttonFont = "cg_16b"
+			buttonText = "mtrspony_setup.minus_50"
+			effect = "mtrspony_hippogriff_minus_50_effect"
+		}
+		effectButtonType = {
+			name = "minus_5"
+			position = { x = 70 y = 0 }
+			spriteType = "GFX_button_35_24"
+			buttonFont = "cg_16b"
+			buttonText = "mtrspony_setup.minus_5"
+			effect = "mtrspony_hippogriff_minus_5_effect"
+		}
+
+		effectButtonType = {
+			name = "plus_5"
+			position = { x = 347 y = 0 }
+			spriteType = "GFX_button_35_24"
+			buttonFont = "cg_16b"
+			buttonText = "mtrspony_setup.plus_5"
+			effect = "mtrspony_hippogriff_plus_5_effect"
+		}
+		effectButtonType = {
+			name = "plus_50"
+			position = { x = 382 y = 0 }
+			spriteType = "GFX_button_35_24"
+			buttonFont = "cg_16b"
+			buttonText = "mtrspony_setup.plus_50"
+			effect = "mtrspony_hippogriff_plus_50_effect"
+		}
+		effectButtonType = {
+			name = "plus_100"
+			position = { x = 417 y = 0 }
+			spriteType = "GFX_button_35_24"
+			buttonFont = "cg_16b"
+			buttonText = "mtrspony_setup.plus_100"
+			effect = "mtrspony_hippogriff_plus_100_effect"
+		}
+
+		OverlappingElementsBoxType = {
+			name = "trigger_icons"
+			position = { x = 0 y = 10 }
+			size = { x=65 y= 28 }
+		}
+
+		OverlappingElementsBoxType = {
+			name = "effect_icons"
+			position = { x = 370 y = 8 }
+			size = { x = 72 y = 28 }
+			format = right
+		}
+	}
+
+	### KIRIN EVENT OPTION ###
+	containerWindowType = {
+		name = "mtrspony_species_setup_option_kirin_entry"
+		position = { x=0 y=0 }
+		size = { width = 388 height = 30 }
+		moveable = no
+
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_event_button_452"
+			alwaystransparent = yes
+			position = { x=0 y=8 }
+			font = "cg_16b"
+			text = "OPTION_TEXT"
+		}
+
+		effectButtonType = {
+			name = "text_button"
+			quadTextureSprite = "GFX_event_button_452"
+			position = { x=0 y=8 }
+			font = "cg_16b"
+			text = "mtrspony_setup.10.h"
+			effect = "mtrspony_dummy_disabled"
+		}
+
+		effectButtonType = {
+			name = "minus_100"
+			position = { x = 0 y = 0 }
+			spriteType = "GFX_button_35_24"
+			buttonFont = "cg_16b"
+			buttonText = "mtrspony_setup.minus_100"
+			effect = "mtrspony_kirin_minus_100_effect"
+		}
+		effectButtonType = {
+			name = "minus_50"
+			position = { x = 35 y = 0 }
+			spriteType = "GFX_button_35_24"
+			buttonFont = "cg_16b"
+			buttonText = "mtrspony_setup.minus_50"
+			effect = "mtrspony_kirin_minus_50_effect"
+		}
+		effectButtonType = {
+			name = "minus_5"
+			position = { x = 70 y = 0 }
+			spriteType = "GFX_button_35_24"
+			buttonFont = "cg_16b"
+			buttonText = "mtrspony_setup.minus_5"
+			effect = "mtrspony_kirin_minus_5_effect"
+		}
+
+		effectButtonType = {
+			name = "plus_5"
+			position = { x = 347 y = 0 }
+			spriteType = "GFX_button_35_24"
+			buttonFont = "cg_16b"
+			buttonText = "mtrspony_setup.plus_5"
+			effect = "mtrspony_kirin_plus_5_effect"
+		}
+		effectButtonType = {
+			name = "plus_50"
+			position = { x = 382 y = 0 }
+			spriteType = "GFX_button_35_24"
+			buttonFont = "cg_16b"
+			buttonText = "mtrspony_setup.plus_50"
+			effect = "mtrspony_kirin_plus_50_effect"
+		}
+		effectButtonType = {
+			name = "plus_100"
+			position = { x = 417 y = 0 }
+			spriteType = "GFX_button_35_24"
+			buttonFont = "cg_16b"
+			buttonText = "mtrspony_setup.plus_100"
+			effect = "mtrspony_kirin_plus_100_effect"
+		}
+
+		OverlappingElementsBoxType = {
+			name = "trigger_icons"
+			position = { x = 0 y = 10 }
+			size = { x=65 y= 28 }
+		}
+
+		OverlappingElementsBoxType = {
+			name = "effect_icons"
+			position = { x = 370 y = 8 }
+			size = { x = 72 y = 28 }
+			format = right
+		}
+	}
+
+	### YAK EVENT OPTION ###
+	containerWindowType = {
+		name = "mtrspony_species_setup_option_yak_entry"
+		position = { x=0 y=0 }
+		size = { width = 388 height = 30 }
+		moveable = no
+
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_event_button_452"
+			alwaystransparent = yes
+			position = { x=0 y=8 }
+			font = "cg_16b"
+			text = "OPTION_TEXT"
+		}
+
+		effectButtonType = {
+			name = "text_button"
+			quadTextureSprite = "GFX_event_button_452"
+			position = { x=0 y=8 }
+			font = "cg_16b"
+			text = "mtrspony_setup.10.i"
+			effect = "mtrspony_dummy_disabled"
+		}
+
+		effectButtonType = {
+			name = "minus_100"
+			position = { x = 0 y = 0 }
+			spriteType = "GFX_button_35_24"
+			buttonFont = "cg_16b"
+			buttonText = "mtrspony_setup.minus_100"
+			effect = "mtrspony_yak_minus_100_effect"
+		}
+		effectButtonType = {
+			name = "minus_50"
+			position = { x = 35 y = 0 }
+			spriteType = "GFX_button_35_24"
+			buttonFont = "cg_16b"
+			buttonText = "mtrspony_setup.minus_50"
+			effect = "mtrspony_yak_minus_50_effect"
+		}
+		effectButtonType = {
+			name = "minus_5"
+			position = { x = 70 y = 0 }
+			spriteType = "GFX_button_35_24"
+			buttonFont = "cg_16b"
+			buttonText = "mtrspony_setup.minus_5"
+			effect = "mtrspony_yak_minus_5_effect"
+		}
+
+		effectButtonType = {
+			name = "plus_5"
+			position = { x = 347 y = 0 }
+			spriteType = "GFX_button_35_24"
+			buttonFont = "cg_16b"
+			buttonText = "mtrspony_setup.plus_5"
+			effect = "mtrspony_yak_plus_5_effect"
+		}
+		effectButtonType = {
+			name = "plus_50"
+			position = { x = 382 y = 0 }
+			spriteType = "GFX_button_35_24"
+			buttonFont = "cg_16b"
+			buttonText = "mtrspony_setup.plus_50"
+			effect = "mtrspony_yak_plus_50_effect"
+		}
+		effectButtonType = {
+			name = "plus_100"
+			position = { x = 417 y = 0 }
+			spriteType = "GFX_button_35_24"
+			buttonFont = "cg_16b"
+			buttonText = "mtrspony_setup.plus_100"
+			effect = "mtrspony_yak_plus_100_effect"
+		}
+
+		OverlappingElementsBoxType = {
+			name = "trigger_icons"
+			position = { x = 0 y = 10 }
+			size = { x=65 y= 28 }
+		}
+
+		OverlappingElementsBoxType = {
+			name = "effect_icons"
+			position = { x = 370 y = 8 }
+			size = { x = 72 y = 28 }
+			format = right
+		}
+	}
+
+	### DIAMOND DOG EVENT OPTION ###
+	containerWindowType = {
+		name = "mtrspony_species_setup_option_diamond_dog_entry"
+		position = { x=0 y=0 }
+		size = { width = 388 height = 30 }
+		moveable = no
+
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_event_button_452"
+			alwaystransparent = yes
+			position = { x=0 y=8 }
+			font = "cg_16b"
+			text = "OPTION_TEXT"
+		}
+
+		effectButtonType = {
+			name = "text_button"
+			quadTextureSprite = "GFX_event_button_452"
+			position = { x=0 y=8 }
+			font = "cg_16b"
+			text = "mtrspony_setup.10.j"
+			effect = "mtrspony_dummy_disabled"
+		}
+
+		effectButtonType = {
+			name = "minus_100"
+			position = { x = 0 y = 0 }
+			spriteType = "GFX_button_35_24"
+			buttonFont = "cg_16b"
+			buttonText = "mtrspony_setup.minus_100"
+			effect = "mtrspony_diamond_dog_minus_100_effect"
+		}
+		effectButtonType = {
+			name = "minus_50"
+			position = { x = 35 y = 0 }
+			spriteType = "GFX_button_35_24"
+			buttonFont = "cg_16b"
+			buttonText = "mtrspony_setup.minus_50"
+			effect = "mtrspony_diamond_dog_minus_50_effect"
+		}
+		effectButtonType = {
+			name = "minus_5"
+			position = { x = 70 y = 0 }
+			spriteType = "GFX_button_35_24"
+			buttonFont = "cg_16b"
+			buttonText = "mtrspony_setup.minus_5"
+			effect = "mtrspony_diamond_dog_minus_5_effect"
+		}
+
+		effectButtonType = {
+			name = "plus_5"
+			position = { x = 347 y = 0 }
+			spriteType = "GFX_button_35_24"
+			buttonFont = "cg_16b"
+			buttonText = "mtrspony_setup.plus_5"
+			effect = "mtrspony_diamond_dog_plus_5_effect"
+		}
+		effectButtonType = {
+			name = "plus_50"
+			position = { x = 382 y = 0 }
+			spriteType = "GFX_button_35_24"
+			buttonFont = "cg_16b"
+			buttonText = "mtrspony_setup.plus_50"
+			effect = "mtrspony_diamond_dog_plus_50_effect"
+		}
+		effectButtonType = {
+			name = "plus_100"
+			position = { x = 417 y = 0 }
+			spriteType = "GFX_button_35_24"
+			buttonFont = "cg_16b"
+			buttonText = "mtrspony_setup.plus_100"
+			effect = "mtrspony_diamond_dog_plus_100_effect"
+		}
+
+		OverlappingElementsBoxType = {
+			name = "trigger_icons"
+			position = { x = 0 y = 10 }
+			size = { x=65 y= 28 }
+		}
+
+		OverlappingElementsBoxType = {
+			name = "effect_icons"
+			position = { x = 370 y = 8 }
+			size = { x = 72 y = 28 }
+			format = right
+		}
+	}
+
+	### DRAGON EVENT OPTION ###
+	containerWindowType = {
+		name = "mtrspony_species_setup_option_dragon_entry"
+		position = { x=0 y=0 }
+		size = { width = 388 height = 30 }
+		moveable = no
+
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_event_button_452"
+			alwaystransparent = yes
+			position = { x=0 y=8 }
+			font = "cg_16b"
+			text = "OPTION_TEXT"
+		}
+
+		effectButtonType = {
+			name = "text_button"
+			quadTextureSprite = "GFX_event_button_452"
+			position = { x=0 y=8 }
+			font = "cg_16b"
+			text = "mtrspony_setup.10.k"
+			effect = "mtrspony_dummy_disabled"
+		}
+
+		effectButtonType = {
+			name = "minus_100"
+			position = { x = 0 y = 0 }
+			spriteType = "GFX_button_35_24"
+			buttonFont = "cg_16b"
+			buttonText = "mtrspony_setup.minus_100"
+			effect = "mtrspony_dragon_minus_100_effect"
+		}
+		effectButtonType = {
+			name = "minus_50"
+			position = { x = 35 y = 0 }
+			spriteType = "GFX_button_35_24"
+			buttonFont = "cg_16b"
+			buttonText = "mtrspony_setup.minus_50"
+			effect = "mtrspony_dragon_minus_50_effect"
+		}
+		effectButtonType = {
+			name = "minus_5"
+			position = { x = 70 y = 0 }
+			spriteType = "GFX_button_35_24"
+			buttonFont = "cg_16b"
+			buttonText = "mtrspony_setup.minus_5"
+			effect = "mtrspony_dragon_minus_5_effect"
+		}
+
+		effectButtonType = {
+			name = "plus_5"
+			position = { x = 347 y = 0 }
+			spriteType = "GFX_button_35_24"
+			buttonFont = "cg_16b"
+			buttonText = "mtrspony_setup.plus_5"
+			effect = "mtrspony_dragon_plus_5_effect"
+		}
+		effectButtonType = {
+			name = "plus_50"
+			position = { x = 382 y = 0 }
+			spriteType = "GFX_button_35_24"
+			buttonFont = "cg_16b"
+			buttonText = "mtrspony_setup.plus_50"
+			effect = "mtrspony_dragon_plus_50_effect"
+		}
+		effectButtonType = {
+			name = "plus_100"
+			position = { x = 417 y = 0 }
+			spriteType = "GFX_button_35_24"
+			buttonFont = "cg_16b"
+			buttonText = "mtrspony_setup.plus_100"
+			effect = "mtrspony_dragon_plus_100_effect"
+		}
+
+		OverlappingElementsBoxType = {
+			name = "trigger_icons"
+			position = { x = 0 y = 10 }
+			size = { x=65 y= 28 }
+		}
+
+		OverlappingElementsBoxType = {
+			name = "effect_icons"
+			position = { x = 370 y = 8 }
+			size = { x = 72 y = 28 }
+			format = right
+		}
+	}
+
+	### POLAR BEAR EVENT OPTION ###
+	containerWindowType = {
+		name = "mtrspony_species_setup_option_polar_bear_entry"
+		position = { x=0 y=0 }
+		size = { width = 388 height = 30 }
+		moveable = no
+
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_event_button_452"
+			alwaystransparent = yes
+			position = { x=0 y=8 }
+			font = "cg_16b"
+			text = "OPTION_TEXT"
+		}
+
+		effectButtonType = {
+			name = "text_button"
+			quadTextureSprite = "GFX_event_button_452"
+			position = { x=0 y=8 }
+			font = "cg_16b"
+			text = "mtrspony_setup.10.l"
+			effect = "mtrspony_dummy_polar_bear"
+		}
+
+		effectButtonType = {
+			name = "minus_100"
+			position = { x = 0 y = 0 }
+			spriteType = "GFX_button_35_24"
+			buttonFont = "cg_16b"
+			buttonText = "mtrspony_setup.minus_100"
+			effect = "mtrspony_polar_bear_minus_100_effect"
+		}
+		effectButtonType = {
+			name = "minus_50"
+			position = { x = 35 y = 0 }
+			spriteType = "GFX_button_35_24"
+			buttonFont = "cg_16b"
+			buttonText = "mtrspony_setup.minus_50"
+			effect = "mtrspony_polar_bear_minus_50_effect"
+		}
+		effectButtonType = {
+			name = "minus_5"
+			position = { x = 70 y = 0 }
+			spriteType = "GFX_button_35_24"
+			buttonFont = "cg_16b"
+			buttonText = "mtrspony_setup.minus_5"
+			effect = "mtrspony_polar_bear_minus_5_effect"
+		}
+
+		effectButtonType = {
+			name = "plus_5"
+			position = { x = 347 y = 0 }
+			spriteType = "GFX_button_35_24"
+			buttonFont = "cg_16b"
+			buttonText = "mtrspony_setup.plus_5"
+			effect = "mtrspony_polar_bear_plus_5_effect"
+		}
+		effectButtonType = {
+			name = "plus_50"
+			position = { x = 382 y = 0 }
+			spriteType = "GFX_button_35_24"
+			buttonFont = "cg_16b"
+			buttonText = "mtrspony_setup.plus_50"
+			effect = "mtrspony_polar_bear_plus_50_effect"
+		}
+		effectButtonType = {
+			name = "plus_100"
+			position = { x = 417 y = 0 }
+			spriteType = "GFX_button_35_24"
+			buttonFont = "cg_16b"
+			buttonText = "mtrspony_setup.plus_100"
+			effect = "mtrspony_polar_bear_plus_100_effect"
+		}
+
+		OverlappingElementsBoxType = {
+			name = "trigger_icons"
+			position = { x = 0 y = 10 }
+			size = { x=65 y= 28 }
+		}
+
+		OverlappingElementsBoxType = {
+			name = "effect_icons"
+			position = { x = 370 y = 8 }
+			size = { x = 72 y = 28 }
+			format = right
+		}
+	}
+
+	### YETI EVENT OPTION ###
+	containerWindowType = {
+		name = "mtrspony_species_setup_option_yeti_entry"
+		position = { x=0 y=0 }
+		size = { width = 388 height = 30 }
+		moveable = no
+
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_event_button_452"
+			alwaystransparent = yes
+			position = { x=0 y=8 }
+			font = "cg_16b"
+			text = "OPTION_TEXT"
+		}
+
+		effectButtonType = {
+			name = "text_button"
+			quadTextureSprite = "GFX_event_button_452"
+			position = { x=0 y=8 }
+			font = "cg_16b"
+			text = "mtrspony_setup.10.m"
+			effect = "mtrspony_dummy_yeti"
+		}
+
+		effectButtonType = {
+			name = "minus_100"
+			position = { x = 0 y = 0 }
+			spriteType = "GFX_button_35_24"
+			buttonFont = "cg_16b"
+			buttonText = "mtrspony_setup.minus_100"
+			effect = "mtrspony_yeti_minus_100_effect"
+		}
+		effectButtonType = {
+			name = "minus_50"
+			position = { x = 35 y = 0 }
+			spriteType = "GFX_button_35_24"
+			buttonFont = "cg_16b"
+			buttonText = "mtrspony_setup.minus_50"
+			effect = "mtrspony_yeti_minus_50_effect"
+		}
+		effectButtonType = {
+			name = "minus_5"
+			position = { x = 70 y = 0 }
+			spriteType = "GFX_button_35_24"
+			buttonFont = "cg_16b"
+			buttonText = "mtrspony_setup.minus_5"
+			effect = "mtrspony_yeti_minus_5_effect"
+		}
+
+		effectButtonType = {
+			name = "plus_5"
+			position = { x = 347 y = 0 }
+			spriteType = "GFX_button_35_24"
+			buttonFont = "cg_16b"
+			buttonText = "mtrspony_setup.plus_5"
+			effect = "mtrspony_yeti_plus_5_effect"
+		}
+		effectButtonType = {
+			name = "plus_50"
+			position = { x = 382 y = 0 }
+			spriteType = "GFX_button_35_24"
+			buttonFont = "cg_16b"
+			buttonText = "mtrspony_setup.plus_50"
+			effect = "mtrspony_yeti_plus_50_effect"
+		}
+		effectButtonType = {
+			name = "plus_100"
+			position = { x = 417 y = 0 }
+			spriteType = "GFX_button_35_24"
+			buttonFont = "cg_16b"
+			buttonText = "mtrspony_setup.plus_100"
+			effect = "mtrspony_yeti_plus_100_effect"
+		}
+
+		OverlappingElementsBoxType = {
+			name = "trigger_icons"
+			position = { x = 0 y = 10 }
+			size = { x=65 y= 28 }
+		}
+
+		OverlappingElementsBoxType = {
+			name = "effect_icons"
+			position = { x = 370 y = 8 }
+			size = { x = 72 y = 28 }
+			format = right
+		}
+	}
+}

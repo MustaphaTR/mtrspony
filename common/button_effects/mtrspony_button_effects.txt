@@ -1,0 +1,1404 @@
+mtrspony_preset_primary_only_effect = {
+	effect = {
+		custom_tooltip = mtrspony_setup.primary_only_tt
+		hidden_effect = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				calculate_mtrspony_pop_count_primary_only = yes
+				calculate_starting_pops = yes
+			}
+		}
+	}
+}
+mtrspony_preset_hundred_each_effect = {
+	allow = {
+		custom_tooltip = {
+			fail_text = mtrspony_setup.hundred_each_fail_tt
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				count_owned_pop_amount = {
+					limit = { is_same_species = owner_main_species }
+					count > 999
+				}
+			}
+		}
+	}
+	effect = {
+		custom_tooltip = mtrspony_setup.hundred_each_tt
+		hidden_effect = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				calculate_mtrspony_pop_count_hundred_each = yes
+				calculate_starting_pops = yes
+			}
+		}
+	}
+}
+mtrspony_preset_equal_effect = {
+	effect = {
+		custom_tooltip = mtrspony_setup.equal_tt
+		hidden_effect = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				calculate_and_set_mtrspony_pop_count_equal = yes
+				calculate_starting_pops = yes
+			}
+		}
+	}
+}
+mtrspony_preset_eaw_effect = {
+	effect = {
+		custom_tooltip = mtrspony_setup.eaw_tt
+		hidden_effect = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				calculate_mtrspony_pop_count_default = yes
+				calculate_starting_pops = yes
+			}
+		}
+	}
+}
+mtrspony_preset_eaw_adjusted_effect = {
+	effect = {
+		custom_tooltip = mtrspony_setup.eaw_adjusted_tt
+		hidden_effect = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				calculate_mtrspony_pop_count_keep_majority = yes
+				calculate_starting_pops = yes
+			}
+		}
+	}
+}
+
+mtrspony_dummy_disabled = {
+	allow = {
+		hidden_trigger = { always = no }
+	}
+}
+mtrspony_dummy_starting_species = {
+	allow = {
+		custom_tooltip = {
+			fail_text = mtrspony_setup.10.a_tt
+			always = no
+		}
+	}
+}
+mtrspony_dummy_polar_bear = {
+	allow = {
+		custom_tooltip = {
+			fail_text = mtrspony_setup.10.l_tt
+			always = no
+		}
+	}
+}
+mtrspony_dummy_yeti = {
+	allow = {
+		custom_tooltip = {
+			fail_text = mtrspony_setup.10.m_tt
+			always = no
+		}
+	}
+}
+
+mtrspony_pony_plus_100_effect = {
+	allow = {
+		hidden_trigger = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				check_variable = { which = starting_species_pops value > 100 }
+			}
+		}
+	}
+	effect = {
+		hidden_effect = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				change_variable = { which = pony_pops value = 100 }
+				change_variable = { which = pops_to_remove value = 100 }
+				change_variable = { which = starting_species_pops value = -100 }
+			}
+		}
+	}
+}
+mtrspony_pony_plus_50_effect = {
+	allow = {
+		hidden_trigger = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				check_variable = { which = starting_species_pops value > 50 }
+			}
+		}
+	}
+	effect = {
+		hidden_effect = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				change_variable = { which = pony_pops value = 50 }
+				change_variable = { which = pops_to_remove value = 50 }
+				change_variable = { which = starting_species_pops value = -50 }
+			}
+		}
+	}
+}
+mtrspony_pony_plus_5_effect = {
+	allow = {
+		hidden_trigger = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				check_variable = { which = starting_species_pops value > 5 }
+			}
+		}
+	}
+	effect = {
+		hidden_effect = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				change_variable = { which = pony_pops value = 5 }
+				change_variable = { which = pops_to_remove value = 5 }
+				change_variable = { which = starting_species_pops value = -5 }
+			}
+		}
+	}
+}
+mtrspony_pony_minus_5_effect = {
+	allow = {
+		hidden_trigger = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				check_variable = { which = pony_pops value >= 5 }
+			}
+		}
+	}
+	effect = {
+		hidden_effect = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				change_variable = { which = pony_pops value = -5 }
+				change_variable = { which = pops_to_remove value = -5 }
+				change_variable = { which = starting_species_pops value = 5 }
+			}
+		}
+	}
+}
+mtrspony_pony_minus_50_effect = {
+	allow = {
+		hidden_trigger = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				check_variable = { which = pony_pops value >= 50 }
+			}
+		}
+	}
+	effect = {
+		hidden_effect = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				change_variable = { which = pony_pops value = -50 }
+				change_variable = { which = pops_to_remove value = -50 }
+				change_variable = { which = starting_species_pops value = 50 }
+			}
+		}
+	}
+}
+mtrspony_pony_minus_100_effect = {
+	allow = {
+		hidden_trigger = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				check_variable = { which = pony_pops value >= 100 }
+			}
+		}
+	}
+	effect = {
+		hidden_effect = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				change_variable = { which = pony_pops value = -100 }
+				change_variable = { which = pops_to_remove value = -100 }
+				change_variable = { which = starting_species_pops value = 100 }
+			}
+		}
+	}
+}
+
+mtrspony_griffon_plus_100_effect = {
+	allow = {
+		hidden_trigger = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				check_variable = { which = starting_species_pops value > 100 }
+			}
+		}
+	}
+	effect = {
+		hidden_effect = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				change_variable = { which = griffon_pops value = 100 }
+				change_variable = { which = pops_to_remove value = 100 }
+				change_variable = { which = starting_species_pops value = -100 }
+			}
+		}
+	}
+}
+mtrspony_griffon_plus_50_effect = {
+	allow = {
+		hidden_trigger = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				check_variable = { which = starting_species_pops value > 50 }
+			}
+		}
+	}
+	effect = {
+		hidden_effect = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				change_variable = { which = griffon_pops value = 50 }
+				change_variable = { which = pops_to_remove value = 50 }
+				change_variable = { which = starting_species_pops value = -50 }
+			}
+		}
+	}
+}
+mtrspony_griffon_plus_5_effect = {
+	allow = {
+			hidden_trigger = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				check_variable = { which = starting_species_pops value > 5 }
+			}
+		}
+	}
+	effect = {
+		hidden_effect = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				change_variable = { which = griffon_pops value = 5 }
+				change_variable = { which = pops_to_remove value = 5 }
+				change_variable = { which = starting_species_pops value = -5 }
+			}
+		}
+	}
+}
+mtrspony_griffon_minus_5_effect = {
+	allow = {
+		hidden_trigger = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				check_variable = { which = griffon_pops value >= 5 }
+			}
+		}
+	}
+	effect = {
+		hidden_effect = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				change_variable = { which = griffon_pops value = -5 }
+				change_variable = { which = pops_to_remove value = -5 }
+				change_variable = { which = starting_species_pops value = 5 }
+			}
+		}
+	}
+}
+mtrspony_griffon_minus_50_effect = {
+	allow = {
+		hidden_trigger = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				check_variable = { which = griffon_pops value >= 50 }
+			}
+		}
+	}
+	effect = {
+		hidden_effect = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				change_variable = { which = griffon_pops value = -50 }
+				change_variable = { which = pops_to_remove value = -50 }
+				change_variable = { which = starting_species_pops value = 50 }
+			}
+		}
+	}
+}
+mtrspony_griffon_minus_100_effect = {
+	allow = {
+		hidden_trigger = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				check_variable = { which = griffon_pops value >= 100 }
+			}
+		}
+	}
+	effect = {
+		hidden_effect = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				change_variable = { which = griffon_pops value = -100 }
+				change_variable = { which = pops_to_remove value = -100 }
+				change_variable = { which = starting_species_pops value = 100 }
+			}
+		}
+	}
+}
+
+mtrspony_zebra_plus_100_effect = {
+	allow = {
+		hidden_trigger = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				check_variable = { which = starting_species_pops value > 100 }
+			}
+		}
+	}
+	effect = {
+		hidden_effect = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				change_variable = { which = zebra_pops value = 100 }
+				change_variable = { which = pops_to_remove value = 100 }
+				change_variable = { which = starting_species_pops value = -100 }
+			}
+		}
+	}
+}
+mtrspony_zebra_plus_50_effect = {
+	allow = {
+		hidden_trigger = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				check_variable = { which = starting_species_pops value > 50 }
+			}
+		}
+	}
+	effect = {
+		hidden_effect = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				change_variable = { which = zebra_pops value = 50 }
+				change_variable = { which = pops_to_remove value = 50 }
+				change_variable = { which = starting_species_pops value = -50 }
+			}
+		}
+	}
+}
+mtrspony_zebra_plus_5_effect = {
+	allow = {
+		hidden_trigger = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				check_variable = { which = starting_species_pops value > 5 }
+			}
+		}
+	}
+	effect = {
+		hidden_effect = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				change_variable = { which = zebra_pops value = 5 }
+				change_variable = { which = pops_to_remove value = 5 }
+				change_variable = { which = starting_species_pops value = -5 }
+			}
+		}
+	}
+}
+mtrspony_zebra_minus_5_effect = {
+	allow = {
+		hidden_trigger = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				check_variable = { which = zebra_pops value >= 5 }
+			}
+		}
+	}
+	effect = {
+		hidden_effect = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				change_variable = { which = zebra_pops value = -5 }
+				change_variable = { which = pops_to_remove value = -5 }
+				change_variable = { which = starting_species_pops value = 5 }
+			}
+		}
+	}
+}
+mtrspony_zebra_minus_50_effect = {
+	allow = {
+		hidden_trigger = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				check_variable = { which = zebra_pops value >= 50 }
+			}
+		}
+	}
+	effect = {
+		hidden_effect = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				change_variable = { which = zebra_pops value = -50 }
+				change_variable = { which = pops_to_remove value = -50 }
+				change_variable = { which = starting_species_pops value = 50 }
+			}
+		}
+	}
+}
+mtrspony_zebra_minus_100_effect = {
+	allow = {
+		hidden_trigger = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				check_variable = { which = zebra_pops value >= 100 }
+			}
+		}
+	}
+	effect = {
+		hidden_effect = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				change_variable = { which = zebra_pops value = -100 }
+				change_variable = { which = pops_to_remove value = -100 }
+				change_variable = { which = starting_species_pops value = 100 }
+			}
+		}
+	}
+}
+
+mtrspony_deer_plus_100_effect = {
+	allow = {
+		hidden_trigger = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				check_variable = { which = starting_species_pops value > 100 }
+			}
+		}
+	}
+	effect = {
+		hidden_effect = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				change_variable = { which = deer_pops value = 100 }
+				change_variable = { which = pops_to_remove value = 100 }
+				change_variable = { which = starting_species_pops value = -100 }
+			}
+		}
+	}
+}
+mtrspony_deer_plus_50_effect = {
+	allow = {
+		hidden_trigger = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				check_variable = { which = starting_species_pops value > 50 }
+			}
+		}
+	}
+	effect = {
+		hidden_effect = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				change_variable = { which = deer_pops value = 50 }
+				change_variable = { which = pops_to_remove value = 50 }
+				change_variable = { which = starting_species_pops value = -50 }
+			}
+		}
+	}
+}
+mtrspony_deer_plus_5_effect = {
+	allow = {
+		hidden_trigger = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				check_variable = { which = starting_species_pops value > 5 }
+			}
+		}
+	}
+	effect = {
+		hidden_effect = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				change_variable = { which = deer_pops value = 5 }
+				change_variable = { which = pops_to_remove value = 5 }
+				change_variable = { which = starting_species_pops value = -5 }
+			}
+		}
+	}
+}
+mtrspony_deer_minus_5_effect = {
+	allow = {
+		hidden_trigger = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				check_variable = { which = deer_pops value >= 5 }
+			}
+		}
+	}
+	effect = {
+		hidden_effect = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				change_variable = { which = deer_pops value = -5 }
+				change_variable = { which = pops_to_remove value = -5 }
+				change_variable = { which = starting_species_pops value = 5 }
+			}
+		}
+	}
+}
+mtrspony_deer_minus_50_effect = {
+	allow = {
+		hidden_trigger = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				check_variable = { which = deer_pops value >= 50 }
+			}
+		}
+	}
+	effect = {
+		hidden_effect = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				change_variable = { which = deer_pops value = -50 }
+				change_variable = { which = pops_to_remove value = -50 }
+				change_variable = { which = starting_species_pops value = 50 }
+			}
+		}
+	}
+}
+mtrspony_deer_minus_100_effect = {
+	allow = {
+		hidden_trigger = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				check_variable = { which = deer_pops value >= 100 }
+			}
+		}
+	}
+	effect = {
+		hidden_effect = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				change_variable = { which = deer_pops value = -100 }
+				change_variable = { which = pops_to_remove value = -100 }
+				change_variable = { which = starting_species_pops value = 100 }
+			}
+		}
+	}
+}
+
+mtrspony_changeling_plus_100_effect = {
+	allow = {
+		hidden_trigger = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				check_variable = { which = starting_species_pops value > 100 }
+			}
+		}
+	}
+	effect = {
+		hidden_effect = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				change_variable = { which = changeling_pops value = 100 }
+				change_variable = { which = pops_to_remove value = 100 }
+				change_variable = { which = starting_species_pops value = -100 }
+			}
+		}
+	}
+}
+mtrspony_changeling_plus_50_effect = {
+	allow = {
+		hidden_trigger = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				check_variable = { which = starting_species_pops value > 50 }
+			}
+		}
+	}
+	effect = {
+		hidden_effect = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				change_variable = { which = changeling_pops value = 50 }
+				change_variable = { which = pops_to_remove value = 50 }
+				change_variable = { which = starting_species_pops value = -50 }
+			}
+		}
+	}
+}
+mtrspony_changeling_plus_5_effect = {
+	allow = {
+		hidden_trigger = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				check_variable = { which = starting_species_pops value > 5 }
+			}
+		}
+	}
+	effect = {
+		hidden_effect = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				change_variable = { which = changeling_pops value = 5 }
+				change_variable = { which = pops_to_remove value = 5 }
+				change_variable = { which = starting_species_pops value = -5 }
+			}
+		}
+	}
+}
+mtrspony_changeling_minus_5_effect = {
+	allow = {
+		hidden_trigger = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				check_variable = { which = changeling_pops value >= 5 }
+			}
+		}
+	}
+	effect = {
+		hidden_effect = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				change_variable = { which = changeling_pops value = -5 }
+				change_variable = { which = pops_to_remove value = -5 }
+				change_variable = { which = starting_species_pops value = 5 }
+			}
+		}
+	}
+}
+mtrspony_changeling_minus_50_effect = {
+	allow = {
+		hidden_trigger = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				check_variable = { which = changeling_pops value >= 50 }
+			}
+		}
+	}
+	effect = {
+		hidden_effect = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				change_variable = { which = changeling_pops value = -50 }
+				change_variable = { which = pops_to_remove value = -50 }
+				change_variable = { which = starting_species_pops value = 50 }
+			}
+		}
+	}
+}
+mtrspony_changeling_minus_100_effect = {
+	allow = {
+		hidden_trigger = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				check_variable = { which = changeling_pops value >= 100 }
+			}
+		}
+	}
+	effect = {
+		hidden_effect = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				change_variable = { which = changeling_pops value = -100 }
+				change_variable = { which = pops_to_remove value = -100 }
+				change_variable = { which = starting_species_pops value = 100 }
+			}
+		}
+	}
+}
+
+mtrspony_hippogriff_plus_100_effect = {
+	allow = {
+		hidden_trigger = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				check_variable = { which = starting_species_pops value > 100 }
+			}
+		}
+	}
+	effect = {
+		hidden_effect = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				change_variable = { which = hippogriff_pops value = 100 }
+				change_variable = { which = pops_to_remove value = 100 }
+				change_variable = { which = starting_species_pops value = -100 }
+			}
+		}
+	}
+}
+mtrspony_hippogriff_plus_50_effect = {
+	allow = {
+		hidden_trigger = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				check_variable = { which = starting_species_pops value > 50 }
+			}
+		}
+	}
+	effect = {
+		hidden_effect = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				change_variable = { which = hippogriff_pops value = 50 }
+				change_variable = { which = pops_to_remove value = 50 }
+				change_variable = { which = starting_species_pops value = -50 }
+			}
+		}
+	}
+}
+mtrspony_hippogriff_plus_5_effect = {
+	allow = {
+		hidden_trigger = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				check_variable = { which = starting_species_pops value > 5 }
+			}
+		}
+	}
+	effect = {
+		hidden_effect = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				change_variable = { which = hippogriff_pops value = 5 }
+				change_variable = { which = pops_to_remove value = 5 }
+				change_variable = { which = starting_species_pops value = -5 }
+			}
+		}
+	}
+}
+mtrspony_hippogriff_minus_5_effect = {
+	allow = {
+		hidden_trigger = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				check_variable = { which = hippogriff_pops value >= 5 }
+			}
+		}
+	}
+	effect = {
+		hidden_effect = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				change_variable = { which = hippogriff_pops value = -5 }
+				change_variable = { which = pops_to_remove value = -5 }
+				change_variable = { which = starting_species_pops value = 5 }
+			}
+		}
+	}
+}
+mtrspony_hippogriff_minus_50_effect = {
+	allow = {
+		hidden_trigger = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				check_variable = { which = hippogriff_pops value >= 50 }
+			}
+		}
+	}
+	effect = {
+		hidden_effect = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				change_variable = { which = hippogriff_pops value = -50 }
+				change_variable = { which = pops_to_remove value = -50 }
+				change_variable = { which = starting_species_pops value = 50 }
+			}
+		}
+	}
+}
+mtrspony_hippogriff_minus_100_effect = {
+	allow = {
+		hidden_trigger = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				check_variable = { which = hippogriff_pops value >= 100 }
+			}
+		}
+	}
+	effect = {
+		hidden_effect = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				change_variable = { which = hippogriff_pops value = -100 }
+				change_variable = { which = pops_to_remove value = -100 }
+				change_variable = { which = starting_species_pops value = 100 }
+			}
+		}
+	}
+}
+
+mtrspony_kirin_plus_100_effect = {
+	allow = {
+		hidden_trigger = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				check_variable = { which = starting_species_pops value > 100 }
+			}
+		}
+	}
+	effect = {
+		hidden_effect = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				change_variable = { which = kirin_pops value = 100 }
+				change_variable = { which = pops_to_remove value = 100 }
+				change_variable = { which = starting_species_pops value = -100 }
+			}
+		}
+	}
+}
+mtrspony_kirin_plus_50_effect = {
+	allow = {
+		hidden_trigger = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				check_variable = { which = starting_species_pops value > 50 }
+			}
+		}
+	}
+	effect = {
+		hidden_effect = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				change_variable = { which = kirin_pops value = 50 }
+				change_variable = { which = pops_to_remove value = 50 }
+				change_variable = { which = starting_species_pops value = -50 }
+			}
+		}
+	}
+}
+mtrspony_kirin_plus_5_effect = {
+	allow = {
+		hidden_trigger = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				check_variable = { which = starting_species_pops value > 5 }
+			}
+		}
+	}
+	effect = {
+		hidden_effect = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				change_variable = { which = kirin_pops value = 5 }
+				change_variable = { which = pops_to_remove value = 5 }
+				change_variable = { which = starting_species_pops value = -5 }
+			}
+		}
+	}
+}
+mtrspony_kirin_minus_5_effect = {
+	allow = {
+		hidden_trigger = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				check_variable = { which = kirin_pops value >= 5 }
+			}
+		}
+	}
+	effect = {
+		hidden_effect = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				change_variable = { which = kirin_pops value = -5 }
+				change_variable = { which = pops_to_remove value = -5 }
+				change_variable = { which = starting_species_pops value = 5 }
+			}
+		}
+	}
+}
+mtrspony_kirin_minus_50_effect = {
+	allow = {
+		hidden_trigger = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				check_variable = { which = kirin_pops value >= 50 }
+			}
+		}
+	}
+	effect = {
+		hidden_effect = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				change_variable = { which = kirin_pops value = -50 }
+				change_variable = { which = pops_to_remove value = -50 }
+				change_variable = { which = starting_species_pops value = 50 }
+			}
+		}
+	}
+}
+mtrspony_kirin_minus_100_effect = {
+	allow = {
+		hidden_trigger = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				check_variable = { which = kirin_pops value >= 100 }
+			}
+		}
+	}
+	effect = {
+		hidden_effect = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				change_variable = { which = kirin_pops value = -100 }
+				change_variable = { which = pops_to_remove value = -100 }
+				change_variable = { which = starting_species_pops value = 100 }
+			}
+		}
+	}
+}
+
+mtrspony_yak_plus_100_effect = {
+	allow = {
+		hidden_trigger = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				check_variable = { which = starting_species_pops value > 100 }
+			}
+		}
+	}
+	effect = {
+		hidden_effect = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				change_variable = { which = yak_pops value = 100 }
+				change_variable = { which = pops_to_remove value = 100 }
+				change_variable = { which = starting_species_pops value = -100 }
+			}
+		}
+	}
+}
+mtrspony_yak_plus_50_effect = {
+	allow = {
+		hidden_trigger = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				check_variable = { which = starting_species_pops value > 50 }
+			}
+		}
+	}
+	effect = {
+		hidden_effect = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				change_variable = { which = yak_pops value = 50 }
+				change_variable = { which = pops_to_remove value = 50 }
+				change_variable = { which = starting_species_pops value = -50 }
+			}
+		}
+	}
+}
+mtrspony_yak_plus_5_effect = {
+	allow = {
+		hidden_trigger = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				check_variable = { which = starting_species_pops value > 5 }
+			}
+		}
+	}
+	effect = {
+		hidden_effect = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				change_variable = { which = yak_pops value = 5 }
+				change_variable = { which = pops_to_remove value = 5 }
+				change_variable = { which = starting_species_pops value = -5 }
+			}
+		}
+	}
+}
+mtrspony_yak_minus_5_effect = {
+	allow = {
+		hidden_trigger = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				check_variable = { which = yak_pops value >= 5 }
+			}
+		}
+	}
+	effect = {
+		hidden_effect = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				change_variable = { which = yak_pops value = -5 }
+				change_variable = { which = pops_to_remove value = -5 }
+				change_variable = { which = starting_species_pops value = 5 }
+			}
+		}
+	}
+}
+mtrspony_yak_minus_50_effect = {
+	allow = {
+		hidden_trigger = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				check_variable = { which = yak_pops value >= 50 }
+			}
+		}
+	}
+	effect = {
+		hidden_effect = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				change_variable = { which = yak_pops value = -50 }
+				change_variable = { which = pops_to_remove value = -50 }
+				change_variable = { which = starting_species_pops value = 50 }
+			}
+		}
+	}
+}
+mtrspony_yak_minus_100_effect = {
+	allow = {
+		hidden_trigger = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				check_variable = { which = yak_pops value >= 100 }
+			}
+		}
+	}
+	effect = {
+		hidden_effect = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				change_variable = { which = yak_pops value = -100 }
+				change_variable = { which = pops_to_remove value = -100 }
+				change_variable = { which = starting_species_pops value = 100 }
+			}
+		}
+	}
+}
+
+mtrspony_diamond_dog_plus_100_effect = {
+	allow = {
+		hidden_trigger = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				check_variable = { which = starting_species_pops value > 100 }
+			}
+		}
+	}
+	effect = {
+		hidden_effect = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				change_variable = { which = diamond_dog_pops value = 100 }
+				change_variable = { which = pops_to_remove value = 100 }
+				change_variable = { which = starting_species_pops value = -100 }
+			}
+		}
+	}
+}
+mtrspony_diamond_dog_plus_50_effect = {
+	allow = {
+		hidden_trigger = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				check_variable = { which = starting_species_pops value > 50 }
+			}
+		}
+	}
+	effect = {
+		hidden_effect = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				change_variable = { which = diamond_dog_pops value = 50 }
+				change_variable = { which = pops_to_remove value = 50 }
+				change_variable = { which = starting_species_pops value = -50 }
+			}
+		}
+	}
+}
+mtrspony_diamond_dog_plus_5_effect = {
+	allow = {
+		hidden_trigger = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				check_variable = { which = starting_species_pops value > 5 }
+			}
+		}
+	}
+	effect = {
+		hidden_effect = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				change_variable = { which = diamond_dog_pops value = 5 }
+				change_variable = { which = pops_to_remove value = 5 }
+				change_variable = { which = starting_species_pops value = -5 }
+			}
+		}
+	}
+}
+mtrspony_diamond_dog_minus_5_effect = {
+	allow = {
+		hidden_trigger = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				check_variable = { which = diamond_dog_pops value >= 5 }
+			}
+		}
+	}
+	effect = {
+		hidden_effect = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				change_variable = { which = diamond_dog_pops value = -5 }
+				change_variable = { which = pops_to_remove value = -5 }
+				change_variable = { which = starting_species_pops value = 5 }
+			}
+		}
+	}
+}
+mtrspony_diamond_dog_minus_50_effect = {
+	allow = {
+		hidden_trigger = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				check_variable = { which = diamond_dog_pops value >= 50 }
+			}
+		}
+	}
+	effect = {
+		hidden_effect = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				change_variable = { which = diamond_dog_pops value = -50 }
+				change_variable = { which = pops_to_remove value = -50 }
+				change_variable = { which = starting_species_pops value = 50 }
+			}
+		}
+	}
+}
+mtrspony_diamond_dog_minus_100_effect = {
+	allow = {
+		hidden_trigger = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				check_variable = { which = diamond_dog_pops value >= 100 }
+			}
+		}
+	}
+	effect = {
+		hidden_effect = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				change_variable = { which = diamond_dog_pops value = -100 }
+				change_variable = { which = pops_to_remove value = -100 }
+				change_variable = { which = starting_species_pops value = 100 }
+			}
+		}
+	}
+}
+
+mtrspony_dragon_plus_100_effect = {
+	allow = {
+		hidden_trigger = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				check_variable = { which = starting_species_pops value > 100 }
+			}
+		}
+	}
+	effect = {
+		hidden_effect = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				change_variable = { which = dragon_pops value = 100 }
+				change_variable = { which = pops_to_remove value = 100 }
+				change_variable = { which = starting_species_pops value = -100 }
+			}
+		}
+	}
+}
+mtrspony_dragon_plus_50_effect = {
+	allow = {
+		hidden_trigger = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				check_variable = { which = starting_species_pops value > 50 }
+			}
+		}
+	}
+	effect = {
+		hidden_effect = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				change_variable = { which = dragon_pops value = 50 }
+				change_variable = { which = pops_to_remove value = 50 }
+				change_variable = { which = starting_species_pops value = -50 }
+			}
+		}
+	}
+}
+mtrspony_dragon_plus_5_effect = {
+	allow = {
+		hidden_trigger = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				check_variable = { which = starting_species_pops value > 5 }
+			}
+		}
+	}
+	effect = {
+		hidden_effect = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				change_variable = { which = dragon_pops value = 5 }
+				change_variable = { which = pops_to_remove value = 5 }
+				change_variable = { which = starting_species_pops value = -5 }
+			}
+		}
+	}
+}
+mtrspony_dragon_minus_5_effect = {
+	allow = {
+		hidden_trigger = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				check_variable = { which = dragon_pops value >= 5 }
+			}
+		}
+	}
+	effect = {
+		hidden_effect = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				change_variable = { which = dragon_pops value = -5 }
+				change_variable = { which = pops_to_remove value = -5 }
+				change_variable = { which = starting_species_pops value = 5 }
+			}
+		}
+	}
+}
+mtrspony_dragon_minus_50_effect = {
+	allow = {
+		hidden_trigger = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				check_variable = { which = dragon_pops value >= 50 }
+			}
+		}
+	}
+	effect = {
+		hidden_effect = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				change_variable = { which = dragon_pops value = -50 }
+				change_variable = { which = pops_to_remove value = -50 }
+				change_variable = { which = starting_species_pops value = 50 }
+			}
+		}
+	}
+}
+mtrspony_dragon_minus_100_effect = {
+	allow = {
+		hidden_trigger = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				check_variable = { which = dragon_pops value >= 100 }
+			}
+		}
+	}
+	effect = {
+		hidden_effect = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				change_variable = { which = dragon_pops value = -100 }
+				change_variable = { which = pops_to_remove value = -100 }
+				change_variable = { which = starting_species_pops value = 100 }
+			}
+		}
+	}
+}
+
+mtrspony_polar_bear_plus_100_effect = {
+	allow = {
+		hidden_trigger = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				check_variable = { which = starting_species_pops value > 100 }
+			}
+		}
+	}
+	effect = {
+		hidden_effect = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				change_variable = { which = polar_bear_pops value = 100 }
+				change_variable = { which = pops_to_remove value = 100 }
+				change_variable = { which = starting_species_pops value = -100 }
+			}
+		}
+	}
+}
+mtrspony_polar_bear_plus_50_effect = {
+	allow = {
+		hidden_trigger = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				check_variable = { which = starting_species_pops value > 50 }
+			}
+		}
+	}
+	effect = {
+		hidden_effect = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				change_variable = { which = polar_bear_pops value = 50 }
+				change_variable = { which = pops_to_remove value = 50 }
+				change_variable = { which = starting_species_pops value = -50 }
+			}
+		}
+	}
+}
+mtrspony_polar_bear_plus_5_effect = {
+	allow = {
+		hidden_trigger = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				check_variable = { which = starting_species_pops value > 5 }
+			}
+		}
+	}
+	effect = {
+		hidden_effect = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				change_variable = { which = polar_bear_pops value = 5 }
+				change_variable = { which = pops_to_remove value = 5 }
+				change_variable = { which = starting_species_pops value = -5 }
+			}
+		}
+	}
+}
+mtrspony_polar_bear_minus_5_effect = {
+	allow = {
+		hidden_trigger = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				check_variable = { which = polar_bear_pops value >= 5 }
+			}
+		}
+	}
+	effect = {
+		hidden_effect = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				change_variable = { which = polar_bear_pops value = -5 }
+				change_variable = { which = pops_to_remove value = -5 }
+				change_variable = { which = starting_species_pops value = 5 }
+			}
+		}
+	}
+}
+mtrspony_polar_bear_minus_50_effect = {
+	allow = {
+		hidden_trigger = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				check_variable = { which = polar_bear_pops value >= 50 }
+			}
+		}
+	}
+	effect = {
+		hidden_effect = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				change_variable = { which = polar_bear_pops value = -50 }
+				change_variable = { which = pops_to_remove value = -50 }
+				change_variable = { which = starting_species_pops value = 50 }
+			}
+		}
+	}
+}
+mtrspony_polar_bear_minus_100_effect = {
+	allow = {
+		hidden_trigger = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				check_variable = { which = polar_bear_pops value >= 100 }
+			}
+		}
+	}
+	effect = {
+		hidden_effect = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				change_variable = { which = polar_bear_pops value = -100 }
+				change_variable = { which = pops_to_remove value = -100 }
+				change_variable = { which = starting_species_pops value = 100 }
+			}
+		}
+	}
+}
+
+mtrspony_yeti_plus_100_effect = {
+	allow = {
+		hidden_trigger = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				check_variable = { which = starting_species_pops value > 100 }
+			}
+		}
+	}
+	effect = {
+		hidden_effect = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				change_variable = { which = yeti_pops value = 100 }
+				change_variable = { which = pops_to_remove value = 100 }
+				change_variable = { which = starting_species_pops value = -100 }
+			}
+		}
+	}
+}
+mtrspony_yeti_plus_50_effect = {
+	allow = {
+		hidden_trigger = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				check_variable = { which = starting_species_pops value > 50 }
+			}
+		}
+	}
+	effect = {
+		hidden_effect = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				change_variable = { which = yeti_pops value = 50 }
+				change_variable = { which = pops_to_remove value = 50 }
+				change_variable = { which = starting_species_pops value = -50 }
+			}
+		}
+	}
+}
+mtrspony_yeti_plus_5_effect = {
+	allow = {
+		hidden_trigger = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				check_variable = { which = starting_species_pops value > 5 }
+			}
+		}
+	}
+	effect = {
+		hidden_effect = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				change_variable = { which = yeti_pops value = 5 }
+				change_variable = { which = pops_to_remove value = 5 }
+				change_variable = { which = starting_species_pops value = -5 }
+			}
+		}
+	}
+}
+mtrspony_yeti_minus_5_effect = {
+	allow = {
+		hidden_trigger = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				check_variable = { which = yeti_pops value >= 5 }
+			}
+		}
+	}
+	effect = {
+		hidden_effect = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				change_variable = { which = yeti_pops value = -5 }
+				change_variable = { which = pops_to_remove value = -5 }
+				change_variable = { which = starting_species_pops value = 5 }
+			}
+		}
+	}
+}
+mtrspony_yeti_minus_50_effect = {
+	allow = {
+		hidden_trigger = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				check_variable = { which = yeti_pops value >= 50 }
+			}
+		}
+	}
+	effect = {
+		hidden_effect = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				change_variable = { which = yeti_pops value = -50 }
+				change_variable = { which = pops_to_remove value = -50 }
+				change_variable = { which = starting_species_pops value = 50 }
+			}
+		}
+	}
+}
+mtrspony_yeti_minus_100_effect = {
+	allow = {
+		hidden_trigger = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				check_variable = { which = yeti_pops value >= 100 }
+			}
+		}
+	}
+	effect = {
+		hidden_effect = {
+			event_target:mtrspony_species_setup_current_planet@FROM = {
+				change_variable = { which = yeti_pops value = -100 }
+				change_variable = { which = pops_to_remove value = -100 }
+				change_variable = { which = starting_species_pops value = 100 }
+			}
+		}
+	}
+}

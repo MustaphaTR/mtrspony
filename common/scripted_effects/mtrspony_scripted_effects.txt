@@ -29,6 +29,12 @@ set_mtrspony_setup_variables = {
 	set_variable = { which = dragon_pops value = 0 }
 	set_variable = { which = dragon_pops_prev value = 0 }
 	set_variable = { which = dragon_pops_div_5 value = 0 }
+	set_variable = { which = polar_bear_pops value = 0 }
+	set_variable = { which = polar_bear_pops_prev value = 0 }
+	set_variable = { which = polar_bear_pops_div_5 value = 0 }
+	set_variable = { which = yeti_pops value = 0 }
+	set_variable = { which = yeti_pops_prev value = 0 }
+	set_variable = { which = yeti_pops_div_5 value = 0 }
 	set_variable = { which = pops_to_remove value = 0 }
 	set_variable = { which = pops_to_remove_div_5 value = 0 }
 	set_variable = { which = equal_pops value = 0 }
@@ -179,6 +185,50 @@ save_current_mtrspony_species = {
 	}
 }
 
+calculate_mtrspony_pop_count_primary_only = {
+	set_variable = { which = pony_pops value = 0 }
+	set_variable = { which = griffon_pops value = 0 }
+	set_variable = { which = zebra_pops value = 0 }
+	set_variable = { which = deer_pops value = 0 }
+	set_variable = { which = changeling_pops value = 0 }
+	set_variable = { which = hippogriff_pops value = 0 }
+	set_variable = { which = kirin_pops value = 0 }
+	set_variable = { which = yak_pops value = 0 }
+	set_variable = { which = diamond_dog_pops value = 0 }
+	set_variable = { which = dragon_pops value = 0 }
+	set_variable = { which = polar_bear_pops value = 0 }
+	set_variable = { which = yeti_pops value = 0 }
+	set_variable = { which = pops_to_remove value = 0 }
+}
+
+calculate_mtrspony_pop_count_hundred_each = {
+	if = {
+		limit = {
+			count_owned_pop_amount = {
+				limit = { is_same_species = owner_main_species }
+				count > 999
+			}
+		}
+
+		set_variable = { which = pony_pops value = 100 }
+		set_variable = { which = griffon_pops value = 100 }
+		set_variable = { which = zebra_pops value = 100 }
+		set_variable = { which = deer_pops value = 100 }
+		set_variable = { which = changeling_pops value = 100 }
+		set_variable = { which = hippogriff_pops value = 100 }
+		set_variable = { which = kirin_pops value = 100 }
+		set_variable = { which = yak_pops value = 100 }
+		set_variable = { which = diamond_dog_pops value = 100 }
+		set_variable = { which = dragon_pops value = 100 }
+		set_variable = { which = polar_bear_pops value = 0 }
+		set_variable = { which = yeti_pops value = 0 }
+		set_variable = { which = pops_to_remove value = 900 }
+	}
+	else = {
+		calculate_and_set_mtrspony_pop_count_equal = yes
+	}
+}
+
 calculate_mtrspony_pop_count_equal = {
 	export_trigger_value_to_variable = {
 		trigger = count_owned_pop_amount
@@ -189,6 +239,9 @@ calculate_mtrspony_pop_count_equal = {
 	}
 	divide_variable = { which = equal_pops value = 10 }
 	round_variable_to_closest = { which = equal_pops value = 5 }
+}
+calculate_and_set_mtrspony_pop_count_equal = {
+	calculate_mtrspony_pop_count_equal = yes
 
 	set_variable = { which = pony_pops value = equal_pops }
 	set_variable = { which = griffon_pops value = equal_pops }
@@ -198,13 +251,17 @@ calculate_mtrspony_pop_count_equal = {
 	set_variable = { which = hippogriff_pops value = equal_pops }
 	set_variable = { which = kirin_pops value = equal_pops }
 	set_variable = { which = yak_pops value = equal_pops }
-	set_variable = { which = diamond_dog value = equal_pops }
+	set_variable = { which = diamond_dog_pops value = equal_pops }
 	set_variable = { which = dragon_pops value = equal_pops }
+	set_variable = { which = polar_bear_pops value = 0 }
+	set_variable = { which = yeti_pops value = 0 }
 
 	calculate_pops_to_remove = yes
 }
 
 calculate_mtrspony_pop_count_default = {
+	set_variable = { which = polar_bear_pops value = 0 }
+	set_variable = { which = yeti_pops value = 0 }
 	if = {
 		limit = {
 			count_owned_pop_amount = {
@@ -807,26 +864,126 @@ calculate_pops_to_remove = {
 	}
 }
 
+calculate_starting_pops = {
+	export_trigger_value_to_variable = {
+		trigger = count_owned_pop_amount
+		parameters = {
+			limit = { is_same_species = owner_main_species }
+		}
+		variable = starting_species_pops
+	}
+	# calculate_pops_to_remove should be already called before for the usecase of it, so don't call it again..
+	subtract_variable = { which = starting_species_pops value = pops_to_remove }
+}
+
+apply_starting_species_pops_back_on_correct_species = {
+	if = {
+		limit = { owner = { has_mtrspony_pony_portrait = yes } }
+
+		set_variable = { which = pony_pops value = starting_species_pops }
+	}
+	else_if = {
+		limit = { owner = { species_portrait = mtrspony_griffon } }
+
+		set_variable = { which = griffon_pops value = starting_species_pops }
+	}
+	else_if = {
+		limit = { owner = { species_portrait = mtrspony_zebra } }
+
+		set_variable = { which = zebra_pops value = starting_species_pops }
+	}
+	else_if = {
+		limit = { owner = { species_portrait = mtrspony_deer } }
+
+		set_variable = { which = deer_pops value = starting_species_pops }
+	}
+	else_if = {
+		limit = { owner = { species_portrait = mtrspony_changeling } }
+
+		set_variable = { which = changeling_pops value = starting_species_pops }
+	}
+	else_if = {
+		limit = { owner = { species_portrait = mtrspony_hippogriff } }
+
+		set_variable = { which = hippogriff_pops value = starting_species_pops }
+	}
+	else_if = {
+		limit = { owner = { species_portrait = mtrspony_kirin } }
+
+		set_variable = { which = kirin_pops value = starting_species_pops }
+	}
+	else_if = {
+		limit = { owner = { species_portrait = mtrspony_yak } }
+
+		set_variable = { which = yak_pops value = starting_species_pops }
+	}
+	else_if = {
+		limit = { owner = { species_portrait = mtrspony_diamond_dog } }
+
+		set_variable = { which = diamond_dog_pops value = starting_species_pops }
+	}
+	else_if = {
+		limit = { owner = { species_portrait = mtrspony_dragon } }
+
+		set_variable = { which = dragon_pops value = starting_species_pops }
+	}
+}
+
 create_other_mtrspony_species = {
 	if = {
 		limit = { NOT = { has_global_flag = pony_species_created } }
 
-		create_pony_species = yes
+		create_mtrspony_species = {
+			SPECIES = pony
+			CLASS = MAM
+			TRAITS = "{
+				trait = trait_organic
+				trait = trait_talented
+				trait = trait_cutie_marks
+				trait = trait_sedentary
+			}"
+		}
 	}
 	if = {
 		limit = { NOT = { has_global_flag = griffon_species_created } }
 
-		create_griffon_species = yes
+		create_mtrspony_species = {
+			SPECIES = griffon
+			CLASS = AVI
+			TRAITS = "{
+				trait = trait_organic
+				trait = trait_thrifty
+				trait = trait_resilient
+				trait = trait_quarrelsome
+			}"
+		}
 	}
 	if = {
 		limit = { NOT = { has_global_flag = zebra_species_created } }
 
-		create_zebra_species = yes
+		create_mtrspony_species = {
+			SPECIES = zebra
+			CLASS = MAM
+			TRAITS = "{
+				trait = trait_organic
+				trait = trait_conservational
+				trait = trait_natural_physicists
+			}"
+		}
 	}
 	if = {
 		limit = { NOT = { has_global_flag = deer_species_created } }
 
-		create_deer_species = yes
+		create_mtrspony_species = {
+			SPECIES = deer
+			CLASS = MAM
+			TRAITS = "{
+				trait = trait_organic
+				trait = trait_adaptive
+				trait = trait_natural_sociologists
+				trait = trait_fleeting
+			}"
+		}
 	}
 	if = {
 		limit = { NOT = { has_global_flag = changeling_species_created } }
@@ -836,27 +993,104 @@ create_other_mtrspony_species = {
 	if = {
 		limit = { NOT = { has_global_flag = hippogriff_species_created } }
 
-		create_hippogriff_species = yes
+		create_mtrspony_species = {
+			SPECIES = hippogriff
+			CLASS = AVI
+			TRAITS = "{
+				trait = trait_organic
+				trait = trait_nomadic
+				trait = trait_adaptive
+				trait = trait_deviants
+			}"
+		}
 	}
 	if = {
 		limit = { NOT = { has_global_flag = kirin_species_created } }
 
-		create_kirin_species = yes
+		create_mtrspony_species = {
+			SPECIES = kirin
+			CLASS = MAM
+			TRAITS = "{
+				trait = trait_organic
+				trait = trait_agrarian
+				trait = trait_natural_engineers
+				trait = trait_wasteful
+			}"
+		}
 	}
 	if = {
 		limit = { NOT = { has_global_flag = yak_species_created } }
 
-		create_yak_species = yes
+		create_mtrspony_species = {
+			SPECIES = yak
+			CLASS = MAM
+			TRAITS = "{
+				trait = trait_organic
+				trait = trait_traditional
+				trait = trait_strong
+				trait = trait_nomadic
+				trait = trait_slow_learners
+			}"
+		}
 	}
 	if = {
 		limit = { NOT = { has_global_flag = diamond_dog_species_created } }
 
-		create_diamond_dog_species = yes
+		create_mtrspony_species = {
+			SPECIES = diamond_dog
+			CLASS = MAM
+			TRAITS = "{
+				trait = trait_organic
+				trait = trait_industrious
+				trait = trait_resilient
+				trait = trait_decadent
+			}"
+		}
 	}
 	if = {
 		limit = { NOT = { has_global_flag = dragon_species_created } }
 
-		create_dragon_species = yes
+		create_mtrspony_species = {
+			SPECIES = dragon
+			CLASS = REP
+			TRAITS = "{
+				trait = trait_organic
+				trait = trait_strong
+				trait = trait_venerable
+				trait = trait_slow_breeders
+				trait = trait_solitary
+			}"
+		}
+	}
+	if = {
+		limit = { NOT = { has_global_flag = create_polar_bear_species } }
+
+		create_mtrspony_species = {
+			SPECIES = polar_bear
+			CLASS = MAM
+			TRAITS = "{
+				trait = trait_organic
+				trait = trait_ingenious
+				trait = trait_strong
+				trait = trait_resilient
+				trait = trait_nonadaptive
+			}"
+		}
+	}
+	if = {
+		limit = { NOT = { has_global_flag = create_yeti_species } }
+
+		create_mtrspony_species = {
+			SPECIES = yeti
+			CLASS = HUM
+			TRAITS = "{
+				trait = trait_organic
+				trait = trait_ingenious
+				trait = trait_natural_physicists
+				trait = trait_enduring
+				trait = trait_repugnant
+			}"
+		}
 	}
 }
 spawn_other_mtrspony_species = {
@@ -865,54 +1099,100 @@ spawn_other_mtrspony_species = {
 	[[!IGNORE_PC] setup_extra_traits_to_mtrspony_species = yes ]
 
 	if = {
-		limit = { owner = { has_mtrspony_pony_portrait = no } }
+		limit = {
+			owner = { has_mtrspony_pony_portrait = no }
+			check_variable = { which = pony_pops value > 0 }
+		}
 
 		spawn_mtrspony_pops = { COUNTRY = owner SPECIES = pony }
 	}
 	if = {
-		limit = { owner = { NOT = { species_portrait = mtrspony_griffon } } }
+		limit = {
+			owner = { NOT = { species_portrait = mtrspony_griffon } }
+			check_variable = { which = griffon_pops value > 0 }
+		}
 
 		spawn_mtrspony_pops = { COUNTRY = owner SPECIES = griffon }
 	}
 	if = {
-		limit = { owner = { NOT = { species_portrait = mtrspony_zebra } } }
+		limit = {
+			owner = { NOT = { species_portrait = mtrspony_zebra } }
+			check_variable = { which = zebra_pops value > 0 }
+		}
 
 		spawn_mtrspony_pops = { COUNTRY = owner SPECIES = zebra }
 	}
 	if = {
-		limit = { owner = { NOT = { species_portrait = mtrspony_deer } } }
+		limit = {
+			owner = { NOT = { species_portrait = mtrspony_deer } }
+			check_variable = { which = deer_pops value > 0 }
+		}
 
 		spawn_mtrspony_pops = { COUNTRY = owner SPECIES = deer }
 	}
 	if = {
-		limit = { owner = { NOT = { species_portrait = mtrspony_changeling } } }
+		limit = {
+			owner = { NOT = { species_portrait = mtrspony_changeling } }
+			check_variable = { which = changeling_pops value > 0 }
+		}
 
 		spawn_mtrspony_pops = { COUNTRY = owner SPECIES = changeling }
 	}
 	if = {
-		limit = { owner = { NOT = { species_portrait = mtrspony_hippogriff } } }
+		limit = {
+			owner = { NOT = { species_portrait = mtrspony_hippogriff } }
+			check_variable = { which = hippogriff_pops value > 0 }
+		}
 
 		spawn_mtrspony_pops = { COUNTRY = owner SPECIES = hippogriff }
 	}
 	if = {
-		limit = { owner = { NOT = { species_portrait = mtrspony_kirin } } }
+		limit = {
+			owner = { NOT = { species_portrait = mtrspony_kirin } }
+			check_variable = { which = kirin_pops value > 0 }
+		}
 
 		spawn_mtrspony_pops = { COUNTRY = owner SPECIES = kirin }
 	}
 	if = {
-		limit = { owner = { NOT = { species_portrait = mtrspony_yak } } }
+		limit = {
+			owner = { NOT = { species_portrait = mtrspony_yak } }
+			check_variable = { which = yak_pops value > 0 }
+		}
 
 		spawn_mtrspony_pops = { COUNTRY = owner SPECIES = yak }
 	}
 	if = {
-		limit = { owner = { NOT = { species_portrait = mtrspony_diamond_dog } } }
+		limit = {
+			owner = { NOT = { species_portrait = mtrspony_diamond_dog } }
+			check_variable = { which = diamond_dog_pops value > 0 }
+		}
 
 		spawn_mtrspony_pops = { COUNTRY = owner SPECIES = diamond_dog }
 	}
 	if = {
-		limit = { owner = { NOT = { species_portrait = mtrspony_dragon } } }
+		limit = {
+			owner = { NOT = { species_portrait = mtrspony_dragon } }
+			check_variable = { which = dragon_pops value > 0 }
+		}
 
 		spawn_mtrspony_pops = { COUNTRY = owner SPECIES = dragon }
+	}
+	if = {
+		limit = {
+			owner = { NOT = { species_portrait = mtrspony_polar_bear } }
+			check_variable = { which = polar_bear_pops value > 0 }
+		}
+
+		spawn_mtrspony_pops = { COUNTRY = owner SPECIES = polar_bear }
+	}
+	if = {
+		limit = {
+			owner = { NOT = { species_portrait = mtrspony_yeti } }
+			check_variable = { which = yeti_pops value > 0 }
+		}
+
+		spawn_mtrspony_pops = { COUNTRY = owner SPECIES = yeti }
 	}
 
 	owner = {
@@ -1277,7 +1557,7 @@ add_trait_to_mtrspony_species_effect = {
 	every_galaxy_species = {
 		limit = {
 			[[SPECIES] is_same_species = $SPECIES$ ]
-			[[!SPECIES] is_exact_same_species_with_empire_faustian_races = { COUNTRY = PREVPREV } ]
+			[[!SPECIES] is_exact_same_species_with_empire_faustian_races = { COUNTRY = PREV.owner } ]
 			NOT = { has_trait = $TRAIT$ }
 		}
 
@@ -1302,7 +1582,7 @@ replace_traits_on_mtrspony_species_effect = {
 	every_galaxy_species = {
 		limit = {
 			[[SPECIES] is_same_species = $SPECIES$ ]
-			[[!SPECIES] is_exact_same_species_with_empire_faustian_races = { COUNTRY = PREVPREV } ]
+			[[!SPECIES] is_exact_same_species_with_empire_faustian_races = { COUNTRY = PREV.owner } ]
 			has_trait = $REMOVE_TRAIT$
 		}
 
@@ -1329,7 +1609,7 @@ remove_trait_from_mtrspony_species_effect = {
 	every_galaxy_species = {
 		limit = {
 			[[SPECIES] is_same_species = $SPECIES$ ]
-			[[!SPECIES] is_exact_same_species_with_empire_faustian_races = { COUNTRY = PREVPREV } ]
+			[[!SPECIES] is_exact_same_species_with_empire_faustian_races = { COUNTRY = PREV.owner } ]
 			has_trait = $TRAIT$
 		}
 
@@ -1639,341 +1919,48 @@ remove_x_ROOT_species_pops = {
 	}
 }
 
-create_pony_species = {
+create_mtrspony_species = {
 	create_species = {
-		name = "PRESCRIPTED_species_pony"
-		plural = "PRESCRIPTED_species_plural_pony"
-		adjective = "PRESCRIPTED_species_adjective_pony"
-		class = MAM
-		portrait = mtrspony_pony
-		namelist = mtrspony_namelists_pony
-		homeworld = ROOT.species.home_colony
-		traits = {
-			trait = trait_organic
-			trait = trait_talented
-			trait = trait_cutie_marks
-			trait = trait_sedentary
-		}
+		name = PRESCRIPTED_species_$SPECIES$
+		plural = PRESCRIPTED_species_plural_$SPECIES$
+		adjective = PRESCRIPTED_species_adjective_$SPECIES$
+		class = $CLASS$
+		portrait = mtrspony_$SPECIES$
+		namelist = mtrspony_namelists_$SPECIES$
+		homeworld = species.home_colony
+		traits = $TRAITS$
 
 		effect = {
 			every_country = {
 				limit = { has_mtrspony_portrait = yes }
 
-				PREV = { save_global_event_target_as = pony_species@PREV }
+				PREV = { save_global_event_target_as = $SPECIES$_species@PREV }
 			}
-			save_global_event_target_as = pony_species
+			save_global_event_target_as = $SPECIES$_species
 			set_species_flag = created_species
-			set_global_flag = pony_species_created
-			set_species_flag = species_creator@PREV
-		}
-	}
-}
-
-create_griffon_species = {
-	create_species = {
-		name = "PRESCRIPTED_species_griffon"
-		plural = "PRESCRIPTED_species_plural_griffon"
-		adjective = "PRESCRIPTED_species_adjective_griffon"
-		class = AVI
-		portrait = mtrspony_griffon
-		namelist = mtrspony_namelists_griffon
-		homeworld = ROOT.species.home_colony
-		traits = {
-			trait = trait_organic
-			trait = trait_thrifty
-			trait = trait_resilient
-			trait = trait_quarrelsome
-		}
-
-		effect = {
-			every_country = {
-				limit = { has_mtrspony_portrait = yes }
-
-				PREV = { save_global_event_target_as = griffon_species@PREV }
-			}
-			save_global_event_target_as = griffon_species
-			set_species_flag = created_species
-			set_global_flag = griffon_species_created
-			set_species_flag = species_creator@PREV
-		}
-	}
-}
-
-create_zebra_species = {
-	create_species = {
-		name = "PRESCRIPTED_species_zebra"
-		plural = "PRESCRIPTED_species_plural_zebra"
-		adjective = "PRESCRIPTED_species_adjective_zebra"
-		class = MAM
-		portrait = mtrspony_zebra
-		namelist = mtrspony_namelists_zebra
-		homeworld = ROOT.species.home_colony
-		traits = {
-			trait = trait_organic
-			trait = trait_conservational
-			trait = trait_natural_physicists
-		}
-
-		effect = {
-			every_country = {
-				limit = { has_mtrspony_portrait = yes }
-
-				PREV = { save_global_event_target_as = zebra_species@PREV }
-			}
-			save_global_event_target_as = zebra_species
-			set_species_flag = created_species
-			set_global_flag = zebra_species_created
-			set_species_flag = species_creator@PREV
-		}
-	}
-}
-
-create_deer_species = {
-	create_species = {
-		name = "PRESCRIPTED_species_deer"
-		plural = "PRESCRIPTED_species_plural_deer"
-		adjective = "PRESCRIPTED_species_adjective_deer"
-		class = MAM
-		portrait = mtrspony_deer
-		namelist = mtrspony_namelists_deer
-		homeworld = ROOT.species.home_colony
-		traits = {
-			trait = trait_organic
-			trait = trait_adaptive
-			trait = trait_natural_sociologists
-			trait = trait_fleeting
-		}
-
-		effect = {
-			every_country = {
-				limit = { has_mtrspony_portrait = yes }
-
-				PREV = { save_global_event_target_as = deer_species@PREV }
-			}
-			save_global_event_target_as = deer_species
-			set_species_flag = created_species
-			set_global_flag = deer_species_created
+			set_global_flag = $SPECIES$_species_created
 			set_species_flag = species_creator@PREV
 		}
 	}
 }
 
 create_changeling_species = {
-	create_species = {
-		name = "PRESCRIPTED_species_changeling"
-		plural = "PRESCRIPTED_species_plural_changeling"
-		adjective = "PRESCRIPTED_species_adjective_changeling"
-		class = ART
-		portrait = mtrspony_changeling
-		namelist = mtrspony_namelists_changeling
-		homeworld = ROOT.species.home_colony
-		traits = {
+	create_mtrspony_species = {
+		SPECIES = changeling
+		CLASS = ART
+		TRAITS = "{
 			trait = trait_organic
-			trait = trait_communal
 			trait = trait_adaptive
-			trait = trait_wasteful
-		}
-
-		effect = {
-			every_country = {
-				limit = { has_mtrspony_portrait = yes }
-
-				PREV = { save_global_event_target_as = changeling_species@PREV }
-			}
-			save_global_event_target_as = changeling_species
-			set_species_flag = created_species
-			set_global_flag = changeling_species_created
-			set_species_flag = species_creator@PREV
-
-			if = {
-				limit = { has_biogenesis_dlc = yes }
-
-				change_species_characteristics = { remove_trait = trait_communal }
-				change_species_characteristics = { add_trait = trait_camouflage }
-			}
-		}
+			trait = trait_natural_sociologists
+			trait = trait_fleeting
+		}"
 	}
-}
+	last_created_species = {
+		if = {
+			limit = { has_biogenesis_dlc = yes }
 
-create_hippogriff_species = {
-	create_species = {
-		name = "PRESCRIPTED_species_hippogriff"
-		plural = "PRESCRIPTED_species_plural_hippogriff"
-		adjective = "PRESCRIPTED_species_adjective_hippogriff"
-		class = AVI
-		portrait = mtrspony_hippogriff
-		namelist = mtrspony_namelists_hippogriff
-		homeworld = ROOT.species.home_colony
-		traits = {
-			trait = trait_organic
-			trait = trait_nomadic
-			trait = trait_adaptive
-			trait = trait_deviants
-		}
-
-		effect = {
-			every_country = {
-				limit = { has_mtrspony_portrait = yes }
-
-				PREV = { save_global_event_target_as = hippogriff_species@PREV }
-			}
-			save_global_event_target_as = hippogriff_species
-			set_species_flag = created_species
-			set_global_flag = hippogriff_species_created
-			set_species_flag = species_creator@PREV
-		}
-	}
-}
-
-create_kirin_species = {
-	create_species = {
-		name = "PRESCRIPTED_species_kirin"
-		plural = "PRESCRIPTED_species_plural_kirin"
-		adjective = "PRESCRIPTED_species_adjective_kirin"
-		class = MAM
-		portrait = mtrspony_kirin
-		namelist = mtrspony_namelists_kirin
-		homeworld = ROOT.species.home_colony
-		traits = {
-			trait = trait_organic
-			trait = trait_agrarian
-			trait = trait_natural_engineers
-			trait = trait_wasteful
-		}
-
-		effect = {
-			every_country = {
-				limit = { has_mtrspony_portrait = yes }
-
-				PREV = { save_global_event_target_as = kirin_species@PREV }
-			}
-			save_global_event_target_as = kirin_species
-			set_species_flag = created_species
-			set_global_flag = kirin_species_created
-			set_species_flag = species_creator@PREV
-		}
-	}
-}
-
-create_yak_species = {
-	create_species = {
-		name = "PRESCRIPTED_species_yak"
-		plural = "PRESCRIPTED_species_plural_yak"
-		adjective = "PRESCRIPTED_species_adjective_yak"
-		class = MAM
-		portrait = mtrspony_yak
-		namelist = mtrspony_namelists_yak
-		homeworld = ROOT.species.home_colony
-		traits = {
-			trait = trait_organic
-			trait = trait_traditional
-			trait = trait_strong
-			trait = trait_nomadic
-			trait = trait_slow_learners
-		}
-
-		effect = {
-			every_country = {
-				limit = { has_mtrspony_portrait = yes }
-
-				PREV = { save_global_event_target_as = yak_species@PREV }
-			}
-			save_global_event_target_as = yak_species
-			set_species_flag = created_species
-			set_global_flag = yak_species_created
-			set_species_flag = species_creator@PREV
-		}
-	}
-}
-
-create_diamond_dog_species = {
-	create_species = {
-		name = "PRESCRIPTED_species_diamond_dog"
-		plural = "PRESCRIPTED_species_plural_diamond_dog"
-		adjective = "PRESCRIPTED_species_adjective_diamond_dog"
-		class = MAM
-		portrait = mtrspony_diamond_dog
-		namelist = mtrspony_namelists_diamond_dog
-		homeworld = ROOT.species.home_colony
-		traits = {
-			trait = trait_organic
-			trait = trait_industrious
-			trait = trait_resilient
-			trait = trait_decadent
-		}
-
-		effect = {
-			every_country = {
-				limit = { has_mtrspony_portrait = yes }
-
-				PREV = { save_global_event_target_as = diamond_dog_species@PREV }
-			}
-			save_global_event_target_as = diamond_dog_species
-			set_species_flag = created_species
-			set_global_flag = diamond_dog_species_created
-			set_species_flag = species_creator@PREV
-		}
-	}
-}
-
-create_dragon_species = {
-	create_species = {
-		name = "PRESCRIPTED_species_dragon"
-		plural = "PRESCRIPTED_species_plural_dragon"
-		adjective = "PRESCRIPTED_species_adjective_dragon"
-		class = REP
-		portrait = mtrspony_dragon
-		namelist = mtrspony_namelists_dragon
-		homeworld = ROOT.species.home_colony
-		traits = {
-			trait = trait_organic
-			trait = trait_strong
-			trait = trait_venerable
-			trait = trait_slow_breeders
-			trait = trait_solitary
-		}
-
-		effect = {
-			every_country = {
-				limit = { has_mtrspony_portrait = yes }
-
-				PREV = { save_global_event_target_as = dragon_species@PREV }
-			}
-			save_global_event_target_as = dragon_species
-			set_species_flag = created_species
-			set_global_flag = dragon_species_created
-			set_species_flag = species_creator@PREV
-		}
-	}
-}
-
-create_polar_bear_species = {
-	create_species = {
-		name = "PRESCRIPTED_species_polar_bear"
-		plural = "PRESCRIPTED_species_plural_polar_bear"
-		adjective = "PRESCRIPTED_species_adjective_polar_bear"
-		class = MAM
-		portrait = mtrspony_polar_bear
-		namelist = mtrspony_namelists_polar_bear
-		homeworld = ROOT.species.home_colony
-		traits = {
-			trait = trait_organic
-			trait = trait_ingenious
-			trait = trait_strong
-			trait = trait_resilient
-			trait = trait_nonadaptive
-		}
-
-		effect = {
-			every_country = {
-				limit = { has_mtrspony_portrait = yes }
-
-				PREV = { save_global_event_target_as = polar_bear_species@PREV }
-			}
-			save_global_event_target_as = polar_bear_species
-			set_species_flag = created_species
-			set_global_flag = polar_bear_species_created
-			set_species_flag = species_creator@PREV
+			change_species_characteristics = { remove_trait = trait_communal }
+			change_species_characteristics = { add_trait = trait_camouflage }
 		}
 	}
 }
