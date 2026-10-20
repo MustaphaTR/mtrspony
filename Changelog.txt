@@ -297,3 +297,4 @@
 --- Faustian Conglomerate now has a three colored flag.
 -- Fixed Wittenland flag icon being offcenter.
 -- Fixed Silverstream's Cutie Mark trait giving 10 times the intended Infrastructure Cost reduction bonus.
+-- Fixed Crystal Sunburst portraits having extra horn/beard crystal shine layer hovering above him.
