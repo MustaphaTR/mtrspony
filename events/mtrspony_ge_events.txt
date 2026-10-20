@@ -87,6 +87,12 @@ country_event = {
 
 		capital_scope = {
 			calculate_mtrspony_pop_count_keep_majority = yes
+
+			change_variable = { which = diamond_dog_pops value = 100 }
+			subtract_variable = { which = hippogriff_pops value = 40 }
+			subtract_variable = { which = kirin_pops value = 30 }
+			subtract_variable = { which = yak_pops value = 30 }
+
 			spawn_other_mtrspony_species = yes
 		}
 		refresh_leader_pool = yes
