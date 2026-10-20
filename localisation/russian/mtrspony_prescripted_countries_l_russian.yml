@@ -249,6 +249,10 @@
  PRESCRIPTED_ruler_name_max_von_hundsfeld_desc:0 "<insert_desc_here>"
  PRESCRIPTED_ruler_name_max_von_hundsfeld_catch_phrase:0 "§L""§!"
 
+ PRESCRIPTED_ruler_name_theresa_eagleclaw:0 "Тереза Иглкло"
+ PRESCRIPTED_ruler_name_theresa_eagleclaw_desc:0 "<insert_desc_here>"
+ PRESCRIPTED_ruler_name_theresa_eagleclaw_catch_phrase:0 "§L""§!"
+
  # Faustian Technate
  EMPIRE_DESIGN_faustian_technate:0 "Фаустский Технат&!fem|||gen:Фаустского Техната&!fem|||dat:Фаустскому Технату&!fem|||acc:Фаустский Технат&!fem|||inst:Фаустским Технатом&!fem|||prep:Фаустском Технате&!fem"
  # EMPIRE_DESIGN_faustian_technate_desc:0 ""

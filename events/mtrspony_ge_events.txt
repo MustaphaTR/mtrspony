@@ -43,6 +43,41 @@ country_event = {
 			}
 		}
 
+		create_leader = {
+			name = "PRESCRIPTED_ruler_name_theresa_eagleclaw"
+			custom_description = "PRESCRIPTED_ruler_name_theresa_eagleclaw_desc"
+			species = ROOT.species
+			gender = female
+			class = official
+			skill = 1
+			set_age = 36
+			background_ethic = ethic_authoritarian
+			skip_background_generation = yes
+			randomize_traits = no
+			traits = {
+				1 = trait_ruler_fertility_preacher
+			}
+
+			effect = {
+				save_global_event_target_as = leader_theresa_eagleclaw
+				set_leader_flag = leader_theresa_eagleclaw
+				set_leader_flag = is_created_leader
+				change_leader_portrait = "mtrspony_griffon_theresa_eagleclaw_predefined"
+				ROOT = {
+					capital_scope = {
+						leader = {
+							kill_leader = {
+								show_notification = no
+								fire = yes
+							}
+						}
+						assign_leader = event_target:leader_winter
+					}
+				}
+				set_council_position = councilor_state
+			}
+		}
+
 		save_current_mtrspony_species = yes
 		create_other_mtrspony_species = yes
 		set_mtrspony_citizenship_limited = yes
@@ -111,6 +146,9 @@ country_event = {
 		event_target:leader_grover_xi = {
 			change_background_ethic = ethic_authoritarian
 		}
+		event_target:leader_theresa_eagleclaw = {
+			change_background_ethic = ethic_authoritarian
+		}
 		event_target:leader_max_von_hundsfeld = {
 			change_background_ethic = ethic_militarist
 		}
@@ -129,6 +167,9 @@ country_event = {
 	immediate = {
 		event_target:leader_grover_xi = {
 			change_leader_portrait = "mtrspony_griffon_grover_xi_predefined"
+		}
+		event_target:leader_theresa_eagleclaw = {
+			change_leader_portrait = "mtrspony_griffon_theresa_eagleclaw_predefined"
 		}
 		event_target:leader_max_von_hundsfeld = {
 			change_leader_portrait = "mtrspony_diamond_dog_max_von_hundsfeld_predefined"
