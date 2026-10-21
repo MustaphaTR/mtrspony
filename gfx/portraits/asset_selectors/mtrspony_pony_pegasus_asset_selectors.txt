@@ -1378,13 +1378,13 @@ mtrspony_pony_pegasus_cozy_glow_older_clothes_selector = {
 }
 
 mtrspony_pony_pegasus_cozy_glow_older_predefined_hair_selector = {
-	default = "gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_hair.tga"
+	default = "gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_hair.dds"
 
-	game_setup = { default = "gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_hair.tga" }
-	species = { default = "gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_hair.tga" }
-	pop = { default = "gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_hair.tga" }
-	leader = { default = "gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_hair.tga" }
-	ruler = { default = "gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_hair.tga" }
+	game_setup = { default = "gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_hair.dds" }
+	species = { default = "gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_hair.dds" }
+	pop = { default = "gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_hair.dds" }
+	leader = { default = "gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_hair.dds" }
+	ruler = { default = "gfx/models/portraits/pony_pegasus/cozy_glow_older/cozy_glow_older_hair.dds" }
 }
 
 mtrspony_pony_pegasus_cozy_glow_older_predefined_clothes_selector = {
