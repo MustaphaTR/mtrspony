@@ -301,4 +301,5 @@
 -- Fixed Silverstream's Cutie Mark trait giving 10 times the intended Infrastructure Cost reduction bonus.
 
 - Version 0.5.1 (XX.11.2026):
+-- Added 3 more flag backgrounds.
 -- Fixed Cozy Glow in The Crusader State not getting Home Planet and Previous Job set.
