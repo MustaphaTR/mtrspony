@@ -299,3 +299,6 @@
 -- Croppoed Sunburst portrait set's clothes files and fixed a few other issues with it.
 -- Fixed Wittenland flag icon being offcenter.
 -- Fixed Silverstream's Cutie Mark trait giving 10 times the intended Infrastructure Cost reduction bonus.
+
+- Version 0.5.1 (XX.11.2026):
+-- Fixed Cozy Glow in The Crusader State not getting Home Planet and Previous Job set.
