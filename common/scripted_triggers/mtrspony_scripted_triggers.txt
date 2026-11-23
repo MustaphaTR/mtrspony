@@ -33,10 +33,6 @@ has_not_apocalypse_and_grand_archive = {
 	}
 }
 
-has_not_necroids = {
-	has_necroids = no
-}
-
 has_not_federations_dlc = {
 	has_federations_dlc = no
 }
@@ -156,6 +152,32 @@ has_not_necroids_and_paragons = {
 	NOT = {
 		host_has_dlc = "Necroids Species Pack"
 		host_has_dlc = "Galactic Paragons"
+	}
+}
+
+has_necroids_and_willpower = {
+	optimize_memory
+	host_has_dlc = "Necroids Species Pack"
+	host_has_dlc = "Willpower"
+}
+
+has_necroids_but_not_willpower = {
+	optimize_memory
+	host_has_dlc = "Necroids Species Pack"
+	NOT = { host_has_dlc = "Willpower" }
+}
+
+has_willpower_but_not_necroids = {
+	optimize_memory
+	NOT = { host_has_dlc = "Necroids Species Pack" }
+	host_has_dlc = "Willpower"
+}
+
+has_not_necroids_and_willpower = {
+	optimize_memory
+	NOT = {
+		host_has_dlc = "Necroids Species Pack"
+		host_has_dlc = "Willpower"
 	}
 }
 

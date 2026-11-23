@@ -1,7 +1,7 @@
 eac_convocation_of_creatures = {
 	name = "EMPIRE_DESIGN_convocation_of_creatures"
 	adjective = "PRESCRIPTED_adjective_convocation_of_creatures"
-	spawn_enabled = no # yes / no / always
+	spawn_enabled = no
 	ignore_portrait_duplication = yes
 
 	playable = has_not_federations_dlc # Diplomatic Corps civic is from Federations DLC.
@@ -78,7 +78,7 @@ eac_convocation_of_creatures = {
 eac_convocation_of_creatures_federations = {
 	name = "EMPIRE_DESIGN_convocation_of_creatures"
 	adjective = "PRESCRIPTED_adjective_convocation_of_creatures"
-	spawn_enabled = no # yes / no / always
+	spawn_enabled = no
 	ignore_portrait_duplication = yes
 
 	playable = has_federations_dlc # Diplomatic Corps civic is from Federations DLC.
@@ -155,10 +155,10 @@ eac_convocation_of_creatures_federations = {
 eac_the_crusader_state = {
 	name = "EMPIRE_DESIGN_the_crusader_state"
 	adjective = "PRESCRIPTED_adjective_the_crusader_state"
-	spawn_enabled = no # yes / no / always
+	spawn_enabled = no
 	ignore_portrait_duplication = yes
 
-	playable = has_not_necroids # Reanimators civic is from Necroids DLC.
+	playable = has_not_necroids_and_willpower # Reanimators civic is from Necroids DLC. Great Mosaic origin is from Willpower DLC.
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_the_crusader_state"
 
@@ -178,7 +178,7 @@ eac_the_crusader_state = {
 	room = "personality_hegemonic_imperialists_room"
 
 	authority = "auth_oligarchic"
-	civics = { "civic_distinguished_admiralty" "civic_meritocracy" "civic_xeno_militarist" }
+	civics = { "civic_meritocracy" "civic_distinguished_admiralty" "civic_xeno_militarist" }
 	government = gov_genuine_aristocracy
 
 	ethic = "ethic_fanatic_xenophile"
@@ -232,10 +232,10 @@ eac_the_crusader_state = {
 eac_the_crusader_state_necroids = {
 	name = "EMPIRE_DESIGN_the_crusader_state"
 	adjective = "PRESCRIPTED_adjective_the_crusader_state"
-	spawn_enabled = no # yes / no / always
+	spawn_enabled = no
 	ignore_portrait_duplication = yes
 
-	playable = has_necroids # Reanimators civic is from Necroids DLC.
+	playable = has_necroids_but_not_willpower # Reanimators civic is from Necroids DLC. Great Mosaic origin is from Willpower DLC.
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_the_crusader_state"
 
@@ -255,7 +255,7 @@ eac_the_crusader_state_necroids = {
 	room = "personality_hegemonic_imperialists_room"
 
 	authority = "auth_oligarchic"
-	civics = { "civic_reanimated_armies" "civic_meritocracy" "civic_xeno_militarist" }
+	civics = { "civic_meritocracy" "civic_reanimated_armies" "civic_xeno_militarist" }
 	government = gov_genuine_aristocracy
 
 	ethic = "ethic_fanatic_xenophile"
@@ -306,10 +306,164 @@ eac_the_crusader_state_necroids = {
 	}
 }
 
+eac_the_crusader_state_willpower = {
+	name = "EMPIRE_DESIGN_the_crusader_state"
+	adjective = "PRESCRIPTED_adjective_the_crusader_state"
+	spawn_enabled = no
+	ignore_portrait_duplication = yes
+
+	playable = has_willpower_but_not_necroids # Reanimators civic is from Necroids DLC. Great Mosaic origin is from Willpower DLC.
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_the_crusader_state"
+
+	species = {
+		class = "MAM"
+		portrait = "mtrspony_pony"
+		name = "PRESCRIPTED_species_pony"
+		plural = "PRESCRIPTED_species_plural_pony"
+		adjective = "PRESCRIPTED_species_adjective_pony"
+		name_list = "mtrspony_namelists_pony"
+		trait = "trait_organic"
+		trait = "trait_talented"
+		trait = "trait_cutie_marks"
+		trait = "trait_sedentary"
+	}
+
+	room = "personality_hegemonic_imperialists_room"
+
+	authority = "auth_oligarchic"
+	civics = { "civic_meritocracy" "civic_ascensionists" "civic_distinguished_admiralty" "civic_xeno_militarist" }
+	government = gov_genuine_aristocracy
+
+	ethic = "ethic_fanatic_xenophile"
+	ethic = "ethic_egalitarian"
+	ethic = "ethic_militarist"
+	ethic = "ethic_socialism"
+
+	origin = "origin_great_mosaic"
+
+	flag = empire_the_crusader_state
+
+	planet_name = "NAME_Faust"
+	planet_class = "pc_continental"
+	initializer = "eaw_vanilla_initializer"
+	system_name = "NAME_Behemoth"
+
+	graphical_culture = mammalian_01
+	city_graphical_culture = mammalian_01
+
+	empire_flag = {
+		icon = {
+			category = "esieaw"
+			file = "CMC.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "stripe_thick_tricolor.dds"
+		}
+		colors = {
+			"red_orange"
+			"intense_pink"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_sweetie_belle"
+		ruler_title = "PRESCRIPTED_ruler_title_head_crusader"
+		ruler_title_female = "PRESCRIPTED_ruler_title_head_crusader_female"
+		gender = female
+		portrait = "mtrspony_pony_unicorn_sweetie_belle_predefined"
+		texture = 0
+		attachment = 0
+		clothes = 0
+		trait = "trait_ruler_eye_for_talent"
+		leader_class = scientist
+	}
+}
+
+eac_the_crusader_state_necroids_willpower = {
+	name = "EMPIRE_DESIGN_the_crusader_state"
+	adjective = "PRESCRIPTED_adjective_the_crusader_state"
+	spawn_enabled = no
+	ignore_portrait_duplication = yes
+
+	playable = has_necroids_and_willpower # Reanimators civic is from Necroids DLC. Great Mosaic origin is from Willpower DLC.
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_the_crusader_state"
+
+	species = {
+		class = "MAM"
+		portrait = "mtrspony_pony"
+		name = "PRESCRIPTED_species_pony"
+		plural = "PRESCRIPTED_species_plural_pony"
+		adjective = "PRESCRIPTED_species_adjective_pony"
+		name_list = "mtrspony_namelists_pony"
+		trait = "trait_organic"
+		trait = "trait_talented"
+		trait = "trait_cutie_marks"
+		trait = "trait_sedentary"
+	}
+
+	room = "personality_hegemonic_imperialists_room"
+
+	authority = "auth_oligarchic"
+	civics = { "civic_meritocracy" "civic_reanimated_armies"  "civic_distinguished_admiralty" "civic_xeno_militarist" }
+	government = gov_genuine_aristocracy
+
+	ethic = "ethic_fanatic_xenophile"
+	ethic = "ethic_egalitarian"
+	ethic = "ethic_militarist"
+	ethic = "ethic_socialism"
+
+	origin = "origin_great_mosaic"
+
+	flag = empire_the_crusader_state
+
+	planet_name = "NAME_Faust"
+	planet_class = "pc_continental"
+	initializer = "eaw_vanilla_initializer"
+	system_name = "NAME_Behemoth"
+
+	graphical_culture = mammalian_01
+	city_graphical_culture = mammalian_01
+
+	empire_flag = {
+		icon = {
+			category = "esieaw"
+			file = "CMC.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "stripe_thick_tricolor.dds"
+		}
+		colors = {
+			"red_orange"
+			"intense_pink"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_sweetie_belle"
+		ruler_title = "PRESCRIPTED_ruler_title_head_crusader"
+		ruler_title_female = "PRESCRIPTED_ruler_title_head_crusader_female"
+		gender = female
+		portrait = "mtrspony_pony_unicorn_sweetie_belle_predefined"
+		texture = 0
+		attachment = 0
+		clothes = 0
+		trait = "trait_ruler_eye_for_talent"
+		leader_class = scientist
+	}
+}
+
 eac_empire_of_friendship = {
 	name = "EMPIRE_DESIGN_empire_of_friendship"
 	adjective = "PRESCRIPTED_adjective_empire_of_friendship"
-	spawn_enabled = no # yes / no / always
+	spawn_enabled = no
 	ignore_portrait_duplication = yes
 
 	playable = has_not_paragon_dlc # Crusader Spirit civic and Under One Rule origin are from Galactic Paragons DLC.
@@ -385,7 +539,7 @@ eac_empire_of_friendship = {
 eac_empire_of_friendship_paragons = {
 	name = "EMPIRE_DESIGN_empire_of_friendship"
 	adjective = "PRESCRIPTED_adjective_empire_of_friendship"
-	spawn_enabled = no # yes / no / always
+	spawn_enabled = no
 	ignore_portrait_duplication = yes
 
 	playable = has_paragon_dlc # Crusader Spirit civic and Under One Rule origin are from Galactic Paragons DLC.
@@ -462,7 +616,7 @@ eac_empire_of_friendship_paragons = {
 eac_novyy_stalliongrad = {
 	name = "EMPIRE_DESIGN_novyy_stalliongrad"
 	adjective = "PRESCRIPTED_adjective_novyy_stalliongrad"
-	spawn_enabled = no # yes / no / always
+	spawn_enabled = no
 	ignore_portrait_duplication = yes
 
 	playable = has_not_megacorps_and_willpower # Shared Burdens civic is from Megacorps or Willpower DLCs.
@@ -539,7 +693,7 @@ eac_novyy_stalliongrad = {
 eac_novyy_stalliongrad_megacorps = {
 	name = "EMPIRE_DESIGN_novyy_stalliongrad"
 	adjective = "PRESCRIPTED_adjective_novyy_stalliongrad"
-	spawn_enabled = no # yes / no / always
+	spawn_enabled = no
 	ignore_portrait_duplication = yes
 
 	playable = has_megacorps_or_willpower # Shared Burdens civic is from Megacorps or Willpower DLCs.
@@ -616,7 +770,7 @@ eac_novyy_stalliongrad_megacorps = {
 #eac_united_faustian_hives = {
 #	name = "EMPIRE_DESIGN_united_faustian_hives"
 #	adjective = "PRESCRIPTED_adjective_united_faustian_hives"
-#	spawn_enabled = no # yes / no / always
+#	spawn_enabled = no
 #	ignore_portrait_duplication = yes
 #
 #	playable = has_not_necroids # Memorialists civic is from Necroids DLC.
@@ -692,7 +846,7 @@ eac_novyy_stalliongrad_megacorps = {
 #eac_united_faustian_hives_necroids = {
 #	name = "EMPIRE_DESIGN_united_faustian_hives"
 #	adjective = "PRESCRIPTED_adjective_united_faustian_hives"
-#	spawn_enabled = no # yes / no / always
+#	spawn_enabled = no
 #	ignore_portrait_duplication = yes
 #
 #	playable = has_necroids # Memorialists civic is from Necroids DLC.
@@ -768,7 +922,7 @@ eac_novyy_stalliongrad_megacorps = {
 eac_united_faustian_hives_hive = {
 	name = "EMPIRE_DESIGN_united_faustian_hives"
 	adjective = "PRESCRIPTED_adjective_united_faustian_hives"
-	spawn_enabled = no # yes / no / always
+	spawn_enabled = no
 	ignore_portrait_duplication = yes
 
 	playable = has_not_necroids_and_paragons # Memorialist civic is from Necroids DLC. Autonomous Drones civic is from Galactic Paragons DLC.
@@ -844,7 +998,7 @@ eac_united_faustian_hives_hive = {
 eac_united_faustian_hives_hive_necroids = {
 	name = "EMPIRE_DESIGN_united_faustian_hives"
 	adjective = "PRESCRIPTED_adjective_united_faustian_hives"
-	spawn_enabled = no # yes / no / always
+	spawn_enabled = no
 	ignore_portrait_duplication = yes
 
 	playable = has_necroids_but_not_paragons # Memorialist civic is from Necroids DLC. Autonomous Drones civic is from Galactic Paragons DLC.
@@ -920,7 +1074,7 @@ eac_united_faustian_hives_hive_necroids = {
 eac_united_faustian_hives_hive_paragons = {
 	name = "EMPIRE_DESIGN_united_faustian_hives"
 	adjective = "PRESCRIPTED_adjective_united_faustian_hives"
-	spawn_enabled = no # yes / no / always
+	spawn_enabled = no
 	ignore_portrait_duplication = yes
 
 	playable = has_paragons_but_not_necroids # Memorialist civic is from Necroids DLC. Autonomous Drones civic is from Galactic Paragons DLC.
@@ -996,7 +1150,7 @@ eac_united_faustian_hives_hive_paragons = {
 eac_united_faustian_hives_hive_necroids_paragons = {
 	name = "EMPIRE_DESIGN_united_faustian_hives"
 	adjective = "PRESCRIPTED_adjective_united_faustian_hives"
-	spawn_enabled = no # yes / no / always
+	spawn_enabled = no
 	ignore_portrait_duplication = yes
 
 	playable = has_necroids_and_paragons # Memorialist civic is from Necroids DLC. Autonomous Drones civic is from Galactic Paragons DLC.
@@ -1072,7 +1226,7 @@ eac_united_faustian_hives_hive_necroids_paragons = {
 eac_department_of_scootascience = {
 	name = "EMPIRE_DESIGN_department_of_scootascience"
 	adjective = "PRESCRIPTED_adjective_department_of_scootascience"
-	spawn_enabled = no # yes / no / always
+	spawn_enabled = no
 	ignore_portrait_duplication = yes
 
 	playable = has_not_shadows_of_the_shroud_and_nomads # Experimental Sentencing civic is from Shadows of the Shroud DLC. Flight Schools civic is from Nomads DLC.
@@ -1153,7 +1307,7 @@ eac_department_of_scootascience = {
 eac_department_of_scootascience_shroud = {
 	name = "EMPIRE_DESIGN_department_of_scootascience"
 	adjective = "PRESCRIPTED_adjective_department_of_scootascience"
-	spawn_enabled = no # yes / no / always
+	spawn_enabled = no
 	ignore_portrait_duplication = yes
 
 	playable = has_shadows_of_the_shroud_but_not_nomads # Experimental Sentencing civic is from Shadows of the Shroud DLC. Flight Schools civic is from Nomads DLC.
@@ -1234,7 +1388,7 @@ eac_department_of_scootascience_shroud = {
 eac_department_of_scootascience_nomads = {
 	name = "EMPIRE_DESIGN_department_of_scootascience"
 	adjective = "PRESCRIPTED_adjective_department_of_scootascience"
-	spawn_enabled = no # yes / no / always
+	spawn_enabled = no
 	ignore_portrait_duplication = yes
 
 	playable = has_nomads_but_not_shadows_of_the_shroud # Experimental Sentencing civic is from Shadows of the Shroud DLC. Flight Schools civic is from Nomads DLC.
@@ -1315,7 +1469,7 @@ eac_department_of_scootascience_nomads = {
 eac_department_of_scootascience_shroud_nomads = {
 	name = "EMPIRE_DESIGN_department_of_scootascience"
 	adjective = "PRESCRIPTED_adjective_department_of_scootascience"
-	spawn_enabled = no # yes / no / always
+	spawn_enabled = no
 	ignore_portrait_duplication = yes
 
 	playable = has_shadows_of_the_shroud_and_nomads # Experimental Sentencing civic is from Shadows of the Shroud DLC. Flight Schools civic is from Nomads DLC.
@@ -1396,7 +1550,7 @@ eac_department_of_scootascience_shroud_nomads = {
 eac_griffonian_empire = {
 	name = "EMPIRE_DESIGN_griffonian_empire"
 	adjective = "PRESCRIPTED_adjective_griffonian_empire"
-	spawn_enabled = no # yes / no / always
+	spawn_enabled = no
 	ignore_portrait_duplication = yes
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_griffonian_empire"
@@ -1471,7 +1625,7 @@ eac_griffonian_empire = {
 eac_faustian_technate = {
 	name = "EMPIRE_DESIGN_faustian_technate"
 	adjective = "PRESCRIPTED_adjective_faustian_technate"
-	spawn_enabled = no # yes / no / always
+	spawn_enabled = no
 	ignore_portrait_duplication = yes
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_faustian_technate"
@@ -1545,7 +1699,7 @@ eac_faustian_technate = {
 eac_jarldom_of_faust = {
 	name = "EMPIRE_DESIGN_jarldom_of_faust"
 	adjective = "PRESCRIPTED_adjective_jarldom_of_faust"
-	spawn_enabled = no # yes / no / always
+	spawn_enabled = no
 	ignore_portrait_duplication = yes
 
 	playable = has_not_paragon_and_grand_archive # Treasure Hunters origin is from Grand Archive DLC. Heroic Past civic is from Galactic Paragons DLC.
@@ -1622,7 +1776,7 @@ eac_jarldom_of_faust = {
 eac_jarldom_of_faust_paragons = {
 	name = "EMPIRE_DESIGN_jarldom_of_faust"
 	adjective = "PRESCRIPTED_adjective_jarldom_of_faust"
-	spawn_enabled = no # yes / no / always
+	spawn_enabled = no
 	ignore_portrait_duplication = yes
 
 	playable = has_paragon_but_not_grand_archive # Treasure Hunters origin is from Grand Archive DLC. Heroic Past civic is from Galactic Paragons DLC.
@@ -1699,7 +1853,7 @@ eac_jarldom_of_faust_paragons = {
 eac_jarldom_of_faust_grand_archive = {
 	name = "EMPIRE_DESIGN_jarldom_of_faust"
 	adjective = "PRESCRIPTED_adjective_jarldom_of_faust"
-	spawn_enabled = no # yes / no / always
+	spawn_enabled = no
 	ignore_portrait_duplication = yes
 
 	playable = has_grand_archive_but_not_paragon # Treasure Hunters origin is from Grand Archive DLC. Heroic Past civic is from Galactic Paragons DLC.
@@ -1776,7 +1930,7 @@ eac_jarldom_of_faust_grand_archive = {
 eac_jarldom_of_faust_paragons_grand_archive = {
 	name = "EMPIRE_DESIGN_jarldom_of_faust"
 	adjective = "PRESCRIPTED_adjective_jarldom_of_faust"
-	spawn_enabled = no # yes / no / always
+	spawn_enabled = no
 	ignore_portrait_duplication = yes
 
 	playable = has_paragon_and_grand_archive # Treasure Hunters origin is from Grand Archive DLC. Heroic Past civic is from Galactic Paragons DLC.
@@ -1853,7 +2007,7 @@ eac_jarldom_of_faust_paragons_grand_archive = {
 eac_changeling_space_program = {
 	name = "EMPIRE_DESIGN_changeling_space_program"
 	adjective = "PRESCRIPTED_adjective_changeling_space_program"
-	spawn_enabled = no # yes / no / always
+	spawn_enabled = no
 	ignore_portrait_duplication = yes
 
 	playable = has_not_federations_dlc # Void Dweller origin is from Federations DLC. Camouflage species trait is from BioGenesis DLC.
@@ -1929,7 +2083,7 @@ eac_changeling_space_program = {
 eac_changeling_space_program_federations = {
 	name = "EMPIRE_DESIGN_changeling_space_program"
 	adjective = "PRESCRIPTED_adjective_changeling_space_program"
-	spawn_enabled = no # yes / no / always
+	spawn_enabled = no
 	ignore_portrait_duplication = yes
 
 	playable = has_federations_but_not_biogenesis # Void Dweller origin is from Federations DLC. Camouflage species trait is from BioGenesis DLC.
@@ -2006,7 +2160,7 @@ eac_changeling_space_program_federations = {
 eac_changeling_space_program_biogenesis = {
 	name = "EMPIRE_DESIGN_changeling_space_program"
 	adjective = "PRESCRIPTED_adjective_changeling_space_program"
-	spawn_enabled = no # yes / no / always
+	spawn_enabled = no
 	ignore_portrait_duplication = yes
 
 	playable = has_not_federations_dlc # Void Dweller origin is from Federations DLC. Camouflage species trait is from BioGenesis DLC.
@@ -2082,7 +2236,7 @@ eac_changeling_space_program_biogenesis = {
 eac_changeling_space_program_federations_biogenesis = {
 	name = "EMPIRE_DESIGN_changeling_space_program"
 	adjective = "PRESCRIPTED_adjective_changeling_space_program"
-	spawn_enabled = no # yes / no / always
+	spawn_enabled = no
 	ignore_portrait_duplication = yes
 
 	playable = has_federations_and_biogenesis # Void Dweller origin is from Federations DLC. Camouflage species trait is from BioGenesis DLC.
@@ -2159,7 +2313,7 @@ eac_changeling_space_program_federations_biogenesis = {
 eac_revolutionary_faust = {
 	name = "EMPIRE_DESIGN_revolutionary_faust"
 	adjective = "PRESCRIPTED_adjective_revolutionary_faust"
-	spawn_enabled = no # yes / no / always
+	spawn_enabled = no
 	ignore_portrait_duplication = yes
 
 	playable = has_not_megacorps_willpower_and_first_contact # Shared Burdens civic is from Megacorps or Willpower DLCs, Eager Exploeres civic is from First Contact DLC.
@@ -2235,7 +2389,7 @@ eac_revolutionary_faust = {
 eac_revolutionary_faust_megacorps = {
 	name = "EMPIRE_DESIGN_revolutionary_faust"
 	adjective = "PRESCRIPTED_adjective_revolutionary_faust"
-	spawn_enabled = no # yes / no / always
+	spawn_enabled = no
 	ignore_portrait_duplication = yes
 
 	playable = has_megacorps_or_willpower_but_not_first_contact # Shared Burdens civic is from Megacorps or Willpower DLCs, Eager Exploeres civic is from First Contact DLC.
@@ -2311,7 +2465,7 @@ eac_revolutionary_faust_megacorps = {
 eac_revolutionary_faust_first_contact = {
 	name = "EMPIRE_DESIGN_revolutionary_faust"
 	adjective = "PRESCRIPTED_adjective_revolutionary_faust"
-	spawn_enabled = no # yes / no / always
+	spawn_enabled = no
 	ignore_portrait_duplication = yes
 
 	playable = has_first_contact_but_not_megacorps_and_willpower # Shared Burdens civic is from Megacorps or Willpower DLCs, Eager Exploeres civic is from First Contact DLC.
@@ -2387,7 +2541,7 @@ eac_revolutionary_faust_first_contact = {
 eac_revolutionary_faust_megacorps_first_contact = {
 	name = "EMPIRE_DESIGN_revolutionary_faust"
 	adjective = "PRESCRIPTED_adjective_revolutionary_faust"
-	spawn_enabled = no # yes / no / always
+	spawn_enabled = no
 	ignore_portrait_duplication = yes
 
 	playable = has_megacorps_or_willpower_and_first_contact # Shared Burdens civic is from Megacorps or Willpower DLCs, Eager Exploeres civic is from First Contact DLC.
@@ -2463,7 +2617,7 @@ eac_revolutionary_faust_megacorps_first_contact = {
 eac_faustian_conglomerate = {
 	name = "EMPIRE_DESIGN_faustian_conglomerate"
 	adjective = "PRESCRIPTED_adjective_faustian_conglomerate"
-	spawn_enabled = no # yes / no / always
+	spawn_enabled = no
 	ignore_portrait_duplication = yes
 
 	playable = has_not_megacorps_and_toxoids # Corporate authority is from Megacorps DLC, Relentless Industrialists is from Toxoids DLC.
@@ -2540,7 +2694,7 @@ eac_faustian_conglomerate = {
 eac_faustian_conglomerate_megacorps = {
 	name = "EMPIRE_DESIGN_faustian_conglomerate"
 	adjective = "PRESCRIPTED_adjective_faustian_conglomerate"
-	spawn_enabled = no # yes / no / always
+	spawn_enabled = no
 	ignore_portrait_duplication = yes
 
 	playable = has_megacorps_but_not_toxoids # Corporate authority is from Megacorps DLC, Relentless Industrialists is from Toxoids DLC.
@@ -2617,7 +2771,7 @@ eac_faustian_conglomerate_megacorps = {
 eac_faustian_conglomerate_toxoids = {
 	name = "EMPIRE_DESIGN_faustian_conglomerate"
 	adjective = "PRESCRIPTED_adjective_faustian_conglomerate"
-	spawn_enabled = no # yes / no / always
+	spawn_enabled = no
 	ignore_portrait_duplication = yes
 
 	playable = has_toxoids_but_not_megacorps # Corporate authority is from Megacorps DLC, Relentless Industrialists is from Toxoids DLC.
@@ -2694,7 +2848,7 @@ eac_faustian_conglomerate_toxoids = {
 eac_faustian_conglomerate_megacorps_toxoids = {
 	name = "EMPIRE_DESIGN_faustian_conglomerate"
 	adjective = "PRESCRIPTED_adjective_faustian_conglomerate"
-	spawn_enabled = no # yes / no / always
+	spawn_enabled = no
 	ignore_portrait_duplication = yes
 
 	playable = has_megacorps_and_toxoids # Corporate authority is from Megacorps DLC, Relentless Industrialists is from Toxoids DLC.
@@ -2771,7 +2925,7 @@ eac_faustian_conglomerate_megacorps_toxoids = {
 eac_mangchijid_clan = {
 	name = "EMPIRE_DESIGN_mangchijid_clan"
 	adjective = "PRESCRIPTED_adjective_mangchijid_clan"
-	spawn_enabled = no # yes / no / always
+	spawn_enabled = no
 	ignore_portrait_duplication = yes
 
 	playable = has_not_paragon_and_nomads # Nomadic gameplay is from Nomads DLC. Heroic Past civic is from Galactic Paragons DLC.
@@ -2852,7 +3006,7 @@ eac_mangchijid_clan = {
 eac_mangchijid_clan_paragons = {
 	name = "EMPIRE_DESIGN_mangchijid_clan"
 	adjective = "PRESCRIPTED_adjective_mangchijid_clan"
-	spawn_enabled = no # yes / no / always
+	spawn_enabled = no
 	ignore_portrait_duplication = yes
 
 	playable = has_paragon_but_not_nomads # Nomadic gameplay is from Nomads DLC. Heroic Past civic is from Galactic Paragons DLC.
@@ -2933,7 +3087,7 @@ eac_mangchijid_clan_paragons = {
 eac_mangchijid_clan_nomads = {
 	name = "EMPIRE_DESIGN_mangchijid_clan"
 	adjective = "PRESCRIPTED_adjective_mangchijid_clan"
-	spawn_enabled = no # yes / no / always
+	spawn_enabled = no
 	ignore_portrait_duplication = yes
 
 	playable = has_nomads_but_not_paragon # Nomadic gameplay is from Nomads DLC. Heroic Past civic is from Galactic Paragons DLC.
@@ -3016,7 +3170,7 @@ eac_mangchijid_clan_nomads = {
 eac_mangchijid_clan_paragons_nomads = {
 	name = "EMPIRE_DESIGN_mangchijid_clan"
 	adjective = "PRESCRIPTED_adjective_mangchijid_clan"
-	spawn_enabled = no # yes / no / always
+	spawn_enabled = no
 	ignore_portrait_duplication = yes
 
 	playable = has_paragon_and_nomads # Nomadic gameplay is from Nomads DLC. Heroic Past civic is from Galactic Paragons DLC.
@@ -3099,7 +3253,7 @@ eac_mangchijid_clan_paragons_nomads = {
 eac_new_draconian_empire = {
 	name = "EMPIRE_DESIGN_new_draconian_empire"
 	adjective = "PRESCRIPTED_adjective_new_draconian_empire"
-	spawn_enabled = no # yes / no / always
+	spawn_enabled = no
 	ignore_portrait_duplication = yes
 
 	playable = has_not_apocalypse_and_grand_archive # Post-Apocalyptic origin is from Apocalypse DLC. Beastmasters civic is from Grand Archive DLC.
@@ -3177,7 +3331,7 @@ eac_new_draconian_empire = {
 eac_new_draconian_empire_apocalypse = {
 	name = "EMPIRE_DESIGN_new_draconian_empire"
 	adjective = "PRESCRIPTED_adjective_new_draconian_empire"
-	spawn_enabled = no # yes / no / always
+	spawn_enabled = no
 	ignore_portrait_duplication = yes
 
 	playable = has_apocalypse_but_not_grand_archive # Post-Apocalyptic origin is from Apocalypse DLC. Beastmasters civic is from Grand Archive DLC.
@@ -3256,7 +3410,7 @@ eac_new_draconian_empire_apocalypse = {
 eac_diamond_empire = {
 	name = "EMPIRE_DESIGN_diamond_empire"
 	adjective = "PRESCRIPTED_adjective_diamond_empire"
-	spawn_enabled = no # yes / no / always
+	spawn_enabled = no
 	ignore_portrait_duplication = yes
 
 	playable = has_not_overlord_dlc # Subterranean origin is from Overlord DLC.
@@ -3334,7 +3488,7 @@ eac_diamond_empire = {
 eac_diamond_empire_overlord = {
 	name = "EMPIRE_DESIGN_diamond_empire"
 	adjective = "PRESCRIPTED_adjective_diamond_empire"
-	spawn_enabled = no # yes / no / always
+	spawn_enabled = no
 	ignore_portrait_duplication = yes
 
 	playable = has_overlord_dlc # Subterranean origin is from Overlord DLC.
@@ -3413,7 +3567,7 @@ eac_diamond_empire_overlord = {
 eac_new_draconian_empire_grand_archive = {
 	name = "EMPIRE_DESIGN_new_draconian_empire"
 	adjective = "PRESCRIPTED_adjective_new_draconian_empire"
-	spawn_enabled = no # yes / no / always
+	spawn_enabled = no
 	ignore_portrait_duplication = yes
 
 	playable = has_grand_archive_but_not_apocalypse # Post-Apocalyptic origin is from Apocalypse DLC. Beastmasters civic is from Grand Archive DLC.
@@ -3492,7 +3646,7 @@ eac_new_draconian_empire_grand_archive = {
 eac_new_draconian_empire_apocalypse_grand_archive = {
 	name = "EMPIRE_DESIGN_new_draconian_empire"
 	adjective = "PRESCRIPTED_adjective_new_draconian_empire"
-	spawn_enabled = no # yes / no / always
+	spawn_enabled = no
 	ignore_portrait_duplication = yes
 
 	playable = has_apocalypse_and_grand_archive # Post-Apocalyptic origin is from Apocalypse DLC. Beastmasters civic is from Grand Archive DLC.

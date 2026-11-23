@@ -302,4 +302,5 @@
 
 - Version 0.5.1 (XX.11.2026):
 -- Added 3 more flag backgrounds.
+-- With the Willpower DLC, The Crusader State now starts with Great Mosaic origin and Distinguished Admiralty (or Ascensionists without Necroids since that case already gave Distinguished Admiralty) civic.
 -- Fixed Cozy Glow in The Crusader State not getting Home Planet and Previous Job set.
