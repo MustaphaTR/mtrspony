@@ -1,12 +1,10 @@
 # DLC Checks
 has_not_apocalypse_dlc = {
-	optimize_memory
-	NOT = { host_has_dlc = "Apocalypse" }
+	has_apocalypse_dlc = no
 }
 
 has_not_overlord_dlc = {
-	optimize_memory
-	NOT = { host_has_dlc = "Overlord" }
+	has_overlord_dlc = no
 }
 
 has_apocalypse_and_grand_archive = {
@@ -36,13 +34,11 @@ has_not_apocalypse_and_grand_archive = {
 }
 
 has_not_necroids = {
-	optimize_memory
-	NOT = { host_has_dlc = "Necroids Species Pack" }
+	has_necroids = no
 }
 
 has_not_federations_dlc = {
-	optimize_memory
-	NOT = { host_has_dlc = "Federations" }
+	has_federations_dlc = no
 }
 
 has_federations_and_biogenesis = {
@@ -71,30 +67,40 @@ has_not_federations_and_biogenesis = {
 	}
 }
 
-has_megacorps_and_first_contact = {
+has_megacorps_or_willpower = {
 	optimize_memory
-	host_has_dlc = "Megacorp"
+	OR = {
+		host_has_dlc = "Megacorp"
+		host_has_dlc = "Willpower"
+	}
+}
+
+has_not_megacorps_and_willpower = {
+	has_megacorps_or_willpower = no
+}
+
+has_megacorps_or_willpower_and_first_contact = {
+	optimize_memory
+	has_megacorps_or_willpower = yes
 	host_has_dlc = "First Contact Story Pack"
 }
 
-has_megacorps_but_not_first_contact = {
+has_megacorps_or_willpower_but_not_first_contact = {
 	optimize_memory
-	host_has_dlc = "Megacorp"
+	has_megacorps_or_willpower = yes
 	NOT = { host_has_dlc = "First Contact Story Pack" }
 }
 
-has_first_contact_but_not_megacorps = {
+has_first_contact_but_not_megacorps_and_willpower = {
 	optimize_memory
-	NOT = { host_has_dlc = "Megacorp" }
+	has_megacorps_or_willpower = no
 	host_has_dlc = "First Contact Story Pack"
 }
 
-has_not_megacorps_and_first_contact = {
+has_not_megacorps_willpower_and_first_contact = {
 	optimize_memory
-	NOT = {
-		host_has_dlc = "Megacorp"
-		host_has_dlc = "First Contact Story Pack"
-	}
+	has_megacorps_or_willpower = no
+	NOT = { host_has_dlc = "First Contact Story Pack" }
 }
 
 has_megacorps_and_toxoids = {
@@ -124,8 +130,7 @@ has_not_megacorps_and_toxoids = {
 }
 
 has_not_paragon_dlc = {
-	optimize_memory
-	NOT = { host_has_dlc = "Galactic Paragons" }
+	has_paragon_dlc = no
 }
 
 has_necroids_and_paragons = {

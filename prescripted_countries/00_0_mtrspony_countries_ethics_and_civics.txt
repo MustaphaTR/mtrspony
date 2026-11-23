@@ -465,7 +465,7 @@ eac_novyy_stalliongrad = {
 	spawn_enabled = no # yes / no / always
 	ignore_portrait_duplication = yes
 
-	playable = has_not_megacorp # Shared Burdens civic is from Megacorps DLC.
+	playable = has_not_megacorps_and_willpower # Shared Burdens civic is from Megacorps or Willpower DLCs.
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_novyy_stalliongrad"
 
@@ -542,7 +542,7 @@ eac_novyy_stalliongrad_megacorps = {
 	spawn_enabled = no # yes / no / always
 	ignore_portrait_duplication = yes
 
-	playable = has_megacorp # Shared Burdens civic is from Megacorps DLC.
+	playable = has_megacorps_or_willpower # Shared Burdens civic is from Megacorps or Willpower DLCs.
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_novyy_stalliongrad"
 
@@ -2162,7 +2162,7 @@ eac_revolutionary_faust = {
 	spawn_enabled = no # yes / no / always
 	ignore_portrait_duplication = yes
 
-	playable = has_not_megacorps_and_first_contact # Shared Burdens civic is from Megacorps DLC, Eager Exploeres civic is from First Contact DLC.
+	playable = has_not_megacorps_willpower_and_first_contact # Shared Burdens civic is from Megacorps or Willpower DLCs, Eager Exploeres civic is from First Contact DLC.
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_revolutionary_faust"
 
@@ -2238,7 +2238,7 @@ eac_revolutionary_faust_megacorps = {
 	spawn_enabled = no # yes / no / always
 	ignore_portrait_duplication = yes
 
-	playable = has_megacorps_but_not_first_contact # Shared Burdens civic is from Megacorps DLC, Eager Exploeres civic is from First Contact DLC.
+	playable = has_megacorps_or_willpower_but_not_first_contact # Shared Burdens civic is from Megacorps or Willpower DLCs, Eager Exploeres civic is from First Contact DLC.
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_revolutionary_faust"
 
@@ -2314,7 +2314,7 @@ eac_revolutionary_faust_first_contact = {
 	spawn_enabled = no # yes / no / always
 	ignore_portrait_duplication = yes
 
-	playable = has_first_contact_but_not_megacorps # Shared Burdens civic is from Megacorps DLC, Eager Exploeres civic is from First Contact DLC.
+	playable = has_first_contact_but_not_megacorps_and_willpower # Shared Burdens civic is from Megacorps or Willpower DLCs, Eager Exploeres civic is from First Contact DLC.
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_revolutionary_faust"
 
@@ -2390,7 +2390,7 @@ eac_revolutionary_faust_megacorps_first_contact = {
 	spawn_enabled = no # yes / no / always
 	ignore_portrait_duplication = yes
 
-	playable = has_megacorps_and_first_contact # Shared Burdens civic is from Megacorps DLC, Eager Exploeres civic is from First Contact DLC.
+	playable = has_megacorps_or_willpower_and_first_contact # Shared Burdens civic is from Megacorps or Willpower DLCs, Eager Exploeres civic is from First Contact DLC.
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_revolutionary_faust"
 
