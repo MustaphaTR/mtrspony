@@ -109,7 +109,7 @@
  name_list_mtrspony_namelists_changeling:0 "$PRESCRIPTED_species_changeling$"
  name_list_mtrspony_namelists_deer:0 "$PRESCRIPTED_species_deer$"
  name_list_mtrspony_namelists_diamond_dog:0 "$PRESCRIPTED_species_diamond_dog$"
- name_list_mtrspony_namelists_dragon:0 "$$PRESCRIPTED_species_dragon"
+ name_list_mtrspony_namelists_dragon:0 "$PRESCRIPTED_species_dragon$"
  name_list_mtrspony_namelists_griffon:0 "$PRESCRIPTED_species_griffon$"
  name_list_mtrspony_namelists_hippogriff:0 "$PRESCRIPTED_species_hippogriff$"
  name_list_mtrspony_namelists_kirin:0 "$PRESCRIPTED_species_kirin$"
