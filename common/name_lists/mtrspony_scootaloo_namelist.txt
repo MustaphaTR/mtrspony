@@ -1,6 +1,6 @@
-﻿mtrspony_namelists_scootaloo = {
+mtrspony_namelists_scootaloo = {
+	category = "Mammalian"
 	randomized = no
-
 	alias = "Scootaloo Namelist"
 
 	ship_names = {

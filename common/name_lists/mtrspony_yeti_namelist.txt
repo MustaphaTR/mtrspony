@@ -1,6 +1,6 @@
-﻿mtrspony_namelists_yeti = {
+mtrspony_namelists_yeti = {
+	category = "Humanoid"
 	randomized = no
-
 	alias = "EaW Yeti Namelist"
 
 	ship_names = {

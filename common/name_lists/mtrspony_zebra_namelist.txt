@@ -1,6 +1,6 @@
-﻿mtrspony_namelists_zebra = {
+mtrspony_namelists_zebra = {
+	category = "Mammalian"
 	randomized = no
-
 	alias = "EaW Zebra Namelist"
 
 	ship_names = {

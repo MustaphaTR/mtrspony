@@ -1,6 +1,6 @@
-﻿mtrspony_namelists_dragon = {
+mtrspony_namelists_dragon = {
+	category = "Reptilian"
 	randomized = no
-
 	alias = "EaW Dragon Namelist"
 
 	ship_names = {

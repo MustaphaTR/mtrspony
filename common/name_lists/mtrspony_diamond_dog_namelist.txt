@@ -1,6 +1,6 @@
-﻿mtrspony_namelists_diamond_dog = {
+mtrspony_namelists_diamond_dog = {
+	category = "Mammalian"
 	randomized = no
-
 	alias = "EaW Diamond Dog Namelist"
 
 	ship_names = {

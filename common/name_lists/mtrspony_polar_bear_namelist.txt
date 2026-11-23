@@ -1,6 +1,6 @@
-﻿mtrspony_namelists_polar_bear = {
+mtrspony_namelists_polar_bear = {
+	category = "Mammalian"
 	randomized = no
-
 	alias = "EaW Polar Bear Namelist"
 
 	ship_names = {

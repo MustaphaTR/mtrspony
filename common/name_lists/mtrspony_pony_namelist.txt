@@ -1,6 +1,6 @@
-﻿mtrspony_namelists_pony = {
+mtrspony_namelists_pony = {
+	category = "Mammalian"
 	randomized = no
-
 	alias = "EaW Pony Namelist"
 
 	ship_names = {

@@ -1,6 +1,6 @@
-﻿mtrspony_namelists_kirin = {
+mtrspony_namelists_kirin = {
+	category = "Mammalian"
 	randomized = no
-
 	alias = "EaW Kirin Namelist"
 
 	ship_names = {

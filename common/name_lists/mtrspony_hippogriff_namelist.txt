@@ -1,6 +1,6 @@
-﻿mtrspony_namelists_hippogriff = {
+mtrspony_namelists_hippogriff = {
+	category = "Avian"
 	randomized = no
-
 	alias = "EaW Hippogriff Namelist"
 
 	ship_names = {

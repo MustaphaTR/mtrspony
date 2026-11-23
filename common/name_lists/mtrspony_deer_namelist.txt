@@ -1,6 +1,6 @@
-﻿mtrspony_namelists_deer = {
+mtrspony_namelists_deer = {
+	category = "Mammalian"
 	randomized = no
-
 	alias = "EaW Deer Namelist"
 
 	ship_names = {

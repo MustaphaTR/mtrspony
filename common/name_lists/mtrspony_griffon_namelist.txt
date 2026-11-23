@@ -1,6 +1,6 @@
-﻿mtrspony_namelists_griffon = {
+mtrspony_namelists_griffon = {
+	category = "Avian"
 	randomized = no
-
 	alias = "EaW Griffon Namelist"
 
 	ship_names = {

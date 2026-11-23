@@ -1,6 +1,6 @@
-﻿mtrspony_namelists_yak = {
+mtrspony_namelists_yak = {
+	category = "Mammalian"
 	randomized = no
-
 	alias = "EaW Yak Namelist"
 
 	ship_names = {

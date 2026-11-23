@@ -1,6 +1,6 @@
-﻿mtrspony_namelists_changeling = {
+mtrspony_namelists_changeling = {
+	category = "Arthropoid"
 	randomized = no
-
 	alias = "EaW Changeling Namelist"
 
 	ship_names = {
