@@ -25,5 +25,7 @@
  FLAG_CATEGORY_esieaw2:0 "ESI-EaW 2"
  FLAG_CATEGORY_mtrspony:0 "Other MLP"
 
+ FLAG_CATEGORY_eawideologies:0 "Equestria at War"
+
  HAIR_COLOR:0 "Hair Color"
  EYE_COLOR:0 "Eye Color"
