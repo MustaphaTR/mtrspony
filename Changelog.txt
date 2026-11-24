@@ -302,8 +302,8 @@
 
 - Version 0.5.1 (24.11.2026):
 -- Updated the mod for 4.6 Corona Borealis update.
--- Added 15 ideology icons.
--- Added 5 more flag icons.
+-- Added 30 ideology icons.
+-- Added 9 more flag icons.
 -- Added 3 more flag backgrounds.
 -- With the Willpower DLC, The Crusader State now starts with Great Mosaic origin and Distinguished Admiralty (or Ascensionists without Necroids since that case already gave Distinguished Admiralty) civic.
 -- Fixed Cozy Glow in The Crusader State not getting Home Planet and Previous Job set.

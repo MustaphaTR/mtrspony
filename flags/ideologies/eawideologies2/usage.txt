@@ -1,0 +1,3 @@
+empire = no
+random = no
+ideology = yes

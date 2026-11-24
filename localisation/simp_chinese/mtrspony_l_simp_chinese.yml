@@ -26,5 +26,8 @@ l_simp_chinese:
  FLAG_CATEGORY_esieaw2:0 "EaW-独立州旗 2"
  FLAG_CATEGORY_mtrspony:0 "Other MLP"
 
+ FLAG_CATEGORY_eawideologies:0 "Equestria at War"
+ FLAG_CATEGORY_eawideologies2:0 "Equestria at War 2"
+
  HAIR_COLOR:0 "Hair Color"
  EYE_COLOR:0 "Eye Color"
